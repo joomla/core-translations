@@ -9,6 +9,7 @@ base_url: "https://joomla.crowdin.com"
 preserve_hierarchy: true
 
 files:
+    # Components
   - source: /JoomlaV4/source/language/en-GB/com_ajax.ini
     dest: 'JoomlaV4/language/en-GB/com_ajax.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_ajax.ini
@@ -80,25 +81,8 @@ files:
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_wrapper.ini
     update_option: update_as_unapproved
     type: joomla
-  
-  - source: /JoomlaV4/source/language/en-GB/files_joomla.sys.ini
-    dest: 'JoomlaV4/language/en-GB/files_joomla.sys.ini'
-    translation: /JoomlaV4/translations/%locale%/language/%locale%/files_joomla.sys.ini
-    update_option: update_as_unapproved
-    type: joomla
-  
-  - source: /JoomlaV4/source/language/en-GB/finder_cli.ini
-    dest: 'JoomlaV4/language/en-GB/finder_cli.ini'
-    translation: /JoomlaV4/translations/%locale%/language/%locale%/finder_cli.ini
-    update_option: update_as_unapproved
-    type: joomla
-  
-  - source: /JoomlaV4/source/language/en-GB/joomla.ini
-    dest: 'JoomlaV4/language/en-GB/joomla.ini'
-    translation: 
-    update_option: update_as_unapproved
-    type: joomla
-  
+
+    # Libraries  
   - source: /JoomlaV4/source/language/en-GB/lib_joomla.ini
     dest: 'JoomlaV4/language/en-GB/lib_joomla.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/lib_joomla.ini
@@ -122,7 +106,8 @@ files:
     translation: /JoomlaV4/translations/%locale%/language/%locale%/lib_simplepie.sys.ini
     update_option: update_as_unapproved
     type: joomla
-  
+
+    # Modules  
   - source: /JoomlaV4/source/language/en-GB/mod_articles_archive.ini
     dest: 'JoomlaV4/language/en-GB/mod_articles_archive.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_archive.ini
@@ -410,7 +395,8 @@ files:
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_wrapper.sys.ini
     update_option: update_as_unapproved
     type: joomla
-  
+
+    # Template  
   - source: /JoomlaV4/source/language/en-GB/tpl_cassiopeia.ini
     dest: 'JoomlaV4/language/en-GB/tpl_cassiopeia.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/tpl_cassiopeia.ini
@@ -423,19 +409,42 @@ files:
     update_option: update_as_unapproved
     type: joomla
 
+    # XML
   - source: /JoomlaV4/source/language/en-GB/install.xml
     dest: 'JoomlaV4/language/en-GB/install.xml'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/install.xml
     update_option: update_as_unapproved
     content_segmentation: 0
+    type: xml
 
   - source: /JoomlaV4/source/language/en-GB/langmetadata.xml
     dest: 'JoomlaV4/language/en-GB/langmetadata.xml'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     content_segmentation: 0
+    type: xml
 
+    # Specials
   - source: /JoomlaV4/source/language/en-GB/localise.php
     dest: 'JoomlaV4/language/en-GB/localise.txt'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/localise.php
     update_option: update_as_unapproved
+    type: txt
+
+  - source: /JoomlaV4/source/language/en-GB/files_joomla.sys.ini
+    dest: 'JoomlaV4/language/en-GB/files_joomla.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/language/%locale%/files_joomla.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/language/en-GB/finder_cli.ini
+    dest: 'JoomlaV4/language/en-GB/finder_cli.ini'
+    translation: /JoomlaV4/translations/%locale%/language/%locale%/finder_cli.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/language/en-GB/joomla.ini
+    dest: 'JoomlaV4/language/en-GB/joomla.ini'
+    translation: 
+    update_option: update_as_unapproved
+    type: joomla
