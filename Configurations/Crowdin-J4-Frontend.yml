@@ -437,5 +437,5 @@ files:
 
   - source: /JoomlaV4/source/language/en-GB/localise.php
     dest: 'JoomlaV4/language/en-GB/localise.txt'
-    translation: /JoomlaV4/translations/%locale%/language/%locale%/ocalise.php
+    translation: /JoomlaV4/translations/%locale%/language/%locale%/localise.php
     update_option: update_as_unapproved
