@@ -1,0 +1,472 @@
+# Project Public Identifier: cms
+project_id: 18
+api_token_env: CROWDIN_PERSONAL_TOKEN
+base_path: 
+base_url: "https://joomla.crowdin.com"
+
+preserve_hierarchy: true
+
+files:
+    # Components
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_actionlogs.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_actionlogs.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_actionlogs.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_actionlogs.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_actionlogs.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_actionlogs.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_admin.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_admin.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_admin.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_admin.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_admin.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_admin.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_ajax.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_ajax.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_ajax.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_ajax.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_ajax.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_ajax.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_associations.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_associations.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_associations.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_associations.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_associations.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_associations.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_banners.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_banners.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_banners.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_banners.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_banners.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_banners.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_cache.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_cache.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_cache.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_cache.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_cache.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_cache.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_categories.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_categories.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_categories.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_categories.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_categories.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_categories.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_checkin.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_checkin.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_checkin.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_checkin.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_checkin.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_checkin.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_config.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_config.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_config.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_config.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_config.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_config.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_contact.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_contact.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_contact.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_contact.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_contact.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_contact.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_content.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_content.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_content.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_content.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_content.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_content.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_contenthistory.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_contenthistory.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_contenthistory.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_contenthistory.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_contenthistory.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_contenthistory.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_cpanel.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_cpanel.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_cpanel.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_cpanel.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_cpanel.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_cpanel.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_fields.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_fields.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_fields.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_fields.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_fields.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_fields.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_finder.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_finder.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_finder.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_finder.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_finder.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_finder.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_installer.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_installer.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_installer.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_installer.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_installer.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_installer.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_joomlaupdate.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_joomlaupdate.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_joomlaupdate.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_joomlaupdate.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_joomlaupdate.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_joomlaupdate.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_languages.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_languages.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_languages.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_languages.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_languages.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_languages.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_login.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_login.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_login.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_login.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_login.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_login.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_mails.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_mails.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_mails.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_mails.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_mails.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_mails.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_media.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_media.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_media.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_media.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_media.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_media.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_menus.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_menus.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_menus.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_menus.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_menus.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_menus.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_messages.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_messages.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_messages.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_messages.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_messages.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_messages.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_modules.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_modules.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_modules.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_modules.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_modules.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_modules.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_newsfeeds.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_newsfeeds.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_newsfeeds.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_newsfeeds.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_newsfeeds.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_newsfeeds.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_plugins.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_plugins.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_plugins.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_plugins.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_plugins.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_plugins.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_postinstall.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_postinstall.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_postinstall.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_postinstall.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_postinstall.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_postinstall.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_privacy.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_privacy.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_privacy.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_privacy.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_privacy.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_privacy.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_redirect.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_redirect.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_redirect.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_redirect.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_redirect.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_redirect.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_tags.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_tags.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_tags.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_tags.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_tags.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_tags.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_templates.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_templates.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_templates.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_templates.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_templates.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_templates.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_users.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_users.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_users.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_users.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_users.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_users.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_workflow.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_workflow.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_workflow.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_workflow.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_workflow.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_workflow.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_wrapper.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_wrapper.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_wrapper.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/com_wrapper.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/com_wrapper.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/com_wrapper.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+    # Libraries  
+  - source: /JoomlaV4/source/administrator/language/en-GB/lib_joomla.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/lib_joomla.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/lib_joomla.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+    # Modules  
+  - source: /JoomlaV4/source/administrator/language/en-GB/mod_articles_archive.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/mod_articles_archive.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/mod_articles_archive.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+    # Template  
+  - source: /JoomlaV4/source/administrator/language/en-GB/tpl_atum.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/tpl_atum.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/tpl_atum.ini
+    update_option: update_as_unapproved
+    type: joomla
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/tpl_atum.sys.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/tpl_atum.sys.ini'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/tpl_atum.sys.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+    # XML
+  - source: /JoomlaV4/source/administrator/language/en-GB/install.xml
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/install.xml'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/install.xml
+    update_option: update_as_unapproved
+    content_segmentation: 0
+    type: xml
+
+  - source: /JoomlaV4/source/administrator/language/en-GB/langmetadata.xml
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/langmetadata.xml'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/langmetadata.xml
+    update_option: update_as_unapproved
+    content_segmentation: 0
+    type: xml
+
+    # Specials
+  - source: /JoomlaV4/source/administrator/language/en-GB/localise.php
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/localise.txt'
+    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/localise.php
+    update_option: update_as_unapproved
+    type: txt
+  
+  - source: /JoomlaV4/source/administrator/language/en-GB/joomla.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/joomla.ini'
+    translation: 
+    update_option: update_as_unapproved
+    type: joomla
