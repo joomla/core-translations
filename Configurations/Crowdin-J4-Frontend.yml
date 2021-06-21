@@ -11,414 +11,414 @@ preserve_hierarchy: true
 files:
     # Components
   - source: /JoomlaV4/source/language/en-GB/com_ajax.ini
-    dest: 'JoomlaV4/language/en-GB/com_ajax.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_ajax.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_ajax.ini
     update_option: update_as_unapproved
     type: joomla
 
   - source: /JoomlaV4/source/language/en-GB/com_config.ini
-    dest: 'JoomlaV4/language/en-GB/com_config.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_config.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_config.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/com_contact.ini
-    dest: 'JoomlaV4/language/en-GB/com_contact.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_contact.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_contact.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/com_content.ini
-    dest: 'JoomlaV4/language/en-GB/com_content.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_content.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_content.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/com_finder.ini
-    dest: 'JoomlaV4/language/en-GB/com_finder.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_finder.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_finder.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/com_media.ini
-    dest: 'JoomlaV4/language/en-GB/com_media.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_media.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_media.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/com_messages.ini
-    dest: 'JoomlaV4/language/en-GB/com_messages.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_messages.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_messages.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/com_newsfeeds.ini
-    dest: 'JoomlaV4/language/en-GB/com_newsfeeds.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_newsfeeds.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_newsfeeds.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/com_privacy.ini
-    dest: 'JoomlaV4/language/en-GB/com_privacy.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_privacy.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_privacy.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/com_tags.ini
-    dest: 'JoomlaV4/language/en-GB/com_tags.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_tags.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_tags.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/com_users.ini
-    dest: 'JoomlaV4/language/en-GB/com_users.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_users.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_users.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/com_wrapper.ini
-    dest: 'JoomlaV4/language/en-GB/com_wrapper.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/com_wrapper.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/com_wrapper.ini
     update_option: update_as_unapproved
     type: joomla
 
     # Libraries  
   - source: /JoomlaV4/source/language/en-GB/lib_joomla.ini
-    dest: 'JoomlaV4/language/en-GB/lib_joomla.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/lib_joomla.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/lib_joomla.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/lib_joomla.sys.ini
-    dest: 'JoomlaV4/language/en-GB/lib_joomla.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/lib_joomla.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/lib_joomla.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/lib_phpass.sys.ini
-    dest: 'JoomlaV4/language/en-GB/lib_phpass.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/lib_phpass.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/lib_phpass.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/lib_simplepie.sys.ini
-    dest: 'JoomlaV4/language/en-GB/lib_simplepie.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/lib_simplepie.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/lib_simplepie.sys.ini
     update_option: update_as_unapproved
     type: joomla
 
     # Modules  
   - source: /JoomlaV4/source/language/en-GB/mod_articles_archive.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_archive.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_archive.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_archive.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_archive.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_archive.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_archive.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_archive.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_categories.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_categories.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_categories.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_categories.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_categories.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_categories.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_categories.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_categories.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_category.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_category.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_category.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_category.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_category.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_category.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_category.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_category.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_latest.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_latest.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_latest.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_latest.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_latest.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_latest.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_latest.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_latest.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_news.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_news.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_news.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_news.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_news.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_news.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_news.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_news.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_popular.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_popular.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_popular.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_popular.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_articles_popular.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_articles_popular.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_articles_popular.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_articles_popular.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_banners.ini
-    dest: 'JoomlaV4/language/en-GB/mod_banners.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_banners.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_banners.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_banners.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_banners.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_banners.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_banners.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_breadcrumbs.ini
-    dest: 'JoomlaV4/language/en-GB/mod_breadcrumbs.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_breadcrumbs.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_breadcrumbs.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_breadcrumbs.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_breadcrumbs.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_breadcrumbs.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_breadcrumbs.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_custom.ini
-    dest: 'JoomlaV4/language/en-GB/mod_custom.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_custom.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_custom.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_custom.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_custom.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_custom.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_custom.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_feed.ini
-    dest: 'JoomlaV4/language/en-GB/mod_feed.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_feed.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_feed.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_feed.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_feed.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_feed.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_feed.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_finder.ini
-    dest: 'JoomlaV4/language/en-GB/mod_finder.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_finder.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_finder.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_finder.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_finder.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_finder.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_finder.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_footer.ini
-    dest: 'JoomlaV4/language/en-GB/mod_footer.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_footer.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_footer.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_footer.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_footer.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_footer.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_footer.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_languages.ini
-    dest: 'JoomlaV4/language/en-GB/mod_languages.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_languages.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_languages.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_languages.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_languages.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_languages.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_languages.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_login.ini
-    dest: 'JoomlaV4/language/en-GB/mod_login.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_login.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_login.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_login.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_login.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_login.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_login.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_menu.ini
-    dest: 'JoomlaV4/language/en-GB/mod_menu.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_menu.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_menu.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_menu.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_menu.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_menu.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_menu.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_random_image.ini
-    dest: 'JoomlaV4/language/en-GB/mod_random_image.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_random_image.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_random_image.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_random_image.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_random_image.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_random_image.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_random_image.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_related_items.ini
-    dest: 'JoomlaV4/language/en-GB/mod_related_items.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_related_items.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_related_items.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_related_items.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_related_items.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_related_items.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_related_items.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_stats.ini
-    dest: 'JoomlaV4/language/en-GB/mod_stats.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_stats.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_stats.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_stats.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_stats.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_stats.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_stats.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_syndicate.ini
-    dest: 'JoomlaV4/language/en-GB/mod_syndicate.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_syndicate.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_syndicate.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_syndicate.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_syndicate.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_syndicate.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_syndicate.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_tags_popular.ini
-    dest: 'JoomlaV4/language/en-GB/mod_tags_popular.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_tags_popular.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_tags_popular.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_tags_popular.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_tags_popular.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_tags_popular.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_tags_popular.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_tags_similar.ini
-    dest: 'JoomlaV4/language/en-GB/mod_tags_similar.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_tags_similar.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_tags_similar.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_tags_similar.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_tags_similar.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_tags_similar.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_tags_similar.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_users_latest.ini
-    dest: 'JoomlaV4/language/en-GB/mod_users_latest.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_users_latest.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_users_latest.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_users_latest.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_users_latest.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_users_latest.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_users_latest.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_whosonline.ini
-    dest: 'JoomlaV4/language/en-GB/mod_whosonline.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_whosonline.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_whosonline.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_whosonline.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_whosonline.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_whosonline.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_whosonline.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_wrapper.ini
-    dest: 'JoomlaV4/language/en-GB/mod_wrapper.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_wrapper.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_wrapper.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/mod_wrapper.sys.ini
-    dest: 'JoomlaV4/language/en-GB/mod_wrapper.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/mod_wrapper.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/mod_wrapper.sys.ini
     update_option: update_as_unapproved
     type: joomla
 
     # Template  
   - source: /JoomlaV4/source/language/en-GB/tpl_cassiopeia.ini
-    dest: 'JoomlaV4/language/en-GB/tpl_cassiopeia.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/tpl_cassiopeia.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/tpl_cassiopeia.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/tpl_cassiopeia.sys.ini
-    dest: 'JoomlaV4/language/en-GB/tpl_cassiopeia.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/tpl_cassiopeia.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/tpl_cassiopeia.sys.ini
     update_option: update_as_unapproved
     type: joomla
 
     # XML
   - source: /JoomlaV4/source/language/en-GB/install.xml
-    dest: 'JoomlaV4/language/en-GB/install.xml'
+    dest: 'JoomlaV4/Package/language/en-GB/install.xml'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/install.xml
     update_option: update_as_unapproved
     content_segmentation: 0
     type: xml
 
   - source: /JoomlaV4/source/language/en-GB/langmetadata.xml
-    dest: 'JoomlaV4/language/en-GB/langmetadata.xml'
+    dest: 'JoomlaV4/Package/language/en-GB/langmetadata.xml'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     content_segmentation: 0
@@ -426,25 +426,25 @@ files:
 
     # Specials
   - source: /JoomlaV4/source/language/en-GB/localise.php
-    dest: 'JoomlaV4/language/en-GB/localise.txt'
+    dest: 'JoomlaV4/Package/language/en-GB/localise.txt'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/localise.php
     update_option: update_as_unapproved
     type: txt
 
   - source: /JoomlaV4/source/language/en-GB/files_joomla.sys.ini
-    dest: 'JoomlaV4/language/en-GB/files_joomla.sys.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/files_joomla.sys.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/files_joomla.sys.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/finder_cli.ini
-    dest: 'JoomlaV4/language/en-GB/finder_cli.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/finder_cli.ini'
     translation: /JoomlaV4/translations/%locale%/language/%locale%/finder_cli.ini
     update_option: update_as_unapproved
     type: joomla
   
   - source: /JoomlaV4/source/language/en-GB/joomla.ini
-    dest: 'JoomlaV4/language/en-GB/joomla.ini'
+    dest: 'JoomlaV4/Package/language/en-GB/joomla.ini'
     translation: 
     update_option: update_as_unapproved
     type: joomla
