@@ -92,4 +92,17 @@ files:
     translation: /JoomlaV4/translations/%locale%/api/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     type: xml
+
+    # Installation files
+  - source: /JoomlaV4/source/installation/language/en-GB/joomla.ini
+    dest: 'JoomlaV4/Installer/language/en-GB/joomla.ini'
+    translation: /JoomlaV4/source/installation/language/%locale%/%locale%.ini
+    update_option: update_as_unapproved
+    type: joomla
+ 
+  - source: /JoomlaV4/source/installation/language/en-GB/langmetadata.xml
+    dest: 'JoomlaV4/Installer/language/en-GB/langmetadata.xml'
+    translation: /JoomlaV4/source/installation/language/%locale%/%locale%.xml
+    update_option: update_as_unapproved
+    type: xml
     
