@@ -28,7 +28,7 @@ abstract class Nl_NLLocalise
 	{
 		if ($count == 0)
 		{
-			return array('en', 'de', 'het', 'een', 'in', 'is', 'op');
+			return array('OTHER', 'MORE');
 		}
 		elseif ($count == 1)
 		{
@@ -49,7 +49,7 @@ abstract class Nl_NLLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('and', 'in', 'on');
+		return array('en', 'de', 'het', 'een', 'in', 'is', 'op');
 	}
 
 	/**

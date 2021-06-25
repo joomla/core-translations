@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name>English (en-GB)</name>
-	<tag>en-GB</tag>
-	<version>4.0.0</version>
-	<creationDate>October 2019</creationDate>
-	<author>Joomla! Project</author>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<name>Dutch (nl-NL)</name>
+	<tag>nl-NL</tag>
+	<version>4.0.0-rc2.1</version>
+	<creationDate>Juni 2021</creationDate>
+	<author>Dutch Translation Team</author>
+	<authorEmail>taal@joomlacommunity.nl</authorEmail>
+	<authorUrl>https://joomlacommunity.nl</authorUrl>
+	<copyright>Copyright (C) 2005 - 2021 Dutch Translation Team en Open Source Matters. Alle rechten voorbehouden.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>en-GB api language</description>
+	<description>Nederlandse api taal</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

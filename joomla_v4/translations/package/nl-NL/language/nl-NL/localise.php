@@ -2,18 +2,18 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
+ * @copyright  (C) 2010 - 2021 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * nl-NL localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Nl_NLLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -28,7 +28,7 @@ abstract class En_GBLocalise
 	{
 		if ($count == 0)
 		{
-			return array('0');
+			return array('OTHER', 'MORE');
 		}
 		elseif ($count == 1)
 		{
