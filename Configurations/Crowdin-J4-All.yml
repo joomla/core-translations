@@ -8,45 +8,45 @@ preserve_hierarchy: true
 
 files:
     # All Backend INI Files
-  - source: /JoomlaV4/source/administrator/language/en-GB/*.ini
-    dest: '/JoomlaV4/Package/administrator/language/en-GB/%file_name%.ini'
-    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/%file_name%.ini
+  - source: /joomla_v4/source/administrator/language/en-GB/*.ini
+    dest: 'JoomlaV4/Package/administrator/language/en-GB/%file_name%.ini'
+    translation: /joomla_v4/translations/package/%locale%/administrator/language/%locale%/%file_name%.ini
     update_option: update_as_unapproved
     type: joomla
 
     # Backend XML
-  - source: /JoomlaV4/source/administrator/language/en-GB/install.xml
+  - source: /joomla_v4/source/administrator/language/en-GB/install.xml
     dest: 'JoomlaV4/Package/administrator/language/en-GB/install.xml'
-    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/install.xml
+    translation: /joomla_v4/translations/package/%locale%/administrator/language/%locale%/install.xml
     update_option: update_as_unapproved
     content_segmentation: 0
     type: xml
 
-  - source: /JoomlaV4/source/administrator/language/en-GB/langmetadata.xml
+  - source: /joomla_v4/source/administrator/language/en-GB/langmetadata.xml
     dest: 'JoomlaV4/Package/administrator/language/en-GB/langmetadata.xml'
-    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/langmetadata.xml
+    translation: /joomla_v4/translations/package/%locale%/administrator/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     content_segmentation: 0
     type: xml
 
     # Backend Specials
-  - source: /JoomlaV4/source/administrator/language/en-GB/localise.php
+  - source: /joomla_v4/source/administrator/language/en-GB/localise.php
     dest: 'JoomlaV4/Package/administrator/language/en-GB/localise.txt'
-    translation: /JoomlaV4/translations/%locale%/administrator/language/%locale%/localise.php
+    translation: /joomla_v4/translations/package/%locale%/administrator/language/%locale%/localise.php
     update_option: update_as_unapproved
     type: txt
     
-  - source: /JoomlaV4/source/administrator/manifests/packages/pkg_en-GB.xml
+  - source: /joomla_v4/source/administrator/manifests/packages/pkg_en-GB.xml
     dest: 'JoomlaV4/Package/pkg_en-GB.xml'
-    translation: /JoomlaV4/translations/%locale%/pkg_%locale%.xml
+    translation: /joomla_v4/translations/package/%locale%/pkg_%locale%.xml
     update_option: update_as_unapproved
     content_segmentation: 0
     type: xml
 
     # All Frontend INI Files
-  - source: /JoomlaV4/source/language/en-GB/*.ini
+  - source: /joomla_v4/source/language/en-GB/*.ini
     dest: 'JoomlaV4/Package/language/en-GB/%file_name%.ini'
-    translation: /JoomlaV4/translations/%locale%/language/%locale%/%file_name%.ini
+    translation: /joomla_v4/translations/package/%locale%/language/%locale%/%file_name%.ini
     update_option: update_as_unapproved
     type: joomla
 
@@ -57,56 +57,62 @@ files:
     type: txt
 
     # Frontend XML
-  - source: /JoomlaV4/source/language/en-GB/install.xml
+  - source: /joomla_v4/source/language/en-GB/install.xml
     dest: 'JoomlaV4/Package/language/en-GB/install.xml'
-    translation: /JoomlaV4/translations/%locale%/language/%locale%/install.xml
+    translation: /joomla_v4/translations/package/%locale%/language/%locale%/install.xml
     update_option: update_as_unapproved
     content_segmentation: 0
     type: xml
 
-  - source: /JoomlaV4/source/language/en-GB/langmetadata.xml
+  - source: /joomla_v4/source/language/en-GB/langmetadata.xml
     dest: 'JoomlaV4/Package/language/en-GB/langmetadata.xml'
-    translation: /JoomlaV4/translations/%locale%/language/%locale%/langmetadata.xml
+    translation: /joomla_v4/translations/package/%locale%/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     content_segmentation: 0
     type: xml
 
     # Frontend Specials
-  - source: /JoomlaV4/source/language/en-GB/localise.php
+  - source: /joomla_v4/source/language/en-GB/localise.php
     dest: 'JoomlaV4/Package/language/en-GB/localise.txt'
-    translation: /JoomlaV4/translations/%locale%/language/%locale%/localise.php
+    translation: /joomla_v4/translations/package/%locale%/language/%locale%/localise.php
     update_option: update_as_unapproved
     type: txt
 
     # API Files
-  - source: /JoomlaV4/source/api/language/en-GB/joomla.ini
+  - source: /joomla_v4/source/api/language/en-GB/joomla.ini
     dest: 'JoomlaV4/Package/api/language/en-GB/joomla.ini'
-    translation: /JoomlaV4/translations/%locale%/api/language/%locale%/joomla.ini
+    translation: /joomla_v4/translations/package/%locale%/api/language/%locale%/joomla.ini
     update_option: update_as_unapproved
     type: joomla
 
-  - source: /JoomlaV4/source/api/language/en-GB/install.xml
+  - source: /joomla_v4/source/api/language/en-GB/install.xml
     dest: 'JoomlaV4/Package/api/language/en-GB/install.xml'
-    translation: /JoomlaV4/translations/%locale%/api/language/%locale%/install.xml
+    translation: /joomla_v4/translations/package/%locale%/api/language/%locale%/install.xml
     update_option: update_as_unapproved
     type: xml
 
-  - source: /JoomlaV4/source/api/language/en-GB/langmetadata.xml
+  - source: /joomla_v4/source/api/language/en-GB/langmetadata.xml
     dest: 'JoomlaV4/Package/api/language/en-GB/langmetadata.xml'
-    translation: /JoomlaV4/translations/%locale%/api/language/%locale%/langmetadata.xml
+    translation: /joomla_v4/translations/package/%locale%/api/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     type: xml
 
     # Installation files
-  - source: /JoomlaV4/source/installation/language/en-GB/joomla.ini
+  - source: /joomla_v4/source/installation/language/en-GB/joomla.ini
     dest: 'JoomlaV4/Installer/language/en-GB/joomla.ini'
-    translation: /JoomlaV4/source/installation/language/%locale%/%locale%.ini
+    translation: /joomla_v4/translations/core/installation/language/%locale%/%locale%.ini
     update_option: update_as_unapproved
     type: joomla
  
-  - source: /JoomlaV4/source/installation/language/en-GB/langmetadata.xml
+  - source: /joomla_v4/source/installation/language/en-GB/langmetadata.xml
     dest: 'JoomlaV4/Installer/language/en-GB/langmetadata.xml'
-    translation: /JoomlaV4/source/installation/language/%locale%/%locale%.xml
+    translation: /joomla_v4/translations/core/installation/language/%locale%/%locale%.xml
     update_option: update_as_unapproved
     type: xml
-    
+
+    # Media File
+  - source: /joomla_v4/source/build/media_source/system/js/fields/calendar-locales/en.es5.js
+    dest: 'JoomlaV4/Specials/en.es5.js'
+    translation: /joomla_v4/translations/core/build/media_source/system/js/fields/calendar-locales/%two_letters_code%.es5.js
+    update_option: update_as_unapproved
+    type: js
