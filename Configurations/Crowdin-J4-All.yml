@@ -100,13 +100,13 @@ files:
     # Installation files
   - source: /joomla_v4/source/installation/language/en-GB/joomla.ini
     dest: 'JoomlaV4/Installer/language/en-GB/joomla.ini'
-    translation: /joomla_v4/translations/core/installation/language/%locale%/%locale%.ini
+    translation: /joomla_v4/translations/core/installation/language/%locale%/joomla.ini
     update_option: update_as_unapproved
     type: joomla
  
   - source: /joomla_v4/source/installation/language/en-GB/langmetadata.xml
     dest: 'JoomlaV4/Installer/language/en-GB/langmetadata.xml'
-    translation: /joomla_v4/translations/core/installation/language/%locale%/%locale%.xml
+    translation: /joomla_v4/translations/core/installation/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     type: xml
 
