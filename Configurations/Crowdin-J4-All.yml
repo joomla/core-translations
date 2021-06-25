@@ -111,8 +111,8 @@ files:
     type: xml
 
     # Media File
-  - source: /joomla_v4/source/build/media_source/system/js/fields/calendar-locales/en.es5.js
-    dest: 'JoomlaV4/Specials/en.es5.js'
-    translation: /joomla_v4/translations/core/build/media_source/system/js/fields/calendar-locales/%two_letters_code%.es5.js
-    update_option: update_as_unapproved
-    type: js
+ # - source: /joomla_v4/source/build/media_source/system/js/fields/calendar-locales/en.es5.js
+ #   dest: 'JoomlaV4/Specials/en.es5.js'
+ #   translation: /joomla_v4/translations/core/build/media_source/system/js/fields/calendar-locales/%two_letters_code%.es5.js
+ #   update_option: update_as_unapproved
+ #   type: js
