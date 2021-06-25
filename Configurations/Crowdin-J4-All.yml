@@ -1,6 +1,4 @@
 # Project Public Identifier: cms
-# /language/en-GB/com_finder.commonwords.txt - Is this needed
-# /build/media_source/system/js/fields/calendar-locales/en.es5.js - Is this needed
 project_id: 18
 api_token_env: CROWDIN_PERSONAL_TOKEN
 base_path: 
@@ -51,6 +49,12 @@ files:
     translation: /JoomlaV4/translations/%locale%/language/%locale%/%file_name%.ini
     update_option: update_as_unapproved
     type: joomla
+
+  - source: /joomla_v4/source/language/en-GB/com_finder.commonwords.txt
+    dest: 'JoomlaV4/Package/language/en-GB/com_finder.commonwords.txt'
+    translation: /joomla_v4/translations/package/%locale%/language/%locale%/com_finder.commonwords.txt
+    update_option: update_as_unapproved
+    type: txt
 
     # Frontend XML
   - source: /JoomlaV4/source/language/en-GB/install.xml
