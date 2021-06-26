@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="প্যাকেজ" method="">
+	<name>Bengali (Bangladesh) bn-BD Language Pack</name>
+	<packagename/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager/>
+	<packagerurl/>
+	<description><![CDATA[bn-BD language pack]]></description>
+	<blockChildUninstall/>
+	<files>
+		<folder type="ভাষা" client="" id=""/>
+		<folder type="ভাষা" client="" id=""/>
+		<folder type="ভাষা" client="" id=""/>
+	</files>
+	<updateservers>
+		<server type="" priority="১" name=""/>
+	</updateservers>
+</extension>
