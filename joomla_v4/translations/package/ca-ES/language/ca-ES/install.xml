@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="lloc" type="idioma" method="upgrade">
+	<name>Catalan (ca-ES)</name>
+	<tag>ca-ES</tag>
+	<version>4.0.0</version>
+	<creationDate/>
+	<author>Catalan Translation Team</author>
+	<authorEmail>el.libre@gmail.com</authorEmail>
+	<authorUrl>www.catmidia.cat</authorUrl>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>catalan language pack for Joomla! 3 - Site - Paquet d'idioma català per Joomla 3 - Lloc Web</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
