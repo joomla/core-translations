@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>French (fr-FR) Language pack</name>
+	<packagename>fr-FR</packagename>
+	<version>4.0.0-rc2.3</version>
+	<creationDate>Juin 2021</creationDate>
+	<author>French translation team : joomla.fr</author>
+	<authorEmail>traduction@joomla.fr</authorEmail>
+	<authorUrl>http://www.joomla.fr</authorUrl>
+	<copyright>Copyright (C) 2005 - 2021 Joomla.fr and Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>French translation team : joomla.fr</packager>
+	<packagerurl>http://www.joomla.fr</packagerurl>
+	<description><![CDATA[<div style="text-align: left;">
+<h3>Joomla! 4 Full French (fr-FR) Language Package - Version 4.0.0.1</h3>
+<h3>Paquet de langue Joomla! 4 français (fr-FR) complet - Version 4.0.0.1</h3>
+</div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="fr-FR">language/fr-FR</folder>
+		<folder type="language" client="administrator" id="fr-FR">administrator/language/fr-FR</folder>
+		<folder type="language" client="api" id="fr-FR">api/language/fr-FR</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
+	</updateservers>
+</extension>
