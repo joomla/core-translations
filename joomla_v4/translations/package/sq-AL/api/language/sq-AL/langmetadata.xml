@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile client="">
+	<name>Albanian(sq-AL)</name>
+	<version/>
+	<creationDate/>
+	<author>Ekipi i përkthimit në Shqip</author>
+	<authorEmail>mirimarku@gmail.com</authorEmail>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<description><![CDATA[]]></description>
+	<metadata>
+		<name>Albanian(sq-AL)</name>
+		<nativeName>Albanian(sq-AL)</nativeName>
+		<tag>sq-AL</tag>
+		<rtl/>
+		<locale>sq_AL.utf8, sq_AL.UTF-8, sq_AL, alb_AL, al, albanian, albanian-al, AL, alb, albanian, sq_AL.UTF-8@euro, Albanian_Standard, sq-AL</locale>
+		<firstDay/>
+		<weekEnd/>
+		<calendar/>
+	</metadata>
+	<params/>
+</metafile>

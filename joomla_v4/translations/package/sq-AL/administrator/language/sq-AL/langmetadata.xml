@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile client="administrator">
+	<name>Albanian (sq-AL)</name>
+	<version>4.0.0</version>
+	<creationDate/>
+	<author>Ekipi i përkthimit në Shqip</author>
+	<authorEmail>mirimarku@gmail.com</authorEmail>
+	<authorUrl>https://crowdin.com/profile/mirimarku</authorUrl>
+	<copyright/>
+	<license>Varianti 2 ose më fundit i licencës së GNU-së; shiko skedarin LICENSE.txt</license>
+	<description><![CDATA[Gjuha e administratorit sq-AL]]></description>
+	<metadata>
+		<name>Albanian (Shqipëria)</name>
+		<nativeName>Shqip (Shqip)</nativeName>
+		<tag>sq-AL</tag>
+		<rtl>0</rtl>
+		<locale>sq_AL.utf8, sq_AL.UTF-8, sq_AL, alb_AL, al, albanian, albanian-al, AL, alb, albanian, sq_AL.UTF-8@euro, Albanian_Standard, sq-AL</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>
