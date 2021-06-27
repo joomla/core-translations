@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="" type="tungumál" method="">
+	<name>Icelandic (is-IS)</name>
+	<tag>is-IS</tag>
+	<version/>
+	<creationDate/>
+	<author>Joomla! verkefnið</author>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<description>is-IS tungumál kerfisstjóra</description>
+	<files>
+		<folder/>
+		<filename file=""/>
+	</files>
+	<params/>
+</extension>

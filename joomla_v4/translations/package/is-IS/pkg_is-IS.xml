@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="pakki" method="">
+	<name>Icelandic (Iceland) (is-IS) Language Pack</name>
+	<packagename>is-IS</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! verkefnið</author>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager>Joomla! Project</packager>
+	<packagerurl/>
+	<description><![CDATA[is-IS language pack]]></description>
+	<blockChildUninstall>satt</blockChildUninstall>
+	<files>
+		<folder type="tungumál" client="vefsvæði" id="is-IS">site_is-IS</folder>
+		<folder type="tungumál" client="" id="is-IS">admin_is-IS</folder>
+		<folder type="language" client="" id="is-IS"/>
+	</files>
+	<updateservers>
+		<server type="" priority="1" name=""/>
+	</updateservers>
+</extension>
