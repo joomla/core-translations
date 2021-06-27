@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="puslapis" type="kalba" method="">
+	<name>Lietuvių (lt-LT)</name>
+	<tag>lt-LT</tag>
+	<version/>
+	<creationDate/>
+	<author>Rimvydas Žilinskas</author>
+	<authorEmail>rimvydas@rimvydas.info</authorEmail>
+	<authorUrl>www.rimvydas.info</authorUrl>
+	<copyright/>
+	<license>GNU General Public License versija 2 arba naujesnė; žr. LICENSE.txt</license>
+	<description>lt-LT išorinės sąsajos kalbos paketas</description>
+	<files>
+		<folder/>
+		<filename file=""/>
+	</files>
+	<params/>
+</extension>

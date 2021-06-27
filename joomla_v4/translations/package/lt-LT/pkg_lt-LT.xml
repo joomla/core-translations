@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="paketas" method="">
+	<name>Lithuanian (Lithuania) lt-LT Language Pack</name>
+	<packagename>lt-LT</packagename>
+	<version/>
+	<creationDate/>
+	<author>Rimvydas Žilinskas</author>
+	<authorEmail>rimvydas@rimvydas.info</authorEmail>
+	<authorUrl>www.rimvydas.info</authorUrl>
+	<copyright/>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Rimvydas Žilinskas</packager>
+	<packagerurl>www.rimvydas.info</packagerurl>
+	<description><![CDATA[Joomla! lietuvių kalbos paketas]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="kalba" client="puslapis" id="lt-LT">site_lt-LT</folder>
+		<folder type="kalba" client="administrator" id="lt-LT">admin_lt-LT</folder>
+		<folder type="kalba" client="" id="lt-LT"/>
+	</files>
+	<updateservers>
+		<server type="" priority="1" name="Accredited Joomla! Translations"/>
+	</updateservers>
+</extension>
