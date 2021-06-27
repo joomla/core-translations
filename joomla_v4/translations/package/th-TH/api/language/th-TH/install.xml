@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="" type="ภาษา" method="">
+	<name>Thai (th-TH)</name>
+	<tag>th-TH</tag>
+	<version/>
+	<creationDate/>
+	<author>Thai Translation Team</author>
+	<authorEmail>tt@joomlacorner.com</authorEmail>
+	<authorUrl>www.joomlacorner.com</authorUrl>
+	<copyright/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description/>
+	<files>
+		<folder/>
+		<filename file=""/>
+	</files>
+	<params/>
+</extension>
