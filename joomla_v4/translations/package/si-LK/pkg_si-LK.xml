@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="ඇසුරුම" method="">
+	<name>Sinhala (Sri Lanka) si-LK Language Pack</name>
+	<packagename/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager/>
+	<packagerurl/>
+	<description><![CDATA[si-LK language pack]]></description>
+	<blockChildUninstall/>
+	<files>
+		<folder type="භාෂාව" client="" id=""/>
+		<folder type="භාෂාව" client="" id=""/>
+		<folder type="භාෂාව" client="" id=""/>
+	</files>
+	<updateservers>
+		<server type="" priority="" name=""/>
+	</updateservers>
+</extension>
