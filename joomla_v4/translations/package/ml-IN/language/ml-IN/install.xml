@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="" type="" method="">
+	<name/>
+	<tag/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<description>ml-IN site language</description>
+	<files>
+		<folder/>
+		<filename file=""/>
+	</files>
+	<params/>
+</extension>
