@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="Paket" method="">
+	<name/>
+	<packagename>sr-YU</packagename>
+	<version/>
+	<creationDate/>
+	<author>Serbian translation team: Joomla! Serbia</author>
+	<authorEmail>translation@joomla-serbia.com</authorEmail>
+	<authorUrl>http://www.joomla-serbia.com</authorUrl>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager>Serbian translation team: Joomla! Serbia</packager>
+	<packagerurl>http://www.joomla-serbia.com</packagerurl>
+	<description><![CDATA[]]></description>
+	<blockChildUninstall/>
+	<files>
+		<folder type="Jezik" client="" id="sr-YU"/>
+		<folder type="Jezik" client="" id="sr-YU"/>
+		<folder type="Jezik" client="" id="sr-YU"/>
+	</files>
+	<updateservers>
+		<server type="" priority="1" name=""/>
+	</updateservers>
+</extension>
