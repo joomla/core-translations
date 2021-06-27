@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="api" type="language" method="upgrade">
+	<name>Croatian (Croatia)</name>
+	<tag>hr-HR</tag>
+	<version>4.0.0</version>
+	<creationDate/>
+	<author>Joomla! Hrvatska team</author>
+	<authorEmail>prijevod@joomla.hr</authorEmail>
+	<authorUrl>http://www.joomla.hr</authorUrl>
+	<copyright/>
+	<license>GNU Opća javna licenca verzija 2 ili novija; vidi LICENSE.txt</license>
+	<description>hr-HR jezik api-a</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
