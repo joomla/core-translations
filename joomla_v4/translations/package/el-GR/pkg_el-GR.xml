@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="Το πακέτο" method="upgrade">
+	<name>Πακέτο ελληνικής (el-GR) γλώσσας</name>
+	<packagename>el-GR</packagename>
+	<version>4.0.0.1</version>
+	<creationDate/>
+	<author>Ελληνική ομάδα μετάφρασης: joomla. gr</author>
+	<authorEmail>contact@joomla.gr</authorEmail>
+	<authorUrl>https://www.joomla.gr</authorUrl>
+	<copyright>Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</packager>
+	<packagerurl>https://www.joomla.gr</packagerurl>
+	<description><![CDATA[el-GR language pack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="Η γλώσσα" client="ιστοσελίδα" id="el-GR">language/el-GR</folder>
+		<folder type="Η γλώσσα" client="administrator" id="el-GR">administrator/language/el-GR</folder>
+		<folder type="Η γλώσσα" client="api" id="el-GR">api/language/el-GR</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+	</updateservers>
+</extension>
