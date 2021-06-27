@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="" type="மொழி" method="">
+	<name>Tamil (India)</name>
+	<tag>ta-IN</tag>
+	<version/>
+	<creationDate/>
+	<author>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</author>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<description>ta-IN administrator language</description>
+	<files>
+		<folder/>
+		<filename file=""/>
+	</files>
+	<params/>
+</extension>
