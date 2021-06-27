@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile client="api">
+	<name>Italiano (it-IT)</name>
+	<version>4.0.0.0</version>
+	<creationDate>Giugno 2021</creationDate>
+	<author>Italian Traslation Team</author>
+	<authorEmail>stellainformatica@gmail.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[it-IT api language]]></description>
+	<metadata>
+		<name>Italian (Italy)</name>
+		<nativeName>Italian (Italy)</nativeName>
+		<tag>it-IT</tag>
+		<rtl>0</rtl>
+		<locale>it_IT.utf8, it_IT.UTF-8, it_IT, ita_IT, it, italian, italian-it, IT, ita, italy, it_IT.UTF-8@euro, Italian_Standard, it-IT</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

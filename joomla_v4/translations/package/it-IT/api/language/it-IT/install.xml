@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="api" type="language" method="upgrade">
+	<name>Italiano (it-IT)</name>
+	<tag>it-IT</tag>
+	<version>4.0.0.0</version>
+	<creationDate>April 2020</creationDate>
+	<author>Italian Translation Team</author>
+	<authorEmail>stellainformatica@gmail.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>it-IT api language</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
