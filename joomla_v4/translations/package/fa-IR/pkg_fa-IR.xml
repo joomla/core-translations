@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="بسته نصب" method="">
+	<name>Persian Language Pack</name>
+	<packagename>fa-IR</packagename>
+	<version>4.0.0.1</version>
+	<creationDate>ژوئن 2021</creationDate>
+	<author>Persian Translation Team, Joomlafarsi.com</author>
+	<authorEmail>info@joomlafarsi.com</authorEmail>
+	<authorUrl>www.JoomlaFarsi.com</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.
+</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+</license>
+	<url>https://github.com/joomla/joomla-cms
+</url>
+	<packager>Persian Translation Team, Joomlafarsi.com</packager>
+	<packagerurl>www.JoomlaFarsi.com</packagerurl>
+	<description><![CDATA[<h3>فارسی ساز جوملا 3.4 کاری از تیم برگزیده جوملا در ایران. جوملا فارسی دات کام</h3>
+		<h3>Joomla! 3.4 Full Farsi (fa-IR) Language Package version 3.4.5v1, JoomlaFarsi.com</h3>
+		<br>]]></description>
+	<blockChildUninstall>درست</blockChildUninstall>
+	<files>
+		<folder type="زبان" client="سایت" id="fa-IR">site_fa-IR</folder>
+		<folder type="زبان" client="مدیر" id="fa-IR">admin_fa-IR</folder>
+		<folder type="زبان" client="" id="fa-IR">api/language/fa-IR
+</folder>
+	</files>
+	<updateservers>
+		<server type="" priority="1 " name=""/>
+	</updateservers>
+</extension>

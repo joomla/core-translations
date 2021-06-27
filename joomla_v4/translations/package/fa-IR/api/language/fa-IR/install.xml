@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="" type="زبان" method="">
+	<name>Persian (fa-IR)</name>
+	<tag>fa-IR</tag>
+	<version/>
+	<creationDate>June 2021</creationDate>
+	<author>Persian Translation Team, Joomlafarsi.com</author>
+	<authorEmail>info@joomlafarsi.com</authorEmail>
+	<authorUrl>www.JoomlaFarsi.com</authorUrl>
+	<copyright/>
+	<license/>
+	<description/>
+	<files>
+		<folder/>
+		<filename file=""/>
+	</files>
+	<params/>
+</extension>
