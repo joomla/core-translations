@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile client="">
+	<name/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<description><![CDATA[ps-AF administrator language]]></description>
+	<metadata>
+		<name/>
+		<nativeName/>
+		<tag/>
+		<rtl/>
+		<locale>ps_AF.utf8, ps_AF.UTF-8, ps_AF, ps_AF, ps, pashto, pashto-afghanistan, afghanistan</locale>
+		<firstDay/>
+		<weekEnd>0,6</weekEnd>
+		<calendar/>
+	</metadata>
+	<params/>
+</metafile>

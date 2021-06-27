@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="بنډل" method="">
+	<name>Pashto(پشتو)(Afghanistan)</name>
+	<packagename/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager/>
+	<packagerurl/>
+	<description><![CDATA[ps-AF language pack]]></description>
+	<blockChildUninstall/>
+	<files>
+		<folder type="ژبه" client="" id=""/>
+		<folder type="ژبه" client="" id=""/>
+		<folder type="ژبه" client="" id=""/>
+	</files>
+	<updateservers>
+		<server type="" priority="" name=""/>
+	</updateservers>
+</extension>
