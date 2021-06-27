@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="ແພັກເກັດ" method="">
+	<name>Lao (Laos) (lo_LA) Language Pack</name>
+	<packagename/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager/>
+	<packagerurl/>
+	<description><![CDATA[lo_LA language pack]]></description>
+	<blockChildUninstall/>
+	<files>
+		<folder type="ພາສາ" client="" id=""/>
+		<folder type="ພາສາ" client="" id=""/>
+		<folder type="ພາສາ" client="" id=""/>
+	</files>
+	<updateservers>
+		<server type="" priority="1" name=""/>
+	</updateservers>
+</extension>
