@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="套件包" method="">
+	<name>中文(繁體．台灣) 完整語言包</name>
+	<packagename/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager/>
+	<packagerurl/>
+	<description><![CDATA[<h3>Joomla! v3.7.0.1 中文(繁體．台灣) 完整語言包</h3><h3>Joomla! v3.7.0.1 Traditional Chinese (Taiwan) Language Package</h3>]]></description>
+	<blockChildUninstall/>
+	<files>
+		<folder type="語言" client="" id=""/>
+		<folder type="語言" client="" id=""/>
+		<folder type="語言" client="" id=""/>
+	</files>
+	<updateservers>
+		<server type="" priority="1" name=""/>
+	</updateservers>
+</extension>
