@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="חבילה" method="">
+	<name>Hebrew (Israel)</name>
+	<packagename>he-IL</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Israel</author>
+	<authorEmail>info@joomla.org.il</authorEmail>
+	<authorUrl>www.joomla.org.il</authorUrl>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager>Joomla! Israel</packager>
+	<packagerurl>www.joomla.org.il</packagerurl>
+	<description><![CDATA[hebrew language package]]></description>
+	<blockChildUninstall>נכון</blockChildUninstall>
+	<files>
+		<folder type="שפה" client="קודם" id="he-IL">site_he-IL</folder>
+		<folder type="שפה" client="ניהול" id="he-IL">admin_he-IL</folder>
+		<folder type="שפה" client="" id="he-IL"/>
+	</files>
+	<updateservers>
+		<server type="" priority="1" name=""/>
+	</updateservers>
+</extension>

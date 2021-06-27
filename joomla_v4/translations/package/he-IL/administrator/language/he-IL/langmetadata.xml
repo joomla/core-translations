@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile client="ניהול">
+	<name>Hebrew (Israel) עברית</name>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Israel</author>
+	<authorEmail>info@joomla.org.il</authorEmail>
+	<authorUrl>www.joomla.org.il</authorUrl>
+	<copyright/>
+	<license/>
+	<description><![CDATA[Hebrew administrator language package]]></description>
+	<metadata>
+		<name/>
+		<nativeName/>
+		<tag>he-IL</tag>
+		<rtl>1</rtl>
+		<locale>he_IL.utf8, he_IL.UTF-8, he_IL, heb_IL, he, hebrew, hebrew-il, il, israel, heb</locale>
+		<firstDay>1</firstDay>
+		<weekEnd>6</weekEnd>
+		<calendar/>
+	</metadata>
+	<params/>
+</metafile>
