@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="应用包" method="">
+	<name>Chinese Simplified (zh-CN) Language Pack</name>
+	<packagename/>
+	<version/>
+	<creationDate/>
+	<author>Joomla!中文官网 www.joomlachina.org.cn 周永建</author>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla!中文官网 www.joomlachina.org.cn 周永建</packager>
+	<packagerurl/>
+	<description><![CDATA[Joomla！简体中文(zh-CN) 语言]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="语言" client="" id="">site_zh-CN</folder>
+		<folder type="语言" client="" id="">administrator/language/zh-CN</folder>
+		<folder type="语言" client="" id=""/>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+	</updateservers>
+</extension>
