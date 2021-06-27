@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="administrator" type="tulkojums" method="upgrade">
+	<name>Latviešu (lv-LV)</name>
+	<tag>lv-LV</tag>
+	<version>4.0.0</version>
+	<creationDate/>
+	<author>Joomla! Project</author>
+	<authorEmail>lemings@inbox.lv</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright/>
+	<license>GNU galvenā publiskā licence versija 2 vai jaunāka; skatīt LICENSE.txt</license>
+	<description>latvian admin language pack for Joomla</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
