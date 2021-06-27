@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="pakaĵo" method="upgrade">
+	<name>Esperanto (eo-XX) Lingvopakaĵo</name>
+	<packagename>eo-XX</packagename>
+	<version/>
+	<creationDate/>
+	<author>EsperantoSverige, Svedio</author>
+	<authorEmail>tradukoj@esperantosverige.se</authorEmail>
+	<authorUrl>esperantosverige.se</authorUrl>
+	<copyright/>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>EsperantoSverige, Svedio</packager>
+	<packagerurl>esperantosverige.se</packagerurl>
+	<description><![CDATA[eo-XX lingvopakaĵo]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="lingvo" client="fronto" id="eo-XX">language/eo-XX</folder>
+		<folder type="lingvo" client="administrator" id="eo-XX">administrator/language/eo-XX</folder>
+		<folder type="lingvo" client="" id="eo-XX"/>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Esperanto Joomla! Translations"/>
+	</updateservers>
+</extension>
