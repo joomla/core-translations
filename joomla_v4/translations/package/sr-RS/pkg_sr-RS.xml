@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="Пакет" method="">
+	<name>Serbian (Serbia) (sr-RS) Language Pack</name>
+	<packagename>sr-RS</packagename>
+	<version/>
+	<creationDate/>
+	<author>Serbian translation team: Joomla! Serbia</author>
+	<authorEmail>translation@joomla-serbia.com</authorEmail>
+	<authorUrl>http://www.joomla-serbia.com</authorUrl>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager>Serbian translation team: Joomla! Serbia</packager>
+	<packagerurl>http://www.joomla-serbia.com</packagerurl>
+	<description><![CDATA[sr-RS language pack]]></description>
+	<blockChildUninstall/>
+	<files>
+		<folder type="Језик" client="" id="sr-RS"/>
+		<folder type="Језик" client="" id="sr-RS"/>
+		<folder type="Језик" client="" id="sr-RS"/>
+	</files>
+	<updateservers>
+		<server type="" priority="1" name=""/>
+	</updateservers>
+</extension>
