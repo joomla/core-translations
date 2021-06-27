@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="" method="">
+	<name>Irish (ga-IE) Language Pack</name>
+	<packagename/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager/>
+	<packagerurl/>
+	<description><![CDATA[<div style="text-align:left;">
+<h3>Joomla! 3.9.0 Full Irish (ga-IE) Language Package - Version 3.9.0.1</h3>
+<h3>Pacáiste Gaeilge (ga-IE) le haghaidh Joomla! 3.9.0 - Leagan 3.9.0.1</h3>
+</div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="" client="" id="">language/ga-IE</folder>
+		<folder type="" client="" id="">administrator/language/ga-IE</folder>
+		<folder type="" client="" id=""/>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Aistriúcháin Chreidiúnaithe Joomla!"/>
+	</updateservers>
+</extension>
