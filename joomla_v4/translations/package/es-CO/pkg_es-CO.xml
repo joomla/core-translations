@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="paquete" method="">
+	<name>Paquete de idioma español colombiano (es-CO)</name>
+	<packagename/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager/>
+	<packagerurl/>
+	<description><![CDATA[Spanish-Colombia (es-CO) Language Pack]]></description>
+	<blockChildUninstall/>
+	<files>
+		<folder type="idioma" client="" id=""/>
+		<folder type="idioma" client="" id=""/>
+		<folder type="idioma" client="" id=""/>
+	</files>
+	<updateservers>
+		<server type="" priority="1" name=""/>
+	</updateservers>
+</extension>
