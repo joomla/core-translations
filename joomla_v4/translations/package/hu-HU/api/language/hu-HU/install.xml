@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension client="api" type="nyelv" method="upgrade">
+	<name>Magyar (hu-HU)</name>
+	<tag>hu-HU</tag>
+	<version>4.0.0</version>
+	<creationDate>2019 október</creationDate>
+	<author>Joomla! Hungary</author>
+	<authorEmail>szerk@joomlacms.hu</authorEmail>
+	<authorUrl>https://joomlacms.hu</authorUrl>
+	<copyright/>
+	<license>GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt</license>
+	<description>hu-HU api nyelv</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>

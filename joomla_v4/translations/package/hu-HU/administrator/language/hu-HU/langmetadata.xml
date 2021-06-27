@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile client="administrator">
+	<name>Magyar (hu-HU)</name>
+	<version>4.0.0</version>
+	<creationDate/>
+	<author>Joomla! Hungary</author>
+	<authorEmail>szerk@joomlacms.hu</authorEmail>
+	<authorUrl>https://joomlacms.hu</authorUrl>
+	<copyright/>
+	<license>GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt</license>
+	<description><![CDATA[hu-HU administrator language]]></description>
+	<metadata>
+		<name>Hungarian (hu-HU)</name>
+		<nativeName>Hungarian (hu-HU)</nativeName>
+		<tag>hu-HU</tag>
+		<rtl>0</rtl>
+		<locale>hu_HU.utf8, hu_HU.UTF8, hu_HU.utf-8, hu_HU.UTF-8, hun_HU.utf8, hun_HU.UTF8, hu, hungarian, hungary</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>
