@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="" method="upgrade">
+	<name>Scottish Gaelic (gd-GB) Language Pack</name>
+	<packagename>gd-GB</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.igaidhlig.net</authorUrl>
+	<copyright/>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>www.igaidhlig.net</packagerurl>
+	<description><![CDATA[3. 0 Joomla Language Pack for Scottish Gaelic.
+<p>Translated via <a href="https://crowdin.com/translate/joomla-cms" target="_blank">Joomla on Crowdin</a></p>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="" client="" id="gd-GB">language/gd-GB</folder>
+		<folder type="" client="administrator" id="gd-GB">administrator/language/gd-GB</folder>
+		<folder type="" client="" id="gd-GB"/>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+	</updateservers>
+</extension>

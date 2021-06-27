@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile client="">
+	<name>Gàidhlig (gd-GB)</name>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.igaidhlig.net</authorUrl>
+	<copyright/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[]]></description>
+	<metadata>
+		<name>Gàidhlig (gd-GB)</name>
+		<nativeName>Gàidhlig (gd-GB)</nativeName>
+		<tag>gd-GB</tag>
+		<rtl>0</rtl>
+		<locale>gd_GB.utf8, gd_GB.UTF-8, gd, gaelic, gàidhlig, scotland, alba, albainn, albann</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>
