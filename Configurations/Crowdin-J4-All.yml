@@ -89,12 +89,14 @@ files:
     dest: 'JoomlaV4/Package/api/language/en-GB/install.xml'
     translation: /joomla_v4/translations/package/%locale%/api/language/%locale%/install.xml
     update_option: update_as_unapproved
+    content_segmentation: 0
     type: xml
 
   - source: /joomla_v4/source/api/language/en-GB/langmetadata.xml
     dest: 'JoomlaV4/Package/api/language/en-GB/langmetadata.xml'
     translation: /joomla_v4/translations/package/%locale%/api/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
+    content_segmentation: 0
     type: xml
 
     # Installation files
@@ -108,6 +110,7 @@ files:
     dest: 'JoomlaV4/Installer/language/en-GB/langmetadata.xml'
     translation: /joomla_v4/translations/core/installation/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
+    content_segmentation: 0
     type: xml
 
     # Media File
