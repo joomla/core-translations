@@ -27,7 +27,7 @@ jobs:
         # Upload translations to Crowdin
         upload_translations: true
         # Define the languages to upload for translations
-        upload_language: 'hi'
+        upload_language: 'hu'
         # Automatically approves uploaded translations
         auto_approve_imported: true
         # Automatically approves uploaded translations
