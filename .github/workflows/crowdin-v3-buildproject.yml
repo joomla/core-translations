@@ -13,5 +13,5 @@ jobs:
     - name: Call build URL:
       uses: fjogeleit/http-request-action@master
       with:
-        url: 'https://api.crowdin.com/api/project/joomla-cms/export?key=${{ secrets.CROWDIN_V1_APIKEY }}&async=1'
+        url: 'https://api.crowdin.com/api/project/joomla-cms/export?key='${{ secrets.CROWDIN_V1_APIKEY }}'&async=1'
         method: 'POST'
