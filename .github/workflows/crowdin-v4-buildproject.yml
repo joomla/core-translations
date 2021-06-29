@@ -1,0 +1,24 @@
+name: J4 Build JoomalCMSProject
+# Controls when the action will run. 
+on:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+    # Runs the HTTP Request action command - https://github.com/fjogeleit/http-request-action
+    - name: Call build URL
+      id: BuildV4CMS
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://joomla.crowdin.com/api/v2/projects/18/translations/builds'
+        method: 'POST'
+        contentType: 
+        data: {"branchId": 1,"targetLanguageIds":,"skipUntranslatedStrings": true,"skipUntranslatedFiles": false,"exportApprovedOnly": true}
+        bearerToken: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+    - name: Show Response
+      run: echo ${{ steps.BuildV4CMS.outputs.response }}
