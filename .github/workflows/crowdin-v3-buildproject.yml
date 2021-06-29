@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # Runs the HTTP Request action command - https://github.com/fjogeleit/http-request-action
-    - name: Call build URL:
+    - name: Call build URL
       uses: fjogeleit/http-request-action@master
       with:
-        url: 'https://api.crowdin.com/api/project/joomla-cms/export?key='${{ secrets.CROWDIN_V1_APIKEY }}'&async=1'
+        url: 'https://api.crowdin.com/api/project/joomla-cms/export?key=${{ secrets.CROWDIN_V1_APIKEY }}&async=1'
         method: 'POST'
