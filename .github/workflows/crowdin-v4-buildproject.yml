@@ -16,8 +16,8 @@ jobs:
       with:
         url: 'https://joomla.crowdin.com/api/v2/projects/18/translations/builds'
         method: 'POST'
-        contentType: 
-        data: {"branchId": 1,"targetLanguageIds":,"skipUntranslatedStrings": true,"skipUntranslatedFiles": false,"exportApprovedOnly": true}
+        contentType: 'application/json'
+        data: '{"branchId": 1,"targetLanguageIds":,"skipUntranslatedStrings": true,"skipUntranslatedFiles": false,"exportApprovedOnly": true}'
         bearerToken: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
     - name: Show Response
