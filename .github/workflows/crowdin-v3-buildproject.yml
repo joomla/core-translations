@@ -1,0 +1,17 @@
+name: J3 Build JoomalCMSProject
+# Controls when the action will run. 
+on:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+    # Runs the HTTP Request action command - https://github.com/fjogeleit/http-request-action
+    - name: Call build URL:
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://api.crowdin.com/api/project/joomla-cms/export?key=${{ secrets.CROWDIN_V1_APIKEY }}&async=1'
+        method: 'POST'
