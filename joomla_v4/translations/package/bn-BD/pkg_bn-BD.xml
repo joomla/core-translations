@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension type="প্যাকেজ" method="">
+<extension type="package" method="upgrade">
 	<name>Bengali (Bangladesh) bn-BD Language Pack</name>
 	<packagename/>
 	<version/>
@@ -15,11 +15,11 @@
 	<description><![CDATA[bn-BD language pack]]></description>
 	<blockChildUninstall/>
 	<files>
-		<folder type="ভাষা" client="" id=""/>
-		<folder type="ভাষা" client="" id=""/>
-		<folder type="ভাষা" client="" id=""/>
+		<folder type="language" client="site" id="en-GB"/>
+		<folder type="language" client="administrator" id="en-GB"/>
+		<folder type="language" client="api" id="en-GB"/>
 	</files>
 	<updateservers>
-		<server type="" priority="১" name=""/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
 	</updateservers>
 </extension>

@@ -9,18 +9,18 @@
 defined('_JEXEC') or die;
 
 /**
- * ca-ES localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Ca_ESLocalise
+abstract class En_GBLocalise
 {
 	/**
-	 * Torna els sufixos potencials per a un nombre concret d'elements
+	 * Returns the potential suffixes for a specific number of items
 	 *
-	 * @param   integer  $count  Tel nombre d'elements.
+	 * @param   integer  $count  The number of items.
 	 *
-	 * @return  array  Una gran varietat de possibles sufixos.
+	 * @return  array  An array of potential suffixes.
 	 *
 	 * @since   1.6
 	 */

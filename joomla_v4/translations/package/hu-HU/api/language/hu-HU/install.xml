@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension client="api" type="nyelv" method="upgrade">
+<extension client="api" type="language" method="upgrade">
 	<name>Magyar (hu-HU)</name>
 	<tag>hu-HU</tag>
 	<version>4.0.0</version>
 	<creationDate>2019 október</creationDate>
-	<author>Joomla! Hungary</author>
+	<author> </author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
 	<authorUrl>https://joomlacms.hu</authorUrl>
 	<copyright/>

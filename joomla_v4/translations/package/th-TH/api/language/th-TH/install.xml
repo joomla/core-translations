@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension client="" type="ภาษา" method="">
+<extension client="api" type="language" method="upgrade">
 	<name>Thai (th-TH)</name>
 	<tag>th-TH</tag>
 	<version/>
 	<creationDate/>
-	<author>Thai Translation Team</author>
+	<author> </author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
 	<copyright/>
@@ -12,7 +12,7 @@
 	<description/>
 	<files>
 		<folder/>
-		<filename file=""/>
+		<filename file="meta"/>
 	</files>
 	<params/>
 </extension>

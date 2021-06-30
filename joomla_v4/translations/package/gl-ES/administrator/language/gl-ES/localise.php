@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * gl-ES localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class gl_ESLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class gl_ESLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('e', 'en', 'sobre');
+		return array('and', 'in', 'on');
 	}
 
 	/**

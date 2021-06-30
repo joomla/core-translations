@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="">
+<metafile client="installation">
 	<name>Română (ro-RO)</name>
 	<version/>
 	<creationDate/>
-	<author>Horia Negura - Quanta</author>
+	<author> </author>
 	<copyright/>
 	<license>GNU General Public License versiunea 2 sau mai nouă, a se vedea LICENSE.txt</license>
 	<files>

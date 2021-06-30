@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension type="pakket" method="upgrade">
+<extension type="package" method="upgrade">
 	<name>Belgisch (nl-BE) taalpakket</name>
 	<packagename>nl-NL</packagename>
 	<version>4.0.0-rc2.1</version>
@@ -19,9 +19,9 @@
 		]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="taal" client="site" id="nl-NL">language/nl-NL</folder>
-		<folder type="taal" client="administrator" id="nl-NL">administrator/language/nl-NL</folder>
-		<folder type="taal" client="api" id="nl-NL">api/language/nl-NL</folder>
+		<folder type="language" client="site" id="en-GB">language/nl-NL</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/nl-NL</folder>
+		<folder type="language" client="api" id="en-GB">api/language/nl-NL</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations">

@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * et-EE localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Et_EELocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class Et_EELocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('ja', 'ei', 'ning', 'ehk', 'aga', 'et', 'ent', 'sest', 'kuigi', 'ehkki');
+		return array('and', 'in', 'on');
 	}
 
 	/**

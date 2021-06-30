@@ -3,10 +3,10 @@
 	<name>Dutch (nl-NL)</name>
 	<version>4.0.0-rc2.1</version>
 	<creationDate>Juni 2021</creationDate>
-	<author>Dutch Translation Team</author>
+	<author>Joomla! Project</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
-	<copyright>Copyright (C) 2005 - 2021 Dutch Translation Team en Open Source Matters. Alle rechten voorbehouden.</copyright>
+	<copyright>(C) 2021 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[Nederlandse api taal]]></description>
 	<metadata>

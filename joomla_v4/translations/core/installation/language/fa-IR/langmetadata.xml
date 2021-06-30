@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="نصب و راه‌اندازی">
+<metafile client="installation">
 	<name>Persian (fa-IR)</name>
 	<version/>
 	<creationDate>June 2021</creationDate>
-	<author>Persian Translation Team, Joomlafarsi.com</author>
-	<copyright>(C) 2005 Open Source Matters, Inc.
-</copyright>
-	<license>مجوز عمومی GNU نسخه 2 یا بالاتر ؛ به LICENSE.txt مراجعه کنید</license>
+	<author> </author>
+	<copyright/>
+	<license/>
 	<files>
-		<filename>joomla.ini</filename>
+		<filename/>
 	</files>
 	<metadata>
 		<name>Persian (fa-IR)</name>

@@ -26,17 +26,17 @@ abstract class Sl_SILocalise
 	 */
 	public static function getPluralSuffixes($count)
 	{
-		if (($count % 100) == 1)
+		if ($count == 0)
+		{
+			return array('0');
+		}
+		elseif ($count == 1)
 		{
 			return array('ONE', '1');
 		}
-		elseif (($count % 100) == 2)
+		else
 		{
-			return array('TWO', '2');
-		}
-		elseif ((($count % 100) == 3) or (($count % 100) == 4))
-		{
-			return array('FEW', '3');
+			return array('OTHER', 'MORE');
 		}
 	}
 }

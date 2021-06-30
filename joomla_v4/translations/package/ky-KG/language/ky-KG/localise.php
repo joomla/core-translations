@@ -3,17 +3,17 @@
  * @package    Joomla.Language
  *
  * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- GNU General Public License 2 же андан кийинки нускасы; LICENSE.txt бөлүмүн караңыз.
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * ky-KG localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class ky_KGLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items

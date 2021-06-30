@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="">
+<metafile client="api">
 	<name/>
 	<version/>
 	<creationDate/>
-	<author/>
+	<author> </author>
 	<authorEmail/>
 	<authorUrl/>
 	<copyright/>

@@ -28,13 +28,13 @@ abstract class En_GBLocalise
 	{
 		if ($count == 0)
 		{
-			return array('০');
+			return array('0');
 		}
 		elseif ($count == 1)
 		{
 			return array('ONE', '1');
 		}
-		مزید
+		else
 		{
 			return array('OTHER', 'MORE');
 		}

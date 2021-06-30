@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension type="应用包" method="">
+<extension type="package" method="upgrade">
 	<name>Chinese Simplified (zh-CN) Language Pack</name>
 	<packagename/>
 	<version/>
@@ -15,9 +15,9 @@
 	<description><![CDATA[Joomla！简体中文(zh-CN) 语言]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="语言" client="" id="">site_zh-CN</folder>
-		<folder type="语言" client="" id="">administrator/language/zh-CN</folder>
-		<folder type="语言" client="" id=""/>
+		<folder type="language" client="site" id="en-GB">site_zh-CN</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/zh-CN</folder>
+		<folder type="language" client="api" id="en-GB"/>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

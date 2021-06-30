@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * eu-ES localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Eu_ESLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -32,7 +32,7 @@ abstract class Eu_ESLocalise
 		}
 		elseif ($count == 1)
 		{
-			return array('1');
+			return array('ONE', '1');
 		}
 		else
 		{
@@ -49,7 +49,7 @@ abstract class Eu_ESLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('da', 'du', 'eta')
+		return array('and', 'in', 'on');
 	}
 
 	/**
@@ -67,7 +67,7 @@ abstract class Eu_ESLocalise
 	/**
 	 * Returns the upper length limit of search words
 	 *
-	 * @return  integer  The upper length limit of search words. 
+	 * @return  integer  The upper length limit of search words.
 	 *
 	 * @since   1.6
 	 */

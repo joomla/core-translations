@@ -15,11 +15,11 @@
 	<description><![CDATA[<p>Превод на Джумла! 4 на български език. Повече информация можете да намерите на сайта на <a title="Джумла! България" href="http://www.joomla.bg" target="_blank">Джумла! България</a>.</p>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="bg-BG">language/bg-BG</folder>
-		<folder type="language" client="administrator" id="bg-BG">administrator/language/bg-BG</folder>
-		<folder type="language" client="api" id="bg-BG">api/language/bg-BG</folder>
+		<folder type="language" client="site" id="en-GB">language/bg-BG</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/bg-BG</folder>
+		<folder type="language" client="api" id="en-GB">api/language/bg-BG</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Акредитирани Джумла! Преводи"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
 	</updateservers>
 </extension>

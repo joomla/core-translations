@@ -15,9 +15,9 @@
 	<description><![CDATA[<p>Joomla! 4.0.0.1 Kyrgyz Language Package. Бул Joomla расмий локалдаштыруусу, аны кыргыз тилдүү коомчулугу тарабынан колдоого алынган.</p><p>Биз локалдаштырууга жардам берүүгө ар дайым кубанычтабыз! Келип чыккан көйгөй жөнүндө биздин <a href='https://joomla.kg' target='_blank'>Локалдаштыруу расмий сайтына</a> кабарлай аласыз.</p>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="ky-KG">site_ky-KG</folder>
-		<folder type="language" client="administrator" id="ky-KG">admin_ky-KG</folder>
-		<folder type="language" client="api" id="ky-KG">api_ky-KG</folder>
+		<folder type="language" client="site" id="en-GB">site_ky-KG</folder>
+		<folder type="language" client="administrator" id="en-GB">admin_ky-KG</folder>
+		<folder type="language" client="api" id="en-GB">api_ky-KG</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

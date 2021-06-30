@@ -2,7 +2,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  Direitos de Autor (C) 2010 -  Open Source Matters, Inc. Todos os direitos reservados. <https://www.joomla.org>
+ * @copyright  Direitos de Autor (C) 2010 -  Open Source Matters, Inc. <https://www.joomla.org>
  * @license  Pública Geral GNU - versão 2 ou posterior; ver ficheiro LICENSE.txt
  */
 

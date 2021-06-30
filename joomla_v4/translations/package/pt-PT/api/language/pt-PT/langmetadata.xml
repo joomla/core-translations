@@ -3,10 +3,10 @@
 	<name>Português de Portugal (pt-PT)</name>
 	<version>4.0.0.1rc1.1</version>
 	<creationDate>2021-06-01</creationDate>
-	<author>Comunidade JoomlaPortugal</author>
+	<author> </author>
 	<authorEmail>comunidadejoomlapt@gmail.com</authorEmail>
 	<authorUrl>www.joomlaportugal.org</authorUrl>
-	<copyright>Direitos de Autor (C) 2020 - Open Source Matters. Todos os direitos reservados.</copyright>
+	<copyright>Direitos de Autor (C) 2020 - Open Source Matters.</copyright>
 	<license>Licença Pública Geral GNU - versão 2 ou posterior; ver ficheiro LICENSE.txt</license>
 	<description><![CDATA[Idioma de API para pt-PT]]></description>
 	<metadata>

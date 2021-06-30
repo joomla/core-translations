@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension client="rozhranie (api)" type="jazyka" method="upgrade">
+<extension client="api" type="language" method="upgrade">
 	<name>Slovak (sk-SK)</name>
 	<tag>sk-SK</tag>
 	<version>4.0.0</version>
 	<creationDate>Október 2019</creationDate>
-	<author>Slovak translation team : Peter Michnica</author>
+	<author> </author>
 	<authorEmail>petov@mail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. Všetky práva vyhradené.</copyright>
+	<copyright/>
 	<license>GNU General Public License verzie 2 alebo neskoršej; Pozrite si súbor LICENSE.txt</license>
 	<description>sk-SK api lokalizácia</description>
 	<files>

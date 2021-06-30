@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * hr-HR localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Hr_HRLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -26,13 +26,13 @@ abstract class Hr_HRLocalise
 	 */
 	public static function getPluralSuffixes($count)
 	{
-		if (($count % 10 == 1) and ($count & 100 != 11))
+		if ($count == 0)
+		{
+			return array('0');
+		}
+		elseif ($count == 1)
 		{
 			return array('ONE', '1');
-		}
-		elseif (($count % 10 >= 2) and ($count % 10 <= 4) and !(($count & 100 >= 12) and ($count % 100  <= 14)))
-		{
-			return array('FEW', '2');
 		}
 		else
 		{
@@ -49,7 +49,7 @@ abstract class Hr_HRLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('i', 'u', 'na');
+		return array('and', 'in', 'on');
 	}
 
 	/**

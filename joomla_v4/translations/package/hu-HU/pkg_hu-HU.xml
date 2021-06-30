@@ -15,11 +15,11 @@
 	<description><![CDATA[hu-HU nyelvi csomag]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="hu-HU">site_hu-HU</folder>
-		<folder type="language" client="administrator" id="hu-HU">admin_hu-HU</folder>
-		<folder type="nyelv" client="api" id="hu-HU"/>
+		<folder type="language" client="site" id="en-GB">site_hu-HU</folder>
+		<folder type="language" client="administrator" id="en-GB">admin_hu-HU</folder>
+		<folder type="language" client="api" id="en-GB"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Akkreditált Joomla! fordítások"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
 	</updateservers>
 </extension>

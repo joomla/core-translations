@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * ga-IE localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Ga_IELocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class Ga_IELocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('ag', 'agus', 'an', 'ar', 'do', 'go', 'in', 'le', 'na', 'nó');
+		return array('and', 'in', 'on');
 	}
 
 	/**

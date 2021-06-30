@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension type="بسته نصب" method="">
+<extension type="package" method="upgrade">
 	<name>Persian Language Pack</name>
 	<packagename>fa-IR</packagename>
 	<version>4.0.0.1</version>
@@ -20,12 +20,12 @@
 		<br>]]></description>
 	<blockChildUninstall>درست</blockChildUninstall>
 	<files>
-		<folder type="زبان" client="سایت" id="fa-IR">site_fa-IR</folder>
-		<folder type="زبان" client="مدیر" id="fa-IR">admin_fa-IR</folder>
-		<folder type="زبان" client="" id="fa-IR">api/language/fa-IR
+		<folder type="language" client="site" id="en-GB">site_fa-IR</folder>
+		<folder type="language" client="administrator" id="en-GB">admin_fa-IR</folder>
+		<folder type="language" client="api" id="en-GB">api/language/fa-IR
 </folder>
 	</files>
 	<updateservers>
-		<server type="" priority="1 " name=""/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
 	</updateservers>
 </extension>

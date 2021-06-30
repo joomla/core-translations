@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension client="api" type="тил" method="upgrade">
+<extension client="api" type="language" method="upgrade">
 	<name>Кыргыз тили (ky-KG)</name>
 	<tag>ky-KG</tag>
 	<version>4.0.0</version>
 	<creationDate>Тогуздун айы 2019</creationDate>
-	<author>Joomla! Project - Joomla.KG</author>
+	<author> </author>
 	<authorEmail>ohna@bk.ru</authorEmail>
 	<authorUrl>www.joomla.kg</authorUrl>
 	<copyright/>

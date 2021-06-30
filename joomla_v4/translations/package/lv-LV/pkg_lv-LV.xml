@@ -15,11 +15,11 @@
 	<description><![CDATA[Latviešu valodas tulkojuma pakotne]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="lv-LV">language/lv-LV</folder>
-		<folder type="language" client="administrator" id="lv-LV">administrator/language/lv-LV</folder>
-		<folder type="tulkojums" client="" id="lv-LV">api/language/lv-LV</folder>
+		<folder type="language" client="site" id="en-GB">language/lv-LV</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/lv-LV</folder>
+		<folder type="language" client="api" id="en-GB">api/language/lv-LV</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Akreditēti Joomla! Tulkojumi"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
 	</updateservers>
 </extension>

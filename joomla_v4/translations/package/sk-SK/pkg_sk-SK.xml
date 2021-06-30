@@ -15,11 +15,11 @@
 	<description><![CDATA[Jazykový balík sk-SK]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="sk-SK">language/sk-SK</folder>
-		<folder type="language" client="administrator" id="sk-SK">administrator/language/sk-SK</folder>
-		<folder type="jazyk" client="rozhranie (api)" id="sk-SK">api/language/sk-SK</folder>
+		<folder type="language" client="site" id="en-GB">language/sk-SK</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/sk-SK</folder>
+		<folder type="language" client="api" id="en-GB">api/language/sk-SK</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Oficiálne lokalizácie Joomla!"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
 	</updateservers>
 </extension>
