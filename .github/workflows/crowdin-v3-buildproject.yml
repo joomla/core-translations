@@ -13,10 +13,11 @@ jobs:
     steps:
     # Runs the HTTP Request action command - https://github.com/fjogeleit/http-request-action
     - name: Call build URL
+      id: BuildV3CMS
       uses: fjogeleit/http-request-action@master
       with:
         url: 'https://api.crowdin.com/api/project/joomla-cms/export?key=${{ secrets.CROWDIN_V1_APIKEY }}&async=1'
         method: 'POST'
 
     - name: Show Response
-      run: echo ${{ steps.BuildV4CMS.outputs.response }}
+      run: echo ${{ steps.BuildV3CMS.outputs.response }}
