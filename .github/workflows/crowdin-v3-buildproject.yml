@@ -1,6 +1,8 @@
 name: J3 Build JoomalCMSProject
 # Controls when the action will run. 
 on:
+  schedule:
+    - cron: '0 9,21 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
