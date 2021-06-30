@@ -2,18 +2,18 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  Visas tiesības aizsargātas (C) 2010 - 2021 Open Source Matters, Inc. <https://www.joomla.org>
+ * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * lv-LV localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Lv_LVLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -30,7 +30,7 @@ abstract class Lv_LVLocalise
 		{
 			return array('0');
 		}
-		elseif ($count % 10 == 1 && $count != 11)
+		elseif ($count == 1)
 		{
 			return array('ONE', '1');
 		}

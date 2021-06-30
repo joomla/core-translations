@@ -16,9 +16,9 @@
 <p>Översättningarna är baserade på tidigare gjorda översättningar men med en rad språkliga förbättringar och förenklingar. Inget tidigare arbete har gått till spillo</p>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="sv-SE">language/sv-SE</folder>
-		<folder type="language" client="administrator" id="sv-SE">administrator/language/sv-SE</folder>
-		<folder type="Språk" client="api" id="sv-SE">api/språk/sv-SE</folder>
+		<folder type="language" client="site" id="en-GB">language/sv-SE</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/sv-SE</folder>
+		<folder type="language" client="api" id="en-GB">api/språk/sv-SE</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

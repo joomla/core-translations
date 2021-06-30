@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="">
+<metafile client="api">
 	<name>Finnish (FI)</name>
 	<version>3.9.2.0</version>
 	<creationDate/>
-	<author>Finnish translation team: Joomla.fi</author>
+	<author> </author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
 	<copyright/>

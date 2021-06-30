@@ -15,9 +15,9 @@
 	<description><![CDATA[Danish language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="da-DK">language/da-DK</folder>
-		<folder type="language" client="administrator" id="da-DK">administrator/language/da-DK</folder>
-		<folder type="language" client="api" id="da-DK">api/language/da-DK</folder>
+		<folder type="language" client="site" id="en-GB">language/da-DK</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/da-DK</folder>
+		<folder type="language" client="api" id="en-GB">api/language/da-DK</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

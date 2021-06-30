@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
  *
  * @since  1.6
  */
-abstract class Sk_SKLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -34,11 +34,7 @@ abstract class Sk_SKLocalise
 		{
 			return array('ONE', '1');
 		}
-		elseif ($count == 2 || $count == 3 || $count == 4)
-{
-    return array('FEW', '2');
-}
-else
+		else
 		{
 			return array('OTHER', 'MORE');
 		}
@@ -53,7 +49,7 @@ else
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('a', 'v', 'na', 'od', 'do', 'že', 'alebo', 'ale', 'za');
+		return array('and', 'in', 'on');
 	}
 
 	/**

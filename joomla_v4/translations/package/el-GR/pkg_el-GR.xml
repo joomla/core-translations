@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension type="Το πακέτο" method="upgrade">
+<extension type="package" method="upgrade">
 	<name>Πακέτο ελληνικής (el-GR) γλώσσας</name>
 	<packagename>el-GR</packagename>
 	<version>4.0.0.1</version>
@@ -15,9 +15,9 @@
 	<description><![CDATA[el-GR language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="Η γλώσσα" client="ιστοσελίδα" id="el-GR">language/el-GR</folder>
-		<folder type="Η γλώσσα" client="administrator" id="el-GR">administrator/language/el-GR</folder>
-		<folder type="Η γλώσσα" client="api" id="el-GR">api/language/el-GR</folder>
+		<folder type="language" client="site" id="en-GB">language/el-GR</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/el-GR</folder>
+		<folder type="language" client="api" id="en-GB">api/language/el-GR</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

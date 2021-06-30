@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * ta-IN localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Ta_INLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class Ta_INLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array ('மற்றும்', 'அல்லது');
+		return array('and', 'in', 'on');
 	}
 
 	/**

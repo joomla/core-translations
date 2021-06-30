@@ -15,9 +15,9 @@
 	<description><![CDATA[Idioma português de Portugal (pt-PT) para Joomla 4]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="pt-PT">language/pt-PT</folder>
-		<folder type="language" client="administrator" id="pt-PT">administrator/language/pt-PT</folder>
-		<folder type="language" client="api" id="pt-PT">api/language/pt-PT</folder>
+		<folder type="language" client="site" id="en-GB">language/pt-PT</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/pt-PT</folder>
+		<folder type="language" client="api" id="en-GB">api/language/pt-PT</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

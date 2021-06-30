@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension client="" type="Լեզու" method="">
+<extension client="api" type="language" method="upgrade">
 	<name/>
 	<tag/>
 	<version/>
 	<creationDate/>
-	<author/>
+	<author> </author>
 	<authorEmail/>
 	<authorUrl/>
 	<copyright/>
@@ -12,7 +12,7 @@
 	<description/>
 	<files>
 		<folder/>
-		<filename file=""/>
+		<filename file="meta"/>
 	</files>
 	<params/>
 </extension>

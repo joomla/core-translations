@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="">
+<metafile client="installation">
 	<name>Albanian(sq-AL)</name>
 	<version/>
 	<creationDate/>
-	<author>Ekipi i përkthimit në Shqip</author>
+	<author> </author>
 	<copyright/>
 	<license/>
 	<files>
@@ -13,7 +13,7 @@
 		<name>Albanian(sq-AL)</name>
 		<nativeName>Albanian(sq-AL)</nativeName>
 		<tag>sq-AL</tag>
-		<rtl/>
+		<rtl>0</rtl>
 	</metadata>
 	<params/>
 </metafile>

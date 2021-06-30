@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension client="" type="Kielitiedosto" method="upgrade">
+<extension client="api" type="language" method="upgrade">
 	<name>Finnish (FI)</name>
 	<tag>fi-FI</tag>
 	<version>3.9.2.0</version>
 	<creationDate/>
-	<author>Finnish translation team: Joomla.fi</author>
+	<author> </author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
 	<copyright/>

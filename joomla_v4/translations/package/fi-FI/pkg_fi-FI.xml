@@ -18,9 +18,9 @@
 		</div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="fi-FI">site_fi-FI.zip</folder>
-		<folder type="language" client="administrator" id="fi-FI">admin_fi-FI.zip</folder>
-		<folder type="Kielitiedosto" client="" id="fi-FI"/>
+		<folder type="language" client="site" id="en-GB">site_fi-FI.zip</folder>
+		<folder type="language" client="administrator" id="en-GB">admin_fi-FI.zip</folder>
+		<folder type="language" client="api" id="en-GB"/>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

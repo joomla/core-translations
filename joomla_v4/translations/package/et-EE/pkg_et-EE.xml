@@ -15,11 +15,11 @@
 	<description><![CDATA[<h2>Eesti (et-EE) keelepakett / Estonian languagepck</h2>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="et-EE">language/et-EE</folder>
-		<folder type="language" client="administrator" id="et-EE">administrator/language/et-EE</folder>
-		<folder type="language" client="api" id="et-EE">api/language/et-EE</folder>
+		<folder type="language" client="site" id="en-GB">language/et-EE</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/et-EE</folder>
+		<folder type="language" client="api" id="en-GB">api/language/et-EE</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Volitatud Joomla! tõlked"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
 	</updateservers>
 </extension>

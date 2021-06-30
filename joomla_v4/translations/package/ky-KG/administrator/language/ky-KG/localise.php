@@ -3,87 +3,87 @@
  * @package    Joomla.Language
  *
  * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU Жалпы Коомдук Лицензиясы 2 же андан кийинки нускасы; LICENSE.txt бөлүмүн караңыз.
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * ky-KG localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class ky_KGLocalise
+abstract class En_GBLocalise
 {
 	/**
-	 * Белгилүү бир сандагы элементтер үчүн потенциалдуу суффикстерди кайтарат.
+	 * Returns the potential suffixes for a specific number of items
 	 *
-	 * @param   integer  $count  Элементтердин саны.
+	 * @param   integer  $count  The number of items.
 	 *
-	 * @return  array  Потенциалдуу суффикстердин массиви.
+	 * @return  array  An array of potential suffixes.
 	 *
 	 * @since   1.6
 	 */
-	коомдук статикалык функция getPluralSuffixes($count)
+	public static function getPluralSuffixes($count)
 	{
-		эгер ($count == 0)
+		if ($count == 0)
 		{
 			return array('0');
 		}
-		антпесе ($count == 1)
+		elseif ($count == 1)
 		{
-			return array('БИР', '1');
+			return array('ONE', '1');
 		}
-		дагы
+		else
 		{
-			return array('БАШКА', 'ДАГЫ');
+			return array('OTHER', 'MORE');
 		}
 	}
 
 	/**
-	 * Этибарга алынбаган издөө сөздөрүн кайтарат
+	 * Returns the ignored search words
 	 *
-	 * @return  array  Изделбеген сөздөрдүн массиви.
+	 * @return  array  An array of ignored search words.
 	 *
 	 * @since   1.6
 	 */
-	коомдук статикалык функция getIgnoredSearchWords()
+	public static function getIgnoredSearchWords()
 	{
 		return array('and', 'in', 'on');
 	}
 
 	/**
-	 * Издөө сөзүнүн узактыгынын төмөнкү чегин кайтарып берет.
+	 * Returns the lower length limit of search words
 	 *
-	 * @return  integer  Издөө сөздөрүнүн төмөнкү узундуктагы чеги.
+	 * @return  integer  The lower length limit of search words.
 	 *
 	 * @since   1.6
 	 */
-	коомдук статикалык функция getLowerLimitSearchWord()
+	public static function getLowerLimitSearchWord()
 	{
 		return 3;
 	}
 
 	/**
-	 * Издөө сөзүнүн узактыгынын жогорку чегин кайтарып берет
+	 * Returns the upper length limit of search words
 	 *
-	 * @return  integer  Издөө сөзүнүн узактыгынын жогорку чеги.
+	 * @return  integer  The upper length limit of search words.
 	 *
 	 * @since   1.6
 	 */
-	коомдук статикалык функция getUpperLimitSearchWord()
+	public static function getUpperLimitSearchWord()
 	{
 		return 20;
 	}
 
 	/**
-	 * Издөөгө көрсөтүлө турган белгилердин санын кайтарат.
+	 * Returns the number of chars to display when searching
 	 *
-	 * @return  integer  Издөөдө көрсөтүлгөн белгилердин саны.
+	 * @return  integer  The number of chars to display when searching.
 	 *
 	 * @since   1.6
 	 */
-	коомдук стат. функция getSearchDisplayedCharactersNumber()
+	public static function getSearchDisplayedCharactersNumber()
 	{
 		return 200;
 	}

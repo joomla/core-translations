@@ -3,17 +3,17 @@
  * @package    Joomla.Language
  *
  * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License ვერსია 2 ან მეტი; დეტალები - LICENSE.txt
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * ka-GE localise class.
+ * en-GB localise class.
  *
- * @მოყოლებული  1.6 ვერსიიდან
+ * @since  1.6
  */
-abstract class Ka_GELocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -22,7 +22,7 @@ abstract class Ka_GELocalise
 	 *
 	 * @return  array  An array of potential suffixes.
 	 *
-	 * @მოყოლებული  1.6 ვერსიიდან
+	 * @since   1.6
 	 */
 	public static function getPluralSuffixes($count)
 	{
@@ -45,7 +45,7 @@ abstract class Ka_GELocalise
 	 *
 	 * @return  array  An array of ignored search words.
 	 *
-	 * @მოყოლებული  1.6 ვერსიიდან
+	 * @since   1.6
 	 */
 	public static function getIgnoredSearchWords()
 	{
@@ -57,7 +57,7 @@ abstract class Ka_GELocalise
 	 *
 	 * @return  integer  The lower length limit of search words.
 	 *
-	 * @მოყოლებული  1.6 ვერსიიდან
+	 * @since   1.6
 	 */
 	public static function getLowerLimitSearchWord()
 	{
@@ -69,7 +69,7 @@ abstract class Ka_GELocalise
 	 *
 	 * @return  integer  The upper length limit of search words.
 	 *
-	 * @მოყოლებული  1.6 ვერსიიდან
+	 * @since   1.6
 	 */
 	public static function getUpperLimitSearchWord()
 	{
@@ -81,7 +81,7 @@ abstract class Ka_GELocalise
 	 *
 	 * @return  integer  The number of chars to display when searching.
 	 *
-	 * @მოყოლებული  1.6 ვერსიიდან
+	 * @since   1.6
 	 */
 	public static function getSearchDisplayedCharactersNumber()
 	{

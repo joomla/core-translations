@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="">
+<metafile client="installation">
 	<name>Thai (th-TH)</name>
 	<version/>
 	<creationDate/>
-	<author>Thai Translation Team</author>
+	<author> </author>
 	<copyright/>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension client="" type="שפה" method="">
+<extension client="api" type="language" method="upgrade">
 	<name>Hebrew (Israel) עברית</name>
 	<tag>he-IL</tag>
 	<version/>
 	<creationDate/>
-	<author>Joomla! Israel</author>
+	<author> </author>
 	<authorEmail>info@joomla.org.il</authorEmail>
 	<authorUrl>www.joomla.org.il</authorUrl>
 	<copyright/>
@@ -12,7 +12,7 @@
 	<description/>
 	<files>
 		<folder/>
-		<filename file=""/>
+		<filename file="meta"/>
 	</files>
 	<params/>
 </extension>

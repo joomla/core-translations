@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension type="pachet" method="">
+<extension type="package" method="upgrade">
 	<name>Romanian Language Pack</name>
 	<packagename>ro-RO</packagename>
 	<version/>
@@ -15,9 +15,9 @@
 	<description><![CDATA[Joomla! 3.9 Full Romanian (ro-RO) Language Package - Version 3.9.3v1]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="limba" client="website" id="ro-RO">language/ro-RO</folder>
-		<folder type="limba" client="administrator" id="ro-RO">administrator/language/ro-RO</folder>
-		<folder type="limba" client="" id="ro-RO"/>
+		<folder type="language" client="site" id="en-GB">language/ro-RO</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/ro-RO</folder>
+		<folder type="language" client="api" id="en-GB"/>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

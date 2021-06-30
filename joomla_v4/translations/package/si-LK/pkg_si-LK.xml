@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension type="ඇසුරුම" method="">
+<extension type="package" method="upgrade">
 	<name>Sinhala (Sri Lanka) si-LK Language Pack</name>
 	<packagename/>
 	<version/>
@@ -15,11 +15,11 @@
 	<description><![CDATA[si-LK language pack]]></description>
 	<blockChildUninstall/>
 	<files>
-		<folder type="භාෂාව" client="" id=""/>
-		<folder type="භාෂාව" client="" id=""/>
-		<folder type="භාෂාව" client="" id=""/>
+		<folder type="language" client="site" id="en-GB"/>
+		<folder type="language" client="administrator" id="en-GB"/>
+		<folder type="language" client="api" id="en-GB"/>
 	</files>
 	<updateservers>
-		<server type="" priority="" name=""/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
 	</updateservers>
 </extension>

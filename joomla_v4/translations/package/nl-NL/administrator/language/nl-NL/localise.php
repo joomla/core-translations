@@ -2,7 +2,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2011 - 2021 Open Source Matters, Inc. <https://www.joomla.org>
+ * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -28,7 +28,7 @@ abstract class Nl_NLLocalise
 	{
 		if ($count == 0)
 		{
-			return array('OTHER', 'MORE');
+			return array('en', 'de', 'het', 'een', 'in', 'is', 'op');
 		}
 		elseif ($count == 1)
 		{
@@ -49,7 +49,7 @@ abstract class Nl_NLLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('en', 'de', 'het', 'een', 'in', 'is', 'op');
+		return array('and', 'in', 'on');
 	}
 
 	/**

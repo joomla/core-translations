@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="site" method="upgrade">
-	<tag>de-CH</tag>
+<metafile client="site">
 	<name>German (Swiss)</name>
 	<version>4.0.0-rc2.4</version>
 	<creationDate>17.06.2021</creationDate>
@@ -24,5 +23,5 @@
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
 	</metadata>
-	<params />
+	<params/>
 </metafile>
