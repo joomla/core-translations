@@ -23,13 +23,7 @@ jobs:
       uses: crowdin/github-action@1.1.0
       with:
         # Upload sources to Crowdin
-        upload_sources: true
-        # Upload translations to Crowdin
-        upload_translations: false
-        # Automatically approves uploaded translations
-        auto_approve_imported: true
-        # Automatically approves uploaded translations
-        import_eq_suggestions: true
+        upload_sources: false
         # Make pull request of Crowdin translations
         download_translations: true
         # Only download translated strings
