@@ -17,3 +17,6 @@ jobs:
       with:
         url: 'https://api.crowdin.com/api/project/joomla-cms/export?key=${{ secrets.CROWDIN_V1_APIKEY }}&async=1'
         method: 'POST'
+
+    - name: Show Response
+      run: echo ${{ steps.BuildV4CMS.outputs.response }}
