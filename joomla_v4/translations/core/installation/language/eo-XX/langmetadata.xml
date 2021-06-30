@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="">
+<metafile client="installation">
 	<name>Esperanto (eo-XX)</name>
 	<version/>
 	<creationDate/>
-	<author>EsperantoSverige, Svedio</author>
+	<author> </author>
 	<copyright/>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>

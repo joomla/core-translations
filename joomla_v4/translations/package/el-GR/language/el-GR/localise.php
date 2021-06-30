@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * el-GR κλάση τοπικοποίησης.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class El_GRLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -32,11 +32,11 @@ abstract class El_GRLocalise
 		}
 		elseif ($count == 1)
 		{
-			return array('ΕΝΑ', '1');
+			return array('ONE', '1');
 		}
 		else
 		{
-			return array('ΑΛΛΟ', 'ΠΕΡΙΣΣΟΤΕΡΑ');
+			return array('OTHER', 'MORE');
 		}
 	}
 }

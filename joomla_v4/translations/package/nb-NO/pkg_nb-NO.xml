@@ -15,9 +15,9 @@
 	<description><![CDATA[Norsk bokmål (nb-NO) språkpakke]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="nb-NO">language/nb-NO</folder>
-		<folder type="language" client="administrator" id="nb-NO">administrator/language/nb-NO</folder>
-		<folder type="language" client="api" id="nb-NO">api/language/nb-NO</folder>
+		<folder type="language" client="site" id="en-GB">language/nb-NO</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/nb-NO</folder>
+		<folder type="language" client="api" id="en-GB">api/language/nb-NO</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

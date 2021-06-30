@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension type="pacchetto" method="upgrade">
+<extension type="package" method="upgrade">
 	<name>Italian Language Pack</name>
 	<packagename>it-IT</packagename>
 	<version>4.0.0.1</version>
@@ -18,12 +18,12 @@
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="lingua" client="site" id="it-IT">language/it-IT</folder>
-		<folder type="lingua" client="administrator" id="it-IT">administrator/language/it-IT</folder>
-		<folder type="lingua" client="api" id="it-IT">api/language/it-IT</folder>
+		<folder type="language" client="site" id="en-GB">language/it-IT</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/it-IT</folder>
+		<folder type="language" client="api" id="en-GB">api/language/it-IT</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Traduzioni Joomla! Accreditate">
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>

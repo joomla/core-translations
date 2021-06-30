@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Tamil (ta-IN) Language Pack</name>
+	<packagename>ta-IN</packagename>
+	<version/>
+	<creationDate>October 2018</creationDate>
+	<author>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</author>
+	<authorEmail>mig.joomla@gmail.com</authorEmail>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</packager>
+	<packagerurl/>
+	<description><![CDATA[Tamil-INDIA (ta-IN) Language Package for Joomla! 3.8.10]]></description>
+	<blockChildUninstall>உண்மை</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="en-GB">site_ta-IN</folder>
+		<folder type="language" client="administrator" id="en-GB">admin_ta-IN</folder>
+		<folder type="language" client="api" id="en-GB"/>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+	</updateservers>
+</extension>

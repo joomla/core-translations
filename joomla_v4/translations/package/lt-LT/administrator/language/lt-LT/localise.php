@@ -3,17 +3,17 @@
  * @package    Joomla.Language
  *
  * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License versija 2 arba naujesnė; žr. LICENSE.txt
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * lt-LT localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Lt_LTLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -30,15 +30,11 @@ abstract class Lt_LTLocalise
 		{
 			return array('0');
 		}
-		elseif ($count % 10 == 1 && $count % 100 != 11)
+		elseif ($count == 1)
 		{
 			return array('ONE', '1');
 		}
-		elseif ($count % 10 >= 2 && $count % 10 <= 9 && $count%100 <= 10 || $count%100 > 20)
-{
-return array('FEW', '2');
-}
-else
+		else
 		{
 			return array('OTHER', 'MORE');
 		}
@@ -53,7 +49,7 @@ else
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('ir', 'į', 'ant');
+		return array('and', 'in', 'on');
 	}
 
 	/**

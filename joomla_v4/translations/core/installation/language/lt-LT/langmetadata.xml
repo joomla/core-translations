@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="">
+<metafile client="installation">
 	<name>Lietuvių (lt-LT)</name>
 	<version/>
 	<creationDate/>
-	<author>Rimvydas Žilinskas</author>
+	<author> </author>
 	<copyright/>
 	<license>GNU General Public License versija 2 arba naujesnė; žr. LICENSE.txt</license>
 	<files>

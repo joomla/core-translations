@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension client="" type="kalba" method="">
+<extension client="api" type="language" method="upgrade">
 	<name>Lietuvių (lt-LT)</name>
 	<tag>lt-LT</tag>
 	<version/>
 	<creationDate/>
-	<author>Rimvydas Žilinskas</author>
+	<author> </author>
 	<authorEmail>rimvydas@rimvydas.info</authorEmail>
 	<authorUrl>www.rimvydas.info</authorUrl>
 	<copyright/>
@@ -12,7 +12,7 @@
 	<description/>
 	<files>
 		<folder/>
-		<filename file=""/>
+		<filename file="meta"/>
 	</files>
 	<params/>
 </extension>

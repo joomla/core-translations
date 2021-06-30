@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="">
+<metafile client="api">
 	<name>Esperanto (eo-XX)</name>
 	<version/>
 	<creationDate/>
-	<author>EsperantoSverige, Svedio</author>
+	<author> </author>
 	<authorEmail>tradukoj@esperantosverige.se</authorEmail>
 	<authorUrl>esperantosverige.se</authorUrl>
 	<copyright/>

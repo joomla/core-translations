@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension type="package" method="përmirësim">
+<extension type="package" method="upgrade">
 	<name>Paketa gjuhësore Shqip (sq-AL)</name>
 	<packagename>sq-AL</packagename>
 	<version>4.0.0.1</version>
@@ -15,9 +15,9 @@
 	<description><![CDATA[paketa gjuhësore sq-AL]]></description>
 	<blockChildUninstall>vërteto</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="sq-AL">gjuha/sq-AL</folder>
-		<folder type="language" client="administrator" id="sq-AL">administrator/language/sq-AL</folder>
-		<folder type="gjuha" client="" id="sq-AL"/>
+		<folder type="language" client="site" id="en-GB">gjuha/sq-AL</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/sq-AL</folder>
+		<folder type="language" client="api" id="en-GB"/>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

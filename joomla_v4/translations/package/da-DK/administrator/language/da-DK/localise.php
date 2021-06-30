@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * da-DK localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class da_DKLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class da_DKLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('og', 'i', 'på');
+		return array('and', 'in', 'on');
 	}
 
 	/**

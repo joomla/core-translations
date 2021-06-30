@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * lv-LV localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Lv_LVLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -30,7 +30,7 @@ abstract class Lv_LVLocalise
 		{
 			return array('0');
 		}
-		elseif ($count % 10 == 1 && $count != 11)
+		elseif ($count == 1)
 		{
 			return array('ONE', '1');
 		}
@@ -49,7 +49,7 @@ abstract class Lv_LVLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('un');
+		return array('and', 'in', 'on');
 	}
 
 	/**

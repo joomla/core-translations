@@ -9,18 +9,18 @@
 defined('_JEXEC') or die;
 
 /**
- * ca-ES localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Ca_ESLocalise
+abstract class En_GBLocalise
 {
 	/**
-	 * Torna els sufixos potencials per a un nombre concret d'elements
+	 * Returns the potential suffixes for a specific number of items
 	 *
-	 * @param   integer  $count  Tel nombre d'elements.
+	 * @param   integer  $count  The number of items.
 	 *
-	 * @return  array  Una gran varietat de possibles sufixos.
+	 * @return  array  An array of potential suffixes.
 	 *
 	 * @since   1.6
 	 */
@@ -41,9 +41,9 @@ abstract class Ca_ESLocalise
 	}
 
 	/**
-	 * Retorna les paraules cercades a ignorar
+	 * Returns the ignored search words
 	 *
-	 * @return  array Una gran varietat de paraules de cerca ignorades.
+	 * @return  array  An array of ignored search words.
 	 *
 	 * @since   1.6
 	 */
@@ -53,9 +53,9 @@ abstract class Ca_ESLocalise
 	}
 
 	/**
-	 * Torna el mínim de longitud de les paraules a cercar
+	 * Returns the lower length limit of search words
 	 *
-	 * @return  integer   Torna el mínim de longitud de les paraules a cercar.
+	 * @return  integer  The lower length limit of search words.
 	 *
 	 * @since   1.6
 	 */
@@ -65,9 +65,9 @@ abstract class Ca_ESLocalise
 	}
 
 	/**
-	 * Torna el mínim de longitud de les paraules a cercar
+	 * Returns the upper length limit of search words
 	 *
-	 * @return  integer   El màxim de longitud de les paraules a cercar.
+	 * @return  integer  The upper length limit of search words.
 	 *
 	 * @since   1.6
 	 */
@@ -77,9 +77,9 @@ abstract class Ca_ESLocalise
 	}
 
 	/**
-	 * Retorna el nombre de caràcters per mostrar mentres cerques
+	 * Returns the number of chars to display when searching
 	 *
-	 * @return  integer  El nombre de caràcters a mostrar quan cerques.
+	 * @return  integer  The number of chars to display when searching.
 	 *
 	 * @since   1.6
 	 */

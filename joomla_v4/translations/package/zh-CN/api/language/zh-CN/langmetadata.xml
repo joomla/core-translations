@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="">
+<metafile client="api">
 	<name/>
 	<version/>
 	<creationDate/>
-	<author>Joomla!中文官网 www.joomlachina.org.cn 周永建</author>
-	<authorEmail/>
+	<author> </author>
+	<authorEmail>Joomla!中文官网 www.joomlachina.org.cn 周永建</authorEmail>
 	<authorUrl/>
 	<copyright/>
 	<license/>

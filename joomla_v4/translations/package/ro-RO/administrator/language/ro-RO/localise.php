@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * ro-RO localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Ro_ROLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class Ro_ROLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('și', 'si', 'în', 'in', 'pe', 'sau', 'ori', 'la', 'de', 'va', 'vă', 'îți', 'iti', 'sa', 'îl', 'il', 'o', 'a', 'e', 'i', 'ți', 'ti', 'se');
+		return array('and', 'in', 'on');
 	}
 
 	/**

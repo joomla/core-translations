@@ -15,9 +15,9 @@
 	<description><![CDATA[hr-HR language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="hr-HR">language/hr-HR</folder>
-		<folder type="language" client="administrator" id="hr-HR">administrator/language/hr-HR</folder>
-		<folder type="language" client="api" id="hr-HR"/>
+		<folder type="language" client="site" id="en-GB">language/hr-HR</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/hr-HR</folder>
+		<folder type="language" client="api" id="en-GB"/>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

@@ -15,9 +15,9 @@
 	<description><![CDATA[cy-GB language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="cy-GB">language/cy-GB</folder>
-		<folder type="language" client="administrator" id="cy-GB">administrator/language/cy-GB</folder>
-		<folder type="language" client="api" id="cy-GB">api/language/cy-GB</folder>
+		<folder type="language" client="site" id="en-GB">language/cy-GB</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/cy-GB</folder>
+		<folder type="language" client="api" id="en-GB">api/language/cy-GB</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>

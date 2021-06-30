@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile client="">
+<metafile client="installation">
 	<name/>
 	<version/>
 	<creationDate/>
-	<author>Joomla!中文官网 www.joomlachina.org.cn 周永建</author>
+	<author> </author>
 	<copyright/>
 	<license/>
 	<files>
-		<filename/>
+		<filename>Joomla!中文官网 www.joomlachina.org.cn 周永建</filename>
 	</files>
 	<metadata>
 		<name/>

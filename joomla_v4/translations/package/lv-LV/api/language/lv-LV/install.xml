@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension client="" type="tulkojums" method="upgrade">
+<extension client="api" type="language" method="upgrade">
 	<name>Latviešu (lv-LV)</name>
 	<tag>lv-LV</tag>
 	<version>4.0.0</version>
 	<creationDate/>
-	<author>Joomla! Project</author>
+	<author> </author>
 	<authorEmail>lemings@inbox.lv</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright/>

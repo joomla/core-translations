@@ -21,12 +21,12 @@
 			<p><strong>Različica prevoda:</strong> 4.0.0.1 </p></div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="sl-SI">language/sl-SI</folder>
-		<folder type="language" client="administrator" id="sl-SI">administrator/language/sl-SI</folder>
-		<folder type="language" client="api" id="sl-SI">api/language/sl-SI</folder>
+		<folder type="language" client="site" id="en-GB">language/sl-SI</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/sl-SI</folder>
+		<folder type="language" client="api" id="en-GB">api/language/sl-SI</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Akreditirani Joomla! prevodi">
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>

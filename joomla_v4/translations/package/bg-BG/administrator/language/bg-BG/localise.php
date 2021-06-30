@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * bg-BG localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class bg_BGLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,15 +49,7 @@ abstract class bg_BGLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		$search_ignore = array();
-$search_ignore[] = "и";
-$search_ignore[] = "в";
-$search_ignore[] = "или";
-$search_ignore[] = "на";
-$search_ignore[] = "за";
-$search_ignore[] = "по";
-$search_ignore[] = "с";
-return $search_ignore;
+		return array('and', 'in', 'on');
 	}
 
 	/**
@@ -69,7 +61,7 @@ return $search_ignore;
 	 */
 	public static function getLowerLimitSearchWord()
 	{
-		return 2;
+		return 3;
 	}
 
 	/**
@@ -81,7 +73,7 @@ return $search_ignore;
 	 */
 	public static function getUpperLimitSearchWord()
 	{
-		return 100;
+		return 20;
 	}
 
 	/**
@@ -93,6 +85,6 @@ return $search_ignore;
 	 */
 	public static function getSearchDisplayedCharactersNumber()
 	{
-		return 1000;
+		return 200;
 	}
 }

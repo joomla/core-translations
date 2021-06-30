@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile client="api">
+	<name>Arabic Unitag (العربية الموحدة)</name>
+	<version/>
+	<creationDate/>
+	<author> Arabic Unitag Translation team</author>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright>Copyright (C) 2005 - 2021 Open Source Matters.</copyright>
+	<license/>
+	<description><![CDATA[]]></description>
+	<metadata>
+		<name>Arabic Unitag (العربية الموحدة)</name>
+		<nativeName>Arabic Unitag (اللغة العربية)</nativeName>
+		<tag>ar-AA</tag>
+		<rtl>1</rtl>
+		<locale/>
+		<firstDay/>
+		<weekEnd/>
+		<calendar/>
+	</metadata>
+	<params/>
+</metafile>
