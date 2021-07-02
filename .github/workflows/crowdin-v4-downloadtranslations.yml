@@ -27,7 +27,7 @@ jobs:
         # Make pull request of Crowdin translations
         download_translations: true
         # Only download translated strings
-        skip_untranslated_strings: false
+        skip_untranslated_strings: true
         # Include approved translations only in exported files. 
         # If not combined with --skip-untranslated-strings option, strings without approval are fulfilled with the source language'
         export_only_approved: true
