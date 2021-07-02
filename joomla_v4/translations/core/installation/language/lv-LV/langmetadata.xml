@@ -2,12 +2,12 @@
 <metafile client="installation">
 	<name>Latviešu (lv-LV)</name>
 	<version>4.0.0</version>
-	<creationDate/>
-	<author> </author>
-	<copyright/>
+	<creationDate>October 2019</creationDate>
+	<author>Joomla! Project</author>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License versija 2 vai jaunāka; skatīt LICENSE.txt</license>
 	<files>
-		<filename/>
+		<filename>joomla.ini</filename>
 	</files>
 	<metadata>
 		<name>Latviešu (lv-LV)</name>

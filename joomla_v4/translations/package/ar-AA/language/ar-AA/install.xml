@@ -6,12 +6,12 @@
 	<creationDate>25/05/2021</creationDate>
 	<author>Ashraf Damra</author>
 	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
-	<authorUrl/>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>Copyright (C) 2005 - 2020 Open Source Matters, Inc. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<description>ar-AA - Site language</description>
 	<files>
-		<folder/>
+		<folder>/</folder>
 		<filename file="meta">ar-AA.ini</filename>
 	</files>
 	<params/>

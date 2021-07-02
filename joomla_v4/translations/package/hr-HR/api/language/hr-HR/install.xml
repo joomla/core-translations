@@ -3,11 +3,11 @@
 	<name>Croatian (Croatia)</name>
 	<tag>hr-HR</tag>
 	<version>4.0.0</version>
-	<creationDate/>
-	<author> </author>
+	<creationDate>October 2019</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>prijevod@joomla.hr</authorEmail>
 	<authorUrl>http://www.joomla.hr</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU Opća javna licenca verzija 2 ili novija; vidi LICENSE.txt</license>
 	<description>hr-HR jezik api-a</description>
 	<files>

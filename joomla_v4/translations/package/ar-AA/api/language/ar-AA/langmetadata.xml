@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Arabic Unitag (العربية الموحدة)</name>
-	<version/>
-	<creationDate/>
-	<author> Arabic Unitag Translation team</author>
-	<authorEmail/>
-	<authorUrl/>
+	<version>3.9.27.1</version>
+	<creationDate>25/05/2021</creationDate>
+	<author>Joomla! Arabic Unitag Translation team</author>
+	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>Copyright (C) 2005 - 2021 Open Source Matters.</copyright>
-	<license/>
-	<description><![CDATA[]]></description>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[en-GB api language]]></description>
 	<metadata>
 		<name>Arabic Unitag (العربية الموحدة)</name>
 		<nativeName>Arabic Unitag (اللغة العربية)</nativeName>
 		<tag>ar-AA</tag>
 		<rtl>1</rtl>
-		<locale/>
-		<firstDay/>
-		<weekEnd/>
-		<calendar/>
+		<locale>ar_AR.utf8, ar_AR.UTF-8, ar_AR, ara_AR, arb_AR, arabic_ar, arabe, ara, arab, arabic, ar, arabic_Standard, ar_AR.iso88596, ar_AR.ISO-8859-6, ar_AR.ISO8859-6, ISO-8859-6</locale>
+		<firstDay>1</firstDay>
+		<weekEnd>6,5</weekEnd>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>

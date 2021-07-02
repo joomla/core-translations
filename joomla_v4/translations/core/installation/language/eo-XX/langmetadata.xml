@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="installation">
 	<name>Esperanto (eo-XX)</name>
-	<version/>
-	<creationDate/>
-	<author> </author>
-	<copyright/>
+	<version>4.0.0</version>
+	<creationDate>October 2019</creationDate>
+	<author>Joomla! Project</author>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>
-		<filename/>
+		<filename>joomla.ini</filename>
 	</files>
 	<metadata>
 		<name>Esperanto (eo-XX)</name>

@@ -3,11 +3,11 @@
 	<name>Magyar (hu-HU)</name>
 	<tag>hu-HU</tag>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Joomla! Hungary</author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
 	<authorUrl>https://joomlacms.hu</authorUrl>
-	<copyright/>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt</license>
 	<description>hu-HU site language</description>
 	<files>

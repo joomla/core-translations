@@ -1,119 +1,119 @@
-; Joomla! Project
-; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; Joomla! Projekt
+; (C) 2021 Open Source Matters, Inc. <https://www.joomla.org>
+; Licens GNU General Public Licens version 2 eller senere; se LICENSE.txt
+; Bemærk : Denne fil skal gemmes som UTF-8
 
 i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
+mig
+min
+mig selv
+vi
+vores
+vore
+os selv
+du
+din
+dine
+dig selv
+jer selv
+han
+han
+hans
+ham selv
+hun
+hun
+hendes
+hende selv
+det
+dets
+sig selv
+de
+de
+deres
+deres
+dem selv
+hvad
+hvilke
+hvem
+hvis
+dette
+det
+disse
+disse
+er
+er
+er
+var
+var
+være
+været
+bliver
+har
+har
+havde
+har
+gør
+gør
+gjorde
+gør
+ville
+skal
+kunne
+burde
+jeg
+du
+han er
+hun er
+det er
+vi er
+de er
+jeg har
+du har
+de har
+de har
+jeg ville
+du ville
+han ville
+hun ville
+vi ville
+de ville
+jeg vil
+du vil
+han vil
+hun vil
+vi vil
+de vil
+er ikke
+er ikke
+var ikke
+var ikke
+har ikke
+har ikke
+havde ikke
+gør ikke
+gør ikke
+gjorde ikke
+vil ikke
+ville ikke
+skal ikke
+skulle ikke
+kan ikke
+kan ikke
+kunne ikke
+skal ikke
+lad os
+det er
+hvem der
+hvad
 her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
+der
+når
+hvor er
+hvorfor
+hvordan
+en
+en
+ 
 og
 men
 hvis
@@ -122,14 +122,14 @@ fordi
 som
 indtil
 mens
-of
-at
-by
+ud af
+på
+ved
 for
-with
-about
-against
-between
+med
+om
+imod
+mellem
 i
 gennem
 under
@@ -171,9 +171,9 @@ nej
 heller ikke
 ikke
 kun
-own
-same
-so
-than
-too
-very
+egen
+samme
+så
+end
+også
+meget

@@ -4,10 +4,10 @@
 	<tag>sk-SK</tag>
 	<version>4.0.0</version>
 	<creationDate>Október 2019</creationDate>
-	<author> </author>
+	<author>Joomla! Project</author>
 	<authorEmail>petov@mail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License verzie 2 alebo neskoršej; Pozrite si súbor LICENSE.txt</license>
 	<description>sk-SK api lokalizácia</description>
 	<files>

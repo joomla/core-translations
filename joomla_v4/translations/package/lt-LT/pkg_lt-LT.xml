@@ -2,12 +2,12 @@
 <extension type="package" method="upgrade">
 	<name>Lithuanian (Lithuania) lt-LT Language Pack</name>
 	<packagename>lt-LT</packagename>
-	<version/>
-	<creationDate/>
+	<version>4.0.0.1</version>
+	<creationDate>June 2021</creationDate>
 	<author>Rimvydas Žilinskas</author>
 	<authorEmail>rimvydas@rimvydas.info</authorEmail>
 	<authorUrl>www.rimvydas.info</authorUrl>
-	<copyright/>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Rimvydas Žilinskas</packager>
@@ -17,9 +17,11 @@
 	<files>
 		<folder type="language" client="site" id="en-GB">site_lt-LT</folder>
 		<folder type="language" client="administrator" id="en-GB">admin_lt-LT</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="api" id="en-GB">api/language/en-GB</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

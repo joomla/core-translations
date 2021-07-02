@@ -9,7 +9,7 @@
 	<authorUrl>https://www.joomlaclub.ch</authorUrl>
 	<copyright>(C) 2008 - 2021 All rights reserved.</copyright>
 	<license>GNU General Public License; see LICENSE.txt</license>
-	<url/>
+	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>J!Club</packager>
 	<packagerurl>https://www.joomlaclub.ch</packagerurl>
 	<description><![CDATA[
@@ -23,9 +23,9 @@
 	]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB"/>
-		<folder type="language" client="administrator" id="en-GB"/>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="en-GB">language/en-GB</folder>
+		<folder type="language" client="administrator" id="en-GB">administrator/language/en-GB</folder>
+		<folder type="language" client="api" id="en-GB">api/language/en-GB</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_4.xml</server>

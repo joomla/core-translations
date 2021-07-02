@@ -2,11 +2,11 @@
 <metafile client="site">
 	<name>Catalan (ca-ES)</name>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Catalan Translation Team</author>
 	<authorEmail>el.libre@gmail.com</authorEmail>
 	<authorUrl>www.catmidia.cat</authorUrl>
-	<copyright/>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
 	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
 	<description><![CDATA[catalan language pack for Joomla! 3 - Site - Paquet d'idioma català per Joomla 3 - Lloc Web]]></description>
 	<metadata>

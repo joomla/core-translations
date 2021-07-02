@@ -2,13 +2,13 @@
 <metafile client="api">
 	<name>Finnish (FI)</name>
 	<version>3.9.2.0</version>
-	<creationDate/>
-	<author> </author>
+	<creationDate>June 2021</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[en-GB api language]]></description>
 	<metadata>
 		<name>Finnish (FI)</name>
 		<nativeName>Finnish (FI)</nativeName>

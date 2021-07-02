@@ -3,15 +3,15 @@
 	<name>Finnish (FI)</name>
 	<tag>fi-FI</tag>
 	<version>3.9.2.0</version>
-	<creationDate/>
-	<author> </author>
+	<creationDate>October 2019</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description/>
+	<description>en-GB api language</description>
 	<files>
-		<folder/>
+		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>

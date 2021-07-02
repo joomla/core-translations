@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
 	<name>Româna (ro-RO)</name>
-	<version/>
-	<creationDate/>
+	<version>4.0.0</version>
+	<creationDate>June 2021</creationDate>
 	<author>Horia Negura - Quanta</author>
 	<authorEmail>fakemoth@gmail.com</authorEmail>
 	<authorUrl>www.quanta-group.ro/</authorUrl>
-	<copyright/>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License versiunea 2 sau mai nouă, a se vedea LICENSE.txt</license>
 	<description><![CDATA[Joomla! 3.9 Romanian (ro-RO) Website Language Pack - Version 3.9.21.1]]></description>
 	<metadata>

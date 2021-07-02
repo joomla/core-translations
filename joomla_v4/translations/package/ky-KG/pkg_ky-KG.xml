@@ -3,11 +3,11 @@
 	<name>Kyrgyz (ky-KG) Language Pack</name>
 	<packagename>ky-KG</packagename>
 	<version>4.0.0.1</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Joomla! Project - Joomla.KG</author>
 	<authorEmail>ohna@bk.ru</authorEmail>
 	<authorUrl>www.joomla.kg</authorUrl>
-	<copyright/>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project - Joomla.KG</packager>
@@ -20,6 +20,8 @@
 		<folder type="language" client="api" id="en-GB">api_ky-KG</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

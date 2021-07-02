@@ -2,9 +2,9 @@
 <metafile client="installation">
 	<name>Български (bg-BG)</name>
 	<version>4.0.0</version>
-	<creationDate/>
-	<author> </author>
-	<copyright/>
+	<creationDate>October 2019</creationDate>
+	<author>Joomla! Project</author>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License версия 2 или по-късна; Виж LICENSE.txt</license>
 	<files>
 		<filename>joomla.ini</filename>

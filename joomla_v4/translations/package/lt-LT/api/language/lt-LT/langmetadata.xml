@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Lietuvių (lt-LT)</name>
-	<version/>
-	<creationDate/>
-	<author> </author>
+	<version>4.0.0</version>
+	<creationDate>June 2021</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>rimvydas@rimvydas.info</authorEmail>
 	<authorUrl>www.rimvydas.info</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License versija 2 arba naujesnė; žr. LICENSE.txt</license>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[en-GB api language]]></description>
 	<metadata>
 		<name>Lietuvių (lt-LT)</name>
 		<nativeName>Lietuvių (lt-LT)</nativeName>

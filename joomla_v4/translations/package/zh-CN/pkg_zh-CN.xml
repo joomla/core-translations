@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
 	<name>Chinese Simplified (zh-CN) Language Pack</name>
-	<packagename/>
-	<version/>
-	<creationDate/>
+	<packagename>en-GB</packagename>
+	<version>4.0.0.1</version>
+	<creationDate>June 2021</creationDate>
 	<author>Joomla!中文官网 www.joomlachina.org.cn 周永建</author>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla!中文官网 www.joomlachina.org.cn 周永建</packager>
-	<packagerurl/>
+	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[Joomla！简体中文(zh-CN) 语言]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="en-GB">site_zh-CN</folder>
 		<folder type="language" client="administrator" id="en-GB">administrator/language/zh-CN</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="api" id="en-GB">api/language/en-GB</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

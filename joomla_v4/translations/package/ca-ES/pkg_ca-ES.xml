@@ -3,7 +3,7 @@
 	<name>Catalan (ca-ES) Language Pack</name>
 	<packagename>ca-ES</packagename>
 	<version>4.0.0.1</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Catalan Translation Team</author>
 	<authorEmail>el.libre@gmail.com</authorEmail>
 	<authorUrl>www.catmidia.cat</authorUrl>
@@ -20,6 +20,8 @@
 		<folder type="language" client="api" id="en-GB">api/language/ca-ES</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

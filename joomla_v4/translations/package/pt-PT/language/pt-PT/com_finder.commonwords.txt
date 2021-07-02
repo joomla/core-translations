@@ -1,12 +1,12 @@
 ; Joomla! Project
-; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; Direitos de Autor (C) 2019 - Open Source Matters, Inc. Todos os direitos reservados. <https://www.joomla.org>
+; Licença Pública Geral GNU/GPL - versão 2 ou posterior; ver ficheiro LICENSE.txt
+; Nota: Esse ficheiro tem de ser guardado como UTF-8
 
-i
-me
-my
-myself
+eu
+mim
+meu
+eu próprio
 nós
 nosso
 nossos
@@ -17,22 +17,22 @@ seus
 você mesmo
 vocês mesmos
 ele
-him
-his
-himself
+ele
+dele
+ele próprio
 ela
-her
+ela
 hers
-herself
+ela própria
 it
 its
 itself
-they
-them
+eles
+eles
 their
 theirs
 themselves
-what
+que
 which
 who
 whom
@@ -53,15 +53,15 @@ has
 had
 having
 do
-does
-did
-doing
-would
-should
-could
+faz
+fez
+a fazer
+seria
+deve
+pode
 ought
-i'm
-you're
+eu sou
+você é
 he's
 she's
 it's
@@ -87,8 +87,8 @@ isn't
 aren't
 wasn't
 weren't
-hasn't
-haven't
+não tem
+não tem
 hadn't
 doesn't
 don't
@@ -97,13 +97,13 @@ won't
 wouldn't
 shan't
 shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
+não pode
+não pode
+não pôde
+não deve
+vamos
+que é
+quem é
 what's
 here's
 there's
@@ -111,11 +111,11 @@ when's
 where's
 why's
 how's
-a
-an
+um
+uma
 o
 e
-but
+mas
 se
 ou
 porque
@@ -127,32 +127,32 @@ em
 por
 para
 com
-about
-against
-between
-into
-through
-during
+sobre
+contra
+entre
+para
+através
+durante
 antes
 depois
-above
-below
-to
-from
-up
+acima
+abaixo
+para
+de
+subir
 descer
 dentro
 fora
 ligado
 desligado
-over
-under
+sobre
+sob
 novamente
-further
+adiante
 então
 uma vez
 aqui
-there
+ali
 quando
 onde
 porquê

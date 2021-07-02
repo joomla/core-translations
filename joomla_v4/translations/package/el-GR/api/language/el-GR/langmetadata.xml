@@ -2,12 +2,12 @@
 <metafile client="api">
 	<name>Greek (el-GR)</name>
 	<version>4.0.0</version>
-	<creationDate/>
-	<author> </author>
+	<creationDate>June 2021</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
-	<copyright/>
-	<license/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[el-GR api language]]></description>
 	<metadata>
 		<name>Greek (el-GR)</name>

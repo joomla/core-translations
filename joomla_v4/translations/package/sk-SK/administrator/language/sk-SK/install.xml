@@ -9,7 +9,7 @@
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License verzie 2 alebo neskoršej; Pozrite si súbor LICENSE.txt</license>
-	<description>Jazykový balíček sk-SK pre administráciu</description>
+	<description>sk-SK jazykový balíček pre administráciu</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

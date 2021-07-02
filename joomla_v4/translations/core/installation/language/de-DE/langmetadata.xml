@@ -2,12 +2,12 @@
 <metafile client="installation">
 	<name>German (Germany)</name>
 	<version>4.0.0-rc2.1</version>
-	<creationDate/>
-	<author> </author>
+	<creationDate>October 2019</creationDate>
+	<author>Joomla! Project</author>
 	<copyright>(C) 2008 - 2021 J!German. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>
-		<filename/>
+		<filename>joomla.ini</filename>
 	</files>
 	<metadata>
 		<name>German (DE)</name>

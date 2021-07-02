@@ -3,12 +3,12 @@
 	<name>German (CH)</name>
 	<version>4.0.0-rc2.4</version>
 	<creationDate>17.06.2021</creationDate>
-	<author> </author>
+	<author>Joomla! Project</author>
 	<authorEmail>info@joomlaclub.ch</authorEmail>
 	<authorUrl>https://www.joomlaclub.ch</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License; see LICENSE.txt</license>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[en-GB api language]]></description>
 	<metadata>
 		<name>German (Swiss)</name>
 		<nativeName>German (Swiss)</nativeName>

@@ -2,11 +2,11 @@
 <metafile client="administrator">
 	<name>Croatian (Croatia)</name>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Joomla! Hrvatska team</author>
 	<authorEmail>prijevod@joomla.hr</authorEmail>
 	<authorUrl>http://www.joomla.hr</authorUrl>
-	<copyright/>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU Opća javna licenca verzija 2 ili novija; vidi LICENSE.txt</license>
 	<description><![CDATA[hr-HR jezik administracije]]></description>
 	<metadata>

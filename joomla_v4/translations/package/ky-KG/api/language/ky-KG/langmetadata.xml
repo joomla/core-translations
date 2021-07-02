@@ -2,11 +2,11 @@
 <metafile client="api">
 	<name>Кыргыз тили (ky-KG)</name>
 	<version>4.0.0</version>
-	<creationDate/>
-	<author> </author>
+	<creationDate>June 2021</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>ohna@bk.ru</authorEmail>
 	<authorUrl>www.joomla.kg</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU Жалпы Коомдук Лицензиясы 2 же андан кийинки нускасы; LICENSE.txt бөлүмүн караңыз.</license>
 	<description><![CDATA[ky-KG api language]]></description>
 	<metadata>

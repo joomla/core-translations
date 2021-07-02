@@ -2,17 +2,17 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Serbian Latin</name>
 	<tag>sr-YU</tag>
-	<version/>
-	<creationDate/>
+	<version>4.0.0</version>
+	<creationDate>June 2021</creationDate>
 	<author>Serbian translation team: Joomla! Serbia</author>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
-	<copyright/>
-	<license/>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>sr-YU Serbian Latin administrator language pack for Joomla</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

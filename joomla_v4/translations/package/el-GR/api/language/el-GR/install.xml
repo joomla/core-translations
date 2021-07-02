@@ -4,10 +4,10 @@
 	<tag>el-GR</tag>
 	<version>4.0.0</version>
 	<creationDate>Ιούνιος 2020</creationDate>
-	<author> </author>
+	<author>Joomla! Project</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>Γενική Άδεια Δημόσιας Χρήσης GNU έκδοση 2 ή μεταγενέστερη, βλέπε LICENSE.txt</license>
 	<description>el-GR api language</description>
 	<files>

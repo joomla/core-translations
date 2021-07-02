@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
-	<name/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description><![CDATA[]]></description>
+	<name>Arabic Unitag (العربية الموحدة)</name>
+	<version>3.9.27</version>
+	<creationDate>May 2021</creationDate>
+	<author>Dr. Ashraf Damra/Abu Nidal</author>
+	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2021 Open Source Matters &amp; Dr. Ashraf Damra/Abu Nidal. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[Arabic Unitag language files/Administrator ملفات اللغة العربية الموحدة/الإدارة]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
-		<tag/>
-		<rtl/>
-		<locale/>
-		<firstDay/>
-		<weekEnd/>
-		<calendar/>
+		<name>Arabic Unitag (العربية الموحدة)</name>
+		<nativeName>Arabic (اللغة العربية)</nativeName>
+		<tag>ar-AA</tag>
+		<rtl>1</rtl>
+		<locale>ar_AR.utf8, ar_AR.UTF-8, ar_AR, ara_AR, arb_AR, arabic_ar, arabe, ara, arab, arabic, ar, arabic_Standard, ar_AR.iso88596, ar_AR.ISO-8859-6, ar_AR.ISO8859-6, ISO-8859-6</locale>
+		<firstDay>1</firstDay>
+		<weekEnd>6,5</weekEnd>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>

@@ -2,11 +2,11 @@
 <metafile client="api">
 	<name>Catalan (ca-ES)</name>
 	<version>4.0.0</version>
-	<creationDate/>
-	<author> </author>
+	<creationDate>June 2021</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>el.libre@gmail.com</authorEmail>
 	<authorUrl>www.catmidia.cat</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
 	<description><![CDATA[Idioma api ca-ES]]></description>
 	<metadata>

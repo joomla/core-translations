@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="installation">
 	<name>Arabic Unitag (العربية الموحدة)</name>
-	<version/>
+	<version>3.9.27.1</version>
 	<creationDate>June 2021</creationDate>
-	<author> Arabic Unitag Translation team</author>
+	<author>Joomla! Arabic Unitag Translation team</author>
 	<copyright>Copyright (C) 2005 - 2021 Open Source Matters.</copyright>
-	<license/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>
 		<filename>ar-AA.ini</filename>
 	</files>

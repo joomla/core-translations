@@ -2,17 +2,17 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Serbian Cyrillic</name>
 	<tag>sr-RS</tag>
-	<version/>
-	<creationDate/>
-	<author> </author>
+	<version>4.0.0</version>
+	<creationDate>October 2019</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
-	<copyright/>
-	<license/>
-	<description/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>en-GB api language</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

@@ -11,7 +11,7 @@
 	<license>GNU General Public Licens version 2 eller senare; Se LICENSE.txt</license>
 	<description>sv-SE administratörsspråk</description>
 	<files>
-		<folder/>
+		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>

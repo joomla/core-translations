@@ -3,11 +3,11 @@
 	<name>Кыргыз тили (ky-KG)</name>
 	<tag>ky-KG</tag>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Joomla! Project - Joomla.KG</author>
 	<authorEmail>ohna@bk.ru</authorEmail>
 	<authorUrl>www.joomla.kg</authorUrl>
-	<copyright/>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU Жалпы Коомдук Лицензиясы 2 же андан кийинки нускасы; LICENSE.txt бөлүмүн караңыз.</license>
 	<description>ky-KG site language</description>
 	<files>

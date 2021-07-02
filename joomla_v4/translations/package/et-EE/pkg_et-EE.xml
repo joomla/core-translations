@@ -3,7 +3,7 @@
 	<name>Estonian (et-EE) Language Pack</name>
 	<packagename>et-EE</packagename>
 	<version>4.0.0.1</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>rivozangov@gmail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -20,6 +20,8 @@
 		<folder type="language" client="api" id="en-GB">api/language/et-EE</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

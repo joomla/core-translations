@@ -3,11 +3,11 @@
 	<name>Paketa gjuhësore Shqip (sq-AL)</name>
 	<packagename>sq-AL</packagename>
 	<version>4.0.0.1</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Ekipi i përkthimit në Shqip</author>
 	<authorEmail>mirimarku@gmail.com</authorEmail>
 	<authorUrl>https://crowdin.com/profile/mirimarku</authorUrl>
-	<copyright/>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Ekipi i përkthimit në Shqip</packager>
@@ -17,9 +17,11 @@
 	<files>
 		<folder type="language" client="site" id="en-GB">gjuha/sq-AL</folder>
 		<folder type="language" client="administrator" id="en-GB">administrator/language/sq-AL</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="api" id="en-GB">api/language/en-GB</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

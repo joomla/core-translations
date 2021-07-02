@@ -3,10 +3,10 @@
 	<name>Swedish (sv-SE)</name>
 	<version>4.0.0</version>
 	<creationDate>Juni 2021</creationDate>
-	<author> </author>
+	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>http://www.svenskjoomla.se</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public Licens version 2 eller senare; Se LICENSE.txt</license>
 	<description><![CDATA[sv-SE api-språk]]></description>
 	<metadata>

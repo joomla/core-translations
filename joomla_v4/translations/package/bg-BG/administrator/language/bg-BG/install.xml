@@ -3,15 +3,15 @@
 	<name>Български (bg-BG)</name>
 	<tag>bg-BG</tag>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Joomla! Bulgaria</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
 	<authorUrl>http://www.joomla.bg</authorUrl>
-	<copyright/>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License версия 2 или по-късна; Виж LICENSE.txt</license>
 	<description>bg-BG език за административната част</description>
 	<files>
-		<folder/>
+		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>

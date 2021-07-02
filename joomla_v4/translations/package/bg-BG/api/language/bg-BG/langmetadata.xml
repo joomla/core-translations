@@ -2,11 +2,11 @@
 <metafile client="api">
 	<name>Bulgarian (бг-БГ)</name>
 	<version>4.0.0</version>
-	<creationDate/>
-	<author> </author>
+	<creationDate>June 2021</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
 	<authorUrl>http://www.joomla.bg</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License версия 2 или по-късна; Виж LICENSE.txt</license>
 	<description><![CDATA[bg-BG API език]]></description>
 	<metadata>

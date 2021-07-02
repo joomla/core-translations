@@ -3,13 +3,13 @@
 	<name>German (DE)</name>
 	<tag>de-DE</tag>
 	<version>4.0.0-rc2.1</version>
-	<creationDate/>
-	<author> </author>
+	<creationDate>October 2019</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>team@jgerman.de</authorEmail>
 	<authorUrl>https://www.jgerman.de</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description/>
+	<description>en-GB api language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">langmetadata.xml</filename>

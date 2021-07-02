@@ -2,17 +2,17 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Lietuvių (lt-LT)</name>
 	<tag>lt-LT</tag>
-	<version/>
-	<creationDate/>
-	<author> </author>
+	<version>4.0.0</version>
+	<creationDate>October 2019</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>rimvydas@rimvydas.info</authorEmail>
 	<authorUrl>www.rimvydas.info</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License versija 2 arba naujesnė; žr. LICENSE.txt</license>
-	<description/>
+	<description>en-GB api language</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

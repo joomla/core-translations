@@ -3,11 +3,11 @@
 	<name>Finnish (fi-FI) Language Pack</name>
 	<packagename>fi-FI</packagename>
 	<version>4.0.0.1</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
-	<copyright/>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Finnish translation team: Joomla.fi</packager>
@@ -20,9 +20,11 @@
 	<files>
 		<folder type="language" client="site" id="en-GB">site_fi-FI.zip</folder>
 		<folder type="language" client="administrator" id="en-GB">admin_fi-FI.zip</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="api" id="en-GB">api/language/en-GB</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

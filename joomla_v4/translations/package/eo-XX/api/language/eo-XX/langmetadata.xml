@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Esperanto (eo-XX)</name>
-	<version/>
-	<creationDate/>
-	<author> </author>
+	<version>4.0.0</version>
+	<creationDate>June 2021</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>tradukoj@esperantosverige.se</authorEmail>
 	<authorUrl>esperantosverige.se</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[en-GB api language]]></description>
 	<metadata>
 		<name>Esperanto (eo-XX)</name>
 		<nativeName>Esperanto (eo-XX)</nativeName>

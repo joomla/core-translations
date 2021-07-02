@@ -2,11 +2,11 @@
 <metafile client="administrator">
 	<name>Magyar (hu-HU)</name>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Joomla! Hungary</author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
 	<authorUrl>https://joomlacms.hu</authorUrl>
-	<copyright/>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt</license>
 	<description><![CDATA[hu-HU administrator language]]></description>
 	<metadata>

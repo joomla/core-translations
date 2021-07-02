@@ -2,11 +2,11 @@
 <metafile client="administrator">
 	<name>Albanian (sq-AL)</name>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Ekipi i përkthimit në Shqip</author>
 	<authorEmail>mirimarku@gmail.com</authorEmail>
 	<authorUrl>https://crowdin.com/profile/mirimarku</authorUrl>
-	<copyright/>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>Varianti 2 ose më fundit i licencës së GNU-së; shiko skedarin LICENSE.txt</license>
 	<description><![CDATA[Gjuha e administratorit sq-AL]]></description>
 	<metadata>

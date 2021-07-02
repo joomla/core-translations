@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
 	<name>Tamil (India)</name>
-	<version/>
-	<creationDate/>
+	<version>4.0.0</version>
+	<creationDate>June 2021</creationDate>
 	<author>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</author>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[ta-IN site language]]></description>
 	<metadata>
 		<name>Tamil (India)</name>

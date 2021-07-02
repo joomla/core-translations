@@ -2,11 +2,11 @@
 <metafile client="administrator">
 	<name>Greek (el-GR)</name>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>June 2021</creationDate>
 	<author>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
-	<copyright/>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>Γενική Άδεια Δημόσιας Χρήσης GNU έκδοση 2 ή μεταγενέστερη, βλέπε  LICENSE.txt</license>
 	<description><![CDATA[greek language pack for Joomla! 3.9.25]]></description>
 	<metadata>

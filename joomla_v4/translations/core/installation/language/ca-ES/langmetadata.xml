@@ -3,8 +3,8 @@
 	<name>Catalan (ca-ES)</name>
 	<version>4.0.0</version>
 	<creationDate>October 2019</creationDate>
-	<author> </author>
-	<copyright/>
+	<author>Joomla! Project</author>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
 	<files>
 		<filename>joomla.ini</filename>

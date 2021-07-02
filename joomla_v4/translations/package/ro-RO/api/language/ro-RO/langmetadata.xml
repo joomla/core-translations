@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Româna (ro-RO)</name>
-	<version/>
-	<creationDate/>
-	<author> </author>
+	<version>4.0.0</version>
+	<creationDate>June 2021</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>fakemoth@gmail.com</authorEmail>
 	<authorUrl>www.quanta-group.ro/</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License versiunea 2 sau mai nouă, a se vedea LICENSE.txt</license>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[en-GB api language]]></description>
 	<metadata>
 		<name>Română (ro-RO)</name>
 		<nativeName>Română (ro-RO)</nativeName>
