@@ -58,5 +58,5 @@ jobs:
           git config user.name Translation Bot
           git config user.email release+translation-bot@joomla.org
           git status
-          # git commit -am "J4 Language update on `date +'%Y-%m-%d'`"
+          git diff --quiet && git diff --staged --quiet || git commit -am "J4 Language update on `date +'%Y-%m-%d'`"
           # disable for testing git push
