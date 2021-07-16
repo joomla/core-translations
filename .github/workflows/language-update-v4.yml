@@ -1,0 +1,59 @@
+# This workflow fetches the V4 Version of the Joomla CMS and syncs the needed source language files
+# into the core-translations repository. After this it creates a new commit
+
+name: Language Update V4
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+  # Runs once a day at 6:12
+  schedule:
+    - cron:  '12 6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Fetch and extract core cms
+        run: |
+          cd ..
+          ls -l
+          wget -nv "https://github.com/joomla/joomla-cms/archive/refs/heads/4.1-dev.zip"
+          unzip 4.1-dev.zip
+          mv joomla-cms-4.1-dev joomla-cms
+          
+      - name: Syncing directories
+        run: |
+          cd ..
+          SYNC_PATH="administrator/language/en-GB/"
+          SYNC_VERION="v4"
+          echo /${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          
+          SYNC_PATH="administrator/manifests/packages/pkg_en-GB.xml"
+          echo /${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          
+          SYNC_PATH="api/language/en-GB/"
+          echo /${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          
+          SYNC_PATH="build/media_source/system/js/fields/calendar-locales/en.es5.js"
+          echo /${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          
+          SYNC_PATH="installation/language/en-GB/"
+          echo /${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          SYNC_PATH="language/en-GB/"
+          echo /${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+      
+      - name: Push to repo
+        run: |
+          git config user.name Translation Bot
+          git config user.email release+translation-bot@joomla.org
+          git add .
+          git commit -m "Language update"
+          git push
