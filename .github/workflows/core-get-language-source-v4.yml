@@ -1,7 +1,7 @@
 # This workflow fetches the V4 Version of the Joomla CMS and syncs the needed source language files
 # into the core-translations repository. After this it creates a new commit
 
-name: Language Update V4
+name: Core get Language Source files
 
 on:
   # Allows you to run this workflow manually from the Actions tab
