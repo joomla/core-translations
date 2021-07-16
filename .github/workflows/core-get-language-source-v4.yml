@@ -1,7 +1,7 @@
 # This workflow fetches the V4 Version of the Joomla CMS and syncs the needed source language files
 # into the core-translations repository. After this it creates a new commit
 
-name: Core get Language Source files
+name: J4 Get Core Source Language files
 
 on:
   # Allows you to run this workflow manually from the Actions tab
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Fetch and extract core cms
+      - name: Fetch and extract core j4 cms
         run: |
           cd ..
           ls -l
@@ -23,7 +23,7 @@ jobs:
           unzip 4.0-dev.zip
           mv joomla-cms-4.0-dev joomla-cms
           
-      - name: Syncing directories
+      - name: Syncing j4 directories
         # We use a simple copy paste syntax here if needed customization for different directories
         run: |
           cd ..
@@ -53,10 +53,10 @@ jobs:
           echo /${SYNC_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
       
-      - name: Push to repo
+      - name: Push j4 to repo
         run: |
           git config user.name Translation Bot
           git config user.email release+translation-bot@joomla.org
           git status
-          git commit -am "Language update"
+          git commit -am "J4 Language update on `date +'%Y-%m-%d'`"
           git push
