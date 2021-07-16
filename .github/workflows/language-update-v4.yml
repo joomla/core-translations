@@ -19,9 +19,9 @@ jobs:
         run: |
           cd ..
           ls -l
-          wget -nv "https://github.com/joomla/joomla-cms/archive/refs/heads/4.1-dev.zip"
-          unzip 4.1-dev.zip
-          mv joomla-cms-4.1-dev joomla-cms
+          wget -nv "https://github.com/joomla/joomla-cms/archive/refs/heads/4.0-dev.zip"
+          unzip 4.0-dev.zip
+          mv joomla-cms-4.0-dev joomla-cms
           
       - name: Syncing directories
         run: |
