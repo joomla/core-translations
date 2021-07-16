@@ -24,36 +24,39 @@ jobs:
           mv joomla-cms-4.0-dev joomla-cms
           
       - name: Syncing directories
+        # We use a simple copy paste syntax here if needed customization for different directories
         run: |
           cd ..
-          SYNC_PATH="administrator/language/en-GB/"
           SYNC_VERION="v4"
+
+          SYNC_PATH="administrator/language/en-GB/"
           echo /${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
           
           SYNC_PATH="administrator/manifests/packages/pkg_en-GB.xml"
           echo /${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
           
           SYNC_PATH="api/language/en-GB/"
           echo /${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
           
           SYNC_PATH="build/media_source/system/js/fields/calendar-locales/en.es5.js"
           echo /${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
           
           SYNC_PATH="installation/language/en-GB/"
           echo /${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
+          
           SYNC_PATH="language/en-GB/"
           echo /${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source//${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
       
       - name: Push to repo
         run: |
           git config user.name Translation Bot
           git config user.email release+translation-bot@joomla.org
-          git add .
-          git commit -m "Language update"
-          git push
+          git status
+          git commit -am "Language update"
+          # disabled for testing git push
