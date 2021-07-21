@@ -10,7 +10,7 @@ on:
 
 jobs:
   collect-from-external:
-    if: github.actor = 'joomla'
+    if: github.actor == 'joomla'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -70,7 +70,7 @@ jobs:
 
 # This workflow contains a single job called "build"
   synchronize-with-crowdin:
-    if: github.actor = 'joomla'
+    if: github.actor == 'joomla'
     needs: collect-from-external
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
