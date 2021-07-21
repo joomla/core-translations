@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <extension type="package" method="upgrade">
-	<name/>
-	<packagename/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<url/>
-	<packager/>
-	<packagerurl/>
-	<description><![CDATA[]]></description>
-	<blockChildUninstall/>
+	<name>Russian (ru-RU) Language Pack</name>
+	<packagename>ru-RU</packagename>
+	<version>4.0.0-rc4.1</version>
+	<creationDate>17/07/2021</creationDate>
+	<author>Russian Translation Team</author>
+	<authorEmail>smart@joomlaportal.ru</authorEmail>
+	<authorUrl>https://joomlaportal.ru</authorUrl>
+	<copyright>Copyright (C) 2005 - 2021 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>https://joomla.org</packagerurl>
+	<description><![CDATA[<h3 style='font-weight: 400'>Joomla 4.0.0 RC4 Russian Language Pack</h3><div style='font-weight: 400'><p>Официальная локализация Joomla, которая поддерживается русскоязычным сообществом.<br>Мы рады предложениям и помощи в локализации Joomla! Сообщить о проблеме или внести исправление вы можете на странице <a href='https://github.com/JPathRu/localisation' target='_blank'>Github</a>.</p><ul><li><a href='https://joomlaportal.ru' target='_blank'>Портал Joomla по-русски</a>,</li><li><a href='https://joomlaforum.ru' target='_blank'>Форум русской поддержки Joomla</a>,</li><li><a href='https://joomlaportal.ru/russian-joomla' target='_blank'>Официальная страница локализации</a>.</li></ul></div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB"/>
-		<folder type="language" client="administrator" id="en-GB"/>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="administrator" id="ru-RU">admin_ru-RU</folder>
+		<folder type="language" client="api" id="ru-RU">api_ru-RU</folder>
+		<folder type="language" client="site" id="ru-RU">site_ru-RU</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_4.xml</server>
 	</updateservers>
 </extension>
