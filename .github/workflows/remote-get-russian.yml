@@ -65,7 +65,7 @@ jobs:
           git config user.email release+translation-bot@joomla.org
           git status
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -am "J4 Language update on `date +'%Y-%m-%d'`"
+          git diff --quiet && git diff --staged --quiet || git commit -am "J4 Russian Language update on `date +'%Y-%m-%d'`"
           git push
 
 # This workflow contains a single job called "build"
