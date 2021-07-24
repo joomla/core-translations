@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class es_ESLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class En_GBLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('and', 'in', 'on');
+		return array('y', 'en', 'con');
 	}
 
 	/**
