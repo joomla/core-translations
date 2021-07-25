@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension type="package" method="upgrade">
-	<name>German (Germany) Language Pack</name>
-	<packagename>de-DE</packagename>
-	<version>4.0.0-rc2.1</version>
-	<creationDate>15.06.2021</creationDate>
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="3.9" method="upgrade">
+	<name>German (Luxembourg) Language Pack</name>
+	<packagename>de-LU</packagename>
+	<version>4.0.0-rc4.1</version>
+	<creationDate>13.07.2021</creationDate>
 	<author>J!German</author>
 	<authorEmail>team@jgerman.de</authorEmail>
 	<authorUrl>https://www.jgerman.de</authorUrl>
 	<copyright>(C) 2008 - 2021 J!German. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<url/>
-	<packager>J!German</packager>
-	<packagerurl>https://www.jgerman.de</packagerurl>
+	<url />
+	<packager />
+	<packagerurl />
 	<description><![CDATA[
-	<h2>Deutsches Sprachpaket für Joomla! 4.0.0-rc1 von <a title="J!German" href="https://www.jgerman.de" target="_blank">J!German</a></h2>
-        <h3><span style="color: #008000;">Übersetzungsversion: 4.0.0-rc2.1</span></h3>
+	<h2>Deutsches Sprachpaket für Joomla! 4.0.0-rc4 von <a title="J!German" href="https://www.jgerman.de" target="_blank">J!German</a></h2>
+        <h3><span style="color: #008000;">Übersetzungsversion: 4.0.0-rc4.1</span></h3>
         <hr />
         <p><span style="text-decoration: underline;">Neuinstallation:</span><br />Die deutsche Sprache kann unter <a title="Language(s)" href="index.php?option=com_languages" target="_blank">„Extensions“ → „Language(s)“</a> als Standardsprache (Default), sowohl für die Website „Installed (Site)“ als auch für die Administration „Installed (Administrator)“, festgelegt werden.</p>
         <p><span style="text-decoration: underline;">Aktualisierung:</span><br />Es sind keine weiteren Schritte erforderlich.</p>
 	<p><span style="text-decoration: underline;">Fehler:</span><br />Übersetzungsfehler, Tippfehler oder Anregungen können gerne auf GitHub im <a href="https://github.com/joomlagerman/joomla" target="_blank" title="https://github.com/joomlagerman/joomla">joomlagerman/joomla</a> Repository gemeldet werden.</p>
         <p><span style="text-decoration: underline;">Hinweis:</span><br />Dieses Paket unterstützt die Joomla! eigene <a title="Joomla-Aktualisierungsfunktion" href="index.php?option=com_installer&amp;view=update" target="_blank">Aktualisierungsfunktion</a>.</p>
-	
-	]]></description>
+	]]>
+	</description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB"/>
-		<folder type="language" client="administrator" id="en-GB"/>
-		<folder type="language" client="api" id="en-GB"/>
+		<file type="language" client="site" id="de-LU">site_de-LU.zip</file>
+		<file type="language" client="administrator" id="de-LU">admin_de-LU.zip</file>
+		<file type="language" client="api" id="de-LU">api_de-LU.zip</file>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_4.xml</server>
