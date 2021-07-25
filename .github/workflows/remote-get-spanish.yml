@@ -68,7 +68,7 @@ jobs:
           git diff --quiet && git diff --staged --quiet || git commit -am "J4 Spanish Language update on `date +'%Y-%m-%d'`"
           git push
 
-# This workflow contains a single job called "build"
+# Upload the translations to Crowdin
   synchronize-with-crowdin:
     needs: collect-from-external
     # The type of runner that the job will run on
