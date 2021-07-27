@@ -40,10 +40,6 @@ jobs:
           echo /${SYNC_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
           
-          SYNC_PATH="build/media_source/system/js/fields/calendar-locales/en.es5.js"
-          echo /${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
-          
           SYNC_PATH="installation/language/en-GB/"
           echo /${SYNC_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
