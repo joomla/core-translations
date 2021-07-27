@@ -1,5 +1,5 @@
 name: J4 Build JoomalCMSProject
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   schedule:
     - cron: '0 11,23 * * *'
@@ -9,6 +9,7 @@ on:
 
 jobs:
   deployment:
+    if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
     runs-on: ubuntu-latest
     steps:
     # Runs the HTTP Request action command - https://github.com/fjogeleit/http-request-action

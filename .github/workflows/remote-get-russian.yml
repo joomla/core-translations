@@ -11,6 +11,7 @@ on:
 
 jobs:
   collect-from-external:
+    if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -21,7 +22,7 @@ jobs:
           wget -nv "https://github.com/JPathRu/localisation/archive/refs/heads/j4.zip"
           unzip j4.zip
           #mv localisation-j4 joomla-ru-ru
-          
+
       - name: Syncing j4 directories
         # We use a simple copy paste syntax here if needed customization for different directories
         run: |
@@ -34,19 +35,19 @@ jobs:
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  localisation-j4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-          
+
           ZIP_PATH="pkg_ru-RU.xml"
           REPO_PATH="${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  localisation-j4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-                    
+
           ZIP_PATH="api/language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/api/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  localisation-j4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-          
+
           ZIP_PATH="installation/language/${LANGUAGE_CODE}/"
           REPO_PATH="installation/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
@@ -58,7 +59,7 @@ jobs:
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  localisation-j4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-      
+
       - name: Push translations to repo
         run: |
           git config user.name Translation Bot
@@ -79,7 +80,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout
       uses: actions/checkout@v2
-    
+
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Russian
       uses: crowdin/github-action@1.3.0
