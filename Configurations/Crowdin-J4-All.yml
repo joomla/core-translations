@@ -69,8 +69,6 @@ files:
     dest: 'JoomlaV4/Package/pkg_en-GB.xml'
     translation: /joomla_v4/translations/package/%locale%/pkg_%locale%.xml
     update_option: update_as_unapproved
-    translate_content: 1
-    translate_attributes: 1
     content_segmentation: 0
     type: xml
     translatable_elements:
