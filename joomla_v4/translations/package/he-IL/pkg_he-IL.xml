@@ -4,22 +4,24 @@
 	<packagename>he-IL</packagename>
 	<version/>
 	<creationDate/>
-	<author>Joomla! Israel</author>
+	<author/>
 	<authorEmail>info@joomla.org.il</authorEmail>
 	<authorUrl>www.joomla.org.il</authorUrl>
 	<copyright/>
 	<license/>
 	<url/>
-	<packager>Joomla! Israel</packager>
+	<packager/>
 	<packagerurl>www.joomla.org.il</packagerurl>
 	<description><![CDATA[hebrew language package]]></description>
-	<blockChildUninstall>נכון</blockChildUninstall>
+	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">site_he-IL</folder>
-		<folder type="language" client="administrator" id="en-GB">admin_he-IL</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="he-IL">site_he-IL</folder>
+		<folder type="language" client="administrator" id="he-IL">admin_he-IL</folder>
+		<folder type="language" client="api" id="he-IL"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

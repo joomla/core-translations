@@ -4,15 +4,15 @@
 	<tag>he-IL</tag>
 	<version/>
 	<creationDate/>
-	<author>Joomla! Israel</author>
+	<author/>
 	<authorEmail>info@joomla.org.il</authorEmail>
 	<authorUrl>www.joomla.org.il</authorUrl>
 	<copyright/>
 	<license/>
 	<description>Hebrew administrator language package</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>
