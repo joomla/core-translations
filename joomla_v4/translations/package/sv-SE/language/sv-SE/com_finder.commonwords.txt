@@ -114,10 +114,10 @@ how's
 a
 an
 the
-och
+and
 but
 if
-eller
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-före
-efter
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-inte
+not
 only
 own
 same
