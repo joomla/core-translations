@@ -3,10 +3,10 @@
 	<name>Czech (Čeština)</name>
 	<tag>cs-CZ</tag>
 	<version>4.0.0-rc1.1</version>
-	<creationDate>Červen 2021</creationDate>
-	<author>Czech Translation Team</author>
+	<creationDate/>
+	<author/>
 	<authorEmail>admin@joomla.cz</authorEmail>
-	<authorUrl>https://www.joomlaportal.cz</authorUrl>
+	<authorUrl>http://www.joomlaportal.cz</authorUrl>
 	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>cs-CZ - Administration language</description>

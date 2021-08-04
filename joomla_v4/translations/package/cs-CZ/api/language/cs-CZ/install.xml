@@ -4,9 +4,9 @@
 	<tag>cs-CZ</tag>
 	<version>4.0.0-rc1.1</version>
 	<creationDate>Červen 2021</creationDate>
-	<author> </author>
+	<author/>
 	<authorEmail>admin@joomla.cz</authorEmail>
-	<authorUrl>https://www.joomlaportal.cz</authorUrl>
+	<authorUrl>http://www.joomlaportal.cz</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>cs-CZ - API language</description>
