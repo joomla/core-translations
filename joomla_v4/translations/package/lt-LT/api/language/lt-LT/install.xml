@@ -4,15 +4,15 @@
 	<tag>lt-LT</tag>
 	<version/>
 	<creationDate/>
-	<author> </author>
+	<author/>
 	<authorEmail>rimvydas@rimvydas.info</authorEmail>
 	<authorUrl>www.rimvydas.info</authorUrl>
 	<copyright/>
 	<license>GNU General Public License versija 2 arba naujesnė; žr. LICENSE.txt</license>
 	<description/>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>
