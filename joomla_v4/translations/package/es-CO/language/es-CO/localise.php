@@ -2,18 +2,18 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
+ * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * es-CO localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Es_COLocalise
+abstract class es_ESLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -38,5 +38,53 @@ abstract class Es_COLocalise
 		{
 			return array('OTHER', 'MORE');
 		}
+	}
+
+	/**
+	 * Returns the ignored search words
+	 *
+	 * @return  array  An array of ignored search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getIgnoredSearchWords()
+	{
+		return array('y', 'en', 'con');
+	}
+
+	/**
+	 * Returns the lower length limit of search words
+	 *
+	 * @return  integer  The lower length limit of search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getLowerLimitSearchWord()
+	{
+		return 3;
+	}
+
+	/**
+	 * Returns the upper length limit of search words
+	 *
+	 * @return  integer  The upper length limit of search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getUpperLimitSearchWord()
+	{
+		return 20;
+	}
+
+	/**
+	 * Returns the number of chars to display when searching
+	 *
+	 * @return  integer  The number of chars to display when searching.
+	 *
+	 * @since   1.6
+	 */
+	public static function getSearchDisplayedCharactersNumber()
+	{
+		return 200;
 	}
 }
