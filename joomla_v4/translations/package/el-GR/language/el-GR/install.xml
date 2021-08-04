@@ -3,12 +3,12 @@
 	<name>Greek (el-GR)</name>
 	<tag>el-GR</tag>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>Ιούλιος 2021</creationDate>
 	<author>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
 	<copyright>Copyright (C) 2005 - 2021 joomla.gr και Open Source Matters. All rights reserved.</copyright>
-	<license/>
+	<license>Γενική Άδεια Δημόσιας Χρήσης GNU (GNU GPL), έκδοση 2 ή μεταγενέστερη· δείτε το LICENSE.txt</license>
 	<description>greek language pack for Joomla! 3.9.25</description>
 	<files>
 		<folder>/</folder>

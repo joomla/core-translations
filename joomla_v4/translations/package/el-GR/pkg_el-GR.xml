@@ -3,8 +3,8 @@
 	<name>Πακέτο ελληνικής (el-GR) γλώσσας</name>
 	<packagename>el-GR</packagename>
 	<version>4.0.0.1</version>
-	<creationDate/>
-	<author>Ελληνική ομάδα μετάφρασης: joomla. gr</author>
+	<creationDate>Ιούλιος 2021</creationDate>
+	<author>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
 	<copyright>Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.</copyright>
@@ -15,11 +15,13 @@
 	<description><![CDATA[el-GR language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/el-GR</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/el-GR</folder>
-		<folder type="language" client="api" id="en-GB">api/language/el-GR</folder>
+		<folder type="language" client="site" id="el-GR">language/el-GR</folder>
+		<folder type="language" client="administrator" id="el-GR">administrator/language/el-GR</folder>
+		<folder type="language" client="api" id="el-GR">api/language/el-GR</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Διαπιστευμένες Μεταφράσεις Joomla">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

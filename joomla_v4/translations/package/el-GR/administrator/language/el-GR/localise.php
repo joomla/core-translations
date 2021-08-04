@@ -1,19 +1,20 @@
 <?php
 /**
- * @package    Joomla.Language
- *
- * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
+* @package    Joomla.Language
+*
+* @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
+* Greek Translation 2005  2021 <https://www.joomla.gr>
+* @license GNU Γενική Άδεια Δημόσιας Χρήσης έκδοση 2 ή νεότερη; δες LICENSE.txt
+*/
 
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * el-GR κλάση τοπικοποίησης.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class El_GRLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -32,11 +33,11 @@ abstract class En_GBLocalise
 		}
 		elseif ($count == 1)
 		{
-			return array('ONE', '1');
+			return array('ΕΝΑ', '1');
 		}
 		else
 		{
-			return array('OTHER', 'MORE');
+			return array('ΑΛΛΟ', 'ΠΕΡΙΣΣΟΤΕΡΑ');
 		}
 	}
 
@@ -49,7 +50,7 @@ abstract class En_GBLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('and', 'in', 'on');
+		return array('και', 'ή', 'σε', 'για', 'με');
 	}
 
 	/**

@@ -3,11 +3,11 @@
 	<name>Greek (el-GR)</name>
 	<tag>el-GR</tag>
 	<version>4.0.0</version>
-	<creationDate>Ιούνιος 2020</creationDate>
-	<author> </author>
+	<creationDate>Αυγ. 2021</creationDate>
+	<author>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
-	<copyright/>
+	<copyright>Copyright (C) 2020 - 2021 joomla.gr και Open Source Matters. All rights reserved.</copyright>
 	<license>Γενική Άδεια Δημόσιας Χρήσης GNU έκδοση 2 ή μεταγενέστερη, βλέπε LICENSE.txt</license>
 	<description>el-GR api language</description>
 	<files>
