@@ -117,7 +117,7 @@ the
 and
 but
 if
-または
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-前に
-後に
+before
+after
 above
 below
 to
