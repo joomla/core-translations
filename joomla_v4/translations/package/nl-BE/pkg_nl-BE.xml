@@ -3,7 +3,7 @@
 	<name>Belgisch (nl-BE) taalpakket</name>
 	<packagename>nl-NL</packagename>
 	<version>4.0.0-rc2.1</version>
-	<creationDate>Juni 2021</creationDate>
+	<creationDate>Juli 2021</creationDate>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
@@ -19,12 +19,12 @@
 		]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/nl-NL</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/nl-NL</folder>
-		<folder type="language" client="api" id="en-GB">api/language/nl-NL</folder>
+		<folder type="language" client="site" id="nl-NL">language/nl-NL</folder>
+		<folder type="language" client="administrator" id="nl-NL">administrator/language/nl-NL</folder>
+		<folder type="language" client="api" id="nl-NL">api/language/nl-NL</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+		<server type="collection" priority="1" name="Geaccrediteerde Joomla! vertalingen">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>

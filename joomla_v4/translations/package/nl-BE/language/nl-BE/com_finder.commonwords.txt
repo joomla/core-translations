@@ -1,128 +1,66 @@
-; Joomla! Project
-; Copyright (C) 2005 - 2021 Open Source Matters, Inc. Alle rechten voorbehouden. <https://www.joomla.org>
+; Dutch Translation Team
+; (C) 2019 -2021 Open Source Matters, Inc. <https://www.joomla.org>
 ; Licentie GNU General Public License versie 2 of hoger; zie LICENSE.txt
 ; Let op: Dit bestand moet worden opgeslagen als UTF-8
 
 ik
-ik
 mijn
-zelf
-wij
+me
+mijzelf
+we
 onze
 ons
-wijzelf
+ons
 jij
 jouw
-jouw
-jezelf
-jijzelf
+jou
+jouwzelf
+jouwzelf
 hij
 hem
 zijn
-zichzelf
+zelf
+ze
 zij
 haar
-haar
-haarzelf
+haaraelf
 het
 zijn
 zichzelf
-zij
+ze
+ze
 hen
 hun
-hun
-zichzelf
+zelf
 wat
-welke
 wie
-wie
+wiens
 dit
 dat
 deze
-die
-ben
-is
 zijn
+is
 was
 waren
-is
-geweest
-zijn
 hebben
 heeft
 had
-hebben
-doe
-doet
 deed
 doen
-zou
-moet
-kon
-zou moeten
-ik ben
-je
-zijn
-haar
-het
-we zijn
-ze zijn
-ik heb
-je hebt
-we hebben
-ze hebben
-ik zou
-je zou
-hij zou
-zij zou
-we zouden
-ze zouden
-ik zal
-je zal
-hij zal
-zij zal
-we zullen
-ze zullen
-is niet
-zijn niet
-was niet
-waren niet
-heeft niet
-heeft niet
-had niet
-heeft niet
-niet
-deed niet
-zal niet
-zou niet
-zal niet
-zou niet
-kan niet
-kan niet
-kon niet
-moet niet
-laten
-dat is
-wie is
-wat is
-hier is
-er is
-wanneer
-waar
-waarom
-hoe
-een
+zouden
+moeten
+konden
+zouden
 een
 de
-en
 maar
 als
 of
 omdat
 als
 tot
-terwijl
-van
+tijdens
+of
 op
 door
 voor
@@ -131,22 +69,18 @@ over
 tegen
 tussen
 in
-door
+tot
 tijdens
 voor
 na
 boven
 onder
-naar
-van
-omhoog
-naar beneden
+tot
+op
+neer
 in
-buiten
-aan
 uit
-boven
-onder
+over
 opnieuw
 verder
 dan
@@ -158,17 +92,17 @@ waar
 waarom
 hoe
 alle
-elke
+een
 beide
 elke
-weinig
+paar
 meer
-meest
-andere
+meeste
+ander
 enkele
-zo'n
-geen
-noch
+zoals
+nee
+nog
 niet
 alleen
 eigen
