@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Welsh (cy-GB)</name>
 	<tag>cy-GB</tag>
-	<version>4.0.0-rc1.1</version>
-	<creationDate>2021-06-08</creationDate>
+	<version>4.0.0-rc5.1</version>
+	<creationDate>Awst 2021</creationDate>
 	<author>Welsh Translation Team : Joomla.cymru</author>
 	<authorEmail>cyfieithu@joomla.cymru</authorEmail>
 	<authorUrl>www.joomla.cymru</authorUrl>

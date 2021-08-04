@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * cy-GB localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Cy_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -28,12 +28,24 @@ abstract class En_GBLocalise
 	{
 		if ($count == 0)
 		{
-			return array('0');
+			return array('ZERO', '0');
 		}
 		elseif ($count == 1)
 		{
 			return array('ONE', '1');
 		}
+	elseif ($count == 2)
+	{
+		return array('TWO', '2');
+	}
+	elseif ($count == 3)
+	{
+		return array('FEW', '3');
+	}
+	elseif ($count == 6)
+	{
+		return array('MANY', '6');
+	}
 		else
 		{
 			return array('OTHER', 'MORE');
