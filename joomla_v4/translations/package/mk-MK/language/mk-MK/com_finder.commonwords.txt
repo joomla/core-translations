@@ -114,10 +114,10 @@ how's
 a
 an
 the
-и
+and
 but
 if
-или
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-пред
-по
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-не
+not
 only
 own
 same
