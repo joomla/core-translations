@@ -4,14 +4,14 @@
 	<tag>fi-FI</tag>
 	<version>3.9.2.0</version>
 	<creationDate/>
-	<author> </author>
+	<author/>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
 	<copyright/>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description/>
 	<files>
-		<folder/>
+		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
