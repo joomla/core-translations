@@ -114,10 +114,10 @@ how's
 a
 an
 the
-eta
+and
 but
 if
-edo
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-aurretik
-ondoren
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-ez
+not
 only
 own
 same

@@ -3,12 +3,12 @@
 	<name>Basque (eu-ES)</name>
 	<tag>eu-ES</tag>
 	<version>4.0.0</version>
-	<creationDate>Ekaina  2021</creationDate>
-	<author>Joomla! Basque Translation Team</author>
+	<creationDate/>
+	<author/>
 	<authorEmail>joomlaeuskaraz@gmail.com</authorEmail>
-	<authorUrl>---</authorUrl>
+	<authorUrl>(ez dago)</authorUrl>
 	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<license/>
 	<description>eu-ES administrator language</description>
 	<files>
 		<folder>/</folder>
