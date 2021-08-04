@@ -114,10 +114,10 @@ how's
 a
 an
 the
-és
+and
 but
 if
-vagy
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-Előtte
-Utána
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-nem
+not
 only
 own
 same
