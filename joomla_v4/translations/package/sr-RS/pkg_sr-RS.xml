@@ -4,22 +4,24 @@
 	<packagename>sr-RS</packagename>
 	<version/>
 	<creationDate/>
-	<author>Serbian translation team: Joomla! Serbia</author>
+	<author/>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
 	<copyright/>
 	<license/>
 	<url/>
-	<packager>Serbian translation team: Joomla! Serbia</packager>
+	<packager/>
 	<packagerurl>http://www.joomla-serbia.com</packagerurl>
 	<description><![CDATA[sr-RS language pack]]></description>
-	<blockChildUninstall/>
+	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB"/>
-		<folder type="language" client="administrator" id="en-GB"/>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="sr-RS"/>
+		<folder type="language" client="administrator" id="sr-RS"/>
+		<folder type="language" client="api" id="sr-RS"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>
