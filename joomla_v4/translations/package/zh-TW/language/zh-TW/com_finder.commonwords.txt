@@ -114,10 +114,10 @@ how's
 a
 an
 the
-及
+and
 but
 if
-或
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-之前
-之後
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-非
+not
 only
 own
 same
