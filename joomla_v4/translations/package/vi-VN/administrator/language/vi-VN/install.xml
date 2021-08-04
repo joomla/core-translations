@@ -11,8 +11,8 @@
 	<license/>
 	<description>Vietnamese administration language for Joomla! 3.2</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

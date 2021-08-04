@@ -117,7 +117,7 @@ the
 and
 but
 if
-hoặc
+or
 because
 as
 until
