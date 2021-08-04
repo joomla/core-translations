@@ -4,7 +4,7 @@
 	<tag>ro-RO</tag>
 	<version/>
 	<creationDate/>
-	<author>Horia Negura - Quanta</author>
+	<author/>
 	<authorEmail>fakemoth@gmail.com</authorEmail>
 	<authorUrl>www.quanta-group.ro/</authorUrl>
 	<copyright/>
@@ -12,7 +12,7 @@
 	<description>Joomla! 3.9 Romanian (ro-RO) Administrator Language Pack - Version 3.9.21.1</description>
 	<files>
 		<folder>/</folder>
-		<filename file="meta"/>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>
