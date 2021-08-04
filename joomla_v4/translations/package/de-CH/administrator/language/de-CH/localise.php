@@ -3,17 +3,14 @@
  * @package    Joomla.Language
  *
  * @copyright  (C) 2005 Open Source Matters, Inc. <https://www.joomla.org>
+ * @copyright  (C) Translation 2008 - 2021 J!German <https://www.jgerman.de>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * de-CH localise class.
- *
- * @since  1.6
- */
-abstract class De_CHLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -30,7 +27,7 @@ abstract class De_CHLocalise
 		{
 			return array('0');
 		}
-		if ($count == 1)
+		elseif ($count == 1)
 		{
 			return array('ONE', '1');
 		}
@@ -49,7 +46,7 @@ abstract class De_CHLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		$search_ignore = array();
+		return array('and', 'in', 'on');
 	}
 
 	/**
