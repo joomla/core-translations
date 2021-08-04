@@ -2,8 +2,8 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @copyright  (C) 2021 Open Source Matters, Inc. <https://www.joomla.org>
+ * @license    GNU General Public licentie versie 2 of later; zie LICENSE.txt
  */
 
 defined('_JEXEC') or die;
@@ -28,7 +28,7 @@ abstract class Nl_NLLocalise
 	{
 		if ($count == 0)
 		{
-			return array('en', 'de', 'het', 'een', 'in', 'is', 'op');
+			return array('0');
 		}
 		elseif ($count == 1)
 		{
