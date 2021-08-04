@@ -4,22 +4,24 @@
 	<packagename>sq-AL</packagename>
 	<version>4.0.0.1</version>
 	<creationDate/>
-	<author>Ekipi i përkthimit në Shqip</author>
+	<author/>
 	<authorEmail>mirimarku@gmail.com</authorEmail>
-	<authorUrl>https://crowdin.com/profile/mirimarku</authorUrl>
+	<authorUrl/>
 	<copyright/>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Ekipi i përkthimit në Shqip</packager>
-	<packagerurl>www.joomla.org</packagerurl>
+	<packager/>
+	<packagerurl/>
 	<description><![CDATA[paketa gjuhësore sq-AL]]></description>
-	<blockChildUninstall>vërteto</blockChildUninstall>
+	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">gjuha/sq-AL</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/sq-AL</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="sq-AL">gjuha/sq-AL</folder>
+		<folder type="language" client="administrator" id="sq-AL">administrator/language/sq-AL</folder>
+		<folder type="language" client="api" id="sq-AL"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>
