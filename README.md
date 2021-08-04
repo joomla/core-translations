@@ -10,8 +10,8 @@ Connected to the Crowdin Translation Platform and other repositories if needed.
 * UTC 11:00-12:00 -> Project Build
 * UTC 23:00-00:00 -> Project Build
 * UTC 06:12-07:12 -> Get Core Source and Upload too Crowdin
-* UTC 08:01-08:15  -> Get Russian and upload Translations to Crowdin
-* UTC 08:16- 
+* UTC 08:01-08:15 -> Get Russian and upload Translations to Crowdin
+* UTC 08:16-08:31 -> Get Spanish and upload Translations to Crowdin
 
 
 ## Folder Structure external repositories
