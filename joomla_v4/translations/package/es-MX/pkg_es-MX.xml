@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
 	<name>Spanish (Mexico) Language Pack</name>
-	<packagename/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<url/>
-	<packager/>
-	<packagerurl/>
+	<packagename>es-ES</packagename>
+	<version>4.0.0-rc4.2</version>
+	<creationDate>2021/07/23</creationDate>
+	<author>Spanish [es-ES] Translation Team</author>
+	<authorEmail>es.es.translation.team@gmail.com</authorEmail>
+	<authorUrl>https://traduccion.joomlaes.org/</authorUrl>
+	<copyright>Copyright (C) 2005 - 2021 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>https://joomla.org</packagerurl>
 	<description><![CDATA[es-MX language pack]]></description>
-	<blockChildUninstall/>
+	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB"/>
-		<folder type="language" client="administrator" id="en-GB"/>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="es-ES">administrator/language/es-ES</folder>
+		<folder type="language" client="administrator" id="es-ES">api/language/es-ES</folder>
+		<folder type="language" client="api" id="es-ES">language/es-ES</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>
