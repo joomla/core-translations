@@ -4,15 +4,15 @@
 	<tag>sr-YU</tag>
 	<version/>
 	<creationDate/>
-	<author> </author>
+	<author/>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
 	<copyright/>
 	<license/>
 	<description/>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

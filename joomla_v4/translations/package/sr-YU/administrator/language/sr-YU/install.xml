@@ -4,15 +4,15 @@
 	<tag>sr-YU</tag>
 	<version/>
 	<creationDate/>
-	<author>Serbian translation team: Joomla! Serbia</author>
+	<author/>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
 	<copyright/>
 	<license/>
 	<description>sr-YU Serbian Latin administrator language pack for Joomla</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>
