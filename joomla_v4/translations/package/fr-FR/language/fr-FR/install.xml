@@ -2,13 +2,13 @@
 <extension client="site" type="language" method="upgrade">
 	<name>French (fr-FR)</name>
 	<tag>fr-FR</tag>
-	<version>4.0.0-rc2.3</version>
-	<creationDate>Juin 2021</creationDate>
-	<author>French translation team</author>
+	<version>4.0.0-rc6.1</version>
+	<creationDate>Août 2021</creationDate>
+	<author>Joomla! Project - French translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 ou version ultérieure ; Voir LICENSE.txt</license>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>fr-FR site language</description>
 	<files>
 		<folder>/</folder>

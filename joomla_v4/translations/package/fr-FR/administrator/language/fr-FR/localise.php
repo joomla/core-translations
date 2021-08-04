@@ -3,7 +3,7 @@
  * @package    Joomla.Language
  *
  * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @licence    GNU General Public License version 2 ou version ultérieure ; Voir LICENSE.txt
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
@@ -28,7 +28,7 @@ abstract class Fr_FRLocalise
 	{
 		if ($count == 0)
 		{
-			return array('et', 'si', 'ou');
+			return array('0');
 		}
 		elseif ($count == 1)
 		{
