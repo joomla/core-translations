@@ -35,6 +35,8 @@ jobs:
         # Include approved translations only in exported files. 
         # If not combined with --skip-untranslated-strings option, strings without approval are fulfilled with the source language'
         export_only_approved: true
+        # The message of the commit
+        commit_message: 'New Afrikaans Crowdin translations by Github Action'
 
     - name: Crowdin Download Albanian
       uses: crowdin/github-action@1.3.0
@@ -45,3 +47,850 @@ jobs:
         download_language: sq
         skip_untranslated_strings: true
         export_only_approved: true
+        commit_message: 'New Albanian Crowdin translations by Github Action'
+
+    - name: Crowdin Download Arabic
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ar
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Arabic Crowdin translations by Github Action'
+
+    - name: Crowdin Download Armenian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: hy
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Armenian Crowdin translations by Github Action'
+
+    - name: Crowdin Download Azerbaijani
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: az
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Azerbaijani Crowdin translations by Github Action'
+
+    - name: Crowdin Download Basque
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: eu
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Basque Crowdin translations by Github Action'
+
+    - name: Crowdin Download Bengali
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: bn
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Bengali Crowdin translations by Github Action'
+
+    - name: Crowdin Download Bosnian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: bs
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Bosnian Crowdin translations by Github Action'
+
+    - name: Crowdin Download Bulgarian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: bg
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Bulgarian Crowdin translations by Github Action'
+
+    - name: Crowdin Download Catalan
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ca
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Catalan Crowdin translations by Github Action'
+
+    - name: Crowdin Download Chinese Simplified
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: zh-CN
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Chinese Simplified Crowdin translations by Github Action'
+
+    - name: Crowdin Download Chinese Traditional
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: zh-TW
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Chinese Traditional Crowdin translations by Github Action'
+
+    - name: Crowdin Download Czech
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: cs
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Czech Crowdin translations by Github Action'
+
+    - name: Crowdin Download Danish
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: da
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Danish Crowdin translations by Github Action'
+
+    - name: Crowdin Download Dari
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: fa-AF
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Dari Crowdin translations by Github Action'
+
+    - name: Crowdin Download Dutch
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: nl
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Dutch Crowdin translations by Github Action'
+
+    - name: Crowdin Download Dutch Belgium
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: nl-BE
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Dutch Belgium Crowdin translations by Github Action'
+
+    - name: Crowdin Download English Australia
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: en-AU
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New English Australia Crowdin translations by Github Action'
+
+    - name: Crowdin Download English Canada
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: en-CA
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New English Canada Crowdin translations by Github Action'
+
+    - name: Crowdin Download English US
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: en-US
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New English US Crowdin translations by Github Action'
+
+    - name: Crowdin Download Esperanto
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: eo
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Esperanto Crowdin translations by Github Action'
+
+    - name: Crowdin Download Estonian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: et
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Estonian Crowdin translations by Github Action'
+
+    - name: Crowdin Download Finnish
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: fi
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Finnish Crowdin translations by Github Action'
+
+
+    - name: Crowdin Download French
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: fr
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New French Crowdin translations by Github Action'
+
+    - name: Crowdin Download French Canada
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: fr-CA
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New French Canada Crowdin translations by Github Action'
+
+    - name: Crowdin Download Galician
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: gl
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Galician Crowdin translations by Github Action'
+
+    - name: Crowdin Download Georgian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ka
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Georgian Crowdin translations by Github Action'
+
+# German doesn't use Crowdin
+# German Australian doesn't use Crowdin
+# German Liechtenstein doesn't use Crowdin
+# German Luxombourg doesn't use Crowdin
+
+    - name: Crowdin Download German Switzerland
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: de-CH
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New German Switzerland Crowdin translations by Github Action'
+
+    - name: Crowdin Download Greek
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: el
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Greek Crowdin translations by Github Action'
+
+    - name: Crowdin Download Gujarati
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: gu
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Gujarati Crowdin translations by Github Action'
+
+    - name: Crowdin Download Hebrew
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: he
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Hebrew Crowdin translations by Github Action'
+
+    - name: Crowdin Download Hindi
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: hi
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Hindi Crowdin translations by Github Action'
+
+    - name: Crowdin Download Hungarian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: hu
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Hungarian Crowdin translations by Github Action'
+
+    - name: Crowdin Download Indonesian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: id
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Indonesian Crowdin translations by Github Action'
+ 
+    - name: Crowdin Download Irish
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ga
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Irish Crowdin translations by Github Action'
+
+    - name: Crowdin Download Italian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: it
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Italian Crowdin translations by Github Action'
+
+    - name: Crowdin Download Japanese
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ja
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Japanese Crowdin translations by Github Action'
+
+    - name: Crowdin Download Kazakh
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: kk
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Kazakh Crowdin translations by Github Action'
+
+    - name: Crowdin Download Khmer
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: km
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Khmer Crowdin translations by Github Action'
+
+    - name: Crowdin Download Korean
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ko
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Korean Crowdin translations by Github Action'
+
+    - name: Crowdin Download Kyrgyz
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ky
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Kyrgyz Crowdin translations by Github Action'
+
+    - name: Crowdin Download Lao
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: lo
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Lao Crowdin translations by Github Action'
+
+    - name: Crowdin Download Latvian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: lv
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Latvian Crowdin translations by Github Action'
+
+    - name: Crowdin Download Lithuanian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: lt
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Lithuanian Crowdin translations by Github Action'
+
+    - name: Crowdin Download Macedonian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: mk
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Macedonian Crowdin translations by Github Action'
+
+    - name: Crowdin Download Malay
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ms
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Malay Crowdin translations by Github Action'
+
+   - name: Crowdin Download Malayalam
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ml
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Malayalam Crowdin translations by Github Action'
+
+   - name: Crowdin Download Mongolian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: mn
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Mongolian Crowdin translations by Github Action'
+
+   - name: Crowdin Download Northern Sami
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: se
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Northern Sami Crowdin translations by Github Action'
+
+   - name: Crowdin Download Norwegian Bokmal
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: nb
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Norwegian Bokmal Crowdin translations by Github Action'
+
+   - name: Crowdin Download Norwegian Nynorsk
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: nn-NO
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Norwegian Nynorsk Crowdin translations by Github Action'
+
+   - name: Crowdin Download Occitan
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: oc
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Occitan Crowdin translations by Github Action'
+
+   - name: Crowdin Download Persian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: fa
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Persian Crowdin translations by Github Action'
+
+   - name: Crowdin Download Polish
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: pl
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Polish Crowdin translations by Github Action'
+
+   - name: Crowdin Download Portuguese
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: pt
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Portuguese Crowdin translations by Github Action'
+
+   - name: Crowdin Download Portuguese Brazilian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: pt-BR
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Portuguese Brazilian Crowdin translations by Github Action'
+
+   - name: Crowdin Download Romanian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ro
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Romanian Crowdin translations by Github Action'
+
+# Russian doesn't use Crowdin
+
+   - name: Crowdin Download Serbian Cyrillic
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: sr-Cyrl
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Serbian Cyrillic Crowdin translations by Github Action'
+
+   - name: Crowdin Download Serbian Latin
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: sr-Latn
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Serbian Latin Crowdin translations by Github Action'
+
+   - name: Crowdin Download Sinhala
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: si
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Sinhala Crowdin translations by Github Action'
+
+   - name: Crowdin Download Slovak
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: sk
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Slovak Crowdin translations by Github Action'
+
+   - name: Crowdin Download Slovenian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: sl
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Slovenian Crowdin translations by Github Action'
+
+# Spanish doesn't use Crowdin
+
+   - name: Crowdin Download Spanish Colombia
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: es-CO
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Spanish Colombia Crowdin translations by Github Action'
+
+   - name: Crowdin Download Spanish Mexico
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: es-MX
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Spanish Mexico Crowdin translations by Github Action'
+
+   - name: Crowdin Download Swahili
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: sw
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Swahili Crowdin translations by Github Action'
+
+   - name: Crowdin Download Swedish
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: sv
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Swedish Crowdin translations by Github Action'
+
+   - name: Crowdin Download Syriac
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: syc
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Syriac Crowdin translations by Github Action'
+
+   - name: Crowdin Download Tagalog
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: tl
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Tagalog Crowdin translations by Github Action'
+
+   - name: Crowdin Download Tamil
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ta
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Tamil Crowdin translations by Github Action'
+
+   - name: Crowdin Download Thai
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: th
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Thai Crowdin translations by Github Action'
+
+   - name: Crowdin Download Turkish
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: tr
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Turkish Crowdin translations by Github Action'
+
+   - name: Crowdin Download Turkmen
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: tk
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Turkmen Crowdin translations by Github Action'
+
+   - name: Crowdin Download Ukrainian
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: uk
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Ukrainian Crowdin translations by Github Action'
+
+   - name: Crowdin Download Urdu India
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ur-IN
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Urdu India Crowdin translations by Github Action'
+
+   - name: Crowdin Download Urdu Pakistan
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ur
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Urdu Pakistan Crowdin translations by Github Action'
+
+   - name: Crowdin Download Uyghur
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ug
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Uyghur Crowdin translations by Github Action'
+
+   - name: Crowdin Download Vietnamese
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: vi
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Vietnamese Crowdin translations by Github Action'
+
+   - name: Crowdin Download Welsh
+      uses: crowdin/github-action@1.3.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: cy
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Welsh Crowdin translations by Github Action'
