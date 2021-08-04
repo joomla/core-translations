@@ -114,10 +114,10 @@ how's
 a
 an
 the
-ja
+and
 but
 if
-või
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-enne
-pärast
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-ei
+not
 only
 own
 same
