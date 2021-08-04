@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Portuguese (pt-PT) Language Pack</name>
 	<packagename>pt-PT</packagename>
-	<version>4.0.0.1rc1.1</version>
-	<creationDate>2021-06-01</creationDate>
+	<version>4.0.0-rc4.2</version>
+	<creationDate>2021-08-04</creationDate>
 	<author>Comunidade JoomlaPortugal</author>
 	<authorEmail>comunidadejoomlapt@gmail.com</authorEmail>
 	<authorUrl>www.joomlaportugal.org</authorUrl>
@@ -15,11 +15,13 @@
 	<description><![CDATA[Idioma português de Portugal (pt-PT) para Joomla 4]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/pt-PT</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/pt-PT</folder>
-		<folder type="language" client="api" id="en-GB">api/language/pt-PT</folder>
+		<folder type="language" client="site" id="pt-PT">language/pt-PT</folder>
+		<folder type="language" client="administrator" id="pt-PT">administrator/language/pt-PT</folder>
+		<folder type="language" client="api" id="pt-PT">api/language/pt-PT</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

@@ -1,12 +1,12 @@
-; Joomla! Project
-; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; Projeto Joomla!
+; Direitos de Autor (C) 2019 - Open Source Matters, Inc. Todos os direitos reservados. <https://www.joomla.org>
+; Licença Pública Geral GNU/GPL - versão 2 ou posterior; ver ficheiro LICENSE.txt
+; Nota: Este ficheiro tem de ser guardado como UTF-8
 
-i
-me
-my
-myself
+eu
+mim
+meu
+eu próprio
 nós
 nosso
 nossos
@@ -17,60 +17,60 @@ seus
 você mesmo
 vocês mesmos
 ele
-him
-his
-himself
+ele
+dele
+ele próprio
 ela
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
+ela
+dela
+ela própria
+isto
+está
+em si
+eles
+eles
+seu
+seus
+eles mesmos
+que
+o qual
+quem
+o qual
+isto
+aquele
+estes
+aqueles
+sou
+é
+são
+foi
+eram
+ser
+foram
+sendo
+tem
+tem
+tinha
+tendo
+fazer
+faz
+fez
+a fazer
+seria
+deve
+pode
+deveria
+eu sou
+você é
+ele é
+ela é
+isso é
+somos
+são
+tenho
+tens
+temos
+têm
 i'd
 you'd
 he'd
@@ -83,39 +83,39 @@ he'll
 she'll
 we'll
 they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
+não é
+não são
+não foi
+não eram
+não tem
+não tem
+não tinha
+não
+não
+não
+não vou
+não farei
+não deve
+não deveria
+não pode
+não pode
+não pôde
+não deve
+vamos
+que é
+quem é
+o que é
+aqui está
+há
+quando é
+onde está
+por que
+como
+um
+uma
 o
 e
-but
+mas
 se
 ou
 porque
@@ -127,32 +127,32 @@ em
 por
 para
 com
-about
-against
-between
-into
-through
-during
+sobre
+contra
+entre
+para
+através
+durante
 antes
 depois
-above
-below
-to
-from
-up
+acima
+abaixo
+para
+de
+subir
 descer
 dentro
 fora
 ligado
 desligado
-over
-under
+sobre
+sob
 novamente
-further
+adiante
 então
 uma vez
 aqui
-there
+ali
 quando
 onde
 porquê
