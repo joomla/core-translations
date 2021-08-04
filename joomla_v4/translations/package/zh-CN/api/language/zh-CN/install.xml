@@ -4,15 +4,15 @@
 	<tag/>
 	<version/>
 	<creationDate/>
-	<author> </author>
-	<authorEmail>Joomla!中文官网 www.joomlachina.org.cn 周永建</authorEmail>
+	<author/>
+	<authorEmail/>
 	<authorUrl/>
 	<copyright/>
 	<license/>
 	<description/>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

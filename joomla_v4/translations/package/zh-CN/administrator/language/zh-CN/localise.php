@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * zh-CN localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class zh_CNLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -61,7 +61,7 @@ abstract class zh_CNLocalise
 	 */
 	public static function getLowerLimitSearchWord()
 	{
-		return 2;
+		return 3;
 	}
 
 	/**
