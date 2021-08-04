@@ -114,10 +114,10 @@ how's
 a
 an
 the
-og
+and
 but
 if
-eller
+or
 because
 as
 until
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-ikkje
+not
 only
 own
 same
