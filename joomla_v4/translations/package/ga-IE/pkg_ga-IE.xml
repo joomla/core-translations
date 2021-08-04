@@ -18,11 +18,13 @@
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/ga-IE</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/ga-IE</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="">language/ga-IE</folder>
+		<folder type="language" client="administrator" id="">administrator/language/ga-IE</folder>
+		<folder type="language" client="api" id=""/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>
