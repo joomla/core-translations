@@ -11,8 +11,8 @@
 	<license/>
 	<description>gu-IN administrator language</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>
