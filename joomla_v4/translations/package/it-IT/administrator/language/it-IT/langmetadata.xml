@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
-	<name>Italian (Italy)</name>
+	<name>Italiano (it-IT)</name>
 	<version>4.0.0.1</version>
-	<creationDate>Giugno 2021</creationDate>
+	<creationDate>Luglio 2021</creationDate>
 	<author>Italian Translation Team</author>
 	<authorEmail>stellainformatica@gmail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -10,11 +10,11 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[it-IT administration language]]></description>
 	<metadata>
-		<name>Italian (Italy)</name>
+		<name>Italiano (it-IT)</name>
 		<nativeName>Italiano (it-IT)</nativeName>
 		<tag>it-IT</tag>
 		<rtl>0</rtl>
-		<locale>it_IT.utf8, it_IT.UTF-8, it_IT, ita_IT, it, italian, italian-it, IT, ita, italy, it_IT.UTF-8@euro, Italian_Standard, it-IT, italy</locale>
+		<locale>it_IT.utf8, it_IT.UTF-8, it_IT, ita_IT, it, italian, italian-it, IT, ita, italy, it_IT.UTF-8@euro, Italian_Standard, it-IT</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
