@@ -4,15 +4,15 @@
 	<tag>sq-AL</tag>
 	<version/>
 	<creationDate/>
-	<author>Ekipi i përkthimit në Shqip</author>
+	<author/>
 	<authorEmail>mirimarku@gmail.com</authorEmail>
 	<authorUrl/>
 	<copyright/>
 	<license/>
 	<description>Albanian site language for Joomla 3.1</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>
