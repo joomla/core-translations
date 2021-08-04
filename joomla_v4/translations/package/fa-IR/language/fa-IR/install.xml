@@ -4,15 +4,15 @@
 	<tag>fa-IR</tag>
 	<version/>
 	<creationDate/>
-	<author>Persian Translation Team, Joomlafarsi.com</author>
+	<author/>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.JoomlaFarsi.com</authorUrl>
 	<copyright/>
 	<license/>
 	<description>Persian site language pack for Joomla 3.4.5</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

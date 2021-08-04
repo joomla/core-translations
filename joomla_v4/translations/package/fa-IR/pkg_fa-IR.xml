@@ -3,8 +3,8 @@
 	<name>Persian Language Pack</name>
 	<packagename>fa-IR</packagename>
 	<version>4.0.0.1</version>
-	<creationDate>ژوئن 2021</creationDate>
-	<author>Persian Translation Team, Joomlafarsi.com</author>
+	<creationDate/>
+	<author/>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.JoomlaFarsi.com</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.
@@ -13,19 +13,21 @@
 </license>
 	<url>https://github.com/joomla/joomla-cms
 </url>
-	<packager>Persian Translation Team, Joomlafarsi.com</packager>
+	<packager/>
 	<packagerurl>www.JoomlaFarsi.com</packagerurl>
 	<description><![CDATA[<h3>فارسی ساز جوملا 3.4 کاری از تیم برگزیده جوملا در ایران. جوملا فارسی دات کام</h3>
 		<h3>Joomla! 3.4 Full Farsi (fa-IR) Language Package version 3.4.5v1, JoomlaFarsi.com</h3>
 		<br>]]></description>
-	<blockChildUninstall>درست</blockChildUninstall>
+	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">site_fa-IR</folder>
-		<folder type="language" client="administrator" id="en-GB">admin_fa-IR</folder>
-		<folder type="language" client="api" id="en-GB">api/language/fa-IR
+		<folder type="language" client="site" id="fa-IR"/>
+		<folder type="language" client="administrator" id="fa-IR"/>
+		<folder type="language" client="api" id="fa-IR">api/language/fa-IR
 </folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

@@ -4,15 +4,15 @@
 	<tag>fa-IR</tag>
 	<version/>
 	<creationDate>June 2021</creationDate>
-	<author> </author>
+	<author/>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.JoomlaFarsi.com</authorUrl>
 	<copyright/>
 	<license/>
 	<description/>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>
