@@ -114,10 +114,10 @@ how's
 a
 an
 the
-और
+and
 but
 if
-या
+or
 because
 as
 until
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-नहीं
+not
 only
 own
 same

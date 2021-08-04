@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="administrator" type="language" method="upgrade">
 	<name/>
-	<tag/>
+	<tag>pl-PL</tag>
 	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
+	<creationDate>Lipiec 2021</creationDate>
+	<author>Projekt Joomla!</author>
+	<authorEmail>zwiastun@joomla.pl</authorEmail>
+	<authorUrl>https://www.joomla.pl</authorUrl>
+	<copyright>Copyright (C) 2005 - 2021 Open Source Matters. All rights reserved.</copyright>
 	<license/>
 	<description>język zaplecza Joomla! 3.8.0 - http://www. joomla. pl</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

@@ -3,177 +3,176 @@
 ; License GNU General Public License version 2 or later; see LICENSE.txt
 ; Note : This file needs to be saved as UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
+jaz
+jaz
+moj
+sebe
+mi
+naš
+naše
+sebe
+ti
+tvoj
+tvoja
+sebe
+sami
+on
+njega
+njegovo
+sam
+ona
+njo
+njen
+njeno
+to
+svoje
+sebe
+oni
+njim
+njihovi
+njihov
+sami
+kaj
+ki
+kdo
+koga
+to
+to
+teh
+tiste
+sem
+je
+so
+je bil
+so bili
+biti
+bila
+biti
+imeti
+ima
+imel
+imeti
 do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+naredi
+naredil
+delaš
+bi
+bi morali
+lahko
+moral bi
+jaz sem
+ti si
+on je
+ona je
+to je
+mi smo
+oni so
+sem že
+ti si
+smo že
+so
+jaz bi
+ti bi
+on bi
+ona bi
+vi bi
+oni bi
+jaz bom
+ti boš
+on bo
+ona bo
+mi bomo
+oni bodo
+ni
+niso
+ni bilo
+niso bili
+ni
+nisem
+ni imel
+ne
+ne
+ni
+ne bo
+ne bi
+ne bo
+ne bi smel
+ne morem
+ne more
+ne bi mogel
+ne sme
+dajmo
+to je
+kdo je
+kaj je
+tukaj je
+tam je
+kdaj je
+kje je
+zakaj je
+kako je
 a
 an
-the
 in
-but
-if
+ampak
+če
 ali
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
+ker
+kot
+dokler
+medtem
+od
+ob
+od
+za
+z
+približno
+proti
+med
+v
+skozi
+med
 pred tem
 za tem
-above
-below
+nad
+pod
 to
-from
-up
-down
-in
-out
+iz
+gor
+dol
+v
+ven
 on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
+izključeno
+nad
+pod
+ponovno
+nadalje
+potem
+enkrat
+tukaj
+tam
+kdaj
+kje
+zakaj
+kako
+vse
+katerikoli
+oba
+vsak
+malo
+več
+najbolj
+ostali
+nekaj
+takšen
+ne
+niti
 ni
-only
-own
-same
+samo
+lastno
+enako
 so
-than
-too
-very
+kot
+preveč
+zelo

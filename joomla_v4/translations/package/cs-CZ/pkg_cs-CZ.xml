@@ -3,23 +3,25 @@
 	<name>Czech (cs-CZ) Language Pack</name>
 	<packagename>cs-CZ</packagename>
 	<version>4.0.0-rc1.1</version>
-	<creationDate>Červen 2021</creationDate>
-	<author>Czech Translation Team</author>
+	<creationDate/>
+	<author/>
 	<authorEmail>admin@joomla.cz</authorEmail>
-	<authorUrl>https://www.joomlaportal.cz</authorUrl>
+	<authorUrl>http://www.joomlaportal.cz</authorUrl>
 	<copyright>Copyright (C) 2005 - 2020 Open Source Matters, Inc. All rights reserved.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Czech Translation Team</packager>
-	<packagerurl>https://www.joomlaportal.cz</packagerurl>
+	<packager/>
+	<packagerurl>http://www.joomlaportal.cz</packagerurl>
 	<description><![CDATA[cs-CZ language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/cs-CZ</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/cs-CZ</folder>
-		<folder type="language" client="api" id="en-GB">api/language/cs-CZ</folder>
+		<folder type="language" client="site" id="cs-CZ">language/cs-CZ</folder>
+		<folder type="language" client="administrator" id="cs-CZ">administrator/language/cs-CZ</folder>
+		<folder type="language" client="api" id="cs-CZ">api/language/cs-CZ</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

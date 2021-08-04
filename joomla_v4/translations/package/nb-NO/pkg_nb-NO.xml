@@ -4,22 +4,24 @@
 	<packagename>nb-NO</packagename>
 	<version>4.0.0.1</version>
 	<creationDate/>
-	<author>Joomla! Project</author>
+	<author/>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Joomla! Project</packager>
+	<packager/>
 	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[Norsk bokmål (nb-NO) språkpakke]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/nb-NO</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/nb-NO</folder>
-		<folder type="language" client="api" id="en-GB">api/language/nb-NO</folder>
+		<folder type="language" client="site" id="nb-NO">language/nb-NO</folder>
+		<folder type="language" client="administrator" id="nb-NO">administrator/language/nb-NO</folder>
+		<folder type="language" client="api" id="nb-NO">api/language/nb-NO</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

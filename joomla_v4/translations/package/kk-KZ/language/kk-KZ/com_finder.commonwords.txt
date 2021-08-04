@@ -114,10 +114,10 @@ how's
 a
 an
 the
-және
+and
 but
 if
-немесе
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-дейін
-кейін
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-жоқ
+not
 only
 own
 same

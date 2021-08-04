@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
 	<name>中文(繁體．台灣) 完整語言包</name>
-	<packagename/>
-	<version/>
-	<creationDate/>
-	<author/>
+	<packagename>zh-TW</packagename>
+	<version>4.0.0.1</version>
+	<creationDate>July 2021</creationDate>
+	<author>Joomla! 台灣</author>
 	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<url/>
-	<packager/>
-	<packagerurl/>
+	<authorUrl>www.joomla.org.tw</authorUrl>
+	<copyright>(C) 2021 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! 台灣</packager>
+	<packagerurl>www.joomla.org.tw</packagerurl>
 	<description><![CDATA[<h3>Joomla! v3.7.0.1 中文(繁體．台灣) 完整語言包</h3><h3>Joomla! v3.7.0.1 Traditional Chinese (Taiwan) Language Package</h3>]]></description>
-	<blockChildUninstall/>
+	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB"/>
-		<folder type="language" client="administrator" id="en-GB"/>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="zh-TW">language/zh-TW</folder>
+		<folder type="language" client="administrator" id="zh-TW">administrator/language/zh-TW</folder>
+		<folder type="language" client="api" id="zh-TW">api/language/zh-TW</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

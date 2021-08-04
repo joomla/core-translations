@@ -2,8 +2,8 @@
 <metafile client="site">
 	<name>Arabic Unitag (العربية الموحدة)</name>
 	<version>3.9.27</version>
-	<creationDate>May 2021</creationDate>
-	<author>Dr. Ashraf Damra/Abu Nidal</author>
+	<creationDate/>
+	<author/>
 	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
 	<authorUrl/>
 	<copyright>Copyright (C) 2005 - 2021 Open Source Matters &amp; Dr. Ashraf Damra/Abu Nidal. All rights reserved.</copyright>
@@ -11,11 +11,11 @@
 	<description><![CDATA[Arabic Unitag language files/Site ملفات اللغة العربية الموحدة/الموقع]]></description>
 	<metadata>
 		<name>Arabic Unitag (العربية الموحدة)</name>
-		<nativeName>Arabic (اللغة العربية)</nativeName>
+		<nativeName>Arabic Unitag (العربية الموحدة)</nativeName>
 		<tag>ar-AA</tag>
 		<rtl>1</rtl>
 		<locale>ar_AR.utf8, ar_AR.UTF-8, ar_AR, ara_AR, arb_AR, arabic_ar, arabe, ara, arab, arabic, ar, arabic_Standard, ar_AR.iso88596, ar_AR.ISO-8859-6, ar_AR.ISO8859-6, ISO-8859-6</locale>
-		<firstDay/>
+		<firstDay>1</firstDay>
 		<weekEnd>6,5</weekEnd>
 		<calendar/>
 	</metadata>

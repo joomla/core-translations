@@ -3,14 +3,14 @@
 	<name>German (Swiss) Language Pack</name>
 	<packagename>de-CH</packagename>
 	<version>4.0.0-rc2.4</version>
-	<creationDate>17.06.2021</creationDate>
-	<author>J!Club</author>
+	<creationDate>13.07.2021</creationDate>
+	<author>J!German</author>
 	<authorEmail>info@joomlaclub.ch</authorEmail>
 	<authorUrl>https://www.joomlaclub.ch</authorUrl>
 	<copyright>(C) 2008 - 2021 All rights reserved.</copyright>
 	<license>GNU General Public License; see LICENSE.txt</license>
 	<url/>
-	<packager>J!Club</packager>
+	<packager>J!German</packager>
 	<packagerurl>https://www.joomlaclub.ch</packagerurl>
 	<description><![CDATA[
 	<h2>Deutschschweizrisches Sprachpaket für Joomla! 4.0.0-rc2 von <a title="J!Club" href="https://www.joomlaclub.ch" target="_blank">J!Club</a></h2>
@@ -23,11 +23,13 @@
 	]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB"/>
-		<folder type="language" client="administrator" id="en-GB"/>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="de-CH"/>
+		<folder type="language" client="administrator" id="de-CH"/>
+		<folder type="language" client="api" id="de-CH"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_4.xml</server>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

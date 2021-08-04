@@ -4,14 +4,14 @@
 	<tag>sv-SE</tag>
 	<version>4.0.0</version>
 	<creationDate>April 2021</creationDate>
-	<author> </author>
+	<author>Swedish Translation Team - SvenskJoomla</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>http://www.svenskjoomla.se</authorUrl>
 	<copyright/>
 	<license>GNU General Public Licens version 2 eller senare; Se LICENSE.txt</license>
 	<description>sv-SE api-språk</description>
 	<files>
-		<folder/>
+		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>

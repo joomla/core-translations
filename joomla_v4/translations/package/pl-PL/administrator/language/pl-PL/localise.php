@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- pl-PL localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class pl_PLLocalise
+abstract class En_GBLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class pl_PLLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('i', 'w', 'od', 'na', 'pod', 'z', 'ze');
+		return array('and', 'in', 'on');
 	}
 
 	/**

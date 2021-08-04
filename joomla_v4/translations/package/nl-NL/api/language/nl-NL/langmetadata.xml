@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Dutch (nl-NL)</name>
-	<version>4.0.0-rc2.1</version>
-	<creationDate>Juni 2021</creationDate>
-	<author>Joomla! Project</author>
+	<version>4.0.0-rc5.1</version>
+	<creationDate>Juli 2021</creationDate>
+	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
 	<copyright>(C) 2021 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[Nederlandse api taal]]></description>
+	<license/>
+	<description><![CDATA[nl-NL api taal]]></description>
 	<metadata>
 		<name>Dutch (nl-NL)</name>
 		<nativeName>Dutch (nl-NL)</nativeName>

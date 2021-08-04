@@ -117,7 +117,7 @@ the
 and
 but
 if
-tai
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-ennen
-jälkeen
+before
+after
 above
 below
 to

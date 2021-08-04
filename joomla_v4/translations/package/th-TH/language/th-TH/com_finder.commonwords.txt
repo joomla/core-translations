@@ -117,7 +117,7 @@ the
 and
 but
 if
-หรือ
+or
 because
 as
 until

@@ -2,17 +2,17 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Arabic Unitag (العربية الموحدة)</name>
 	<tag>ar-AA</tag>
-	<version>3.9.27.1</version>
-	<creationDate>25/05/2021</creationDate>
-	<author>Ashraf Damra</author>
+	<version>3.9.27</version>
+	<creationDate/>
+	<author/>
 	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
 	<authorUrl/>
 	<copyright>Copyright (C) 2005 - 2020 Open Source Matters, Inc. All rights reserved.</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<description>ar-AA - Site language</description>
+	<license/>
+	<description>Arabic Unitag language files/Site ملفات اللغة العربية الموحدة/الموقع</description>
 	<files>
-		<folder/>
-		<filename file="meta">ar-AA.ini</filename>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

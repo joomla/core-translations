@@ -4,15 +4,15 @@
 	<tag>sr-RS</tag>
 	<version/>
 	<creationDate/>
-	<author>Serbian translation team: Joomla! Serbia</author>
+	<author/>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
 	<copyright/>
 	<license/>
 	<description>sr-RS Serbian Cyrillic Language Pack for Joomla!</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

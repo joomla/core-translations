@@ -11,8 +11,8 @@
 	<license/>
 	<description>Bosnian Joomla! language pack for site (frontend)</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

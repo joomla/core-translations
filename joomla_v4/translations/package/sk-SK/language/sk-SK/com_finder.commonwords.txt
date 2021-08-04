@@ -1,7 +1,7 @@
 ; Joomla! Project
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; Licencia GNU General Public License verzie 2 alebo neskoršej; Pozrite si súbor LICENSE.txt
+; Poznámka: Tento súbor musí byť uložený vo formáte UTF-8 - https://korpus.sk/attachments/index/NV2014_KvizSNK-odpovede.pdf
 
 i
 me
@@ -114,10 +114,10 @@ how's
 a
 an
 the
-a
+and
 but
 if
-alebo
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-pred
-po
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-nie
+not
 only
 own
 same

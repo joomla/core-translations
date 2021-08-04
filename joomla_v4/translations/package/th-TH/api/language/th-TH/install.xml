@@ -4,15 +4,15 @@
 	<tag>th-TH</tag>
 	<version/>
 	<creationDate/>
-	<author> </author>
+	<author/>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
 	<copyright/>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<license/>
 	<description/>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * da-DK localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Da_DKLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -32,11 +32,11 @@ abstract class En_GBLocalise
 		}
 		elseif ($count == 1)
 		{
-			return array('ONE', '1');
+			return array('EN', '1');
 		}
 		else
 		{
-			return array('OTHER', 'MORE');
+			return array('ANDRE', 'MERE');
 		}
 	}
 }

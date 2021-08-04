@@ -1,179 +1,179 @@
-; Joomla! Project
+; Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; Γενική Άδεια Δημόσιας Χρήσης GNU (GNU GPL), έκδοση 2 ή μεταγενέστερη· δείτε το LICENSE.txt
+; Σημείωση : Αυτό το αρχείο πρέπει να αποθηκευτεί ως UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
+εγώ
+μου
+μου
+εγώ ο ίδιος
+εμείς
+μας
+δικό μας
+εμείς οι ίδιοι
+εσείς
+τα δικα σου
+δικος σου
+ο ίδιος
+σείς οι ίδιοι
+αυτός
+αυτόν
+του
+ο ίδιος
+αυτή
+αυτήν
+το δικό της
+εαυτήν
+το
+του
+εαυτό
+αυτοί
+τους
+δικα τους
+δικο τους
+τους εαυτούς τους
+τι
+οι οποίες
+που
+ποιόν
+αυτό
+αυτόν
+αυτά τα
+εκείνοι
+είμαι
+είναι
+είναι
+ήταν
+ήταν
+είναι
+ήταν
+να εισαι
+έχω
+έχει
+είχε
+έχοντας
+κάνω
+κάνει
+έκανε
+πράξη
+θα
+πρέπει
+θα μπορούσε
+πρέπει
+ειμαι
+είσαι
+αυτός είναι
+αυτή είναι
+του
+είμαστε
+είναι
+εγώ έχω
+έχεις
+εχουμε
+έχουν
+ταυτότητα
+θα
+είχε κάνει
+υπόστεγο
+νυμφεύω
+θα το έκαναν
+Εγώ θα
+θα
+κόλαση
+κέλυφος
+Καλά
+θα το κάνουν
+δεν είναι
+δεν είναι
+δεν ήταν
+δεν ήταν
+δεν έχει
+δεν έχω
+δεν είχε
+δεν
+μη
+δεν έκανε
+συνηθισμένος
+δεν θα
+δεν θα
+δεν πρέπει
+κλίση
+δεν μπορώ
+δεν μπορούσε
+δεν πρέπει
+ας
+αυτό είναι
+ποιος ειναι
+τι είναι
+εδώ είναι
+υπάρχει
+πότε είναι
+που είναι
+γιατι
+πως είναι
+ένα
+ένα
+ο
 και
-but
-if
+αλλά
+αν
 ή
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-πριν από
-μετά από
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
+επειδή
+όπως και
+μέχρι
+ενώ
+του
+στο
+με
+Για
+με
+σχετικά με
+κατά
+μεταξύ
+σε
+διά μέσου
+στη διάρκεια
+πριν
+μετά
+πάνω από
+παρακάτω
+προς το
+από
+πάνω
+κάτω
+σε
+έξω
+επί
+μακριά από
+πάνω από
+κάτω από
+πάλι
+περαιτέρω
+τότε
+μια φορά
+εδώ
+εκεί
+πότε
+όπου
+Γιατί
+πως
+όλα
+όποιος
+και τα δυο
+καθε
+λίγοι
+περισσότερο
+πλέον
+άλλα
+μερικοί
+τέτοιος
 όχι
-only
-own
-same
-so
-than
-too
-very
+ούτε
+δεν
+μόνο
+τα δικά
+ίδιο
+Έτσι
+από
+πολύ
+πολύ

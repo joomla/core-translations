@@ -4,13 +4,13 @@
 	<packagename>fi-FI</packagename>
 	<version>4.0.0.1</version>
 	<creationDate/>
-	<author>Finnish translation team: Joomla.fi</author>
+	<author/>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
 	<copyright/>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Finnish translation team: Joomla.fi</packager>
+	<packager/>
 	<packagerurl>https://joomla.fi</packagerurl>
 	<description><![CDATA[<div style="text-align: left;">
 		<h3>Joomla! 4.0.0 Full Finnish (fi-FI) Language Package - Version 4.0.0</h3>
@@ -18,11 +18,13 @@
 		</div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">site_fi-FI.zip</folder>
-		<folder type="language" client="administrator" id="en-GB">admin_fi-FI.zip</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="fi-FI"/>
+		<folder type="language" client="administrator" id="fi-FI">admin_fi-FI.zip</folder>
+		<folder type="language" client="api" id="fi-FI"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

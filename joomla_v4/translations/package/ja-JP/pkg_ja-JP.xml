@@ -13,13 +13,15 @@
 	<packager/>
 	<packagerurl/>
 	<description><![CDATA[Joomla! 3.x 用の日本語ランゲージパックです。]]></description>
-	<blockChildUninstall/>
+	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB"/>
-		<folder type="language" client="administrator" id="en-GB"/>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id=""/>
+		<folder type="language" client="administrator" id=""/>
+		<folder type="language" client="api" id=""/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

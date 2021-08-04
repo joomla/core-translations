@@ -4,13 +4,13 @@
 	<packagename>th-TH</packagename>
 	<version/>
 	<creationDate/>
-	<author>Thai Translation Team</author>
+	<author/>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
 	<copyright/>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Thai Translation Team</packager>
+	<packager/>
 	<packagerurl>www.joomlacorner.com</packagerurl>
 	<description><![CDATA[
 		<div align="center">
@@ -53,11 +53,13 @@
     </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/th-TH</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/th-TH</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="th-TH">language/th-TH</folder>
+		<folder type="language" client="administrator" id="th-TH">administrator/language/th-TH</folder>
+		<folder type="language" client="api" id="th-TH"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

@@ -114,10 +114,10 @@ how's
 a
 an
 the
-ו-
+and
 but
 if
-או
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-לפני
-לאחר
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-. לא
+not
 only
 own
 same

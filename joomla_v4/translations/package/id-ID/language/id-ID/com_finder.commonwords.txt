@@ -114,10 +114,10 @@ how's
 a
 an
 the
-dan
+and
 but
 if
-atau
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-sebelum
-setelah
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-tidak
+not
 only
 own
 same

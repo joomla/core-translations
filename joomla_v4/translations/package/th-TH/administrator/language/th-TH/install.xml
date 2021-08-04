@@ -4,11 +4,11 @@
 	<tag>th-TH</tag>
 	<version/>
 	<creationDate/>
-	<author>Thai Translation Team</author>
+	<author/>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
 	<copyright/>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<license/>
 	<description>&lt;div align="center">
       &lt;table border="0" width="100%">
   	    &lt;tr>
@@ -49,8 +49,8 @@
 &lt;/div>
 </description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

@@ -11,8 +11,8 @@
 	<license/>
 	<description>Joomla! 管理画面用日本語ファイルです。</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

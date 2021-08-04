@@ -4,15 +4,15 @@
 	<tag>sq-AL</tag>
 	<version/>
 	<creationDate/>
-	<author> </author>
+	<author/>
 	<authorEmail>mirimarku@gmail.com</authorEmail>
 	<authorUrl/>
 	<copyright/>
 	<license/>
 	<description/>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

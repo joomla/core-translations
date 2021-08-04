@@ -4,11 +4,11 @@
 	<tag>lv-LV</tag>
 	<version>4.0.0</version>
 	<creationDate/>
-	<author>Joomla! Project</author>
+	<author/>
 	<authorEmail>lemings@inbox.lv</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright/>
-	<license>GNU galvenā publiskā licence versija 2 vai jaunāka; skatīt LICENSE.txt</license>
+	<copyright>Autortiesības (C) 2005 - 2021 Open Source Matters. Visas tiesības aizsargātas.</copyright>
+	<license>GNU General Public License versija 2 vai jaunāka; skatīt LICENSE.txt</license>
 	<description>latvian admin language pack for Joomla</description>
 	<files>
 		<folder>/</folder>

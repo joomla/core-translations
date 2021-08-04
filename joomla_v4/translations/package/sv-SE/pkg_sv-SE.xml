@@ -3,7 +3,7 @@
 	<name>Swedish (sv-SE) Language Pack</name>
 	<packagename>sv-SE</packagename>
 	<version>4.0.0.1</version>
-	<creationDate>Juni 2021</creationDate>
+	<creationDate>Juli 2021</creationDate>
 	<author>Swedish Translation Team - SvenskJoomla</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>http://www.svenskjoomla.se</authorUrl>
@@ -16,11 +16,13 @@
 <p>Översättningarna är baserade på tidigare gjorda översättningar men med en rad språkliga förbättringar och förenklingar. Inget tidigare arbete har gått till spillo</p>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/sv-SE</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/sv-SE</folder>
-		<folder type="language" client="api" id="en-GB">api/språk/sv-SE</folder>
+		<folder type="language" client="site" id="sv-SE">language/sv-SE</folder>
+		<folder type="language" client="administrator" id="sv-SE">administrator/language/sv-SE</folder>
+		<folder type="language" client="api" id="sv-SE">api/language/sv-SE</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Ackrediterade översättningar av Joomla!">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

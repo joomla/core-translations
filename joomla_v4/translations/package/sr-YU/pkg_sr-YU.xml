@@ -4,22 +4,24 @@
 	<packagename>sr-YU</packagename>
 	<version/>
 	<creationDate/>
-	<author>Serbian translation team: Joomla! Serbia</author>
+	<author/>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
 	<copyright/>
 	<license/>
 	<url/>
-	<packager>Serbian translation team: Joomla! Serbia</packager>
+	<packager/>
 	<packagerurl>http://www.joomla-serbia.com</packagerurl>
 	<description><![CDATA[]]></description>
-	<blockChildUninstall/>
+	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB"/>
-		<folder type="language" client="administrator" id="en-GB"/>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="sr-YU"/>
+		<folder type="language" client="administrator" id="sr-YU"/>
+		<folder type="language" client="api" id="sr-YU"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

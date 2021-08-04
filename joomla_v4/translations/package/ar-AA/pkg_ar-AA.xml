@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
 	<name/>
-	<packagename/>
+	<packagename>ar-AA</packagename>
 	<version/>
 	<creationDate/>
 	<author/>
-	<authorEmail/>
+	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
 	<authorUrl/>
 	<copyright/>
 	<license/>
@@ -13,13 +13,15 @@
 	<packager/>
 	<packagerurl/>
 	<description><![CDATA[]]></description>
-	<blockChildUninstall/>
+	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB"/>
-		<folder type="language" client="administrator" id="en-GB"/>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="ar-AA"/>
+		<folder type="language" client="administrator" id="ar-AA"/>
+		<folder type="language" client="api" id="ar-AA"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

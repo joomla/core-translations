@@ -4,11 +4,11 @@
 	<tag>eu-ES</tag>
 	<version>4.0.0</version>
 	<creationDate>Urria 2019</creationDate>
-	<author> </author>
+	<author/>
 	<authorEmail>joomlaeuskaraz@gmail.com</authorEmail>
 	<authorUrl>(ez dago)</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<license/>
 	<description>eu-ES api language</description>
 	<files>
 		<folder>/</folder>

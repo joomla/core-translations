@@ -4,22 +4,24 @@
 	<packagename>lt-LT</packagename>
 	<version/>
 	<creationDate/>
-	<author>Rimvydas Žilinskas</author>
+	<author/>
 	<authorEmail>rimvydas@rimvydas.info</authorEmail>
 	<authorUrl>www.rimvydas.info</authorUrl>
 	<copyright/>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Rimvydas Žilinskas</packager>
+	<packager/>
 	<packagerurl>www.rimvydas.info</packagerurl>
 	<description><![CDATA[Joomla! lietuvių kalbos paketas]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">site_lt-LT</folder>
-		<folder type="language" client="administrator" id="en-GB">admin_lt-LT</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="lt-LT"/>
+		<folder type="language" client="administrator" id="lt-LT"/>
+		<folder type="language" client="api" id="lt-LT"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

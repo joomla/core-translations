@@ -114,10 +114,10 @@ how's
 a
 an
 the
-და
+and
 but
 if
-ან
+or
 because
 as
 until
@@ -133,8 +133,8 @@ between
 into
 through
 during
-%s-მდე
-%s-შემდეგ
+before
+after
 above
 below
 to
@@ -169,7 +169,7 @@ some
 such
 no
 nor
-და არა
+not
 only
 own
 same

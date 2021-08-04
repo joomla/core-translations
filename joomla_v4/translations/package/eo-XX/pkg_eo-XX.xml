@@ -4,22 +4,24 @@
 	<packagename>eo-XX</packagename>
 	<version/>
 	<creationDate/>
-	<author>EsperantoSverige, Svedio</author>
+	<author/>
 	<authorEmail>tradukoj@esperantosverige.se</authorEmail>
 	<authorUrl>esperantosverige.se</authorUrl>
 	<copyright/>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>EsperantoSverige, Svedio</packager>
+	<packager/>
 	<packagerurl>esperantosverige.se</packagerurl>
 	<description><![CDATA[eo-XX lingvopakaĵo]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/eo-XX</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/eo-XX</folder>
-		<folder type="language" client="api" id="en-GB"/>
+		<folder type="language" client="site" id="eo-XX">language/eo-XX</folder>
+		<folder type="language" client="administrator" id="eo-XX">administrator/language/eo-XX</folder>
+		<folder type="language" client="api" id="eo-XX"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>

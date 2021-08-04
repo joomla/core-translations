@@ -2,17 +2,17 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Tamil (India)</name>
 	<tag>ta-IN</tag>
-	<version/>
-	<creationDate/>
+	<version>4.0.0.1</version>
+	<creationDate>2021-08-17</creationDate>
 	<author>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</author>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description>ta-IN administrator language</description>
+	<authorEmail>mig.joomla@gmail.com</authorEmail>
+	<authorUrl> </authorUrl>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>ta-IN நிர்வாகி மொழி (administrator language)</description>
 	<files>
-		<folder/>
-		<filename file="meta"/>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params/>
 </extension>

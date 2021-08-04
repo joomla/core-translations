@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Welsh (cy-GB) Language Pack</name>
 	<packagename>cy-GB</packagename>
-	<version>4.0.0-rc1.1</version>
-	<creationDate>2021-06-08</creationDate>
+	<version>4.0.0-rc5.1</version>
+	<creationDate>Awst 2021</creationDate>
 	<author>Welsh Translation Team : Joomla.cymru</author>
 	<authorEmail>cyfieithu@joomla.cymru</authorEmail>
 	<authorUrl>www.joomla.cymru</authorUrl>
@@ -15,11 +15,13 @@
 	<description><![CDATA[cy-GB language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/cy-GB</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/cy-GB</folder>
-		<folder type="language" client="api" id="en-GB">api/language/cy-GB</folder>
+		<folder type="language" client="site" id="cy-GB">language/cy-GB</folder>
+		<folder type="language" client="administrator" id="cy-GB">administrator/language/cy-GB</folder>
+		<folder type="language" client="api" id="cy-GB">api/language/cy-GB</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations"/>
+		<server type="collection" priority="1" name="Cyfieithiadau Joomla! Achrededig">
+			https://update.joomla.org/language/translationlist_4.xml
+		</server>
 	</updateservers>
 </extension>
