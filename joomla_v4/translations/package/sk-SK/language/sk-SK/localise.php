@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Sk_SKLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -34,9 +34,61 @@ abstract class En_GBLocalise
 		{
 			return array('ONE', '1');
 		}
-		else
+		elseif ($count == 2 || $count == 3 || $count == 4)
+{
+return array('FEW', '2');
+}
+else
 		{
 			return array('OTHER', 'MORE');
 		}
+	}
+
+	/**
+	 * Returns the ignored search words
+	 *
+	 * @return  array  An array of ignored search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getIgnoredSearchWords()
+	{
+		return array('and', 'in', 'on');
+	}
+
+	/**
+	 * Returns the lower length limit of search words
+	 *
+	 * @return  integer  The lower length limit of search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getLowerLimitSearchWord()
+	{
+		return 3;
+	}
+
+	/**
+	 * Returns the upper length limit of search words
+	 *
+	 * @return  integer  The upper length limit of search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getUpperLimitSearchWord()
+	{
+		return 20;
+	}
+
+	/**
+	 * Returns the number of chars to display when searching
+	 *
+	 * @return  integer  The number of chars to display when searching.
+	 *
+	 * @since   1.6
+	 */
+	public static function getSearchDisplayedCharactersNumber()
+	{
+		return 200;
 	}
 }
