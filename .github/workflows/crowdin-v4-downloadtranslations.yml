@@ -10,8 +10,8 @@ env:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel  
 jobs:
   synchronize-with-crowdin:
+    if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
     runs-on: ubuntu-latest
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
