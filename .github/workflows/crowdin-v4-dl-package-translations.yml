@@ -1,4 +1,4 @@
-name: J4 Download Translations Crowdin Action
+name: J4 Download Package Translations Crowdin Action
 # Controls when the action will run. 
 on:
   # Allows you to run this workflow manually from the Actions tab
