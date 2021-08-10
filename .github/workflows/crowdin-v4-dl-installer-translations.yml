@@ -129,7 +129,7 @@ jobs:
         commit_message: 'New French Crowdin translations by Github Action'
 
 # German doesn't use Crowdin
-# German Australian doesn't use Crowdin
+# German Austria doesn't use Crowdin
 # German Liechtenstein doesn't use Crowdin
 # German Luxombourg doesn't use Crowdin
 
