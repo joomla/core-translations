@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
 	<name>Arabic Unitag (العربية الموحدة)</name>
-	<version>3.9.27</version>
-	<creationDate/>
-	<author/>
+	<version>4.0.0</version>
+	<creationDate>June 2021</creationDate>
+	<author>Dr. Ashraf Damra</author>
 	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
-	<authorUrl/>
+	<authorUrl>www.dr-ashraf.com</authorUrl>
 	<copyright>Copyright (C) 2005 - 2021 Open Source Matters &amp; Dr. Ashraf Damra/Abu Nidal. All rights reserved.</copyright>
-	<license/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[Arabic Unitag language files/Administrator ملفات اللغة العربية الموحدة/الإدارة]]></description>
 	<metadata>
 		<name>Arabic Unitag (العربية الموحدة)</name>
@@ -17,7 +17,7 @@
 		<locale>ar_AR.utf8, ar_AR.UTF-8, ar_AR, ara_AR, arb_AR, arabic_ar, arabe, ara, arab, arabic, ar, arabic_Standard, ar_AR.iso88596, ar_AR.ISO-8859-6, ar_AR.ISO8859-6, ISO-8859-6</locale>
 		<firstDay>1</firstDay>
 		<weekEnd>6,5</weekEnd>
-		<calendar/>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>

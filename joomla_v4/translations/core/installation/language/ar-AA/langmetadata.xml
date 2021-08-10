@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="installation">
 	<name>Arabic Unitag (العربية الموحدة)</name>
-	<version>3.9.27</version>
-	<creationDate/>
-	<author/>
+	<version>4.0.0</version>
+	<creationDate>June 2021</creationDate>
+	<author>Dr. Ashraf Damra</author>
 	<copyright>Copyright (C) 2005 - 2021 Open Source Matters &amp; Dr. Ashraf Damra/Abu Nidal. All rights reserved.</copyright>
-	<license/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>
 		<filename>joomla.ini</filename>
 	</files>
