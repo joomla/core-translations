@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Spanish (es-ES)</name>
 	<tag>es-ES</tag>
-	<version>4.0.0-rc4.2</version>
-	<creationDate>2021/07/23</creationDate>
+	<version>4.0.0-rc5.1</version>
+	<creationDate>2021/08/10</creationDate>
 	<author>Spanish [es-ES] Translation Team</author>
 	<authorEmail>es.es.translation.team@gmail.com</authorEmail>
 	<authorUrl>https://traduccion.joomlaes.org/</authorUrl>
