@@ -4,176 +4,175 @@
 ; Note : This file needs to be saved as UTF-8
 
 i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+mig
+min
+jag själv
+vi
+vår
+vår
+oss själva
+du
+din
+din
+själv
+er
+han
+honom
+hans
+han själv
+hon
+henne
+hennes
+själv
+den
+dess
+sig
+de
+dem
+deras
+deras
+sig själva
+Vad
+som
+vem
+vem
+detta
+det där
+dessa
+de där
+
+är
+är
+var
+var
+vara
+varit
+varelse
+ha
+har
+hade
+har
+gör
+gjorde
+håller på med
+skulle
+skall
+skulle kunna
+borde
+jag är
+du är
+han är
+hon är
+dess
+vi är
+de är
+jag har
+du har
+vi har
+de har
+jag skulle
+du skulle
+han skulle
+hon skulle
+vi skulle
+de skulle
+sjuk
+du kommer
+Helvete
+skal
+väl
+de kommer
+är inte
+är inte
+var inte
+var inte
+har inte
+har inte
+hade inte
+gör inte
+gör det inte
+gjorde inte
+vana
+skulle inte
+ska inte
+borde inte
+kan inte
+kan inte
+kunde inte
+får inte
+låt oss
+det är
+vem är
+vad är
+här är
+det finns
+när är
+vart är
+varför
+hur är det
 a
-an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
+en
+de
+och
+men
+om
+eller
+eftersom
+som
+fram tills
+medan
+av
+på
+förbi
+för
+med
+handla om
+mot
+mellan
+in i
+genom
 under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+innan
+efter
+ovan
+Nedan
+till
+från
+upp
+ner
+i
+ut
+på
+av
+över
+under
+om igen
+ytterligare
+sedan
+en gång
+här
+där
+när
+var
+Varför
+på vilket sätt
+Allt
+några
+både
+varje
+få
+Mer
+mest
+Övrig
+några
+sådan
+Nej
+inte heller
+inte
+endast
+egen
+samma
+så
+än
+för
+mycket
