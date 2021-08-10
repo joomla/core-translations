@@ -1,179 +1,179 @@
-; Joomla! Project
+; Dr. Ashraf Damra/Abu Nidal
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
 ; License GNU General Public License version 2 or later; see LICENSE.txt
 ; Note : This file needs to be saved as UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+أنا
+أنا
+لي
+نفسي
+نحن
+لنا
+لنا
+أنفسنا
+أنت
+لك
+خاصة بك
+نفسك
+أنفسكم
+هو
+له
+له
+نفسه
+هي
+ها
+لها
+نفسها
+هو - هي
+انها
+بحد ذاتها
+أنهم
+معهم
+هم
+لهم
+أنفسهم
+ماذا او ما
+الذي
+من الذى
+من
+هذا
+الذي - التي
+هؤلاء
+أولئك
+صباحا
+هو
+نكون
+كنت
+كانوا
+يكون
+ايضا
+يجري
+لديك
+لديها
+كان
+نأخذ
+فعل
+يفعل
+فعلت
+عمل
+سيكون
+ينبغي
+يستطع
+ينبغي
+انا
+أنت على
+هو
+هي
+إنه
+كانوا
+هم
+لقد قمت
+كنت أنت
+نحن
+لديهم
+هوية شخصية
+كنت
+كان
+تسلط
+الأربعاء
+فعلوا
+سوف
+سوف تفعل
+الجحيم
+الصدف
+نحن سوف
+سوف يفعلون
+لا
+ليست كذلك
+لم يكن
+لم تكن
+لم
+لم تفعل
+لم يكن
+لا
+لا تفعل
+لم يفعل
+متعود
+لا
+لا
+لا ينبغي
+لا تستطيع
+لا تستطيع
+لا يمكن
+لا يجب
+دعونا
+هذا
+من هو
+ما هى
+هنا
+هناك
+متى
+اين
+لماذا
+كيف حالك
+أ
+ا
+ال
+و
+لكن
+إذا
+أو
+لأن
+مثل
+حتى
+في حين
+من
+في
+بواسطة
+ل
+مع
+حول
+ضد
+ما بين
+داخل
+عبر
+أثناء
+قبل
+بعد
+في الاعلى
+أدناه
+ل
+من عند
+فوق
+تحت
+في
+خارج
+على
+إيقاف
+على
+تحت
+تكرارا
+بالإضافة إلى ذلك
+ومن بعد
+بمجرد
+هنا
+هناك
+متي
+أين
+لماذا
+كيف
+الكل
+أي
+على حد سواء
+كل
+قليل
+أكثر
+عظم
+آخر
+بعض
+مثل
+لا
+ولا
+ليس
+فقط
+خاصة
+نفس
+وبالتالي
+من
+جدا
+جدا
