@@ -329,17 +329,7 @@ jobs:
 # German Austria doesn't use Crowdin
 # German Liechtenstein doesn't use Crowdin
 # German Luxombourg doesn't use Crowdin
-
-    - name: Crowdin Download German Switzerland
-      uses: crowdin/github-action@1.3.0
-      with:
-        config: 'Configurations/Crowdin-J4-All.yml'
-        upload_sources: false
-        download_translations: true
-        download_language: de-CH
-        skip_untranslated_strings: true
-        export_only_approved: true
-        commit_message: 'New German Switzerland Crowdin translations by Github Action'
+# German Swiss doesn't use Crowdin
 
     - name: Crowdin Download Greek
       uses: crowdin/github-action@1.3.0
