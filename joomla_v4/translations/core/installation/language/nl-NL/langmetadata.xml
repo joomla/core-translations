@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="installation">
 	<name>Dutch (nl-NL)</name>
-	<version>4.0.0-rc5.1</version>
-	<creationDate>Juli 2021</creationDate>
+	<version>4.0.0</version>
+	<creationDate>August 2021</creationDate>
 	<author>Dutch Translation Team</author>
-	<copyright>Copyright (C) 2005 - 2021 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License versie 2 of hoger; zie LICENSE.txt</license>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>
 		<filename>joomla.ini</filename>
 	</files>
