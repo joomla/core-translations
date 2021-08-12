@@ -22,6 +22,7 @@ files:
     type: xml
     translatable_elements:
       - /metafile/name
+      - /metafile/author
       - /metafile/metadata/name
       - /metafile/metadata/nativeName
       - /metafile/metadata/tag
