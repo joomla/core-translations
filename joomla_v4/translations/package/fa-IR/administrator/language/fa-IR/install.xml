@@ -2,13 +2,13 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Persian (fa-IR)</name>
 	<tag>fa-IR</tag>
-	<version/>
+	<version>4.0.0</version>
 	<creationDate/>
-	<author/>
+	<author>Persian Translation Team, Joomlafarsi.com</author>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.JoomlaFarsi.com</authorUrl>
 	<copyright/>
-	<license/>
+	<license>مجوز عمومی GNU نسخه 2 یا بالاتر ؛ به LICENSE.txt مراجعه کنید</license>
 	<description>Persian administrator language pack for Joomla 3.4.5</description>
 	<files>
 		<folder>/</folder>
