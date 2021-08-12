@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="installation">
 	<name>Português (Portugal)</name>
-	<version>4.0.0.1</version>
-	<creationDate>2021-08-05</creationDate>
+	<version>4.0.0</version>
+	<creationDate>August 2021</creationDate>
 	<author>Comunidade JoomlaPortugal</author>
-	<copyright>Direitos de Autor (C) 2005 - Open Source Matters, Inc. Todos os direitos reservados.</copyright>
-	<license>Licença Pública Geral GNU - versão 2 ou posterior; ver ficheiro LICENSE.txt</license>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>
 		<filename>joomla.ini</filename>
 	</files>
