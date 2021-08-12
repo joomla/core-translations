@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
-	<name/>
-	<version/>
-	<creationDate>Lipiec 2021</creationDate>
+	<name>Polish (PL)</name>
+	<version>4.0.0</version>
+	<creationDate/>
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
 	<copyright/>
-	<license/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[]]></description>
 	<metadata>
 		<name/>
