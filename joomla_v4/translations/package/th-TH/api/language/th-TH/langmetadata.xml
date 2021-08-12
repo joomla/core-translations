@@ -10,8 +10,8 @@
 	<license/>
 	<description><![CDATA[]]></description>
 	<metadata>
-		<name>Thai (th-TH)</name>
-		<nativeName>Thai (th-TH)</nativeName>
+		<name/>
+		<nativeName/>
 		<tag>th-TH</tag>
 		<rtl>0</rtl>
 		<locale>th_TH.utf8, th_TH.UTF-8, th_TH, tha_TH, th, thai</locale>
