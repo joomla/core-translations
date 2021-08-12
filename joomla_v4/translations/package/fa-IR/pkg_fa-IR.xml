@@ -4,7 +4,7 @@
 	<packagename>fa-IR</packagename>
 	<version>4.0.0.1</version>
 	<creationDate/>
-	<author/>
+	<author>Persian Translation Team, Joomlafarsi.com</author>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.JoomlaFarsi.com</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.
@@ -13,7 +13,7 @@
 </license>
 	<url>https://github.com/joomla/joomla-cms
 </url>
-	<packager/>
+	<packager>Persian Translation Team, Joomlafarsi.com</packager>
 	<packagerurl>www.JoomlaFarsi.com</packagerurl>
 	<description><![CDATA[<h3>فارسی ساز جوملا 3.4 کاری از تیم برگزیده جوملا در ایران. جوملا فارسی دات کام</h3>
 		<h3>Joomla! 3.4 Full Farsi (fa-IR) Language Package version 3.4.5v1, JoomlaFarsi.com</h3>

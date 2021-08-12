@@ -3,11 +3,11 @@
 	<name>Basque (eu-ES)</name>
 	<version>4.0.0</version>
 	<creationDate/>
-	<author/>
+	<author>Joomla! Basque Translation Team</author>
 	<authorEmail>joomlaeuskaraz@gmail.com</authorEmail>
 	<authorUrl>(ez dago)</authorUrl>
 	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
-	<license/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[eu-ES administrator language]]></description>
 	<metadata>
 		<name>Basque</name>

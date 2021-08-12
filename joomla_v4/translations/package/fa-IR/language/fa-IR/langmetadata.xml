@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
 	<name>Persian (fa-IR)</name>
-	<version/>
+	<version>4.0.0</version>
 	<creationDate/>
-	<author/>
+	<author>Persian Translation Team, Joomlafarsi.com</author>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.JoomlaFarsi.com</authorUrl>
 	<copyright/>
-	<license/>
+	<license>مجوز عمومی GNU نسخه 2 یا بالاتر ؛ به LICENSE.txt مراجعه کنید</license>
 	<description><![CDATA[Persian site language pack for Joomla 3.4.5]]></description>
 	<metadata>
 		<name>Persian (fa-IR)</name>
