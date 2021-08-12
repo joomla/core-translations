@@ -2,16 +2,16 @@
 <metafile client="administrator">
 	<name>Magyar (hu-HU)</name>
 	<version>4.0.0</version>
-	<creationDate>2021 július</creationDate>
+	<creationDate>2021 augusztus</creationDate>
 	<author>Joomla! Magyarország</author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
 	<authorUrl>www.joomlacms.hu</authorUrl>
 	<copyright>Minden jog fenntartva (C) 2005 Open Source Matters.</copyright>
 	<license>GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt</license>
-	<description><![CDATA[hu-HU administrator language]]></description>
+	<description><![CDATA[hu-HU adminisztrációs oldal nyelv]]></description>
 	<metadata>
-		<name>Hungarian (hu-HU)</name>
-		<nativeName>Hungarian (hu-HU)</nativeName>
+		<name>Magyar (Magyarország)</name>
+		<nativeName>Magyar (Magyarország)</nativeName>
 		<tag>hu-HU</tag>
 		<rtl>0</rtl>
 		<locale>hu_HU.utf8, hu_HU.UTF8, hu_HU.utf-8, hu_HU.UTF-8, hun_HU.utf8, hun_HU.UTF8, hu, hungarian, hungary</locale>
