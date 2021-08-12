@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
 	<name>Dutch (nl-NL)</name>
-	<version>4.0.0-rc5.1</version>
-	<creationDate>Juli 2021</creationDate>
+	<version>4.0.0-rc6.1</version>
+	<creationDate>Augustus 2021</creationDate>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
 	<copyright>Copyright (C) 2005 - 2021 Dutch Translation Team en Open Source Matters. All rights reserved.</copyright>
-	<license/>
+	<license>GNU General Public License versie 2 of hoger; zie LICENSE.txt</license>
 	<description><![CDATA[Nederlands taalbestand Joomla! 4.0 (site)]]></description>
 	<metadata>
 		<name>Dutch (nl-NL)</name>
