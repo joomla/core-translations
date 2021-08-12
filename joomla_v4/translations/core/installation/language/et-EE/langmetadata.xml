@@ -2,10 +2,10 @@
 <metafile client="installation">
 	<name>Estonian</name>
 	<version>4.0.0</version>
-	<creationDate>Oktoober 2019</creationDate>
+	<creationDate>August 2021</creationDate>
 	<author>Joomla! Project</author>
 	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License versioon 2 või uuem; vaata LICENSE.txt</license>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>
 		<filename>joomla.ini</filename>
 	</files>
