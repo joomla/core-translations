@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
-	<name>Finnish (FI)</name>
-	<version>3.9.2.0</version>
+	<name/>
+	<version/>
 	<creationDate/>
 	<author/>
 	<authorEmail>finnish@joomla.fi</authorEmail>
@@ -10,8 +10,8 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[fi-FI administrator language]]></description>
 	<metadata>
-		<name>Finnish (FI)</name>
-		<nativeName>Finnish (FI)</nativeName>
+		<name/>
+		<nativeName/>
 		<tag>fi-FI</tag>
 		<rtl>0</rtl>
 		<locale>fi_FI.utf8, fi_FI.UTF-8, fi_FI, fin_FI, fi, finnish, finnish-fi, fin, finland</locale>
