@@ -2,13 +2,13 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Persian (fa-IR)</name>
 	<tag>fa-IR</tag>
-	<version>4.0.0</version>
+	<version/>
 	<creationDate/>
 	<author>Persian Translation Team, Joomlafarsi.com</author>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.JoomlaFarsi.com</authorUrl>
 	<copyright/>
-	<license>مجوز عمومی GNU نسخه 2 یا بالاتر ؛ به LICENSE.txt مراجعه کنید</license>
+	<license/>
 	<description>Persian site language pack for Joomla 3.4.5</description>
 	<files>
 		<folder>/</folder>
