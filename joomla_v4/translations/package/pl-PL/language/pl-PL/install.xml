@@ -8,7 +8,7 @@
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
 	<copyright>Copyright (C) 2005 - 2021 Open Source Matters. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<license/>
 	<description>Język witryny Joomla 3.6.3 - http://www.joomla.pl</description>
 	<files>
 		<folder>/</folder>
