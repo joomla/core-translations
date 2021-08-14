@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
-	<name>Dutch (nl-NL)</name>
-	<version>4.0.0-rc2.1</version>
+	<name>Dutch (nl-BE)</name>
+	<version>4.0.0</version>
 	<creationDate>Augustus 2021</creationDate>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
-	<copyright>Copyright (C) 2005 - 2021 Open Source Matters, Inc. Alle rechten voorbehouden.</copyright>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[Flemish administrator language]]></description>
 	<metadata>
