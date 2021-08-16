@@ -55,18 +55,128 @@
     "CrowdinID": "ca"
   },
   {
+    "LanguageName": "Chinese Simplified",
+    "JoomlaLocale": "zh-CN",
+    "CrowdinID": "zh-CN"
+  },
+  {
+    "LanguageName": "Chinese Traditional",
+    "JoomlaLocale": "zh-TW",
+    "CrowdinID": "zh-TW"
+  },
+  {
+    "LanguageName": "Croatian",
+    "JoomlaLocale": "hr-HR",
+    "CrowdinID": "hr"
+  }, 
+  {
+    "LanguageName": "Czech",
+    "JoomlaLocale": "cs-CZ",
+    "CrowdinID": "cs"
+  },
+  {
+    "LanguageName": "Danish",
+    "JoomlaLocale": "da-DK",
+    "CrowdinID": "da"
+  },
+  {
+    "LanguageName": "Dari, Persian",
+    "JoomlaLocale": "prs-AF",
+    "CrowdinID": "fa-AF"
+  },
+  {
+    "LanguageName": "Dutch",
+    "JoomlaLocale": "nl-NL",
+    "CrowdinID": "nl"
+  },
+  {
+    "LanguageName": "Dutch, Belgium",
+    "JoomlaLocale": "nl-BE",
+    "CrowdinID": "nl-BE"
+  },
+  {
+    "LanguageName": "English, Australia",
+    "JoomlaLocale": "en-AU",
+    "CrowdinID": "en-AU"
+  },
+  {
+    "LanguageName": "English, Canada",
+    "JoomlaLocale": "en-CA",
+    "CrowdinID": "en-CA"
+  },
+  {
+    "LanguageName": "English, United States",
+    "JoomlaLocale": "en-US",
+    "CrowdinID": "en-US"
+  },
+  {
+    "LanguageName": "Esperanto",
+    "JoomlaLocale": "eo-XX",
+    "CrowdinID": "eo"
+  },
+  {
+    "LanguageName": "Estonian",
+    "JoomlaLocale": "et-EE",
+    "CrowdinID": "et"
+  },
+  {
+    "LanguageName": "Finnish",
+    "JoomlaLocale": "fi-FI",
+    "CrowdinID": "fi"
+  },
+  {
+    "LanguageName": "French",
+    "JoomlaLocale": "fr-FR",
+    "CrowdinID": "fr"
+  },
+  {
+    "LanguageName": "French, Canada",
+    "JoomlaLocale": "fr-CA",
+    "CrowdinID": "fr-CA"
+  },
+  {
+    "LanguageName": "Galician",
+    "JoomlaLocale": "gl-ES",
+    "CrowdinID": "gl"
+  },
+  {
+    "LanguageName": "Georgian",
+    "JoomlaLocale": "ka-GE",
+    "CrowdinID": "ka"
+  },
+  {
     "LanguageName": "German, Austria",
     "JoomlaLocale": "de-AT",
     "CrowdinID": "de-AT"
-  },  
-  {
-    "LanguageName": "English, US",
-    "JoomlaLocale": "en-US",
-    "CrowdinID": "en-US"
   },
   {
     "LanguageName": "German, Germany",
     "JoomlaLocale": "de-DE",
     "CrowdinID": "de"
+  },
+  {
+    "LanguageName": "German, Liechtenstein",
+    "JoomlaLocale": "de-LI",
+    "CrowdinID": "de-LI"
+  },
+  {
+    "LanguageName": "German, Luxembourg",
+    "JoomlaLocale": "de-LU",
+    "CrowdinID": "de-LU"
+  },
+  {
+    "LanguageName": "German, Switzerland",
+    "JoomlaLocale": "de-CH",
+    "CrowdinID": "de-CH"
+  },
+  {
+    "LanguageName": "Greek",
+    "JoomlaLocale": "el-GR",
+    "CrowdinID": "el"
+  },
+  {
+    "LanguageName": "Gujarati",
+    "JoomlaLocale": "gu-IN",
+    "CrowdinID": "gu"
   }
 ]
