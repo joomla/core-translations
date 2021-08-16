@@ -1,0 +1,16 @@
+[
+  {
+    "LanguageName": "German, Austria",
+    "JoomlaLocale": "de-AT",
+    "CrowdinID": "de-AT"
+},  {
+    "LanguageName": "English, US",
+    "JoomlaLocale": "en-US",
+    "CrowdinID": "en-US"
+},
+  {
+    "LanguageName": "German, Germany",
+    "JoomlaLocale": "de-DE",
+    "CrowdinID": "de"
+  }
+]
