@@ -178,5 +178,255 @@
     "LanguageName": "Gujarati",
     "JoomlaLocale": "gu-IN",
     "CrowdinID": "gu"
+  },
+  {
+    "LanguageName": "Hebrew",
+    "JoomlaLocale": "he-IL",
+    "CrowdinID": "he"
+  }, 
+  {
+    "LanguageName": "Hindi",
+    "JoomlaLocale": "hi-IN",
+    "CrowdinID": "hi"
+  }, 
+  {
+    "LanguageName": "Hungarian",
+    "JoomlaLocale": "hu-HU",
+    "CrowdinID": "hu"
+  }, 
+  {
+    "LanguageName": "Indonesian",
+    "JoomlaLocale": "id-ID",
+    "CrowdinID": "id"
+  }, 
+  {
+    "LanguageName": "Irish",
+    "JoomlaLocale": "ga-IE",
+    "CrowdinID": "ga"
+  }, 
+  {
+    "LanguageName": "Italian",
+    "JoomlaLocale": "it-IT",
+    "CrowdinID": "it"
+  }, 
+  {
+    "LanguageName": "Japanese",
+    "JoomlaLocale": "ja-JP",
+    "CrowdinID": "ja"
+  },
+  {
+    "LanguageName": "Kazakh",
+    "JoomlaLocale": "kk-KZ",
+    "CrowdinID": "kk"
+  },
+  {
+    "LanguageName": "Khmer",
+    "JoomlaLocale": "km-KH",
+    "CrowdinID": "km"
+  },
+  {
+    "LanguageName": "Korean",
+    "JoomlaLocale": "ko-KR",
+    "CrowdinID": "ko"
+  },
+  {
+    "LanguageName": "Kyrgyz",
+    "JoomlaLocale": "ky-KG",
+    "CrowdinID": "ky"
+  },
+  {
+    "LanguageName": "Lao",
+    "JoomlaLocale": "lo-LA",
+    "CrowdinID": "lo"
+  },
+  {
+    "LanguageName": "Latvian",
+    "JoomlaLocale": "lv-LV",
+    "CrowdinID": "lv"
+  },
+  {
+    "LanguageName": "Lithuanian",
+    "JoomlaLocale": "lt-LT",
+    "CrowdinID": "lt"
+  },
+  {
+    "LanguageName": "Macedonian",
+    "JoomlaLocale": "mk-MK",
+    "CrowdinID": "mk"
+  },
+  {
+    "LanguageName": "Malay",
+    "JoomlaLocale": "ms-MY",
+    "CrowdinID": "ms"
+  },
+  {
+    "LanguageName": "Malayalam",
+    "JoomlaLocale": "ml-IN",
+    "CrowdinID": "ml"
+  },
+  {
+    "LanguageName": "Mongolian",
+    "JoomlaLocale": "mn-MN",
+    "CrowdinID": "mn"
+  },
+  {
+    "LanguageName": "Northern Sami",
+    "JoomlaLocale": "se-NO",
+    "CrowdinID": "se"
+  },
+  {
+    "LanguageName": "Norwegian Bokmal",
+    "JoomlaLocale": "nb-NO",
+    "CrowdinID": "nb"
+  },
+  {
+    "LanguageName": "Norwegian Nynorsk",
+    "JoomlaLocale": "nn-NO",
+    "CrowdinID": "nn-NO"
+  },
+  {
+    "LanguageName": "Occitan",
+    "JoomlaLocale": "oc-FR",
+    "CrowdinID": "oc"
+  },
+  {
+    "LanguageName": "Persian",
+    "JoomlaLocale": "fa-IR",
+    "CrowdinID": "fa"
+  },
+  {
+    "LanguageName": "Polish",
+    "JoomlaLocale": "pl-PL",
+    "CrowdinID": "pl"
+  },
+  {
+    "LanguageName": "Portuguese",
+    "JoomlaLocale": "pt-PT",
+    "CrowdinID": "pt"
+  },
+  {
+    "LanguageName": "Portuguese, Brazilian",
+    "JoomlaLocale": "pt-BR",
+    "CrowdinID": "pt-BR"
+  },
+  {
+    "LanguageName": "Romanian",
+    "JoomlaLocale": "ro-RO",
+    "CrowdinID": "ro"
+  },
+  {
+    "LanguageName": "Russian",
+    "JoomlaLocale": "ru-RU",
+    "CrowdinID": "ru"
+  },
+  {
+    "LanguageName": "Serbian (Cyrillic)",
+    "JoomlaLocale": "sr-RS",
+    "CrowdinID": "sr-Cyrl"
+  },
+  {
+    "LanguageName": "Serbian (Latin)",
+    "JoomlaLocale": "sr-YU",
+    "CrowdinID": "sr-Latn"
+  },
+  {
+    "LanguageName": "Sinhala",
+    "JoomlaLocale": "si-LK",
+    "CrowdinID": "si"
+  },
+  {
+    "LanguageName": "Slovak",
+    "JoomlaLocale": "sk-SK",
+    "CrowdinID": "sk"
+  },
+  {
+    "LanguageName": "Slovenian",
+    "JoomlaLocale": "sl-SI",
+    "CrowdinID": "sl"
+  },
+  {
+    "LanguageName": "Spanish",
+    "JoomlaLocale": "es-ES",
+    "CrowdinID": "es"
+  },
+  {
+    "LanguageName": "Spanish, Colombia",
+    "JoomlaLocale": "es-CO",
+    "CrowdinID": "es-CO"
+  },
+  {
+    "LanguageName": "Spanish, Mexico",
+    "JoomlaLocale": "es-MX",
+    "CrowdinID": "es-MX"
+  },
+  {
+    "LanguageName": "Swahili",
+    "JoomlaLocale": "sw-KE",
+    "CrowdinID": "sw"
+  },
+  {
+    "LanguageName": "Swedish",
+    "JoomlaLocale": "sv-SE",
+    "CrowdinID": "sv"
+  },
+  {
+    "LanguageName": "Syriac",
+    "JoomlaLocale": "sy-IQ",
+    "CrowdinID": "syc"
+  },
+  {
+    "LanguageName": "Tagalog",
+    "JoomlaLocale": "tl-PH",
+    "CrowdinID": "tl"
+  },
+  {
+    "LanguageName": "Tamil",
+    "JoomlaLocale": "ta-IN",
+    "CrowdinID": "ta"
+  },
+  {
+    "LanguageName": "Thai",
+    "JoomlaLocale": "th-TH",
+    "CrowdinID": "th"
+  },
+  {
+    "LanguageName": "Turkish",
+    "JoomlaLocale": "tr-TR",
+    "CrowdinID": "tr"
+  },
+  {
+    "LanguageName": "Turkmen",
+    "JoomlaLocale": "tk-TM",
+    "CrowdinID": "tk"
+  },
+  {
+    "LanguageName": "Ukrainian",
+    "JoomlaLocale": "uk-UA",
+    "CrowdinID": "uk"
+  },
+  {
+    "LanguageName": "Urdu (India)",
+    "JoomlaLocale": "ur-IN",
+    "CrowdinID": "ur-IN"
+  },
+  {
+    "LanguageName": "Urdu (Pakistan)",
+    "JoomlaLocale": "ur-PK",
+    "CrowdinID": "ur"
+  },
+  {
+    "LanguageName": "Uyghur",
+    "JoomlaLocale": "ug-CN",
+    "CrowdinID": "ug"
+  },
+  {
+    "LanguageName": "Vietnamese",
+    "JoomlaLocale": "vi-VN",
+    "CrowdinID": "vi"
+  },
+  {
+    "LanguageName": "Welsh",
+    "JoomlaLocale": "cy-GB",
+    "CrowdinID": "cy"
   }
 ]
