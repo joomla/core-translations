@@ -1,13 +1,69 @@
 [
   {
+    "LanguageName": "xxx",
+    "JoomlaLocale": "xxx",
+    "CrowdinID": "xxx"
+  }, 
+  {
+    "LanguageName": "Afrikaans",
+    "JoomlaLocale": "af-ZA",
+    "CrowdinID": "af"
+  },
+  {
+    "LanguageName": "Albanian",
+    "JoomlaLocale": "sq-AL",
+    "CrowdinID": "sq"
+  },
+  {
+    "LanguageName": "Arabic",
+    "JoomlaLocale": "ar-AA",
+    "CrowdinID": "ar"
+  },
+  {
+    "LanguageName": "Armenian",
+    "JoomlaLocale": "hy-AM",
+    "CrowdinID": "hy"
+  },
+  {
+    "LanguageName": "Azerbaijani",
+    "JoomlaLocale": "az-AZ",
+    "CrowdinID": "az"
+  },
+  {
+    "LanguageName": "Basque",
+    "JoomlaLocale": "eu-ES",
+    "CrowdinID": "eu"
+  },
+  {
+    "LanguageName": "Bengali",
+    "JoomlaLocale": "bn-BD",
+    "CrowdinID": "bn"
+  },
+  {
+    "LanguageName": "Bosnian",
+    "JoomlaLocale": "bs-BA",
+    "CrowdinID": "bs"
+  },
+  {
+    "LanguageName": "Bulgarian",
+    "JoomlaLocale": "bg",
+    "CrowdinID": "bg-BG"
+  },
+  {
+    "LanguageName": "Catalan",
+    "JoomlaLocale": "ca-ES",
+    "CrowdinID": "ca"
+  },
+  {
     "LanguageName": "German, Austria",
     "JoomlaLocale": "de-AT",
     "CrowdinID": "de-AT"
-},  {
+  },  
+  {
     "LanguageName": "English, US",
     "JoomlaLocale": "en-US",
     "CrowdinID": "en-US"
-},
+  },
   {
     "LanguageName": "German, Germany",
     "JoomlaLocale": "de-DE",
