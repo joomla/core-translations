@@ -10,8 +10,8 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[Flemish administrator language]]></description>
 	<metadata>
-		<name>Dutch (nl-NL)</name>
-		<nativeName>Dutch (nl-NL)</nativeName>
+		<name>Dutch (Belgium)</name>
+		<nativeName>Dutch (Belgium)</nativeName>
 		<tag>nl-NL</tag>
 		<rtl>0</rtl>
 		<locale>nl_BE.utf8, nl_BE.UTF-8, nl_BE.UTF-8@euro, nl_BE, be</locale>
