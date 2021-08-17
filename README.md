@@ -7,8 +7,10 @@ Connected to the Crowdin Translation Platform and other repositories if needed.
 ## Github Actions - Cron Schedule
 
 ### Blocked time windows
-* UTC 11:00-12:00 -> Project Build
-* UTC 23:00-00:00 -> Project Build
+* UTC 09:00-10:00 -> Project Build J3
+* UTC 11:00-12:00 -> Project Build J4
+* UTC 21:00-22:00 -> Project Build J3
+* UTC 23:00-00:00 -> Project Build J4
 * UTC 01:01-02:00 -> J4 Download Installer Translations Crowdin Action
 * UTC 02:01-04:00 -> J4 Download Package Translations Crowdin Action
 * UTC 06:12-07:12 -> Get Core Source and Upload too Crowdin
