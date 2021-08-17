@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
-	<name/>
+	<name>Hungarian (Hungary)</name>
 	<version>4.0.0</version>
 	<creationDate/>
 	<author>Joomla! Magyarország</author>
@@ -10,8 +10,8 @@
 	<license>GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt</license>
 	<description><![CDATA[hu-HU api nyelv]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
+		<name>Hungarian (Magyar)</name>
+		<nativeName>Hungarian (Magyar)</nativeName>
 		<tag>hu-HU</tag>
 		<rtl>0</rtl>
 		<locale>hu_HU.utf8, hu_HU.UTF8, hu_HU.utf-8, hu_HU.UTF-8, hun_HU.utf8, hun_HU.UTF8, hu, hungarian, hungary</locale>
