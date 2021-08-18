@@ -2,15 +2,15 @@
 <extension type="package" method="upgrade">
 	<name>Thai (th-TH) Language Pack</name>
 	<packagename>th-TH</packagename>
-	<version/>
-	<creationDate/>
-	<author/>
+	<version>4.0.0.1</version>
+	<creationDate>July 2021</creationDate>
+	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
-	<copyright/>
+	<copyright>(C) 2019 Open Source Matters, Inc. &amp; JoomlaCorner.com.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager/>
+	<packager>Thai Translation Team</packager>
 	<packagerurl>www.joomlacorner.com</packagerurl>
 	<description><![CDATA[
 		<div align="center">
@@ -55,10 +55,10 @@
 	<files>
 		<folder type="language" client="site" id="th-TH">language/th-TH</folder>
 		<folder type="language" client="administrator" id="th-TH">administrator/language/th-TH</folder>
-		<folder type="language" client="api" id="th-TH"/>
+		<folder type="language" client="api" id="th-TH">api/language/th-TH</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>
