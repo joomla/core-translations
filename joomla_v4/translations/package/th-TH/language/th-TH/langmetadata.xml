@@ -2,8 +2,8 @@
 <metafile client="site">
 	<name>Thai (th-TH)</name>
 	<version/>
-	<creationDate/>
-	<author/>
+	<creationDate>July 2021</creationDate>
+	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
 	<copyright/>
@@ -48,8 +48,8 @@
       </table>
     </div>]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
+		<name>Thai (ภาษาไทย)</name>
+		<nativeName>Thai (ภาษาไทย)</nativeName>
 		<tag>th-TH</tag>
 		<rtl>0</rtl>
 		<locale>th_TH.utf8, th_TH.UTF-8, th_TH, tha_TH, th, thai</locale>
