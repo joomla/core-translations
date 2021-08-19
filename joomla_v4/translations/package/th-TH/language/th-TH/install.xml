@@ -2,13 +2,13 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Thai (th-TH)</name>
 	<tag>th-TH</tag>
-	<version/>
-	<creationDate>July 2021</creationDate>
+	<version>4.0.0</version>
+	<creationDate>August 2021</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
-	<copyright/>
-	<license/>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>
     &lt;div align="center">
       &lt;table border="0" width="100%">
