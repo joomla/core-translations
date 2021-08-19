@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="site" type="language" method="upgrade">
 	<name/>
-	<tag/>
+	<tag>ja-JP</tag>
 	<version/>
-	<creationDate/>
+	<creationDate>2021年8月</creationDate>
 	<author/>
-	<authorEmail/>
+	<authorEmail>project@joomla.jp</authorEmail>
 	<authorUrl/>
 	<copyright/>
 	<license/>
