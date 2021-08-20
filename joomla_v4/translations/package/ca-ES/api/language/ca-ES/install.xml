@@ -4,10 +4,10 @@
 	<tag>ca-ES</tag>
 	<version>4.0.0</version>
 	<creationDate>October 2019</creationDate>
-	<author/>
+	<author>Catalan Translation Team</author>
 	<authorEmail>el.libre@gmail.com</authorEmail>
 	<authorUrl>www.catmidia.cat</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
 	<description>Idioma api ca-ES</description>
 	<files>

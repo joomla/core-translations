@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
 	<name>Catalan (ca-ES)</name>
-	<version>4.0.0</version>
-	<creationDate/>
-	<author/>
+	<version>4.0.1</version>
+	<creationDate>Agost 2021</creationDate>
+	<author>Catalan Translation Team</author>
 	<authorEmail>el.libre@gmail.com</authorEmail>
 	<authorUrl>www.catmidia.cat</authorUrl>
-	<copyright/>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
 	<description><![CDATA[ca-ES administrator language]]></description>
 	<metadata>
