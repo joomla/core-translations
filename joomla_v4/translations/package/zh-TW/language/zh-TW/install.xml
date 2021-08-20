@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>中文(繁體．台灣)</name>
 	<tag>zh-TW</tag>
-	<version>4.0.0</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! 台灣</author>
 	<authorEmail/>
