@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>日本語ランゲージパック</name>
 	<packagename>ja-JP</packagename>
-	<version>4.0.0.1</version>
+	<version/>
 	<creationDate>2021年8月</creationDate>
 	<author/>
 	<authorEmail>project@joomla.jp</authorEmail>
