@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Kyrgyz (ky-KG) Language Pack</name>
 	<packagename>ky-KG</packagename>
-	<version>4.0.0.1</version>
+	<version/>
 	<creationDate/>
 	<author/>
 	<authorEmail>ohna@bk.ru</authorEmail>
