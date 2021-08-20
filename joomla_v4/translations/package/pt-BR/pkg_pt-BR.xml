@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Brazilian Portuguese (pt-BR) Language Pack</name>
 	<packagename>pt-BR</packagename>
-	<version>4.0.0.1</version>
+	<version/>
 	<creationDate/>
 	<author/>
 	<authorEmail>helvecio.dasilva@community.joomla.org</authorEmail>
