@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Norwegian Bokmal (nb-NO)</name>
 	<tag>nb-NO</tag>
-	<version>4.0.0</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
