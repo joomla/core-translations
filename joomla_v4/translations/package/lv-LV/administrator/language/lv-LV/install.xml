@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Latviešu (lv-LV)</name>
 	<tag>lv-LV</tag>
-	<version>4.0.0</version>
+	<version/>
 	<creationDate/>
 	<author/>
 	<authorEmail>lemings@inbox.lv</authorEmail>

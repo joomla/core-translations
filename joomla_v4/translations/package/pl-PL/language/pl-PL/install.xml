@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Polish (PL)</name>
 	<tag>pl-PL</tag>
-	<version>4.0.0</version>
+	<version/>
 	<creationDate/>
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>

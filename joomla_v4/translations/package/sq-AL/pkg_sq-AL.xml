@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Paketa gjuhësore Shqip (sq-AL)</name>
 	<packagename>sq-AL</packagename>
-	<version>4.0.0.1</version>
+	<version/>
 	<creationDate/>
 	<author/>
 	<authorEmail>mirimarku@gmail.com</authorEmail>

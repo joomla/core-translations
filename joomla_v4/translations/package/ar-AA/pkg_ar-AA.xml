@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Arabic ar-AA(العربية الموحدة)</name>
 	<packagename>ar-AA</packagename>
-	<version>4.0.0.1</version>
+	<version/>
 	<creationDate>August 2021</creationDate>
 	<author>Dr. Ashraf Damra</author>
 	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>

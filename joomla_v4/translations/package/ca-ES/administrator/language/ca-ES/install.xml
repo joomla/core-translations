@@ -2,9 +2,9 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Catalan (ca-ES)</name>
 	<tag>ca-ES</tag>
-	<version>4.0.0</version>
-	<creationDate/>
-	<author/>
+	<version>4.0.1</version>
+	<creationDate>Agost 2021</creationDate>
+	<author>Catalan Translation Team</author>
 	<authorEmail>el.libre@gmail.com</authorEmail>
 	<authorUrl>www.catmidia.cat</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>

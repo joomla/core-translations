@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Кыргыз тили (ky-KG)</name>
 	<tag>ky-KG</tag>
-	<version>4.0.0</version>
+	<version/>
 	<creationDate/>
 	<author/>
 	<authorEmail>ohna@bk.ru</authorEmail>

@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Brazilian Portuguese (pt-BR)</name>
 	<tag>pt-BR</tag>
-	<version>4.0.0.1</version>
+	<version/>
 	<creationDate/>
 	<author/>
 	<authorEmail>helvecio.dasilva@community.joomla.org</authorEmail>
