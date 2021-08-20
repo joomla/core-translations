@@ -15,6 +15,11 @@
     "CrowdinID": "sq"
   },
   {
+    "LanguageName": "Amharic",
+    "JoomlaLocale": "am-ET",
+    "CrowdinID": "am"
+  },
+  {
     "LanguageName": "Arabic",
     "JoomlaLocale": "ar-AA",
     "CrowdinID": "ar"
