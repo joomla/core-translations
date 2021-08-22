@@ -3,12 +3,12 @@
 	<name>中文(繁體．台灣)</name>
 	<tag>zh-TW</tag>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>October 2019</creationDate>
 	<author>Joomla! 台灣</author>
-	<authorEmail/>
+	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org.tw</authorUrl>
-	<copyright/>
-	<license/>
+	<copyright>Copyright (C) 2020 - 2020 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description/>
 	<files>
 		<folder>/</folder>
