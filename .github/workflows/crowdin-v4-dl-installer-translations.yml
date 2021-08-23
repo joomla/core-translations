@@ -447,8 +447,16 @@ jobs:
         export_only_approved: true
         commit_message: 'New Thai Crowdin translations by Github Action'
 
-#      "LanguageName": "Turkish",
-#      "CrowdinID": "tr"
+    - name: Crowdin Download Turkish
+      uses: crowdin/github-action@1.3.2
+      with:
+        config: 'Configurations/Crowdin-J4-Installer.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: tr
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Turkish Crowdin translations by Github Action'
 
 #      "LanguageName": "Turkmen",
 #      "CrowdinID": "tk"
