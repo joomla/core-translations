@@ -98,7 +98,7 @@ abstract class Th_THLocalise
 	 */
 	public static function transliterate($string)
 	{
-		$str = JString::strtolower($string);
+		$str = \Joomla\String\StringHelper::strtolower($string);
 
 		//Specific language transliteration.
 		//This one is for latin 1, latin supplement , extended A, Cyrillic, Greek
@@ -201,7 +201,7 @@ class th_THDate extends JDate {
 			$return = str_replace(self::YEAR_NUMBER, $this->yearToString($this->year, $convNumber), $return);
 		}
 		if (strpos($return, self::YEAR_NUMBER2) !== false) {
-			$return = str_replace(self::YEAR_NUMBER2, JString::substr($this->yearToString($this->year, $convNumber), -2) , $return);
+			$return = str_replace(self::YEAR_NUMBER2, \Joomla\String\StringHelper::substr($this->yearToString($this->year, $convNumber), -2) , $return);
 		}
 		if (strpos($return, self::HOUR_NUMBER) !== false) {
 			$return = str_replace(self::HOUR_NUMBER, $this->numToString($this->hour, $convNumber), $return);
