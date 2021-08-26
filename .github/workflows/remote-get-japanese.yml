@@ -1,0 +1,24 @@
+# This workflow fetches the Japanese V4 Version of the Joomla CMS and syncs the needed translation language files
+# into the core-translations repository. After this it creates a new commit.
+# The second part uploads the translation to the CMS Crowdin project.
+
+name: J4 Get Japanese Translation files
+
+on:
+  # Runs once a day at 8:01
+  schedule:
+    - cron:  '01 8 * * *'
+
+jobs:
+  collect-from-external:
+    if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Fetch and extract Japanese j4 cms
+        run: |
+          cd ..
+          ls -l
+          wget -nv "https://github.com/joomlajp/Joomla-in-Japanese/archive/refs/heads/4.x.zip"
+          unzip 4.x.zip
+
