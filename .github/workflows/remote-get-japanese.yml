@@ -8,6 +8,7 @@ on:
   # Runs once a day at 8:01
   schedule:
     - cron:  '01 8 * * *'
+  workflow_dispatch:
 
 jobs:
   collect-from-external:
@@ -22,3 +23,4 @@ jobs:
           wget -nv "https://github.com/joomlajp/Joomla-in-Japanese/archive/refs/heads/4.x.zip"
           unzip 4.x.zip
 
+ 
