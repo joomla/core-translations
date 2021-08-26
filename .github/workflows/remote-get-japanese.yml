@@ -60,4 +60,13 @@ jobs:
           echo /${REPO_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  Joomla-in-Japanese-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
- 
+      - name: Push translations to repo
+        run: |
+          git config user.name Translation Bot
+          git config user.email release+translation-bot@joomla.org
+          git status
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -am "J4 Japanese Language update on `date +'%Y-%m-%d'`"
+          git push
+
+
