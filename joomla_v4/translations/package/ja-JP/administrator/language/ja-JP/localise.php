@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * ja-jP localise class.
  *
- * @since  1.6
+ * @since    1.6
  */
-abstract class En_GBLocalise
+abstract class Ja_JPLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -61,7 +61,7 @@ abstract class En_GBLocalise
 	 */
 	public static function getLowerLimitSearchWord()
 	{
-		return 3;
+		return 2;
 	}
 
 	/**
