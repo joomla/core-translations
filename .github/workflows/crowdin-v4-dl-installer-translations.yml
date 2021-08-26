@@ -268,16 +268,7 @@ jobs:
         export_only_approved: true
         commit_message: 'New Italian Crowdin translations by Github Action'
 
-    - name: Crowdin Download Japanese
-      uses: crowdin/github-action@1.3.2
-      with:
-        config: 'Configurations/Crowdin-J4-Installer.yml'
-        upload_sources: false
-        download_translations: true
-        download_language: ja
-        skip_untranslated_strings: true
-        export_only_approved: true
-        commit_message: 'New Japanese Crowdin translations by Github Action'
+# Japanese doesn't use Crowdin
 
 #      "LanguageName": "Kazakh",
 #      "CrowdinID": "kk"
