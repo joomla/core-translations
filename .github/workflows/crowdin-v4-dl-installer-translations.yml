@@ -203,8 +203,16 @@ jobs:
 #      "LanguageName": "Galician",
 #      "CrowdinID": "gl"
 
-#      "LanguageName": "Georgian",
-#      "CrowdinID": "ka"
+    - name: Crowdin Download Georgian
+      uses: crowdin/github-action@1.3.2
+      with:
+        config: 'Configurations/Crowdin-J4-Installer.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ka
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Georgian Crowdin translations by Github Action'
 
     - name: Crowdin Download Greek
       uses: crowdin/github-action@1.3.2
