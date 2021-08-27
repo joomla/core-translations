@@ -3,177 +3,176 @@
 ; License GNU General Public License version 2 or later; see LICENSE.txt
 ; Note : This file needs to be saved as UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
+io
+il mio
+me stesso
+noi
+il nostro
+nostro
+noi stessi
+voi
+il tuo
+il tuo
+te stesso
+voi stessi
+lui
+lui
+il suo
+lui
+lei
+lei
+suo
+se stessa
+esso
+il suo
+se stessa
+loro
+loro
+il loro
+loro
+se stessi
+cosa
+che
+che
+chi
+questo
+che
+questi
+quelli
+sono
+è
+sono
+era
+erano
+essere
+stato
+essere
+hanno
+ha
+aveva
+avere
+fare
+fa
+ha fatto
+fare
+sarebbe
+dovrebbe
 could
 ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
+io sono
+sei
+lui è
+lei è
+è
+noi siamo
+loro sono
+io ho
+tu hai
+abbiamo
+hanno
+io ho
+tu hai
+lui
+lei
+noi
+loro
+io
+tu lo farai
+lui
+lei
+noi
+loro
+non è
+non sono
+non era
+non erano
+non ha
+non hanno
+non aveva
+non ha
+non fare
 didn't
 won't
 wouldn't
 shan't
-shouldn't
-can't
+non dovrebbe
+non può
 cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
+non potrebbe
+non deve
+lasciare
+che è
+chi è
+cosa
+qui
 there's
-when's
-where's
-why's
-how's
+quando
+dove
+perché
+come
 a
-an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
+un
+il
+e
+ma
+se
+o
+perché
+come
+fino a quando
+mentre
+di
+a
+da
+per
+con
+circa
+contro
+tra
+in
+attraverso
+durante
+prima di
+dopo
+sopra
+sotto
+a
+da
+su
+giù
 in
 out
-on
+su
 off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
+sopra
+sotto
+di nuovo
+ancora
+poi
+una volta
+qui
+lì
+quando
+dove
+perché
+come
+tutto
+qualsiasi
+entrambi
+ciascuno
+pochi
+più
+più
+altri
+alcuni
+tale
 no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+né
+non
+solo
+proprio
+stesso
+così
+che
+troppo
+molto
