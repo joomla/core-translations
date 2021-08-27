@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Ελληνικά (el-GR) Πακέτο γλώσσας</name>
 	<packagename>el-GR</packagename>
-	<version>4.0.1.1</version>
+	<version>4.0.2.2</version>
 	<creationDate>Αυγ. 2021</creationDate>
 	<author>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>

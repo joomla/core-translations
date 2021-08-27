@@ -17,7 +17,7 @@
 		<locale>sv_SE.UTF-8, sv_SE.utf8, sv_FI.UTF-8@euro, sv_FI.utf8@euro, sv_FI.utf8, sv_FI.UTF-8, sv_SE, sv_SE.ISO8859-1, sv_SE.ISO8859-15, sv_SE.iso88591, sv_SE.iso885915, swedish, sv_FI, sv_FI@euro, sv_FI.iso88591, sv_FI.iso885915@euro, svenska, swedish</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar>gregoriansk</calendar>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
