@@ -2,13 +2,13 @@
 <metafile client="api">
 	<name>Norwegian Bokmal (nb-NO)</name>
 	<version/>
-	<creationDate/>
+	<creationDate>August 2021</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[nb-NO api language]]></description>
 	<metadata>
 		<name>Norwegian bokmål (Norway)</name>
 		<nativeName>Norwegian bokmål (Norway)</nativeName>

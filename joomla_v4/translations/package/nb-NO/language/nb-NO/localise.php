@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class nb_NOLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
