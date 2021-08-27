@@ -7,9 +7,9 @@
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
-	<copyright/>
-	<license/>
-	<description/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License wersja 2 lub późniejsza zerknij na LICENSE.txt</license>
+	<description>api języka pl-PL</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

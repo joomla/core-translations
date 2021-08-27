@@ -2,13 +2,13 @@
 <metafile client="api">
 	<name>Polish (PL)</name>
 	<version/>
-	<creationDate/>
+	<creationDate>Sierpień 2021</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
-	<copyright/>
-	<license/>
-	<description><![CDATA[]]></description>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License wersja 2 lub późniejsza zerknij na LICENSE.txt</license>
+	<description><![CDATA[api języka pl-PL]]></description>
 	<metadata>
 		<name>Polski (PL)</name>
 		<nativeName>Polski (PL)</nativeName>

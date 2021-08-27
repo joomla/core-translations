@@ -3,12 +3,12 @@
 	<name>Polish (PL)</name>
 	<tag>pl-PL</tag>
 	<version/>
-	<creationDate/>
+	<creationDate>Sierpień 2021</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
 	<copyright>Copyright (C) 2005 - 2021 Open Source Matters. All rights reserved.</copyright>
-	<license/>
+	<license>GNU General Public License wersja 2 lub późniejsza zerknij na LICENSE.txt</license>
 	<description>Język witryny Joomla 3.6.3 - http://www.joomla.pl</description>
 	<files>
 		<folder>/</folder>

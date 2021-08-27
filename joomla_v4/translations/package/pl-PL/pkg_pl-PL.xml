@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Polish (Poland) (pl-PL) Language Pack</name>
+	<name>Pakiet języka polskiego (pl-PL)</name>
 	<packagename>pl-PL</packagename>
 	<version/>
-	<creationDate/>
+	<creationDate>Sierpień 2021</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
