@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name/>
-	<tag/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description/>
+	<name>Turkish (tr-TR)</name>
+	<tag>tr-TR</tag>
+	<version>4.0.0</version>
+	<creationDate>Ekim 2019</creationDate>
+	<author>Türkçe Çeviri Ekibi Çeviri: Uğur Uygur</author>
+	<authorEmail>info@joomlatr.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU Genel Kamu Lisansı sürüm 2 veya üzeri; bkz. LICENSE.txt</license>
+	<description>tr-TR api dili</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
