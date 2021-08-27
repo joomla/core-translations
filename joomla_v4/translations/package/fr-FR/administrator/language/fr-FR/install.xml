@@ -2,14 +2,14 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>French (fr-FR)</name>
 	<tag>fr-FR</tag>
-	<version>4.0.1</version>
-	<creationDate>Août 2021</creationDate>
+	<version/>
+	<creationDate>2021-08-24</creationDate>
 	<author>Joomla! Project - French translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>fr-FR administrator language</description>
+	<description>fr-FR Administrator language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
