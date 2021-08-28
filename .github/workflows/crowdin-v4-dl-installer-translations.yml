@@ -381,7 +381,16 @@ jobs:
 #      "LanguageName": "Sinhala",
 #      "CrowdinID": "si"
 
-# Russian doesn't use Crowdin
+    - name: Crowdin Download Russian
+      uses: crowdin/github-action@1.3.2
+      with:
+        config: 'Configurations/Crowdin-J4-Installer.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ru
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Russian Crowdin translations by Github Action'
 
     - name: Crowdin Download Slovak
       uses: crowdin/github-action@1.3.2
