@@ -1,5 +1,5 @@
 # Core Instalation Files, only allowed from Crowdin.
-joomla_v4/translations/core/installation/*  @HLeithner @conconnl
+joomla_v4/translations/core/installation/language/*  @HLeithner @conconnl
 
 # Japanese
 joomla_v4/translations/package/ja-JP/*  @Richell
