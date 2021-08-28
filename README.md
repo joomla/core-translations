@@ -31,13 +31,11 @@ The languagename is only required if the repository holds multiple languages.
 [LanguageName] Optional
 - administrator/language/(locale)
 - api/language/(locale)
-- installation/language/(locale)
 - language/(locale)
 - pkg_ru-RU.xml
 
 [LanguageName] Optional
 - administrator/language/(locale)
 - api/language/(locale)
-- installation/language/(locale)
 - language/(locale)
 - pkg_ru-RU.xml
