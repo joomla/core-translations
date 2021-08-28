@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Czech (cs-CZ) Language Pack</name>
 	<packagename>cs-CZ</packagename>
-	<version/>
-	<creationDate/>
+	<version>4.0.2.1</version>
+	<creationDate>Srpen 2021</creationDate>
 	<author>Czech Translation Team</author>
 	<authorEmail>admin@joomla.cz</authorEmail>
 	<authorUrl>http://www.joomlaportal.cz</authorUrl>
@@ -20,7 +20,7 @@
 		<folder type="language" client="api" id="cs-CZ">api/language/cs-CZ</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>
