@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * cs-CZ localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Cs_CZLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -34,7 +34,19 @@ abstract class En_GBLocalise
 		{
 			return array('ONE', '1');
 		}
-		else
+		    elseif ($count == 2)
+    {
+        return array('FEW', '2');
+    }
+    elseif ($count == 3)
+    {
+        return array('FEW', '3');
+    }
+    elseif ($count == 4)
+    {
+        return array('FEW');
+    }
+    else
 		{
 			return array('OTHER', 'MORE');
 		}
@@ -49,7 +61,7 @@ abstract class En_GBLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('and', 'in', 'on');
+		return array('a', 'i', 'o', 'po', 'za', 'před', 'nad', 'pod', 's', 'z', 'v', 'do');
 	}
 
 	/**
