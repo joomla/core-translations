@@ -405,7 +405,16 @@ jobs:
         export_only_approved: true
         commit_message: 'New Slovenian Crowdin translations by Github Action'
 
-# Spanish doesn't use Crowdin
+    - name: Crowdin Download Spanish
+      uses: crowdin/github-action@1.3.2
+      with:
+        config: 'Configurations/Crowdin-J4-Installer.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: es
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Spanish Crowdin translations by Github Action'
 
 #      "LanguageName": "Spanish, Colombia",
 #      "CrowdinID": "es-CO"

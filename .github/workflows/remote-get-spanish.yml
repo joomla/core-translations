@@ -48,12 +48,6 @@ jobs:
           echo /${REPO_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete ${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
-          ZIP_PATH="es-ES-core-language-packs-master/joomla_${SYNC_VERION}/installation/language/${LANGUAGE_CODE}/"
-          REPO_PATH="installation/language/${LANGUAGE_CODE}/"
-          echo /${ZIP_PATH}
-          echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete ${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/core/${REPO_PATH}
-
           ZIP_PATH="es-ES-core-language-packs-master/joomla_${SYNC_VERION}/language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
