@@ -1,7 +1,7 @@
-; Joomla! Project
+; Joomla! Turkey
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; GNU Genel Kamu Lisansı sürüm 2 veya üzeri; bkz. LICENSE.txt
+; Not : Bu dosyanın UTF-8 olarak kaydedilmesi gerekmektedir
 
 i
 me
