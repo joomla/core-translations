@@ -3,16 +3,16 @@
 	<name>Romanian Language Pack</name>
 	<packagename>ro-RO</packagename>
 	<version/>
-	<creationDate/>
-	<author/>
+	<creationDate>August 2021</creationDate>
+	<author>Horia Negura - Quanta</author>
 	<authorEmail>fakemoth@gmail.com</authorEmail>
 	<authorUrl>www.quanta-group.ro/</authorUrl>
-	<copyright/>
+	<copyright>Copyright (C) Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager/>
+	<packager>Horia Negura - Quanta</packager>
 	<packagerurl>www.quanta-group.ro/</packagerurl>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[Joomla! 4.x Full Romanian (ro-RO) Language Package - Version 4.0.2v1]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="ro-RO">language/ro-RO</folder>
