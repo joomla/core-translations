@@ -3,6 +3,11 @@
 The repository to store the Source and Translations for the Joomla Core (CMS).
 Connected to the Crowdin Translation Platform and other repositories if needed.
 
+## Installer files
+The installer files (Installer\language\en-GB // joomla.ini and langmetadata.xml) are managed in Crowdin.
+This is required too keep the Core installation process intact.
+In the Crowdin platform things are locked and automated to keep everything aligned.
+These two files can't be processed manual, because of the amount of work and risks.
 
 ## Github Actions - Cron Schedule
 
@@ -15,7 +20,8 @@ Connected to the Crowdin Translation Platform and other repositories if needed.
 * UTC 02:01-04:00 -> J4 Download Package Translations Crowdin Action
 * UTC 06:12-07:12 -> Get Core Source and Upload too Crowdin
 * UTC 08:01-08:15 -> Get Russian and upload Translations to Crowdin
-* UTC 08:16-08:31 -> Get Spanish and upload Translations to Crowdin
+* UTC 08:16-08:30 -> Get Spanish and upload Translations to Crowdin
+* UTC 08:31-08:45 -> Get Japanese and upload Translations to Crowdin
 
 
 ## Folder Structure external repositories
