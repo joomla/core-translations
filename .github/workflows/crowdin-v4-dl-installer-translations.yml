@@ -82,17 +82,16 @@ jobs:
 #      "LanguageName": "Chinese Simplified",
 #      "CrowdinID": "zh-CN"
 
-#   Joomla INI not ready yet
-#    - name: Crowdin Download Chinese Traditional
-#      uses: crowdin/github-action@1.3.2
-#      with:
-#        config: 'Configurations/Crowdin-J4-Installer.yml'
-#        upload_sources: false
-#        download_translations: true
-#        download_language: zh-TW
-#        skip_untranslated_strings: true
-#        export_only_approved: true
-#        commit_message: 'New Chinese Traditional Crowdin translations by Github Action'
+    - name: Crowdin Download Chinese Traditional
+      uses: crowdin/github-action@1.3.2
+      with:
+        config: 'Configurations/Crowdin-J4-Installer.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: zh-TW
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Chinese Traditional Crowdin translations by Github Action'
 
 #      "LanguageName": "Croatian",
 #      "CrowdinID": "hr"
@@ -369,17 +368,16 @@ jobs:
 #      "LanguageName": "Portuguese, Brazilian",
 #      "CrowdinID": "pt-BR"
 
-#      "LanguageName": "Romanian",
-#      "CrowdinID": "ro"
-
-#      "LanguageName": "Serbian (Cyrillic)",
-#      "CrowdinID": "sr-Cyrl"
-
-#      "LanguageName": "Serbian (Latin)",
-#      "CrowdinID": "sr-Latn"
-
-#      "LanguageName": "Sinhala",
-#      "CrowdinID": "si"
+    - name: Crowdin Download Romanian
+      uses: crowdin/github-action@1.3.2
+      with:
+        config: 'Configurations/Crowdin-J4-Installer.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ro
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Romanian Crowdin translations by Github Action'
 
     - name: Crowdin Download Russian
       uses: crowdin/github-action@1.3.2
@@ -391,6 +389,15 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Russian Crowdin translations by Github Action'
+
+#      "LanguageName": "Serbian (Cyrillic)",
+#      "CrowdinID": "sr-Cyrl"
+
+#      "LanguageName": "Serbian (Latin)",
+#      "CrowdinID": "sr-Latn"
+
+#      "LanguageName": "Sinhala",
+#      "CrowdinID": "si"
 
     - name: Crowdin Download Slovak
       uses: crowdin/github-action@1.3.2
@@ -512,4 +519,3 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Welsh Crowdin translations by Github Action'
-
