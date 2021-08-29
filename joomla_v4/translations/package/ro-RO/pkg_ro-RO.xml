@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Romanian Language Pack</name>
 	<packagename>ro-RO</packagename>
-	<version/>
+	<version>4.0.3.1</version>
 	<creationDate>August 2021</creationDate>
 	<author>Horia Negura - Quanta</author>
 	<authorEmail>fakemoth@gmail.com</authorEmail>
@@ -17,10 +17,10 @@
 	<files>
 		<folder type="language" client="site" id="ro-RO">language/ro-RO</folder>
 		<folder type="language" client="administrator" id="ro-RO">administrator/language/ro-RO</folder>
-		<folder type="language" client="api" id="ro-RO"/>
+		<folder type="language" client="api" id="ro-RO">api/language/ro-RO</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>
