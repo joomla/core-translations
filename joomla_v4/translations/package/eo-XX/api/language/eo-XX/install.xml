@@ -2,9 +2,9 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Esperanto (eo-XX)</name>
 	<tag>eo-XX</tag>
-	<version/>
-	<creationDate/>
-	<author/>
+	<version>4.0.0</version>
+	<creationDate>October 2019</creationDate>
+	<author>Sveda Esperanto-Federacio, Svedio</author>
 	<authorEmail>tradukoj@esperantosverige.se</authorEmail>
 	<authorUrl>esperantosverige.se</authorUrl>
 	<copyright/>
