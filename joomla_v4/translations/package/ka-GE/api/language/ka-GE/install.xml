@@ -7,8 +7,8 @@
 	<author>Georgian Translation Team</author>
 	<authorEmail>z.cherkezishvili@gmail.com</authorEmail>
 	<authorUrl>https://github.com/Zurabch</authorUrl>
-	<copyright/>
-	<license/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>ka-GE api language</description>
 	<files>
 		<folder>/</folder>
