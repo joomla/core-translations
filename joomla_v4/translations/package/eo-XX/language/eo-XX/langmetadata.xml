@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
 	<name>Esperanto (eo-XX)</name>
-	<version/>
-	<creationDate/>
-	<author/>
+	<version>4.0.3</version>
+	<creationDate>August 2021</creationDate>
+	<author>Sveda Esperanto-Federacio, Svedio</author>
 	<authorEmail>tradukoj@esperantosverige.se</authorEmail>
 	<authorUrl>esperantosverige.se</authorUrl>
-	<copyright/>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[eo-XX lingvo fronte]]></description>
 	<metadata>

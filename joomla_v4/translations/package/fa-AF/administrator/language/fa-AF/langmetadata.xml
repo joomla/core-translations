@@ -2,9 +2,9 @@
 <metafile client="administrator">
 	<name/>
 	<version/>
-	<creationDate/>
+	<creationDate>August 2021</creationDate>
 	<author/>
-	<authorEmail/>
+	<authorEmail>dari@JoomlaPesrain.com</authorEmail>
 	<authorUrl/>
 	<copyright/>
 	<license/>
@@ -12,7 +12,7 @@
 	<metadata>
 		<name/>
 		<nativeName/>
-		<tag/>
+		<tag>fa-AF</tag>
 		<rtl>1</rtl>
 		<locale>prs-AF.utf8, prs-AF.UTF-8, prs_AF.utf8, prs_AF.UTF-8, fa_AF.utf8, fa_AF.UTF-8, fa_AF, prs_AF, fa-AF.utf8, fa-AF.UTF-8, fa-AF, prs-AF, fa, prs, af, dari</locale>
 		<firstDay>1</firstDay>

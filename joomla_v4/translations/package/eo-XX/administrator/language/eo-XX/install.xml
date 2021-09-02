@@ -2,12 +2,12 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Esperanto (eo-XX)</name>
 	<tag>eo-XX</tag>
-	<version/>
-	<creationDate/>
-	<author/>
+	<version>4.0.3</version>
+	<creationDate>August 2021</creationDate>
+	<author>Sveda Esperanto-Federacio, Svedio</author>
 	<authorEmail>tradukoj@esperantosverige.se</authorEmail>
 	<authorUrl>esperantosverige.se</authorUrl>
-	<copyright/>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>eo-XX dorsflanka (administra) lingvopakaĵo</description>
 	<files>
