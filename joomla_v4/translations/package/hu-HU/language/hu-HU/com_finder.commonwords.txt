@@ -1,179 +1,156 @@
-; Joomla! Project
+; Joomla! Magyarország
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt
+; Megjegyzés: Ezt a fájlt UTF-8 kódolással kel menteni
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+én
+nekem
+az én
+magamat
+mi
+a miénk
+a miénk
+minket
+te
+a ti
+a tiéd
+saját magad
+magatok
+neki
+övé
+önmaga
+ő
+neki
+az övé
+önmaga
+azt
+annak
+maga
+ők
+őket
+az övék
+övék
+maguk
+mit
+melyik
+ki
+kit
+ez
+hogy
+ezek
+azok
+van
+vannak
+volt
+voltak
+lenni
+lény
+miután
+tedd
+csinál
+tette
+megtenné
+kellene
+tudott
+én vagyok
+te vagy
+ő
+ez az
+mi vagyunk
+ők
+megvan
+van
+megvannak
+én
+te
+megtette
+házasodik
+megtették
+beteg
+fog
+pokol
+jól
+fognak
+nem az
+nincsenek
+nem volt
+nem voltak
+nem tette
+nem
+nem teszi
+ne tedd
+nem tette
+szokás
+nem tenné
+nem
+nem kellene
+nem lehet
+nem tud
+nem tudott
+nem szabad
+hagyjuk
+ez az
+ki az
+mi az
+itt van
+ott van
+mikor
+hol
+magyarázat
+hogy van
 a
-an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+az
+és
+de
+ha
+vagy
+mivel
+mint
+amíg
+míg
+által
+számára
+ellen
+között
+keresztül
+alatt
+előtt
+után
+felett
+lent
+fel
+le
+ki
+tovább
+felett
+alatt
+újra
+további
+azután
+egyszer
+itt
+ott
+amikor
+ahol
+miért
+hogyan
+összes
+bármi
+mindkét
+minden egyes
+kevés
+több
+a legtöbb
+egyéb
+néhány
+ilyen
+nem
+sem
+nem
+csak
+saját
+azonos
+így
+mint
+is
+nagyon

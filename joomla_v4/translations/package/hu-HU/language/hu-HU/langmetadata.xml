@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
 	<name>Hungarian (Hungary)</name>
-	<version/>
+	<version>4.0.3</version>
 	<creationDate>2021 augusztus</creationDate>
 	<author>Joomla! Magyarország</author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
 	<authorUrl>www.joomlacms.hu</authorUrl>
-	<copyright/>
+	<copyright>Minden jog fenntartva (C) 2006 Open Source Matters.</copyright>
 	<license>GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt</license>
 	<description><![CDATA[hu-HU site language]]></description>
 	<metadata>

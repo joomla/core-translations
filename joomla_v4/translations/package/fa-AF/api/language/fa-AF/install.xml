@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name/>
+	<name>فارسی (fa-AF)</name>
 	<tag>fa-AF</tag>
-	<version/>
-	<creationDate/>
-	<author/>
+	<version>4.0.0</version>
+	<creationDate>اکتبر ۲۰۱۹</creationDate>
+	<author>JoomlaPersian Translation Team</author>
 	<authorEmail>dari@JoomlaPesrain.com</authorEmail>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description/>
+	<authorUrl>www.joomlapersian.com</authorUrl>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>زبان fa-AF برای API</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
