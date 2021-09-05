@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
 	<name>Dutch (nl-BE)</name>
-	<version>4.0.3.1</version>
+	<version>4.0.2</version>
 	<creationDate>Augustus 2021</creationDate>
-	<author>Dutch Translation Team</author>
-	<authorEmail>taal@joomlacommunity.nl</authorEmail>
-	<authorUrl>https://joomlacommunity.nl</authorUrl>
+	<author>Dutch (BE) translation team</author>
+	<authorEmail>frank.joris@skynet.be</authorEmail>
+	<authorUrl>https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-flemish</authorUrl>
 	<copyright>Copyright (C) 2005 - 2021 Dutch Translation Team en Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[nl-BE site language]]></description>
 	<metadata>
 		<name>Dutch (Belgium)</name>
-		<nativeName>Dutch (Belgium)</nativeName>
-		<tag>nl-NL</tag>
+		<nativeName>Nederlands (België)</nativeName>
+		<tag>nl-BE</tag>
 		<rtl>0</rtl>
-		<locale>nl_BE.utf8, nl_BE.UTF-8, nl_BE.UTF-8@euro, nl_BE, be</locale>
+		<locale>nl_BE.utf8, nl_BE.UTF-8, nl_BE.UTF-8@euro, nl_BE, be, vlaams</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>

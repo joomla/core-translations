@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Belgisch (nl-BE) taalpakket</name>
-	<packagename>nl-NL</packagename>
-	<version>4.0.3.1</version>
+	<name>Nederlands (nl-BE) taalpakket</name>
+	<packagename>nl-BE</packagename>
+	<version>4.0.2.1</version>
 	<creationDate>Augustus 2021</creationDate>
-	<author>Dutch Translation Team</author>
-	<authorEmail>taal@joomlacommunity.nl</authorEmail>
-	<authorUrl>https://joomlacommunity.nl</authorUrl>
-	<copyright>Copyright (C) 2005 - 2021 Open Source Matters, Inc. Alle rechten voorbehouden.</copyright>
+	<author>Dutch (BE) translation team</author>
+	<authorEmail>frank.joris@skynet.be</authorEmail>
+	<authorUrl>https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-flemish</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Dutch Translation Team</packager>
-	<packagerurl>https://joomlacommunity.nl</packagerurl>
-	<description><![CDATA[		<div style="text-align: left;">
-			<h3>Joomla! 3.7.3 Full Belgian (nl-BE) Language Package - Version 3.7.3v1</h3>
-			<h3>Volledig Belgisch (nl-BE) taalpakket voor Joomla! 3.7.3 - Versie 3.7.3v1</h3>
-		</div>
-		]]></description>
+	<packager>Dutch (BE) translation team</packager>
+	<packagerurl>https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-flemish</packagerurl>
+	<description><![CDATA[Vlaams taalpakket]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="nl-NL">language/nl-NL</folder>
-		<folder type="language" client="administrator" id="nl-NL">administrator/language/nl-NL</folder>
-		<folder type="language" client="api" id="nl-NL">api/language/nl-NL</folder>
+		<folder type="language" client="site" id="nl-BE">language/nl-BE</folder>
+		<folder type="language" client="administrator" id="nl-BE">administrator/language/nl-BE</folder>
+		<folder type="language" client="api" id="nl-BE">api/language/nl-BE</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Geaccrediteerde Joomla! vertalingen">
