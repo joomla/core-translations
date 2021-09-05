@@ -58,7 +58,7 @@ jobs:
         run: |
           SYNC_VERION="v4"
           LANGUAGE_CODE="uk-UA"
-          find ./joomla_${SYNC_VERION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} \;
+          find ./joomla_${SYNC_VERION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} +
 
       - name: Push translations to repo
         run: |
