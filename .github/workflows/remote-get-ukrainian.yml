@@ -36,7 +36,7 @@ jobs:
           echo /${REPO_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  uk-UA-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
-          ZIP_PATH="pkg_uk-UA.xml"
+          ZIP_PATH="pkg_${LANGUAGE_CODE}.xml"
           REPO_PATH="${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
