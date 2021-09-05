@@ -4,14 +4,14 @@
 	<packagename>fa-AF</packagename>
 	<version>4.0.2.1</version>
 	<creationDate>August 2021</creationDate>
-	<author/>
+	<author>JoomlaPersian Translation Team</author>
 	<authorEmail>dari@JoomlaPesrain.com</authorEmail>
-	<authorUrl/>
+	<authorUrl>www.joomlapersian.com</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager/>
-	<packagerurl/>
+	<packager>JoomlaPersian Translation Team</packager>
+	<packagerurl>www.joomlapersian.com</packagerurl>
 	<description><![CDATA[بسته زبان fa-AF]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>

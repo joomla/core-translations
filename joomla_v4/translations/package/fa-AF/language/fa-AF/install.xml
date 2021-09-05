@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="site" type="language" method="upgrade">
-	<name/>
+	<name>فارسی (fa-AF)</name>
 	<tag>fa-AF</tag>
 	<version/>
 	<creationDate>August 2021</creationDate>
-	<author/>
+	<author>JoomlaPersian Translation Team</author>
 	<authorEmail>dari@JoomlaPesrain.com</authorEmail>
-	<authorUrl/>
+	<authorUrl>www.joomlapersian.com</authorUrl>
 	<copyright/>
-	<license/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>prs-AF site language</description>
 	<files>
 		<folder>/</folder>
