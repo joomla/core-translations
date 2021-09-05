@@ -5,6 +5,7 @@
 name: J4 Get Japanese Translation files
 
 on:
+  workflow_dispatch:
   # Runs once a day at 8:01
   schedule:
     - cron:  '31 8 * * *'
@@ -52,6 +53,10 @@ jobs:
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  Joomla-in-Japanese-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+
+      - name: Validate PHP code
+        run: |
+          find . -name "*.php" -exec php -l {} \;
 
       - name: Push translations to repo
         run: |

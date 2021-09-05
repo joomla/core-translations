@@ -5,6 +5,7 @@
 name: J4 Get Russian Translation files
 
 on:
+  workflow_dispatch:
   # Runs once a day at 8:01
   schedule:
     - cron:  '01 8 * * *'
@@ -21,7 +22,6 @@ jobs:
           ls -l
           wget -nv "https://github.com/JPathRu/localisation/archive/refs/heads/j4.zip"
           unzip j4.zip
-          #mv localisation-j4 joomla-ru-ru
 
       - name: Syncing j4 directories
         # We use a simple copy paste syntax here if needed customization for different directories
@@ -53,6 +53,10 @@ jobs:
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  localisation-j4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+
+      - name: Validate PHP code
+        run: |
+          find . -name "*.php" -exec php -l {} \;
 
       - name: Push translations to repo
         run: |
