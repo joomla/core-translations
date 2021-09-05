@@ -56,7 +56,9 @@ jobs:
 
       - name: Validate PHP code
         run: |
-          find . -name "*.php" -exec php -l {} \;
+          SYNC_VERION="v4"
+          LANGUAGE_CODE="ja-JP"
+          find ./joomla_${SYNC_VERION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} \;
 
       - name: Push translations to repo
         run: |
