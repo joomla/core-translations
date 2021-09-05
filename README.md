@@ -22,6 +22,7 @@ These two files can't be processed manual, because of the amount of work and ris
 * UTC 08:01-08:15 -> Get Russian and upload Translations to Crowdin
 * UTC 08:16-08:30 -> Get Spanish and upload Translations to Crowdin
 * UTC 08:31-08:45 -> Get Japanese and upload Translations to Crowdin
+* UTC 08:46-09:00 -> Get Ukrainian and upload Translations to Crowdin
 
 
 ## Folder Structure external repositories
