@@ -56,7 +56,7 @@ jobs:
 
       - name: Validate PHP code
         run: |
-          find . -name *.php -exec php -l "{}" ;
+          'find . -name *.php -exec php -l "{}" ;'
 
       - name: Push translations to repo
         run: |
