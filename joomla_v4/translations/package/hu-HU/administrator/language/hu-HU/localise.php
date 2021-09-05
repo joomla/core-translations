@@ -2,14 +2,16 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
+ * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
-defined('_JEXEC') or die;
+\defined('_JEXEC') or die;
+
+use Joomla\String\StringHelper;
 
 /**
- * en-GB localise class.
+ * hu-HU localise class.
  *
  * @since  1.6
  */
@@ -49,7 +51,20 @@ abstract class hu_HULocalise
 	 */
 	public static function getIgnoredSearchWords()
     {
-		return array('aki', 'amely', 'ami', 'és', 'is', 'itt', 'lesz', 'mert', 'miért', 'mivel', 'ott', 'vagy');
+		$search_ignore = array();
+		$search_ignore[] = "aki";
+		$search_ignore[] = "amely";
+		$search_ignore[] = "ami";
+		$search_ignore[] = "és";
+		$search_ignore[] = "is";
+		$search_ignore[] = "itt";
+		$search_ignore[] = "lesz";
+		$search_ignore[] = "mert";
+		$search_ignore[] = "miért";
+		$search_ignore[] = "mivel";
+		$search_ignore[] = "ott";
+		$search_ignore[] = "vagy";
+		return $search_ignore;
 	}
 
 	/**
@@ -98,7 +113,7 @@ abstract class hu_HULocalise
     */
     public static function transliterate($string)
     {
-        $str = JString:: strtolower($string);
+        $str = StringHelper::strtolower($string);
 
         //Specific language transliteration.
         //This one is for latin 1, latin supplement , extended A, Cyrillic, Greek
@@ -107,8 +122,8 @@ abstract class hu_HULocalise
         'a'            =>   'á',
         'e'            =>   'é',
         'i'            =>   'í',
-        'o'            =>   'ó, ö, ő',
-        'u'            =>   'ú, ü, ű',
+        'o'            =>   'ó,ö,ő',
+        'u'            =>   'ú,ü,ű',
     );
  
     foreach( $glyph_array as $letter => $glyphs ) {
