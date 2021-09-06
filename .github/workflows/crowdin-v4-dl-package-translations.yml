@@ -813,16 +813,7 @@ jobs:
         export_only_approved: true
         commit_message: 'New Turkmen Crowdin translations by Github Action'
 
-    - name: Crowdin Download Ukrainian
-      uses: crowdin/github-action@1.3.0
-      with:
-        config: 'Configurations/Crowdin-J4-All.yml'
-        upload_sources: false
-        download_translations: true
-        download_language: uk
-        skip_untranslated_strings: true
-        export_only_approved: true
-        commit_message: 'New Ukrainian Crowdin translations by Github Action'
+# Ukrainian doesn't use Crowdin
 
     - name: Crowdin Download Urdu India
       uses: crowdin/github-action@1.3.0
