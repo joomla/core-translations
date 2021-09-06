@@ -1,6 +1,7 @@
 name: Check PHP Code
 
 on:
+  push:
   pull_request:
     branches:
       - main
