@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
-	<tag>uk-UA</tag>
 	<name>Ukrainian (uk-UA)</name>
 	<version>4.0.2</version>
 	<creationDate>2021-09-03</creationDate>
-	<author>Joomla! Ukraine</author>
+	<author>Community Joomla! Ukraine</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
-	<authorUrl>http://joomla-ua.org</authorUrl>
+	<authorUrl>https://joomla-ua.org</authorUrl>
 	<copyright>Copyright (C) 2005-2021 Open Source Matters. All rights reserved.</copyright>
 	<copyright>Copyright (C) 2006-2021 Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<license>GNU General Public License version 2 or later</license>
 	<description>uk-UA admin language</description>
 	<metadata>
 		<name>Ukrainian (uk-UA)</name>

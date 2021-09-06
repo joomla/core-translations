@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>uk-UA</name>
+	<name>Ukrainian (uk-UA) Language Pack</name>
 	<packagename>uk-UA</packagename>
 	<version>4.0.2.1</version>
 	<creationDate>2021-09-05</creationDate>
-	<author>Denys Nosov</author>
+	<author>Community Joomla! Ukraine</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
 	<copyright>2006-2021 (C) Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<license>GNU General Public License version 2 or later</license>
 	<url>https://joomla-ua.org</url>
 	<packager>Joomla! Ukraine</packager>
 	<packagerurl>https://joomla-ua.org</packagerurl>
