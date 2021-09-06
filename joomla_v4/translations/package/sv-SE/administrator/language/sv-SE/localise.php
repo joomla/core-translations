@@ -73,7 +73,6 @@ abstract class Sv_SELocalise {    //// !!!! NOTE the use of Sv_SE for the class 
 	public static function getSearchDisplayedCharactersNumber() {
 		return 200;
 	}
-}
 
 
 /**

@@ -37,22 +37,20 @@ abstract class Cy_GBLocalise
 		elseif  ($count == 2)
 		{
 			return array('TWO', '2');
-	}
-	elseif ($count == 3)
-	{
-		return array('FEW', '3');
-	}
-	elseif ($count == 6)
-	{
-		return array('MANY', '6');
-	}
+		}
+		elseif ($count == 3)
+		{
+			return array('FEW', '3');
+		}
+		elseif ($count == 6)
+		{
+			return array('MANY', '6');
+		}
 		else
 		{
 			return array('OTHER', 'MORE');
 		}
 	}
-}
-
 
 	/**
 	 * Returns the ignored search words
