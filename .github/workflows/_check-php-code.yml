@@ -1,4 +1,4 @@
-name: _Check PHP Code
+name: Check PHP Code
 
 on:
   pull_request:
