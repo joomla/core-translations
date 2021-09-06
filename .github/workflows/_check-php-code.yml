@@ -13,7 +13,8 @@ jobs:
     if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Source Code
+        uses: actions/checkout@v2
           
       - name: PHP Syntax Checker (Lint)
         uses: StephaneBour/actions-php-lint@7.4
