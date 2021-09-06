@@ -3,7 +3,7 @@
  * @package    Joomla.Language
  *
  * @copyright Direitos de Autor (C) 2011 - Open Source Matters, Inc. <https://www.joomla.org>
- * @license  Pública Geral GNU - versão 2 ou posterior; ver ficheiro LICENSE.txt
+ * @license Licença Pública Geral GNU - versão 2 ou posterior; ver ficheiro LICENSE.txt
  */
 
 defined('_JEXEC') or die;
