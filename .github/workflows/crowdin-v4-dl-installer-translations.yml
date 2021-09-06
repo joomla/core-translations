@@ -494,8 +494,16 @@ jobs:
 #      "LanguageName": "Turkmen",
 #      "CrowdinID": "tk"
 
-#      "LanguageName": "Ukrainian",
-#      "CrowdinID": "uk"
+    - name: Crowdin Download Ukrainian
+      uses: crowdin/github-action@1.3.2
+      with:
+        config: 'Configurations/Crowdin-J4-Installer.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: uk
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Ukrainian Crowdin translations by Github Action'
 
 #      "LanguageName": "Urdu (India)",
 #      "CrowdinID": "ur-IN"
