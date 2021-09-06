@@ -1,7 +1,9 @@
 name: _Check PHP Code
 
 on:
-  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
   
 jobs:
   check-php-code:
