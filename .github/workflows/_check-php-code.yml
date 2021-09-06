@@ -10,13 +10,13 @@ env:
   
 jobs:
   check-php-code:
-    if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
+    if: (github.event_name == 'pull_request' && github.repository == 'joomla/core-translations') || (github.event_name == 'push' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v2
         with:
-          ref: 'l10n_crowdin_action'
+          ref: ${{ github.event.pull_request.head.sha }}
           
       - name: PHP Syntax Checker (Lint)
         uses: StephaneBour/actions-php-lint@7.4
