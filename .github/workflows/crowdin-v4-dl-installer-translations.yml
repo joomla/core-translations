@@ -32,6 +32,7 @@ jobs:
 #        skip_untranslated_strings: true
 #        export_only_approved: true
 #        commit_message: 'New Albanian Crowdin translations by Github Action'
+#        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Afrikaans",
 #      "CrowdinID": "af"
@@ -49,6 +50,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Arabic Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Armenian",
 #      "CrowdinID": "hy"
@@ -66,6 +68,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Basque Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Bengali",
 #      "CrowdinID": "bn"
@@ -92,6 +95,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Chinese Traditional Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Croatian",
 #      "CrowdinID": "hr"
@@ -106,6 +110,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Czech Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Danish
       uses: crowdin/github-action@1.3.2
@@ -117,6 +122,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Danish Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Dari",
 #      "CrowdinID": "fa-AF"
@@ -131,6 +137,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Dutch Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Dutch Belgium
       uses: crowdin/github-action@1.3.2
@@ -142,6 +149,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Dutch Belgium Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download English Australia
       uses: crowdin/github-action@1.3.2
@@ -153,6 +161,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New English Australia Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "English, Canada",
 #      "CrowdinID": "en-CA"
@@ -167,6 +176,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New English US Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Esperanto",
 #      "CrowdinID": "eo"
@@ -181,6 +191,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Estonian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Finnish",
 #      "CrowdinID": "fi"
@@ -195,6 +206,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New French Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "French, Canada",
 #      "CrowdinID": "fr-CA"
@@ -212,6 +224,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Georgian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Greek
       uses: crowdin/github-action@1.3.2
@@ -223,6 +236,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Greek Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Gujarati",
 #      "CrowdinID": "gu"
@@ -249,6 +263,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Hungarian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Indonesian",
 #      "CrowdinID": "id"
@@ -266,6 +281,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Italian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Japanese
       uses: crowdin/github-action@1.3.2
@@ -277,6 +293,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Japanese Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Kazakh",
 #      "CrowdinID": "kk"
@@ -325,6 +342,7 @@ jobs:
 #        skip_untranslated_strings: true
 #        export_only_approved: true
 #        commit_message: 'New Norwegian Bokmal Crowdin translations by Github Action'
+#        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Norwegian Nynorsk",
 #      "CrowdinID": "nn-NO"
@@ -342,6 +360,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Persian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Polish
       uses: crowdin/github-action@1.3.2
@@ -353,6 +372,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Polish Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Portuguese
       uses: crowdin/github-action@1.3.2
@@ -364,6 +384,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Portuguese Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Portuguese, Brazilian",
 #      "CrowdinID": "pt-BR"
@@ -378,6 +399,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Romanian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Russian
       uses: crowdin/github-action@1.3.2
@@ -389,6 +411,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Russian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Serbian (Cyrillic)",
 #      "CrowdinID": "sr-Cyrl"
@@ -409,6 +432,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Slovak Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Slovenian
       uses: crowdin/github-action@1.3.2
@@ -420,6 +444,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Slovenian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Spanish
       uses: crowdin/github-action@1.3.2
@@ -431,6 +456,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Spanish Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Spanish, Colombia",
 #      "CrowdinID": "es-CO"
@@ -451,6 +477,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Swedish Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Syriac",
 #      "CrowdinID": "syc"
@@ -468,6 +495,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Tamil Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Thai
       uses: crowdin/github-action@1.3.2
@@ -479,6 +507,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Thai Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Turkish
       uses: crowdin/github-action@1.3.2
@@ -490,6 +519,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Turkish Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Turkmen",
 #      "CrowdinID": "tk"
@@ -504,6 +534,7 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Ukrainian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Urdu (India)",
 #      "CrowdinID": "ur-IN"
@@ -527,3 +558,4 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Welsh Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
