@@ -1,5 +1,8 @@
 name: _Check PHP Code
 
+on:
+  workflow_dispatch:
+  
 jobs:
   check-php-code:
     if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
