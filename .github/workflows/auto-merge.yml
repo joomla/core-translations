@@ -8,7 +8,7 @@ on:
       - edited
       - dismissed
   schedule:
-    - cron:  '37 * * * *'
+    - cron:  '37 */6 * * *'
 
 jobs:
   # thats's all. single step is needed - if PR is mergeable according to
