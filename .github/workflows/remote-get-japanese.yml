@@ -58,47 +58,5 @@ jobs:
         run: |
           SYNC_VERION="v4"
           LANGUAGE_CODE="ja-JP"
-          find ./joomla_${SYNC_VERION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} +
-
-      - name: Push translations to repo
-        run: |
-          git config user.name Translation Bot
-          git config user.email release+translation-bot@joomla.org
-          git status
-          git add .
-          git diff --quiet && git diff --staged --quiet || git commit -am "J4 Japanese Language update on `date +'%Y-%m-%d'`"
-          git push
-
-# This workflow contains a single job called "build"
-  synchronize-with-crowdin:
-    needs: collect-from-external
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    # Runs the Crowdin action command - https://github.com/crowdin/github-action
-    - name: Crowdin Upload Japanese
-      uses: crowdin/github-action@1.3.0
-      with:
-        # Upload sources to Crowdin
-        upload_sources: false
-        # Upload translations to Crowdin
-        upload_translations: true
-        # Define the languages to upload for translations
-        upload_language: 'ja'
-        # Automatically approves uploaded translations
-        auto_approve_imported: true
-        # Defines whether to add translation if it is equal to source string in Crowdin project
-        import_eq_suggestions: true
-        # Option to specify a path to the configuration file, without / at the beginning
-        config: 'Configurations/Crowdin-J4-All.yml'
-        # Use true for dryrun to test the run without actually processing anything
-        dryrun_action: false
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          find ./joomla_${SYNC_VERION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} \; | fgrep -i "No syntax errors detected" || exit 1
+          
