@@ -1,7 +1,7 @@
 name: Auto-Merge after checks
 
 on:
-  status: {} # try to merge when other checks are completed
+  status
   pull_request_review: # try to merge after review
     types:
       - submitted
