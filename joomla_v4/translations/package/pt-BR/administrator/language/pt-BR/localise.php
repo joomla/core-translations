@@ -2,18 +2,18 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @copyright (C) 2011 - Open Source Matters, Inc. <https://www.joomla.org>
+ * @license  Pública Geral GNU - versão 2 ou posterior; ver LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * pt-BR localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class pt_BRLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class En_GBLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('and', 'in', 'on');
+		return array('e', 'de', 'se', 'por' , 'nem' , 'ou' , 'mas' , 'em' );
 	}
 
 	/**
