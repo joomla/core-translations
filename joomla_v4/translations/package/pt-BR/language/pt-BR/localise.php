@@ -1,19 +1,19 @@
 <?php
 /**
- * @package    Joomla.Language
+ * @pacote Joomla.Language
  *
- * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
+ * @copyright (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
+ * @license GNU General Public License versão 2 ou superior; consulte LICENSE.txt
+*/
 
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * pt-BR localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class pt_BRLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
