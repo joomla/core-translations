@@ -75,7 +75,7 @@ jobs:
           git push
 
 # This workflow contains a single job called "build"
-  collect-from-external:
+  synchronize-with-crowdin:
     needs: github-update
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
