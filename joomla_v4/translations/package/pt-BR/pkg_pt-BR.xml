@@ -2,15 +2,15 @@
 <extension type="package" method="upgrade">
 	<name>Brazilian Portuguese (pt-BR) Language Pack</name>
 	<packagename>pt-BR</packagename>
-	<version/>
-	<creationDate/>
-	<author/>
+	<version>4.0.0.1</version>
+	<creationDate>Março de 2020</creationDate>
+	<author>Projeto Joomla!</author>
 	<authorEmail>helvecio.dasilva@community.joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright/>
+	<copyright>Copyright (C) 2019 Open Source Matters. Todos os direitos reservados.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager/>
+	<packager>Projeto Joomla!</packager>
 	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[<div style="text-align: left;">
  <h2>Tradução Português Brasileiro (pt-BR) para Joomla! 3.9.20 instalada com sucesso!</h2>
@@ -25,7 +25,7 @@
 		<folder type="language" client="api" id="pt-BR">api/language/pt-BR</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="Traduções Joomla! creditadas">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>
