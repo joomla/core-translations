@@ -59,11 +59,6 @@ jobs:
           SYNC_VERION="v4"
           LANGUAGE_CODE="uk-UA"
           find ./joomla_${SYNC_VERION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} \; | fgrep -i "No syntax errors detected" || exit 1
-          
-      - name: PHP Syntax Checker (Lint)
-        uses: StephaneBour/actions-php-lint@7.4
-        with:
-          dir: '.'
 
       - name: Push translations to repo
         run: |
