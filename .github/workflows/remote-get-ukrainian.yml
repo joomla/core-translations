@@ -59,7 +59,24 @@ jobs:
           SYNC_VERION="v4"
           LANGUAGE_CODE="uk-UA"
           find ./joomla_${SYNC_VERION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} \; | fgrep -i "No syntax errors detected" || exit 1
+    
+  check-php-status:
+    needs: collect-from-external
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          
+      - name: PHP Syntax Checker (Lint)
+        uses: StephaneBour/actions-php-lint@7.4
+        with:
+          dir: '.'
 
+  github-update:
+    needs: check-php-status
+    runs-on: ubuntu-latest
       - name: Push translations to repo
         run: |
           git config user.name Translation Bot
@@ -71,7 +88,7 @@ jobs:
 
 # This workflow contains a single job called "build"
   synchronize-with-crowdin:
-    needs: collect-from-external
+    needs: github-update
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
