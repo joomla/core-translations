@@ -77,6 +77,7 @@ jobs:
   github-update:
     needs: check-php-status
     runs-on: ubuntu-latest
+    steps:
       - name: Push translations to repo
         run: |
           git config user.name Translation Bot
