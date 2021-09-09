@@ -76,7 +76,7 @@ jobs:
 
 # This workflow contains a single job called "build"
   synchronize-with-crowdin:
-    needs: github-update
+    needs: collect-from-external
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
