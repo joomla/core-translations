@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name>中文(繁體．台灣)</name>
+	<name>Chinese Traditional (zh-TW)</name>
 	<tag>zh-TW</tag>
-	<version/>
-	<creationDate>July 2021</creationDate>
-	<author>Joomla! 台灣</author>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org.tw</authorUrl>
-	<copyright>Copyright (C) 2013 Open Source Matters, Inc.</copyright>
+	<version>4.0.0.1</version>
+	<creationDate>2021/09/07</creationDate>
+	<author>正體中文 Translation Team</author>
+	<authorEmail>eyesome.shawnchiu@gmail.com</authorEmail>
+	<authorUrl>eyesome.tw</authorUrl>
+	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>zh-TW administrator language</description>
+	<description>zh-TW 後台正體中文语言</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

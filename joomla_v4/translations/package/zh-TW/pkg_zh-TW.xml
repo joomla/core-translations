@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>中文(繁體．台灣) 完整語言包</name>
+	<name>Chinese Traditional (zh-TW) Language Pack</name>
 	<packagename>zh-TW</packagename>
 	<version>4.0.0.1</version>
-	<creationDate>July 2021</creationDate>
-	<author>Joomla! 台灣</author>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org.tw</authorUrl>
-	<copyright>(C) 2021 Open Source Matters, Inc.</copyright>
+	<creationDate>2021/09/07</creationDate>
+	<author>正體中文 Translation Team</author>
+	<authorEmail>eyesome.shawnchiu@gmail.com</authorEmail>
+	<authorUrl>eyesome.tw</authorUrl>
+	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Joomla! 台灣</packager>
-	<packagerurl>www.joomla.org.tw</packagerurl>
-	<description><![CDATA[<h3>Joomla! v3.7.0.1 中文(繁體．台灣) 完整語言包</h3><h3>Joomla! v3.7.0.1 Traditional Chinese (Taiwan) Language Package</h3>]]></description>
+	<packager>Joomla! Chinese Traditional Translations Project</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[zh-TW 正體中文語言包]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="zh-TW">language/zh-TW</folder>
