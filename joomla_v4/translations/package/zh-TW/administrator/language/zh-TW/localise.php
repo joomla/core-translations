@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * zh-TW localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Zh_TWLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class En_GBLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('and', 'in', 'on');
+		return array('啊', '呢', '嘛');
 	}
 
 	/**
@@ -61,7 +61,7 @@ abstract class En_GBLocalise
 	 */
 	public static function getLowerLimitSearchWord()
 	{
-		return 3;
+		return 2;
 	}
 
 	/**
