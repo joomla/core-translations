@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
-	<name>中文(繁體．台灣)</name>
-	<version/>
-	<creationDate>2021年8月</creationDate>
-	<author>Joomla! 台灣</author>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org.tw</authorUrl>
-	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<name>Chinese Traditional (zh-TW)</name>
+	<version>4.0.0.1</version>
+	<creationDate>2021/09/07</creationDate>
+	<author>正體中文 Translation Team</author>
+	<authorEmail>eyesome.shawnchiu@gmail.com</authorEmail>
+	<authorUrl>eyesome.tw</authorUrl>
+	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[zh-TW administrator language]]></description>
+	<description><![CDATA[zh-TW 後台正體中文語言]]></description>
 	<metadata>
-		<name>Traditional Chinese (zh-TW)</name>
-		<nativeName>Traditional Chinese (zh-TW)</nativeName>
+		<name>Chinese Traditional (Taiwan)</name>
+		<nativeName>正體中文</nativeName>
 		<tag>zh-TW</tag>
 		<rtl>0</rtl>
 		<locale>zh_TW.utf8, zh_TW.UTF-8, zh_TW, zho_TW, zhi_TW, traditional_chinese</locale>
