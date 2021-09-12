@@ -3,10 +3,10 @@
 	<name>Chinese Traditional (zh-TW)</name>
 	<tag>zh-TW</tag>
 	<version>4.0.0.1</version>
-	<creationDate>2021/09/07</creationDate>
+	<creationDate>2021/09/10</creationDate>
 	<author>正體中文 Translation Team</author>
-	<authorEmail>eyesome.shawnchiu@gmail.com</authorEmail>
-	<authorUrl>eyesome.tw</authorUrl>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org.tw</authorUrl>
 	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>zh-TW 前台正體中文语言</description>

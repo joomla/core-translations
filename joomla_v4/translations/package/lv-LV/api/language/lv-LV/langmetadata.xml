@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Latviešu (lv-LV)</name>
-	<version/>
-	<creationDate/>
-	<author/>
+	<version>4.0.3</version>
+	<creationDate>2021. gada augusts</creationDate>
+	<author>Joomla! Projekts</author>
 	<authorEmail>lemings@inbox.lv</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright/>
+	<copyright>Autortiesības (C) 2020 Open Source Matters. Visas tiesības aizsargātas.</copyright>
 	<license>GNU General Public License versija 2 vai jaunāka; skatīt LICENSE.txt</license>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[lv-LV api tulkojums]]></description>
 	<metadata>
 		<name>Latviešu (lv-LV)</name>
 		<nativeName>Latviešu (lv-LV)</nativeName>
