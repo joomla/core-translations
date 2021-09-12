@@ -17,8 +17,11 @@ jobs:
       id: BuildV3CMS
       uses: fjogeleit/http-request-action@master
       with:
-        url: 'https://api.crowdin.com/api/project/joomla-cms/export?key=${{ secrets.CROWDIN_V1_APIKEY }}&async=1'
+        url: 'https://crowdin.com/api/v2/projects/120642/translations/builds'
         method: 'POST'
+        contentType: 'application/json'
+        data: '{"targetLanguageIds": [],"skipUntranslatedStrings": true,"skipUntranslatedFiles": false,"exportApprovedOnly": true}'
+        bearerToken: ${{ secrets.CROWDIN_NORMAL_PERSONAL_TOKEN }}
 
     - name: Show Response
       run: echo ${{ steps.BuildV3CMS.outputs.response }}
