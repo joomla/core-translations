@@ -2,11 +2,11 @@
 <extension type="package" method="upgrade">
 	<name>Chinese Traditional (zh-TW) Language Pack</name>
 	<packagename>zh-TW</packagename>
-	<version>4.0.0.1</version>
-	<creationDate>2021/09/07</creationDate>
+	<version>4.0.2.1</version>
+	<creationDate>2021/09/10</creationDate>
 	<author>正體中文 Translation Team</author>
-	<authorEmail>eyesome.shawnchiu@gmail.com</authorEmail>
-	<authorUrl>eyesome.tw</authorUrl>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org.tw</authorUrl>
 	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
