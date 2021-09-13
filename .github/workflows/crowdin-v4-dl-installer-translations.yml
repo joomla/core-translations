@@ -82,8 +82,17 @@ jobs:
 #      "LanguageName": "Catalan",
 #      "CrowdinID": "ca"
 
-#      "LanguageName": "Chinese Simplified",
-#      "CrowdinID": "zh-CN"
+    - name: Crowdin Download Chinese Simplified
+      uses: crowdin/github-action@1.3.3
+      with:
+        config: 'Configurations/Crowdin-J4-Installer.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: zh-CN
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Chinese Simplified Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
     - name: Crowdin Download Chinese Traditional
       uses: crowdin/github-action@1.3.3
