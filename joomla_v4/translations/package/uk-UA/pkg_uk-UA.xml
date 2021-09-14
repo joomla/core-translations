@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Ukrainian (uk-UA) Language Pack</name>
 	<packagename>uk-UA</packagename>
-	<version>4.0.2.1</version>
-	<creationDate>2021-09-05</creationDate>
+	<version>4.0.3.1</version>
+	<creationDate>2021-09-13</creationDate>
 	<author>Community Joomla! Ukraine</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
@@ -12,7 +12,7 @@
 	<url>https://joomla-ua.org</url>
 	<packager>Joomla! Ukraine</packager>
 	<packagerurl>https://joomla-ua.org</packagerurl>
-	<description><![CDATA[Український пакет локалізації Joomla! 4.0.2]]></description>
+	<description><![CDATA[Український пакет локалізації Joomla! 4.0.3]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="uk-UA">language/uk-UA</folder>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
+	<tag>uk-UA</tag>
 	<name>Ukrainian (uk-UA)</name>
-	<version>4.0.2</version>
-	<creationDate>2021-09-04</creationDate>
+	<version>4.0.3</version>
+	<creationDate>2021-09-13</creationDate>
 	<author>Community Joomla! Ukraine</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
