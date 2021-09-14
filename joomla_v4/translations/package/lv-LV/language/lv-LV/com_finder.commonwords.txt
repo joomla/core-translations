@@ -1,179 +1,179 @@
 ; Joomla! Project
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
+; License GNU General Public License versija 2 vai vēlāka; skatīt LICENSE.txt
 ; Note : This file needs to be saved as UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+es
+es
+mans
+es pats
+mēs
+mūsu
+mūsējais
+mēs paši
+jūs
+jūsu
+tavējais
+sevi
+paši
+viņš
+viņu
+viņa
+pats sevi
+viņa
+viņa
+viņas
+viņa pati
+to
+tā
+pati
+viņi
+viņus
+viņu
+viņu
+paši
+kas
+kuras
+PVO
+kam
+šo
+ka
+šīs
+tiem
+esmu
+ir
+ir
+bija
+bija
+būt
+bijis
+būt
+ir
+ir
+bija
+kam ir
+darīt
+dara
+darīja
+darot
+būtu
+vajadzētu
+varētu
+vajadzētu
+ES esmu
+tu esi
+viņš ir
+viņa ir
+tas ir
+mēs esam
+viņi ir
+man ir
+tu esi
+mums ir
+viņiem ir
+es gribētu
+tu
+viņš gribēja
+viņa gribēja
+mēs gribētu
+viņi gribētu
+es būšu
+tu
+viņš būs
+viņa būs
+mēs
+viņi būs
+nav
+nav
+nebija
+nebija
+nav
+nav
+nebija
+nav
+nevajag
+nebija
+nebūs
+nebūtu
+nav
+nevajadzētu
+nevar
+nevar
+nevarēja
+nedrīkst
+pieņemsim
+tas ir
+kurš ir
+kas ir
+lūk
+tur ir
+kad ir
+kur ir
+kāpēc
+kā ir
 a
 an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
+un
+un
+bet
+ja
+vai
+jo
+kā
+līdz
+kamēr
 no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+plkst
+pēc
+priekš
+ar
+par
+pret
+starp
+iekšā
+cauri
+laikā
+pirms tam
+pēc
+virs
+zemāk
+uz
+no
+uz augšu
+uz leju
+iekšā
+ārā
+uz
+izslēgts
+beidzies
+zem
+vēlreiz
+tālāk
+tad
+vienreiz
+šeit
+tur
+kad
+kur
+kāpēc
+kā
+visas
+jebkurš
+gan
+katrs
+maz
+vairāk
+lielākā daļa
+cits
+daži
+tādas
+Nē
+ne arī
+nē
+tikai
+pašu
+tas pats
+tātad
+nekā
+arī
+ļoti
