@@ -200,6 +200,11 @@
     "CrowdinID": "hu"
   }, 
   {
+    "LanguageName": "Icelandic",
+    "JoomlaLocale": "is-IS",
+    "CrowdinID": "is"
+  }, 
+  {
     "LanguageName": "Indonesian",
     "JoomlaLocale": "id-ID",
     "CrowdinID": "id"
