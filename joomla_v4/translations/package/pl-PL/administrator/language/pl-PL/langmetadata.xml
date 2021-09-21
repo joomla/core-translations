@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
 	<name>Polish (PL)</name>
-	<version/>
-	<creationDate>Sierpień 2021</creationDate>
+	<version>4.0.3.1</version>
+	<creationDate>15.09.2021</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
-	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License wersja 2 lub późniejsza zerknij na LICENSE.txt</license>
-	<description><![CDATA[pl-PL język zaplecza]]></description>
+	<copyright>Copyright (C) 2005 - 2021 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License wersja 2 lub późniejsza, zobacz LICENSE.txt</license>
+	<description><![CDATA[pl-PL Język polski zaplecza administracyjnego Joomla4]]></description>
 	<metadata>
 		<name>Polski (PL)</name>
 		<nativeName>Polski (PL)</nativeName>
