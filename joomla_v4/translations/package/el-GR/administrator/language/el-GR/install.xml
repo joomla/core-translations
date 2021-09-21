@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Greek (el-GR)</name>
 	<tag>el-GR</tag>
-	<version>4.0.3.1</version>
-	<creationDate>Αυγ. 2021</creationDate>
+	<version/>
+	<creationDate>Σεπτ. 2021</creationDate>
 	<author>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
