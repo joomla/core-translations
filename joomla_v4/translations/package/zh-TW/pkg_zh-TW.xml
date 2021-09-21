@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Chinese Traditional (zh-TW) Language Pack</name>
 	<packagename>zh-TW</packagename>
-	<version>4.0.2.1</version>
+	<version/>
 	<creationDate>2021/09/10</creationDate>
 	<author>正體中文 Translation Team</author>
 	<authorEmail>admin@joomla.org</authorEmail>

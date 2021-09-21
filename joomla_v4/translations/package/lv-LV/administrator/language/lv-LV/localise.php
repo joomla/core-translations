@@ -9,13 +9,13 @@
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * lv-LV localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class lv_LVLocalise
 {
-	/**
+/**
 	 * Returns the potential suffixes for a specific number of items
 	 *
 	 * @param   integer  $count  The number of items.
@@ -30,7 +30,7 @@ abstract class En_GBLocalise
 		{
 			return array('0');
 		}
-		elseif ($count == 1)
+		elseif ($count == 1 || ($count >20 && $count % 10 === 1))
 		{
 			return array('ONE', '1');
 		}
@@ -40,7 +40,7 @@ abstract class En_GBLocalise
 		}
 	}
 
-	/**
+/**
 	 * Returns the ignored search words
 	 *
 	 * @return  array  An array of ignored search words.

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name/>
-	<tag/>
+	<name>Chinese Simplified (zh-CN)</name>
+	<tag>zh-CN</tag>
 	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
+	<creationDate>2018年10月</creationDate>
+	<author>Joomla!中文官网 www.joomlachina.org.cn 周永建</author>
+	<authorEmail>Joomla!中文官网 www.joomlachina.org.cn 周永建</authorEmail>
+	<authorUrl>www.joomlachina.org.cn</authorUrl>
 	<copyright/>
 	<license/>
 	<description/>

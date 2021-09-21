@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
-	<name>Latviešu (lv-LV)</name>
-	<version>4.0.3</version>
-	<creationDate>2021. gada augusts</creationDate>
+	<name>Latvian (lv-LV)</name>
+	<version>4.0.4</version>
+	<creationDate>2021. gada septembris</creationDate>
 	<author>Joomla! Projekts</author>
 	<authorEmail>lemings@inbox.lv</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -10,8 +10,8 @@
 	<license>GNU General Public License versija 2 vai jaunāka; skatīt LICENSE.txt</license>
 	<description><![CDATA[lv-LV api tulkojums]]></description>
 	<metadata>
-		<name>Latviešu (lv-LV)</name>
-		<nativeName>Latviešu (lv-LV)</nativeName>
+		<name>Latvian (Latvia)</name>
+		<nativeName>Latviešu (Latvia)</nativeName>
 		<tag>lv-LV</tag>
 		<rtl>0</rtl>
 		<locale>lv_LV.utf8, lv_LV.UTF-8, lv_Lv, lv, latvian, lav</locale>

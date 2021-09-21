@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Esperanto (eo-XX) Lingvopakaĵo</name>
 	<packagename>eo-XX</packagename>
-	<version>4.0.3.1</version>
-	<creationDate>August 2021</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Sveda Esperanto-Federacio, Svedio</author>
 	<authorEmail>tradukoj@esperantosverige.se</authorEmail>
 	<authorUrl>esperantosverige.se</authorUrl>

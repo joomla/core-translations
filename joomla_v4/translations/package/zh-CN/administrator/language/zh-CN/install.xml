@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name/>
-	<tag/>
+	<name>Chinese Simplified (zh-CN)</name>
+	<tag>zh-CN</tag>
 	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description>zh-CN 管理后台简体中文语言</description>
+	<creationDate>2021年10月</creationDate>
+	<author>Joomla!中文官网 www.joomlachina.org.cn 周永建</author>
+	<authorEmail>Joomla!中文官网 www.joomlachina.org.cn 周永建</authorEmail>
+	<authorUrl>www.joomlachina.org.cn</authorUrl>
+	<copyright>版权所有 (C) 2021 Joomla! 逐浪中文网 www. joomlachina. org. cn</copyright>
+	<license>GNU 通用公共许可证第二版或后续版本</license>
+	<description>zh-CN 后台简体中文语言</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
