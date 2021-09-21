@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name>Latviešu (lv-LV)</name>
+	<name>Latvian (lv-LV)</name>
 	<tag>lv-LV</tag>
-	<version>4.0.3</version>
-	<creationDate>2021. gada augusts</creationDate>
+	<version>4.0.4</version>
+	<creationDate>2021. gada septembris</creationDate>
 	<author>Joomla! Projekts</author>
 	<authorEmail>lemings@inbox.lv</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
