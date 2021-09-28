@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
-	<name/>
+	<name>Finnish (fi-FI)</name>
 	<version/>
-	<creationDate/>
-	<author/>
+	<creationDate>September 2021</creationDate>
+	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
 	<copyright/>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
+		<name>Finnish (Suomi)</name>
+		<nativeName>Finnish (Suomi)</nativeName>
 		<tag>fi-FI</tag>
 		<rtl>0</rtl>
 		<locale>fi_FI.utf8, fi_FI.UTF-8, fi_FI, fin_FI, fi, finnish, finnish-fi, fin, finland</locale>
