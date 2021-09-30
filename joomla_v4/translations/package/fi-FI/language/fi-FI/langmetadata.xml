@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
 	<name>Finnish (fi-FI)</name>
-	<version/>
+	<version>4.0.4</version>
 	<creationDate>September 2021</creationDate>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
-	<copyright/>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[Sivuston puolen kielitiedostopaketti Joomla! 3.9.15]]></description>
+	<description><![CDATA[fi-FI julkisen sivuston kielitiedostopaketti]]></description>
 	<metadata>
 		<name>Finnish (Suomi)</name>
 		<nativeName>Finnish (Suomi)</nativeName>

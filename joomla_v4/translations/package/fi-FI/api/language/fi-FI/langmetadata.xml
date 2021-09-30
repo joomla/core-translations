@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Finnish (fi-FI)</name>
-	<version/>
+	<version>4.0.4</version>
 	<creationDate>September 2021</creationDate>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
-	<copyright/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[fi-FI api language]]></description>
 	<metadata>
 		<name>Finnish (Suomi)</name>
 		<nativeName>Finnish (Suomi)</nativeName>
