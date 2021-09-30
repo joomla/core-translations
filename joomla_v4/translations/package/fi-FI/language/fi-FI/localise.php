@@ -9,11 +9,11 @@
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * fi-FI localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Fi_FILocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
