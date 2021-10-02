@@ -2,12 +2,12 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Georgian (ka-GE)</name>
 	<tag>ka-GE</tag>
-	<version/>
-	<creationDate/>
+	<version>4.0.3.1</version>
+	<creationDate>2021-09-15</creationDate>
 	<author>Georgian Translation Team</author>
 	<authorEmail>z.cherkezishvili@gmail.com</authorEmail>
 	<authorUrl>https://github.com/Zurabch</authorUrl>
-	<copyright/>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>ka-GE administrator language</description>
 	<files>
