@@ -1,4 +1,4 @@
-name: J4 Upload English New Zealand Translation files
+name: J4 Upload English Canada Translation files
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v2
     
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
-    - name: Crowdin Upload English New Zealand
+    - name: Crowdin Upload English Canada
       uses: crowdin/github-action@1.4.0
       with:
         # Upload sources to Crowdin
@@ -24,7 +24,7 @@ jobs:
         # Upload translations to Crowdin
         upload_translations: true
         # Define the languages to upload for translations
-        upload_language: 'en-NZ'
+        upload_language: 'en-CA'
         # Automatically approves uploaded translations
         auto_approve_imported: true
         # Defines whether to add translation if it is equal to source string in Crowdin project
