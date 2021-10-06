@@ -110,6 +110,11 @@
     "CrowdinID": "en-CA"
   },
   {
+    "LanguageName": "English, New Zealand",
+    "JoomlaLocale": "en-NZ",
+    "CrowdinID": "en-NZ"
+  },
+  {
     "LanguageName": "English, United States",
     "JoomlaLocale": "en-US",
     "CrowdinID": "en-US"
