@@ -239,6 +239,17 @@ jobs:
         export_only_approved: true
         commit_message: 'New English Canada Crowdin translations by Github Action'
 
+    - name: Crowdin Download English New Zealand
+      uses: crowdin/github-action@1.4.0
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: en-NZ
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New English New Zealand Crowdin translations by Github Action'
+
     - name: Crowdin Download English US
       uses: crowdin/github-action@1.4.0
       with:
