@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Estonian (et-EE) Language Pack</name>
 	<packagename>et-EE</packagename>
-	<version/>
-	<creationDate/>
+	<version>4.0.4.1</version>
+	<creationDate>September 2021</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>rivozangov@gmail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -20,7 +20,7 @@
 		<folder type="language" client="api" id="et-EE">api/language/et-EE</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="Akrediteeritud Joomla! tõlge">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>
