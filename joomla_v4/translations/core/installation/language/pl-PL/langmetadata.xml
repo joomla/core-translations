@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="installation">
 	<name>Polish (Poland)</name>
-	<version>4.0.3</version>
-	<creationDate>October 2021</creationDate>
+	<version>4.0.4</version>
+	<creationDate>September 2021</creationDate>
 	<author>Projekt Joomla!</author>
-	<copyright>Copyright (C) 2005 - 2021 Open Source Matters. All rights reserved.</copyright>
-	<license>GNU General Public License wersja 2 lub późniejsza, zobacz LICENSE.txt</license>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<files>
 		<filename>joomla.ini</filename>
 	</files>
