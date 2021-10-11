@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Chinese Traditional (zh-TW)</name>
 	<tag>zh-TW</tag>
-	<version/>
+	<version>4.0.4</version>
 	<creationDate>2021/09/10</creationDate>
 	<author>正體中文 Translation Team</author>
 	<authorEmail>admin@joomla.org</authorEmail>
