@@ -1,179 +1,179 @@
-; Joomla! Project
+© 2002 - 2021 Joomla! Bulgaria. Всички права запазени
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; GNU General Public License версия 2 или по-късна; Виж LICENSE.txt
+; Забележка: Този файл трябва да бъде записан като UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+аз
+мен
+моя
+себе си
+ние
+нашите
+нашият
+себе си
+Вие
+Вашият
+твоя
+себе си
+себе си
+той
+него
+неговия
+себе си
+тя
+нея
+нейната
+самата тя
+то
+неговото
+себе си
+те
+тях
+техен
+техните
+себе си
+Какво
+който
+Кой
+на когото
+това
+че
+тези
+тези
+съм
+е
+са
+беше
+бяха
+бъда
+е бил
+битие
+имам
+има
+имаше
+имайки
+направете
+прави
+Направих
+правя
+би се
+Трябва
+бих могъл
+би трябвало
+аз съм
+ти си
+той е
+тя е
+това е
+бяха
+те са
+имам
+ти си
+имаме
+имат
+имах
+ти би
+той би
+тя би
+бихме
+те биха
+аз ще
+ти ще
+той ще
+тя ще
+добре
+те ще
+не е
+не са
+не беше
+не бяха
+няма
+не са
+не беше
+не
+недей
+не
+няма
+не би
+няма
+не би
+не може
+не мога
+не можеше
+не трябва
+Нека да
+това е
+кой е
+какво е
+ето
+има
+кога е
+къде е
+защо
+как е
+а
+а
+на
+и
+но
+ако
+или
+защото
+като
+до
+докато
+на
+при
+от
+за
+с
+относно
+против
+между
+в
+през
+по време на
+преди
+след
+по -горе
+По-долу
+да се
+от
+нагоре
+надолу
+в
+навън
+На
+изключен
+над
+под
+отново
+по -нататък
+тогава
+веднъж
+тук
+там
+кога
+където
+защо
+как
+всичко
+всякакви
+и двете
+всеки
+малцина
+Повече
+повечето
+други
+някои
+такъв
+не
+нито
+не
+само
+собствен
+същото
+така
+отколкото
+също
+много
