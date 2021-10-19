@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Catalan (ca-ES)</name>
-	<version/>
-	<creationDate/>
+	<version>4.0.4</version>
+	<creationDate>Setembre 2021</creationDate>
 	<author>Catalan Translation Team</author>
 	<authorEmail>el.libre@gmail.com</authorEmail>
 	<authorUrl>www.catmidia.cat</authorUrl>
