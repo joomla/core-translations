@@ -4,13 +4,13 @@
 	<packagename>cy-GB</packagename>
 	<version>4.0.4.1</version>
 	<creationDate>2021-10-26</creationDate>
-	<author>Welsh Translation Team : Joomla.cymru</author>
+	<author>Joomla! Project - Welsh Translation Team</author>
 	<authorEmail>cyfieithu@joomla.cymru</authorEmail>
 	<authorUrl>www.joomla.cymru</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Welsh Translation Team : Joomla.cymru</packager>
+	<packager>Joomla! Project - Welsh Translation Team</packager>
 	<packagerurl>www.joomla.cymru</packagerurl>
 	<description><![CDATA[cy-GB language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
