@@ -3,7 +3,7 @@
 	<name>Estonian (et-EE) Language Pack</name>
 	<packagename>et-EE</packagename>
 	<version>4.0.4.1</version>
-	<creationDate/>
+	<creationDate>Oktoober 2021</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>rivozangov@gmail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project</packager>
 	<packagerurl>www.joomla.org</packagerurl>
-	<description><![CDATA[<h2>Eesti (et-EE) keelepakett / Estonian languagepck</h2>]]></description>
+	<description><![CDATA[Eesti (et-EE) keelepakett / Estonian languagepack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="et-EE">language/et-EE</folder>
