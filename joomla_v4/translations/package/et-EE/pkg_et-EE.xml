@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Estonian (et-EE) Language Pack</name>
 	<packagename>et-EE</packagename>
-	<version>4.0.4.1</version>
+	<version/>
 	<creationDate>Oktoober 2021</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>rivozangov@gmail.com</authorEmail>

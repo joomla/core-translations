@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Turkish (tr-TR) Dil Paketi</name>
 	<packagename>tr-TR</packagename>
-	<version>4.0.4.1</version>
+	<version>4.0.5.1</version>
 	<creationDate>Ekim 2021</creationDate>
 	<author>Joomla! Turkey</author>
 	<authorEmail>info@joomlatr.org</authorEmail>
