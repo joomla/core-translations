@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Türkçe Çeviri Ekibi Çeviri: Uğur Uygur</packager>
 	<packagerurl>www.joomlatr.org</packagerurl>
-	<description><![CDATA[Türkçe (tr-TR) Tam Paket - Sürüm 4.0.4.1<p>www.joomlatr.org - <a href="mailto:info@joomlatr.org">info@joomlatr.org</a></p>
+	<description><![CDATA[Türkçe (tr-TR) Tam Paket - Sürüm 4.0.5.1<p>www.joomlatr.org - <a href="mailto:info@joomlatr.org">info@joomlatr.org</a></p>
 ]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
