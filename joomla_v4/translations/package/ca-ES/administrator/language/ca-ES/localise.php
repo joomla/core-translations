@@ -9,18 +9,18 @@
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * ca-ES localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class ca_ESLocalise
 {
 	/**
-	 * Returns the potential suffixes for a specific number of items
+	 * Retorna els sufixos potencials per a un nombre específic d'elements
 	 *
-	 * @param   integer  $count  The number of items.
+	 * @param   integer  $count  Nombre d'elements.
 	 *
-	 * @return  array  An array of potential suffixes.
+	 * @return  array  Conjunt de sufixos potencials.
 	 *
 	 * @since   1.6
 	 */
@@ -32,30 +32,30 @@ abstract class En_GBLocalise
 		}
 		elseif ($count == 1)
 		{
-			return array('ONE', '1');
+			return array('UNO', '1');
 		}
 		else
 		{
-			return array('OTHER', 'MORE');
+			return array('ALTRE', 'MÉS');
 		}
 	}
 
 	/**
-	 * Returns the ignored search words
+	 * Retorna les paraules de cerca ignorades
 	 *
-	 * @return  array  An array of ignored search words.
+	 * @return  array  Sèrie de paraules de cerca ignorades.
 	 *
 	 * @since   1.6
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('and', 'in', 'on');
+		return array('i', 'a', 'amb');
 	}
 
 	/**
-	 * Returns the lower length limit of search words
+	 * Retorna el límit mínim de longitud de les paraules de cerca
 	 *
-	 * @return  integer  The lower length limit of search words.
+	 * @return  integer  Límit mínim de longitud de les paraules de cerca.
 	 *
 	 * @since   1.6
 	 */
@@ -65,9 +65,9 @@ abstract class En_GBLocalise
 	}
 
 	/**
-	 * Returns the upper length limit of search words
+	 * Retorna el límit màxim de longitud de les paraules de cerca
 	 *
-	 * @return  integer  The upper length limit of search words.
+	 * @return  integer Llímit màxim de longitud de les paraules de cerca.
 	 *
 	 * @since   1.6
 	 */
@@ -77,9 +77,9 @@ abstract class En_GBLocalise
 	}
 
 	/**
-	 * Returns the number of chars to display when searching
+	 * Retorna el nombre de caràcters que es mostraran en cercar
 	 *
-	 * @return  integer  The number of chars to display when searching.
+	 * @return  integer  Nombre de caràcters que es mostraran en cercar.
 	 *
 	 * @since   1.6
 	 */
