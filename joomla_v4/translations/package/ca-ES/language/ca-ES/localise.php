@@ -3,24 +3,24 @@
  * @package    Joomla.Language
  *
  * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @license    GNU Llicència pública general versió 2 o posterior; veure LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * ca-ES localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class ca_ESLocalise
 {
 	/**
-	 * Returns the potential suffixes for a specific number of items
+	 * Retorna els sufixos potencials per a un nombre específic d'elements
 	 *
-	 * @param   integer  $count  The number of items.
+	 * @param   integer  $count  Nombre d'elements.
 	 *
-	 * @return  array  An array of potential suffixes.
+	 * @return  array  Conjunt de sufixos potencials.
 	 *
 	 * @since   1.6
 	 */
@@ -32,11 +32,59 @@ abstract class En_GBLocalise
 		}
 		elseif ($count == 1)
 		{
-			return array('ONE', '1');
+			return array('UNO', '1');
 		}
 		else
 		{
-			return array('OTHER', 'MORE');
+			return array('ALTRE', 'MÉS');
 		}
+	}
+
+	/**
+	 * Retorna les paraules de cerca ignorades
+	 *
+	 * @return  array  Sèrie de paraules de cerca ignorades.
+	 *
+	 * @since   1.6
+	 */
+	public static function getIgnoredSearchWords()
+	{
+		return array('i', 'a', 'amb');
+	}
+
+	/**
+	 * Retorna el límit mínim de longitud de les paraules de cerca
+	 *
+	 * @return  integer  Límit mínim de longitud de les paraules de cerca.
+	 *
+	 * @since   1.6
+	 */
+	public static function getLowerLimitSearchWord()
+	{
+		return 3;
+	}
+
+	/**
+	 * Retorna el límit màxim de longitud de les paraules de cerca
+	 *
+	 * @return  integer  Límit màxim de longitud de les paraules de cerca.
+	 *
+	 * @since   1.6
+	 */
+	public static function getUpperLimitSearchWord()
+	{
+		return 20;
+	}
+
+	/**
+	 * Retorna el nombre de caràcters que es mostraran en cercar
+	 *
+	 * @return  integer  Nombre de caràcters que es mostraran en cercar.
+	 *
+	 * @since   1.6
+	 */
+	public static function getSearchDisplayedCharactersNumber()
+	{
+		return 200;
 	}
 }
