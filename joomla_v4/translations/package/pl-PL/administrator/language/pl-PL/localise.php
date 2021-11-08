@@ -34,6 +34,10 @@ abstract class pl_PLLocalise
 		{
 			return array('ONE', '1');
 		}
+		elseif ($count % 10 >= 2 && $count % 10 <= 4 && ($count % 100 < 10 || $count % 100 >= 20))
+		{
+         return array('FEW');
+		}
 		else
 		{
 			return array('OTHER', 'MORE');

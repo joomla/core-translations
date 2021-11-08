@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Pakiet języka polskiego (pl-PL)</name>
 	<packagename>pl-PL</packagename>
-	<version>4.0.3.2</version>
-	<creationDate>07.10.2021</creationDate>
+	<version>4.0.4.1</version>
+	<creationDate>07.11.2021</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
@@ -15,18 +15,14 @@
 	<description>	<![CDATA[
 		<div class="text-center span12"> 
 		<h3>Joomla! 4 - pakiet języka polskiego</h3>
-		<p><span style="font-weight: normal">Polskie Centrum Joomla zapewnia społeczności kompletne tłumaczenia Joomla!</p>
-		W przygotowaniu tłumaczenia dla Joomla 4 udział wzięli, w kolejnosci alfabetycznej: Jakub Berkop, Michał Biesiada, Grzegorz Bonin, Damian Granowski, Piotr Kwiatkowski, Justyna Michallek, Paweł Paluszkiewicz, Stefan Ocetkiewicz, Paweł Piątkowski, Sebastian Rogacki, Marcin Równicki, Marcin Sapeta, Wojciech Smoliński, Michał Sobkowiak, Joanna Stach, Artur Stępień, Jolanta Surma, Paweł Szczepaniak, Stefan Wajda. Być może są jeszcze inni, którzy wnieśli wkład, którego nie udało nam się zauważyć. Wszystkim serdecznie dziękujemy.</p>	
-		
-		
+	
 		<div class="alert alert-info">
 		<h3>Wspieramy Ciebie, więc wesprzyj i nas.</h3>
 		<h3>Przekaż darowiznę przez:</h3>
 		<a class="btn btn-success" href="http://bit.ly/paypal-fundacja">PayPal</a>	
 		<a class="btn btn-success" href="http://bit.ly/przekaz-darowizne-payu">PayU</a> 
 		<a class="btn btn-info" href="http://bit.ly/przekaz-darowizne-pcj">Przelew bankowy</a>
-		<p>Od 10 kwietnia do 14 lipca otrzymaliśmy darowizny na kwotę 1325 PLN. Serdeczne podziękowania dla: Artur B., Waldek C., Adam Ch., Konrad D., Sławomir D., Łukasz G., Marcin J., Waldemar J., Konrad K., Piotr L., Rafał L., Justyna M., Paweł M., Grzegorz N., Dariusz O., Grzegorz P., Jacek P., Robert P., Marcin P., Paweł P., Zbigniew R., Artur S., Maciej S., Tomek S., Grzegorz Sz., Dominik W., Janusz W., Stefan W., Wojciech Z. oraz dla firm: Cedrowa Grupa i IT Creative (28 osób prywatnych i 2 firmy).</p>
-		<p>Od 15 lipca otrzymalismy 28 (25 osób prywatnych i 1 firma) darowizn na kwotę 980 PLN. Serdeczne podziękowania dla Ariel C., Andrzej D., Paweł M., Tadeusz G., Tomasz G. Szymon G., Andrzej K. , Andrzej K., Krzysztof K., Wojciech L., Jarosław L., Tomasz Ł., Janusz M., Krzysztof M., Paweł M., Nagacz G. Stanisław Z., Robert P., Sebastian K., Artur S., Krzysztof S., Robert S., A. Leszek Sz., Grzegorz Sz. oraz dla firmy: Cedrowa Grupa</p>
+		<p>Od 7 października do 7 listopada otrzymaliśmy darowizny na kwotę 225 PLN. Serdeczne podziękowania dla: Krzysztof M., Marcin N., Artur S . oraz firm Akumar i Cedrowa Grupa </p>
 		</div>
 		</div>
 	]]></description>	
