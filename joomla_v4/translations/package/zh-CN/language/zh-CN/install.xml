@@ -2,13 +2,13 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Chinese Simplified (zh-CN)</name>
 	<tag>zh-CN</tag>
-	<version/>
+	<version>4.0.5</version>
 	<creationDate>2021年10月</creationDate>
 	<author>Joomla!中文官网 www.joomlachina.org.cn 周永建</author>
 	<authorEmail>Joomla!中文官网 www.joomlachina.org.cn 周永建</authorEmail>
 	<authorUrl>www.joomlachina.org.cn</authorUrl>
 	<copyright>版权所有 (C) 2021 Joomla! 逐浪中文网 www. joomlachina. org. cn</copyright>
-	<license/>
+	<license>GNU 通用公共许可证版本 2 或后续版本</license>
 	<description>zh-CN 网站前台简体中文语言</description>
 	<files>
 		<folder>/</folder>
