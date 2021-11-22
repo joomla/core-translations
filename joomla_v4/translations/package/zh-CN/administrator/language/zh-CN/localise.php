@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
  *
  * @since  1.6
  */
-abstract class zh-CNLocalise
+abstract class zh_CNLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
