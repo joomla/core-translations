@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Magyar (hu-HU)</name>
 	<tag>hu-HU</tag>
-	<version/>
-	<creationDate>2021 szeptember</creationDate>
+	<version>4.0.5</version>
+	<creationDate/>
 	<author>Joomla! Magyarország</author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
 	<authorUrl>www.joomlacms.hu</authorUrl>
