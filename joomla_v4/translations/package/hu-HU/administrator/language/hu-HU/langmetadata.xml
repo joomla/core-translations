@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
 	<name>Magyar (hu-HU)</name>
-	<version/>
-	<creationDate>2021 október</creationDate>
+	<version>4.0.5</version>
+	<creationDate/>
 	<author>Joomla! Magyarország</author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
 	<authorUrl>www.joomlacms.hu</authorUrl>
@@ -16,7 +16,7 @@
 		<rtl>0</rtl>
 		<locale>hu_HU.utf8, hu_HU.UTF8, hu_HU.utf-8, hu_HU.UTF-8, hun_HU.utf8, hun_HU.UTF8, hu, hungarian, hungary</locale>
 		<firstDay>1</firstDay>
-		<weekEnd>0,6</weekEnd>
+		<weekEnd>6,7</weekEnd>
 		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>

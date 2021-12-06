@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Czech (cs-CZ) Language Pack</name>
 	<packagename>cs-CZ</packagename>
-	<version/>
-	<creationDate>Říjen 2021</creationDate>
+	<version>4.0.5.1</version>
+	<creationDate>Listopad 2021</creationDate>
 	<author>Czech Translation Team</author>
 	<authorEmail>admin@joomla.cz</authorEmail>
 	<authorUrl>http://www.joomlaportal.cz</authorUrl>

@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 <name>Japanese (ja-JP)</name>
 <packagename>ja-JP</packagename>
-<version>4.0.4.1</version>
-<creationDate>2021年10月</creationDate>
+<version>4.0.5.1</version>
+<creationDate>2021年12月</creationDate>
 <author>Joomla!じゃぱん</author>
 <authorEmail>project@joomla.jp</authorEmail>
 <authorUrl>joomla.jp</authorUrl>
