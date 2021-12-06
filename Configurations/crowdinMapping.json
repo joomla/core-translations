@@ -280,6 +280,11 @@
     "CrowdinID": "ml"
   },
   {
+    "LanguageName": "Marathi",
+    "JoomlaLocale": "mr-IN",
+    "CrowdinID": "mr"
+  },
+  {
     "LanguageName": "Mongolian",
     "JoomlaLocale": "mn-MN",
     "CrowdinID": "mn"
