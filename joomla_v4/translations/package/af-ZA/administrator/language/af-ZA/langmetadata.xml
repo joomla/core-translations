@@ -13,9 +13,9 @@
 		<name/>
 		<nativeName/>
 		<tag/>
-		<rtl/>
+		<rtl>0</rtl>
 		<locale/>
-		<firstDay/>
+		<firstDay>0</firstDay>
 		<weekEnd/>
 		<calendar/>
 	</metadata>
