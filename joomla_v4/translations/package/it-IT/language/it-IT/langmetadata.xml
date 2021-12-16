@@ -2,11 +2,11 @@
 <metafile client="site">
 	<name>Italiano (it-IT)</name>
 	<version>4.0.5.1</version>
-	<creationDate>Dicembre 2021</creationDate>
+	<creationDate>December 2021</creationDate>
 	<author>Italian Translation Team</author>
 	<authorEmail>stellainformatica@gmail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[Italian site language pack for Joomla! 4.0
 ]]></description>

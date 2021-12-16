@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
-	<name/>
-	<version/>
+	<name>Afrikaans (af-ZA)</name>
+	<version>4.0.3.1</version>
 	<creationDate>Desember 2021</creationDate>
 	<author>Joomla! Projek</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright/>
-	<license/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
+		<name>Afrikaans (Suid-Afrika)</name>
+		<nativeName>Afrikaans (Suid-Afrika)</nativeName>
 		<tag>af-ZA</tag>
 		<rtl>0</rtl>
-		<locale/>
+		<locale>af-ZA.utf8, af-ZA.UTF-8, af-ZA, afr-ZA, af, afr, afrikaans, afrikaans-sa, sa, zar, suid-afrika, republiek van suid afrika, suidelike afrika, za, rsa, suid-afrika, suid afrikaans, suid-afrikaans</locale>
 		<firstDay>0</firstDay>
-		<weekEnd/>
-		<calendar/>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
