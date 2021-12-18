@@ -8,8 +8,8 @@
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2021 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description/>
+	<license>GNU General Public License weergawe 2 of later; sien LICENSE.txt</license>
+	<description>af-ZA werftaal</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
