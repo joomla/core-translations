@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>English (en-CA) Language Pack</name>
 	<packagename>en-CA</packagename>
-	<version>4.0.4.4</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
