@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Български (bg-BG)</name>
 	<tag>bg-BG</tag>
-	<version/>
+	<version>4.0.6</version>
 	<creationDate>Декември 2021</creationDate>
 	<author>Joomla! Bulgaria</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
