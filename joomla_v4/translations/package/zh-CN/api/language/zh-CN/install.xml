@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Chinese Simplified (zh-CN)</name>
 	<tag>zh-CN</tag>
-	<version/>
+	<version>4.0.6.1</version>
 	<creationDate>2021年12月</creationDate>
 	<author>逐浪中文网 joomlachina.org.cn 周永建</author>
 	<authorEmail>zhou_yongjian@hotmail.com</authorEmail>
