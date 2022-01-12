@@ -3,7 +3,7 @@
 	<name>Chinese Simplified (zh-CN) Language Pack</name>
 	<packagename>zh-CN</packagename>
 	<version>4.0.6.1</version>
-	<creationDate>2021年12月</creationDate>
+	<creationDate/>
 	<author>Joomla!中文官网 www.joomlachina.org.cn 周永建</author>
 	<authorEmail>Joomla!中文官网 www.joomlachina.org.cn 周永建</authorEmail>
 	<authorUrl>www.joomlachina.org.cn</authorUrl>
@@ -20,7 +20,7 @@
 		<folder type="language" client="api" id="zh-CN">api/language/zh-CN</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="官方 Joomla! 翻译">
+		<server type="collection" priority="1" name="Joomla! 官方翻译">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>
