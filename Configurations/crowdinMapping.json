@@ -290,6 +290,11 @@
     "CrowdinID": "mn"
   },
   {
+    "LanguageName": "Ndonga",
+    "JoomlaLocale": "ng-NA",
+    "CrowdinID": "ng-NA"
+  },
+  {
     "LanguageName": "Northern Sami",
     "JoomlaLocale": "se-NO",
     "CrowdinID": "se"
