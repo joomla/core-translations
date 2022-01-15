@@ -20,8 +20,8 @@ jobs:
         run: |
           cd ..
           ls -l
-          wget -nv "https://github.com/JPathRu/localisation/archive/refs/heads/j4.zip"
-          unzip j4.zip
+          wget -nv "https://github.com/JPathRu/localisation/archive/refs/heads/4-0.zip"
+          unzip 4-0.zip
 
       - name: Syncing j4 directories
         # We use a simple copy paste syntax here if needed customization for different directories
@@ -34,25 +34,25 @@ jobs:
           REPO_PATH="${LANGUAGE_CODE}/administrator/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  localisation-j4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  localisation-4-0/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="pkg_ru-RU.xml"
           REPO_PATH="${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  localisation-j4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  localisation-4-0/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="api/language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/api/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  localisation-j4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  localisation-4-0/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  localisation-j4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete  localisation-4-0/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
       - name: Validate PHP code
         run: |
@@ -83,7 +83,7 @@ jobs:
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Russian
-      uses: crowdin/github-action@1.4.0
+      uses: crowdin/github-action@1.4.4
       with:
         # Upload sources to Crowdin
         upload_sources: false
