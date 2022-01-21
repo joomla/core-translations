@@ -1,179 +1,179 @@
-; Joomla! Project
+; Joomla! প্রকল্প
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; লাইসেন্স GNU এ জেনারেল পাবলিক লাইসেন্স সংস্করণ 2 বা পরে; LICENSE.txt দেখুন
+; দ্রষ্টব্য : এই ফাইলটি UTF-8 হিসাবে সংরক্ষণ করাতে হবে
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+আমি
+আমাকে
+আমার
+আমি
+আমরা
+আমাদের
+আমাদের
+নিজেদের
+আপনি
+আপনার
+তোমার
+নিজেকে
+নিজেদের
+তিনি
+তাঁকে
+তাঁর
+নিজের
+তিনি
+তাঁর
+তার
+নিজেকে
+এটি
+এর
+নিজেকে
+তারা
+তাদের
+তাদের
+তাদের
+নিজেদের
+কি
+যা
+কে
+কার
+এই
+যে
+এই
+ওগুলো
+আমি
+হ'ল
+হয়
+ছিল
+ছিল
+করা
+অবিবে
+অস
+অনাগত
+আছে
+ছিল
+থাকা
+কি
+করে
+করা
+করা
+কি
+উচিত
+পারে
+অস
+আমি
+তুমি
+সে
+সে
+এটা
+আমরা
+তারা
+আমার আছে
+তোমার আছে
+আমাদের আছে
+তারা আছে
+আমি তো
+তুমি করবে
+সে তো করবে
+সে তো করবে
+আমরা করতাম
+তারা করবে
+আমি তো করব
+তুমি করবে
+সে করবে
+সে করবে
+আমরা করব
+তারা করবে
+নয়
+হয় না
+ছিল না
+ছিল না
+হয়নি
+না
+হয়নি
+করে না
+কোরো না
+হয়নি
+করবে
+করবে না
+শান
+উচিত নয়
+না
+না
+পারে নি
+উচিত নয়
+চলো
+এটা হল
+কে
+কি আছে
+এখানে
+আছে
+কখন
+কোথায় আছে
+কেন
+কেমন আছে
+একটি
+একটি
+দ্য
+এবং
+কিন্তু
+যদি
+বা
+কারণ
+হিসেবে
+পর্যন্ত
+সময়
+এর
+এ
+দ্বারা
+জন্য
+সাথে
+সম্বন্ধে
+বিরুদ্ধে
+মধ্যে
+মধ্যে
+মাধ্যমে
+সময়
+আগে
+পর
+উপরের
+নিচে
+করতে
+থেকে
+আপ
+ডাউন
+মধ্যে
+অনাগত
+অন
+বন্ধ
+উবে
+আওতা
+আবার
+আরো
+তারপর
+একবার
+এখানে
+সেখানে
+যখন
+যেখানে
+কেন
+কিভাবে
+সকল
+কোন
+উভয়
+প্রত্যেক
+কিছু
+আরও
+সবচেয়ে
+অন্যান্য
+কিছু
+এমন
+না
+না
+না
+শুধুমাত্র
+নিজস্ব
+একই
+তাই
+চেয়ে
+খুব
+খুব
