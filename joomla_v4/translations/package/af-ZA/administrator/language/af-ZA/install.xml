@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Afrikaans (af-ZA)</name>
 	<tag>af-ZA</tag>
-	<version>4.0.3.1</version>
+	<version/>
 	<creationDate>Januarie 2022</creationDate>
 	<author>Joomla! Projek</author>
 	<authorEmail>admin@joomla.org</authorEmail>
