@@ -2,12 +2,12 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Dutch (nl-NL)</name>
 	<tag>nl-NL</tag>
-	<version>4.0.6.1</version>
+	<version>4.0.7.1</version>
 	<creationDate>Januari 2022</creationDate>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
-	<copyright>(C) 2021 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License versie 2 of hoger; zie LICENSE.txt</license>
 	<description>nl-NL api taal</description>
 	<files>

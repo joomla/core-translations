@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Bengali (bn-BD)</name>
 	<tag>bn-BD</tag>
-	<version>4.0.6</version>
+	<version/>
 	<creationDate>January 2022</creationDate>
 	<author>Joomla! প্রকল্প</author>
 	<authorEmail>admin@joomla.org</authorEmail>
