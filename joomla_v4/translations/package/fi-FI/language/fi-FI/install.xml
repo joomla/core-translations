@@ -2,12 +2,12 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Finnish (fi-FI)</name>
 	<tag>fi-FI</tag>
-	<version/>
-	<creationDate/>
+	<version>4.0.5.1</version>
+	<creationDate>February 2022</creationDate>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
-	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Sivuston puolen kielitiedostopaketti Joomla! 3.9.15</description>
 	<files>
