@@ -78,7 +78,7 @@ jobs:
         config: 'Configurations/Crowdin-J4-Installer.yml'
         upload_sources: false
         download_translations: true
-        download_language: bg-BG
+        download_language: bg
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Bulgarian Crowdin translations by Github Action'
