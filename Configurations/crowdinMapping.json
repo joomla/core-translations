@@ -135,6 +135,11 @@
     "CrowdinID": "fi"
   },
   {
+    "LanguageName": "Finland (Tornedalen)",
+    "JoomlaLocale": "fit-FI",
+    "CrowdinID": "fit-FI"
+  },
+  {
     "LanguageName": "French",
     "JoomlaLocale": "fr-FR",
     "CrowdinID": "fr"
