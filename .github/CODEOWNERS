@@ -1,20 +1,20 @@
-# Core Instalation Files only allowed from Crowdin
+# Core Installation Files only allowed from Crowdin
 /joomla_v4/translations/core/installation/language/  @HLeithner
 
 # Japanese
 /joomla_v4/translations/package/ja-JP/  @Richell
 
-# German
-/joomla_v4/translations/package/de-DE/  @zero-24 @HLeithner @tecpromotion
+# German Germany
+/joomla_v4/translations/package/de-DE/  @zero-24 @tecpromotion
 
 # German Austria
-/joomla_v4/translations/package/de-AT/  @zero-24 @HLeithner @tecpromotion
+/joomla_v4/translations/package/de-AT/  @zero-24 @tecpromotion
 
 # German Liechtenstein
-/joomla_v4/translations/package/de-LI/  @zero-24 @HLeithner @tecpromotion
+/joomla_v4/translations/package/de-LI/  @zero-24 @tecpromotion
 
 # German Luxembourg
-/joomla_v4/translations/package/de-LU/  @zero-24 @HLeithner @tecpromotion
+/joomla_v4/translations/package/de-LU/  @zero-24 @tecpromotion
 
-# German Swiss
-/joomla_v4/translations/package/de-CH/  @zero-24 @HLeithner @tecpromotion
+# German Switzerland
+/joomla_v4/translations/package/de-CH/  @zero-24 @tecpromotion
