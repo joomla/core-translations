@@ -2,12 +2,12 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Croatian (Croatia)</name>
 	<tag>hr-HR</tag>
-	<version>4.0.0</version>
+	<version/>
 	<creationDate/>
-	<author> </author>
+	<author>Joomla! Hrvatska team</author>
 	<authorEmail>prijevod@joomla.hr</authorEmail>
 	<authorUrl>http://www.joomla.hr</authorUrl>
-	<copyright/>
+	<copyright>Copyright (C) 2020. – 2019. Open Source Matters &amp; joomla.hr. Sva prava pridržana.</copyright>
 	<license>GNU Opća javna licenca verzija 2 ili novija; vidi LICENSE.txt</license>
 	<description>hr-HR jezik api-a</description>
 	<files>
