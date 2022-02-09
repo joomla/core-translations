@@ -2,12 +2,12 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Swedish (sv-SE)</name>
 	<tag>sv-SE</tag>
-	<version/>
+	<version>4.1.0</version>
 	<creationDate>Februari 2022</creationDate>
 	<author>Swedish Translation Team - SvenskJoomla</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>http://www.svenskjoomla.se</authorUrl>
-	<copyright>(C) 2021 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public Licens version 2 eller senare; Se LICENSE.txt</license>
 	<description>sv-SE api-språk</description>
 	<files>
