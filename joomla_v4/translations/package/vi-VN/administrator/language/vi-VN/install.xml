@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name/>
-	<tag/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
+	<name>Vietnamese (vi-VN)</name>
+	<tag>vi-VN</tag>
+	<version>4.0.0</version>
+	<creationDate>Tháng tám 2021</creationDate>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Vietnamese administration language for Joomla! 3.2</description>
 	<files>
 		<folder>/</folder>
