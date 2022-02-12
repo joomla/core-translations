@@ -177,3 +177,6 @@ so
 than
 too
 very
+ 
+Make sure that every word is on a new line
+File: com_finder. commonwords. txt
