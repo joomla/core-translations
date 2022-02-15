@@ -14,10 +14,10 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout
       uses: actions/checkout@v2
-    
+
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Austrian
-      uses: crowdin/github-action@1.4.0
+      uses: crowdin/github-action@1.4.6
       with:
         # Upload sources to Crowdin
         upload_sources: false
