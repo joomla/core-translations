@@ -2,12 +2,12 @@
 <extension type="package" method="upgrade">
 	<name>Pakiet języka polskiego (pl-PL)</name>
 	<packagename>pl-PL</packagename>
-	<version>4.0.4.1</version>
-	<creationDate>07.11.2021</creationDate>
+	<version>4.1.0.2</version>
+	<creationDate>17.02.2022</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
-	<copyright>Copyright (C) 2005 - 2021 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2022 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License wersja 2 lub późniejsza, zobacz LICENSE.txt</license>
 	<url>https://www.joomla.pl</url>
 	<packager>Polskie Centrum Joomla</packager>
@@ -22,7 +22,7 @@
 		<a class="btn btn-success" href="http://bit.ly/paypal-fundacja">PayPal</a>	
 		<a class="btn btn-success" href="http://bit.ly/przekaz-darowizne-payu">PayU</a> 
 		<a class="btn btn-info" href="http://bit.ly/przekaz-darowizne-pcj">Przelew bankowy</a>
-		<p>Od 7 października do 7 listopada otrzymaliśmy darowizny na kwotę 225 PLN. Serdeczne podziękowania dla: Krzysztof M., Marcin N., Artur S . oraz firm Akumar i Cedrowa Grupa </p>
+		<p>Od 2 lutego do 16 lutego otrzymaliśmy darowizny na kwotę 250 PLN. Serdeczne podziękowania dla: Rafał Cz., Andrzej K., Marek P.,  Artur. Ż.  </p>
 		</div>
 		</div>
 	]]></description>	
