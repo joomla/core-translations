@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name>Finnish (fi-FI)</name>
-	<tag>fi-FI</tag>
-	<version>4.0.5.1</version>
+	<name>Meänkieli (fit)</name>
+	<tag>fit</tag>
+	<version>4.1.1</version>
 	<creationDate>February 2022</creationDate>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
-	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>fi-FI administrator language</description>
+	<description>fi-FIT ylläpion kieli (puutteellinen)</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
