@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Sinhala (Sri Lanka) si-LK Language Pack</name>
-	<packagename/>
-	<version/>
-	<creationDate/>
-	<author/>
+	<name>සිංහල (සිං) භාෂා ඇසුරුම</name>
+	<packagename>si</packagename>
+	<version>4.1.1.1</version>
+	<creationDate>2022 නවම්</creationDate>
+	<author>ජූම්ලා! ව්‍යාපෘතිය</author>
 	<authorEmail/>
 	<authorUrl/>
-	<copyright/>
-	<license/>
-	<url/>
-	<packager/>
+	<copyright>(C) 2019 - 2018 ඕපන් සෝර්ස් මැටර්ස්. සංස්.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>ජූම්ලා! ව්‍යාපෘතිය</packager>
 	<packagerurl/>
-	<description><![CDATA[si-LK language pack]]></description>
+	<description><![CDATA[si භාෂා ඇසුරුම]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id=""/>
-		<folder type="language" client="administrator" id=""/>
-		<folder type="language" client="api" id=""/>
+		<folder type="language" client="site" id="si">language/si</folder>
+		<folder type="language" client="administrator" id="si">administrator/language/si</folder>
+		<folder type="language" client="api" id="si">api/language/si</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="පිළිගත් ජූම්ලා! පරිවර්තන">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>
