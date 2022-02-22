@@ -2,15 +2,15 @@
 <extension type="package" method="upgrade">
 	<name>Hebrew (Israel)</name>
 	<packagename>he-IL</packagename>
-	<version/>
-	<creationDate/>
-	<author/>
+	<version>4.0.0</version>
+	<creationDate>אוקטובר 2021</creationDate>
+	<author>Joomla! Israel</author>
 	<authorEmail>info@joomla.org.il</authorEmail>
 	<authorUrl>www.joomla.org.il</authorUrl>
-	<copyright/>
-	<license/>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<url/>
-	<packager/>
+	<packager>Joomla! Israel</packager>
 	<packagerurl>www.joomla.org.il</packagerurl>
 	<description><![CDATA[hebrew language package]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
@@ -20,7 +20,7 @@
 		<folder type="language" client="api" id="he-IL"/>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>

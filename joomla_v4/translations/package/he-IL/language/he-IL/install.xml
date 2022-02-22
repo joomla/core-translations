@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="site" type="language" method="upgrade">
-	<name/>
+	<name>Hebrew (Israel)</name>>
 	<tag>he-IL</tag>
-	<version/>
-	<creationDate/>
-	<author/>
+	<version>4.0.0</version>
+	<creationDate>אוקטובר 2021</creationDate>
+	<author>Joomla! Israel</author>
 	<authorEmail>info@joomla.org.il</authorEmail>
 	<authorUrl>www.joomla.org.il</authorUrl>
-	<copyright/>
-	<license/>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Hebrew front-end language package</description>
 	<files>
 		<folder>/</folder>
