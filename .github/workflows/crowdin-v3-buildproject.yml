@@ -1,4 +1,4 @@
-name: J3 Build JoomalCMSProject
+name: J3 Build JoomlaCMSProject
 # Controls when the action will run.
 on:
   schedule:
