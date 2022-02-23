@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
-	<name/>
-	<version/>
-	<creationDate/>
-	<author/>
+	<name>Hebrew (Israel)</name>
+	<version>4.1.0.1</version>
+	<creationDate>February 2022</creationDate>
+	<author>פרוייקט ג'ומלה</author>
 	<authorEmail>info@joomla.org.il</authorEmail>
 	<authorUrl>www.joomla.org.il</authorUrl>
 	<copyright/>
@@ -17,7 +17,7 @@
 		<locale>he_IL.utf8, he_IL.UTF-8, he_IL, heb_IL, he, hebrew, hebrew-il, il, israel, heb</locale>
 		<firstDay>1</firstDay>
 		<weekEnd>6</weekEnd>
-		<calendar/>
+		<calendar>גרגוריאני</calendar>
 	</metadata>
 	<params/>
 </metafile>
