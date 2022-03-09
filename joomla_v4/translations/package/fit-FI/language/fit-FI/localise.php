@@ -9,7 +9,7 @@
 defined('_JEXEC') or die;
 
 /**
- * fi-FI localise class.
+ * fit localise class.
  *
  * @since  1.6
  */
