@@ -366,8 +366,17 @@ jobs:
         commit_message: 'New Japanese Crowdin translations by Github Action'
         localization_branch_name: 'l10n_crowdin_installer'
 
-#      "LanguageName": "Kazakh",
-#      "CrowdinID": "kk"
+    - name: Crowdin Download Kazakh
+      uses: crowdin/github-action@1.4
+      with:
+        config: 'Configurations/Crowdin-J4-Installer.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: kk
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Kazakh Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_installer'
 
 #      "LanguageName": "Khmer",
 #      "CrowdinID": "km"
