@@ -5,10 +5,10 @@
 @core-translations-maintainer
 
 # Core Installation Files only allowed from Crowdin
-/joomla_v4/translations/core/installation/language/  @HLeithner
+/joomla_v4/translations/core/installation/language/  @core-translations-maintainer
 
 # Japanese
-/joomla_v4/translations/package/ja-JP/  @Richell
+/joomla_v4/translations/package/ja-JP/  @core-translations-maintainer
 
 # German Germany
 /joomla_v4/translations/package/de-DE/  @zero-24 @tecpromotion
