@@ -5,7 +5,7 @@
 @core-translations/core-translations-maintainer
 
 # Core Installation Files only allowed from Crowdin
-/joomla_v4/translations/core/installation/language/  @core-translations-maintainer
+/joomla_v4/translations/core/installation/language/  @core-translations/@core-translations-maintainer
 
 # Japanese
 /joomla_v4/translations/package/ja-JP/  @core-translations-maintainer
