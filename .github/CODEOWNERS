@@ -2,7 +2,7 @@
 # the repo. Unless a later match takes precedence,
 # @core-translations-maintainer will be requested for
 # review when someone opens a pull request.
-@core-translations-maintainer
+@core-translations/core-translations-maintainer
 
 # Core Installation Files only allowed from Crowdin
 /joomla_v4/translations/core/installation/language/  @core-translations-maintainer
