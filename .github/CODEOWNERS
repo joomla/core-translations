@@ -2,13 +2,13 @@
 # the repo. Unless a later match takes precedence,
 # @core-translations-maintainer will be requested for
 # review when someone opens a pull request.
-@core-translations-maintainer
+@joomla/core-translations-maintainer
 
 # Core Installation Files only allowed from Crowdin
-/joomla_v4/translations/core/installation/language/  @zero-24 @tecpromotion
+/joomla_v4/translations/core/installation/language/  @joomla/core-translations-maintainer
 
 # Japanese
-/joomla_v4/translations/package/ja-JP/  @zero-24 @tecpromotion
+/joomla_v4/translations/package/ja-JP/  @joomla/core-translations-maintainer
 
 # German Germany
 /joomla_v4/translations/package/de-DE/  @zero-24 @tecpromotion
