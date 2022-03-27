@@ -1,179 +1,170 @@
-; Joomla! Project
+פרויקט ג'ומלה
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
 ; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; הערה: יש לשמור את הקובץ הזה בתור UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+אני 
+אני אני 
+עצמי 
+אנחנו שלנו 
+שלנו עצמנו 
+אתם 
+שלכם 
+שלכם 
+עצמכם
+ עצמכם 
+הוא 
+שלו 
+עצמו 
+היא 
+שלה
+ שלה 
+עצמה
+ זה 
+בעצמה 
+הם 
+שלהם 
+שלהם 
+עצמם 
+מה 
+מי 
+מי 
+מי 
+זה 
+שהם 
+אלו 
+הם 
+היה 
+היה
+ להיות
+ להיות 
+יש
+ לו 
+לעשות 
+האם
+ עשה 
+כן 
+צריך
+ יכול
+ צריך 
+אני 
+אתה
+ אתה 
+הוא 
+הוא 
+זה
+ היא 
+זה 
+אנחנו
+ הם 
+הם 
+אני
+ יש 
+לך 
+אנחנו
+ עשינו 
+הם 
+עשיתי
+ אתה
+ רצית 
+הוא
+ עשה 
+היא 
+עשינו 
+אנחנו 
+עשינו 
+האם 
+אני 
+אעשה
+ לך
+ הוא 
+ירצה
+ היא
+ תרצה 
+אנחנו 
+יהיו 
+לא
+ ירצה
+ לא
+ צריך 
+לא 
+יכול 
+לא
+ יכול 
+לא 
+יכול 
+לא
+ חייב 
+לא בוא 
+זה 
+מי 
+זה 
+מה
+ יש 
+פה 
+יש
+ מתי 
+זה 
+איפה 
+למה 
+זה 
+איך 
+זה 
+ה
+ ו 
+אבל 
+אם 
+או 
+בגלל 
+כמו 
+עד
+ תוך 
+כדי 
+על 
+ידי 
+עם 
+בערך
+ נגד 
+ בין 
+לתוך 
+דרך 
+במהלך
+ לפני 
+אחרי 
+למעלה
+ למטה 
+כדי
+ מלמעלה 
+למטה 
+ב 
+החוצה 
+על 
+למטה 
+שוב 
+למטה 
+עוד 
+אז 
+פעם 
+פה 
+שם 
+מתי 
+למה 
+איך 
+כל 
+שניהם
+ כל 
+כמה 
+עוד
+ כמה 
+אחרים
+ כמה 
+כאלה
+ לא
+ או 
+לא
+ רק
+ בעלים
+ זהה 
+אז 
+יותר 
+מדי
