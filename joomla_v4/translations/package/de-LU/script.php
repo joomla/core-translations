@@ -25,10 +25,10 @@ class Pkg_deLUInstallerScript extends InstallerScript
 	public function __construct()
 	{
 		// Define the minumum versions to be supported.
-		$this->minimumJoomla = '4.1';
+		$this->minimumJoomla = '4.0';
 		$this->minimumPhp    = '7.2.5';
 
-		$this->deleteFiles = array(
+		$this->deleteFiles = [
 			// Backend
 			'/administrator/language/de-LU/de-LU.com_actionlogs.ini',
 			'/administrator/language/de-LU/de-LU.com_actionlogs.sys.ini',
@@ -406,7 +406,7 @@ class Pkg_deLUInstallerScript extends InstallerScript
 			'/language/de-LU/de-LU.tpl_protostar.ini',
 			'/language/de-LU/de-LU.tpl_protostar.sys.ini',
 			'/language/de-LU/de-LU.xml',
-		);
+		];
 	}
 
 	/**
