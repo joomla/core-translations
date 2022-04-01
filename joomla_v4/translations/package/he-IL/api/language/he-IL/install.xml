@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Hebrew (Israel)</name>
 	<tag>he-IL</tag>
-	<version>4.1.0.1</version>
+	<version/>
 	<creationDate>February 2022</creationDate>
 	<author>פרוייקט ג'ומלה</author>
 	<authorEmail>info@joomla.org.il</authorEmail>

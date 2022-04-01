@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Bengali (bn-BD)</name>
 	<tag>bn-BD</tag>
-	<version>4.1.1</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! প্রকল্প</author>
 	<authorEmail>admin@joomla.org</authorEmail>
