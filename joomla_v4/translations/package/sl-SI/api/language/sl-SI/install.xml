@@ -2,11 +2,11 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Slovenščina (sl-SI)</name>
 	<tag>sl-SI</tag>
-	<version/>
-	<creationDate>Marec 2022</creationDate>
+	<version>4.1.3</version>
+	<creationDate>April 2022</creationDate>
 	<author>Slovenska prevajalska ekipa</author>
-	<authorEmail>prevodi@joomla.si</authorEmail>
-	<authorUrl>www.joomla.si</authorUrl>
+	<authorEmail>prevodi@joomla-cms.si</authorEmail>
+	<authorUrl>www.joomla-cms.si</authorUrl>
 	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License 2 ali novejši; glej LICENSE.txt</license>
 	<description>sl-SI api jezik</description>
