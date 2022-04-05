@@ -1,179 +1,179 @@
-; Joomla! Project
+; Joomla! Projekt
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; Licenca GNU Opća javna licenca verzija 2 ili kasnija; pogledaj LICENSE.txt
+; Napomena: Ovu datoteku treba spremiti kao UTF-8
 
 i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+mi
+moj
+sebe
+mi
+naše
+naše
+sebe
+vas
+tvoj
+tvoje
+sami
+sami sebe
+on
+mu
+njegov
+sam
+ona
+nju
+njezina
+sama
+to
+svoje
+sebe
+oni
+ih
+njihov
+njihova
+se
+što
+koji
+tko
+kome
+ovaj
+da
+ove
+oni
+prijepodne
+je
+su
+bio
+bili
+biti
+bio
+biće
+imati
+ima
+imao
+imajući
+čini
+čini
+učinio
+radi
+bi
+trebao bi
+mogao
+trebao bi
+ja sam
+ti si
+on je
+ona je
+to je
+mi smo
+oni su
+ja sam
+ti si
+mi smo
+oni su
+iskaznica
+ti bi
+on bi
+ona bi
+oženiti se
+oni bi
+ja ću
+ti ćeš
+pakao
+ljuska
+dobro
+oni će
+nije
+nisu
+nije bio
+nisu bili
+nije
+nisu
+nije imao
+ne čini
+nemoj
+nije
+navika
+ne bi
+nemoj
+ne bi trebao
+ne mogu
+ne mogu
+nije mogao
+ne smije
+idemo
+to je
+tko je
+što je
+evo
+postoji
+kada je
+gdje je
+zašto je
+kako je
 a
 an
 the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+i
+ali
+ako
+ili
+jer
+kao
+do
+dok
+od
+na
+po
+za
+s
+oko
+protiv
+između
+u
+kroz
+tijekom
+prije
+nakon
+iznad
+ispod
+do
+iz
+gore
+dolje
+u
+van
+na
+isključeno
+nad
+pod, ispod
+opet
+unaprijediti
+zatim
+jednom
+ovdje
+tamo
+kada
+gdje
+zašto
+kako
+svi
+bilo koji
+oba
+svaki
+nekoliko
+više
+najviše
+drugo
+neki
+takav
+Ne
+ni
+ne
+samo
+vlastiti
+isti
+tako
+od
+isto
+vrlo
