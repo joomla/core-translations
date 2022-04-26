@@ -23,7 +23,7 @@ jobs:
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Download Afrikaans
-      uses: crowdin/github-action@1.4.6
+      uses: crowdin/github-action@1.4.8
       with:
         # Option to specify a path to the configuration file, without / at the beginning
         config: 'Configurations/Crowdin-J4-All.yml'
@@ -42,7 +42,7 @@ jobs:
         commit_message: 'New Afrikaans Crowdin translations by Github Action'
 
     - name: Crowdin Download Albanian
-      uses: crowdin/github-action@1.4.6
+      uses: crowdin/github-action@1.4.8
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
