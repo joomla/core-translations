@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Finnish (fi-FI) Language Pack</name>
 	<packagename>fi-FI</packagename>
-	<version/>
+	<version>4.1.3.1</version>
 	<creationDate>March 2022</creationDate>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
@@ -13,8 +13,8 @@
 	<packager>Finnish translation team: Joomla.fi</packager>
 	<packagerurl>https://joomla.fi</packagerurl>
 	<description><![CDATA[<div style="text-align: left;">
-		<h3>Joomla! 4.0.0 Full Finnish (fi-FI) Language Package - Version 4.0.0</h3>
-		<h3>Joomla! 4.0.0 kielitiedostopaketti sivuston ja ylläpidon puolelle suomeksi - Versio 4.0.0</h3>
+		<h3>Joomla! 4 Full Finnish (fi-FI) Language Package</h3>
+		<h3>Joomla! 4 kielitiedostopaketti sivuston ja ylläpidon puolelle suomeksi</h3>
 		</div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
