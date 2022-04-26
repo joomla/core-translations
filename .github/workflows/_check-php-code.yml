@@ -6,17 +6,17 @@ on:
       - main
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
+
 jobs:
   check-php-code:
     if: (github.event_name == 'pull_request' && github.repository == 'joomla/core-translations') || (github.event_name == 'push' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-          
+
       - name: PHP Syntax Checker (Lint)
         uses: StephaneBour/actions-php-lint@7.4
         with:
