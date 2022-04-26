@@ -2,27 +2,27 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
+ * @copyright  (C) 2013 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * sr-Latn-RS klasa za lokalizaciju.
  *
- * @since  1.6
+ * @počev od verzije  1.6
  */
 abstract class En_GBLocalise
 {
 	/**
-	 * Returns the potential suffixes for a specific number of items
+	 * Vraća potencijalne sufikse za specifični broj stavki
 	 *
-	 * @param   integer  $count  The number of items.
+	 * @param   integer  $count  Broj stavki.
 	 *
-	 * @return  array  An array of potential suffixes.
+	 * @return  array  Veza potencijalnih sufiksa.
 	 *
-	 * @since   1.6
+	 * @od verzije   1.6
 	 */
 	public static function getPluralSuffixes($count)
 	{
@@ -41,11 +41,11 @@ abstract class En_GBLocalise
 	}
 
 	/**
-	 * Returns the ignored search words
+	 * Vraća ignorisane reči pretrage
 	 *
-	 * @return  array  An array of ignored search words.
+	 * @return  array  Veza ignorisanih reči pretrage.
 	 *
-	 * @since   1.6
+	 * @počev od verzije   1.6
 	 */
 	public static function getIgnoredSearchWords()
 	{
@@ -53,11 +53,11 @@ abstract class En_GBLocalise
 	}
 
 	/**
-	 * Returns the lower length limit of search words
+	 * Vraća donju veličinu reči pretrage.
 	 *
-	 * @return  integer  The lower length limit of search words.
+	 * @return  integer  Donja veličina reči pretrage.
 	 *
-	 * @since   1.6
+	 * @počev od verzije   1.6
 	 */
 	public static function getLowerLimitSearchWord()
 	{
@@ -65,11 +65,11 @@ abstract class En_GBLocalise
 	}
 
 	/**
-	 * Returns the upper length limit of search words
+	 * Vraća gornju granicu reči pretrage
 	 *
-	 * @return  integer  The upper length limit of search words.
+	 * @return  integer  Gornji limit reči za pretragu.
 	 *
-	 * @since   1.6
+	 * @počev od verzije   1.6
 	 */
 	public static function getUpperLimitSearchWord()
 	{
@@ -77,11 +77,11 @@ abstract class En_GBLocalise
 	}
 
 	/**
-	 * Returns the number of chars to display when searching
+	 * Vraća broj karaktera za prikaz tokom pretrage.
 	 *
-	 * @return  integer  The number of chars to display when searching.
+	 * @return  integer  Broj karaktera za prikaz tokom pretrage.
 	 *
-	 * @since   1.6
+	 * @počev od verzije   1.6
 	 */
 	public static function getSearchDisplayedCharactersNumber()
 	{

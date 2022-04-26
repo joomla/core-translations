@@ -1,28 +1,28 @@
 <?php
 /**
- * @package    Joomla.Language
+ * @paket    Joomla.Jezik
  *
  * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @license    GNU General Public License verzija 2 ili novija; pogledaj LICENSE.txt
  */
 
 defined('_JEXEC') or die;
 
 /**
- * en-GB localise class.
+ * sr-Latn-RS klasa za lokalizaciju.
  *
- * @since  1.6
+ * @počev od verzije  1.6
  */
-abstract class En_GBLocalise
+abstract class sr_Latn_RSLocalise
 {
 	/**
-	 * Returns the potential suffixes for a specific number of items
+	 * Vraća potencijalne sufikse za specifični broj stavki
 	 *
-	 * @param   integer  $count  The number of items.
+	 * @param   integer  $count  Broj stavki.
 	 *
-	 * @return  array  An array of potential suffixes.
+	 * @return  array  Niz potencijalnih sufiksa.
 	 *
-	 * @since   1.6
+	 * @počev od   1.6
 	 */
 	public static function getPluralSuffixes($count)
 	{
