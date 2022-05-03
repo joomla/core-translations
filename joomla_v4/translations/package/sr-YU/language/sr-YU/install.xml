@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="site" type="language" method="upgrade">
 	<name>Serbian Latin (sr-Latn)</name>
-	<tag>sr-YU</tag>
+	<tag>sr-RS</tag>
 	<version>4.1.3</version>
 	<creationDate>Mart 2022</creationDate>
-	<author>Srpski prevodilački tim</author>
-	<authorEmail>translation@joomla-serbia.com</authorEmail>
-	<authorUrl>http://www.joomla-serbia.com</authorUrl>
+	<author>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License verzija 2 ili novija; pogledaj LICENSE.txt</license>
-	<description>sr-YU Serbian Latin Language Pack for Joomla!</description>
+	<description>sr-RS Serbian Latin Language Pack for Joomla</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
