@@ -272,6 +272,17 @@ jobs:
         export_only_approved: true
         commit_message: 'New English US Crowdin translations by Github Action'
 
+    - name: Crowdin Download English South Africa
+      uses: crowdin/github-action@1.4.8
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: en-ZA
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New English South Africa Crowdin translations by Github Action'
+
     - name: Crowdin Download Esperanto
       uses: crowdin/github-action@1.4.8
       with:
@@ -632,6 +643,17 @@ jobs:
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Occitan Crowdin translations by Github Action'
+
+    - name: Crowdin Download Pashto
+      uses: crowdin/github-action@1.4.8
+      with:
+        config: 'Configurations/Crowdin-J4-All.yml'
+        upload_sources: false
+        download_translations: true
+        download_language: ps
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Pashto Crowdin translations by Github Action'
 
     - name: Crowdin Download Persian
       uses: crowdin/github-action@1.4.8

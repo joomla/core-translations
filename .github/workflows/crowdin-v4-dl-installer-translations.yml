@@ -219,6 +219,9 @@ jobs:
           commit_message: 'New English New Zealand Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer'
 
+      #      "LanguageName": "English South Africa",
+      #      "CrowdinID": "en-ZA"
+
       - name: Crowdin Download English US
         uses: crowdin/github-action@1.4.8
         with:
@@ -438,6 +441,9 @@ jobs:
 
       #      "LanguageName": "Occitan",
       #      "CrowdinID": "oc"
+
+      #      "LanguageName": "Pashto",
+      #      "CrowdinID": "ps-AR"
 
       - name: Crowdin Download Persian
         uses: crowdin/github-action@1.4.8

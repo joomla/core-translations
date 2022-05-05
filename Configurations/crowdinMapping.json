@@ -115,6 +115,11 @@
     "CrowdinID": "en-NZ"
   },
   {
+    "LanguageName": "English, South Africa",
+    "JoomlaLocale": "en-ZA",
+    "CrowdinID": "en-ZA"
+  },
+  {
     "LanguageName": "English, United States",
     "JoomlaLocale": "en-US",
     "CrowdinID": "en-US"
@@ -318,6 +323,11 @@
     "LanguageName": "Occitan",
     "JoomlaLocale": "oc-FR",
     "CrowdinID": "oc"
+  },
+  {
+    "LanguageName": "Pashto",
+    "JoomlaLocale": "ps-AR",
+    "CrowdinID": "ps"
   },
   {
     "LanguageName": "Persian",
