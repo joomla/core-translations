@@ -3,7 +3,7 @@
     "LanguageName": "xxx",
     "JoomlaLocale": "xxx",
     "CrowdinID": "xxx"
-  }, 
+  },
   {
     "LanguageName": "Afrikaans",
     "JoomlaLocale": "af-ZA",
@@ -73,7 +73,7 @@
     "LanguageName": "Croatian",
     "JoomlaLocale": "hr-HR",
     "CrowdinID": "hr"
-  }, 
+  },
   {
     "LanguageName": "Czech",
     "JoomlaLocale": "cs-CZ",
@@ -198,37 +198,37 @@
     "LanguageName": "Hebrew",
     "JoomlaLocale": "he-IL",
     "CrowdinID": "he"
-  }, 
+  },
   {
     "LanguageName": "Hindi",
     "JoomlaLocale": "hi-IN",
     "CrowdinID": "hi"
-  }, 
+  },
   {
     "LanguageName": "Hungarian",
     "JoomlaLocale": "hu-HU",
     "CrowdinID": "hu"
-  }, 
+  },
   {
     "LanguageName": "Icelandic",
     "JoomlaLocale": "is-IS",
     "CrowdinID": "is"
-  }, 
+  },
   {
     "LanguageName": "Indonesian",
     "JoomlaLocale": "id-ID",
     "CrowdinID": "id"
-  }, 
+  },
   {
     "LanguageName": "Irish",
     "JoomlaLocale": "ga-IE",
     "CrowdinID": "ga"
-  }, 
+  },
   {
     "LanguageName": "Italian",
     "JoomlaLocale": "it-IT",
     "CrowdinID": "it"
-  }, 
+  },
   {
     "LanguageName": "Japanese",
     "JoomlaLocale": "ja-JP",
@@ -351,12 +351,12 @@
   },
   {
     "LanguageName": "Serbian (Cyrillic)",
-    "JoomlaLocale": "sr-RS",
+    "JoomlaLocale": "sr-SRB",
     "CrowdinID": "sr-Cyrl"
   },
   {
     "LanguageName": "Serbian (Latin)",
-    "JoomlaLocale": "sr-YU",
+    "JoomlaLocale": "sr-RS",
     "CrowdinID": "sr-Latn"
   },
   {
