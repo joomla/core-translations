@@ -517,14 +517,23 @@ jobs:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
           download_translations: true
-          download_language: sr-srb
+          download_language: sr-Cyrl
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Serbian Cyrillic Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer'
 
-      #      "LanguageName": "Serbian (Latin)",
-      #      "CrowdinID": "sr-Latn"
+      - name: Crowdin Download Serbian (Latin)
+        uses: crowdin/github-action@1.4.8
+        with:
+          config: 'Configurations/Crowdin-J4-Installer.yml'
+          upload_sources: false
+          download_translations: true
+          download_language: sr-Latn
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Serbian Latin Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer'
 
       #      "LanguageName": "Sinhala",
       #      "CrowdinID": "si"
