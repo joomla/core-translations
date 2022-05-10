@@ -517,17 +517,18 @@ jobs:
           commit_message: 'New Russian Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer'
 
-      - name: Crowdin Download Serbian (Cyrillic)
-        uses: crowdin/github-action@1.4.8
-        with:
-          config: 'Configurations/Crowdin-J4-Installer.yml'
-          upload_sources: false
-          download_translations: true
-          download_language: sr-Cyrl
-          skip_untranslated_strings: true
-          export_only_approved: true
-          commit_message: 'New Serbian Cyrillic Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+      # Joomla INI not ready yet
+      # - name: Crowdin Download Serbian (Cyrillic)
+      #  uses: crowdin/github-action@1.4.8
+      #  with:
+      #    config: 'Configurations/Crowdin-J4-Installer.yml'
+      #    upload_sources: false
+      #    download_translations: true
+      #    download_language: sr-Cyrl
+      #    skip_untranslated_strings: true
+      #    export_only_approved: true
+      #    commit_message: 'New Serbian Cyrillic Crowdin translations by Github Action'
+      #    localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Serbian (Latin)
         uses: crowdin/github-action@1.4.8
