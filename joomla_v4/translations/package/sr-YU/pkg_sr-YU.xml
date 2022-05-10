@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Srpski latinica (sr-Latn-RS) jezički paket za Joomla 4</name>
-	<packagename>sr-RS</packagename>
+	<name>Srpski Latinica (sr-Latn-RS) jezički paket za Joomla 4</name>
+	<packagename>sr-YU</packagename>
 	<version>4.1.3.1</version>
-	<creationDate>Mart 2022</creationDate>
-	<author>Srpski prevodilački tim</author>
-	<authorEmail>admin@joomla.org</authorEmail>
+	<creationDate>Maj 2022</creationDate>
+	<author>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</author>
+	<authorEmail>info@uixwebdesign.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>Sva prava zadržana (C) 2022 Open Source Matters.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Srpski prevodilački tim</packager>
+	<packager>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</packager>
 	<packagerurl>www.joomla.org</packagerurl>
-	<description><![CDATA[sr-RS jezički paket]]></description>
+	<description><![CDATA[<div align="center">
+			<div class="alert alert-success" style="background-color:#DFF0D8;border-color:#D6E9C6;color: #468847;padding: 1px 0;">
+				<p></p>
+				<h3><a href="https://volunteers.joomla.org/joomlers/14824-goran-nesic">Joomla! 4 Srpski prevod (latinica)</a></h3>
+				
+				<h4><a href="https://forum.joomla.org/viewforum.php?f=29" title="">Joomla Forum - Srbija</a> | <a href="https://volunteers.joomla.org/joomlers/14824-goran-nesic" title="">Podrška za Srpski jezik</a> | <a href="https://docs.joomla.org/Main_Page" title="">Joomla Dokumentacija</a> | <a href="https://joomla.crowdin.com/cms/sr-Latn" title="">Joomla Platforma za prevođenje</a></h4>
+
+				<p>Hvala vam što koristite Joomla! CMS sa neograničenim mogućnostima. Upravo ste instalirali paket za Srpski jezik (latinica).</p>
+
+				
+				<span style="color:#FF0000">Promene u trenutnoj verziji su: Vrlo bitna promena u samom jezičkom paketu je da sada ovaj paket generiše u html kodu ispravnu jezičku oznaku a to je <b>sr-Latn-RS</b> umesto dosadašnje <b>sr-YU</b>. U narednim verzijama krećemo sa ispravljanjem generički prevedenih konstanti.</span><p></p>
+				<p>Kontaktirajte <a href="https://volunteers.joomla.org/joomlers/14824-goran-nesic" title='Posetite Joomla profil kontrolora!'>kontrolora za Srpski jezik (latinica) </a>ukoliko imate bilo kakve sugestije ili predloge.</p>
+
+			</div>
+			<style>table.adminform{width: 100%;}</style>
+		</div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="sr-RS">language/sr-RS</folder>
-		<folder type="language" client="administrator" id="sr-RS">administrator/language/sr-RS</folder>
-		<folder type="language" client="api" id="sr-RS">api/language/sr-RS</folder>
+		<folder type="language" client="site" id="sr-YU">language/sr-YU</folder>
+		<folder type="language" client="administrator" id="sr-YU">administrator/language/sr-YU</folder>
+		<folder type="language" client="api" id="sr-YU">api/language/sr-YU</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Akreditovani Joomla! prevodi">
