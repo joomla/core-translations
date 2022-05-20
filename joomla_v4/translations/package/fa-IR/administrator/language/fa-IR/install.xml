@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Persian (fa-IR)</name>
 	<tag>fa-IR</tag>
-	<version/>
-	<creationDate/>
+	<version>4.1.4</version>
+	<creationDate>May 2022</creationDate>
 	<author>Persian Translation Team</author>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.joomlafarsi.com</authorUrl>
