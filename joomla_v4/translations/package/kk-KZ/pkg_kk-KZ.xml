@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Kazakh (Kazakhstan) (kk-KZ) Language Pack</name>
 	<packagename>kk-KZ</packagename>
-	<version>4.1.3.1</version>
+	<version/>
 	<creationDate>Наурыз 2022</creationDate>
 	<author>Sarvarov Akylkerey</author>
 	<authorEmail>sarvarov1985@mail.ru</authorEmail>
