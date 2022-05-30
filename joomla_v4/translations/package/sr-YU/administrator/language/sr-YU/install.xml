@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Srpski Latinica (Repulbika Srbija)</name>
 	<tag>sr-YU</tag>
-	<version>4.1.4</version>
+	<version>4.1.5</version>
 	<creationDate>Maj 2022</creationDate>
 	<author>Joomla! Projekat</author>
 	<authorEmail>admin@joomla.org</authorEmail>
