@@ -2,14 +2,14 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Greek (el-GR)</name>
 	<tag>el-GR</tag>
-	<version/>
-	<creationDate>Μαρ. 2022</creationDate>
-	<author>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</author>
+	<version>4.1.5.1</version>
+	<creationDate>Ιουν. 2022</creationDate>
+	<author>Ομάδα Μετάφρασης: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
-	<copyright>Copyright (C) 2005 - 2021 joomla.gr και Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2022 joomla.gr και Open Source Matters. All rights reserved.</copyright>
 	<license>Γενική Άδεια Δημόσιας Χρήσης GNU έκδοση 2 ή μεταγενέστερη, βλέπε LICENSE.txt</license>
-	<description>greek language pack for Joomla! 3.9.25</description>
+	<description>greek language pack for Joomla! 4</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

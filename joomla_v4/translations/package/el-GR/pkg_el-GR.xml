@@ -2,15 +2,15 @@
 <extension type="package" method="upgrade">
 	<name>Ελληνικά (el-GR) Πακέτο γλώσσας</name>
 	<packagename>el-GR</packagename>
-	<version/>
-	<creationDate>Μαρ. 2022</creationDate>
-	<author>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</author>
+	<version>4.1.5.1</version>
+	<creationDate>Ιουν. 2022</creationDate>
+	<author>Ομάδα Μετάφρασης: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
-	<copyright>Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2022 Open Source Matters, Inc. All rights reserved.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</packager>
+	<packager>Ομάδα Μετάφρασης: joomla. gr</packager>
 	<packagerurl>https://www.joomla.gr</packagerurl>
 	<description><![CDATA[el-GR language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
