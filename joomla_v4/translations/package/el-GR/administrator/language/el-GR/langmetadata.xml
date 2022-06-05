@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
 	<name>Greek (el-GR)</name>
-	<version/>
-	<creationDate>Μαρ. 2022</creationDate>
-	<author>Ομάδα Μετάφρασης στα Ελληνικά: joomla. gr</author>
+	<version>4.1.5.1</version>
+	<creationDate>Ιουν. 2022</creationDate>
+	<author>Ομάδα Μετάφρασης: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
-	<copyright>Copyright (C) 2005 - 2021 joomla.gr και Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2022 joomla. gr και Open Source Matters. All rights reserved.</copyright>
 	<license>Γενική Άδεια Δημόσιας Χρήσης GNU (GNU GPL), έκδοση 2 ή μεταγενέστερη· δείτε το LICENSE.txt</license>
 	<description><![CDATA[greek language pack for Joomla! 4]]></description>
 	<metadata>
