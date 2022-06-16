@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Lithuanian (Lithuania) lt-LT Language Pack</name>
 	<packagename>lt-LT</packagename>
-	<version>4.1.3.1</version>
-	<creationDate>2022 kovas</creationDate>
+	<version>4.1.5.1</version>
+	<creationDate>2022 Birželis</creationDate>
 	<author>Oskaras Jankauskas</author>
 	<authorEmail>rimvydas@rimvydas.info</authorEmail>
 	<authorUrl>www.rimvydas.info</authorUrl>

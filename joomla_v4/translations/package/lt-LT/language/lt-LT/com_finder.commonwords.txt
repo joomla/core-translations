@@ -1,179 +1,179 @@
-; Joomla! Project
-; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; Joomla! Projektas
+;(C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; Licencija GNU General Public License 2 arba naujesnė versija; žr. LICENSE.txt
+; Pastaba: šį failą reikia išsaugoti kaip UTF-8
 
 i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+aš
+mano
+aš pats
+mes
+mūsų
+mūsų
+mes patys
+tu
+tavo
+tavo
+save
+patys
+jis
+jam
+jo
+pats
+ji
+ją
+jos
+pati
+tai
+jos
+pats
+jie
+juos
+jų
+jų
+patys
+ką
+kurios
+Pso
+kam
+tai
+kad
+šie
+tie
+esu
+yra
+yra
+buvo
+buvo
+būti
+buvo
+esamas
+turėti
+turi
+turėjo
+turintys
+daryti
+daro
+padarė
+daro
+būtų
+turėtų
+galėtų
+turėtų
+aš
+tu esi
+jis yra
+ji yra
+tai
+mes
+jie yra
+aš turiu
+tu turi
+mes turime
+jie turi
+aš norėčiau
+tu nori
+jis norėjo
+ji norėjo
+mes
+jie norėtų
+nesveikas
+tu padarysi
+pragaras
+ji bus
+mes padarysime
+jie bus
+nėra
+nėra
+nebuvo
+nebuvo
+neturi
+neturiu
+neturėjo
+ne
+nedaryk
+nepadarė
+nebus
+nenorėtų
+negalima
+neturėtų
+negaliu
+negali
+negalėjo
+neturi
+tegul
+tai
+kas
+kas yra
+štai
+yra
+kada
+kur yra
+kodėl
+kaip yra
 a
 an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+į
+ir
+bet
+jeigu
+arba
+nes
+kaip
+iki
+kol
+apie
+adresu
+pateikė
+dėl
+su
+apie
+prieš
+tarp
+į
+per
+metu
+prieš
+po to
+aukščiau
+žemiau
+į
+iš
+aukštyn
+žemyn
+į
+iš
+įjungta
+išjungti
+baigta
+pagal
+vėl
+toliau
+tada
+kartą
+čia
+ten
+kada
+kur
+kodėl
+kaip
+visi
+bet koks
+tiek
+kiekviena
+mažai
+daugiau
+dauguma
+kitas
+kai kurie
+toks
+ne
+nei
+ne
+tik
+savo
+tas pats
+taip
+nei
+taip pat
+labai

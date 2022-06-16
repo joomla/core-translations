@@ -2,11 +2,11 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Lietuvių (lt-LT)</name>
 	<tag>lt-LT</tag>
-	<version/>
-	<creationDate>2022 kovas</creationDate>
+	<version>4.1.3</version>
+	<creationDate>2022 Birželis</creationDate>
 	<author>Oskaras Jankauskas</author>
-	<authorEmail>rimvydas@rimvydas.info</authorEmail>
-	<authorUrl>www.rimvydas.info</authorUrl>
+	<authorEmail>master@oskaraz.lt</authorEmail>
+	<authorUrl>www.oskaraz.lt</authorUrl>
 	<copyright>Copyright (C) 2005 - 2019 Open Source Matters, Inc. Visos teisės saugomos.</copyright>
 	<license>GNU General Public License versija 2 arba naujesnė; žr. LICENSE.txt</license>
 	<description>Joomla! administratoriaus lietuvių kalbos paketas</description>
