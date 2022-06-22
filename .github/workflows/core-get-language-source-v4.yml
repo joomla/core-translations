@@ -22,9 +22,9 @@ jobs:
         run: |
           cd ..
           ls -l
-          wget -nv "https://github.com/joomla/joomla-cms/archive/refs/heads/4.1-dev.zip"
-          unzip 4.1-dev.zip
-          mv joomla-cms-4.1-dev joomla-cms
+          wget -nv "https://github.com/joomla/joomla-cms/archive/refs/heads/4.2-dev.zip"
+          unzip 4.2-dev.zip
+          mv joomla-cms-4.2-dev joomla-cms
 
       - name: Syncing j4 directories
         # We use a simple copy paste syntax here if needed customization for different directories
