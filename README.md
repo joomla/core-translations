@@ -1,9 +1,14 @@
 # Core-Translations
 
 The repository to store the Source and Translations for the Joomla Core (CMS).
-Connected to the Crowdin Translation Platform and other repositories if needed.
+Connected to the [Crowdin](https://joomla.crowdin.com/cms) Translation Platform and other repositories if needed.
+
+## Found typos or problems with a language pack? Or just want to help?
+
+There are dedicated community members for many translations. They can be found on the Volunteers Portal in the working group [Joomla! CMS (Core) Language Team](https://volunteers.joomla.org/teams/joomla-cms-language-team). Do not hesitate to contact someone or help directly on [Crowdin](https://joomla.crowdin.com/cms) to make Joomla available in as many languages as possible.
 
 ## Installer files
+
 The installer files (Installer\language\en-GB // joomla.ini and langmetadata.xml) are managed in Crowdin.
 This is required too keep the Core installation process intact.
 In the Crowdin platform things are locked and automated to keep everything aligned.
