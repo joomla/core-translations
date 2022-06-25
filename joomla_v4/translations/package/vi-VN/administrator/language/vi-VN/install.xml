@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Vietnamese (vi-VN)</name>
 	<tag>vi-VN</tag>
-	<version>4.1.5</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
