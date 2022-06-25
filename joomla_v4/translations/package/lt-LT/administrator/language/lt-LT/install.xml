@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Lietuvių (lt-LT)</name>
 	<tag>lt-LT</tag>
-	<version>4.1.3</version>
+	<version/>
 	<creationDate>2022 Birželis</creationDate>
 	<author>Oskaras Jankauskas</author>
 	<authorEmail>master@oskaraz.lt</authorEmail>
