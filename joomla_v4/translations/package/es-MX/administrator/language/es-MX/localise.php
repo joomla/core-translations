@@ -6,14 +6,7 @@
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
-defined('_JEXEC') or die;
-
-/**
- * en-GB localise class.
- *
- * @since  1.6
- */
-abstract class es_ESLocalise
+ abstract class es_ESLocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
