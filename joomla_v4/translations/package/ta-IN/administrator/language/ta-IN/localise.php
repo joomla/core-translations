@@ -14,11 +14,11 @@
 
 
 /**
- * en-GB localise class.
+ * ta-IN localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Ta_INLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -49,7 +49,7 @@ abstract class En_GBLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('and', 'in', 'on');
+        return array('மற்றும்', 'அல்லது');
     }
 
     /**
