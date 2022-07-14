@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Swedish (sv-SE)</name>
 	<tag>sv-SE</tag>
-	<version/>
+	<version>4.1.3</version>
 	<creationDate>Juli 2022</creationDate>
 	<author>Swedish Translation Team - SvenskJoomla</author>
 	<authorEmail>admin@joomla.org</authorEmail>
