@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
-	<name/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail>translation@joomla-serbia.com</authorEmail>
+	<name>Serbian Cyrillic (sr-Cyrl-RS)</name>
+	<version>4.1.3</version>
+	<creationDate>Мај 2022</creationDate>
+	<author>Горан Нешић - UIX Web Design и Саша Матић бардак.срб</author>
+	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
-	<copyright/>
-	<license/>
-	<description><![CDATA[]]></description>
+	<copyright>Copyright (C) 2020 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License верзија 2 или новија; погледај LICENSE.txt</license>
+	<description><![CDATA[sr-Cyrl-RS api језик]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
-		<tag>sr-RS</tag>
+		<name>Српски (Република Србија)</name>
+		<nativeName>Српски (Република Србија)</nativeName>
+		<tag>sr-Cyrl-RS</tag>
 		<rtl>0</rtl>
 		<locale>sr_RS.utf8, sr_RS.UTF-8, sr_RS, sr_RS, sr, serbian, srpski, srb, cirilica, srpski cirilica, serbian cyrillic, serbia, srbija</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar/>
+		<calendar>грегоријански</calendar>
 	</metadata>
 	<params/>
 </metafile>

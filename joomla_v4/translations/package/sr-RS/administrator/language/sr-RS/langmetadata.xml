@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
-	<name/>
-	<version/>
-	<creationDate/>
-	<author/>
+	<name>Serbian Cyrillic (sr-RS)</name>
+	<version>4.1.3</version>
+	<creationDate>Мај 2022</creationDate>
+	<author>Serbian translation team: Joomla! Serbia</author>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
-	<copyright/>
-	<license/>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[sr-RS Serbian Cyrillic administrator language pack for Joomla]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
+		<name>Српски (Република Србија)</name>
+		<nativeName>Српски (Република Србија)</nativeName>
 		<tag>sr-RS</tag>
 		<rtl>0</rtl>
 		<locale>sr_RS.utf8, sr_RS.UTF-8, sr_RS, sr_RS, sr, serbian, srpski, srb, cirilica, srpski cirilica, serbian cyrillic, serbia, srbija</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar/>
+		<calendar>грегоријански</calendar>
 	</metadata>
 	<params/>
 </metafile>

@@ -2,25 +2,25 @@
 <extension type="package" method="upgrade">
 	<name>Serbian (Serbia) (sr-RS) Language Pack</name>
 	<packagename>sr-RS</packagename>
-	<version/>
-	<creationDate/>
-	<author/>
+	<version>4.1.3.1</version>
+	<creationDate>Мај 2022</creationDate>
+	<author>Serbian translation team: Joomla! Serbia</author>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
-	<copyright/>
-	<license/>
-	<url/>
-	<packager/>
+	<copyright>Copyright (C) 2019 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Serbian translation team: Joomla! Serbia</packager>
 	<packagerurl>http://www.joomla-serbia.com</packagerurl>
 	<description><![CDATA[sr-RS language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="sr-RS"/>
-		<folder type="language" client="administrator" id="sr-RS"/>
-		<folder type="language" client="api" id="sr-RS"/>
+		<folder type="language" client="site" id="sr-RS">language/sr-CYRL</folder>
+		<folder type="language" client="administrator" id="sr-RS">administrator/language/sr_Cyrl_RS</folder>
+		<folder type="language" client="api" id="sr-RS">api/language/sr_Cyrl_RS</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="Акредитовани Joomla! преводи">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>
