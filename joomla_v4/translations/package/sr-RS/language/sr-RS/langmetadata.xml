@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
-	<name>Serbian Cyrillic (sr-RS)</name>
-	<version>4.1.3</version>
-	<creationDate>Мај 2022</creationDate>
-	<author>Serbian translation team: Joomla! Serbia</author>
+	<name>Српска ћирилица (sr-RS)</name>
+	<version>4.2.0</version>
+	<creationDate>јул 2022</creationDate>
+	<author>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</author>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
 	<copyright>Copyright (C) 2006 - 2018 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[sr-RS Serbian Cyrillic Language Pack for Joomla!]]></description>
+	<description><![CDATA[sr-RS језик веб-сајта]]></description>
 	<metadata>
-		<name>Српски (Република Србија)</name>
-		<nativeName>Српски (Република Србија)</nativeName>
+		<name>Српска ћирилица (Република Србија)</name>
+		<nativeName>Српска ћирилица (Република Србија)</nativeName>
 		<tag>sr-RS</tag>
 		<rtl>0</rtl>
-		<locale>sr_RS.utf8, sr_RS.UTF-8, sr_RS, sr_RS, sr, serbian, srpski, srb, cirilica, srpski cirilica, serbian cyrillic, serbia, srbija</locale>
+		<locale>sr_RS.utf8, sr_RS.UTF-8, sr_RS, sr_RS, sr, српски, срб, ћирилица, српска ћирилица, србија</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>грегоријански</calendar>
