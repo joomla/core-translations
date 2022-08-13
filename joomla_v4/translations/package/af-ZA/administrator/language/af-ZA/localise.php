@@ -8,17 +8,15 @@
 
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
 
- * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
- */
-
-
+* @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
+*/
 
 /**
- * en-GB localise class.
+ * af-ZA localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Af_ZALocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
