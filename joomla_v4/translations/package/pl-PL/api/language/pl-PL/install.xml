@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Polish (PL)</name>
 	<tag>pl-PL</tag>
-	<version>4.1.0.4</version>
-	<creationDate>18.03.2022</creationDate>
+	<version>4.1.5.1</version>
+	<creationDate>05.08.2022</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
