@@ -56,7 +56,6 @@ abstract class Cs_CZLocalise
 			return array('OTHER', 'MORE');
 		}
 	}
-}
 
     /**
      * Returns the ignored search words
