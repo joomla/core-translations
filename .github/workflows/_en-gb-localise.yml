@@ -25,6 +25,7 @@ jobs:
           echo "build-log<<EOF" >> $GITHUB_ENV
           echo -e "$(cat list.txt)" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
+          cat list.txt
     - name: Check existence of list.txt file
       id: check_list_file
       uses: andstor/file-existence-action@v1
