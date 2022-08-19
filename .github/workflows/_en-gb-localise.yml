@@ -33,6 +33,7 @@ jobs:
       with:
         issue-number: ${{ github.event.pull_request.number }}
         comment-author: 'github-actions[bot]'
+        body-includes: 'The following translation files contain the En_GBLocalise'
     - uses: peter-evans/create-or-update-comment@v2
       name: Add PR comment
       if: ${{ github.event.pull_request.number != '' && steps.check_list_file.outputs.files_exists == 'true' && steps.fc.outputs.comment-id == '' }}
