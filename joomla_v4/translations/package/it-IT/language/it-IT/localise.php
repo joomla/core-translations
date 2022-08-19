@@ -14,11 +14,11 @@
 
 
 /**
- * en-GB localise class.
+ * it-IT localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class It_ITLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

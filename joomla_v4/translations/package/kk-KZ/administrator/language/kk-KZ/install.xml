@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Kazakh (kk-KZ)</name>
 	<tag>kk-KZ</tag>
-	<version>4.2.0</version>
-	<creationDate>Тамыз 2022</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Sarvarov Akylkerey</author>
 	<authorEmail>sarvarov1985@mail.ru</authorEmail>
 	<authorUrl>https://forum.joomla.org/memberlist.php?mode=viewprofile&amp;u=838669</authorUrl>
