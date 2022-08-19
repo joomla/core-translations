@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Српска ћирилица (sr-RS)</name>
 	<tag>sr-RS</tag>
-	<version>4.2.0</version>
-	<creationDate>јул 2022</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</author>
 	<authorEmail>translation@joomla-serbia.com</authorEmail>
 	<authorUrl>http://www.joomla-serbia.com</authorUrl>
