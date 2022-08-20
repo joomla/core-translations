@@ -29,6 +29,6 @@ jobs:
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          header: En_GBLocalise-class
+          header: En_GBLocalise-class ${{ steps.pr_number.outputs.pr_number }}
           number: ${{ steps.pr_number.outputs.pr_number }}
           path: ./En_GBLocalise-logs/En_GBLocalise_comment.txt
