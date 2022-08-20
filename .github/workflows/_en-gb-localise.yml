@@ -1,4 +1,4 @@
-name: Check existens of En_GBLocalise in translations
+name: "En_GBLocalise in translations"
 
 on:
   pull_request:
@@ -10,56 +10,43 @@ on:
 jobs:
   engb-localise:
     runs-on: ubuntu-latest
-    
-    permissions:
-      issues: write
-      pull-requests: write
-    
+
     steps:
     - uses: actions/checkout@v3
     - name: Check PR content
       id: build
       run: |
           cd ./joomla_v4/translations/package
-          grep -rn --include \*.php 'En_GBLocalise' > ./list.txt
-          echo "build-log<<EOF" >> $GITHUB_ENV
-          echo -e "$(cat list.txt)" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-          cat list.txt
-    - name: Check existence of list.txt file
-      id: check_list_file
+          mkdir ./logs
+          grep -rn --include \*.php 'En_GBLocalise' > ./logs/En_GBLocalise_result.txt
+          cat ./logs/En_GBLocalise_result.txt
+
+    - name: Check existence of En_GBLocalise_result.txt file
+      id: check_result_file
       uses: andstor/file-existence-action@v1
       with:
-        files: ./joomla_v4/translations/package/list.txt
-    - name: Find Comment
-      uses: peter-evans/find-comment@v2
-      id: fc
-      with:
-        issue-number: ${{ github.event.pull_request.number }}
-        comment-author: 'github-actions[bot]'
-        body-includes: 'The following translation files contain the En_GBLocalise'
-    - uses: peter-evans/create-or-update-comment@v2
-      name: Add PR comment
-      if: ${{ github.event.pull_request.number != '' && steps.check_list_file.outputs.files_exists == 'true' && steps.fc.outputs.comment-id == '' }}
-      with:
-        issue-number: ${{ github.event.pull_request.number }}
-        body: |
-             The following translation files contain the En_GBLocalise class on ${{ github.sha }}
-             ```
-             ${{ env.build-log }}
-             ```
-    - name: Update comment
-      if: ${{ github.event.pull_request.number != '' && steps.check_list_file.outputs.files_exists == 'true' && steps.fc.outputs.comment-id != '' }}
-      uses: peter-evans/create-or-update-comment@v2
-      with:
-        comment-id: ${{ steps.check_list_file.outputs.files_exists == 'true' && steps.fc.outputs.comment-id }}
-        body: |
-             The following translation files contain the En_GBLocalise class on ${{ github.sha }}
-             ```
-             ${{ env.build-log }}
-              ```
-        edit-mode: replace
+        files: ./joomla_v4/translations/package/logs/En_GBLocalise_result.txt
+
+    - name: Save PR number
+      if: ${{ always() }}
+      run: echo ${{ github.event.pull_request.number }} > ./joomla_v4/translations/package/logs/PR_number.txt
+      
+    - name: Save PR sha
+      if: ${{ always() }}
+      run: echo ${{ github.sha }} > ./joomla_v4/translations/package/logs/PR_sha.txt
+
+    - name: Prepare issue commebt
+      run: |
+          echo "The following translation files contain the En_GBLocalise class on ${{ github.sha }}" >> ./joomla_v4/translations/package/logs/En_GBLocalise_comment.txt
+          cat ./joomla_v4/translations/package/logs/En_GBLocalise_result.txt >> ./joomla_v4/translations/package/logs/En_GBLocalise_comment.txt
+
     - name: fail workflow
-      if: steps.check_list_file.outputs.files_exists == 'true'
+      if: steps.check_result_file.outputs.files_exists == 'true'
       run: exit 1
- 
+
+    - name: Upload En_GBLocalise-logs
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v2
+      with:
+        name: En_GBLocalise-logs
+        path: ./joomla_v4/translations/package/logs
