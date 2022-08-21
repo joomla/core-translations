@@ -35,7 +35,7 @@ jobs:
       if: ${{ always() }}
       run: echo ${{ github.sha }} > ./joomla_v4/translations/package/logs/PR_sha.txt
 
-    - name: Prepare issue commebt
+    - name: Prepare issue comment
       run: |
           echo "The following translation files contain the En_GBLocalise class on ${{ github.sha }}" >> ./joomla_v4/translations/package/logs/En_GBLocalise_comment.txt
           cat ./joomla_v4/translations/package/logs/En_GBLocalise_result.txt >> ./joomla_v4/translations/package/logs/En_GBLocalise_comment.txt
