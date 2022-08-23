@@ -18,31 +18,29 @@ jobs:
       run: |
           cd ./joomla_v4/translations/package
           mkdir ./logs
-          grep -rn --include \*.php 'En_GBLocalise' > ./logs/En_GBLocalise_result.txt
-          cat ./logs/En_GBLocalise_result.txt
-
-    - name: Check existence of En_GBLocalise_result.txt file
-      id: check_result_file
-      uses: andstor/file-existence-action@v1
-      with:
-        files: ./joomla_v4/translations/package/logs/En_GBLocalise_result.txt
+          grep -rn --include \*.php 'En_GBLocalise' | tee ./logs/en_gblocalise_result
+          cat ./logs/en_gblocalise_result | wc -l | tee ./logs/files_affected
+          awk -F/ '{ print $1 }' ./logs/en_gblocalise_result | sort -u | wc -l | tee ./logs/languagepacks_affected
+          aflp=$(head -n 1 ./logs/languagepacks_affected)
+          affi=$(head -n 1 ./logs/files_affected)
+          echo -n "$aflp" > ./logs/languagepacks_affected
+          echo -n "$affi" > ./logs/files_affected
+          cat ./logs/en_gblocalise_result
 
     - name: Save PR number
       if: ${{ always() }}
-      run: echo ${{ github.event.pull_request.number }} > ./joomla_v4/translations/package/logs/PR_number.txt
+      run: echo ${{ github.event.pull_request.number }} | tee ./joomla_v4/translations/package/logs/pr_number
       
     - name: Save PR sha
       if: ${{ always() }}
-      run: echo ${{ github.sha }} > ./joomla_v4/translations/package/logs/PR_sha.txt
-
-    - name: Prepare issue comment
-      run: |
-          echo "The following translation files contain the En_GBLocalise class on ${{ github.sha }}" >> ./joomla_v4/translations/package/logs/En_GBLocalise_comment.txt
-          cat ./joomla_v4/translations/package/logs/En_GBLocalise_result.txt >> ./joomla_v4/translations/package/logs/En_GBLocalise_comment.txt
+      run: echo ${{ github.sha }} | tee ./joomla_v4/translations/package/logs/pr_sha
 
     - name: fail workflow
-      if: steps.check_result_file.outputs.files_exists == 'true'
-      run: exit 1
+      run: |
+        if [ -f ./joomla_v4/translations/package/logs/en_gblocalise_result ]; then
+        exit 1
+        fi
+
 
     - name: Upload En_GBLocalise-logs
       if: ${{ always() }}

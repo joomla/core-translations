@@ -11,24 +11,21 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
     steps:
-      - name: Download lint results
-        uses: dawidd6/action-download-artifact@v2
+      - name: on artifact
+        id: artifact
+        uses: marocchino/on_artifact@v1
         with:
-          workflow: _en-gb-localise.yml
-          workflow_conclusion: 'failure'
+          name: En_GBLocalise-logs
 
-      - name: Get PR number
-        id: pr_number
-        run: echo "::set-output name=pr_number::$(cat ./En_GBLocalise-logs/PR_number.txt)"
-
-      - name: Get PR sha
-        id: pr_sha
-        run: echo "::set-output name=pr_number::$(cat ./En_GBLocalise-logs/PR_sha.txt)"
-        
-      - name: Post PR comment
-        uses: marocchino/sticky-pull-request-comment@v2
+      - uses: marocchino/sticky-pull-request-comment@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          header: En_GBLocalise-class ${{ steps.pr_number.outputs.pr_number }}
-          number: ${{ steps.pr_number.outputs.pr_number }}
-          path: ./En_GBLocalise-logs/En_GBLocalise_comment.txt
+          header: En_GBLocalise-class ${{ steps.artifact.outputs.pr_number }}
+          number: ${{ steps.artifact.outputs.pr_number }}
+          message: |
+           The following translation files contain the En_GBLocalise class on ${{ steps.artifact.outputs.pr_sha }}
+            ```
+            ${{ steps.artifact.outputs.en_gblocalise_result }}
+            ```
+            Affecting ${{ steps.artifact.outputs.files_affected }} files in ${{ steps.artifact.outputs.languagepacks_affected }} language packs.
+
