@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>بسته زبان فارسی دری (fa-AF)</name>
 	<packagename>fa-AF</packagename>
-	<version/>
-	<creationDate/>
+	<version>4.2.1.1</version>
+	<creationDate>2022-08</creationDate>
 	<author>JoomlaPersian Translation Team</author>
 	<authorEmail>dari@JoomlaPesrain.com</authorEmail>
 	<authorUrl>www.joomlapersian.com</authorUrl>
