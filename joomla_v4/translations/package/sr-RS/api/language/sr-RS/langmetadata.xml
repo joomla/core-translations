@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Српска ћирилица (sr-RS)</name>
-	<version/>
-	<creationDate/>
+	<version>4.2.1</version>
+	<creationDate>август 2022</creationDate>
 	<author>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</author>
 	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>http://www.joomla-serbia.com</authorUrl>
+	<authorUrl>https://www.bardak.rs</authorUrl>
 	<copyright>Copyright (C) 2020 - 2018 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License верзија 2 или новија; погледај LICENSE.txt</license>
 	<description><![CDATA[sr-RS api језик]]></description>
