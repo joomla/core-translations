@@ -14,20 +14,20 @@
 
 
 /**
- * en-GB localise class.
+ * sr-Cyrl-RS класа за локализацију.
  *
- * @since  1.6
+ * @почев од верзије  1.6
  */
-abstract class En_GBLocalise
+abstract class Sr_RSLocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * Враћа потенцијалне суфиксе за специфични број ставки
      *
-     * @param   integer  $count  The number of items.
+     * @param   integer  $count  Број ставки.
      *
-     * @return  array  An array of potential suffixes.
+     * @return  array Веза потенцијалних суфикса.
      *
-     * @since   1.6
+     * @@почев од верзије  1.6
      */
     public static function getPluralSuffixes($count)
     {
