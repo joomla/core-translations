@@ -4,7 +4,9 @@ on:
   pull_request:
     branches:
       - main
-    types: [synchronize, opened]
+  workflow_run:
+    workflows: ["J4 Download Package Translations Crowdin Action"]
+    types: [completed]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
@@ -12,8 +14,9 @@ env:
 
 jobs:
   check-php-code:
-    if: (github.event_name == 'pull_request' && github.repository == 'joomla/core-translations') || (github.event_name == 'push' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
+    if: (github.repository == 'joomla/core-translations') || (github.repository != 'joomla/core-translations' && github.event_name != 'schedule')
     runs-on: ubuntu-latest
+    permissions: read-all
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v3
