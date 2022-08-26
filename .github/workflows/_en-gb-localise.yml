@@ -4,13 +4,16 @@ on:
   pull_request:
     branches:
       - main
-    types: [synchronize, opened]
+  workflow_run:
+    workflows: ["J4 Download Package Translations Crowdin Action"]
+    types: [completed]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   engb-localise:
     runs-on: ubuntu-latest
+    permissions: read-all
 
     steps:
     - uses: actions/checkout@v3
