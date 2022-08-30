@@ -215,6 +215,7 @@ class Pkg_plPLInstallerScript extends InstallerScript
 			'/administrator/language/pl-PL/pl-PL.plg_fields_list.sys.ini',
 			'/administrator/language/pl-PL/pl-PL.plg_fields_media.ini',
 			'/administrator/language/pl-PL/pl-PL.plg_fields_media.sys.ini',
+			
 			'/administrator/language/pl-PL/pl-PL.plg_fields_radio.ini',
 			'/administrator/language/pl-PL/pl-PL.plg_fields_radio.sys.ini',
 			'/administrator/language/pl-PL/pl-PL.plg_fields_repeatable.ini',
@@ -328,7 +329,9 @@ class Pkg_plPLInstallerScript extends InstallerScript
 			'/administrator/language/pl-PL/com_csp.ini',
 			'/administrator/language/pl-PL/com_csp.sys.ini',			
 			'/administrator/language/pl-PL/plg_fields_subfields.ini',			
-			'/administrator/language/pl-PL/plg_fields_subfields.sys.ini',					
+			'/administrator/language/pl-PL/plg_fields_subfields.sys.ini',
+			'/administrator/language/pl-PL/pl-PL.plg_fields_menuitem.ini',
+			'/administrator/language/pl-PL/pl-PL.plg_fields_menuitem.sys.ini',
 			
 			// Frontend
 			'/language/pl-PL/pl-PL.com_ajax.ini',
