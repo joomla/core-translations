@@ -25,7 +25,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           header: En_GBLocalise-class ${{ steps.artifact.outputs.pr_number }}
-          number: ${{ steps.artifact.outputs.pr_number }}
+          number: ${{ steps.artifact.outputs.pr_number || gh pr list --limit 1 --repo joomla/core-translations --author app/github-actions --state open --json number --jq .[].number }}
           message: |
            The following translation files contain the En_GBLocalise class on ${{ steps.artifact.outputs.pr_sha }}
             ```
