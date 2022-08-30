@@ -33,7 +33,7 @@ jobs:
 
     - name: Save PR number
       if: ${{ always() }}
-      run: echo ${{ github.event.pull_request.number || gh pr list --limit 1 --repo joomla/core-translations --author app/github-actions --state open --json number --jq .[].number }} | tee ./joomla_v4/translations/package/logs/pr_number
+      run: echo ${{ github.event.pull_request.number }} || gh pr list --limit 1 --repo joomla/core-translations --author app/github-actions --state open --json number --jq .[].number | tee ./joomla_v4/translations/package/logs/pr_number
       
     - name: Save PR sha
       if: ${{ always() }}
