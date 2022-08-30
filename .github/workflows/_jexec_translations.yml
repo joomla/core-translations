@@ -1,4 +1,4 @@
-name: "En_GBLocalise in translations"
+name: "JEXEC in translations"
 
 on:
   pull_request:
@@ -22,14 +22,14 @@ jobs:
       run: |
           cd ./joomla_v4/translations/package
           mkdir ./logs
-          grep -rn --include \*.php 'En_GBLocalise' | tee ./logs/en_gblocalise_result
-          cat ./logs/en_gblocalise_result | wc -l | tee ./logs/files_affected
-          awk -F/ '{ print $1 }' ./logs/en_gblocalise_result | sort -u | wc -l | tee ./logs/languagepacks_affected
-          aflp=$(head -n 1 ./logs/languagepacks_affected)
-          affi=$(head -n 1 ./logs/files_affected)
-          echo -n "$aflp" > ./logs/languagepacks_affected
-          echo -n "$affi" > ./logs/files_affected
-          cat ./logs/en_gblocalise_result
+          grep -Lr --include \*.php '_JEXEC' | tee ./logs/jexec_result
+          cat ./logs/jexec_result | wc -l | tee ./logs/files_affected_jexec
+          awk -F/ '{ print $1 }' ./logs/jexec_result | sort -u | wc -l | tee ./logs/languagepacks_affected_jexec
+          aflp=$(head -n 1 ./logs/languagepacks_affected_jexec)
+          affi=$(head -n 1 ./logs/files_affected_jexec)
+          echo -n "$aflp" > ./logs/languagepacks_affected_jexec
+          echo -n "$affi" > ./logs/files_affected_jexec
+          cat ./logs/jexec_result
 
     - name: Save PR number
       if: ${{ always() }}
@@ -41,14 +41,14 @@ jobs:
 
     - name: fail workflow
       run: |
-        if [ -f ./joomla_v4/translations/package/logs/en_gblocalise_result ]; then
+        if [ -f ./joomla_v4/translations/package/logs/jexec_result ]; then
         exit 1
         fi
 
 
-    - name: Upload En_GBLocalise-logs
+    - name: JEXEC-logs
       if: ${{ always() }}
       uses: actions/upload-artifact@v2
       with:
-        name: En_GBLocalise-logs
+        name: JEXEC-logs
         path: ./joomla_v4/translations/package/logs
