@@ -11,14 +11,16 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-
+// phpcs:disable PSR1.Files.SideEffects
+\defined('_JEXEC') or die;
+// phpcs:enable PSR1.Files.SideEffects
 
 /**
- * pt_PT localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class pt_PTLocalise
+abstract class En_GBLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -49,7 +51,7 @@ abstract class pt_PTLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('e', 'de', 'se', 'por', 'nem', 'ou', 'mas', 'em' );
+        return array('and', 'in', 'on');
     }
 
     /**
