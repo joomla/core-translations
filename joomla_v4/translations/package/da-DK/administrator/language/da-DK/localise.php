@@ -11,10 +11,12 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-
+// phpcs:disable PSR1.Files.SideEffects
+\defined('_JEXEC') or die;
+// phpcs:enable PSR1.Files.SideEffects
 
 /**
- * da-DK localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
@@ -49,7 +51,7 @@ abstract class Da_DKLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('og', 'i', 'eller');
+        return array('and', 'in', 'on');
     }
 
     /**
