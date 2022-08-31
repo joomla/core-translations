@@ -11,14 +11,16 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-
+// phpcs:disable PSR1.Files.SideEffects
+\defined('_JEXEC') or die;
+// phpcs:enable PSR1.Files.SideEffects
 
 /**
- * cs-CZ localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Cs_CZLocalise
+abstract class En_GBLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -33,25 +35,9 @@ abstract class Cs_CZLocalise
     {
         if ($count == 0) {
             return array('0');
-		}
-		elseif ($count == 1)
-		{
-			return array('ONE', '1');
-		}
-		    elseif ($count == 2)
-    {
-        return array('FEW', '2');
-    }
-    elseif ($count == 3)
-    {
-        return array('FEW', '3');
-    }
-    elseif ($count == 4)
-    {
-        return array('FEW');
-    }
-    else
-		{
+        } elseif ($count == 1) {
+            return array('ONE', '1');
+        } else {
             return array('OTHER', 'MORE');
         }
     }
