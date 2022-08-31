@@ -29,7 +29,7 @@ jobs:
           message: |
            The following translation files don't contain the JEXEC on ${{ steps.artifact.outputs.pr_sha }}
             ```
-            ${{ steps.artifact.outputs.en_gblocalise_result }}
+            ${{ steps.artifact.outputs.jexec_result }}
             ```
             Affecting ${{ steps.artifact.outputs.files_affected_jexec }} files in ${{ steps.artifact.outputs.languagepacks_affected_jexec }} language packs.
 
