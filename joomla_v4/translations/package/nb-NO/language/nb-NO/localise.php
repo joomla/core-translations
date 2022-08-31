@@ -11,14 +11,16 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-
+// phpcs:disable PSR1.Files.SideEffects
+\defined('_JEXEC') or die;
+// phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * nb-NO localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Nb_NOLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
