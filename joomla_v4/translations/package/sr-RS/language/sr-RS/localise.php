@@ -11,23 +11,25 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-
+// phpcs:disable PSR1.Files.SideEffects
+\defined('_JEXEC') or die;
+// phpcs:enable PSR1.Files.SideEffects
 
 /**
- * sr-Cyrl-RS класа за локализацију.
+ * sr-RS localise class.
  *
- * @почев од верзије  1.6
+ * @since  1.6
  */
 abstract class Sr_RSLocalise
 {
     /**
-     * Враћа потенцијалне суфиксе за специфични број ставки
+     * Returns the potential suffixes for a specific number of items
      *
-     * @param   integer  $count  Број ставки.
+     * @param   integer  $count  The number of items.
      *
-     * @return  array Веза потенцијалних суфикса.
+     * @return  array  An array of potential suffixes.
      *
-     * @@почев од верзије  1.6
+     * @since   1.6
      */
     public static function getPluralSuffixes($count)
     {

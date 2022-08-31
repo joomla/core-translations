@@ -11,23 +11,25 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-
+// phpcs:disable PSR1.Files.SideEffects
+\defined('_JEXEC') or die;
+// phpcs:enable PSR1.Files.SideEffects
 
 /**
- * sr-Cyrl-RS класа за локализацију.
+ * sr-RS localise class.
  *
- * @почев од верзије  1.6
+ * @since  1.6
  */
 abstract class Sr_RSLocalise
 {
     /**
-     * Враћа потенцијалне суфиксе за специфични број ставки
+     * Returns the potential suffixes for a specific number of items
      *
-     * @param   integer  $count  Број ставки.
+     * @param   integer  $count  The number of items.
      *
-     * @return  array  Веза потенцијалних суфикса.
+     * @return  array  An array of potential suffixes.
      *
-     * @почев од верзије   1.6
+     * @since   1.6
      */
     public static function getPluralSuffixes($count)
     {
@@ -41,11 +43,11 @@ abstract class Sr_RSLocalise
     }
 
     /**
-     * Враћа игнорисане речи претраге
+     * Returns the ignored search words
      *
-     * @return  array  Веза игнорисаних речи претраге.
+     * @return  array  An array of ignored search words.
      *
-     * @почев од верзије   1.6
+     * @since   1.6
      */
     public static function getIgnoredSearchWords()
     {
@@ -53,11 +55,11 @@ abstract class Sr_RSLocalise
     }
 
     /**
-     * Враћа доњу величину речи претраге.
+     * Returns the lower length limit of search words
      *
-     * @return  integer  Доња величина речи претраге.
+     * @return  integer  The lower length limit of search words.
      *
-     * @почев од верзије   1.6
+     * @since   1.6
      */
     public static function getLowerLimitSearchWord()
     {
@@ -65,11 +67,11 @@ abstract class Sr_RSLocalise
     }
 
     /**
-     * Враћа горњу границу речи претраге
+     * Returns the upper length limit of search words
      *
-     * @return  integer  Горњи лимит речи за претрагу.
+     * @return  integer  The upper length limit of search words.
      *
-     * @почев од верзије   1.6
+     * @since   1.6
      */
     public static function getUpperLimitSearchWord()
     {
@@ -77,11 +79,11 @@ abstract class Sr_RSLocalise
     }
 
     /**
-     * Враћа број карактера за приказ током претраге.
+     * Returns the number of chars to display when searching
      *
-     * @return  integer  Број карактера за приказ током претраге.
+     * @return  integer  The number of chars to display when searching.
      *
-     * @почев од верзије   1.6
+     * @since   1.6
      */
     public static function getSearchDisplayedCharactersNumber()
     {
