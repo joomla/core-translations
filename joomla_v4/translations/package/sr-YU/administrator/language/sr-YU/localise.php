@@ -11,24 +11,26 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-
+// phpcs:disable PSR1.Files.SideEffects
+\defined('_JEXEC') or die;
+// phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * sr-YU localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Sr_YULocalise
 {
-    /**
-     * Returns the potential suffixes for a specific number of items
-     *
-     * @param   integer  $count  The number of items.
-     *
-     * @return  array  An array of potential suffixes.
-     *
-     * @since   1.6
-     */
+/**
+	 * Vraća potencijalne sufikse za specifični broj stavki
+	 *
+	 * @param   integer  $count  Broj stavki.
+	 *
+	 * @return  array  Veza potencijalnih sufiksa.
+	 *
+	 * @od verzije   1.6
+	 */
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
@@ -40,49 +42,49 @@ abstract class En_GBLocalise
         }
     }
 
-    /**
-     * Returns the ignored search words
-     *
-     * @return  array  An array of ignored search words.
-     *
-     * @since   1.6
-     */
+	/**
+	 * Vraća ignorisane reči pretrage
+	 *
+	 * @return  array  Veza ignorisanih reči pretrage.
+	 *
+	 * @počev od verzije   1.6
+	 */
     public static function getIgnoredSearchWords()
     {
         return array('and', 'in', 'on');
     }
 
-    /**
-     * Returns the lower length limit of search words
-     *
-     * @return  integer  The lower length limit of search words.
-     *
-     * @since   1.6
-     */
+	/**
+	 * Vraća donju veličinu reči pretrage.
+	 *
+	 * @return  integer  Donja veličina reči pretrage.
+	 *
+	 * @počev od verzije   1.6
+	 */
     public static function getLowerLimitSearchWord()
     {
         return 3;
     }
 
-    /**
-     * Returns the upper length limit of search words
-     *
-     * @return  integer  The upper length limit of search words.
-     *
-     * @since   1.6
-     */
+	/**
+	 * Vraća gornju granicu reči pretrage
+	 *
+	 * @return  integer  Gornji limit reči za pretragu.
+	 *
+	 * @počev od verzije   1.6
+	 */
     public static function getUpperLimitSearchWord()
     {
         return 20;
     }
 
-    /**
-     * Returns the number of chars to display when searching
-     *
-     * @return  integer  The number of chars to display when searching.
-     *
-     * @since   1.6
-     */
+	/**
+	 * Vraća broj karaktera za prikaz tokom pretrage.
+	 *
+	 * @return  integer  Broj karaktera za prikaz tokom pretrage.
+	 *
+	 * @počev od verzije   1.6
+	 */
     public static function getSearchDisplayedCharactersNumber()
     {
         return 200;
