@@ -8,15 +8,19 @@
 
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
 
-* @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
-*/
+ * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
+ */
+
+// phpcs:disable PSR1.Files.SideEffects
+\defined('_JEXEC') or die;
+// phpcs:enable PSR1.Files.SideEffects
 
 /**
- * af-ZA localise class.
+ * en-GB localise class.
  *
  * @since  1.6
  */
-abstract class Af_ZALocalise
+abstract class En_GBLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
