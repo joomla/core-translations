@@ -36,7 +36,9 @@ jobs:
       run: |
           cd ./joomla_v4/translations/package
           echo -n ${{ github.event.pull_request.number }} | tee ./logs/pr_number
-          [ -s ./logs/pr_number ] || `gh pr list --limit 1 --repo joomla/core-translations --author app/github-actions --state open --json number --jq .[].number` | tee ./logs/pr_number
+          [ -s ./logs/pr_number ] || gh pr list --limit 1 --repo joomla/core-translations --author app/github-actions --state open --json number --jq .[].number > ./logs/pr_number
+          prnumber=$(head -n 1 ./logs/pr_number)
+          echo -n "$prnumber" > ./logs/pr_number
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
