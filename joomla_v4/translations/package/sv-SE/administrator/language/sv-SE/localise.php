@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * sv-SE localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Sv_SELocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -51,7 +51,7 @@ abstract class En_GBLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('and', 'in', 'on');
+        return array('om', 'i', 'på');
     }
 
     /**
