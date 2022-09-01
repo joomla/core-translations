@@ -2,17 +2,17 @@
 <extension type="package" method="upgrade">
 	<name>Swedish (sv-SE) Language Pack</name>
 	<packagename>sv-SE</packagename>
-	<version/>
-	<creationDate/>
+	<version>4.2.1.1</version>
+	<creationDate>Augusti 2022</creationDate>
 	<author>Swedish Translation Team - SvenskJoomla</author>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>http://www.svenskjoomla.se</authorUrl>
+	<authorEmail>info@svenskjoomla.se</authorEmail>
+	<authorUrl>https://www.svenskjoomla.se</authorUrl>
 	<copyright>Copyright (C) 2005 - 2022 Open Source Matters, Inc. All rights reserved.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Swedish Translation Team - SvenskJoomla</packager>
-	<packagerurl>http://www.svenskjoomla.se</packagerurl>
-	<description><![CDATA[<h1>Svensk översättning av Joomla! 4.1.1 ver1</h1><h3>Översatt av Stefan Gagner och Sune Hultman, Henrik Mattsson-Mårn, Oskar Signell, mfl - SvenskJoomla</h3>
+	<packagerurl>https://www.svenskjoomla.se</packagerurl>
+	<description><![CDATA[<h1>Svensk översättning av Joomla! 4.2.1 ver1</h1><h3>Översatt av Stefan Gagner och Sune Hultman, Henrik Mattsson-Mårn, Oskar Signell, mfl - SvenskJoomla</h3>
 <p>Översättningarna är baserade på tidigare gjorda översättningar men med en rad språkliga förbättringar och förenklingar. Inget tidigare arbete har gått till spillo</p>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
