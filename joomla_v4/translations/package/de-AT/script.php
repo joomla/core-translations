@@ -6,7 +6,7 @@
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
-defined('_JEXEC') or die;
+\defined('_JEXEC') or die;
 
 use Joomla\CMS\Installer\InstallerScript;
 
@@ -327,6 +327,8 @@ class Pkg_deATInstallerScript extends InstallerScript
 			'/administrator/language/de-AT/de-AT.xml',
 			'/administrator/language/de-AT/plg_fields_image.ini',
 			'/administrator/language/de-AT/plg_fields_image.sys.ini',
+			'/administrator/language/de-AT/plg_fields_menuitem.ini',
+			'/administrator/language/de-AT/plg_fields_menuitem.sys.ini',
 			// Frontend
 			'/language/de-AT/de-AT.com_ajax.ini',
 			'/language/de-AT/de-AT.com_config.ini',
