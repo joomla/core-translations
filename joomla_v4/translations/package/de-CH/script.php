@@ -6,7 +6,7 @@
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
-defined('_JEXEC') or die;
+\defined('_JEXEC') or die;
 
 use Joomla\CMS\Installer\InstallerScript;
 
@@ -327,6 +327,8 @@ class Pkg_deCHInstallerScript extends InstallerScript
 			'/administrator/language/de-CH/de-CH.xml',
 			'/administrator/language/de-CH/plg_fields_image.ini',
 			'/administrator/language/de-CH/plg_fields_image.sys.ini',
+			'/administrator/language/de-CH/plg_fields_menuitem.ini',
+			'/administrator/language/de-CH/plg_fields_menuitem.sys.ini',
 			// Frontend
 			'/language/de-CH/de-CH.com_ajax.ini',
 			'/language/de-CH/de-CH.com_config.ini',
