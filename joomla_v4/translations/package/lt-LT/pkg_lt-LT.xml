@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Lithuanian (Lithuania) lt-LT Language Pack</name>
 	<packagename>lt-LT</packagename>
-	<version>4.2.1.1</version>
+	<version/>
 	<creationDate>2022-08</creationDate>
 	<author>Oskaras Jankauskas</author>
 	<authorEmail/>
