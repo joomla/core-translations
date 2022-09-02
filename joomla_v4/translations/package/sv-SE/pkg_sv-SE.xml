@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Swedish (sv-SE) Language Pack</name>
 	<packagename>sv-SE</packagename>
-	<version/>
-	<creationDate>Augusti 2022</creationDate>
+	<version>4.2.2.1</version>
+	<creationDate>September 2022</creationDate>
 	<author>Swedish Translation Team - SvenskJoomla</author>
 	<authorEmail>info@svenskjoomla.se</authorEmail>
 	<authorUrl>https://www.svenskjoomla.se</authorUrl>

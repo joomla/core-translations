@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Српска ћирилица (sr-RS) језички пакет</name>
 	<packagename>sr-RS</packagename>
-	<version/>
+	<version>4.2.2.1</version>
 	<creationDate>август 2022</creationDate>
 	<author>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</author>
 	<authorEmail>prevod@bardak.rs</authorEmail>
