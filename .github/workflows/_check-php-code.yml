@@ -16,7 +16,8 @@ jobs:
   check-php-code:
     if: (github.repository == 'joomla/core-translations') || (github.repository != 'joomla/core-translations' && github.event_name != 'schedule')
     runs-on: ubuntu-latest
-    permissions: read-all
+    permissions:
+      checks: write
     steps:
       - uses: haya14busa/action-workflow_run-status@v1
         if: github.event_name == 'workflow_run'
