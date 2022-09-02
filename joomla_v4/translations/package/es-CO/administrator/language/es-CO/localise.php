@@ -88,7 +88,19 @@ abstract class Es_ESLocalise
         return 200;
     }
 }
-abstract class En_GBLocalise
+* @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
+
+ * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
+ */
+
+
+
+/**
+ * en-GB localise class.
+ *
+ * @since  1.6
+ */
+abstract class Es_ESLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -119,7 +131,7 @@ abstract class En_GBLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('and', 'in', 'on');
+        return array('y', 'en', 'con');
     }
 
     /**
