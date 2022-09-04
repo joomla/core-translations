@@ -13,10 +13,6 @@ on:
 jobs:
   no-jexec:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
-      checks: write
 
     steps:
     - uses: haya14busa/action-workflow_run-status@v1
