@@ -16,9 +16,26 @@ jobs:
   check-php-code:
     if: (github.repository == 'joomla/core-translations') || (github.repository != 'joomla/core-translations' && github.event_name != 'schedule')
     runs-on: ubuntu-latest
+    permissions:
+      statuses: write
+      issues: read
+      pull-requests: read
+
     steps:
-      - uses: haya14busa/action-workflow_run-status@v1
+      - name: Create status
         if: github.event_name == 'workflow_run'
+        run: |
+          curl --request POST \
+          --url https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.event.workflow_run.head_commit.id }} \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          --header 'content-type: application/json' \
+          --data '{
+            "state": "pending",
+            "context": "Check PHP Code",
+            "target_url": "${{ github.event.workflow_run.html_url }}"
+            }' \
+          --fail
+
       - name: Checkout Source Code
         uses: actions/checkout@v3
         with:
@@ -28,3 +45,18 @@ jobs:
         uses: StephaneBour/actions-php-lint@7.4
         with:
           dir: '.'
+
+      - name: Update check status
+        if: always() && github.event_name == 'workflow_run'
+        continue-on-error: true
+        run: |
+          curl --request POST \
+          --url https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.event.workflow_run.head_commit.id }} \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          --header 'content-type: application/json' \
+          --data '{
+            "state": "${{ github.event.workflow_run.conclusion }}",
+            "context": "Check PHP Code",
+            "target_url": "${{ github.event.workflow_run.html_url }}"
+            }'  \
+          --fail
