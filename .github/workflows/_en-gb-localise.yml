@@ -66,8 +66,8 @@ jobs:
 
       - name: fail workflow
         run: |
-         if [ ! -s ./joomla_v4/translations/package/logs/en_gblocalise_result ]; then
-           exit 1
+         if [ -s ./joomla_v4/translations/package/logs/en_gblocalise_result ]; then
+         exit 1
          fi
 
       - name: Upload En_GBLocalise-logs
