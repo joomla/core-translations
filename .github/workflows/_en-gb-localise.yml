@@ -33,11 +33,11 @@ jobs:
             }' \
           --fail
 
-    - name: Checkout Source Code
-      uses: actions/checkout@v3
-    - name: Check PR content
-      id: build
-      run: |
+      - name: Checkout Source Code
+        uses: actions/checkout@v3
+      - name: Check PR content
+        id: build
+        run: |
           cd ./joomla_v4/translations/package
           mkdir ./logs
           grep -rn --include \*.php 'En_GBLocalise' | tee ./logs/en_gblocalise_result
@@ -49,33 +49,33 @@ jobs:
           echo -n "$affi" > ./logs/files_affected
           cat ./logs/en_gblocalise_result
 
-    - name: Save PR number
-      if: ${{ always() }}
-      run: |
+      - name: Save PR number
+        if: ${{ always() }}
+        run: |
           cd ./joomla_v4/translations/package
           echo -n ${{ github.event.pull_request.number }} | tee ./logs/pr_number
           [ -s ./logs/pr_number ] || gh pr list --limit 1 --repo joomla/core-translations --author app/github-actions --state open --json number --jq .[].number > ./logs/pr_number
           prnumber=$(head -n 1 ./logs/pr_number)
           echo -n "$prnumber" > ./logs/pr_number
-      env:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-    - name: Save PR sha
-      if: ${{ always() }}
-      run: echo ${{ github.sha }} | tee ./joomla_v4/translations/package/logs/pr_sha
+      - name: Save PR sha
+        if: ${{ always() }}
+        run: echo ${{ github.sha }} | tee ./joomla_v4/translations/package/logs/pr_sha
 
-    - name: fail workflow
-      run: |
-        if [ ! -s ./joomla_v4/translations/package/logs/en_gblocalise_result ]; then
-        exit 1
-        fi
+      - name: fail workflow
+        run: |
+         if [ ! -s ./joomla_v4/translations/package/logs/en_gblocalise_result ]; then
+           exit 1
+         fi
 
-    - name: Upload En_GBLocalise-logs
-      if: ${{ always() }}
-      uses: actions/upload-artifact@v2
-      with:
-        name: En_GBLocalise-logs
-        path: ./joomla_v4/translations/package/logs
+      - name: Upload En_GBLocalise-logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v2
+        with:
+          name: En_GBLocalise-logs
+          path: ./joomla_v4/translations/package/logs
         
       - name: Update check status
         if: always() && github.event_name == 'workflow_run'
