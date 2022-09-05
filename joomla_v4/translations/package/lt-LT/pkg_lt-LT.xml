@@ -2,10 +2,10 @@
 <extension type="package" method="upgrade">
 	<name>Lithuanian (Lithuania) lt-LT Language Pack</name>
 	<packagename>lt-LT</packagename>
-	<version>4.2.2.1</version>
+	<version>4.2.3.1</version>
 	<creationDate>2022-08</creationDate>
 	<author>Oskaras Jankauskas</author>
-	<authorEmail>admin@joomla.org</authorEmail>
+	<authorEmail>master@oskaraz.lt</authorEmail>
 	<authorUrl>www.oskaraz.lt</authorUrl>
 	<copyright>Copyright (C) 2019 - 2019 Open Source Matters, Inc. Visos teisės saugomos.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
