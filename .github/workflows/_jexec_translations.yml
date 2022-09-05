@@ -13,10 +13,26 @@ on:
 jobs:
   no-jexec:
     runs-on: ubuntu-latest
+    permissions:
+      statuses: write
+      issues: read
+      pull-requests: read
 
     steps:
-    - uses: haya14busa/action-workflow_run-status@v1
-      if: github.event_name == 'workflow_run'
+      - name: Create status
+        if: github.event_name == 'workflow_run'
+        run: |
+          curl --request POST \
+          --url https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.event.workflow_run.head_commit.id }} \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          --header 'content-type: application/json' \
+          --data '{
+            "state": "pending",
+            "context": "JEXEC in translations",
+            "target_url": "${{ github.event.workflow_run.html_url }}"
+            }' \
+          --fail
+
     - name: Checkout Source Code
       uses: actions/checkout@v3
     - name: Check PR content
@@ -50,10 +66,9 @@ jobs:
 
     - name: fail workflow
       run: |
-        if [ -f ./joomla_v4/translations/package/logs/jexec_result ]; then
+        if [ ! -s ./joomla_v4/translations/package/logs/jexec_result ]; then
         exit 1
         fi
-
 
     - name: JEXEC-logs
       if: ${{ always() }}
@@ -61,3 +76,18 @@ jobs:
       with:
         name: JEXEC-logs
         path: ./joomla_v4/translations/package/logs
+        
+      - name: Update check status
+        if: always() && github.event_name == 'workflow_run'
+        continue-on-error: true
+        run: |
+          curl --request POST \
+          --url https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.event.workflow_run.head_commit.id }} \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          --header 'content-type: application/json' \
+          --data '{
+            "state": "${{ github.event.workflow_run.conclusion }}",
+            "context": "JEXEC in translations",
+            "target_url": "${{ github.event.workflow_run.html_url }}"
+            }'  \
+          --fail
