@@ -42,7 +42,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: PHP Syntax Checker (Lint)
-        uses: StephaneBour/actions-php-lint@7.4
+        uses: StephaneBour/actions-php-lint@8.1
         with:
           dir: '.'
 
