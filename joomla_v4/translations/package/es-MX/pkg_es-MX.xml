@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Spanish (Mexico) Language Pack</name>
 	<packagename>es-ES</packagename>
-	<version>4.2.2.1</version>
-	<creationDate>2022/9/2</creationDate>
+	<version>4.2.2.2</version>
+	<creationDate>2022/9/3</creationDate>
 	<author>Spanish [es-ES] Translation Team</author>
 	<authorEmail>es.es.translation.team@gmail.com</authorEmail>
 	<authorUrl>https://traduccion.joomlaes.org/</authorUrl>
