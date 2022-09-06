@@ -17,7 +17,7 @@
 		<locale>sr-YU.utf8, sr-YU.UTF-8, sr-YU, sr-YU, sr, serbian, srpski, srb, latinica, srpski latinica, Serbian Latin, serbia, srbija,sr-Latn-RS,sr-Latn,sr-RS</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar>gregorijanski</calendar>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
