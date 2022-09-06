@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
 	<name>Српска ћирилица (sr-RS)</name>
-	<version/>
-	<creationDate/>
+	<version>4.2.3</version>
+	<creationDate>септембар 2022</creationDate>
 	<author>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</author>
 	<authorEmail>prevod@bardak.rs</authorEmail>
 	<authorUrl>https://www.bardak.rs</authorUrl>
@@ -17,7 +17,7 @@
 		<locale>sr_RS.utf8, sr_RS.UTF-8, sr_RS, sr_RS, sr, српски, срб, ћирилица, српска ћирилица, србија</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar>грегоријански</calendar>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
