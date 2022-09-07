@@ -71,7 +71,7 @@ jobs:
 
       - name: JEXEC-logs
         if: ${{ always() }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: JEXEC-logs
           path: ./joomla_v4/translations/package/logs
