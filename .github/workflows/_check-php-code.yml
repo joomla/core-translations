@@ -22,8 +22,18 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: haya14busa/action-workflow_run-status@v1
+      - name: Get crowdin PR details
+        uses: xt0rted/pull-request-comment-branch@v1.3.0
         if: github.event_name == 'workflow_run'
+        id: pr-details
+      - name: Set commit status as pending
+        uses: myrotvorets/set-commit-status-action@1.1.5
+        if: github.event_name == 'workflow_run'
+        with:
+          sha: ${{ steps.pr-details.outputs.head_sha }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          status: pending
+          targetUrl: ${{ job.html_url }}
 
       - name: Checkout Source Code
         uses: actions/checkout@v3
@@ -34,3 +44,13 @@ jobs:
         uses: StephaneBour/actions-php-lint@7.4
         with:
           dir: '.'
+
+      - name: Set final commit status
+        uses: myrotvorets/set-commit-status-action@1.1.5
+        if: always() && github.event_name == 'workflow_run'
+        with:
+          sha: ${{ steps.pr-details.outputs.head_sha }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          status: ${{ job.status }}
+          targetUrl: ${{ job.html_url }}
+
