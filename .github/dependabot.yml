@@ -8,3 +8,5 @@ updates:
       time: "09:00"
     reviewers:
       - "tecpromotion"
+    assignees:
+      - "tecpromotion"
