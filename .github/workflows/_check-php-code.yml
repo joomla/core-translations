@@ -4,9 +4,6 @@ on:
   pull_request:
     branches:
       - main
-  workflow_run:
-    workflows: ["J4 Download Package Translations Crowdin Action"]
-    types: [completed]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
@@ -16,26 +13,9 @@ jobs:
   check-php-code:
     if: (github.repository == 'joomla/core-translations') || (github.repository != 'joomla/core-translations' && github.event_name != 'schedule')
     runs-on: ubuntu-latest
-    permissions:
-      statuses: write
-      issues: write
-      pull-requests: write
-      contents: read
+    permissions: read-all
 
     steps:
-      - name: Get crowdin PR details
-        uses: xt0rted/pull-request-comment-branch@v1.3.0
-        if: github.event_name == 'workflow_run'
-        id: pr-details
-      - name: Set commit status as pending
-        uses: myrotvorets/set-commit-status-action@1.1.5
-        if: github.event_name == 'workflow_run'
-        with:
-          sha: ${{ steps.pr-details.outputs.head_sha }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          status: pending
-          targetUrl: ${{ job.html_url }}
-
       - name: Checkout Source Code
         uses: actions/checkout@v3
         with:
@@ -45,13 +25,4 @@ jobs:
         uses: StephaneBour/actions-php-lint@7.4
         with:
           dir: '.'
-
-      - name: Set final commit status
-        uses: myrotvorets/set-commit-status-action@1.1.5
-        if: always() && github.event_name == 'workflow_run'
-        with:
-          sha: ${{ steps.pr-details.outputs.head_sha }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          status: ${{ job.status }}
-          targetUrl: ${{ job.html_url }}
 
