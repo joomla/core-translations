@@ -7,7 +7,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
-  GITHUB_TOKEN: ${{ secrets.CROWDIN_V4_DL_PACKAGE_TRANSLATIONS_TOKEN }}
+  CROWDIN_PAT: ${{ secrets.CROWDIN_PAT }}
   CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
