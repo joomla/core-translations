@@ -678,8 +678,17 @@ jobs:
       #      "LanguageName": "Uyghur",
       #      "CrowdinID": "ug"
 
-      #      "LanguageName": "Vietnamese",
-      #      "CrowdinID": "vi"
+      - name: Crowdin Download Vietnamese
+        uses: crowdin/github-action@1.4.12
+        with:
+          config: 'Configurations/Crowdin-J4-Installer.yml'
+          upload_sources: false
+          download_translations: true
+          download_language: vi
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Vietnamese Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Welsh
         uses: crowdin/github-action@1.4.12
