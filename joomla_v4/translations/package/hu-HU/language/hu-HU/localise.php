@@ -22,7 +22,7 @@ use Joomla\String\StringHelper;
  *
  * @since  1.6
  */
-abstract class hu_HULocalise
+abstract class Hu_HULocalise
 {
 	/**
 	 * Returns the potential suffixes for a specific number of items
@@ -140,3 +140,4 @@ abstract class hu_HULocalise
  
         return $str;
     }
+}
