@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Vietnamese (vi-VN) Language Pack</name>
 	<packagename>vi-VN</packagename>
-	<version/>
+	<version>4.2.2.1</version>
 	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
