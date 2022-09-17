@@ -25,7 +25,7 @@ jobs:
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Polish
-      uses: crowdin/github-action@1.4.12
+      uses: crowdin/github-action@1.4.13
       with:
         # Upload sources to Crowdin
         upload_sources: false
