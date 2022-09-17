@@ -9,7 +9,7 @@
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>Vietnamese language pack for Joomla! 3.2</description>
+	<description>Vietnamese language pack for Joomla! 4.2</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
