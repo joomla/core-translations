@@ -3,8 +3,8 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @copyright  (C) 2010 Open source matters, Inc. <https://www.joomla.org>
+ * @license    Licença pública geral GNU versão 2 ou posterior; consulte LICENSE.txt
 
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
 
@@ -16,18 +16,18 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * pt-BR localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Pt_BRLocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * Retorna os sufixos potenciais para um número específico de itens
      *
-     * @param   integer  $count  The number of items.
+     * @param   integer  $count  O número de itens.
      *
-     * @return  array  An array of potential suffixes.
+     * @return  array  Um arranjo de sufixos potenciais.
      *
      * @since   1.6
      */

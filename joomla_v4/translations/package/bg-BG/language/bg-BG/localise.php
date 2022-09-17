@@ -4,7 +4,7 @@
  * @package    Joomla.Language
  *
  * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @license    GNU General Public License версия 2 или по-висока, виж LICENSE.txt
 
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
 
@@ -23,11 +23,11 @@
 abstract class Bg_BGLocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * Връща възможните наставки за определен брой елементи
      *
-     * @param   integer  $count  The number of items.
+     * @param   integer  $count  Брой елементи.
      *
-     * @return  array  An array of potential suffixes.
+     * @return  array  Масив от възможните наставки.
      *
      * @since   1.6
      */

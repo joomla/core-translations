@@ -140,3 +140,4 @@ abstract class hu_HULocalise
  
         return $str;
     }
+}

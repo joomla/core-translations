@@ -1,4 +1,4 @@
-© 2002 - 2021 Joomla! Bulgaria. Всички права запазени
+© 2002 - 2022 Joomla! Bulgaria. Всички права запазени
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
 ; GNU General Public License версия 2 или по-късна; Виж LICENSE.txt
 ; Забележка: Този файл трябва да бъде записан като UTF-8

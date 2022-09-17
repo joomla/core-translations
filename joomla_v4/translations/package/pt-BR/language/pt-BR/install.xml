@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="site" type="language" method="upgrade">
-	<name>Português Brasil (pt-BR)</name>
+	<name>Português do Brasil (pt-BR)</name>
 	<tag>pt-BR</tag>
-	<version/>
-	<creationDate/>
+	<version>4.2.3</version>
+	<creationDate>Setembro de 2022</creationDate>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>Copyright (C) 2021 Open Source Matters. Todos os direitos reservados.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>pt-BR site language</description>
+	<copyright>(C) 2013 Open source matters, Inc.</copyright>
+	<license>Licença pública geral GNU versão 2 ou posterior; consulte LICENSE.txt</license>
+	<description>linguagem do site pt-BR</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
