@@ -44,14 +44,29 @@ abstract class Bg_BGLocalise
 
     /**
      * Returns the ignored search words
-     *
+     * Връща списък с думи за които да не се търси от com_search
      * @return  array  An array of ignored search words.
      *
      * @since   1.6
      */
     public static function getIgnoredSearchWords()
     {
-        return array('and', 'in', 'on');
+        $search_ignore = array();
+        $search_ignore[] = 'href';
+        $search_ignore[] = 'lol';
+        $search_ignore[] = 'www';
+
+        $search_ignore[] = 'а';
+        $search_ignore[] = 'без';
+        $search_ignore[] = 'да';
+        $search_ignore[] = 'и';
+        $search_ignore[] = 'или';
+        $search_ignore[] = 'не';
+        $search_ignore[] = 'но';
+        $search_ignore[] = 'няма';
+
+        return $search_ignore;
+        
     }
 
     /**

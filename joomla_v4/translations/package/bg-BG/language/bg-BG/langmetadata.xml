@@ -18,7 +18,7 @@
 		<locale>bg-BG.UTF-8, bg-BG.utf8, bg_BG.UTF-8, bg_BG.utf8, bgr-BGR.UTF-8, bgr-BGR.utf8, bgr_BGR.UTF-8, bgr_BGR.utf8, bg.UTF-8, bg.utf8, bgr.UTF-8, bgr.utf8, bulgarian.UTF-8, bulgarian.utf8, bulgaria.UTF-8, bulgaria.utf8, bg-BG, bgr-BGR, bgr_BGR, bg_BG</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar>григориански</calendar>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
