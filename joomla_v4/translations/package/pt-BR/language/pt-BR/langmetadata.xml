@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
-	<name>Português Brasil (pt-BR)</name>
-	<version/>
-	<creationDate/>
+	<name>Português do Brasil (pt-BR)</name>
+	<version>4.2.3</version>
+	<creationDate>Setembro de 2022</creationDate>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>Copyright (C) 2021 Open Source Matters. Todos os direitos reservados.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[pt-BR site language]]></description>
+	<copyright>(C) 2006 Open source matters, Inc</copyright>
+	<license>Licença pública geral GNU versão 2 ou posterior; consulte LICENSE.txt</license>
+	<description><![CDATA[linguagem do site pt-BR]]></description>
 	<metadata>
-		<name>Português do Brasil (pt-BR)</name>
-		<nativeName>Português do Brasil (pt-BR)</nativeName>
+		<name>Português (Brasil)</name>
+		<nativeName>Português (Brasil)</nativeName>
 		<tag>pt-BR</tag>
 		<rtl>0</rtl>
 		<locale>pt_BR.utf8, pt_BR.UTF-8, pt_BR, brazil</locale>
