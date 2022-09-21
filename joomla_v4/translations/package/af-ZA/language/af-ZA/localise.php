@@ -16,18 +16,18 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * af.ZA localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Af_ZALocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * Wys die potensiële agtervoegsels vir 'n spesifieke aantal items
      *
-     * @param   integer  $count  The number of items.
+     * @param   integer  $count  Die aantal items.
      *
-     * @return  array  An array of potential suffixes.
+     * @return  array  'n Verskeidenheid potensiële agtervoegsels.
      *
      * @since   1.6
      */
