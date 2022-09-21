@@ -16,18 +16,18 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * af.ZA localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Af_ZALocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * Wys die potensiële agtervoegsels vir 'n spesifieke aantal items
      *
-     * @param   integer  $count  The number of items.
+     * @param   integer  $count  Die aantal items.
      *
-     * @return  array  An array of potential suffixes.
+     * @return  array  verskeidenheid potensiële agtervoegsels.
      *
      * @since   1.6
      */
@@ -43,9 +43,9 @@ abstract class En_GBLocalise
     }
 
     /**
-     * Returns the ignored search words
+     * Wys die geïgnoreer soekwoorde
      *
-     * @return  array  An array of ignored search words.
+     * @return  array  reeks geïgnoreer soekwoorde.
      *
      * @since   1.6
      */
@@ -55,9 +55,9 @@ abstract class En_GBLocalise
     }
 
     /**
-     * Returns the lower length limit of search words
+     * Wys die onderste lengtelimiet van soekwoorde
      *
-     * @return  integer  The lower length limit of search words.
+     * @return  integer  Die onderste lengtelimiet van soekwoorde.
      *
      * @since   1.6
      */
@@ -67,9 +67,9 @@ abstract class En_GBLocalise
     }
 
     /**
-     * Returns the upper length limit of search words
+     * Wys die boonste lengtelimiet van soekwoorde
      *
-     * @return  integer  The upper length limit of search words.
+     * @return  integer  Die boonste lengtelimiet van soekwoorde.
      *
      * @since   1.6
      */
@@ -79,9 +79,9 @@ abstract class En_GBLocalise
     }
 
     /**
-     * Returns the number of chars to display when searching
+     * Wys die aantal tekens om te wys wanneer jy soek
      *
-     * @return  integer  The number of chars to display when searching.
+     * @return  integer  Die aantal karakters om te vertoon wanneer jy soek.
      *
      * @since   1.6
      */
