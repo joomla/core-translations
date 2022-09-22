@@ -1,4 +1,4 @@
-; Joomla! Projek
+; Afrikaans Translation Team
 ; (C) 2021 Open Source Matters, Inc. <https://www.joomla.org>
 ; Lisensie GNU General Public License weergawe 2 of later; sien LICENSE.txt
 ; Nota: Hierdie lêer moet as UTF-8 gestoor word
