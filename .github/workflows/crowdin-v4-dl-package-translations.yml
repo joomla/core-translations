@@ -23,7 +23,7 @@ jobs:
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Download Afrikaans
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         # Option to specify a path to the configuration file, without / at the beginning
         config: 'Configurations/Crowdin-J4-All.yml'
@@ -42,7 +42,7 @@ jobs:
         commit_message: 'New Afrikaans Crowdin translations by Github Action'
 
     - name: Crowdin Download Albanian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -53,7 +53,7 @@ jobs:
         commit_message: 'New Albanian Crowdin translations by Github Action'
 
     - name: Crowdin Download Arabic
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -64,7 +64,7 @@ jobs:
         commit_message: 'New Arabic Crowdin translations by Github Action'
 
     - name: Crowdin Download Armenian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -75,7 +75,7 @@ jobs:
         commit_message: 'New Armenian Crowdin translations by Github Action'
 
     - name: Crowdin Download Azerbaijani
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -86,7 +86,7 @@ jobs:
         commit_message: 'New Azerbaijani Crowdin translations by Github Action'
 
     - name: Crowdin Download Basque
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -97,7 +97,7 @@ jobs:
         commit_message: 'New Basque Crowdin translations by Github Action'
 
     - name: Crowdin Download Bengali
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -108,7 +108,7 @@ jobs:
         commit_message: 'New Bengali Crowdin translations by Github Action'
 
     - name: Crowdin Download Bosnian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -119,7 +119,7 @@ jobs:
         commit_message: 'New Bosnian Crowdin translations by Github Action'
 
     - name: Crowdin Download Bulgarian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -130,7 +130,7 @@ jobs:
         commit_message: 'New Bulgarian Crowdin translations by Github Action'
 
     - name: Crowdin Download Catalan
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -141,7 +141,7 @@ jobs:
         commit_message: 'New Catalan Crowdin translations by Github Action'
 
     - name: Crowdin Download Chinese Simplified
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -152,7 +152,7 @@ jobs:
         commit_message: 'New Chinese Simplified Crowdin translations by Github Action'
 
     - name: Crowdin Download Chinese Traditional
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -163,7 +163,7 @@ jobs:
         commit_message: 'New Chinese Traditional Crowdin translations by Github Action'
 
     - name: Crowdin Download Croatian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -174,7 +174,7 @@ jobs:
         commit_message: 'New Croatian Crowdin translations by Github Action'
 
     - name: Crowdin Download Czech
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -185,7 +185,7 @@ jobs:
         commit_message: 'New Czech Crowdin translations by Github Action'
 
     - name: Crowdin Download Danish
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -196,7 +196,7 @@ jobs:
         commit_message: 'New Danish Crowdin translations by Github Action'
 
     - name: Crowdin Download Dari
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -207,7 +207,7 @@ jobs:
         commit_message: 'New Dari Crowdin translations by Github Action'
 
     - name: Crowdin Download Dutch
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -218,7 +218,7 @@ jobs:
         commit_message: 'New Dutch Crowdin translations by Github Action'
 
     - name: Crowdin Download Dutch Belgium
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -229,7 +229,7 @@ jobs:
         commit_message: 'New Dutch Belgium Crowdin translations by Github Action'
 
     - name: Crowdin Download English Australia
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -240,7 +240,7 @@ jobs:
         commit_message: 'New English Australia Crowdin translations by Github Action'
 
     - name: Crowdin Download English Canada
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -251,7 +251,7 @@ jobs:
         commit_message: 'New English Canada Crowdin translations by Github Action'
 
     - name: Crowdin Download English New Zealand
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -262,7 +262,7 @@ jobs:
         commit_message: 'New English New Zealand Crowdin translations by Github Action'
 
     - name: Crowdin Download English US
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -273,7 +273,7 @@ jobs:
         commit_message: 'New English US Crowdin translations by Github Action'
 
     - name: Crowdin Download English South Africa
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -284,7 +284,7 @@ jobs:
         commit_message: 'New English South Africa Crowdin translations by Github Action'
 
     - name: Crowdin Download Esperanto
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -295,7 +295,7 @@ jobs:
         commit_message: 'New Esperanto Crowdin translations by Github Action'
 
     - name: Crowdin Download Estonian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -306,7 +306,7 @@ jobs:
         commit_message: 'New Estonian Crowdin translations by Github Action'
 
     - name: Crowdin Download Finnish
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -318,7 +318,7 @@ jobs:
 
 
     - name: Crowdin Download French
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -329,7 +329,7 @@ jobs:
         commit_message: 'New French Crowdin translations by Github Action'
 
     - name: Crowdin Download French Canada
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -340,7 +340,7 @@ jobs:
         commit_message: 'New French Canada Crowdin translations by Github Action'
 
     - name: Crowdin Download Galician
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -351,7 +351,7 @@ jobs:
         commit_message: 'New Galician Crowdin translations by Github Action'
 
     - name: Crowdin Download Georgian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -368,7 +368,7 @@ jobs:
 # German Swiss doesn't use Crowdin
 
     - name: Crowdin Download Greek
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -379,7 +379,7 @@ jobs:
         commit_message: 'New Greek Crowdin translations by Github Action'
 
     - name: Crowdin Download Gujarati
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -390,7 +390,7 @@ jobs:
         commit_message: 'New Gujarati Crowdin translations by Github Action'
 
     - name: Crowdin Download Hebrew
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -401,7 +401,7 @@ jobs:
         commit_message: 'New Hebrew Crowdin translations by Github Action'
 
     - name: Crowdin Download Hindi
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -412,7 +412,7 @@ jobs:
         commit_message: 'New Hindi Crowdin translations by Github Action'
 
     - name: Crowdin Download Hungarian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -423,7 +423,7 @@ jobs:
         commit_message: 'New Hungarian Crowdin translations by Github Action'
 
     - name: Crowdin Download Indonesian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -434,7 +434,7 @@ jobs:
         commit_message: 'New Indonesian Crowdin translations by Github Action'
 
     - name: Crowdin Download Irish
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -445,7 +445,7 @@ jobs:
         commit_message: 'New Irish Crowdin translations by Github Action'
 
     - name: Crowdin Download Italian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -458,7 +458,7 @@ jobs:
 # Japanese doesn't use Crowdin
 
     - name: Crowdin Download Kazakh
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -469,7 +469,7 @@ jobs:
         commit_message: 'New Kazakh Crowdin translations by Github Action'
 
     - name: Crowdin Download Khmer
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -480,7 +480,7 @@ jobs:
         commit_message: 'New Khmer Crowdin translations by Github Action'
 
     - name: Crowdin Download Korean
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -491,7 +491,7 @@ jobs:
         commit_message: 'New Korean Crowdin translations by Github Action'
 
     - name: Crowdin Download Kyrgyz
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -502,7 +502,7 @@ jobs:
         commit_message: 'New Kyrgyz Crowdin translations by Github Action'
 
     - name: Crowdin Download Lao
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -513,7 +513,7 @@ jobs:
         commit_message: 'New Lao Crowdin translations by Github Action'
 
     - name: Crowdin Download Latvian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -524,7 +524,7 @@ jobs:
         commit_message: 'New Latvian Crowdin translations by Github Action'
 
     - name: Crowdin Download Lithuanian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -535,7 +535,7 @@ jobs:
         commit_message: 'New Lithuanian Crowdin translations by Github Action'
 
     - name: Crowdin Download Macedonian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -546,7 +546,7 @@ jobs:
         commit_message: 'New Macedonian Crowdin translations by Github Action'
 
     - name: Crowdin Download Malay
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -557,7 +557,7 @@ jobs:
         commit_message: 'New Malay Crowdin translations by Github Action'
 
     - name: Crowdin Download Malayalam
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -568,7 +568,7 @@ jobs:
         commit_message: 'New Malayalam Crowdin translations by Github Action'
 
     - name: Crowdin Download Marathi
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -579,7 +579,7 @@ jobs:
         commit_message: 'New Marathi Crowdin translations by Github Action'
 
     - name: Crowdin Download Mongolian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -590,7 +590,7 @@ jobs:
         commit_message: 'New Mongolian Crowdin translations by Github Action'
 
     - name: Crowdin Download Ndonga
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -601,7 +601,7 @@ jobs:
         commit_message: 'New Ndonga Crowdin translations by Github Action'
 
     - name: Crowdin Download Northern Sami
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -612,7 +612,7 @@ jobs:
         commit_message: 'New Northern Sami Crowdin translations by Github Action'
 
     - name: Crowdin Download Norwegian Bokmal
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -623,7 +623,7 @@ jobs:
         commit_message: 'New Norwegian Bokmal Crowdin translations by Github Action'
 
     - name: Crowdin Download Norwegian Nynorsk
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -634,7 +634,7 @@ jobs:
         commit_message: 'New Norwegian Nynorsk Crowdin translations by Github Action'
 
     - name: Crowdin Download Occitan
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -645,7 +645,7 @@ jobs:
         commit_message: 'New Occitan Crowdin translations by Github Action'
 
     - name: Crowdin Download Pashto
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -656,7 +656,7 @@ jobs:
         commit_message: 'New Pashto Crowdin translations by Github Action'
 
     - name: Crowdin Download Persian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -669,7 +669,7 @@ jobs:
 # Polish doesn't use Crowdin
 
     - name: Crowdin Download Portuguese
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -680,7 +680,7 @@ jobs:
         commit_message: 'New Portuguese Crowdin translations by Github Action'
 
     - name: Crowdin Download Portuguese Brazilian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -691,7 +691,7 @@ jobs:
         commit_message: 'New Portuguese Brazilian Crowdin translations by Github Action'
 
     - name: Crowdin Download Romanian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -704,7 +704,7 @@ jobs:
 # Russian doesn't use Crowdin
 
     - name: Crowdin Download Serbian Cyrillic
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -715,7 +715,7 @@ jobs:
         commit_message: 'New Serbian Cyrillic Crowdin translations by Github Action'
 
     - name: Crowdin Download Serbian Latin
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -726,7 +726,7 @@ jobs:
         commit_message: 'New Serbian Latin Crowdin translations by Github Action'
 
     - name: Crowdin Download Sinhala
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -737,7 +737,7 @@ jobs:
         commit_message: 'New Sinhala Crowdin translations by Github Action'
 
     - name: Crowdin Download Slovak
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -748,7 +748,7 @@ jobs:
         commit_message: 'New Slovak Crowdin translations by Github Action'
 
     - name: Crowdin Download Slovenian
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -761,7 +761,7 @@ jobs:
 # Spanish doesn't use Crowdin
 
     - name: Crowdin Download Spanish Colombia
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -772,7 +772,7 @@ jobs:
         commit_message: 'New Spanish Colombia Crowdin translations by Github Action'
 
     - name: Crowdin Download Spanish Mexico
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -783,7 +783,7 @@ jobs:
         commit_message: 'New Spanish Mexico Crowdin translations by Github Action'
 
     - name: Crowdin Download Swahili
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -794,7 +794,7 @@ jobs:
         commit_message: 'New Swahili Crowdin translations by Github Action'
 
     - name: Crowdin Download Swedish
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -805,7 +805,7 @@ jobs:
         commit_message: 'New Swedish Crowdin translations by Github Action'
 
     - name: Crowdin Download Syriac
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -816,7 +816,7 @@ jobs:
         commit_message: 'New Syriac Crowdin translations by Github Action'
 
     - name: Crowdin Download Tagalog
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -827,7 +827,7 @@ jobs:
         commit_message: 'New Tagalog Crowdin translations by Github Action'
 
     - name: Crowdin Download Tamil
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -838,7 +838,7 @@ jobs:
         commit_message: 'New Tamil Crowdin translations by Github Action'
 
     - name: Crowdin Download Thai
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -849,7 +849,7 @@ jobs:
         commit_message: 'New Thai Crowdin translations by Github Action'
 
     - name: Crowdin Download Tornedalen, Finland
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -860,7 +860,7 @@ jobs:
         commit_message: 'New Tornedalen, Finland Crowdin translations by Github Action'
 
     - name: Crowdin Download Turkish
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -871,7 +871,7 @@ jobs:
         commit_message: 'New Turkish Crowdin translations by Github Action'
 
     - name: Crowdin Download Turkmen
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -884,7 +884,7 @@ jobs:
 # Ukrainian doesn't use Crowdin
 
     - name: Crowdin Download Urdu India
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -895,7 +895,7 @@ jobs:
         commit_message: 'New Urdu India Crowdin translations by Github Action'
 
     - name: Crowdin Download Urdu Pakistan
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -906,7 +906,7 @@ jobs:
         commit_message: 'New Urdu Pakistan Crowdin translations by Github Action'
 
     - name: Crowdin Download Uyghur
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -917,7 +917,7 @@ jobs:
         commit_message: 'New Uyghur Crowdin translations by Github Action'
 
     - name: Crowdin Download Vietnamese
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
@@ -928,7 +928,7 @@ jobs:
         commit_message: 'New Vietnamese Crowdin translations by Github Action'
 
     - name: Crowdin Download Welsh
-      uses: crowdin/github-action@1.4.13
+      uses: crowdin/github-action@1.4.14
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
