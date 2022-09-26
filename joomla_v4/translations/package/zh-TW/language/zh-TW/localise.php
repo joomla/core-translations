@@ -41,3 +41,4 @@ abstract class Zh_TWLocalise
             return array('OTHER', 'MORE');
         }
     }
+}
