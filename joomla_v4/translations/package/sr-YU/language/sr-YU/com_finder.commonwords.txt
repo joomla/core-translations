@@ -1,4 +1,4 @@
-; Joomla! Projekat
+; Joomla! CMS
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
 ; License GNU General Public License verzija 2 ili pogledaj LICENSE.txt
 ; Napomena : Ova datoteka mora da bude sačuvana kao UTF-8
