@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>English (en-CA)</name>
 	<tag>en-CA</tag>
-	<version>4.2.2.2</version>
+	<version/>
 	<creationDate>2022-09</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
