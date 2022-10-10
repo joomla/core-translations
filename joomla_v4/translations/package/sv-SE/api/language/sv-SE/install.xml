@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Swedish (sv-SE)</name>
 	<tag>sv-SE</tag>
-	<version/>
+	<version>4.2.4</version>
 	<creationDate>2022-09</creationDate>
 	<author>Swedish Translation Team - SvenskJoomla</author>
 	<authorEmail>info@svenskjoomla.se</authorEmail>
