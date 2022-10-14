@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Srpski Latinica (sr-Latn-RS)</name>
 	<tag>sr-YU</tag>
-	<version/>
+	<version>4.2.4</version>
 	<creationDate>2022-09</creationDate>
 	<author>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</author>
 	<authorEmail>info@uixwebdesign.com</authorEmail>
