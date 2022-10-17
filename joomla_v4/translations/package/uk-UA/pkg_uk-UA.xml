@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Ukrainian (uk-UA) Language Pack</name>
+	<name>uk-UA</name>
 	<packagename>uk-UA</packagename>
 	<version>4.2.3.1</version>
-	<creationDate>2022-10-15</creationDate>
-	<author>Community Joomla! Ukraine</author>
+	<creationDate>2022-10-16</creationDate>
+	<author>Denys Nosov</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
 	<copyright>2006-2022 (C) Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later</license>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://joomla-ua.org</url>
 	<packager>Joomla! Ukraine</packager>
 	<packagerurl>https://joomla-ua.org</packagerurl>
-	<description><![CDATA[Український пакет локалізації Joomla! 4.2.3]]></description>
+	<description><![CDATA[<h3>Український пакет локалізації Joomla! 4.2.3 (Ukrainian Language Pack)</h3><p>Українська спільнота Joomla!</p><ul><li><a href="https://joomla-ua.org/" target="_blank">Joomla! Україна</a></li><li><a href="https://cutt.ly/ZBA8p32" target="_blank">Чат в Telegram</a></li><li><a href="https://github.com/Joomla-Ukraine/uk-UA" target="_blank">Локалізація на GitHub</a></li><li><a href="https://joomla-ua.org/hosting" target="_blank">Хостинг для Joomla</a></li></ul><h3>Україна потребує вашої допомоги</h3><p>Зробіть свій вклад у допомогу українській армії та для гуманітарних цілей!</p><ul><li><a href="https://cutt.ly/JBAxK4E" target="_blank">Допомога українській армії</a></li><li><a href="https://cutt.ly/0BAbcHG" target="_blank">Гуманітарна допомога</a></li></ul>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="uk-UA">language/uk-UA</folder>
