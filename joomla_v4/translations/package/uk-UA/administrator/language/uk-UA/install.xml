@@ -2,12 +2,12 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Ukrainian (uk-UA)</name>
 	<tag>uk-UA</tag>
-	<version>4.0.3.2</version>
-	<creationDate>2021-09-18</creationDate>
+	<version>4.2.3</version>
+	<creationDate>2022-09-19</creationDate>
 	<author>Community Joomla! Ukraine</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
-	<copyright>2006-2021 (C) Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
+	<copyright>2006-2022 (C) Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<description>uk-UA - Administration language</description>
 	<files>

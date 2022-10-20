@@ -13,8 +13,8 @@ defined('_JEXEC') or die;
 /**
  * Uk_UA localise class
  *
- * @package        Joomla.Site
  * @since          1.6
+ * @package        Joomla.Site
  */
 abstract class Uk_UALocalise
 {
