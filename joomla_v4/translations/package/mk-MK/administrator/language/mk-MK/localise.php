@@ -4,7 +4,7 @@
  * @package    Joomla.Language
  *
  * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @license    ГНУ Општа јавна лиценца верзија 2 или понова; видете ЛИЦЕНЦА.txt
 
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
 
@@ -16,7 +16,7 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * mk-MK localise class.
  *
  * @since  1.6
  */
