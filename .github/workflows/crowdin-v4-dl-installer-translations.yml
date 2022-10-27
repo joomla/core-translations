@@ -339,8 +339,17 @@ jobs:
           commit_message: 'New Hungarian Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer'
 
-      #      "LanguageName": "Indonesian",
-      #      "CrowdinID": "id"
+      - name: Crowdin Download Indonesian
+        uses: crowdin/github-action@1.4.16
+        with:
+          config: 'Configurations/Crowdin-J4-Installer.yml'
+          upload_sources: false
+          download_translations: true
+          download_language: id
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Indonesian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer'
 
       #      "LanguageName": "Irish",
       #      "CrowdinID": "ga"
