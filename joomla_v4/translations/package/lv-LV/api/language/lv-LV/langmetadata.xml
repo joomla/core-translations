@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Latvian (lv-LV)</name>
-	<version/>
-	<creationDate/>
+	<version>4.2.5</version>
+	<creationDate>2022-10</creationDate>
 	<author>Joomla! Projekts</author>
 	<authorEmail>lemings@inbox.lv</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
