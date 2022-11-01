@@ -1,10 +1,8 @@
-<?php
-
 /**
- * @package    Joomla.Language
- *
- * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
+  * @paket Joomla.Language
+  *
+  * @copyright (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
+  * @lisensi GNU General Public License versi 2 atau lebih baru; lihat LISENSI.txt
 
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
 
@@ -16,20 +14,20 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * id-ID localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Id_IDLocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * Mengembalikan sufiks potensial untuk sejumlah item tertentu
      *
-     * @param   integer  $count  The number of items.
+     * @param integer $count Jumlah item
      *
-     * @return  array  An array of potential suffixes.
+     * @return array Array sufiks potensial.
      *
-     * @since   1.6
+     * @Sejak 1.6
      */
     public static function getPluralSuffixes($count)
     {

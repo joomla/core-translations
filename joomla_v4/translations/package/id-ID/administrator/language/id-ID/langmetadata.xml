@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
-	<name/>
+	<name>Bahasa Indonesia (id-ID)</name>
 	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description><![CDATA[]]></description>
+	<creationDate>2022-10</creationDate>
+	<author>Proyek Joomla</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2005 Open Source Mattersn Inc.</copyright>
+	<license>GNU General Public License versi 2 atau diatasnya; lihat LICENSE.txt</license>
+	<description><![CDATA[Bahasa administrator id-ID]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
-		<tag/>
+		<name>Bahasa Indonesia (id-ID)</name>
+		<nativeName>Bahasa Indonesia (id-ID)</nativeName>
+		<tag>id-ID</tag>
 		<rtl>0</rtl>
 		<locale>id_ID.utf8, id_ID.UTF-8, id_ID, id, indonesia</locale>
 		<firstDay>0</firstDay>
