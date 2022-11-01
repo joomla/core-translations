@@ -417,8 +417,17 @@ jobs:
           commit_message: 'New Lithuanian Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer'
 
-      #      "LanguageName": "Macedonian",
-      #      "CrowdinID": "mk"
+      - name: Crowdin Download Macedonian
+        uses: crowdin/github-action@1.4.16
+        with:
+          config: 'Configurations/Crowdin-J4-Installer.yml'
+          upload_sources: false
+          download_translations: true
+          download_language: mk
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Macedonian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer'
 
       #      "LanguageName": "Malay",
       #      "CrowdinID": "ms"
