@@ -2,14 +2,14 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Dutch (nl-NL)</name>
 	<tag>nl-NL</tag>
-	<version>4.2.5</version>
-	<creationDate>2022-10-25</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
 	<copyright>Copyright (C) 2005 - 2022 Dutch Translation Team en Open Source Matters.</copyright>
 	<license>GNU General Public License versie 2 of hoger; zie LICENSE.txt</license>
-	<description>Nederlands taalbestand Joomla! 4.0 (site)</description>
+	<description>Nederlands taalbestand Joomla! 4.x (site)</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
