@@ -13,8 +13,8 @@
 	<packager>Progetto Joomla!</packager>
 	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[<div style="text-align: center;">
-<h3>Joomla! 4.2 Full Italian (it-IT) Language Package - Version 4.2.4.1</h3>
-<h3>Pacchetto completo della lingua italiana di Joomla! 4.2 (it-IT) - Versione 4.2.4.1</h3>
+<h3>Joomla! 4.2 Full Italian (it-IT) Language Package - Version 4.2.5.1</h3>
+<h3>Pacchetto completo della lingua italiana di Joomla! 4.2 (it-IT) - Versione 4.2.5.1</h3>
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
