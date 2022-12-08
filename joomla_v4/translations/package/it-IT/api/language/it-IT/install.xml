@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Italiano (it-IT)</name>
 	<tag>it-IT</tag>
-	<version/>
+	<version>4.2.6</version>
 	<creationDate/>
 	<author>Progetto Joomla!</author>
 	<authorEmail>giovanni.genovino@community.joomla.org</authorEmail>
