@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Srpski Latinica (Repulbika Srbija)</name>
 	<tag>sr-YU</tag>
-	<version>4.2.6</version>
+	<version/>
 	<creationDate/>
 	<author>Goran Nešić - Uix Web Design &amp;  Saša Matić Bardak.RS</author>
 	<authorEmail>admin@joomla.org</authorEmail>

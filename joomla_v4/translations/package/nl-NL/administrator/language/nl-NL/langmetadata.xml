@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="administrator">
 	<name>Dutch (nl-NL)</name>
-	<version>4.2.6</version>
-	<creationDate/>
+	<version/>
+	<creationDate>2022-12-13</creationDate>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
@@ -15,7 +15,7 @@
 		<tag>nl-NL</tag>
 		<rtl>0</rtl>
 		<locale>nl_NL.utf-8, nl_NL.utf8, nl_NL.UTF-8,nl_NL, nl_NL.UTF-8@euro, nld_NLD, dutch, dutch-nl, nl, netherlands, nl_NL@euro, nl_NL.ISO8859-1, dut-NL, dut_BE, dutch-be, belgium</locale>
-		<firstDay>0</firstDay>
+		<firstDay>1</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
 	</metadata>
