@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Macedonian (mk-MK) Language Pack</name>
 	<packagename>mk-MK</packagename>
-	<version>4.0.4.1</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>info@joomla.mk</authorEmail>

@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Macedonian (mk-MK)</name>
 	<tag>mk-MK</tag>
-	<version>4.2.4</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>info@joomla.mk</authorEmail>
