@@ -2,12 +2,12 @@
 <extension type="package" method="upgrade">
 	<name>Pakiet języka polskiego (pl-PL)</name>
 	<packagename>pl-PL</packagename>
-	<version>4.2.2.2</version>
-	<creationDate>09.09.2022</creationDate>
+	<version>4.2.2.4</version>
+	<creationDate>05.01.2023</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>zwiastun@joomla.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
-	<copyright>Copyright (C) 2005 - 2022 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2023 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License wersja 2 lub późniejsza, zobacz LICENSE.txt</license>
 	<url>https://www.joomla.pl</url>
 	<packager>Polskie Centrum Joomla</packager>
@@ -18,10 +18,7 @@
 		<p><span style="font-weight: normal">Polskie Centrum Joomla zapewnia społeczności kompletne tłumaczenia Joomla!<br />Ich przygotowanie kosztuje wiele czasu i pracy.</span></p>
 		<div class="alert alert-info">
 		<h3>Wspieramy Ciebie, więc wesprzyj i nas.</h3>
-		<h3>Przekaż darowiznę przez:</h3>
-		<a class="btn btn-success" href="http://bit.ly/paypal-fundacja">PayPal</a>	
-		<a class="btn btn-success" href="http://bit.ly/przekaz-darowizne-payu">PayU</a> 
-		<a class="btn btn-info" href="http://bit.ly/przekaz-darowizne-pcj">Przelew bankowy</a>
+		<p>Przekaż darowiznę na stronie <a class="btn btn-info" href="https://fundacja.joomla.pl/darowizna">Fundacji PCJ Otwarte Źródła</a></p>
 		<p>&nbsp;</p>
 		<h3>Dziękujemy</h3>
 		<p>Od 17 lutego 2022 roku otrzymaliśmy 39 (31 od osób prywatnych i 8 od firm) darowizn na kwotę 1390 PLN. Serdeczne podziękowania dla darczyńców: Kasjan B., Krzysztof B., Damian Ch., Konrad D., Anna G., Marek W G., Paweł K., Tomasz Ł., Piotr MM, Grzegorz N., Tadeusz Jan P., Jakub P., Robert P., Maciej S., Szymon S., Grzegorz S., Piotr S., Tomasz S., Artur S., Krzysztof S., Leszek Sz., Adam U., Stefan W., Maciej W., Igor W., Mariusz W. <strong>oraz  firm:</strong> Cedrowa Grupa, LOOK LIKE Sp. z o.o. i TEL-STER Sp. z o.o.</p>
