@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * sk_SK localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Sk_SKLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -37,6 +37,8 @@ abstract class En_GBLocalise
             return ['0'];
         } elseif ($count == 1) {
             return ['ONE', '1'];
+       } elseif ($count == 2 || $count == 3 || $count == 4) {
+           return ['FEW', '2'];
         } else {
             return ['OTHER', 'MORE'];
         }

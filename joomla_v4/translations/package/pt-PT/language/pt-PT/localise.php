@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class pt_PTLocalise
+abstract class Pt_PTLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
