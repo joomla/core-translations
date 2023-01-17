@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Es_MXLocalise
+abstract class Es_ESLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
