@@ -1,4 +1,4 @@
-name: PR comment
+name: Long arrays PR comment
 # This workflow is triggered after the linting action is complete
 
 on:
@@ -7,7 +7,7 @@ on:
     types: [completed]
 
 jobs:
-  comment:
+  long-arrays-comment:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
@@ -19,12 +19,12 @@ jobs:
         id: artifact
         uses: marocchino/on_artifact@v1
         with:
-          name: En_GBLocalise-logs
+          name: long-arrays-logs
 
       - uses: marocchino/sticky-pull-request-comment@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          header: En_GBLocalise-class ${{ steps.artifact.outputs.pr_number }}
+          header: long-arrays ${{ steps.artifact.outputs.pr_number }}
           number: ${{ steps.artifact.outputs.pr_number }}
           message: |
            The following translation files contain the long arrays syntax on ${{ steps.artifact.outputs.pr_sha }}
