@@ -23,41 +23,41 @@
 abstract class Af_ZALocalise
 {
     /**
-     * Wys die potensiële agtervoegsels vir 'n spesifieke aantal items
+     * Returns the potential suffixes for a specific number of items
      *
-     * @param   integer  $count  Die aantal items.
+     * @param   integer  $count  The number of items.
      *
-     * @return  array  verskeidenheid potensiële agtervoegsels.
+     * @return  array  An array of potential suffixes.
      *
      * @since   1.6
      */
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 
     /**
-     * Wys die geïgnoreer soekwoorde
+     * Returns the ignored search words
      *
-     * @return  array  reeks geïgnoreer soekwoorde.
+     * @return  array  An array of ignored search words.
      *
      * @since   1.6
      */
     public static function getIgnoredSearchWords()
     {
-        return array('and', 'in', 'on');
+        return ['and', 'in', 'on'];
     }
 
     /**
-     * Wys die onderste lengtelimiet van soekwoorde
+     * Returns the lower length limit of search words
      *
-     * @return  integer  Die onderste lengtelimiet van soekwoorde.
+     * @return  integer  The lower length limit of search words.
      *
      * @since   1.6
      */
@@ -67,9 +67,9 @@ abstract class Af_ZALocalise
     }
 
     /**
-     * Wys die boonste lengtelimiet van soekwoorde
+     * Returns the upper length limit of search words
      *
-     * @return  integer  Die boonste lengtelimiet van soekwoorde.
+     * @return  integer  The upper length limit of search words.
      *
      * @since   1.6
      */
@@ -79,9 +79,9 @@ abstract class Af_ZALocalise
     }
 
     /**
-     * Wys die aantal tekens om te wys wanneer jy soek
+     * Returns the number of chars to display when searching
      *
-     * @return  integer  Die aantal karakters om te vertoon wanneer jy soek.
+     * @return  integer  The number of chars to display when searching.
      *
      * @since   1.6
      */
