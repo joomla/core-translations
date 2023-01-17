@@ -35,27 +35,27 @@ abstract class Cy_GBLocalise
 	{
 		if ($count == 0)
 		{
-			return array('ZERO', '0');
+			return ['ZERO', '0'];
 		}
 		elseif ($count == 1)
 		{
-			return array('ONE', '1');
+			return ['ONE', '1'];
 		}
 		elseif  ($count == 2)
 		{
-			return array('TWO', '2');
+			return ['TWO', '2'];
 		}
 		elseif ($count == 3)
 		{
-			return array('FEW', '3');
+			return ['FEW', '3'];
 		}
 		elseif ($count == 6)
 		{
-			return array('MANY', '6');
+			return ['MANY', '6'];
 		}
 		else
 		{
-			return array('OTHER', 'MORE');
+			return ['OTHER', 'MORE'];
 		}
 	}
 }
