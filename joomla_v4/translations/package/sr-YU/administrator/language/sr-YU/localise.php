@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Sr_YULocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
