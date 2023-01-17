@@ -34,11 +34,11 @@ abstract class Ta_INLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 
@@ -51,7 +51,7 @@ abstract class Ta_INLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('மற்றும்', 'அல்லது');
+        return ['மற்றும்', 'அல்லது'];
     }
 
     /**
