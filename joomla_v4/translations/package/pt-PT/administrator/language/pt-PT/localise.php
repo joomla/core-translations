@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Pt_PTLocalise
+abstract class pt_PTLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -34,11 +34,11 @@ abstract class Pt_PTLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 
@@ -51,7 +51,7 @@ abstract class Pt_PTLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('e', 'de', 'se', 'por', 'nem', 'ou', 'mas', 'em', 'no');
+        return ['e', 'de', 'se', 'por', 'nem', 'ou', 'mas', 'em'];
     }
 
     /**

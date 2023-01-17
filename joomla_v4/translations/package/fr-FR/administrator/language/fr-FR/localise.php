@@ -34,11 +34,11 @@ abstract class Fr_FRLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 
@@ -51,7 +51,7 @@ abstract class Fr_FRLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('et', 'dans', 'sur');
+        return ['et', 'dans', 'sur'];
     }
 
     /**

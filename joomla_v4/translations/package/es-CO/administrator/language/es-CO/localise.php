@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Es_COLocalise
+abstract class Es_ESLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -51,7 +51,7 @@ abstract class Es_COLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('and', 'in', 'on');
+        return array('y', 'en', 'con');
     }
 
     /**
