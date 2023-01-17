@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Sv_SELocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -51,7 +51,7 @@ abstract class En_GBLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['om', 'i', 'på'];
     }
 
     /**
