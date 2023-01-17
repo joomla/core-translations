@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Nb_NOLocalise
+abstract class En_GBLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -34,11 +34,11 @@ abstract class Nb_NOLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 
@@ -51,7 +51,7 @@ abstract class Nb_NOLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('og', 'i', 'på', 'den');
+        return ['and', 'in', 'on'];
     }
 
     /**
