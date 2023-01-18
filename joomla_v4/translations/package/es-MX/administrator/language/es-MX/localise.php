@@ -51,7 +51,7 @@ abstract class Es_MXLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['y', 'en', 'con'];
     }
 
     /**
