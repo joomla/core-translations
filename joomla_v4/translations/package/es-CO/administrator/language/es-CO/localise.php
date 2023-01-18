@@ -51,7 +51,7 @@ abstract class Es_COLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['y', 'en', 'con'];
     }
 
     /**

@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * he-IL localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class He_ILLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
