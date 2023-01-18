@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Sr-RSLocalise
+abstract class Sr_RSLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
