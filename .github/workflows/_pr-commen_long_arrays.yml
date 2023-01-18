@@ -29,6 +29,6 @@ jobs:
           message: |
            The following translation files contain the long arrays syntax on ${{ steps.artifact.outputs.pr_sha }}
             ```
-            ${{ steps.artifact.outputs.long-arrays_result }}
+            ${{ steps.artifact.outputs.long_arrays_result }}
             ```
-            Affecting ${{ steps.artifact.outputs.long-arrays_files_affected }} files in ${{ steps.artifact.outputs.long-arrays_languagepacks_affectedf }} language packs.
+            Affecting ${{ steps.artifact.outputs.long_arrays_files_affected }} files in ${{ steps.artifact.outputs.long_arrays_languagepacks_affected }} language packs.

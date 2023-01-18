@@ -23,14 +23,14 @@ jobs:
         run: |
           cd ./joomla_v4/translations/package
           mkdir ./logs
-          grep -rn --include \*.php 'array(' | tee ./logs/long-arrays_result
-          cat ./logs/long-arrays_result | wc -l | tee ./logs/long-arrays_files_affected
-          awk -F/ '{ print $1 }' ./logs/long-arrays_result | sort -u | wc -l | tee ./logs/long-arrays_languagepacks_affected
-          aflp=$(head -n 1 ./logs/long-arrays_languagepacks_affected)
-          affi=$(head -n 1 ./logs/long-arrays_files_affected)
-          echo -n "$aflp" > ./logs/long-arrays_languagepacks_affected
-          echo -n "$affi" > ./logs/long-arrays_files_affected
-          cat ./logs/long-arrays_result
+          grep -rn --include \*.php 'array(' | tee ./logs/long_arrays_result
+          grep -rnl --include \*.php 'array(' | wc -l | tee ./logs/long_arrays_files_affected
+          awk -F/ '{ print $1 }' ./logs/long_arrays_result | sort -u | wc -l | tee ./logs/long_arrays_languagepacks_affected
+          aflp=$(head -n 1 ./logs/long_arrays_languagepacks_affected)
+          affi=$(head -n 1 ./logs/long_arrays_files_affected)
+          echo -n "$aflp" > ./logs/long_arrays_languagepacks_affected
+          echo -n "$affi" > ./logs/long_arrays_files_affected
+          cat ./logs/long_arrays_result
 
       - name: Save PR number
         if: ${{ always() }}
@@ -49,7 +49,7 @@ jobs:
 
       - name: fail workflow
         run: |
-         if [ -s ./joomla_v4/translations/package/logs/long-arrays_result ]; then
+         if [ -s ./joomla_v4/translations/package/logs/long_arrays_result ]; then
          exit 1
          fi
 
