@@ -92,7 +92,7 @@ abstract class El_GRLocalise
 
 public static function transliterate($string)	
 	{	
-		$str = \Joomla\String\StringHelper::strtolower($string);	
+		$str = \Joomla\String\StringHelper:: strtolower($string);	
 
 		//Specific language transliteration.	
 		//This one is for latin 1, latin supplement , extended A, Cyrillic, Greek	
@@ -135,46 +135,46 @@ public static function transliterate($string)
 			'ev'	=>	'ευ',	
 			'iv'	=>	'ηυ',	
 			'ou'	=>	'ου',	
-			'a'		=>	'a,à,á,â,ã,ä,å,ā,ă,ą,ḁ,α,ά',	
+			'a'		=>	'a, à, á, â, ã, ä, å, ā, ă, ą, ḁ, α, ά',	
 			'ae'	=>	'æ',	
 			'b'		=>	'б,^μπ',	
-			'c'		=>	'c,ç,ć,ĉ,ċ,č,ћ,ц',	
+			'c'		=>	'c, ç, ć, ĉ, ċ, č, ћ, ц',	
 			'ch'	=>	'ч',	
-			'd'		=>	'ď,đ,Ð,д,ђ,δ,ð,^ντ',	
+			'd'		=>	'ď, đ, Ð, д, ђ, δ, ð,^ντ',	
 			'dz'	=>	'џ',	
-			'e'		=>	'e,è,é,ê,ë,ē,ĕ,ė,ę,ě,э,ε,έ',	
-			'f'		=>	'ƒ,ф,φ',	
-			'g'		=>	'ğ,ĝ,ğ,ġ,ģ,г,γ,^γκ',	
-			'h'		=>	'ĥ,ħ,Ħ,х',	
-			'i'		=>	'i,ì,í,î,ï,ı,ĩ,ī,ĭ,į,и,й,ъ,ы,ь,η,ή,ι,ί,ϊ,ΐ',	
+			'e'		=>	'e, è, é, ê, ë, ē, ĕ, ė, ę, ě, э, ε, έ',	
+			'f'		=>	'ƒ, ф, φ',	
+			'g'		=>	'ğ, ĝ, ğ, ġ, ģ, г, γ,^γκ',	
+			'h'		=>	'ĥ, ħ, Ħ, х',	
+			'i'		=>	'i, ì, í, î, ï, ı, ĩ, ī, ĭ, į, и, й, ъ, ы, ь, η, ή, ι, ί, ϊ, ΐ',	
 			'ij'	=>	'ĳ',	
-			'j'		=>	'ĵ,j',	
+			'j'		=>	'ĵ, j',	
 			'ja'	=>	'я',	
 			'ju'	=>	'яю',	
-			'k'		=>	'ķ,ĸ,κ',	
+			'k'		=>	'ķ, ĸ, κ',	
 			'ks'	=>	'ξ',	
-			'l'		=>	'ĺ,ļ,ľ,ŀ,ł,л,λ',	
+			'l'		=>	'ĺ, ļ, ľ, ŀ, ł, л, λ',	
 			'lj'	=>	'љ',	
-			'm'		=>	'μ,м',	
-			'n'		=>	'ñ,ņ,ň,ŉ,ŋ,н,ν',	
+			'm'		=>	'μ, м',	
+			'n'		=>	'ñ, ņ, ň, ŉ, ŋ, н, ν',	
 			'nj'	=>	'њ',	
-			'o'		=>	'ò,ó,ô,õ,ø,ō,ŏ,ő,ο,ό,ω,ώ',	
-			'oe'	=>	'œ,ö',	
-			'p'		=>	'п,π',	
+			'o'		=>	'ò, ó, ô, õ, ø, ō, ŏ, ő, ο, ό, ω, ώ',	
+			'oe'	=>	'œ, ö',	
+			'p'		=>	'п, π',	
 			'ps'	=>	'ψ',	
-			'r'		=>	'ŕ,ŗ,ř,р,ρ',	
-			's'		=>	'ş,ś,ŝ,ş,š,с,σ,ς',	
-			'ss'	=>	'ß,ſ',	
+			'r'		=>	'ŕ, ŗ, ř, р, ρ',	
+			's'		=>	'ş, ś, ŝ, ş, š, с, σ, ς',	
+			'ss'	=>	'ß, ſ',	
 			'sh'	=>	'ш',	
 			'shch'	=>	'щ',	
-			't'		=>	'ţ,ť,ŧ,τ,т',	
+			't'		=>	'ţ, ť, ŧ, τ, т',	
 			'th'	=>	'θ',	
-			'u'		=>	'u,ù,ú,û,ü,ũ,ū,ŭ,ů,ű,ų,у',	
-			'v'		=>	'в,β',	
+			'u'		=>	'u, ù, ú, û, ü, ũ, ū, ŭ, ů, ű, ų, у',	
+			'v'		=>	'в, β',	
 			'w'		=>	'ŵ',	
 			'x'		=>	'χ',	
-			'y'		=>	'ý,þ,ÿ,ŷ,υ,ύ,ϋ,ΰ',	
-			'z'		=>	'ź,ż,ž,з,ж,ζ'	
+			'y'		=>	'ý, þ, ÿ, ŷ, υ, ύ, ϋ, ΰ',	
+			'z'		=>	'ź, ż, ž, з, ж, ζ'	
 		];	
 
 		foreach($glyph_array as $letter => $glyphs) {	
@@ -201,7 +201,7 @@ public static function transliterate($string)
 	}	
 }	
 
-jimport('joomla.utilities.date');	
+jimport('joomla. utilities. date');	
 class el_GRDate extends JDate	
 {	
 	/**	
@@ -216,12 +216,12 @@ class el_GRDate extends JDate
 	 */	
 	public function format($format, $local = false, $translate = true)	
 	{	
-		$return = parent::format($format, $local, $translate);	
+		$return = parent:: format($format, $local, $translate);	
 
 		if ((strpos($format, 'd') !== false) || (strpos($format, 'j') !== false))	
 		{	
-			$orig_months = array("άριος", "άρτιος", "ίλιος", "άιος", "ύνιος", "ύλιος", "ύγουστος", "έμβριος", "ώβριος");	
-			$new_months  = array("αρίου", "αρτίου", "ιλίου", "αΐου", "υνίου", "υλίου", "υγούστου", "εμβρίου", "ωβρίου");	
+			$orig_months = ["άριος", "άρτιος", "ίλιος", "άιος", "ύνιος", "ύλιος", "ύγουστος", "έμβριος", "ώβριος"];
+			$new_months  = ["αρίου", "αρτίου", "ιλίου", "αΐου", "υνίου", "υλίου", "υγούστου", "εμβρίου", "ωβρίου"];
 
 			$return = str_replace($orig_months, $new_months, $return);	
 		}	
