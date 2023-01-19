@@ -2,12 +2,12 @@
 <extension type="package" method="upgrade">
 	<name>Italian (it-IT) Language Pack</name>
 	<packagename>it-IT</packagename>
-	<version>4.2.6.2</version>
-	<creationDate/>
+	<version>4.2.7.1</version>
+	<creationDate>Gennaio 2023</creationDate>
 	<author>Progetto Joomla!</author>
 	<authorEmail>giovanni.genovino@community.joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2023 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Progetto Joomla!</packager>
