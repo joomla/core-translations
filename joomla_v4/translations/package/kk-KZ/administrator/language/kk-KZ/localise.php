@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * kk-KZ localise class.
+ * kk_KZ localise class.
  *
  * @since  1.6
  */
-abstract class Kk-KZLocalise
+abstract class Kk_KZLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

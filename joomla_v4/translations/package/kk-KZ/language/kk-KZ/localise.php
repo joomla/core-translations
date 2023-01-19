@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Kk-KZLocalise
+abstract class Kk_KZLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
