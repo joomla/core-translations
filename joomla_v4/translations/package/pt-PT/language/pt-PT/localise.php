@@ -11,12 +11,12 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-// phpc:disable PSR1.Files. ideEffects
-\defined('_JEXEC') ou morrem;
-// phpcs:enable PSR1.Files. ideEffects
+// phpc:disable PSR1.Files.SideEffects
+\defined('_JEXEC') or die;
+// phpcs:enable PSR1.Files.SideEffects
 
 /**
- * Pt-PT localizalise class.
+ * Pt_PT localizalise class.
  *
  * @since 1.6
 */
