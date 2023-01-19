@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class It_ITLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -34,7 +34,7 @@ abstract class En_GBLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return ['0'];
+            return['0'];
         } elseif ($count == 1) {
             return ['ONE', '1'];
         } else {
