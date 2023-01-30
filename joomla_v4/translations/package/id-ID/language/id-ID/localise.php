@@ -21,22 +21,22 @@
 abstract class Id_IDLocalise
 {
     /**
-     * Mengembalikan sufiks potensial untuk sejumlah item tertentu
+     * Returns the potential suffixes for a specific number of items
      *
-     * @param integer $count Jumlah item
+     * @param   integer  $count  The number of items.
      *
-     * @return array Array sufiks potensial.
+     * @return  array  An array of potential suffixes.
      *
-     * @Sejak 1.6
+     * @since   1.6
      */
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 }

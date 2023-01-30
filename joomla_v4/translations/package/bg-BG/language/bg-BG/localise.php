@@ -23,22 +23,22 @@
 abstract class Bg_BGLocalise
 {
     /**
-     * Връща възможните наставки за определен брой елементи
+     * Returns the potential suffixes for a specific number of items
      *
-     * @param   integer  $count  Брой елементи.
+     * @param   integer  $count  The number of items.
      *
-     * @return  array  Масив от възможните наставки.
+     * @return  array  An array of potential suffixes.
      *
      * @since   1.6
      */
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 }

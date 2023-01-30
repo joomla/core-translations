@@ -22,34 +22,29 @@ use Joomla\String\StringHelper;
  *
  * @since  1.6
  */
-abstract class hu_HULocalise
+abstract class Hu_HULocalise
 {
-	/**
-	 * Returns the potential suffixes for a specific number of items
-	 *
-	 * @param   integer  $count  The number of items.
-	 *
-	 * @return	array  An array of potential suffixes.
-	 *
-	 * @since	1.6
-	 */
-	public static function getPluralSuffixes($count)
+    /**
+     * Returns the potential suffixes for a specific number of items
+     *
+     * @param   integer  $count  The number of items.
+     *
+     * @return  array  An array of potential suffixes.
+     *
+     * @since   1.6
+     */
+    public static function getPluralSuffixes($count)
     {
-		if ($count == 0)
-        {
-			return array('0');
-		}
-		elseif($count == 1)
-        {
-			return array('ONE', '1');
-		}
-		else
-        {
-			return array('OTHER', 'MORE');
-		}
-	}
+        if ($count == 0) {
+            return ['0'];
+        } elseif ($count == 1) {
+            return ['ONE', '1'];
+        } else {
+            return ['OTHER', 'MORE'];
+        }
+    }
 
-	/**
+   /**
 	 * Returns the ignored search words
 	 *
 	 * @return	array  An array of ignored search words.
@@ -57,8 +52,8 @@ abstract class hu_HULocalise
 	 * @since	1.6
 	 */
 	public static function getIgnoredSearchWords()
-    {
-		$search_ignore = array();
+	{
+		$search_ignore = [];
 		$search_ignore[] = "aki";
 		$search_ignore[] = "amely";
 		$search_ignore[] = "ami";
@@ -82,7 +77,7 @@ abstract class hu_HULocalise
 	 * @since	1.6
 	 */
 	public static function getLowerLimitSearchWord()
-    {
+	{
 		return 3;
 	}
 
@@ -94,7 +89,7 @@ abstract class hu_HULocalise
 	 * @since	1.6
 	 */
 	public static function getUpperLimitSearchWord()
-    {
+	{
 		return 20;
 	}
 
@@ -106,38 +101,38 @@ abstract class hu_HULocalise
 	 * @since	1.6
 	 */
 	public static function getSearchDisplayedCharactersNumber()
-    {
+	{
 		return 200;
 	}
 
 	/**
-    * This method processes a string and replaces all accented UTF-8 characters by unaccented
-    * ASCII-7 "equivalents"
-    *
-    * @param       string  $string The string to transliterate
-    * @return      string  The transliteration of the string
-    * @since       1.6
-    */
-    public static function transliterate($string)
-    {
-        $str = StringHelper::strtolower($string);
+	 * This method processes a string and replaces all accented UTF-8 characters by unaccented
+	 * ASCII-7 "equivalents"
+	 *
+	 * @param       string  $string The string to transliterate
+	 * @return      string  The transliteration of the string
+	 * @since       1.6
+	 */
+	public static function transliterate($string)
+	{
+		$str = StringHelper:: strtolower($string);
 
-        //Specific language transliteration.
-        //This one is for latin 1, latin supplement , extended A, Cyrillic, Greek
+		//Specific language transliteration.
+		//This one is for latin 1, latin supplement , extended A, Cyrillic, Greek
 
-        $glyph_array = array(
-        'a'            =>   'á',
-        'e'            =>   'é',
-        'i'            =>   'í',
-        'o'            =>   'ó,ö,ő',
-        'u'            =>   'ú,ü,ű',
-    );
- 
-    foreach( $glyph_array as $letter => $glyphs ) {
-        $glyphs = explode( ',', $glyphs );
-        $str = str_replace( $glyphs, $letter, $str );
-    }
- 
-        return $str;
-    }
+		$glyph_array = [
+			'a'            =>   'á',
+			'e'            =>   'é',
+			'i'            =>   'í',
+			'o'            =>   'ó, ö, ő',
+			'u'            =>   'ú, ü, ű',
+		];
+
+		foreach( $glyph_array as $letter => $glyphs ) {
+			$glyphs = explode( ',', $glyphs );
+			$str = str_replace( $glyphs, $letter, $str );
+		}
+
+		return $str;
+	}
 }
