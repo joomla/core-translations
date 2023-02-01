@@ -24,7 +24,7 @@ class Pkg_deLIInstallerScript extends InstallerScript
 	 */
 	public function __construct()
 	{
-		// Define the minumum versions to be supported.
+		// Define the minimum versions to be supported.
 		$this->minimumJoomla = '4.2';
 		$this->minimumPhp    = '7.2.5';
 
