@@ -31,16 +31,16 @@ abstract class Ja_JPLocalise
 	 *
 	 * @since   1.6
 	 */
-    public static function getPluralSuffixes($count)
-    {
-        if ($count == 0) {
-            return array('0');
-        } elseif ($count == 1) {
-            return array('ONE', '1');
-        } else {
-            return array('OTHER', 'MORE');
-        }
-    }
+	public static function getPluralSuffixes($count)
+	{
+		if ($count == 0) {
+			return ['0'];
+		} elseif ($count == 1) {
+			return ['ONE', '1'];
+		} else {
+			return ['OTHER', 'MORE'];
+		}
+	}
 
 	/**
 	 * Returns the ignored search words
@@ -51,7 +51,7 @@ abstract class Ja_JPLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('and', 'in', 'on');
+		return ['and', 'in', 'on'];
 	}
 
 	/**
