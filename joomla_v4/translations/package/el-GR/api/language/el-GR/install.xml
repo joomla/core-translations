@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Greek (el-GR)</name>
 	<tag>el-GR</tag>
-	<version>4.2.7.1</version>
+	<version/>
 	<creationDate>01-2023</creationDate>
 	<author>Ομάδα Μετάφρασης: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
