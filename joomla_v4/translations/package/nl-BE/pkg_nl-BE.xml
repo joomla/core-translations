@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Nederlands (nl-BE) taalpakket</name>
 	<packagename>nl-BE</packagename>
-	<version>4.2.7.1</version>
+	<version/>
 	<creationDate>2023-01-31</creationDate>
 	<author>Dutch (BE) translation team</author>
 	<authorEmail>frank.joris@skynet.be</authorEmail>
