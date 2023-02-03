@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Thai (th-TH)</name>
 	<tag>th-TH</tag>
-	<version>4.2.7.1</version>
+	<version>4.2.8.1</version>
 	<creationDate>2023-01</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>

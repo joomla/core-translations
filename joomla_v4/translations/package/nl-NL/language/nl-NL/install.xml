@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Dutch (nl-NL)</name>
 	<tag>nl-NL</tag>
-	<version>4.2.7</version>
+	<version/>
 	<creationDate>2023-01-31</creationDate>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
