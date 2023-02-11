@@ -2,12 +2,12 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Persian (fa-IR)</name>
 	<tag>fa-IR</tag>
-	<version/>
-	<creationDate/>
+	<version>4.2.7.1</version>
+	<creationDate>February 2023</creationDate>
 	<author>Persian Translation Team</author>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.joomlafarsi.com</authorUrl>
-	<copyright>Copyright (C) 2005 - 2022 Joomlafarsi.com and Open Source Matters, Inc.</copyright>
+	<copyright>Copyright (C) 2005 - 2023 Joomlafarsi.com and Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>fa-IR site language</description>
 	<files>

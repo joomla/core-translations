@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Persian (fa-IR)</name>
-	<version/>
-	<creationDate/>
+	<version>4.2.7.1</version>
+	<creationDate>February 2023</creationDate>
 	<author>Persian Translation Team</author>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.joomlafarsi.com</authorUrl>
-	<copyright>Copyright (C) 2005 - 2022 Joomlafarsi.com and Open Source Matters, Inc.</copyright>
+	<copyright>Copyright (C) 2005 - 2023 Joomlafarsi.com and Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[fa-IR api language]]></description>
 	<metadata>
