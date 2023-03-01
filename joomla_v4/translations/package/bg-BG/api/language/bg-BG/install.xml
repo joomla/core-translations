@@ -2,12 +2,12 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Български (bg-BG)</name>
 	<tag>bg-BG</tag>
-	<version>4.2.8</version>
-	<creationDate/>
+	<version>4.2.9</version>
+	<creationDate>2023-02</creationDate>
 	<author>Joomla! Bulgaria</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
 	<authorUrl>http://www.joomla.bg</authorUrl>
-	<copyright>Copyright (C) 2020-2020 Open Source Matters. Всички права запазени.</copyright>
+	<copyright>Copyright (C) 2020-2023 Open Source Matters. Всички права запазени.</copyright>
 	<license>GNU General Public License версия 2 или по-късна; Виж LICENSE.txt</license>
 	<description>bg-BG API език</description>
 	<files>
