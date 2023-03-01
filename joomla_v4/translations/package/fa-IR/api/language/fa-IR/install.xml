@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Persian (fa-IR)</name>
 	<tag>fa-IR</tag>
-	<version>4.2.7.1</version>
+	<version/>
 	<creationDate/>
 	<author>Persian Translation Team</author>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
