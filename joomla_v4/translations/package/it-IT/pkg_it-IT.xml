@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Italian (it-IT) Language Pack</name>
 	<packagename>it-IT</packagename>
-	<version>4.2.8.1</version>
+	<version/>
 	<creationDate/>
 	<author>Progetto Joomla!</author>
 	<authorEmail>giovanni.genovino@community.joomla.org</authorEmail>
