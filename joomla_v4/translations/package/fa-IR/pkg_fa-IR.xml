@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Persian (fa-IR) Language pack</name>
 	<packagename>fa-IR</packagename>
-	<version>4.2.7.1</version>
+	<version/>
 	<creationDate/>
 	<author>Persian Translation Team: joomlafarsi.com</author>
 	<authorEmail>info@joomlafarsi.com</authorEmail>

@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Româna (ro-RO)</name>
 	<tag>ro-RO</tag>
-	<version>4.2.8</version>
+	<version/>
 	<creationDate/>
 	<author>Horia Negura - Quanta</author>
 	<authorEmail>fakemoth@gmail.com</authorEmail>
