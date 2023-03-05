@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name/>
-	<tag/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
+	<name>Irish (ga-IE)</name>
+	<tag>ga-IE</tag>
+	<version>4.2.9</version>
+	<creationDate>2023-02</creationDate>
+	<author>Irish translation team</author>
+	<authorEmail>kscanne@gmail.com</authorEmail>
+	<authorUrl>https://cadhan.com/</authorUrl>
 	<copyright/>
-	<license/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description/>
 	<files>
 		<folder>/</folder>
