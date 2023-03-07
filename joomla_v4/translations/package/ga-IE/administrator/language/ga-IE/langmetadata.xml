@@ -10,8 +10,8 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[ga-IE administrator language]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
+		<name>Irish (Ireland)</name>
+		<nativeName>Gaeilge (Éire)</nativeName>
 		<tag>ga-IE</tag>
 		<rtl>0</rtl>
 		<locale>ga_IE.utf8, ga_IE.UTF-8, ga_IE, gle_IE, ga, irish, gaeilge, ireland, eire, éire</locale>
