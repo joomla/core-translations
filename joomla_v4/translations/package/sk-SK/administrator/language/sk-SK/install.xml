@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Slovak (sk-SK)</name>
 	<tag>sk-SK</tag>
-	<version>4.2.9</version>
+	<version>4.2.10</version>
 	<creationDate>2023-03</creationDate>
 	<author>Slovak translation team : Peter Michnica</author>
 	<authorEmail>petov@mail.com</authorEmail>
