@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Croatian (Croatia)</name>
 	<tag>hr-HR</tag>
-	<version>4.2.9</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Hrvatska team</author>
 	<authorEmail>prijevod@joomla.hr</authorEmail>

@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Irish (ga-IE)</name>
 	<tag>ga-IE</tag>
-	<version>4.2.8</version>
+	<version/>
 	<creationDate/>
 	<author>Irish translation team</author>
 	<authorEmail>kscanne@gmail.com</authorEmail>
