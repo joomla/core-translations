@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * gl-ES localise class.
+ * ko-KR localise class.
  *
  * @since  1.6
  */
-abstract class Gl-ESLocalise
+abstract class Ko_KRLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

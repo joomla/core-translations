@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * gl-ES localise class.
+ * km-KH localise class.
  *
  * @since  1.6
  */
-abstract class Gl-ESLocalise
+abstract class Km-KHLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
