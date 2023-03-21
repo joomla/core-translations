@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Ca-ESLocalise
+abstract class Ca_ESLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
