@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Tk-TMLocalise
+abstract class Tk_TMLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
