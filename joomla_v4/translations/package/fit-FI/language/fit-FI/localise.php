@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Fi-FILocalise
+abstract class Fi_FILocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
