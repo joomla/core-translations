@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Oc-FRLocalise
+abstract class Oc_FRLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
