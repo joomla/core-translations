@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Nn-NOLocalise
+abstract class Nn_NOLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
