@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Ga-IELocalise
+abstract class Ga_IELocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
