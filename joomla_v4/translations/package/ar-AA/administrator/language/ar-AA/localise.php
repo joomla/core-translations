@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Ar-AALocalise
+abstract class Ar_AALocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
