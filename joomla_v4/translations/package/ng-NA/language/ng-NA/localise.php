@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Ng-NALocalise
+abstract class Ng_NALocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
