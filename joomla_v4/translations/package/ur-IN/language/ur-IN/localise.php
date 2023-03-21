@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Ur-INLocalise
+abstract class Ur_INLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
