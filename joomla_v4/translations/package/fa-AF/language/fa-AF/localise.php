@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Fa-AFLocalise
+abstract class Fa_AFLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
