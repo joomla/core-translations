@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Ms-MYLocalise
+abstract class Ms_MYLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
