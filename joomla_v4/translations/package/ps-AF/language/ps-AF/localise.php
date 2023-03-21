@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Ps-AFLocalise
+abstract class Ps_AFLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
