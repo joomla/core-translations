@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Az-AZLocalise
+abstract class Az_AZLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

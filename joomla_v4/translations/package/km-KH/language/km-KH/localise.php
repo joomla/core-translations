@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Km-KHLocalise
+abstract class Km_KHLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Sq-ALLocalise
+abstract class Sq_ALLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

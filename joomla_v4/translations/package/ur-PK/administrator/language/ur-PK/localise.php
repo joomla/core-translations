@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Ur-PKLocalise
+abstract class Ur_PKLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

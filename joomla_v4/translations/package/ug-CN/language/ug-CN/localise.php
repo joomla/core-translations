@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Ug-CNLocalise
+abstract class Ug_CNLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

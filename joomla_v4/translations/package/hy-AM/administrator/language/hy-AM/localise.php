@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Hy-AMLocalise
+abstract class Hy_AMLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

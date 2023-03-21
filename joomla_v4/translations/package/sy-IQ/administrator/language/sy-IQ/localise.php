@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Sy-IQLocalise
+abstract class Sy_IQLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

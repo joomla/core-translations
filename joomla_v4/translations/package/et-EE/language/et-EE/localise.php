@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Et-EELocalise
+abstract class Et_EELocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items

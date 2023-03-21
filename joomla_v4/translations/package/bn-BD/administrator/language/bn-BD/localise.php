@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Bn-BDLocalise
+abstract class Bn_BDLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
