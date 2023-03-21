@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Cs-CZLocalise
+abstract class Cs_CZLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
