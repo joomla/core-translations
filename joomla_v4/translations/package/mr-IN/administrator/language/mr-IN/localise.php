@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Mr-INLocalise
+abstract class Mr_INLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
