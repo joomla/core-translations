@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Hr-HRLocalise
+abstract class Hr_HRLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
