@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Si-LKLocalise
+abstract class Si_LKLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
