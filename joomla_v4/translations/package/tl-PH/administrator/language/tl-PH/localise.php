@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Tl-PHLocalise
+abstract class Tl_PHLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
