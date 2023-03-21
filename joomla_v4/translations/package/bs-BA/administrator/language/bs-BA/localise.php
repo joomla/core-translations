@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Bs-BALocalise
+abstract class Bs_BALocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
