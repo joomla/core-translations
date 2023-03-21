@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Sw-KELocalise
+abstract class Sw_KELocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
