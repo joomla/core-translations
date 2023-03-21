@@ -35,27 +35,27 @@ abstract class Cs_CZLocalise
 	{
 		if ($count == 0)
 		{
-			return array('0');
+			 return ['0'];
 		}
 		elseif ($count == 1)
 		{
-			return array('ONE', '1');
+			return ['ONE', '1'];
 		}
 		    elseif ($count == 2)
     {
-        return array('FEW', '2');
+        return ['FEW', '2'];
     }
     elseif ($count == 3)
     {
-        return array('FEW', '3');
+        return ['FEW', '3'];
     }
     elseif ($count == 4)
     {
-        return array('FEW');
+        return ['FEW'];
     }
     else
 		{
-			return array('OTHER', 'MORE');
+			return ['OTHER', 'MORE'];
 		}
 	}
 
@@ -68,7 +68,7 @@ abstract class Cs_CZLocalise
 	 */
 	public static function getIgnoredSearchWords()
 	{
-		return array('a', 'i', 'o', 'po', 'za', 'před', 'nad', 'pod', 's', 'z', 'v', 'do');
+		return ['a', 'i', 'o', 'po', 'za', 'před', 'nad', 'pod', 's', 'z', 'v', 'do'];
 	}
 
 	/**
