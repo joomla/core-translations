@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Mn-MNLocalise
+abstract class Mn_MNLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
