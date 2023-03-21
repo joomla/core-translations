@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Gl-ESLocalise
+abstract class Gl_ESLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
