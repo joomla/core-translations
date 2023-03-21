@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class Ky-KGLocalise
+abstract class Ky_KGLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
