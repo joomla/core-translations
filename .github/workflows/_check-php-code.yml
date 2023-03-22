@@ -25,7 +25,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Check PHP syntax errors
-        uses: overtrue/phplint@6.0.0
+        uses: StephaneBour/actions-php-lint@8.1
         with:
           dir: '.'
 
