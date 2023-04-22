@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Български (bg-BG) езиков пакет</name>
 	<packagename>bg-BG</packagename>
-	<version>4.3.0.1</version>
+	<version/>
 	<creationDate>2023-04</creationDate>
 	<author>Joomla! Bulgaria</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
