@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Romanian Language Pack</name>
 	<packagename>ro-RO</packagename>
-	<version/>
-	<creationDate/>
+	<version>4.3.1.1</version>
+	<creationDate>2023-04</creationDate>
 	<author>Horia Negura - Quanta</author>
 	<authorEmail>fakemoth@gmail.com</authorEmail>
 	<authorUrl>www.quanta-group.ro/</authorUrl>
