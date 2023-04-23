@@ -2,12 +2,12 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Italiano (it-IT)</name>
 	<tag>it-IT</tag>
-	<version/>
+	<version>4.3.0.1</version>
 	<creationDate>Aprile 2023</creationDate>
-	<author>Italian Translation Team</author>
+	<author>Joomla! Project (Italian Translation Team)</author>
 	<authorEmail>giovanni.genovino@community.joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2023 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>it-IT lingua del sito</description>
 	<files>
