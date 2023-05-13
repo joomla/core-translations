@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="api">
 	<name>Srpski Latinica (Republika Srbija)</name>
-	<version>4.3.1</version>
-	<creationDate>2023-04</creationDate>
+	<version>4.3.2</version>
+	<creationDate>2023-05</creationDate>
 	<author>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</author>
-	<authorEmail>admin@joomla.org</authorEmail>
+	<authorEmail>info@uixwebdesign.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License verzija 2 ili novija; pogledaj LICENSE.txt</license>

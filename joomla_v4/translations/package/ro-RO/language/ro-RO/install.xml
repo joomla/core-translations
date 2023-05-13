@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Româna (ro-RO)</name>
 	<tag>ro-RO</tag>
-	<version>4.3.1</version>
-	<creationDate>2023-04</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Horia Negura - Quanta</author>
 	<authorEmail>fakemoth@gmail.com</authorEmail>
 	<authorUrl>www.quanta-group.ro/</authorUrl>
