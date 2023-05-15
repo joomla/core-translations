@@ -2,12 +2,12 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Ukrainian (uk-UA)</name>
 	<tag>uk-UA</tag>
-	<version>4.2.5</version>
-	<creationDate>2022-11-08</creationDate>
+	<version>4.3.1</version>
+	<creationDate>2023-05-15</creationDate>
 	<author>Community Joomla! Ukraine</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
-	<copyright>2006-2022 (C) Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
+	<copyright>2006-2023 (C) Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<description>uk-UA - api language</description>
 	<files>
