@@ -1192,7 +1192,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
-    - name: Crowdin Download Urdu Pakistan
+    - name: Crowdin Download Urdu (Pakistan)
       uses: crowdin/github-action@v1.8.1
       with:
         config: 'Configurations/Crowdin-J4-All.yml'
@@ -1201,7 +1201,7 @@ jobs:
         download_language: ur
         skip_untranslated_strings: true
         export_only_approved: true
-        commit_message: 'New Urdu Pakistan Crowdin translations by Github Action'
+        commit_message: 'New Urdu (Pakistan) Crowdin translations by Github Action'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:

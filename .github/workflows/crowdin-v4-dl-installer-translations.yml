@@ -681,8 +681,17 @@ jobs:
       #      "LanguageName": "Urdu (India)",
       #      "CrowdinID": "ur-IN"
 
-      #      "LanguageName": "Urdu (Pakistan)",
-      #      "CrowdinID": "ur"
+      - name: Crowdin Download Urdu (Pakistan)
+        uses: crowdin/github-action@v1.8.1
+        with:
+          config: 'Configurations/Crowdin-J4-Installer.yml'
+          upload_sources: false
+          download_translations: true
+          download_language: ur
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Urdu (Pakistan) Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer'
 
       #      "LanguageName": "Uyghur",
       #      "CrowdinID": "ug"
