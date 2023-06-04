@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
-	<name/>
-	<version/>
+	<name>انګلیسي (en-GB)</name>
+	<version>۳. ۳. ۴</version>
 	<creationDate>۲۰۲۳-۰۵</creationDate>
 	<author>جوملا! پروژه</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright/>
-	<license/>
+	<license>د GNU د خپرونو د عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
 	<description><![CDATA[]]></description>
 	<metadata>
 		<name/>

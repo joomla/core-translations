@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="site" type="language" method="upgrade">
-	<name/>
+	<name>انګلیسي (en-GB)</name>
 	<tag>en-GB</tag>
-	<version/>
+	<version>۳. ۳. ۴</version>
 	<creationDate>۲۰۲۳-۰۵</creationDate>
 	<author>جوملا! پروژه</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
-	<license/>
+	<license>د GNU د خپرونو د عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
 	<description/>
 	<files>
 		<folder>/</folder>
