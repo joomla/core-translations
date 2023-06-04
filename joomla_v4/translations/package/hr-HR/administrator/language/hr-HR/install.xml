@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Croatian (Croatia)</name>
 	<tag>hr-HR</tag>
-	<version>4.3.1</version>
-	<creationDate>Svibanj 2022.</creationDate>
+	<version/>
+	<creationDate>Lipanj 2023.</creationDate>
 	<author>Joomla! Hrvatska team</author>
 	<authorEmail>prijevod@joomla.hr</authorEmail>
 	<authorUrl>http://www.joomla.hr</authorUrl>
