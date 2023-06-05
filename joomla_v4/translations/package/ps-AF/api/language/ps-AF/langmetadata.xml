@@ -2,22 +2,22 @@
 <metafile client="api">
 	<name>انګلیسي (en-GB)</name>
 	<version>۳. ۳. ۴</version>
-	<creationDate>۲۰۲۳-۰۵</creationDate>
+	<creationDate>۲۰۲۳/۰۵</creationDate>
 	<author>جوملا! پروژه</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
-	<license>د GNU د خپرونو د عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
+	<license>د GNU د خپرونود عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
 	<description><![CDATA[en-GB api ژبه]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
+		<name>انګلیسی (بریتانیه)</name>
+		<nativeName>انګلیسی (بریتانیه)</nativeName>
 		<tag>en-GB</tag>
-		<rtl/>
-		<locale/>
-		<firstDay/>
-		<weekEnd/>
-		<calendar/>
+		<rtl>۰</rtl>
+		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, انګلیسي, انګلیسي-uk, uk, gbr, برتانیه, انګلستان, لویه بریتانیا, انګلستان, انګلستان, انګلستان</locale>
+		<firstDay>۰</firstDay>
+		<weekEnd>۰،۶</weekEnd>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
