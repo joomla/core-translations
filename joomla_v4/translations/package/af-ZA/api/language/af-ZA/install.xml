@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Afrikaans (af-ZA)</name>
 	<tag>af-ZA</tag>
-	<version/>
+	<version>4.3.3</version>
 	<creationDate>2023-05</creationDate>
 	<author>Afrikaans Translation Team</author>
 	<authorEmail>llewellyn.van-der-merwe@community.joomla.org</authorEmail>
