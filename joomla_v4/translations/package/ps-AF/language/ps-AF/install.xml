@@ -8,8 +8,8 @@
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
-	<license>د GNU د خپرونو د عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
-	<description/>
+	<license>د GNU د خپرونود عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
+	<description>en-GB دپاڼې ژبه</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

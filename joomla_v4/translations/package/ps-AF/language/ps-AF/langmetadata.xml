@@ -6,18 +6,18 @@
 	<author>جوملا! پروژه</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright/>
-	<license>د GNU د خپرونو د عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
-	<description><![CDATA[]]></description>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<license>د GNU د خپرونود عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
+	<description><![CDATA[en-GB دپاڼې ژبه]]></description>
 	<metadata>
-		<name>انګلیسی (بریتانیه)</name>
-		<nativeName>انګلیسی (بریتانیه)</nativeName>
+		<name>انګلیسي (بریتانیه)</name>
+		<nativeName>انګلیسي (بریتانیه)</nativeName>
 		<tag>en-GB</tag>
 		<rtl>۰</rtl>
-		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, انګلیسي, انګلیسي-uk, uk, gbr, برتانیه, انګلستان, لویه بریتانیا, انګلستان, انګلستان, انګلستان</locale>
+		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, انګلیسي, انګلیسي-uk, uk, gbr, بریتانیه, انګلستان, لویه بریتانیا, انګلیستان, انګلیستان, انګلیستان</locale>
 		<firstDay>۰</firstDay>
 		<weekEnd>۰،۶</weekEnd>
-		<calendar>gregorian</calendar>
+		<calendar>ګریګوریان</calendar>
 	</metadata>
 	<params/>
 </metafile>

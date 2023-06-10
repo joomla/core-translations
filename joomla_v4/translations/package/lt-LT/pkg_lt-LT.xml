@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Lithuanian (Lithuania) lt-LT Language Pack</name>
 	<packagename>lt-LT</packagename>
-	<version/>
-	<creationDate/>
+	<version>4.3.3.1</version>
+	<creationDate>2023-05</creationDate>
 	<author>Oskaras Jankauskas</author>
 	<authorEmail>master@oskaraz.lt</authorEmail>
 	<authorUrl>www.oskaraz.lt</authorUrl>
