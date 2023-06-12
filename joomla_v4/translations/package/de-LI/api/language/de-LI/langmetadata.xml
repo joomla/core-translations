@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="api">
-	<name>German (Lichtenstein)</name>
+	<name>German (Liechtenstein)</name>
 	<tag>de-LI</tag>
 	<version>4.3.2.1</version>
 	<creationDate>2023-05-30</creationDate>
@@ -15,11 +15,11 @@
 	<img style="margin: 5px; vertical-align: middle;" alt="English (Englisch)" src="data:image/gif;base64,R0lGODlhEgAMAPcAANQYLe+nr+iPmgElcdQuQtQtQtq/zc8UK88TKu2Sm+A4SOucpn2RvxIseCBLmRIpdtIWLAEkctAUK//f3g4tguqXodozRcwDHNa8y8fT5h9GlP/7+R82fcwIIPOCiRg2fwc0fP/6+AEohAwqgffV2QYuhfaTmQApgi1VngAZd9Y0SOmTnaysytIjOPixtbZlgOxVYehUYPbP09FqfWByq/XL0BIndO2Fju6AieZ8iQAaed9gcOnm7t28wgEpdImUt2B/uOtWYsAPHP/o5t5SYdzs98pwd/KXn//v7tjo9WRyqXBtkgEdbPbu8c0MJHdomvB4gHBglMwGH7Nphm6Zy9Pq6uufqfjh5NUwRM8SKhIqd9c5TNc4TNUxRRIjcxAvg9FpfPCmpiBOjv/r6cYgKhIfb//i4fSTmdm+zClSnOiMl+dXY1RioK5kgxg5hPOZoNMpPmh/tTxalmqFut/G0tchLdni765RcOiOmQAgfcHZ7v77+3J4o+6UnfTKz////OurtYScx66wzThepMy7vwAeeiJLmumQmv/m5QAceN00RmOBqgEnc9zr9+lWY+qWoNY0Rw80eudUYWZ1qytZk+unsAYxiup5g+iSnX6Ww7Vif9EQH/Df5dbc6hIqdt3w+//q6MwFHfOLkuj6/+ylrgAVde+aotPQ3+yMls8VLNbc69+lo+6nr9tHWAAPcLTI480GHssAGf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAASAAwAAAjoAH9wKPOggZYPPepsCiPHRgNPXtzwGVKEwZdShUoYAAArAIpEKSwp0RTDERREjRiMyIOGYwAHIia9kORhApspRC6NsZOJDgRYlQK1WYODxKc5gjJcYeUnxB8ZCKRYQeKihqw9p1goUNRlC6QCBOAcyNICCxcVBApYUBCrrdtYFw6k6vDW7RsBAlYsqJAgBwInO/ocwvNoAaYjQPTIkmXKBA9OEkIBGiVrg5oEqqi8aoIqyIwoGjBwJDWIRiczN1rdOQMDzBNDOk5s7JjGFYU4SUCJMrJETIQBPkAQIiNkFaUBjJhEWlQlIAA7" height="12" width="18" />German Backend (API) translation for Joomla! <span class="jgerman-version">4.3</span>
 	]]></description>
 	<metadata>
-		<name>German (Lichtenstein)</name>
-		<nativeName>Deutsch (Lichtenstein)</nativeName>
+		<name>German (Liechtenstein)</name>
+		<nativeName>Deutsch (Liechtenstein)</nativeName>
 		<tag>de-LI</tag>
 		<rtl>0</rtl>
-		<locale>de_LI.utf8, de_LI.UTF-8, de_LI, deu_LI, german-li, li, lichtenstein, de_DE.utf8, de_DE.UTF-8, de_DE, deu_DE, german, german-de, de, deu, germany</locale>
+		<locale>de_LI.utf8, de_LI.UTF-8, de_LI, deu_LI, german-li, li, liechtenstein, de_DE.utf8, de_DE.UTF-8, de_DE, deu_DE, german, german-de, de, deu, germany</locale>
 		<firstDay>1</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
