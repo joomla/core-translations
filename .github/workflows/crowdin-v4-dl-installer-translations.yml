@@ -120,8 +120,17 @@ jobs:
           commit_message: 'New Chinese Traditional Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer'
 
-      #      "LanguageName": "Croatian",
-      #      "CrowdinID": "hr"
+      - name: Crowdin Download Croatian
+        uses: crowdin/github-action@v1.9.0
+        with:
+          config: 'Configurations/Crowdin-J4-Installer.yml'
+          upload_sources: false
+          download_translations: true
+          download_language: hr
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Croatian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Czech
         uses: crowdin/github-action@v1.9.0
