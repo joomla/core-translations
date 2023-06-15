@@ -355,7 +355,7 @@ jobs:
       #      "CrowdinID": "ga"
 
       - name: Crowdin Download Italian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
