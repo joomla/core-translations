@@ -34,15 +34,15 @@ abstract class Th_THLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 
-    /**
+/**
      * Returns the ignored search words
      *
      * @return  array  An array of ignored search words.
@@ -51,7 +51,7 @@ abstract class Th_THLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('and', 'in', 'on');
+        return ['and', 'in', 'on'];
     }
 
     /**
@@ -89,7 +89,7 @@ abstract class Th_THLocalise
     {
         return 200;
     }
-  
+
   	/**
   	 * This method processes a string and replaces all accented UTF-8 characters by unaccented
   	 * ASCII-7 "equivalents"
@@ -100,64 +100,64 @@ abstract class Th_THLocalise
   	 */
   	public static function transliterate($string)
   	{
-  		$str = \Joomla\String\StringHelper::strtolower($string);
-  
+  		$str = \Joomla\String\StringHelper:: strtolower($string);
+
   		//Specific language transliteration.
   		//This one is for latin 1, latin supplement , extended A, Cyrillic, Greek
-  
-  		$glyph_array = array(
-  		'a'		=>	'à,á,â,ã,ä,å,ā,ă,ą,ḁ,α,ά',
+
+  		$glyph_array = [
+  		'a'		=>	'à, á, â, ã, ä, å, ā, ă, ą, ḁ, α, ά',
   		'ae'	=>	'æ',
-  		'b'		=>	'β,б',
-  		'c'		=>	'ç,ć,ĉ,ċ,č,ч,ћ,ц',
+  		'b'		=>	'β, б',
+  		'c'		=>	'ç, ć, ĉ, ċ, č, ч, ћ, ц',
   		'ch'	=>	'ч',
-  		'd'		=>	'ď,đ,Ð,д,ђ,δ,ð',
+  		'd'		=>	'ď, đ, Ð, д, ђ, δ, ð',
   		'dz'	=>	'џ',
-  		'e'		=>	'è,é,ê,ë,ē,ĕ,ė,ę,ě,э,ε,έ',
-  		'f'		=>	'ƒ,ф',
-  		'g'		=>	'ğ,ĝ,ğ,ġ,ģ,г,γ',
-  		'h'		=>	'ĥ,ħ,Ħ,х',
-  		'i'		=>	'ì,í,î,ï,ı,ĩ,ī,ĭ,į,и,й,ъ,ы,ь,η,ή',
+  		'e'		=>	'è, é, ê, ë, ē, ĕ, ė, ę, ě, э, ε, έ',
+  		'f'		=>	'ƒ, ф',
+  		'g'		=>	'ğ, ĝ, ğ, ġ, ģ, г, γ',
+  		'h'		=>	'ĥ, ħ, Ħ, х',
+  		'i'		=>	'ì, í, î, ï, ı, ĩ, ī, ĭ, į, и, й, ъ, ы, ь, η, ή',
   		'ij'	=>	'ĳ',
   		'j'		=>	'ĵ',
   		'ja'	=>	'я',
   		'ju'	=>	'яю',
-  		'k'		=>	'ķ,ĸ,κ',
-  		'l'		=>	'ĺ,ļ,ľ,ŀ,ł,л,λ',
+  		'k'		=>	'ķ, ĸ, κ',
+  		'l'		=>	'ĺ, ļ, ľ, ŀ, ł, л, λ',
   		'lj'	=>	'љ',
   		'm'		=>	'μ',
-  		'n'		=>	'ñ,ņ,ň,ŉ,ŋ,н,ν',
+  		'n'		=>	'ñ, ņ, ň, ŉ, ŋ, н, ν',
   		'nj'	=>	'њ',
-  		'o'		=>	'ò,ó,ô,õ,ø,ō,ŏ,ő,ο,ό,ω,ώ',
-  		'oe'	=>	'œ,ö',
-  		'p'		=>	'п,π',
+  		'o'		=>	'ò, ó, ô, õ, ø, ō, ŏ, ő, ο, ό, ω, ώ',
+  		'oe'	=>	'œ, ö',
+  		'p'		=>	'п, π',
   		'ph'	=>	'φ',
   		'ps'	=>	'ψ',
-  		'r'		=>	'ŕ,ŗ,ř,р,ρ,σ,ς',
-  		's'		=>	'ş,ś,ŝ,ş,š,с',
-  		'ss'	=>	'ß,ſ',
+  		'r'		=>	'ŕ, ŗ, ř, р, ρ, σ, ς',
+  		's'		=>	'ş, ś, ŝ, ş, š, с',
+  		'ss'	=>	'ß, ſ',
   		'sh'	=>	'ш',
   		'shch'	=>	'щ',
-  		't'		=>	'ţ,ť,ŧ,τ',
+  		't'		=>	'ţ, ť, ŧ, τ',
   		'th'	=>	'θ',
-  		'u'		=>	'ù,ú,û,ü,ũ,ū,ŭ,ů,ű,ų,у',
+  		'u'		=>	'ù, ú, û, ü, ũ, ū, ŭ, ů, ű, ų, у',
   		'v'		=>	'в',
   		'w'		=>	'ŵ',
-  		'x'		=>	'χ,ξ',
-  		'y'		=>	'ý,þ,ÿ,ŷ',
-  		'z'		=>	'ź,ż,ž,з,ж,ζ'
-  		);
-  
+  		'x'		=>	'χ, ξ',
+  		'y'		=>	'ý, þ, ÿ, ŷ',
+  		'z'		=>	'ź, ż, ž, з, ж, ζ'
+  		];
+
   		foreach( $glyph_array as $letter => $glyphs ) {
   			$glyphs = explode( ',', $glyphs );
   			$str = str_replace( $glyphs, $letter, $str );
   		}
-  
+
   		return $str;
   	}
   }
-  
-  jimport('joomla.utilities.date');
+
+  jimport('joomla. utilities. date');
   class th_THDate extends JDate {
   	const DAY_NUMBER	= "\x027\x03";
   	const MONTH_NUMBER	= "\x035\x03";
@@ -167,60 +167,60 @@ abstract class Th_THLocalise
   	const MINUTE_NUMBER		= "\x043\x03";
   	const SECOND_NUMBER		= "\x044\x03";
   	const ORDINAL_NUMBER	= "\x045\x03";
-  
+
   	/**
   	 * Gets the date as a formatted string.
   	 *
   	 * @param	string	The date format specification string (see {@link PHP_MANUAL#date})
   	 * @param	boolean	True to return the date string in the local time zone, false to return it in GMT.
-  	 * @return	string	The date string in the french republican calendar (see @link{http://en.wikipedia.org/wiki/French_Republican_Calendar}).
+  	 * @return	string	The date string in the french republican calendar (see @link{http://en. wikipedia. org/wiki/French_Republican_Calendar}).
   	 * @since	1.6
   	 */
   	public function calendar($format, $local = false, $translate = true)
   	{
   		// Do string replacements for date format options that can be translated.
-  		$format = preg_replace('/(^|[^\\\])d/', "\\1".self::DAY_NUMBER, $format);
-  		$format = preg_replace('/(^|[^\\\])m/', "\\1".self::MONTH_NUMBER, $format);
-  		$format = preg_replace('/(^|[^\\\])Y/', "\\1".self::YEAR_NUMBER, $format);
-  		$format = preg_replace('/(^|[^\\\])y/', "\\1".self::YEAR_NUMBER2, $format);
-  		$format = preg_replace('/(^|[^\\\])H/', "\\1".self::HOUR_NUMBER, $format);
-  		$format = preg_replace('/(^|[^\\\])i/', "\\1".self::MINUTE_NUMBER, $format);
-  		$format = preg_replace('/(^|[^\\\])s/', "\\1".self::SECOND_NUMBER, $format);
-  		$format = preg_replace('/(^|[^\\\])S/', "\\1".self::ORDINAL_NUMBER, $format);
-  
+  		$format = preg_replace('/(^|[^\\\]) d/', "\\1". self:: DAY_NUMBER, $format);
+  		$format = preg_replace('/(^|[^\\\]) m/', "\\1". self:: MONTH_NUMBER, $format);
+  		$format = preg_replace('/(^|[^\\\]) Y/', "\\1". self:: YEAR_NUMBER, $format);
+  		$format = preg_replace('/(^|[^\\\]) y/', "\\1". self:: YEAR_NUMBER2, $format);
+  		$format = preg_replace('/(^|[^\\\]) H/', "\\1". self:: HOUR_NUMBER, $format);
+  		$format = preg_replace('/(^|[^\\\]) i/', "\\1". self:: MINUTE_NUMBER, $format);
+  		$format = preg_replace('/(^|[^\\\]) s/', "\\1". self:: SECOND_NUMBER, $format);
+  		$format = preg_replace('/(^|[^\\\]) S/', "\\1". self:: ORDINAL_NUMBER, $format);
+
   		// Format the date.
-  		$return = parent::calendar($format, $local);
+  		$return = parent:: calendar($format, $local);
   		// convNumber : true = thai number , false = arabic number
   		$convNumber = false;
-  
-  		if (strpos($return, self::DAY_NUMBER) !== false) {
-  			$return = str_replace(self::DAY_NUMBER, $this->numToString($this->day, $convNumber), $return);
+
+  		if (strpos($return, self:: DAY_NUMBER) !== false) {
+  			$return = str_replace(self:: DAY_NUMBER, $this->numToString($this->day, $convNumber), $return);
   		}
-  		if (strpos($return, self::MONTH_NUMBER) !== false) {
-  			$return = str_replace(self::MONTH_NUMBER, $this->numToString($this->month, $convNumber), $return);
+  		if (strpos($return, self:: MONTH_NUMBER) !== false) {
+  			$return = str_replace(self:: MONTH_NUMBER, $this->numToString($this->month, $convNumber), $return);
   		}
-  		if (strpos($return, self::YEAR_NUMBER) !== false) {
-  			$return = str_replace(self::YEAR_NUMBER, $this->yearToString($this->year, $convNumber), $return);
+  		if (strpos($return, self:: YEAR_NUMBER) !== false) {
+  			$return = str_replace(self:: YEAR_NUMBER, $this->yearToString($this->year, $convNumber), $return);
   		}
-  		if (strpos($return, self::YEAR_NUMBER2) !== false) {
-  			$return = str_replace(self::YEAR_NUMBER2, \Joomla\String\StringHelper::substr($this->yearToString($this->year, $convNumber), -2) , $return);
+  		if (strpos($return, self:: YEAR_NUMBER2) !== false) {
+  			$return = str_replace(self:: YEAR_NUMBER2, \Joomla\String\StringHelper:: substr($this->yearToString($this->year, $convNumber), -2) , $return);
   		}
-  		if (strpos($return, self::HOUR_NUMBER) !== false) {
-  			$return = str_replace(self::HOUR_NUMBER, $this->numToString($this->hour, $convNumber), $return);
+  		if (strpos($return, self:: HOUR_NUMBER) !== false) {
+  			$return = str_replace(self:: HOUR_NUMBER, $this->numToString($this->hour, $convNumber), $return);
   		}
-  		if (strpos($return, self::MINUTE_NUMBER) !== false) {
-  			$return = str_replace(self::MINUTE_NUMBER, $this->numToString($this->minute, $convNumber), $return);
+  		if (strpos($return, self:: MINUTE_NUMBER) !== false) {
+  			$return = str_replace(self:: MINUTE_NUMBER, $this->numToString($this->minute, $convNumber), $return);
   		}
-  		if (strpos($return, self::SECOND_NUMBER) !== false) {
-  			$return = str_replace(self::SECOND_NUMBER, $this->numToString($this->second, $convNumber), $return);
+  		if (strpos($return, self:: SECOND_NUMBER) !== false) {
+  			$return = str_replace(self:: SECOND_NUMBER, $this->numToString($this->second, $convNumber), $return);
   		}
-  		if (strpos($return, self::ORDINAL_NUMBER) !== false) {
-  			$return = str_replace(self::ORDINAL_NUMBER, $this->numToString($this->ordinal, $convNumber), $return);
+  		if (strpos($return, self:: ORDINAL_NUMBER) !== false) {
+  			$return = str_replace(self:: ORDINAL_NUMBER, $this->numToString($this->ordinal, $convNumber), $return);
   		}
-  
+
   		return $return;
   	}
-  
+
   	function monthToString($month, $abbr = false)
   	{
   		switch ($month)
@@ -239,7 +239,7 @@ abstract class Th_THLocalise
   			case 12: return $abbr ? JText::_('DECEMBER_SHORT')  : JText::_('DECEMBER');
   		}
   	}
-  
+
   	function yearToString($year, $abbr = false)
   	{
   		return $this->Convertnumber2thai($year+543,$abbr);
@@ -248,17 +248,17 @@ abstract class Th_THLocalise
   	{
   		return  $this->Convertnumber2thai($date,$abbr);
   	}
-  
+
   	// Here convert to  number in Thai
   	function Convertnumber2thai($result,$abbr = false)
   	{
-  		$thaiNumber = array ("๐", "๑", "๒", "๓", "๔", "๕", "๖", "๗","๘", "๙" );
+  		$thaiNumber = ["๐", "๑", "๒", "๓", "๔", "๕", "๖", "๗","๘", "๙" ];
   		$org_result = $result;
   		for ( $counter=0; $counter <= 9; $counter++) {	$result = str_replace($counter, $thaiNumber[$counter], $result);	}
   		return $abbr ? $result : $org_result ;
   	}
   	// End convert number 2 thai
-  
+
   	function dayToString($day, $abbr = false)
   	{
   		switch ($day) {

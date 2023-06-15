@@ -11,16 +11,16 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-// phpcs:disable PSR1. Files. SideEffects
+// phpcs:disable PSR1.Files.SideEffects
 \defined('_JEXEC') or die;
-// phpcs:en able PSR1. Files. SideEffects
+// phpcs:enable PSR1.Files.SideEffects
 
 /**
- * fr-FR localise classe.
+ * fr-CA localise class.
  *
- * @since 1.6
-*/
-abstract class Fr_FRLocalise
+ * @since  1.6
+ */
+abstract class Fr_CALocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -34,11 +34,11 @@ abstract class Fr_FRLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 }

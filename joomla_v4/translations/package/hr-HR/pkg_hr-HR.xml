@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Croatian (hr-HR) Language Pack</name>
 	<packagename>hr-HR</packagename>
-	<version/>
-	<creationDate/>
+	<version>4.3.3.1</version>
+	<creationDate>Lipanj 2023.</creationDate>
 	<author>Joomla! Hrvatska team</author>
 	<authorEmail>prijevod@joomla.hr</authorEmail>
 	<authorUrl>http://www.joomla.hr</authorUrl>

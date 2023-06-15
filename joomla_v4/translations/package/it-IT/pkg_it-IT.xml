@@ -2,19 +2,19 @@
 <extension type="package" method="upgrade">
 	<name>Italian (it-IT) Language Pack</name>
 	<packagename>it-IT</packagename>
-	<version>4.2.4.1</version>
-	<creationDate>Settembre 2022</creationDate>
-	<author>Progetto Joomla!</author>
+	<version>4.3.3.1</version>
+	<creationDate>Maggio 2023</creationDate>
+	<author>Joomla! Project (Italian Translation Team)</author>
 	<authorEmail>giovanni.genovino@community.joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2023 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Progetto Joomla!</packager>
+	<packager>Joomla! Project (Italian Translation Team)</packager>
 	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[<div style="text-align: center;">
-<h3>Joomla! 4.2 Full Italian (it-IT) Language Package - Version 4.2.4.1</h3>
-<h3>Pacchetto completo della lingua italiana di Joomla! 4.2 (it-IT) - Versione 4.2.4.1</h3>
+<h3>Joomla! 4.3 Full Italian (it-IT) Language Package - Version 4.3.2.1</h3>
+<h3>Pacchetto completo della lingua italiana di Joomla! 4.3 (it-IT) - Versione 4.3.2.1</h3>
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>

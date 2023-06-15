@@ -2,7 +2,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2022 J!German <https://www.jgerman.de>
+ * @copyright  (C) 2023 J!German <https://www.jgerman.de>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -24,7 +24,7 @@ class Pkg_deCHInstallerScript extends InstallerScript
 	 */
 	public function __construct()
 	{
-		// Define the minumum versions to be supported.
+		// Define the minimum versions to be supported.
 		$this->minimumJoomla = '4.2';
 		$this->minimumPhp    = '7.2.5';
 

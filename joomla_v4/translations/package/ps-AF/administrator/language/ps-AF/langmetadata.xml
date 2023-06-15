@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
-	<name/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description><![CDATA[]]></description>
+	<name>انګلیسي (en-GB)</name>
+	<version>۳. ۳. ۴</version>
+	<creationDate>۲۰۲۳-۰۳</creationDate>
+	<author>جوملا! پروژه</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>د GNU د خپرونود عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
+	<description><![CDATA[en-GB د ژبې مدیریت]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
-		<tag/>
-		<rtl/>
-		<locale/>
-		<firstDay/>
-		<weekEnd/>
-		<calendar/>
+		<name>انګلیسی (بریتانیه)</name>
+		<nativeName>انګلیسی (بریتانیه)</nativeName>
+		<tag>en-GB</tag>
+		<rtl>۰</rtl>
+		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, انګلیسي, انګلیسي-uk, uk, gbr, برتانیه, انګلستان, لویه بریتانیا, انګلستان, انګلستان, انګلستان</locale>
+		<firstDay>۰</firstDay>
+		<weekEnd>۰،۶</weekEnd>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>

@@ -33,19 +33,19 @@ abstract class Pl_PLLocalise
 	{
 		if ($count == 0)
 		{
-			return array('0');
+			return ['0'];
 		}
 		elseif ($count == 1)
 		{
-			return array('ONE', '1');
+			return ['ONE', '1'];
 		}
 		elseif ($count % 10 >= 2 && $count % 10 <= 4 && ($count % 100 < 10 || $count % 100 >= 20))
 		{
-         return array('FEW');
+         return ['FEW'];
 		}
 		else
 		{
-			return array('OTHER', 'MORE');
+			return ['OTHER', 'MORE'];
 		}
 	}
 }

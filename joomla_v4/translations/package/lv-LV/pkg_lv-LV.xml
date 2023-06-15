@@ -2,10 +2,10 @@
 <extension type="package" method="upgrade">
 	<name>Latvian (lv-LV) Languge Pack</name>
 	<packagename>lv-LV</packagename>
-	<version/>
-	<creationDate/>
+	<version>4.3.3.1</version>
+	<creationDate>2023-05</creationDate>
 	<author>Joomla! Projekts</author>
-	<authorEmail>lemings@inbox.lv</authorEmail>
+	<authorEmail/>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>Autortiesības (C) 2005 - 2021 Open Source Matters. Visas tiesības aizsargātas.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>

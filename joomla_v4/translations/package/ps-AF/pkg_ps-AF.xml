@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name/>
-	<packagename/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<url/>
-	<packager/>
-	<packagerurl/>
-	<description><![CDATA[]]></description>
+	<name>انګلیسي (en-GB) د ژبې ګېډۍ</name>
+	<packagename>en-GB</packagename>
+	<version>۱. ۳. ۳. ۴</version>
+	<creationDate>۲۰۲۳-۰۵</creationDate>
+	<author>جوملا! پروژه</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) ٢٠١٩ د جوملا د موضوعاتو سرچینه پرانیزئ، Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>جوملا! پروژه</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[en-GB د ژبې ګېډۍ]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id=""/>
-		<folder type="language" client="administrator" id=""/>
-		<folder type="language" client="api" id=""/>
+		<folder type="language" client="site" id="en-GB">ژبه/en-GB</folder>
+		<folder type="language" client="administrator" id="en-GB">مدیر/ژبه/en-GB</folder>
+		<folder type="language" client="api" id="en-GB">api/ژبه/en-GGB</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="اعتبار لرونکې جوملا! ژباړې">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>

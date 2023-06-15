@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name/>
-	<tag/>
+	<name>Irish (ga-IE)</name>
+	<tag>ga-IE</tag>
 	<version/>
 	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
+	<author>Irish translation team</author>
+	<authorEmail>kscanne@gmail.com</authorEmail>
+	<authorUrl>https://cadhan.com/</authorUrl>
+	<copyright>Copyright (C) 2013 Open Source Matters. Gach ceart ar cosaint.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>ga-IE administrator language</description>
 	<files>
 		<folder>/</folder>

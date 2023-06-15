@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name/>
-	<tag/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description/>
+	<name>انګلیسي (en-GB)</name>
+	<tag>en-GB</tag>
+	<version>۳. ۳. ۴</version>
+	<creationDate>۲۰۲۳-۰۵</creationDate>
+	<author>جوملا! پروژه</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>د GNU د خپرونو د عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
+	<description>en-GB api ژبه</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

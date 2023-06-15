@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Basque (eu-ES) Language Pack</name>
+	<name>Basque (eu-ES) Hizkuntza-paketea</name>
 	<packagename>eu-ES</packagename>
 	<version/>
 	<creationDate/>
 	<author>Joomla! Basque Translation Team</author>
-	<authorEmail>joomlaeuskaraz@gmail.com</authorEmail>
+	<authorEmail>trslbrr@gmail.com</authorEmail>
 	<authorUrl>(ez dago)</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Basque Translation Team</packager>
 	<packagerurl>(ez dago)</packagerurl>
-	<description><![CDATA[eu-ES language pack]]></description>
+	<description><![CDATA[eu-ES hizkuntza-paketea]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="eu-ES">language/eu-ES</folder>
@@ -20,7 +20,7 @@
 		<folder type="language" client="api" id="eu-ES">api/language/eu-ES</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="Joomla! Itzulpen Egiaztatuak">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>

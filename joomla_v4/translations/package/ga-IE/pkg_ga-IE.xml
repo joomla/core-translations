@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
 	<name>Irish (ga-IE) Language Pack</name>
-	<packagename/>
+	<packagename>ga-IE</packagename>
 	<version/>
 	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
+	<author>Irish translation team</author>
+	<authorEmail>kscanne@gmail.com</authorEmail>
+	<authorUrl>https://cadhan.com/</authorUrl>
+	<copyright>Copyright (C) 2019 Open Source Matters. Gach ceart ar cosaint.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager/>
-	<packagerurl/>
+	<packager>Irish translation team</packager>
+	<packagerurl>https://cadhan.com/</packagerurl>
 	<description><![CDATA[<div style="text-align:left;">
-<h3>Joomla! 3.9.0 Full Irish (ga-IE) Language Package - Version 3.9.0.1</h3>
-<h3>Pacáiste Gaeilge (ga-IE) le haghaidh Joomla! 3.9.0 - Leagan 3.9.0.1</h3>
+<h3>Joomla! 4 Full Irish (ga-IE) Language Package - Version 4.2.8.1</h3>
+<h3>Pacáiste Gaeilge (ga-IE) le haghaidh Joomla! 4 - Leagan 4.2.8.1</h3>
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="">language/ga-IE</folder>
-		<folder type="language" client="administrator" id="">administrator/language/ga-IE</folder>
-		<folder type="language" client="api" id=""/>
+		<folder type="language" client="site" id="ga-IE">language/ga-IE</folder>
+		<folder type="language" client="administrator" id="ga-IE">administrator/language/ga-IE</folder>
+		<folder type="language" client="api" id="ga-IE">api/language/ga-IE</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
+		<server type="collection" priority="1" name="Aistriúcháin Chreidiúnaithe Joomla!">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>

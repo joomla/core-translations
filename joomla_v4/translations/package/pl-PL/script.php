@@ -29,7 +29,7 @@ class Pkg_plPLInstallerScript extends InstallerScript
 		$this->minimumJoomla = '4.0';
 		$this->minimumPhp    = '7.2.5';
 
-		$this->deleteFiles = array(
+		$this->deleteFiles = [
 			// Backend
 			'/administrator/language/pl-PL/pl-PL.com_actionlogs.ini',
 			'/administrator/language/pl-PL/pl-PL.com_actionlogs.sys.ini',
@@ -413,7 +413,7 @@ class Pkg_plPLInstallerScript extends InstallerScript
 			'/language/pl-PL/pl-PL.tpl_protostar.sys.ini',
 			'/language/pl-PL/pl-PL.xml',
 			'/language/pl-PL/com_messages.ini',			
-		);
+		];
 	}
 
 	/**

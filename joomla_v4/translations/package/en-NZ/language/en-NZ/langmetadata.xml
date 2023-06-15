@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>English (en-NZ)</name>
 	<version/>
-	<creationDate>2022-09</creationDate>
+	<creationDate>2023-05</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -10,8 +10,8 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[en-NZ site language]]></description>
 	<metadata>
-		<name>English (United Kingdom)</name>
-		<nativeName>English (United Kingdom)</nativeName>
+		<name>English (New Zealand)</name>
+		<nativeName>English (New Zealand)</nativeName>
 		<tag>en-NZ</tag>
 		<rtl>0</rtl>
 		<locale>en_NZ.utf8, en_NZ.UTF-8, en_NZ, eng_NZ, en, english, english-nz, nz, new zealand, new-zealand</locale>

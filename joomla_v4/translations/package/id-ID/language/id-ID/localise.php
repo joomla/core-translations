@@ -1,10 +1,8 @@
-<?php
-
 /**
- * @package    Joomla.Language
- *
- * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
+  * @paket Joomla.Language
+  *
+  * @copyright (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
+  * @lisensi GNU General Public License versi 2 atau lebih baru; lihat LISENSI.txt
 
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
 
@@ -16,11 +14,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * id-ID localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Id_IDLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -34,11 +32,11 @@ abstract class En_GBLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 }

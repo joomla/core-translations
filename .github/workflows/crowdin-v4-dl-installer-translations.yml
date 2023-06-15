@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Crowdin Download Afrikaans
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -37,7 +37,7 @@ jobs:
       #      "CrowdinID": "am"
 
       - name: Crowdin Download Arabic
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -55,7 +55,7 @@ jobs:
       #      "CrowdinID": "az"
 
       - name: Crowdin Download Basque
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -73,7 +73,7 @@ jobs:
       #      "CrowdinID": "bs"
 
       - name: Crowdin Download Bulgarian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -85,7 +85,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Catalan
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -97,7 +97,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Chinese Simplified
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -109,7 +109,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Chinese Traditional
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -120,11 +120,20 @@ jobs:
           commit_message: 'New Chinese Traditional Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer'
 
-      #      "LanguageName": "Croatian",
-      #      "CrowdinID": "hr"
+      - name: Crowdin Download Croatian
+        uses: crowdin/github-action@v1.10.0
+        with:
+          config: 'Configurations/Crowdin-J4-Installer.yml'
+          upload_sources: false
+          download_translations: true
+          download_language: hr
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Croatian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Czech
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -136,7 +145,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Danish
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -148,7 +157,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Dari
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -160,7 +169,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Dutch
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -172,7 +181,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Dutch Belgium
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -184,7 +193,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download English Australia
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -196,7 +205,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download English Canada
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -208,7 +217,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download English New Zealand
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -223,7 +232,7 @@ jobs:
       #      "CrowdinID": "en-ZA"
 
       - name: Crowdin Download English US
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -238,7 +247,7 @@ jobs:
       #      "CrowdinID": "eo"
 
       - name: Crowdin Download Estonian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -250,7 +259,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Finnish
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -262,7 +271,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download French
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -280,7 +289,7 @@ jobs:
       #      "CrowdinID": "gl"
 
       - name: Crowdin Download Georgian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -298,7 +307,7 @@ jobs:
       # German Swiss doesn't use Crowdin
 
       - name: Crowdin Download Greek
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -313,7 +322,7 @@ jobs:
       #      "CrowdinID": "gu"
 
       - name: Crowdin Download Hebrew
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -328,7 +337,7 @@ jobs:
       #      "CrowdinID": "hi"
 
       - name: Crowdin Download Hungarian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -340,7 +349,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Indonesian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -355,7 +364,7 @@ jobs:
       #      "CrowdinID": "ga"
 
       - name: Crowdin Download Italian
-        uses: crowdin/github-action@1.10.0
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -367,7 +376,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Japanese
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -379,7 +388,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Kazakh
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -403,7 +412,7 @@ jobs:
       #      "CrowdinID": "lo"
 
       - name: Crowdin Download Latvian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -415,7 +424,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Lithuanian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -426,8 +435,17 @@ jobs:
           commit_message: 'New Lithuanian Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer'
 
-      #      "LanguageName": "Macedonian",
-      #      "CrowdinID": "mk"
+      - name: Crowdin Download Macedonian
+        uses: crowdin/github-action@v1.10.0
+        with:
+          config: 'Configurations/Crowdin-J4-Installer.yml'
+          upload_sources: false
+          download_translations: true
+          download_language: mk
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Macedonian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer'
 
       #      "LanguageName": "Malay",
       #      "CrowdinID": "ms"
@@ -443,7 +461,7 @@ jobs:
 
       # Joomla INI not ready yet
       #    - name: Crowdin Download Norwegian Bokmal
-      #      uses: crowdin/github-action@1.4.16
+      #      uses: crowdin/github-action@v1.10.0
       #      with:
       #        config: 'Configurations/Crowdin-J4-Installer.yml'
       #        upload_sources: false
@@ -464,7 +482,7 @@ jobs:
       #      "CrowdinID": "ps-AR"
 
       - name: Crowdin Download Persian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -476,7 +494,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Polish
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -488,7 +506,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Portuguese
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -500,7 +518,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Portuguese, Brazilian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -512,7 +530,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Romanian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -525,7 +543,7 @@ jobs:
 
       # Russian doesn't use Crowdin
       # - name: Crowdin Download Russian
-      #  uses: crowdin/github-action@1.4.16
+      #  uses: crowdin/github-action@v1.10.0
       #  with:
       #    config: 'Configurations/Crowdin-J4-Installer.yml'
       #    upload_sources: false
@@ -538,7 +556,7 @@ jobs:
 
       # Joomla INI not ready yet
       # - name: Crowdin Download Serbian (Cyrillic)
-      #  uses: crowdin/github-action@1.4.16
+      #  uses: crowdin/github-action@v1.10.0
       #  with:
       #    config: 'Configurations/Crowdin-J4-Installer.yml'
       #    upload_sources: false
@@ -550,7 +568,7 @@ jobs:
       #    localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Serbian (Latin)
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -565,7 +583,7 @@ jobs:
       #      "CrowdinID": "si"
 
       - name: Crowdin Download Slovak
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -577,7 +595,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Slovenian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -589,7 +607,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Spanish
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -610,7 +628,7 @@ jobs:
       #      "CrowdinID": "sw"
 
       - name: Crowdin Download Swedish
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -628,7 +646,7 @@ jobs:
       #      "CrowdinID": "tl"
 
       - name: Crowdin Download Tamil
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -640,7 +658,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Thai
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -652,7 +670,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Turkish
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -667,7 +685,7 @@ jobs:
       #      "CrowdinID": "tk"
 
       - name: Crowdin Download Ukrainian
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -681,14 +699,23 @@ jobs:
       #      "LanguageName": "Urdu (India)",
       #      "CrowdinID": "ur-IN"
 
-      #      "LanguageName": "Urdu (Pakistan)",
-      #      "CrowdinID": "ur"
+      - name: Crowdin Download Urdu (Pakistan)
+        uses: crowdin/github-action@v1.10.0
+        with:
+          config: 'Configurations/Crowdin-J4-Installer.yml'
+          upload_sources: false
+          download_translations: true
+          download_language: ur
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Urdu (Pakistan) Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer'
 
       #      "LanguageName": "Uyghur",
       #      "CrowdinID": "ug"
 
       - name: Crowdin Download Vietnamese
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false
@@ -700,7 +727,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer'
 
       - name: Crowdin Download Welsh
-        uses: crowdin/github-action@1.4.16
+        uses: crowdin/github-action@v1.10.0
         with:
           config: 'Configurations/Crowdin-J4-Installer.yml'
           upload_sources: false

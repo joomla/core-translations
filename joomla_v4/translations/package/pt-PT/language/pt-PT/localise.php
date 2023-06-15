@@ -11,15 +11,15 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-// phpcs:disable PSR1.Files.SideEffects
+// phpc:disable PSR1.Files.SideEffects
 \defined('_JEXEC') or die;
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * pt-PT localise class.
+ * Pt_PT localizalise class.
  *
- * @since  1.6
- */
+ * @since 1.6
+*/
 abstract class Pt_PTLocalise
 {
     /**
@@ -34,11 +34,11 @@ abstract class Pt_PTLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 }
