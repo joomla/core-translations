@@ -83,7 +83,7 @@ jobs:
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Japanese
-      uses: crowdin/github-action@v1.10.0
+      uses: crowdin/github-action@v1.11.0
       with:
         # Upload sources to Crowdin
         upload_sources: false
