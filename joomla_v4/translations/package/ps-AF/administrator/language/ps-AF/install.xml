@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name>انګلیسي (en-GB)</name>
-	<tag>en-GB</tag>
-	<version>۳. ۳. ۴</version>
+	<name>Pashto (ps-AF)</name>
+	<tag>ps-AF</tag>
+	<version>4.3.2</version>
 	<creationDate>٢٠٢٣-٠٣</creationDate>
-	<author>جوملا! پروژه</author>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
+	<author>Abdel Malek Parhiz</author>
+	<authorEmail>malek.p@hotmail.com</authorEmail>
+	<authorUrl>www.sporghay.com</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>د GNU د خپرونود عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
-	<description>en-GB د ژبې مدیریت</description>
+	<description>ps-AF administrator language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
