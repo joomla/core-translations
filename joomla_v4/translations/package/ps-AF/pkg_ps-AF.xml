@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>انګلیسي (en-GB) د ژبې ګېډۍ</name>
-	<packagename>en-GB</packagename>
-	<version>۱. ۳. ۳. ۴</version>
-	<creationDate>۲۰۲۳-۰۵</creationDate>
-	<author>جوملا! پروژه</author>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>(C) ٢٠١٩ د جوملا د موضوعاتو سرچینه پرانیزئ، Inc.</copyright>
+	<name>Pashto (ps-AF) Language Pack</name>
+	<packagename>ps-AF</packagename>
+	<version>4.3.2</version>
+	<creationDate>2023-05</creationDate>
+	<author>Abdel Malek Parhiz</author>
+	<authorEmail>malek.p@hotmail.com</authorEmail>
+	<authorUrl>www.sporghay.com</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>جوملا! پروژه</packager>
-	<packagerurl>www.joomla.org</packagerurl>
-	<description><![CDATA[en-GB د ژبې ګېډۍ]]></description>
+	<packager>Abdel Malek Parhiz</packager>
+	<packagerurl>www.sporghay.com</packagerurl>
+	<description><![CDATA[ps-AF language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">ژبه/en-GB</folder>
-		<folder type="language" client="administrator" id="en-GB">مدیر/ژبه/en-GB</folder>
-		<folder type="language" client="api" id="en-GB">api/ژبه/en-GGB</folder>
+		<folder type="language" client="site" id="ps-AF">language/ps-AF</folder>
+		<folder type="language" client="administrator" id="ps-AF">administrator/language/ps-AF</folder>
+		<folder type="language" client="api" id="ps-AF">api/language/ps-AF</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="اعتبار لرونکې جوملا! ژباړې">
