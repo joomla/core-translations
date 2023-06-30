@@ -1,0 +1,28 @@
+name: J5 Build JoomlaCMSProject
+# Controls when the action will run.
+on:
+  # Runs twice a day at 10 and 22
+  schedule:
+    - cron: '0 10,22 * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deployment:
+    if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
+    runs-on: ubuntu-latest
+    steps:
+    # Runs the HTTP Request action command - https://github.com/fjogeleit/http-request-action
+    - name: Call build URL
+      id: BuildV5CMS
+      uses: fjogeleit/http-request-action@v1.14.1
+      with:
+        url: 'https://joomla.crowdin.com/api/v2/projects/18/translations/builds'
+        method: 'POST'
+        contentType: 'application/json'
+        data: '{"targetLanguageIds": [],"skipUntranslatedStrings": true,"skipUntranslatedFiles": false,"exportWithMinApprovalsCount": 1}'
+        bearerToken: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+    - name: Show Response
+      run: echo ${{ steps.BuildV5CMS.outputs.response }}
