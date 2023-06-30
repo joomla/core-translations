@@ -28,4 +28,3 @@ jobs:
         uses: StephaneBour/actions-php-lint@8.2
         with:
           dir: '.'
-
