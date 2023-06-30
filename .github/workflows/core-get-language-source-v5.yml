@@ -34,22 +34,27 @@ jobs:
 
           SYNC_PATH="administrator/language/en-GB/"
           echo /${SYNC_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
 
           SYNC_PATH="administrator/manifests/packages/pkg_en-GB.xml"
           echo /${SYNC_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
 
           SYNC_PATH="api/language/en-GB/"
           echo /${SYNC_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
 
           SYNC_PATH="installation/language/en-GB/"
           echo /${SYNC_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
 
           SYNC_PATH="language/en-GB/"
           echo /${SYNC_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
 
       - name: Push j5 to repo
