@@ -18,7 +18,7 @@ jobs:
       id: BuildV5CMS
       uses: fjogeleit/http-request-action@v1.14.1
       with:
-        url: 'https://joomla.crowdin.com/api/v2/projects/18/translations/builds'
+        url: 'https://joomla.crowdin.com/api/v2/projects/${{ secrets.CROWDIN_PROJECT_ID }}/translations/builds'
         method: 'POST'
         contentType: 'application/json'
         data: '{"targetLanguageIds": [],"skipUntranslatedStrings": true,"skipUntranslatedFiles": false,"exportWithMinApprovalsCount": 1}'
