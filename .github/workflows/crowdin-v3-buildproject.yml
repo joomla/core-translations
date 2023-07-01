@@ -1,6 +1,7 @@
 name: J3 Build JoomlaCMSProject
 # Controls when the action will run.
 on:
+  # Runs twice a day at 9 and 21
   schedule:
     - cron: '0 9,21 * * *'
 
