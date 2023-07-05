@@ -9,14 +9,14 @@ preserve_hierarchy: true
 files:
     # All Backend INI Files
   - source: /joomla_v5/source/administrator/language/en-GB/*.ini
-    dest: 'JoomlaV5/Package/administrator/language/en-GB/%file_name%.ini'
+    dest: 'Package/administrator/language/en-GB/%file_name%.ini'
     translation: /joomla_v5/translations/package/%locale%/administrator/language/%locale%/%file_name%.ini
     update_option: update_as_unapproved
     type: joomla
 
     # Backend XML
   - source: /joomla_v5/source/administrator/language/en-GB/install.xml
-    dest: 'JoomlaV5/Package/administrator/language/en-GB/install.xml'
+    dest: 'Package/administrator/language/en-GB/install.xml'
     translation: /joomla_v5/translations/package/%locale%/administrator/language/%locale%/install.xml
     update_option: update_as_unapproved
     content_segmentation: 0
@@ -34,7 +34,7 @@ files:
       - /extension/description
 
   - source: /joomla_v5/source/administrator/language/en-GB/langmetadata.xml
-    dest: 'JoomlaV5/Package/administrator/language/en-GB/langmetadata.xml'
+    dest: 'Package/administrator/language/en-GB/langmetadata.xml'
     translation: /joomla_v5/translations/package/%locale%/administrator/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     content_segmentation: 0
@@ -60,13 +60,13 @@ files:
 
     # Backend Specials
   - source: /joomla_v5/source/administrator/language/en-GB/localise.php
-    dest: 'JoomlaV5/Package/administrator/language/en-GB/localise.txt'
+    dest: 'Package/administrator/language/en-GB/localise.txt'
     translation: /joomla_v5/translations/package/%locale%/administrator/language/%locale%/localise.php
     update_option: update_as_unapproved
     type: txt
 
   - source: /joomla_v5/source/administrator/manifests/packages/pkg_en-GB.xml
-    dest: 'JoomlaV5/Package/pkg_en-GB.xml'
+    dest: 'Package/pkg_en-GB.xml'
     translation: /joomla_v5/translations/package/%locale%/pkg_%locale%.xml
     update_option: update_as_unapproved
     content_segmentation: 0
