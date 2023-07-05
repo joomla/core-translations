@@ -91,15 +91,15 @@ jobs:
         config: 'Configurations/Crowdin-J5-All.yml'
         # Use true for dryrun to test the run without actually processing anything
         dryrun_action: false
-        crowdin_branch_name: JoomlaV5
 
     - name: crowdin action installer files
       uses: crowdin/github-action@v1.11.0
       with:
         # Upload sources to Crowdin
         upload_sources: true
+        # Upload sources to Crowdin branch
+        crowdin_branch_name: JoomlaV5
         # Option to specify a path to the configuration file, without / at the beginning
         config: 'Configurations/Crowdin-J5-Installer.yml'
         # Use true for dryrun to test the run without actually processing anything
         dryrun_action: false
-        crowdin_branch_name: JoomlaV5
