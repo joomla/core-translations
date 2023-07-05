@@ -9,13 +9,13 @@ preserve_hierarchy: true
 files:
     # Installation files
   - source: /joomla_v5/source/installation/language/en-GB/joomla.ini
-    dest: 'JoomlaV5/Installer/language/en-GB/joomla.ini'
+    dest: 'Installer/language/en-GB/joomla.ini'
     translation: /joomla_v5/translations/core/installation/language/%locale%/joomla.ini
     update_option: update_as_unapproved
     type: joomla
 
   - source: /joomla_v5/source/installation/language/en-GB/langmetadata.xml
-    dest: 'JoomlaV5/Installer/language/en-GB/langmetadata.xml'
+    dest: 'Installer/language/en-GB/langmetadata.xml'
     translation: /joomla_v5/translations/core/installation/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     content_segmentation: 0

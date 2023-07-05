@@ -91,20 +91,20 @@ files:
 
     # All Frontend INI Files
   - source: /joomla_v5/source/language/en-GB/*.ini
-    dest: 'JoomlaV5/Package/language/en-GB/%file_name%.ini'
+    dest: 'Package/language/en-GB/%file_name%.ini'
     translation: /joomla_v5/translations/package/%locale%/language/%locale%/%file_name%.ini
     update_option: update_as_unapproved
     type: joomla
 
   - source: /joomla_v5/source/language/en-GB/com_finder.commonwords.txt
-    dest: 'JoomlaV5/Package/language/en-GB/com_finder.commonwords.txt'
+    dest: 'Package/language/en-GB/com_finder.commonwords.txt'
     translation: /joomla_v5/translations/package/%locale%/language/%locale%/com_finder.commonwords.txt
     update_option: update_as_unapproved
     type: txt
 
     # Frontend XML
   - source: /joomla_v5/source/language/en-GB/install.xml
-    dest: 'JoomlaV5/Package/language/en-GB/install.xml'
+    dest: 'Package/language/en-GB/install.xml'
     translation: /joomla_v5/translations/package/%locale%/language/%locale%/install.xml
     update_option: update_as_unapproved
     content_segmentation: 0
@@ -122,7 +122,7 @@ files:
       - /extension/description
 
   - source: /joomla_v5/source/language/en-GB/langmetadata.xml
-    dest: 'JoomlaV5/Package/language/en-GB/langmetadata.xml'
+    dest: 'Package/language/en-GB/langmetadata.xml'
     translation: /joomla_v5/translations/package/%locale%/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     content_segmentation: 0
@@ -148,20 +148,20 @@ files:
 
     # Frontend Specials
   - source: /joomla_v5/source/language/en-GB/localise.php
-    dest: 'JoomlaV5/Package/language/en-GB/localise.txt'
+    dest: 'Package/language/en-GB/localise.txt'
     translation: /joomla_v5/translations/package/%locale%/language/%locale%/localise.php
     update_option: update_as_unapproved
     type: txt
 
     # API Files
   - source: /joomla_v5/source/api/language/en-GB/joomla.ini
-    dest: 'JoomlaV5/Package/api/language/en-GB/joomla.ini'
+    dest: 'Package/api/language/en-GB/joomla.ini'
     translation: /joomla_v5/translations/package/%locale%/api/language/%locale%/joomla.ini
     update_option: update_as_unapproved
     type: joomla
 
   - source: /joomla_v5/source/api/language/en-GB/install.xml
-    dest: 'JoomlaV5/Package/api/language/en-GB/install.xml'
+    dest: 'Package/api/language/en-GB/install.xml'
     translation: /joomla_v5/translations/package/%locale%/api/language/%locale%/install.xml
     update_option: update_as_unapproved
     content_segmentation: 0
@@ -179,7 +179,7 @@ files:
       - /extension/description
 
   - source: /joomla_v5/source/api/language/en-GB/langmetadata.xml
-    dest: 'JoomlaV5/Package/api/language/en-GB/langmetadata.xml'
+    dest: 'Package/api/language/en-GB/langmetadata.xml'
     translation: /joomla_v5/translations/package/%locale%/api/language/%locale%/langmetadata.xml
     update_option: update_as_unapproved
     content_segmentation: 0
