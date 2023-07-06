@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="api">
-	<name>انګلیسي (en-GB)</name>
-	<version>۳. ۳. ۴</version>
-	<creationDate>۲۰۲۳/۰۵</creationDate>
-	<author>جوملا! پروژه</author>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
-	<license>د GNU د خپرونود عمومي جواز نسخه۲ یا وروسته؛ LICENSE.txt وګورئ</license>
-	<description><![CDATA[en-GB api ژبه]]></description>
+	<name>Pashto (ps-AF)</name>
+	<version>4.3.2</version>
+	<creationDate>2023-05</creationDate>
+	<author>Abdel Malek Parhiz</author>
+	<authorEmail>malek.p@hotmail.com</authorEmail>
+	<authorUrl>www.sporghay.com</authorUrl>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[ps-AF api language]]></description>
 	<metadata>
-		<name>انګلیسی (بریتانیه)</name>
-		<nativeName>انګلیسی (بریتانیه)</nativeName>
-		<tag>en-GB</tag>
-		<rtl>۰</rtl>
-		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, انګلیسي, انګلیسي-uk, uk, gbr, برتانیه, انګلستان, لویه بریتانیا, انګلستان, انګلستان, انګلستان</locale>
-		<firstDay>۰</firstDay>
-		<weekEnd>۰،۶</weekEnd>
+		<name>Pashto (Afghanistan)</name>
+		<nativeName>Pashto (Afghanistan)</nativeName>
+		<tag>ps-AF</tag>
+		<rtl>1</rtl>
+		<locale>ps_AF.utf8, ps_AF.UTF-8, ps_Af, ps_AF, ps, pashto, pashto-af, af, afghanistan, afghanistan</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
