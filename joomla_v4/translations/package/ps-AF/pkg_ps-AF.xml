@@ -20,7 +20,7 @@
 		<folder type="language" client="api" id="ps-AF">api/language/ps-AF</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="اعتبار لرونکې جوملا! ژباړې">
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
 			https://update.joomla.org/language/translationlist_4.xml
 		</server>
 	</updateservers>
