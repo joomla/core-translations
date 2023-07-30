@@ -81,7 +81,7 @@ jobs:
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: crowdin action package files
-      uses: crowdin/github-action@v1.11.0
+      uses: crowdin/github-action@v1.12.0
       with:
         # Upload sources to Crowdin
         upload_sources: true
@@ -93,7 +93,7 @@ jobs:
         dryrun_action: false
 
     - name: crowdin action installer files
-      uses: crowdin/github-action@v1.11.0
+      uses: crowdin/github-action@v1.12.0
       with:
         # Upload sources to Crowdin
         upload_sources: true
