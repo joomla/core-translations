@@ -51,7 +51,7 @@ abstract class Fr_CALocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['et', 'dans', 'sur'];
     }
 
     /**
