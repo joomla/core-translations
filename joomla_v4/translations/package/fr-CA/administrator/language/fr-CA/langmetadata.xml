@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
-	<name>French (fr-FR)</name>
+	<name>French (fr-CA)</name>
 	<version>4.3.5</version>
-	<creationDate>08-2023</creationDate>
-	<author>Joomla! Project - French translation team</author>
+	<creationDate>2023-08</creationDate>
+	<author>Joomla! Project - Canadian translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
-	<authorUrl>www.joomla.fr</authorUrl>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[fr-FR Administrator language]]></description>
+	<description><![CDATA[fr-CA administrator language]]></description>
 	<metadata>
-		<name>French (fr-FR)</name>
-		<nativeName>Français (France)</nativeName>
-		<tag>fr-FR</tag>
+		<name>French (Canada)</name>
+		<nativeName>Français (Canada)</nativeName>
+		<tag>fr-CA</tag>
 		<rtl>0</rtl>
-		<locale>fr_FR.utf8, fr_FR.UTF-8, fr_FR, fr, français, french-fr, france, francophone</locale>
-		<firstDay>1</firstDay>
+		<locale>fr_CA.utf8, fr_CA.UTF-8, fr_CA, fr, français, french-fr, canada, francophone</locale>
+		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
 	</metadata>

@@ -11,15 +11,15 @@
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-// phpcs:disable PSR1.Files.SideEffects
+// phpcs:disable PSR1. Files. SideEffects
 \defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
+// phpcs:en able PSR1. Files. SideEffects
 
 /**
- * fr-CA localise class.
+ * fr-CA localise classe.
  *
- * @since  1.6
- */
+ * @since 1.6
+*/
 abstract class Fr_CALocalise
 {
     /**
