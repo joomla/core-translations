@@ -26,13 +26,14 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: af
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Afrikaans Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Amharic",
       #      "CrowdinID": "am"
@@ -41,13 +42,14 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: ar
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Arabic Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Armenian",
       #      "CrowdinID": "hy"
@@ -59,13 +61,14 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: eu
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Basque Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Bengali",
       #      "CrowdinID": "bn"
@@ -77,157 +80,170 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: bg
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Bulgarian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Catalan
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: ca
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Catalan Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Chinese Simplified
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: zh-CN
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Chinese Simplified Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Chinese Traditional
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: zh-TW
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Chinese Traditional Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Croatian
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: hr
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Croatian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Czech
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: cs
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Czech Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Danish
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: da
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Danish Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Dari
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: fa-AF
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Dari Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Dutch
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: nl
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Dutch Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Dutch Belgium
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: nl-BE
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Dutch Belgium Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download English Australia
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: en-AU
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New English Australia Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download English Canada
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: en-CA
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New English Canada Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download English New Zealand
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: en-NZ
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New English New Zealand Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "English South Africa",
       #      "CrowdinID": "en-ZA"
@@ -236,13 +252,14 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: en-US
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New English US Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Esperanto",
       #      "CrowdinID": "eo"
@@ -251,37 +268,40 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: et
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Estonian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Finnish
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: fi
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Finnish Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download French
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: fr
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New French Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "French, Canada",
       #      "CrowdinID": "fr-CA"
@@ -293,13 +313,14 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: ka
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Georgian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       # German doesn't use Crowdin
       # German Austria doesn't use Crowdin
@@ -311,13 +332,14 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: el
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Greek Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Gujarati",
       #      "CrowdinID": "gu"
@@ -326,13 +348,14 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: he
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Hebrew Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Hindi",
       #      "CrowdinID": "hi"
@@ -341,25 +364,27 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: hu
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Hungarian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Indonesian
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: id
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Indonesian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Irish",
       #      "CrowdinID": "ga"
@@ -368,37 +393,40 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: it
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Italian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Japanese
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: ja
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Japanese Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Kazakh
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: kk
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Kazakh Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Khmer",
       #      "CrowdinID": "km"
@@ -416,37 +444,40 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: lv
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Latvian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Lithuanian
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: lt
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Lithuanian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Macedonian
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: mk
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Macedonian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Malay",
       #      "CrowdinID": "ms"
@@ -465,13 +496,14 @@ jobs:
       #      uses: crowdin/github-action@v1.13.1
       #      with:
       #        config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
       #        upload_sources: false
       #        download_translations: true
       #        download_language: nb
       #        skip_untranslated_strings: true
       #        export_only_approved: true
       #        commit_message: 'New Norwegian Bokmal Crowdin translations by Github Action'
-      #        localization_branch_name: 'l10n_crowdin_installer'
+      #        localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Norwegian Nynorsk",
       #      "CrowdinID": "nn-NO"
@@ -486,99 +518,107 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: fa
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Persian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Polish
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: pl
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Polish Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Portuguese
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: pt
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Portuguese Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Portuguese, Brazilian
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: pt-BR
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Portuguese, Brazilian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Romanian
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: ro
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Romanian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       # Russian doesn't use Crowdin
       # - name: Crowdin Download Russian
       #  uses: crowdin/github-action@v1.13.1
       #  with:
       #    config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
       #    upload_sources: false
       #    download_translations: true
       #    download_language: ru
       #    skip_untranslated_strings: true
       #    export_only_approved: true
       #    commit_message: 'New Russian Crowdin translations by Github Action'
-      #    localization_branch_name: 'l10n_crowdin_installer'
+      #    localization_branch_name: 'l10n_crowdin_installer_v5'
 
       # Joomla INI not ready yet
       # - name: Crowdin Download Serbian (Cyrillic)
       #  uses: crowdin/github-action@v1.13.1
       #  with:
       #    config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
       #    upload_sources: false
       #    download_translations: true
       #    download_language: sr-Cyrl
       #    skip_untranslated_strings: true
       #    export_only_approved: true
       #    commit_message: 'New Serbian Cyrillic Crowdin translations by Github Action'
-      #    localization_branch_name: 'l10n_crowdin_installer'
+      #    localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Serbian (Latin)
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: sr-Latn
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Serbian Latin Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Sinhala",
       #      "CrowdinID": "si"
@@ -587,37 +627,40 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: sk
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Slovak Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Slovenian
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: sl
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Slovenian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Spanish
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: es
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Spanish Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Spanish, Colombia",
       #      "CrowdinID": "es-CO"
@@ -632,13 +675,14 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: sv
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Swedish Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Syriac",
       #      "CrowdinID": "syc"
@@ -650,37 +694,40 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: ta
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Tamil Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Thai
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: th
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Thai Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Turkish
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: tr
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Turkish Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Turkmen",
       #      "CrowdinID": "tk"
@@ -689,13 +736,14 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: uk
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Ukrainian Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Urdu (India)",
       #      "CrowdinID": "ur-IN"
@@ -704,13 +752,14 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: ur
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Urdu (Pakistan) Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Uyghur",
       #      "CrowdinID": "ug"
@@ -719,22 +768,24 @@ jobs:
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: vi
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Vietnamese Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Welsh
         uses: crowdin/github-action@v1.13.1
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
           upload_sources: false
           download_translations: true
           download_language: cy
           skip_untranslated_strings: true
           export_only_approved: true
           commit_message: 'New Welsh Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
