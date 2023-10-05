@@ -6,7 +6,7 @@ name: J4 Get Japanese Translation files
 
 on:
   workflow_dispatch:
-  # Runs once a day at 8:01
+  # Runs once a day at 8:31
   schedule:
     - cron:  '31 8 * * *'
 

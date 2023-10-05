@@ -25,6 +25,7 @@ jobs:
       with:
         # Option to specify a path to the configuration file, without / at the beginning
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         # Upload sources to Crowdin
         upload_sources: false
         # Make pull request of Crowdin translations
@@ -38,6 +39,7 @@ jobs:
         export_only_approved: true
         # The message of the commit
         commit_message: 'New Afrikaans Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -47,12 +49,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: sq
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Albanian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -62,12 +66,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ar
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Arabic Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -77,12 +83,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: hy
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Armenian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -92,12 +100,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: az
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Azerbaijani Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -107,12 +117,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: eu
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Basque Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -122,12 +134,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: bn
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Bengali Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -137,12 +151,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: bs
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Bosnian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -152,12 +168,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: bg
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Bulgarian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -167,12 +185,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ca
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Catalan Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -182,12 +202,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: zh-CN
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Chinese Simplified Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -197,12 +219,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: zh-TW
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Chinese Traditional Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -212,12 +236,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: hr
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Croatian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -227,12 +253,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: cs
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Czech Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -242,12 +270,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: da
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Danish Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -257,12 +287,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: fa-AF
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Dari Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -272,12 +304,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: nl
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Dutch Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -287,12 +321,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: nl-BE
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Dutch Belgium Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -302,12 +338,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: en-AU
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New English Australia Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -317,12 +355,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: en-CA
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New English Canada Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -332,12 +372,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: en-NZ
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New English New Zealand Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -347,12 +389,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: en-US
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New English US Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -362,12 +406,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: en-ZA
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New English South Africa Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -377,12 +423,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: eo
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Esperanto Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -392,12 +440,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: et
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Estonian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -407,12 +457,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: fi
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Finnish Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -422,12 +474,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: fr
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New French Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -437,12 +491,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: fr-CA
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New French Canada Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -452,12 +508,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: gl
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Galician Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -467,12 +525,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ka
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Georgian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -487,12 +547,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: el
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Greek Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -502,12 +564,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: gu
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Gujarati Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -517,12 +581,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: he
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Hebrew Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -532,12 +598,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: hi
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Hindi Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -547,12 +615,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: hu
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Hungarian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -562,12 +632,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: id
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Indonesian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -577,12 +649,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ga
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Irish Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -592,12 +666,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: it
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Italian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -608,12 +684,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: kk
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Kazakh Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -623,12 +701,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: km
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Khmer Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -638,12 +718,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ko
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Korean Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -653,12 +735,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ky
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Kyrgyz Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -668,12 +752,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: lo
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Lao Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -683,12 +769,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: lv
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Latvian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -698,12 +786,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: lt
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Lithuanian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -713,12 +803,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: mk
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Macedonian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -728,12 +820,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ms
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Malay Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -743,12 +837,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ml
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Malayalam Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -758,12 +854,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: mr
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Marathi Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -773,12 +871,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: mn
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Mongolian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -788,12 +888,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ng
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Ndonga Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -803,12 +905,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: se
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Northern Sami Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -818,12 +922,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: nb
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Norwegian Bokmal Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -833,12 +939,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: nn-NO
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Norwegian Nynorsk Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -848,12 +956,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: oc
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Occitan Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -863,12 +973,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ps
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Pashto Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -878,12 +990,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: fa
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Persian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -894,12 +1008,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: pt
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Portuguese Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -909,12 +1025,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: pt-BR
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Portuguese Brazilian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -924,12 +1042,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ro
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Romanian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -940,12 +1060,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: sr-Cyrl
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Serbian Cyrillic Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -955,12 +1077,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: sr-Latn
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Serbian Latin Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -970,12 +1094,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: si
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Sinhala Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -985,12 +1111,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: sk
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Slovak Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1000,12 +1128,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: sl
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Slovenian Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1016,12 +1146,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: es-CO
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Spanish Colombia Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1031,12 +1163,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: es-MX
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Spanish Mexico Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1046,12 +1180,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: sw
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Swahili Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1061,12 +1197,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: sv
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Swedish Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1076,12 +1214,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: syc
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Syriac Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1091,12 +1231,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: tl
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Tagalog Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1106,12 +1248,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ta
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Tamil Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1121,12 +1265,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: th
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Thai Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1136,12 +1282,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: fit-fi
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Tornedalen, Finland Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1151,12 +1299,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: tr
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Turkish Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1166,12 +1316,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: tk
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Turkmen Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1182,12 +1334,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ur-IN
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Urdu India Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1197,12 +1351,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ur
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Urdu (Pakistan) Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1212,12 +1368,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ug
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Uyghur Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1227,12 +1385,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: vi
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Vietnamese Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:
@@ -1242,12 +1402,14 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: cy
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Welsh Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
         github_user_name: 'joomla-translation-bot'
         github_user_email: 'release+translation-bot@joomla.org'
       env:

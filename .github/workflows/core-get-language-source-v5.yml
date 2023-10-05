@@ -31,33 +31,34 @@ jobs:
         # We use a simple copy paste syntax here if needed customization for different directories
         run: |
           cd ..
+          REPO_NAME=${{ github.event.repository.name }}
           SYNC_VERION="v5"
 
           SYNC_PATH="administrator/language/en-GB/"
           echo /${SYNC_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
+          mkdir -p ${REPO_NAME}/joomla_${SYNC_VERION}/source/${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete joomla-cms/${SYNC_PATH} ${REPO_NAME}/joomla_${SYNC_VERION}/source/${SYNC_PATH}
 
           SYNC_PATH="administrator/manifests/packages/"
           SYNC_FILE="administrator/manifests/packages/pkg_en-GB.xml"
           echo /${SYNC_FILE}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_FILE} core-translations/joomla_${SYNC_VERION}/source/${SYNC_FILE}
+          mkdir -p ${REPO_NAME}/joomla_${SYNC_VERION}/source/${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete joomla-cms/${SYNC_FILE} ${REPO_NAME}/joomla_${SYNC_VERION}/source/${SYNC_FILE}
 
           SYNC_PATH="api/language/en-GB/"
           echo /${SYNC_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
+          mkdir -p ${REPO_NAME}/joomla_${SYNC_VERION}/source/${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete joomla-cms/${SYNC_PATH} ${REPO_NAME}/joomla_${SYNC_VERION}/source/${SYNC_PATH}
 
           SYNC_PATH="installation/language/en-GB/"
           echo /${SYNC_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
+          mkdir -p ${REPO_NAME}/joomla_${SYNC_VERION}/source/${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete joomla-cms/${SYNC_PATH} ${REPO_NAME}/joomla_${SYNC_VERION}/source/${SYNC_PATH}
 
           SYNC_PATH="language/en-GB/"
           echo /${SYNC_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  joomla-cms/${SYNC_PATH} core-translations/joomla_${SYNC_VERION}/source/${SYNC_PATH}
+          mkdir -p ${REPO_NAME}/joomla_${SYNC_VERION}/source/${SYNC_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete joomla-cms/${SYNC_PATH} ${REPO_NAME}/joomla_${SYNC_VERION}/source/${SYNC_PATH}
 
       - name: Push j5 to repo
         run: |
@@ -75,31 +76,31 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: Checkout
-      uses: actions/checkout@v4
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    # Runs the Crowdin action command - https://github.com/crowdin/github-action
-    - name: crowdin action package files
-      uses: crowdin/github-action@v1.13.1
-      with:
-        # Upload sources to Crowdin
-        upload_sources: true
-        # Option to specify a path to the configuration file, without / at the beginning
-        config: 'Configurations/Crowdin-J5-All.yml'
-        # Upload sources to Crowdin branch
-        crowdin_branch_name: JoomlaV5
-        # Use true for dryrun to test the run without actually processing anything
-        dryrun_action: false
+      # Runs the Crowdin action command - https://github.com/crowdin/github-action
+      - name: crowdin action package files
+        uses: crowdin/github-action@v1.13.1
+        with:
+          # Upload sources to Crowdin
+          upload_sources: true
+          # Option to specify a path to the configuration file, without / at the beginning
+          config: 'Configurations/Crowdin-J5-All.yml'
+          # Upload sources to Crowdin branch
+          crowdin_branch_name: JoomlaV5
+          # Use true for dryrun to test the run without actually processing anything
+          dryrun_action: false
 
-    - name: crowdin action installer files
-      uses: crowdin/github-action@v1.13.1
-      with:
-        # Upload sources to Crowdin
-        upload_sources: true
-        # Upload sources to Crowdin branch
-        crowdin_branch_name: JoomlaV5
-        # Option to specify a path to the configuration file, without / at the beginning
-        config: 'Configurations/Crowdin-J5-Installer.yml'
-        # Use true for dryrun to test the run without actually processing anything
-        dryrun_action: false
+      - name: crowdin action installer files
+        uses: crowdin/github-action@v1.13.1
+        with:
+          # Upload sources to Crowdin
+          upload_sources: true
+          # Option to specify a path to the configuration file, without / at the beginning
+          config: 'Configurations/Crowdin-J5-Installer.yml'
+          # Upload sources to Crowdin branch
+          crowdin_branch_name: JoomlaV5
+          # Use true for dryrun to test the run without actually processing anything
+          dryrun_action: false

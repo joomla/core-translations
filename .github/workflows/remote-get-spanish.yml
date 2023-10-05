@@ -6,7 +6,7 @@ name: J4 Get Spanish Translation files
 
 on:
   workflow_dispatch:
-  # Runs once a day at 8:01
+  # Runs once a day at 8:16
   schedule:
     - cron:  '16 8 * * *'
 
