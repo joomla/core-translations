@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>සිංහල (සිං) භාෂා ඇසුරුම</name>
+	<packagename>si</packagename>
+	<version/>
+	<creationDate/>
+	<author>ජූම්ලා! ව්‍යාපෘතිය</author>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright>(C) 2019 - 2018 ඕපන් සෝර්ස් මැටර්ස්. සංස්.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>ජූම්ලා! ව්‍යාපෘතිය</packager>
+	<packagerurl/>
+	<description><![CDATA[si භාෂා ඇසුරුම]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="si">language/si</folder>
+		<folder type="language" client="administrator" id="si">administrator/language/si</folder>
+		<folder type="language" client="api" id="si">api/language/si</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="පිළිගත් ජූම්ලා! පරිවර්තන">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>
