@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="api" type="language" method="upgrade">
+	<name>Albanian(sq-AL)</name>
+	<tag>sq-AL</tag>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail>mirimarku@gmail.com</authorEmail>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<description/>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
