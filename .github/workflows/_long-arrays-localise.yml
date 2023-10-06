@@ -34,8 +34,8 @@ jobs:
           echo -n "$affi" > ${{ github.workspace}}/logs/long_arrays_files_affected
           cat ${{ github.workspace}}/logs/long_arrays_result
 
-      - name: Check PR content Joomla v4
-        if: ${{ github.ref == 'refs/heads/l10n_crowdin_package_v4'}}
+      - name: Check PR content Joomla v5
+        if: ${{ github.ref == 'refs/heads/l10n_crowdin_package_v5'}}
         id: build-v5
         run: |
             mkdir ${{ github.workspace}}/logs
