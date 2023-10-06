@@ -1,0 +1,179 @@
+; Joomla! Projektet
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; License GNU General Public License version 2 or later; see LICENSE.txt
+; Note : This file needs to be saved as UTF-8
+
+jag
+mig
+min
+mig själv
+vi
+vår
+våra
+oss själva
+du
+din
+ditt
+dig själv
+er själva
+han
+honom
+hans
+själv
+hon
+henne
+hennes
+hon själv
+det
+dess
+sig själv
+de
+dem
+deras
+sina
+sig själva
+vad
+vilka
+vem
+vem
+denna
+det
+dessa
+detta
+fm
+är
+är
+var
+blev
+vara
+varit
+varelse
+har
+haft
+hade
+med
+gör
+göra
+gjorde
+gör
+skulle
+borde
+kunde
+bör
+Jag är
+Du är
+han är
+hon är
+det är
+Vi är
+de är
+jag har
+har du
+Vi har
+de har
+borde
+du skulle
+han skulle
+hon skulle
+vi skulle
+de skulle
+kommer
+kommer du
+han kommer
+hon kommer
+kommer vi
+de kommer
+är inte
+inte
+var inte
+blev inte
+har inte
+skulle inte
+hade inte
+gör inte
+inte
+gjorde inte
+kommer inte
+skulle inte
+hann inte
+borde inte
+kan inte
+kan inte
+kunde inte
+får inte
+låt oss
+Det är
+vems
+vad är
+här är
+det finns
+när är
+var är
+varför är
+hur är
+en
+ett
+den
+och
+men
+om
+eller
+eftersom
+som
+tills
+medan
+av
+vid
+genom
+i
+med
+om
+mot
+mellan
+in i
+genom
+under
+före
+efter
+ovanför
+under
+till
+från
+upp
+lodrätt
+in
+ut
+på
+av
+över
+under
+igen
+vidare
+sedan
+en gång
+här
+där
+när
+var
+varför
+hur
+alla
+valfri
+båda
+varje
+några
+mer
+mest
+annat
+några
+sådan
+aldrig
+varken
+inte
+bara
+egen
+samma
+så
+än
+alltför
+mycket
