@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Persian (fa-IR) Language pack</name>
+	<packagename>fa-IR</packagename>
+	<version/>
+	<creationDate/>
+	<author>Persian Translation Team: joomlafarsi.com</author>
+	<authorEmail>info@joomlafarsi.com</authorEmail>
+	<authorUrl>www.joomlafarsi.com</authorUrl>
+	<copyright>Copyright (C) 2005 - 2023 Joomlafarsi.com and Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Persian Translation Team: joomlafarsi.com</packager>
+	<packagerurl>www.joomlafarsi.com</packagerurl>
+	<description><![CDATA[<div style="text-align: right;">
+<h3>Joomla! 4.2 Full Farsi (fa-IR) Language Package version - Version 4.2.7.1 - JoomlaFarsi.com</h3>
+<h3>فارسی ساز جوملا 4.2 کاری از تیم برگزیده جوملا در ایران. جوملا فارسی دات کام نسخه 4.2.7.1</h3>
+<p><a href="https:/www.joomlafarsi.com" target="_blank">www.joomlafarsi.com</a> - <a href="mailto:info@joomlafarsi.com">info@joomlafarsi.com</a></p>
+</div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="fa-IR">language/fa-IR</folder>
+		<folder type="language" client="administrator" id="fa-IR">administrator/language/fa-IR</folder>
+		<folder type="language" client="api" id="fa-IR">api/language/fa-IR</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>
