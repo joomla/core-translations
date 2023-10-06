@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="administrator">
+	<name>Kazakh (kk-KZ)</name>
+	<version/>
+	<creationDate/>
+	<author>Sarvarov Akylkerey</author>
+	<authorEmail>sarvarov1985@mail.ru</authorEmail>
+	<authorUrl>https://forum.joomla.org/memberlist.php?mode=viewprofile&amp;u=838669</authorUrl>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[kk-KZ administrator language]]></description>
+	<metadata>
+		<name>Kazakh (Kazakhstan)</name>
+		<nativeName>Kazakh (Kazakhstan)</nativeName>
+		<tag>kk-KZ</tag>
+		<rtl>0</rtl>
+		<locale>kk_KZ.utf8, kk_KZ.UTF-8, kk_KZ, kk_KZ, kk, kazakh, kazakh-kk, kk, kkr, britain, kazakh</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>григориан</calendar>
+	</metadata>
+	<params/>
+</metafile>
