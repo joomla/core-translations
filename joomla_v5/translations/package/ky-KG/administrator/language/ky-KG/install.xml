@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="administrator" type="language" method="upgrade">
+	<name>Кыргыз тили (ky-KG)</name>
+	<tag>ky-KG</tag>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail>ohna@bk.ru</authorEmail>
+	<authorUrl>www.joomla.kg</authorUrl>
+	<copyright/>
+	<license>GNU Жалпы Коомдук Лицензиясы 2 же андан кийинки нускасы; LICENSE.txt бөлүмүн караңыз.</license>
+	<description>ky-KG administrator language</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
