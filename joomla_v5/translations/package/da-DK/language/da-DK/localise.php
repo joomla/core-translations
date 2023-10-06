@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * da-DK lokaliseringsklasse.
+ * da-DK localise class.
  *
  * @since  1.6
  */
-abstrakt klasse Da_DKLocalise
+abstract class Da_DKLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
