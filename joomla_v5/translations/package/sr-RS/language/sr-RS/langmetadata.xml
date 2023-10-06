@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="site">
+	<name>Српска ћирилица (sr-RS)</name>
+	<version/>
+	<creationDate/>
+	<author>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</author>
+	<authorEmail>prevod@bardak.rs</authorEmail>
+	<authorUrl>https://www.bardak.rs</authorUrl>
+	<copyright>Copyright (C) 2006 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[sr-RS језик веб-сајта]]></description>
+	<metadata>
+		<name>Српска ћирилица (Република Србија)</name>
+		<nativeName>Српска ћирилица (Република Србија)</nativeName>
+		<tag>sr-RS</tag>
+		<rtl>0</rtl>
+		<locale>sr_RS.utf8, sr_RS.UTF-8, sr_RS, sr_RS, sr, српски, срб, ћирилица, српска ћирилица, србија</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>
