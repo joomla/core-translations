@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Romanian Language Pack</name>
+	<packagename>ro-RO</packagename>
+	<version/>
+	<creationDate/>
+	<author>Horia Negura - Quanta</author>
+	<authorEmail>fakemoth@gmail.com</authorEmail>
+	<authorUrl>www.quanta-group.ro/</authorUrl>
+	<copyright>Copyright (C) Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Horia Negura - Quanta</packager>
+	<packagerurl>www.quanta-group.ro/</packagerurl>
+	<description><![CDATA[Joomla! 4.x Full Romanian (ro-RO) Language Package - Version 4.0.2v1]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="ro-RO">language/ro-RO</folder>
+		<folder type="language" client="administrator" id="ro-RO">administrator/language/ro-RO</folder>
+		<folder type="language" client="api" id="ro-RO">api/language/ro-RO</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="administrator" type="language" method="upgrade">
+	<name>Româna (ro-RO)</name>
+	<tag>ro-RO</tag>
+	<version/>
+	<creationDate/>
+	<author>Horia Negura - Quanta</author>
+	<authorEmail>fakemoth@gmail.com</authorEmail>
+	<authorUrl>www.quanta-group.ro/</authorUrl>
+	<copyright>Copyright (C) 2013 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License versiunea 2 sau mai nouă, a se vedea LICENSE.txt</license>
+	<description>Joomla! 3.9 Romanian (ro-RO) Administrator Language Pack - Version 3.9.21.1</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
