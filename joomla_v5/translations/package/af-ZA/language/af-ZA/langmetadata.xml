@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="site">
+	<name>Afrikaans (af-ZA)</name>
+	<version/>
+	<creationDate/>
+	<author>Afrikaans Translation Team</author>
+	<authorEmail>llewellyn.van-der-merwe@community.joomla.org</authorEmail>
+	<authorUrl>joomla.crowdin.com</authorUrl>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[af-ZA werftaal]]></description>
+	<metadata>
+		<name>Afrikaans (Suid-Afrika)</name>
+		<nativeName>Afrikaans (Suid-Afrika)</nativeName>
+		<tag>af-ZA</tag>
+		<rtl>0</rtl>
+		<locale>af-ZA.utf8, af-ZA.UTF-8, af-ZA, afr-ZA, af, afr, afrikaans, afrikaans-sa, sa, zar, suid-afrika, republiek van suid afrika, suidelike afrika, za, rsa, suid-afrika, suid afrikaans, suid-afrikaans</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

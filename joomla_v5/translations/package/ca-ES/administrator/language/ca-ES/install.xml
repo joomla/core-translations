@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="administrator" type="language" method="upgrade">
+	<name>Catalan (ca-ES)</name>
+	<tag>ca-ES</tag>
+	<version/>
+	<creationDate/>
+	<author>Catalan Translation Team</author>
+	<authorEmail>el.libre@gmail.com</authorEmail>
+	<authorUrl>www.catmidia.cat</authorUrl>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
+	<description>ca-ES administrator language</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
