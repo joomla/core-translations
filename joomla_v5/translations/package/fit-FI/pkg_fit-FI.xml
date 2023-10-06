@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Meänkieli (fit) Language Pack</name>
+	<packagename>fit</packagename>
+	<version/>
+	<creationDate/>
+	<author>Finnish translation team: Joomla.fi</author>
+	<authorEmail>finnish@joomla.fi</authorEmail>
+	<authorUrl>https://joomla.fi</authorUrl>
+	<copyright>(C) 2021 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Finnish translation team: Joomla.fi</packager>
+	<packagerurl>https://joomla.fi</packagerurl>
+	<description><![CDATA[<div style="text-align: left;">
+		<h3>Joomla! 4 Meänkieli (fit) Language Package - Version 4.0.3</h3>
+		<h3>Joomla! 4 kielitiedostopaketti sivuston ja ylläpion puolele meänkielelä Versio: 4.0.3</h3>
+<p>Käännökset toteuthaan vapaaehtoisvoimin, tervetuloa fölhyyn kääntähmään!</p>
+		</div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="fit">language/fit-FI</folder>
+		<folder type="language" client="administrator" id="fit">administrator/language/fit-FI</folder>
+		<folder type="language" client="api" id="fit">api/language/fit-FI</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Akkreditoidut Joomla! Käännökset">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>
