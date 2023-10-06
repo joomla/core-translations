@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="site">
+	<name/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<description><![CDATA[hy-AM site language]]></description>
+	<metadata>
+		<name/>
+		<nativeName/>
+		<tag/>
+		<rtl/>
+		<locale/>
+		<firstDay/>
+		<weekEnd>0,6</weekEnd>
+		<calendar/>
+	</metadata>
+	<params/>
+</metafile>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="administrator" type="language" method="upgrade">
+	<name>Kazakh (kk-KZ)</name>
+	<tag>kk-KZ</tag>
+	<version/>
+	<creationDate/>
+	<author>Sarvarov Akylkerey</author>
+	<authorEmail>sarvarov1985@mail.ru</authorEmail>
+	<authorUrl>https://forum.joomla.org/memberlist.php?mode=viewprofile&amp;u=838669</authorUrl>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>kk-KZ administrator language</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>

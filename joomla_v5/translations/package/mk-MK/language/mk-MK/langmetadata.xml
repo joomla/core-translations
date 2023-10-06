@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="site">
+	<name>Macedonian (mk-MK)</name>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project</author>
+	<authorEmail>info@joomla.mk</authorEmail>
+	<authorUrl>joomla.mk</authorUrl>
+	<copyright>Copyright (C) 2006 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[Macedonian site language pack for Joomla!]]></description>
+	<metadata>
+		<name>Macedonian (mk-MK)</name>
+		<nativeName>Macedonian (mk-MK)</nativeName>
+		<tag>mk-MK</tag>
+		<rtl>0</rtl>
+		<locale>mk_MK.utf8, mk_MK.UTF-8, mk_MK, macedonia, macedonian, Мacedonia, Мacedonian</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>грегоријански</calendar>
+	</metadata>
+	<params/>
+</metafile>

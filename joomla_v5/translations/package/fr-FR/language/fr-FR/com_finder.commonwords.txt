@@ -1,0 +1,179 @@
+; Joomla! Project
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; License GNU General Public License version 2 or later; see LICENSE.txt
+; Note : This file needs to be saved as UTF-8
+
+je
+moi
+mon
+moi-même
+nous
+notre
+le nôtre
+nous-mêmes
+vous
+votre
+le vôtre
+vous-même
+vous-mêmes
+il
+lui
+son
+lui-même
+elle
+son
+ses
+elle-même
+le
+son
+lui-même
+ils
+les
+leur
+leurs
+eux-mêmes
+ce que
+ce qui
+qui
+que
+ce
+ça
+ces
+ceux
+am
+est
+sont
+était
+étaient
+soit
+a été
+être
+ont
+a
+avait
+ayant
+faire
+fait
+a fait
+faisant
+serait
+doit
+pourrait
+devrait
+je suis
+tu es
+il est
+elle est
+c'est
+nous sommes
+ils sont
+j'ai
+vous avez
+nous avons
+ils ont
+je
+vous
+il
+elle
+nous
+ils
+je vais
+tu vas
+il va
+elle va
+nous allons
+ils vont
+n'est pas
+ne sont pas
+n'était pas
+n'étaient pas
+n'a pas
+n'ont pas
+n'avait pas
+ne le fait pas
+ne le font pas
+ne l'a pas fait
+ne le feront pas
+ne le ferait pas
+ne peut pas
+ne devrait pas
+ne peut pas
+impossible
+n'a pas pu
+ne doit pas
+allons
+c'est
+qui est
+ce qui est
+voici
+il y a
+quand
+lorsque
+pourquoi
+comment
+un
+une
+le
+et
+mais
+si
+ou
+parce que
+comme
+jusqu'au
+tant que
+de
+au
+par
+pour
+avec
+à propos
+contre
+entre
+dans
+à travers
+durant
+avant
+après
+au-dessus
+au-dessous
+au
+du
+en haut
+en bas
+en
+hors
+activé
+désactivé
+sur
+sous
+encore
+plus loin
+puis
+une fois
+ici
+là
+quand
+où
+pourquoi
+comment
+tous
+n'importe
+les deux
+chaque
+peu
+plus
+le plus
+autre
+quelques
+tel
+non
+ni
+pas
+seulement
+propre
+même
+donc
+que
+trop
+très

@@ -1,0 +1,179 @@
+; Joomla! Project
+; Copyright (C) 2005 - 2021 Open Source Matters, Inc. Alle rechten voorbehouden. <https://www.joomla.org>
+; Licentie GNU General Public License versie 2 of hoger; zie LICENSE.txt
+; Let op: Dit bestand moet worden opgeslagen als UTF-8
+
+ik
+ik
+mijn
+zelf
+wij
+onze
+ons
+wijzelf
+jij
+jouw
+jouw
+jezelf
+jijzelf
+hij
+hem
+zijn
+zichzelf
+zij
+haar
+haar
+haarzelf
+het
+zijn
+zichzelf
+zij
+hen
+hun
+hun
+zichzelf
+wat
+welke
+wie
+wie
+dit
+dat
+deze
+die
+voormiddag
+is
+zijn
+was
+waren
+wees
+geweest
+zijn
+hebben
+heeft
+had
+hebben
+doe
+doet
+deed
+doen
+zou
+moet
+kon
+zou moeten
+ik ben
+je bent
+hij is
+zij is
+het is
+we zijn
+ze zijn
+ik heb
+je hebt
+we hebben
+ze hebben
+ik zou
+je zou
+hij zou
+zij zou
+we zouden
+ze zouden
+ik zal
+je zal
+hij zal
+zij zal
+we zullen
+ze zullen
+is niet
+zijn niet
+was niet
+waren niet
+heeft niet
+heeft niet
+had niet
+heeft niet
+niet
+deed niet
+zal niet
+zou niet
+zal niet
+zou niet
+kan niet
+kan niet
+kon niet
+moet niet
+laten
+dat is
+wie is
+wat is
+hier is
+er is
+wanneer
+waar
+waarom
+hoe
+een
+een
+de
+en
+maar
+als
+of
+omdat
+als
+tot
+terwijl
+van
+op
+door
+voor
+met
+over
+tegen
+tussen
+in
+door
+tijdens
+voor
+na
+boven
+onder
+naar
+van
+omhoog
+naar beneden
+in
+buiten
+aan
+uit
+boven
+onder
+opnieuw
+verder
+dan
+eenmaal
+hier
+daar
+als
+waar
+waarom
+hoe
+alle
+elke
+beide
+elke
+weinig
+meer
+meest
+andere
+enkele
+zo'n
+geen
+noch
+niet
+alleen
+eigen
+zelfde
+dus
+dan
+ook
+erg
