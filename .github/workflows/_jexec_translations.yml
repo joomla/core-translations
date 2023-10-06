@@ -21,7 +21,7 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4
       - name: Check PR content Joomla 4
-        if: ${{ github.event.pull_request.base.ref == 'l10n_crowdin_package_v4'}}
+        if: ${{ github.ref == 'refs/heads/l10n_crowdin_package_v4'}}
         id: build-v4
         run: |
           mkdir ${{ github.workspace}}/logs  
@@ -36,7 +36,7 @@ jobs:
           cat ${{ github.workspace}}/logs/jexec_result
 
       - name: Check PR content Joomla 5
-        if: ${{ github.event.pull_request.base.ref == 'l10n_crowdin_package_v5'}}
+        if: ${{ github.ref == 'refs/heads/l10n_crowdin_package_v5'}}
         id: build-v5
         run: |
             mkdir ${{ github.workspace}}/logs
