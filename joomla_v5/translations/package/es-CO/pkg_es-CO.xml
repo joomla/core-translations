@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Paquete de idioma español colombiano (es-CO)</name>
+	<packagename>es-ES</packagename>
+	<version/>
+	<creationDate>2022/9/29</creationDate>
+	<author>Spanish [es-ES] Translation Team</author>
+	<authorEmail>es.es.translation.team@gmail.com</authorEmail>
+	<authorUrl>https://traduccion.joomlaes.org/</authorUrl>
+	<copyright>Copyright (C) 2005 - 2023 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Spanish [es-ES] Translation Team</packager>
+	<packagerurl>https://traduccion.joomlaes.org/</packagerurl>
+	<description><![CDATA[Spanish-Colombia (es-CO) Language Pack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="es-ES">administrator/language/es-ES</folder>
+		<folder type="language" client="administrator" id="es-ES">api/language/es-ES</folder>
+		<folder type="language" client="api" id="es-ES">language/es-ES</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>
