@@ -20,13 +20,14 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4
       - name: Check PR content Joomla v4
-        if: ${{ github.ref == 'refs/heads/l10n_crowdin_package_v4'}}
+        if: ${{ github.ref == 'refs/heads/l10n_crowdin_package_v4' || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'l10n_crowdin_package_v4' && github.event.pull_request.base.repo.fork == 'true') }}
         id: build-v4
         run: |
           mkdir ${{ github.workspace}}/logs
           cd ${{ github.workspace}}/joomla_v4/translations/package
           grep -rn --include \*.php 'array(' | tee ${{ github.workspace}}/logs/long_arrays_result
           grep -rnl --include \*.php 'array(' | wc -l | tee ${{ github.workspace}}/logs/long_arrays_files_affected
+          cd ${{ github.workspace}}
           awk -F/ '{ print $1 }' ${{ github.workspace}}/logs/long_arrays_result | sort -u | wc -l | tee ${{ github.workspace}}/logs/long_arrays_languagepacks_affected
           aflp=$(head -n 1 ${{ github.workspace}}/logs/long_arrays_languagepacks_affected)
           affi=$(head -n 1 ${{ github.workspace}}/logs/long_arrays_files_affected)
@@ -35,13 +36,14 @@ jobs:
           cat ${{ github.workspace}}/logs/long_arrays_result
 
       - name: Check PR content Joomla v5
-        if: ${{ github.ref == 'refs/heads/l10n_crowdin_package_v5'}}
+        if: ${{ github.ref == 'refs/heads/l10n_crowdin_package_v5' || (github.event_name == 'pull_request' && github.event.pull_request.head.ref == 'l10n_crowdin_package_v5' && github.event.pull_request.base.repo.fork == 'true') }}
         id: build-v5
         run: |
             mkdir ${{ github.workspace}}/logs
             cd ${{ github.workspace}}/joomla_v5/translations/package
             grep -rn --include \*.php 'array(' | tee ${{ github.workspace}}/logs/long_arrays_result
             grep -rnl --include \*.php 'array(' | wc -l | tee ${{ github.workspace}}/logs/long_arrays_files_affected
+            cd ${{ github.workspace}}
             awk -F/ '{ print $1 }' ${{ github.workspace}}/logs/long_arrays_result | sort -u | wc -l | tee ${{ github.workspace}}/logs/long_arrays_languagepacks_affected
             aflp=$(head -n 1 ${{ github.workspace}}/logs/long_arrays_languagepacks_affected)
             affi=$(head -n 1 ${{ github.workspace}}/logs/long_arrays_files_affected)
@@ -53,7 +55,6 @@ jobs:
       - name: Save PR number
         if: ${{ always() }}
         run: |
-          cd ./joomla_v4/translations/package
           echo -n ${{ github.event.pull_request.number }} | tee ./logs/pr_number
           [ -s ${{ github.workspace}}/logs/pr_number ] || gh pr list --limit 1 --repo joomla/core-translations --author app/github-actions --state open --json number --jq .[].number > ${{ github.workspace}}/logs/pr_number
           prnumber=$(head -n 1 ${{ github.workspace}}/logs/pr_number)
