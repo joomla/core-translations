@@ -25,7 +25,7 @@ jobs:
       with:
         # Option to specify a path to the configuration file, without / at the beginning
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         # Upload sources to Crowdin
         upload_sources: false
         # Make pull request of Crowdin translations
@@ -49,7 +49,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: sq
@@ -66,7 +66,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ar
@@ -83,7 +83,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: hy
@@ -100,7 +100,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: az
@@ -117,7 +117,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: eu
@@ -134,7 +134,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: bn
@@ -151,7 +151,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: bs
@@ -168,7 +168,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: bg
@@ -185,7 +185,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ca
@@ -202,7 +202,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: zh-CN
@@ -219,7 +219,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: zh-TW
@@ -236,7 +236,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: hr
@@ -253,7 +253,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: cs
@@ -270,7 +270,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: da
@@ -287,7 +287,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: fa-AF
@@ -304,7 +304,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: nl
@@ -321,7 +321,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: nl-BE
@@ -338,7 +338,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: en-AU
@@ -355,7 +355,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: en-CA
@@ -372,7 +372,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: en-NZ
@@ -389,7 +389,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: en-US
@@ -406,7 +406,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: en-ZA
@@ -423,7 +423,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: eo
@@ -440,7 +440,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: et
@@ -457,7 +457,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: fi
@@ -474,7 +474,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: fr
@@ -491,7 +491,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: fr-CA
@@ -508,7 +508,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: gl
@@ -525,7 +525,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ka
@@ -547,7 +547,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: el
@@ -564,7 +564,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: gu
@@ -581,7 +581,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: he
@@ -598,7 +598,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: hi
@@ -615,7 +615,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: hu
@@ -632,7 +632,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: id
@@ -649,7 +649,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ga
@@ -666,7 +666,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: it
@@ -684,7 +684,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: kk
@@ -701,7 +701,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: km
@@ -718,7 +718,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ko
@@ -735,7 +735,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ky
@@ -752,7 +752,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: lo
@@ -769,7 +769,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: lv
@@ -786,7 +786,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: lt
@@ -803,7 +803,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: mk
@@ -820,7 +820,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ms
@@ -837,7 +837,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: ml
@@ -854,7 +854,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: mr
@@ -871,7 +871,7 @@ jobs:
       uses: crowdin/github-action@v1.13.1
       with:
         config: 'Configurations/Crowdin-J5-All.yml'
-        # crowdin_branch_name: JoomlaV5
+        crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
         download_language: mn
