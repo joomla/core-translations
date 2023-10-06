@@ -496,7 +496,7 @@ jobs:
       #      uses: crowdin/github-action@v1.13.1
       #      with:
       #        config: 'Configurations/Crowdin-J5-Installer.yml'
-          crowdin_branch_name: JoomlaV5
+      #        crowdin_branch_name: JoomlaV5
       #        upload_sources: false
       #        download_translations: true
       #        download_language: nb
@@ -584,7 +584,7 @@ jobs:
       #  uses: crowdin/github-action@v1.13.1
       #  with:
       #    config: 'Configurations/Crowdin-J5-Installer.yml'
-          crowdin_branch_name: JoomlaV5
+      #    crowdin_branch_name: JoomlaV5
       #    upload_sources: false
       #    download_translations: true
       #    download_language: ru
@@ -598,7 +598,7 @@ jobs:
       #  uses: crowdin/github-action@v1.13.1
       #  with:
       #    config: 'Configurations/Crowdin-J5-Installer.yml'
-          crowdin_branch_name: JoomlaV5
+      #    crowdin_branch_name: JoomlaV5
       #    upload_sources: false
       #    download_translations: true
       #    download_language: sr-Cyrl
