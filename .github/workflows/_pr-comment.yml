@@ -3,7 +3,7 @@ name: PR comment
 
 on:
   workflow_run:
-    workflows: ["En_GBLocalise in translations"]
+    workflows: ["En_GBLocalise in translations v4", "En_GBLocalise in translations v5"]
     types: [completed]
 
 jobs:
