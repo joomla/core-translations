@@ -1,0 +1,179 @@
+; Joomla! Project
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; Licencia GNU General Public License verzie 2 alebo neskoršej; Pozrite si súbor LICENSE.txt
+; Poznámka: Tento súbor musí byť uložený vo formáte UTF-8 - https://korpus.sk/attachments/index/NV2014_KvizSNK-odpovede.pdf
+
+ja
+ja
+môj
+môj
+my
+náš
+náš
+sám seba
+ty
+tvoj
+tvoj
+seba
+vy sami
+on
+jeho
+jeho
+sám seba
+ona
+jej
+jej
+sama seba
+to
+jeho
+sám
+oni
+im
+ich
+ich
+sami
+čo
+ktoré
+kto
+koho
+toto
+že
+títo
+tie
+som
+je
+sú
+bolo
+bolo
+byť
+bol
+bude
+má
+má
+mal
+malo
+do
+robí
+urobil
+robí
+bude
+mal by
+môže
+mal by
+ja som
+ty si
+on je
+ona je
+to je
+sme
+sú
+ja som
+vy ste
+my sme
+oni
+ty si
+by
+sa
+ktorý
+ktorá
+ktoré
+ktorí
+mať
+svoj
+k
+čo
+už
+všetok
+môcť
+však
+tento
+pri
+i
+táto
+nie
+nie
+nie
+nebude
+nie
+nie
+nie
+nemôže
+nemôže
+nemôže
+musí
+let's
+si
+za
+o
+po
+pre
+aj
+kde
+prečo
+ako
+a
+z
+do
+a
+ale
+ak
+alebo
+pretože
+ako
+do
+pretože
+z
+na
+od
+pre
+s
+o
+oproti
+medzi
+do
+cez
+počas
+pred
+po
+nad
+pod
+to
+z
+hore
+dole
+v
+von
+na
+zo
+cez
+pod
+znova
+ďalej
+potom
+raz
+tu
+tam
+keď
+kde
+prečo
+ako
+všetko
+čokoľvek
+oboje
+každé
+niekoľko
+viac
+najviac
+iné
+niektoré
+napríklad
+nie
+ani
+nie
+len
+vlastné
+rovnaké
+takže
+potom
+príliš
+veľmi
