@@ -127,7 +127,7 @@ at
 by
 for
 with
-about
+σχετικά
 against
 between
 into
@@ -135,42 +135,42 @@ through
 during
 πριν από
 μετά από
-above
-below
+πάνω
+κάτω
 to
-from
-up
-down
+από
+πάνω
+κάθετα
 in
 out
-on
-off
+ενεργό
+ανενεργό
 over
 under
 again
 further
 τότε
-once
+μία φορά
 here
 there
 when
 where
 why
 how
-all
-any
-both
+όλα
+οποιοδήποτε
+και τα δύο
 each
 few
 more
 most
-other
+άλλο
 some
 such
-no
+ποτέ
 nor
 όχι
-only
+μόνο
 own
 same
 so

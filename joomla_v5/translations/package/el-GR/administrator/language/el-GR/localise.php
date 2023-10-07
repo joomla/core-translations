@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * el-GR localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class El_GRLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -34,11 +34,11 @@ abstract class En_GBLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return ['0'];
+            return ['0']˙
         }
 
         if ($count == 1) {
-            return ['ONE', '1'];
+            return ['ONE', '1']˙
         }
 
         return ['OTHER', 'MORE'];
