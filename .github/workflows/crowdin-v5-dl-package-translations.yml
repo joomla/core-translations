@@ -1141,7 +1141,23 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
-# Spanish doesn't use Crowdin
+    - name: Crowdin Download Spanish Spain
+      uses: crowdin/github-action@v1.13.1
+      with:
+        config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
+        upload_sources: false
+        download_translations: true
+        download_language: es-ES
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Spanish Spain Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v5'
+        github_user_name: 'joomla-translation-bot'
+        github_user_email: 'release+translation-bot@joomla.org'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
+
     - name: Crowdin Download Spanish Colombia
       uses: crowdin/github-action@v1.13.1
       with:
