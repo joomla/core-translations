@@ -35,10 +35,10 @@ abstract class El_GRLocalise
     {
         switch ($count) {
             case 0:
-                return ['0']˙
+                return ['0'];
 
             case 1:
-                return ['ONE', '1']˙
+                return ['ONE', '1'];
         }
 
         return ['OTHER', 'MORE'];

@@ -34,7 +34,7 @@ abstract class El_GRLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return ['0']˙
+            return ['0'];
         }
 
         if ($count == 1) {
