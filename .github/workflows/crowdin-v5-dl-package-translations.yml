@@ -1148,7 +1148,7 @@ jobs:
         crowdin_branch_name: JoomlaV5
         upload_sources: false
         download_translations: true
-        download_language: es-ES
+        download_language: es
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Spanish Spain Crowdin translations by Github Action'
