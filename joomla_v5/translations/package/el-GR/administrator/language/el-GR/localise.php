@@ -38,7 +38,7 @@ abstract class El_GRLocalise
         }
 
         if ($count == 1) {
-            return ['ONE', '1']˙
+            return ['ONE', '1'];
         }
 
         return ['OTHER', 'MORE'];
