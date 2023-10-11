@@ -303,8 +303,18 @@ jobs:
           commit_message: 'New French Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
-      #      "LanguageName": "French, Canada",
-      #      "CrowdinID": "fr-CA"
+      - name: Crowdin Download French
+        uses: crowdin/github-action@v1.13.1
+        with:
+          config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
+          upload_sources: false
+          download_translations: true
+          download_language: fr-CA
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New French Canada Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Galician",
       #      "CrowdinID": "gl"
