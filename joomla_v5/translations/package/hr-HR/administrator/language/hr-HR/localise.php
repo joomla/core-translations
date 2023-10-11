@@ -85,7 +85,7 @@ abstract class En_GBLocalise
      *
      * @return  integer  The number of chars to display when searching.
      *
-     * @since   1.6
+     * @od   1.6
      */
     public static function getSearchDisplayedCharactersNumber()
     {
