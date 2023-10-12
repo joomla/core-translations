@@ -19,6 +19,7 @@ jobs:
     
       - name: Checkout Source Code
         uses: actions/checkout@v4
+
       - name: Check PR content Joomla 5
         id: build-v5
         run: |
@@ -32,6 +33,7 @@ jobs:
             affi=$(head -n 1 ${{ github.workspace}}/logs/files_affected_jexec)
             echo -n "$aflp" > ${{ github.workspace}}/logs/languagepacks_affected_jexec
             echo -n "$affi" > ${{ github.workspace}}/logs/files_affected_jexec
+            echo -n "v5" > ${{ github.workspace}}/logs/jversion
             cat ${{ github.workspace}}/logs/jexec_result
 
 

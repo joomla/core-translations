@@ -32,6 +32,7 @@ jobs:
             affi=$(head -n 1 ${{ github.workspace}}/logs/long_arrays_files_affected)
             echo -n "$aflp" > ${{ github.workspace}}/logs/long_arrays_languagepacks_affected
             echo -n "$affi" > ${{ github.workspace}}/logs/long_arrays_files_affected
+            echo -n "v5" > ${{ github.workspace}}/logs/jversion
             cat ${{ github.workspace}}/logs/long_arrays_result
   
 
