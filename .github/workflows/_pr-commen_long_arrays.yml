@@ -24,7 +24,7 @@ jobs:
       - uses: marocchino/sticky-pull-request-comment@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          header: long-arrays ${{ steps.artifact.outputs.pr_number }}
+          header: long-arrays ${{ steps.artifact.outputs.pr_number }}  ${{ steps.artifact.outputs.jversion }}
           number: ${{ steps.artifact.outputs.pr_number }}
           message: |
            The following translation files contain the long arrays syntax on ${{ steps.artifact.outputs.pr_sha }}

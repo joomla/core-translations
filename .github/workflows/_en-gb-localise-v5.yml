@@ -32,6 +32,7 @@ jobs:
               affi=$(head -n 1 ${{ github.workspace}}/logs/files_affected)
               echo -n "$aflp" > ${{ github.workspace}}/logs/languagepacks_affected
               echo -n "$affi" > ${{ github.workspace}}/logs/files_affected
+              echo -n "v5" > ${{ github.workspace}}/logs/jversion
               cat ${{ github.workspace}}/logs/en_gblocalise_result
     
 
