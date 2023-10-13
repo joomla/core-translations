@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * cy-GB localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Cy_GBLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -39,6 +39,15 @@ abstract class En_GBLocalise
 
             case 1:
                 return ['ONE', '1'];
+
+case 2:
+return ['TWO', '2'];
+
+case 3:
+return ['FEW', '3'];
+
+case 6:
+return ['MANY', '6'];
         }
 
         return ['OTHER', 'MORE'];

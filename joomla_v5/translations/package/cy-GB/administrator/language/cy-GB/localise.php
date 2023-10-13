@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * cy-GB localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Cy_GBLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -34,12 +34,21 @@ abstract class En_GBLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return ['0'];
+            return ['ZERO', '0'];
         }
 
         if ($count == 1) {
             return ['ONE', '1'];
-        }
+         }
+if  ($count == 2){
+			return ['TWO', '2'];
+		}
+		if ($count == 3){
+			return ['FEW', '3'];
+		}
+		if ($count == 6){
+			return ['MANY', '6'];
+		}
 
         return ['OTHER', 'MORE'];
     }
@@ -53,7 +62,7 @@ abstract class En_GBLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['a', 'ac', 'ar', 'y', 'yr'];
     }
 
     /**
@@ -91,4 +100,12 @@ abstract class En_GBLocalise
     {
         return 200;
     }
-}
+if ($count == 2) {
+			return ['TWO', '2'];
+		}
+		if ($count == 3){
+			return ['FEW', '3'];
+		}
+		if ($count == 6){
+			return ['MANY', '6'];
+		}
