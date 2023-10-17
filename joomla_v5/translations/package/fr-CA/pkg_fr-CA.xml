@@ -3,15 +3,15 @@
 	<name>French (fr-CA) Language Pack</name>
 	<packagename>fr-CA</packagename>
 	<version>5.0.0.1</version>
-	<creationDate/>
-	<author>Joomla! Project - Canadian translation team</author>
+	<creationDate>2023-10</creationDate>
+	<author>Joomla! Project</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
+	<authorUrl>www.joomla.fr</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Joomla! Project - Canadian translation team</packager>
-	<packagerurl>www.joomla.org</packagerurl>
+	<packager>French translation team : joomla.fr</packager>
+	<packagerurl>www.joomla.fr</packagerurl>
 	<description><![CDATA[<div style="text-align: left;">
 <h3>Joomla! 4 Full French canadian (fr-CA) Language Package</h3>
 <h3>Pack de langue Joomla! 4 Français canadien (fr-CA) complet</h3>
