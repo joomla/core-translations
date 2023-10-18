@@ -34,25 +34,29 @@ jobs:
           REPO_PATH="${LANGUAGE_CODE}/administrator/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  uk-UA-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete uk-UA-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="pkg_${LANGUAGE_CODE}.xml"
           REPO_PATH="${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  uk-UA-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete uk-UA-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="api/language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/api/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  uk-UA-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete uk-UA-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  uk-UA-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete uk-UA-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
       - name: Validate PHP code
         run: |

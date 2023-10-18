@@ -30,8 +30,9 @@ These two files can't be processed manual, because of the amount of work and ris
 * UTC 04:01-05:00 -> J5 Download Package Translations Crowdin Action
 * UTC 07:12-08:12 -> Get J5 Core Source and Upload to Crowdin
 * UTC 08:01-08:15 -> Get Russian and upload Translations to Crowdin
+* UTC 08:16-08:30 -> Get J5 Ukrainian and upload Translations to Crowdin
 * UTC 08:31-08:45 -> Get Japanese and upload Translations to Crowdin
-* UTC 08:46-09:00 -> Get Ukrainian and upload Translations to Crowdin
+* UTC 08:46-09:00 -> Get J4 Ukrainian and upload Translations to Crowdin
 
 
 ## Folder Structure external repositories
