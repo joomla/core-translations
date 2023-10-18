@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Ukrainian (uk-UA)</name>
 	<tag>uk-UA</tag>
-	<version>4.3.1</version>
+	<version>4.4.0</version>
 	<creationDate>2023-05-15</creationDate>
 	<author>Community Joomla! Ukraine</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
