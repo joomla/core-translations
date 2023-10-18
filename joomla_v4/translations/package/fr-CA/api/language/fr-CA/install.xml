@@ -3,10 +3,10 @@
 	<name>French (fr-CA)</name>
 	<tag>fr-CA</tag>
 	<version>4.4.0</version>
-	<creationDate>10-2023</creationDate>
+	<creationDate>2023-10</creationDate>
 	<author>Joomla! Project - Canadian translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
+	<authorUrl>www.joomla.fr</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>fr-CA api language</description>
