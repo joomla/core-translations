@@ -3,177 +3,177 @@
 ; Γενική Άδεια Δημόσιας Χρήσης GNU (GNU GPL), έκδοση 2 ή μεταγενέστερη· δείτε το LICENSE.txt
 ; Σημείωση : Αυτό το αρχείο πρέπει να αποθηκευτεί ως UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
+εγώ
+εγώ
+δικό μου
+εγώ ο ίδιος
+εμείς
+μας
+δικό μας
+εμείς οι ίδιοι
+εσύ
+σου
+δικά σου
+εσύ ο ίδιος
+εσείς οι ίδιοι
+αυτός
+αυτόν
+δικό του
+αυτός ο ίδιος
+αυτή
+αυτήν
+δικό της
+αυτή η ίδια
+αυτό
+του
+αυτό το ίδιο
+αυτοί
+τους
+δικα τους
+δικό τους
+αυτοί οι ίδιοι
+τι
+που
+ποιος
+ποιους
+αυτό
+που
+αυτά
+εκείνα
 πμ
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
+είναι
+είστε
+ήταν
+ήταν
+είναι
+ήταν
+είναι
+έχει
+έχει
+είχε
+έχοντας
+κάνε
+κάνει
+έκανε
+να κάνει
+θα
+πρέπει
+θα μπορούσε
+έπρεπε
+είμαι
+είσαι
+αυτός είναι
+αυτή είναι
+αυτό είναι
+είμαστε
+αυτοί είναι
+έχω
+έχεις
+έχουμε
+έχουν
+εγώ θα
+εσείς θα
+αυτός θα
+αυτή θα
+εμείς θα
+θα
+εγώ θα
+εσύ θα
+αυτός θα
+αυτή θα
+εμείς θα
+αυτοί θα
+δεν είναι
+δεν είναι
+δεν ήταν
+δεν ήταν
+δεν έχει
+δεν έχουν
+δεν είχε
+δεν κάνει
+όχι
+δεν το έκανε
+δεν
+δεν θα
+δεν
+δεν πρέπει
+δεν
+δεν μπορεί
+δεν μπόρεσε
+δεν πρέπει
+ας
+αυτό είναι
+ποιός είναι
+τι είναι
+εδώ είναι
+υπάρχει
+όποτε
+όπου
+γιατί
+πώς
+ένα
+ένα
+το
 και
-but
-if
+αλλά
+εάν
 ή
-because
-as
-until
-while
-of
-at
-by
-for
-with
+επειδή
+ως
+μέχρι
+όσο
+από
+στο
+από
+για
+με
 σχετικά
-against
-between
-into
-through
-during
+ενάντια
+ανάμεσα
+σε
+έως
+κατά
 πριν από
 μετά από
 πάνω
 κάτω
-to
+σε
 από
 πάνω
 κάθετα
-in
-out
+σε
+έξω
 ενεργό
 ανενεργό
-over
-under
-again
-further
+πάνω
+κάτω
+ξανά
+περαιτέρω
 τότε
 μία φορά
-here
-there
-when
-where
-why
-how
+εδώ
+εκεί
+όταν
+όπου
+γιατί
+πως
 όλα
 οποιοδήποτε
 και τα δύο
-each
-few
-more
-most
+κάθε
+λίγα
+περισσότερα
+πιο
 άλλο
-some
-such
+μερικά
+τέτοια
 ποτέ
-nor
+ούτε
 όχι
 μόνο
-own
-same
-so
-than
-too
-very
+δικό
+ίδιο
+έτσι
+από
+πολύ
+πολύ

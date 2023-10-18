@@ -8,8 +8,8 @@ moi
 mon
 moi-même
 nous
-notre
 le nôtre
+notre
 nous-mêmes
 vous
 votre
@@ -18,14 +18,14 @@ vous-même
 vous-mêmes
 il
 lui
-son
+il
 lui-même
 elle
-son
 ses
+son
 elle-même
 le
-son
+c'est
 lui-même
 ils
 les
@@ -33,11 +33,11 @@ leur
 leurs
 eux-mêmes
 ce que
-ce qui
-qui
 que
-ce
-ça
+son
+son
+ce qui
+que
 ces
 ceux
 am
@@ -45,21 +45,21 @@ est
 sont
 était
 étaient
-soit
+du
 a été
 être
+une
 ont
-a
 avait
 ayant
-faire
 fait
+ne le font pas
 a fait
-faisant
-serait
-doit
-pourrait
+faire
+peu
 devrait
+pourrait
+doit
 je suis
 tu es
 il est
@@ -73,7 +73,7 @@ nous avons
 ils ont
 je
 vous
-il
+serait
 elle
 nous
 ils
@@ -87,32 +87,32 @@ n'est pas
 ne sont pas
 n'était pas
 n'étaient pas
-n'a pas
+n'a pas pu
 n'ont pas
 n'avait pas
+n'a pas
 ne le fait pas
-ne le font pas
 ne l'a pas fait
 ne le feront pas
 ne le ferait pas
 ne peut pas
 ne devrait pas
 ne peut pas
+ne peut pas
 impossible
-n'a pas pu
 ne doit pas
 allons
-c'est
+ça
 qui est
 ce qui est
-voici
+ici
 il y a
 quand
-lorsque
+où
 pourquoi
 comment
+a
 un
-une
 le
 et
 mais
@@ -121,10 +121,10 @@ ou
 parce que
 comme
 jusqu'au
-tant que
+durant
 de
 au
-par
+faisant
 pour
 avec
 à propos
@@ -132,41 +132,41 @@ contre
 entre
 dans
 à travers
-durant
+lorsque
 avant
 après
-au-dessus
+en haut
 au-dessous
 au
-du
-en haut
+par
+tel
 en bas
 en
 hors
-activé
-désactivé
 sur
+désactivé
+au-dessus
 sous
 encore
 plus loin
 puis
 une fois
-ici
-là
+qui
+voici
 quand
-où
+là
 pourquoi
 comment
 tous
 n'importe
 les deux
 chaque
-peu
+trop
 plus
 le plus
 autre
 quelques
-tel
+ce
 non
 ni
 pas
@@ -174,6 +174,6 @@ seulement
 propre
 même
 donc
-que
-trop
+tant que
+soit
 très
