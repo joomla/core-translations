@@ -19,6 +19,9 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
+
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Download Afrikaans
       uses: crowdin/github-action@8a8d8c3944421259eebb52975e0a3fee672ed638
