@@ -127,7 +127,7 @@ at
 by
 for
 with
-about
+o
 against
 between
 into
@@ -135,42 +135,42 @@ through
 during
 před
 po
-above
-below
+nad obsahem
+pod obsahem
 to
-from
-up
-down
+od
+nahoru
+dolů
 in
 out
-on
-off
+zapnuto
+nepoužívat
 over
 under
 again
 further
 potom
-once
+odeslat ručně
 here
 there
 when
 where
 why
 how
-all
-any
-both
+všechny
+jakékoli
+oboje
 each
 few
 more
 most
-other
+ostatní
 some
 such
-no
+nikdy neodesílat
 nor
 ne
-only
+pouze 'Hlavní články'
 own
 same
 so
