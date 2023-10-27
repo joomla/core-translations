@@ -5,9 +5,9 @@
 	<version>5.0.0</version>
 	<creationDate>2023-10</creationDate>
 	<author>Spanish [es-ES] Translation Team</author>
-	<authorEmail>es.es.translation.team@gmail.com</authorEmail>
-	<authorUrl>https://traduccion.joomlaes.org/</authorUrl>
-	<copyright>Copyright (C) 2005 - 2022 Open Source Matters, Inc.</copyright>
+	<authorEmail>traduccion@joomlaes.org</authorEmail>
+	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<description>es-MX site language</description>
 	<files>
