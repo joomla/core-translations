@@ -19,19 +19,19 @@ vosotros mismos
 él
 a él
 su
-himself
+él mismo
 ella
 su
 suyo
 ella misma
-it
-its
-itself
+ello
+su
+sí mismo
 ellos
-them
-their
-theirs
-themselves
+ellos
+su
+sus
+ellos mismos
 qué
 cuál
 quien
@@ -77,40 +77,40 @@ habría
 habría
 habríamos
 habrían
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+haré
+harás
+hará
+hará
+haremos
+harán
+no es
+no son
+no era
+no fueron
+no ha sido
+no han sido
+no fue
+no
+no
+no fue
+no será
+no sería
+no debe
+no debería
+no puede
+no puede
+no podría
+no debe
+hagamos
+eso es
+quien es
+que es
+aquí es
+ahí es
+cuando es
+donde es
+por qué es
+cómo es
 un
 un
 el
