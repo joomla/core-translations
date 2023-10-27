@@ -2,11 +2,11 @@
 <extension type="package" method="upgrade">
 	<name>Paquete de idioma español colombiano (es-CO)</name>
 	<packagename>es-ES</packagename>
-	<version>4.2.3.1</version>
-	<creationDate>2022/9/29</creationDate>
+	<version>4.4.0.1</version>
+	<creationDate>2023/10/25</creationDate>
 	<author>Spanish [es-ES] Translation Team</author>
-	<authorEmail>es.es.translation.team@gmail.com</authorEmail>
-	<authorUrl>https://traduccion.joomlaes.org/</authorUrl>
+	<authorEmail>traduccion@joomlaes.org</authorEmail>
+	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
 	<copyright>Copyright (C) 2005 - 2023 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<url>https://github.com/joomla/joomla-cms</url>
@@ -15,9 +15,9 @@
 	<description><![CDATA[Spanish-Colombia (es-CO) Language Pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="es-ES">administrator/language/es-ES</folder>
-		<folder type="language" client="administrator" id="es-ES">api/language/es-ES</folder>
-		<folder type="language" client="api" id="es-ES">language/es-ES</folder>
+		<folder type="language" client="site" id="es-ES">language/es-ES</folder>
+		<folder type="language" client="administrator" id="es-ES">administrator/language/es-ES</folder>
+		<folder type="language" client="api" id="es-ES">api/language/es-ES</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations">
