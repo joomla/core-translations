@@ -2,10 +2,10 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Eesti (et-EE)</name>
 	<tag>et-EE</tag>
-	<version/>
-	<creationDate>2023-08</creationDate>
+	<version>4.4.1</version>
+	<creationDate>2023-10</creationDate>
 	<author>Joomla! Project</author>
-	<authorEmail>rivozangov@gmail.com</authorEmail>
+	<authorEmail>raudmaa@gmail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License versioon 2 või uuem; vaata LICENSE.txt</license>
