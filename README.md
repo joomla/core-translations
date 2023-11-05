@@ -17,10 +17,8 @@ These two files can't be processed manual, because of the amount of work and ris
 ## Github Actions - Cron Schedule
 
 ### Blocked time windows
-* UTC 09:00-10:00 -> Project Build J3
 * UTC 10:00-11:00 -> Project Build J5
 * UTC 11:00-12:00 -> Project Build J4
-* UTC 21:00-22:00 -> Project Build J3
 * UTC 22:00-23:00 -> Project Build J5
 * UTC 23:00-00:00 -> Project Build J4
 * UTC 01:01-02:00 -> J4 Download Installer Translations Crowdin Action

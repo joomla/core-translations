@@ -2,8 +2,9 @@ name: J3 Build JoomlaCMSProject
 # Controls when the action will run.
 on:
   # Runs twice a day at 9 and 21
-  schedule:
-    - cron: '0 9,21 * * *'
+  # Deactivated. J3 is EOL.
+  # schedule:
+  #  - cron: '0 9,21 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
