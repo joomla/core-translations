@@ -33,9 +33,8 @@ These two files can't be processed manual, because of the amount of work and ris
 * UTC 08:16-08:30 -> Get J5 Ukrainian and upload Translations to Crowdin
 * UTC 08:31-08:45 -> Get J4 Japanese and upload Translations to Crowdin
 * UTC 08:46-09:00 -> Get J4 Ukrainian and upload Translations to Crowdin
-
-* UTC TBD -> Get J5 Russian and upload Translations to Crowdin
-* UTC TBD -> Get J5 Japanese and upload Translations to Crowdin
+* UTC 09:01-09:15 -> Get J5 Russian and upload Translations to Crowdin
+* UTC 09:16-09:30 -> Get J5 Japanese and upload Translations to Crowdin
 
 ## Folder Structure external repositories
 The following structure is required for external repositories, if we need to sync it with this repository.
