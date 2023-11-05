@@ -1,14 +1,14 @@
-# This workflow fetches the Russian V4 Version of the Joomla CMS and syncs the needed translation language files
+# This workflow fetches the Japanese V4 Version of the Joomla CMS and syncs the needed translation language files
 # into the core-translations repository. After this it creates a new commit.
 # The second part uploads the translation to the CMS Crowdin project.
 
-name: J4 Get Russian Translation files
+name: J4 Get Japanese Translation files
 
 on:
   workflow_dispatch:
-  # Runs once a day at 8:01
+  # Runs once a day at 8:31
   schedule:
-    - cron:  '01 8 * * *'
+    - cron:  '31 8 * * *'
 
 jobs:
   collect-from-external:
@@ -16,48 +16,52 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch and extract Russian j4 cms
+      - name: Fetch and extract Japanese j4 cms
         run: |
           cd ..
           ls -l
-          wget -nv "https://github.com/JPathRu/localisation/archive/refs/heads/joomla-4.zip"
-          unzip joomla-4.zip
+          wget -nv "https://github.com/joomlajp/Joomla-in-Japanese/archive/refs/heads/4.x.zip"
+          unzip 4.x.zip
 
       - name: Syncing j4 directories
         # We use a simple copy paste syntax here if needed customization for different directories
         run: |
           cd ..
           SYNC_VERION="v4"
-          LANGUAGE_CODE="ru-RU"
+          LANGUAGE_CODE="ja-JP"
 
           ZIP_PATH="administrator/language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/administrator/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  localisation-joomla-4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
-          ZIP_PATH="pkg_ru-RU.xml"
+          ZIP_PATH="pkg_${LANGUAGE_CODE}.xml"
           REPO_PATH="${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  localisation-joomla-4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="api/language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/api/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  localisation-joomla-4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete  localisation-joomla-4/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-4.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
       - name: Validate PHP code
         run: |
           SYNC_VERION="v4"
-          LANGUAGE_CODE="ru-RU"
+          LANGUAGE_CODE="ja-JP"
           find ./joomla_${SYNC_VERION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} \; | fgrep -i "No syntax errors detected" || exit 1
 
       - name: Push translations to repo
@@ -66,7 +70,7 @@ jobs:
           git config user.email release+translation-bot@joomla.org
           git status
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -am "J4 Russian Language update on `date +'%Y-%m-%d'`"
+          git diff --quiet && git diff --staged --quiet || git commit -am "J4 Japanese Language update on `date +'%Y-%m-%d'`"
           git push
 
 # This workflow contains a single job called "build"
@@ -82,7 +86,7 @@ jobs:
       uses: actions/checkout@v4
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
-    - name: Crowdin Upload Russian
+    - name: Crowdin Upload Japanese
       uses: crowdin/github-action@v1.14.1
       with:
         # Upload sources to Crowdin
@@ -90,7 +94,7 @@ jobs:
         # Upload translations to Crowdin
         upload_translations: true
         # Define the languages to upload for translations
-        upload_language: 'ru'
+        upload_language: 'ja'
         # Automatically approves uploaded translations
         auto_approve_imported: true
         # Defines whether to add translation if it is equal to source string in Crowdin project
