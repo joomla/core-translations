@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="api">
+<name>Japanese (ja-JP)</name>
+<version>5.0.0.2</version>
+<creationDate>2023-10</creationDate>
+<author>Joomla!じゃぱん</author>
+<authorEmail>project@joomla.jp</authorEmail>
+<authorUrl>joomla.jp</authorUrl>
+<copyright>(C) 2021 Joomla!じゃぱん</copyright>
+<license>GNU GPL バージョン2以降。LICENSE.txtを参照ください。</license>
+<description>api用日本語ファイルです。</description>
+<metadata>
+<name>Japanese (Japan)</name>
+<nativeName>日本語 (Japan)</nativeName>
+<tag>ja-JP</tag>
+<rtl>0</rtl>
+<locale>ja-JP.utf8, ja-JP.UTF-8, ja_JP, jpn, ja, Japanese_Japan.UTF8, japanese, jp, JP, JA</locale>
+<firstDay>1</firstDay>
+<weekEnd>0,6</weekEnd>
+<calendar>gregorian</calendar>
+</metadata>
+<params />
+</metafile>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" method="upgrade">
+<name>Japanese (ja-JP)</name>
+<packagename>ja-JP</packagename>
+<version>5.0.0.2</version>
+<creationDate>2023-10</creationDate>
+<author>Joomla!じゃぱん</author>
+<authorEmail>project@joomla.jp</authorEmail>
+<authorUrl>joomla.jp</authorUrl>
+<copyright>(C) 2021 Joomla!じゃぱん</copyright>
+<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<url>https://github.com/joomlajp/Joomla-in-Japanese</url>
+<packager>Joomla!じゃぱん</packager>
+<packagerurl>joomla.jp</packagerurl>
+<description>日本語言語パックです。</description>
+<blockChildUninstall>true</blockChildUninstall>
+<files>
+<folder type="language" client="site" id="ja-JP">language/ja-JP</folder>
+<folder type="language" client="administrator" id="ja-JP">administrator/language/ja-JP</folder>
+<folder type="language" client="api" id="ja-JP">api/language/ja-JP</folder>
+</files>
+<updateservers>
+<server type="collection" priority="1" name="Accredited Joomla! Translations">
+https://update.joomla.org/language/translationlist_4.xml
+</server>
+</updateservers>
+</extension>

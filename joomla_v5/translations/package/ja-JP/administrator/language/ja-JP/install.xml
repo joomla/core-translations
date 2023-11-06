@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="administrator" type="language" method="upgrade">
+<name>Japanese (ja-JP)</name>
+<tag>ja-JP</tag>
+<version>5.0.0.2</version>
+<creationDate>2023-10</creationDate>
+<author>Joomla!じゃぱん</author>
+<authorEmail>project@joomla.jp</authorEmail>
+<authorUrl>joomla.jp</authorUrl>
+<copyright>(C) 2021 Joomla!じゃぱん</copyright>
+<license>GNU GPL バージョン2以降。LICENSE.txtを参照ください。</license>
+<description>管理画面用日本語ファイルです。</description>
+<files>
+<folder>/</folder>
+<filename file="meta">install.xml</filename>
+</files>
+<params />
+</extension>
