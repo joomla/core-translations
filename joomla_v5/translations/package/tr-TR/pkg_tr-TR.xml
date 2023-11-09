@@ -12,7 +12,13 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Türkiye</packager>
 	<packagerurl>www.joomlatr.org</packagerurl>
-	<description><![CDATA[Türkçe Tam Paket - Sürüm 4.4.1<p><a title="Joomla! Turkiye" href="https://www.joomlatr.org/" target="_blank" rel="noopener">www.joomlatr.org</a></p>]]></description>
+	<description><![CDATA[<p>Joomla 5.0.1.1 Türkçe Dil Paketi</p>
+	            <p class="fw-light"> This is the Turkish Language Pack for Joomla 5.0.1.1</p>
+				<p><a class="btn btn-success me-2" href="https://www.facebook.com/groups/joomlaturkey" target="_blank">Topluluğa katıl</a> <a class="btn btn-outline-success" href="https://www.facebook.com/groups/joomlaturkey" target="_blank">Join the Community</a></p>
+				<p class="btn-group">
+					<a class="btn btn-sm btn-outline-primary" href="https://joomlatr.org" target="_blank"> https://joomlatr.org</a>
+					<a class="btn btn-sm btn-outline-primary" href="mailto:info@joomlatr.org"><i class="icon-envelope"></i> info@joomlatr.org</a>
+				</p>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="tr-TR">language/tr-TR</folder>
