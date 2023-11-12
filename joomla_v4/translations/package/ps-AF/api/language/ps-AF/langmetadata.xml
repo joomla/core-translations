@@ -2,7 +2,7 @@
 <metafile client="api">
 	<name>Pashto (ps-AF)</name>
 	<version>4.4.1</version>
-	<creationDate>2023-05</creationDate>
+	<creationDate>2023-10</creationDate>
 	<author>Abdel Malek Parhiz</author>
 	<authorEmail>malek.p@hotmail.com</authorEmail>
 	<authorUrl>www.sporghay.com</authorUrl>
@@ -13,7 +13,7 @@
 		<name>Pashto (Afghanistan)</name>
 		<nativeName>Pashto (Afghanistan)</nativeName>
 		<tag>ps-AF</tag>
-		<rtl>1</rtl>
+		<rtl>0</rtl>
 		<locale>ps_AF.utf8, ps_AF.UTF-8, ps_Af, ps_AF, ps, pashto, pashto-af, af, afghanistan, afghanistan</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
