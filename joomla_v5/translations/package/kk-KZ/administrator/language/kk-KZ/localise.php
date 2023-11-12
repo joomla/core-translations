@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package    Joomla.Language
+ /**
  *
  * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
@@ -20,7 +20,7 @@
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class kk_KZLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
