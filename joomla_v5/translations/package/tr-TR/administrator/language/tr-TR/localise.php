@@ -45,9 +45,9 @@ abstract class Tr_TRLocalise
     }
 
     /**
-     * * Yok sayılan arama kelimeleri döndürür
+     * Returns the ignored search words
      *
-     * @return  dizisi Yok sayılan arama kelimelerinden oluşan bir dizi.
+     * @return  array  An array of ignored search words.
      *
      * @since   1.6
      */
@@ -57,9 +57,9 @@ abstract class Tr_TRLocalise
     }
 
     /**
-     * Arama kelimelerinin alt uzunluk sınırını verir
+     * Returns the lower length limit of search words
      *
-     * @return  altsayı Arama kelimelerinin alt uzunluk sınırı.
+     * @return  integer  The lower length limit of search words.
      *
      * @since   1.6
      */
