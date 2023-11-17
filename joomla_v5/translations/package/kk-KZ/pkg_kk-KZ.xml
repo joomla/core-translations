@@ -6,12 +6,12 @@
 	<creationDate>Наурыз 2022</creationDate>
 	<author>Sarvarov Akylkerey</author>
 	<authorEmail>sarvarov1985@mail.ru</authorEmail>
-	<authorUrl>https://forum.joomla.org/memberlist.php?mode=viewprofile&amp;u=838669</authorUrl>
+	<authorUrl/>
 	<copyright>Copyright (C) 2019 - 2018 Open Source Matters. All rights reserved.</copyright>
-	<license>https://forum.joomla.org/memberlist.php?mode=viewprofile&amp;u=838669</license>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Sarvarov Akylkerey</packager>
-	<packagerurl>https://forum.joomla.org/memberlist.php?mode=viewprofile&amp;u=838669</packagerurl>
+	<packagerurl/>
 	<description><![CDATA[kk-KZ language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>

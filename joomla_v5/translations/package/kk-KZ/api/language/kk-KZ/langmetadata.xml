@@ -5,7 +5,7 @@
 	<creationDate>Наурыз 2022</creationDate>
 	<author>Sarvarov Akylkerey</author>
 	<authorEmail>sarvarov1985@mail.ru</authorEmail>
-	<authorUrl>https://forum.joomla.org/memberlist.php?mode=viewprofile&amp;u=838669</authorUrl>
+	<authorUrl/>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[kk-KZ api language]]></description>
@@ -17,7 +17,7 @@
 		<locale>kk_KZ.utf8, kk_KZ.UTF-8, kk_KZ, kk_KZ, kk, kazakh, kazakh-kk, kk, kkr, britain, kazakh</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar>григориан</calendar>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
