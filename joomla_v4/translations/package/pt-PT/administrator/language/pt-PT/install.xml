@@ -3,13 +3,13 @@
 	<name>Português de Portugal (pt-PT)</name>
 	<tag>pt-PT</tag>
 	<version>4.4.1.1</version>
-	<creationDate>2023-10-02</creationDate>
+	<creationDate>2023-11-20</creationDate>
 	<author>Comunidade JoomlaPortugal</author>
 	<authorEmail>comunidadejoomlapt@gmail.com</authorEmail>
 	<authorUrl>www.joomlaportugal.org</authorUrl>
 	<copyright>Direitos de Autor (C) 2013 - Open Source Matters, Inc. Todos os direitos reservados.</copyright>
 	<license>Licença Pública Geral GNU - versão 2 ou posterior; ver ficheiro LICENSE.txt</license>
-	<description>Português de Portugal (pt-PT). Idioma da interface da área de administração</description>
+	<description>Português de Portugal (pt-PT). Idioma da interface da área administrativa</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
