@@ -2,10 +2,10 @@
 <extension type="package" method="upgrade">
 	<name>Italian (it-IT) Language Pack</name>
 	<packagename>it-IT</packagename>
-	<version/>
-	<creationDate/>
+	<version>5.0.1.1</version>
+	<creationDate>2023-11</creationDate>
 	<author>Joomla! Project (Italian Translation Team)</author>
-	<authorEmail>giovanni.genovino@community.joomla.org</authorEmail>
+	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2023 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
@@ -13,8 +13,8 @@
 	<packager>Joomla! Project (Italian Translation Team)</packager>
 	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[<div style="text-align: center;">
-<h3>Joomla! 5.0 Full Italian (it-IT) Language Package - Version 5.0.0.1</h3>
-<h3>Pacchetto completo della lingua italiana di Joomla! 5.0 (it-IT) - Versione 5.0.0.1</h3>
+<h3>Joomla! 5.1 Full Italian (it-IT) Language Package - Version 5.0.1.1</h3>
+<h3>Pacchetto completo della lingua italiana di Joomla! 5.1 (it-IT) - Versione 5.0.1.1</h3>
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
