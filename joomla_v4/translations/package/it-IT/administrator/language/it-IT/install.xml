@@ -2,12 +2,12 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Italiano (it-IT)</name>
 	<tag>it-IT</tag>
-	<version>4.4.1.1</version>
+	<version/>
 	<creationDate>2023-11</creationDate>
 	<author>Joomla! Project (Italian Translation Team)</author>
-	<authorEmail>giovanni.genovino@community.joomla.org</authorEmail>
+	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>it-IT administration language</description>
 	<files>

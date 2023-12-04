@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Spanish (es-ES) Language Pack</name>
 	<packagename>es-ES</packagename>
-	<version>4.4.0.1</version>
+	<version/>
 	<creationDate/>
 	<author>Spanish [es-ES] Translation Team</author>
 	<authorEmail>traduccion@joomlaes.org</authorEmail>
