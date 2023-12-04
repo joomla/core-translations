@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Turkish (tr-TR) Dil Paketi</name>
 	<packagename>tr-TR</packagename>
-	<version>5.0.1.1</version>
+	<version>5.0.2.1</version>
 	<creationDate>11-2023</creationDate>
 	<author>Joomla! Türkiye</author>
 	<authorEmail>info@joomlatr.org</authorEmail>
@@ -12,8 +12,8 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Türkiye</packager>
 	<packagerurl>www.joomlatr.org</packagerurl>
-	<description><![CDATA[<p>Joomla 5.0.1.1 Türkçe Dil Paketi</p>
-	            <p class="fw-light"> This is the Turkish Language Pack for Joomla 5.0.1.1</p>
+	<description><![CDATA[<p>Joomla 5.0.2.1 Türkçe Dil Paketi</p>
+	            <p class="fw-light"> This is the Turkish Language Pack for Joomla 5.0.2.1</p>
 				<p><a class="btn btn-success me-2" href="https://www.facebook.com/groups/joomlaturkey" target="_blank">Topluluğa katıl</a> <a class="btn btn-outline-success" href="https://www.facebook.com/groups/joomlaturkey" target="_blank">Join the Community</a></p>
 				<p class="btn-group">
 					<a class="btn btn-sm btn-outline-primary" href="https://joomlatr.org" target="_blank"> https://joomlatr.org</a>
