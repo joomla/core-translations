@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Português de Portugal (pt-PT)</name>
 	<tag>pt-PT</tag>
-	<version>5.0.1.1</version>
+	<version>5.0.2.1</version>
 	<creationDate>2023-11-20</creationDate>
 	<author>Comunidade JoomlaPortugal</author>
 	<authorEmail>comunidadejoomlapt@gmail.com</authorEmail>
