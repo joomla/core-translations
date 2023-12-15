@@ -58,7 +58,7 @@ jobs:
 
       - name: JEXEC-logs
         if: ${{ always() }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: JEXEC-logs
           path: ${{ github.workspace}}/logs
