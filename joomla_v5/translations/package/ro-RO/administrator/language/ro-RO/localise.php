@@ -23,7 +23,7 @@
 abstract class En_GBLocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * Returnează potențialele sufixe pentru un număr specific de elemente
      *
      * @param   integer  $count  The number of items.
      *
