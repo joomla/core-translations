@@ -3,7 +3,7 @@
 	<name/>
 	<version/>
 	<creationDate/>
-	<author/>
+	<author>Joomla! 프로젝트</author>
 	<authorEmail/>
 	<authorUrl/>
 	<copyright/>
@@ -12,10 +12,10 @@
 	<metadata>
 		<name/>
 		<nativeName/>
-		<tag/>
-		<rtl/>
+		<tag>en-GB</tag>
+		<rtl>0</rtl>
 		<locale/>
-		<firstDay/>
+		<firstDay>0</firstDay>
 		<weekEnd/>
 		<calendar/>
 	</metadata>

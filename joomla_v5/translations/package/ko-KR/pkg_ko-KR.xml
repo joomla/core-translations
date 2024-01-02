@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
 	<name/>
-	<packagename/>
+	<packagename>en-GB</packagename>
 	<version/>
 	<creationDate/>
-	<author/>
+	<author>Joomla! 프로젝트</author>
 	<authorEmail/>
 	<authorUrl/>
 	<copyright/>
 	<license/>
 	<url/>
-	<packager/>
+	<packager>Joomla! 프로젝트</packager>
 	<packagerurl/>
 	<description><![CDATA[]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id=""/>
-		<folder type="language" client="administrator" id=""/>
-		<folder type="language" client="api" id=""/>
+		<folder type="language" client="site" id="en-GB"/>
+		<folder type="language" client="administrator" id="en-GB"/>
+		<folder type="language" client="api" id="en-GB"/>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="">
