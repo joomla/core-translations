@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Basque (eu-ES) Hizkuntza-paketea</name>
 	<packagename>eu-ES</packagename>
-	<version/>
-	<creationDate/>
+	<version>4.1.3.1</version>
+	<creationDate>2023ko apirila</creationDate>
 	<author>Joomla! Basque Translation Team</author>
 	<authorEmail>trslbrr@gmail.com</authorEmail>
 	<authorUrl>(ez dago)</authorUrl>
