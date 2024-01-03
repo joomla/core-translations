@@ -3,15 +3,15 @@
 	<name/>
 	<packagename>en-GB</packagename>
 	<version/>
-	<creationDate/>
+	<creationDate>2023-12</creationDate>
 	<author>Joomla! 프로젝트</author>
-	<authorEmail/>
-	<authorUrl/>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright/>
 	<license/>
 	<url/>
 	<packager>Joomla! 프로젝트</packager>
-	<packagerurl/>
+	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
