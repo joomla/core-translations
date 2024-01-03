@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name/>
-	<version/>
-	<creationDate/>
+	<version>5.0.2</version>
+	<creationDate>2023-12</creationDate>
 	<author>Joomla! 프로젝트</author>
-	<authorEmail/>
-	<authorUrl/>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright/>
 	<license/>
 	<description><![CDATA[]]></description>
@@ -16,7 +16,7 @@
 		<rtl>0</rtl>
 		<locale/>
 		<firstDay>0</firstDay>
-		<weekEnd/>
+		<weekEnd>0,6</weekEnd>
 		<calendar/>
 	</metadata>
 	<params/>

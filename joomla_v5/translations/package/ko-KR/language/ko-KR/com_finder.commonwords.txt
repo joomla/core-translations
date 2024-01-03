@@ -3,11 +3,11 @@
 ; License GNU General Public License version 2 or later; see LICENSE.txt
 ; Note : This file needs to be saved as UTF-8
 
-i
-me
-my
+나
+나
+나의
 myself
-we
+우리
 our
 ours
 ourselves
@@ -16,7 +16,7 @@ your
 yours
 yourself
 yourselves
-he
+그
 him
 his
 himself
@@ -24,7 +24,7 @@ she
 her
 hers
 herself
-it
+그것
 its
 itself
 they
@@ -40,7 +40,7 @@ this
 that
 these
 those
-am
+an
 is
 are
 was
@@ -52,7 +52,7 @@ have
 has
 had
 having
-do
+하다
 does
 did
 doing
@@ -117,7 +117,7 @@ the
 and
 but
 if
-or
+또는
 because
 as
 until
