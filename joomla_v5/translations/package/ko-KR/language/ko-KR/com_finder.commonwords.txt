@@ -170,7 +170,7 @@ such
 no
 nor
 not
-only
+오직
 own
 same
 so
