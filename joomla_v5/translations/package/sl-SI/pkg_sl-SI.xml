@@ -3,11 +3,11 @@
 	<name>Slovenian (sl-SI) Jezikovni paket</name>
 	<packagename>sl-SI</packagename>
 	<version>5.0.2.1</version>
-	<creationDate/>
+	<creationDate>2024-01</creationDate>
 	<author>Slovenska prevajalska ekipa</author>
 	<authorEmail>prevodi@joomla-cms.si</authorEmail>
 	<authorUrl>www.joomla-cms.si</authorUrl>
-	<copyright>(C) 2023 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2024 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Slovenska prevajalska ekipa</packager>
