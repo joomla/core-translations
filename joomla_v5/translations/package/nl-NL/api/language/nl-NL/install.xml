@@ -9,7 +9,7 @@
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
 	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License versie 2 of hoger; zie LICENSE.txt</license>
-	<description>nl-NL api taal</description>
+	<description>nl-NL api language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
