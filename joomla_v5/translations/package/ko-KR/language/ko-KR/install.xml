@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="site" type="language" method="upgrade">
-	<name/>
+	<name>English (en-GB)</name>
 	<tag>en-GB</tag>
 	<version>5.0.2</version>
-	<creationDate>2023-12</creationDate>
+	<creationDate>2023-06</creationDate>
 	<author>Joomla! 프로젝트</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright/>
-	<license/>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License 버전 2 이상 LICENSE.txt 참조</license>
 	<description/>
 	<files>
 		<folder>/</folder>
