@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="site" type="language" method="upgrade">
-	<name/>
+	<name>Korean (ko-KR)</name>
 	<tag>en-GB</tag>
-	<version/>
-	<creationDate/>
+	<version>4.4.2</version>
+	<creationDate>2023-11</creationDate>
 	<author>Joomla! 프로젝트</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright/>
-	<license/>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description/>
 	<files>
 		<folder>/</folder>
