@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name>English (en-GB)</name>
+	<name>Korean (ko-KR)</name>
 	<tag>en-GB</tag>
 	<version>5.0.2</version>
-	<creationDate>2023-12</creationDate>
+	<creationDate>2024-01</creationDate>
 	<author>Joomla! 프로젝트</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
