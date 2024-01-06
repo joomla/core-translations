@@ -9,7 +9,7 @@
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License 버전 2 이상 LICENSE.txt 참조</license>
-	<description/>
+	<description>en-GB site language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

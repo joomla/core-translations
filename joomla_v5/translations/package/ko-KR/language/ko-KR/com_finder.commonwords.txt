@@ -1,7 +1,7 @@
 ; Joomla! Project
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; 라이센스 GNU General Public License 버전 2 이상; LICENSE.txt 참조
+; 참고: 이 파일은 UTF-8로 저장해야 합니다.
 
 나
 나
