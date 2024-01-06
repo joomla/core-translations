@@ -2,14 +2,14 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Korean (ko-KR)</name>
 	<tag>en-GB</tag>
-	<version>4.4.2</version>
-	<creationDate>2023-11</creationDate>
+	<version>4.2.10</version>
+	<creationDate>2023-03</creationDate>
 	<author>Joomla! 프로젝트</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright/>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description/>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License 버전 2 이상 LICENSE.txt 참조</license>
+	<description>en-GB site language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
