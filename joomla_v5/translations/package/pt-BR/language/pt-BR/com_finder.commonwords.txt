@@ -1,179 +1,179 @@
 ; Joomla! Project
-; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; Direitos Autorais (C) 2019 - Open Source Matters, Inc. Todos os direitos reservados. <https://www.joomla.org>
 ; GNU General Public License versão 2 ou superior; veja LICENSE.txt
 ; Nota: Esse arquivo precisa ser salvo como UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
+eu
+mim
+meu
+eu mesmo
+nós
+nosso
+nossos
+nós mesmos
+você
+seu
+seus
+você mesmo
+vocês mesmos
+ele
+ele
+dele
+ele próprio
+ela
+dela
+delas
+dela mesma
+isto
+isso é
+em si
+eles
+eles
+seu
+seus
+eles mesmos
+que
+o qual
+quem
+o qual
+este
+aquele
+estes
+aqueles
 am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
+é
+são
+foi
+eram
+ser
+foram
+sendo
+tem
+tem
+tinha
+tendo
+fazer
+faz
+fez
+fazendo
+seria
+deveria
+poderia
+deveria
+eu sou
+você é
+ele é
+ela é
+isso é
+nós somos
+eles são
+tenho
+você tem
+nós temos
+eles têm
+eu tinha
+você tinha
+ele tinha
+ela tinha
+nós tinhamos
+eles tinham
+eu irei
+você irá
+ele irá
+ela irá
+nós iremos
+eles irão
+não é
+não são
+não foi
+não eram
+não tem
+não tem
+não tinha
+não
+não
+não
+não farão
+não farão
+não deve
+não deveria
+não pode
+não pode
+não pôde
+não deve
+vamos
+que é
+quem é
+o que é
+aqui está
+há
+quando é
+onde está
+por que
+como
+um
+uma
+o
 e
-but
-if
+mas
+se
 ou
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
+porque
+como
+até
+enquanto
+de
+em
+por
+para
+com
+sobre
+contra
+entre
+para
+através
+durante
 antes
 depois
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
+acima
+embaixo
+para
+de
+acima
+de cima para baixo
+em
+fora
+ativar
+desativar
+sobre
+sob
+novamente
+adiante
 então
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
+uma vez
+aqui
+ali
+quando
+onde
+porquê
+como
+todas
+qualquer
+ambos
+cada
+alguns
+mais
+maioria
+outro
+alguns
+tal
 não
-only
-own
-same
-so
-than
-too
-very
+nem
+não
+somente
+possui
+mesmo
+assim
+que
+também
+muito
