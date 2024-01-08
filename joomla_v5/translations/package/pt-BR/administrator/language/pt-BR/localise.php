@@ -3,7 +3,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
+ * @Direitos reservados  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  *
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * pt-BR localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Pt_BRLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -53,7 +53,7 @@ abstract class En_GBLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['e', 'de', 'se', 'por', 'nem', 'ou', 'mas', 'em'];
     }
 
     /**
