@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Nederlands (nl-NL) taalpakket</name>
+	<name>Dutch (nl-NL) language pack</name>
 	<packagename>nl-NL</packagename>
 	<version>4.4.2.1</version>
-	<creationDate/>
+	<creationDate>2024-01-09</creationDate>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Dutch Translation Team</packager>
 	<packagerurl>https://joomlacommunity.nl</packagerurl>
-	<description><![CDATA[Nederlands taalpakket]]></description>
+	<description><![CDATA[nl-NL language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="nl-NL">language/nl-NL</folder>
