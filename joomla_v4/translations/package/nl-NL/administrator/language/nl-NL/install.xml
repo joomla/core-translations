@@ -3,13 +3,13 @@
 	<name>Dutch (nl-NL)</name>
 	<tag>nl-NL</tag>
 	<version>4.4.2</version>
-	<creationDate/>
+	<creationDate>2024-01-09</creationDate>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
 	<copyright>Copyright (C) 2005 - 2022 Dutch Translation Team en Open Source Matters.</copyright>
 	<license>GNU General Public License versie 2 of hoger; zie LICENSE.txt</license>
-	<description/>
+	<description>nl-NL administrator language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
