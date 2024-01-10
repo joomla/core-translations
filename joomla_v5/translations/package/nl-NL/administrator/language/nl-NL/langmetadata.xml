@@ -2,13 +2,13 @@
 <metafile client="administrator">
 	<name>Dutch (nl-NL)</name>
 	<version>5.0.2</version>
-	<creationDate/>
+	<creationDate>2024-01-09</creationDate>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
 	<copyright>Copyright (C) 2005 - 2022 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License versie 2 of hoger; zie LICENSE.txt</license>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[nl-NL administrator language]]></description>
 	<metadata>
 		<name>Dutch (nl-NL)</name>
 		<nativeName>Dutch (nl-NL)</nativeName>
