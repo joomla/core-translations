@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
 	<name>Spanish (es-ES)</name>
-	<version>5.0.1.1</version>
-	<creationDate/>
+	<version/>
+	<creationDate>2024-01</creationDate>
 	<author>Spanish [es-ES] Translation Team</author>
 	<authorEmail>traduccion@joomlaes.org</authorEmail>
 	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
@@ -11,7 +11,7 @@
 	<description><![CDATA[idioma del administrador de es-CO]]></description>
 	<metadata>
 		<name>Spanish (es-ES)</name>
-		<nativeName>Spanish (es-ES)</nativeName>
+		<nativeName>Español (España)</nativeName>
 		<tag>es-ES</tag>
 		<rtl>0</rtl>
 		<locale>es_CO.utf8, es_CO.UTF-8, es_CO, co, colombia</locale>

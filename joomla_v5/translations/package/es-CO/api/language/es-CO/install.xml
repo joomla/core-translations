@@ -2,12 +2,12 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Spanish (es-ES)</name>
 	<tag>es-ES</tag>
-	<version>5.0.1</version>
-	<creationDate/>
+	<version/>
+	<creationDate>2024-01</creationDate>
 	<author>Spanish [es-ES] Translation Team</author>
 	<authorEmail>traduccion@joomlaes.org</authorEmail>
 	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
-	<copyright>Copyright (C) 2005 - 2023 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<description>Idioma es-ES de la api</description>
 	<files>
