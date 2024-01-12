@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Português Brasil (pt-BR)</name>
 	<tag>pt-BR</tag>
-	<version>4.0.3.1</version>
+	<version/>
 	<creationDate>Setembro de 2021</creationDate>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>

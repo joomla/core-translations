@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Korean (ko-KR) 한국어 언어팩</name>
 	<packagename>ko-KR</packagename>
-	<version>4.4.2.1</version>
+	<version/>
 	<creationDate>2024-01</creationDate>
 	<author>Joomla! 프로젝트</author>
 	<authorEmail>admin@joomla.org</authorEmail>
