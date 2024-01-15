@@ -67,6 +67,18 @@ jobs:
           commit_message: 'New Basque Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer_v4'
 
+      - name: Crowdin Download Belarusian
+        uses: crowdin/github-action@v1.16.0
+        with:
+          config: 'Configurations/Crowdin-J4-Installer.yml'
+          upload_sources: false
+          download_translations: true
+          download_language: be
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Belarusian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v4'
+
       #      "LanguageName": "Bengali",
       #      "CrowdinID": "bn"
 
