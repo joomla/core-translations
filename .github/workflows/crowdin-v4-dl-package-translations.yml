@@ -133,7 +133,7 @@ jobs:
         config: 'Configurations/Crowdin-J4-All.yml'
         upload_sources: false
         download_translations: true
-        download_language: be-BY
+        download_language: be
         skip_untranslated_strings: true
         export_only_approved: true
         commit_message: 'New Belarusian Crowdin translations by Github Action'
