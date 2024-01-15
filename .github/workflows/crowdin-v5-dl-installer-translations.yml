@@ -441,8 +441,18 @@ jobs:
       #      "LanguageName": "Khmer",
       #      "CrowdinID": "km"
 
-      #      "LanguageName": "Korean",
-      #      "CrowdinID": "ko"
+      - name: Crowdin Download Korean
+        uses: crowdin/github-action@v1.16.0
+        with:
+          config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
+          upload_sources: false
+          download_translations: true
+          download_language: ko
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Korean Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
 
       #      "LanguageName": "Kyrgyz",
       #      "CrowdinID": "ky"
