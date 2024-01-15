@@ -40,6 +40,11 @@
     "CrowdinID": "eu"
   },
   {
+    "LanguageName": "Belarusian",
+    "JoomlaLocale": "be-BY",
+    "CrowdinID": "be"
+  },
+  {
     "LanguageName": "Bengali",
     "JoomlaLocale": "bn-BD",
     "CrowdinID": "bn"
