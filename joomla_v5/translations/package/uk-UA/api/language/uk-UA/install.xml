@@ -2,14 +2,14 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Ukrainian (uk-UA)</name>
 	<tag>uk-UA</tag>
-	<version>4.4.0</version>
-	<creationDate>2023-05-15</creationDate>
+	<version>5.0.2</version>
+	<creationDate>2024-01-14</creationDate>
 	<author>Community Joomla! Ukraine</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
-	<copyright>2006-2023 (C) Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later</license>
-	<description>uk-UA - api language</description>
+	<copyright>Copyright (C) 2006 - 2024 Joomla! Ukraine. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>Ukrainian language pack (API) for Joomla!</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
