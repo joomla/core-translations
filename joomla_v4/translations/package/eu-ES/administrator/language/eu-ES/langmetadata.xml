@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
 	<name>Basque (eu-ES)</name>
-	<version/>
-	<creationDate/>
+	<version>4.4.3</version>
+	<creationDate>2024-01</creationDate>
 	<author>Joomla! Basque Translation Team</author>
-	<authorEmail>trslbrr@gmail.com</authorEmail>
-	<authorUrl>(ez dago)</authorUrl>
+	<authorEmail>info@acvmultimedia.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
-	<license/>
+	<license>GNU-ren Lizentzia Publiko Orokorraren 2. Bertsioa edo berriagoa; ikusi LICENSE.txt</license>
 	<description><![CDATA[eu-ES administrator language]]></description>
 	<metadata>
 		<name>Basque</name>
