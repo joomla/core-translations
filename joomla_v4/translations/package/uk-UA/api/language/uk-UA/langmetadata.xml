@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="api">
 	<name>Ukrainian (uk-UA)</name>
-	<version>4.4.1</version>
-	<creationDate>2023-11-28</creationDate>
+	<version>4.4.2</version>
+	<creationDate>2024-01-18</creationDate>
 	<author>Community Joomla! Ukraine</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
-	<copyright>Copyright (C) 2005 - 2023 Open Source Matters. All rights reserved.</copyright>
-	<copyright>Copyright (C) 2005-2023 Open Source Matters. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later</license>
-	<description>uk-UA API language for Joomla</description>
+	<copyright>Copyright (C) 2005 - 2024 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2006 - 2024 Joomla! Ukraine. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>Ukrainian language pack (API) for Joomla!</description>
 	<metadata>
 		<name>Ukrainian (uk-UA)</name>
 		<nativeName>Українська (Україна)</nativeName>
