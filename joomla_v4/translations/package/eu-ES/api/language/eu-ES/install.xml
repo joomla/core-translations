@@ -2,13 +2,13 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Basque (eu-ES)</name>
 	<tag>eu-ES</tag>
-	<version/>
-	<creationDate/>
+	<version>4.4.3</version>
+	<creationDate>2024-01</creationDate>
 	<author>Joomla! Basque Translation Team</author>
-	<authorEmail>trslbrr@gmail.com</authorEmail>
-	<authorUrl>(ez dago)</authorUrl>
+	<authorEmail>info@acvmultimedia.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
-	<license/>
+	<license>GNU-ren Lizentzia Publiko Orokorraren 2. bertsioa edo berriagoa; ikusi LICENSE.txt</license>
 	<description>eu-ES api language</description>
 	<files>
 		<folder>/</folder>
