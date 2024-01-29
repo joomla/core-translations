@@ -1,179 +1,179 @@
-; Joomla! Project
+; Joomla! proiektua
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; GNU-ren Lizentzia Publiko Orokorraren 2. bertsioa edo berriagoa; ikusi LICENSE.txt
+; Oharra: fitxategi hau UTF-8 gisa gorde behar da
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
+ni
+nik
+nire
+neu
+gu
+guk
+gure
+geu
+zu
+zuk
+zure
+zeu
+zuek
+hura
+hark
+haren
+bera
+hura
+hark
+haren
+bera
+hura
+hark
+bera
+haiek
+haiek
+haien
+haien
+berak
+zer
+zein
 nor
-not
-only
-own
-same
-so
-than
-too
-very
+nork
+hau
+hori
+hauek
+haiek
+naiz
+da
+zara
+nintzen
+zinen
+izan
+izan
+izaten
+eduki
+dauka
+zeukan
+edukitzen
+egin
+egin
+egin
+egiten
+luke
+beharko luke
+ahalko luke
+hobe luke
+ni naiz
+zu zara
+hura da
+hura da
+hura da
+gu gara
+haiek dira
+nik dut
+zuk duzu
+guk dugu
+haiek dute
+nik
+zuk
+hark
+hark
+guk
+haiek
+nik
+zuk
+hark
+hark
+guk
+haiek
+ez da
+ez dira
+ez zen
+ez ziren
+ez du
+ez dute
+ez zuen
+ez du
+ez dute
+ez zuen
+ez du
+ez luke
+ez du
+ez luke
+ezin du
+ezin da
+ezin zuen
+ezin du
+goazen
+hori da
+nor da
+zer da
+hona hemen
+hona hor
+noiz da
+non da
+zergatik
+nolakoa da
+bat
+bat
+
+eta
+baina
+ba
+edo
+zeren
+gisa
+arte
+bitartean
+/
+
+
+
+
+buruz
+aurka
+artean
+
+zehar
+bitartean
+aurretik
+ezkero
+goian
+behean
+nondik
+nora
+gora
+behera
+barruan
+kanpoan
+aktibatuta
+desaktibatuta
+gainean
+azpian
+berriro
+haratago
+orduan
+behin
+hemen
+han
+noiz
+non
+zergatik
+nola
+guztiak
+edozein
+biak
+bakoitza
+batzuk
+gehiago
+gehien
+beste
+batzuk
+halako
+ez
+ezta
+ez
+bakarrik
+bere
+berdin
+hain
+baino
+ere
+oso

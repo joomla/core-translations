@@ -2,12 +2,12 @@
 <metafile client="site">
 	<name>Basque (eu-ES)</name>
 	<version>4.4.3</version>
-	<creationDate/>
-	<author>Joomla! Basque Translation Team</author>
-	<authorEmail>trslbrr@gmail.com</authorEmail>
-	<authorUrl>(ez dago)</authorUrl>
+	<creationDate>01-2024</creationDate>
+	<author>Joomla! proiektua</author>
+	<authorEmail>info@acvmultimedia.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
-	<license>GNU-ren Lizentzia Publiko Orokorraren 2. bertsioa edo berriagoa; ikusi LICENSE.txt</license>
+	<license>GNU-ren Lizentzia Publiko Orokorraren 2. Bertsioa edo berriagoa; ikusi LICENSE.txt</license>
 	<description><![CDATA[eu-ES site language]]></description>
 	<metadata>
 		<name>Basque</name>
