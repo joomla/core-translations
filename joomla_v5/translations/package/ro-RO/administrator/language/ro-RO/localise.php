@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * ro_RO localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class Ro_ROLocalise
 {
     /**
      * Returnează potențialele sufixe pentru un număr specific de elemente
