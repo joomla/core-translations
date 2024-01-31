@@ -16,11 +16,11 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * zh-CN localise class.
  *
  * @since  1.6
  */
-abstract class En_GBLocalise
+abstract class zh_CNLocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
@@ -65,7 +65,7 @@ abstract class En_GBLocalise
      */
     public static function getLowerLimitSearchWord()
     {
-        return 3;
+        return 2;
     }
 
     /**
