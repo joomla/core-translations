@@ -16,20 +16,20 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * en-GB localise class.
+ * ar-AA localise class
  *
- * @since  1.6
+ * @since	1.6
  */
-abstract class En_GBLocalise
+abstract class Ar_AALocalise
 {
     /**
      * Returns the potential suffixes for a specific number of items
      *
-     * @param   integer  $count  The number of items.
+     * @param	int $count  The number of items.
      *
-     * @return  array  An array of potential suffixes.
+     * @return	array  An array of potential suffixes.
      *
-     * @since   1.6
+     * @since	1.6
      */
     public static function getPluralSuffixes($count)
     {
@@ -49,7 +49,7 @@ abstract class En_GBLocalise
      *
      * @return  array  An array of ignored search words.
      *
-     * @since   1.6
+     * @since	1.6
      */
     public static function getIgnoredSearchWords()
     {
@@ -61,7 +61,7 @@ abstract class En_GBLocalise
      *
      * @return  integer  The lower length limit of search words.
      *
-     * @since   1.6
+     * @since	1.6
      */
     public static function getLowerLimitSearchWord()
     {
@@ -73,11 +73,11 @@ abstract class En_GBLocalise
      *
      * @return  integer  The upper length limit of search words.
      *
-     * @since   1.6
+     * @since	1.6
      */
     public static function getUpperLimitSearchWord()
     {
-        return 20;
+        return 75;
     }
 
     /**
@@ -85,7 +85,7 @@ abstract class En_GBLocalise
      *
      * @return  integer  The number of chars to display when searching.
      *
-     * @since   1.6
+     * @since	1.6
      */
     public static function getSearchDisplayedCharactersNumber()
     {
