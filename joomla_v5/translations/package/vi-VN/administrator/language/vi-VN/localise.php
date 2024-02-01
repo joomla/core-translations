@@ -38,10 +38,10 @@ abstract class Vi_VNLocalise
         }
 
         if ($count == 1) {
-            return ['ONE', '1'];
+            return ['MỘT', '1'];
         }
 
-        return ['OTHER', 'MORE'];
+        return ['KHÁC', 'HƠN'];
     }
 
     /**
@@ -59,7 +59,7 @@ abstract class Vi_VNLocalise
     /**
      * Returns the lower length limit of search words
      *
-     * @return  integer  The lower length limit of search words.
+     * @trả về số nguyên Giới hạn độ dài thấp hơn của các từ tìm kiếm.
      *
      * @since   1.6
      */
@@ -71,7 +71,7 @@ abstract class Vi_VNLocalise
     /**
      * Returns the upper length limit of search words
      *
-     * @return  integer  The upper length limit of search words.
+     * @trả về số nguyên Giới hạn độ dài trên của các từ tìm kiếm.
      *
      * @since   1.6
      */
@@ -83,7 +83,7 @@ abstract class Vi_VNLocalise
     /**
      * Returns the number of chars to display when searching
      *
-     * @return  integer  The number of chars to display when searching.
+     * @trả về số nguyên Số lượng ký tự hiển thị khi tìm kiếm.
      *
      * @since   1.6
      */

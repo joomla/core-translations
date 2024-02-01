@@ -27,7 +27,7 @@ abstract class Vi_VNLocalise
      *
      * @param   integer  $count  The number of items.
      *
-     * @return  array  An array of potential suffixes.
+     * @mảng trả về Một mảng các hậu tố tiềm năng.
      *
      * @since   1.6
      */
@@ -38,9 +38,9 @@ abstract class Vi_VNLocalise
                 return ['0'];
 
             case 1:
-                return ['ONE', '1'];
+                return ['MỘT', '1'];
         }
 
-        return ['OTHER', 'MORE'];
+        return ['KHÁC', 'HƠN'];
     }
 }
