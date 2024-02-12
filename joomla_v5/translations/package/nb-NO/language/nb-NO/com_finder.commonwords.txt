@@ -3,177 +3,177 @@
 ; License GNU General Public License version 2 or later; see LICENSE.txt
 ; Note : This file needs to be saved as UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
+jeg
+meg
+min
+meg selv
+vi
+vår
+våre
+oss selv
+du
+din
+dine
+deg selv
+dine egne
+han
+han
+hans
+han selv
+hun
+hennes
+hennes
+hun selv
+det
+dens
+seg selv
+de
+dem
+deres
+deres
+dem selv
+hva
+hvilken
+hvem
+hvem
+dette
+det
+disse
+disse
+er
+er
+er
+var
+hvor
+være
+vært
+være
+ha
+har
+hadde
+har
+gjør
+gjør
+gjorde
+gjør
+ville
+burde
+kunne
+burde
+jeg er
+du er
+han er
+hun er
+det er
+vi er
+de er
+jeg har
+du har
+vi har
+de har
+jeg ville
+du ville
+han vil
+hun ville
+vi ville
+de ville
+jeg vil
+du vil
+han vil
+hun vil
+vi vil
+de vil
+er ikke
+er ikke
+var ikke
+ble ikke
+har ikke
+har ikke
+hadde ikke
+gjør ikke
+ikke
+gjorde ikke
+vil ikke
+ville ikke
+skal ikke
+burde ikke
+kan ikke
+kan ikke
+kunne ikke
+må ikke
+la oss
+det er
+hvem er
+hva er
+her er
+det er
+når er
+hvor er
+hvorfor er
+hvordan er
+en
+en
+det
 og
-but
-if
+men
+hvis
 eller
-because
-as
-until
-while
-of
-at
-by
+fordi
+som
+til
+mens
+av
+på
+av
 for
-with
-about
-against
-between
-into
-through
-during
+med
+om
+mot
+mellom
+inn i
+gjennom
+under
 før
 etter
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
+ovenfor
+nedenfor
+til
+fra
+opp
+ned
+inn
+ut
+på
+av
 over
 under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
+igjen
+videre
+deretter
+en gang
+her
+der
+når
+hvor
+hvorfor
+hvordan
+alle
+enhver
+begge
+hver
+få
+mer
+mest
+annet
+noen
+som
+nei
+heller ikke
 ikke
-only
-own
-same
-so
-than
-too
-very
+kun
+egen
+samme
+så
+enn
+også
+veldig
