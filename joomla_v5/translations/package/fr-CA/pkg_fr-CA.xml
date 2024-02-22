@@ -3,7 +3,7 @@
 	<name>French (fr-CA) Language Pack</name>
 	<packagename>fr-CA</packagename>
 	<version>5.0.3.1</version>
-	<creationDate/>
+	<creationDate>2024-02</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>
@@ -13,8 +13,8 @@
 	<packager>French translation team : joomla.fr</packager>
 	<packagerurl>www.joomla.fr</packagerurl>
 	<description><![CDATA[<div style="text-align: left;">
-<h3>Joomla! 4 Full French canadian (fr-CA) Language Package</h3>
-<h3>Pack de langue Joomla! 4 Français canadien (fr-CA) complet</h3>
+<h3>Joomla! 5 Full French canadian (fr-CA) Language Package</h3>
+<h3>Pack de langue Joomla! 5 Français canadien (fr-CA) complet</h3>
 <p><a href="mailto:traduction@joomla.fr">traduction@joomla.fr</a></p>
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
