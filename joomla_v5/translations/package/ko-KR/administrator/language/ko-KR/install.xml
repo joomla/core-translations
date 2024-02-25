@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Korean (ko-KR)</name>
 	<tag>ko-KR</tag>
-	<version/>
+	<version>5.0.4</version>
 	<creationDate>2024-02</creationDate>
 	<author>Joomla! 프로젝트</author>
 	<authorEmail>admin@joomla.org</authorEmail>
