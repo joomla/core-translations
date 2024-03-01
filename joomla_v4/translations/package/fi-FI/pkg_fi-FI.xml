@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Finnish (fi-FI) Language Pack</name>
+	<name/>
 	<packagename>fi-FI</packagename>
 	<version>4.4.4.1</version>
 	<creationDate>2024-02</creationDate>
@@ -12,10 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Finnish translation team: Joomla.fi</packager>
 	<packagerurl>https://joomla.fi</packagerurl>
-	<description><![CDATA[<div style="text-align: left;">
-		<h3>Joomla! 4 Full Finnish (fi-FI) Language Package</h3>
-		<h3>Joomla! 4 kielitiedostopaketti sivuston ja ylläpidon puolelle suomeksi</h3>
-		</div>]]></description>
+	<description><![CDATA[fi_FI kielitiedostopaketti]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="fi-FI">language/fi-FI</folder>
