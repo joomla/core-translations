@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <metafile client="api">
 	<name>Polish (PL)</name>
-	<version/>
-	<creationDate>25.03.2024</creationDate>
+	<version>5.0.3.1</version>
+	<creationDate>28.03.2024</creationDate>
 	<author>Projekt Joomla!</author>
-	<authorEmail>zwiastun@joomla.pl</authorEmail>
+	<authorEmail>artur.stepien@bestproject.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
 	<copyright>Copyright (C) 2005 - 2024 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License wersja 2 lub późniejsza, zobacz LICENSE.txt</license>
-	<description><![CDATA[]]></description>
+	<description><![CDATA[api języka pl-PL]]></description>
 	<metadata>
 		<name>Polski (PL)</name>
 		<nativeName>Polski (PL)</nativeName>
