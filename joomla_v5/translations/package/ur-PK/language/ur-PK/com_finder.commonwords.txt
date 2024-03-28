@@ -1,179 +1,179 @@
-; Joomla! Project
-; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; جملہ! پروجیکٹ
+; (C) 2023 Open Source Matters, Inc. <https://www.joomla.org>
 ; License GNU General Public License version 2 or later; see LICENSE.txt
 ; Note : This file needs to be saved as UTF-8
 
 i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
+میں
+میرا
+میں خود
+ہم
+ہمارے
+ہمارے
+ہم خود
+تم
+آپ کا
+تمہارا
+اپنے آپ کو
+اپنے آپ کو
+وہ
+اسے
+اس کا
+خود
+وہ
+اس کا
+اس
+خود
+یہ
+اس کا
+خود
+وہ
+انہیں
+ان کا
+ان کا
+خود
+کیا
+کونسا
+کون
+کسے
+یہ
+کہ
+یہ
+وہ
+ہوں
+ہے
+ہیں
+تھا
+تھے
+ہونا
+رہا
+ہونے کی وجہ سے
+ہے
+ہے
+تھا
+ہونا
+کیا
+کرتا ہے
+کیا
+کر رہا ہے
+کرے گا
+چاہئے
+کر سکتے ہیں
+چاہئے
+میں ہوں
+تم ہو
+وہ ہے
+وہ
+یہ ہے
+ہم ہیں
+وہ ہیں
+میں نے
+آپ نے
+ہم نے
+انہوں نے
+میں کروں گا
+تم نے
+اس نے
+وہ
+ہم کریں گے
+انہوں نے
+میں کروں گا
+آپ کریں گے
+وہ کرے گا
+وہ کرے گا
+ہم کریں گے
+وہ کریں گے
+نہیں ہے
+نہیں ہیں
 wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+نہیں تھے
+نہیں ہے
+نہیں ہے
+نہیں تھا
+نہیں کرتا
+مت کرو
+نہیں کیا
+نہیں کرے گا
+نہیں کرے گا
+نہیں
+نہیں کرنا چاہیے
+نہیں کر سکتے
+نہیں کر سکتے
+نہیں کر سکا
+نہیں ہونا چاہیے
+چلو
+یہ ہے
+کون ہے
+کیا ہے
+یہاں ہے
+وہاں ہے
+کب ہے
+کہاں ہے
+کیوں
+کیسا ہے
 a
-an
-the
+ایک
+دی
 and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
+لیکن
+اگر
+کیا
+کیونکہ
+کے طور پر
+تک
+جبکہ
+کی
+پر
+کی طرف سے
+کے لیے
+کے ساتھ
+کے بارے میں
+خلاف
+کے درمیان
+میں
+کے ذریعے
+دوران
+مصنف کا ای میل
 after
-above
-below
-to
-from
-up
-down
-in
-out
+اوپر
+نیچے
+کو
+سے
+اوپر
+نیچے
+میں
+باہر
 on
 off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
+ختم
+کے تحت
+دوبارہ
+مزید
+پھر
+ایک بار
+یہاں
+وہاں
+کب
+کہاں
+کیوں
+کیسے
+تمام
+کوئی بھی
+سب
+ہر ایک
+چند
+مزید
+زیادہ تر
+دیگر
+کچھ
+اس طرح
+نہیں
+نہ ہی
 not
-only
-own
-same
-so
-than
-too
-very
+صرف
+اپنے
+اسی
+تو
+مقابلے
+بھی
+بہت
