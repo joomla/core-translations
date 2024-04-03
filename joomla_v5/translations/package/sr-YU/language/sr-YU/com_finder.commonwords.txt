@@ -1,179 +1,179 @@
-; Joomla! Project
+; Joomla! Projekat
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
 ; License GNU General Public License verzija 2 ili pogledaj LICENSE.txt
 ; Napomena : Ova datoteka mora da bude sačuvana kao UTF-8
 
 i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
+ja
+moje
+ja
+mi
+naše
+naše
+lično
+ti
+tvoje
+vaše
+ti lično
+vi
+on
+on
+njegovo
+njegovo
+ona
+njeno
+njeno
+ona lično
+to
+to je
+lično
+oni
+oni
+njihovo
+njihovo
+oni lično
+šta
+što je
+ko
+kome
+ovo
+to
+ovi
+ta
 prepodne
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+je
+su
+bilo
+bilo
+budi
+bilo
+u toku
+ima
+ima
+imao
+ima
+uradi
+da li
+da li si
+radi
+da li bi
+može
+mogao
+mogu
+ja sam
+ti si
+on je
+ona je
+to je
+mi smo
+oni su
+ja sam
+ti si
+mi smo
+oni su
+ja ću
+ti bi
+on bi
+ona bi
+mi bismo
+oni bi
+ja ću
+ti ćeš
+on će
+ona će
+mi ćemo
+oni će
+nijhe
+nije
+nije
+nije
+nije
+nije
+nije
+nije
+nemoj
+nije
+neću
+nebih
+nebih
+nebih
+ne mogu
+ne mogu
+ne mogu
+nemoj
+hajdemo
+to je
+ko je
+šta je
+evo
+evo
+kada je
+kada je
+zašto
+kako je
 a
-an
-the
 i
-but
-if
+i
+i
+ali
+ako
 ili
-because
-as
-until
-while
-of
-at
-by
-for
-with
+zato
+kao
+do
+dokle
+od
+na
+od
+za
+sa
 o meni
-against
-between
-into
-through
-during
+protiv
+između
+u
+kroz
+tokom
 pre
 posle
 iznad
 ispod
-to
+ka
 od
 gore
 dole
-in
-out
+u
+iz
 uklјučeno
 isključeno
-over
-under
-again
-further
+preko
+pod
+ponovo
+dalje
 onda
 jednom
-here
-there
-when
-where
-why
-how
+ovde
+tamo
+kada
+gde
+zašto
+kako
 sve
 bilo koja
 oba
-each
-few
-more
-most
+svaki
+nekoliko
+više
+većina
 ostalo
-some
-such
+nekoliko
+takav
 ne
-nor
+ni
 ne
 samo
-own
-same
-so
-than
-too
-very
+svoje
+isto
+pa
+onda
+takođe
+mnogo
