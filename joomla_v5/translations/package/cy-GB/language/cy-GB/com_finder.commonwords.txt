@@ -3,44 +3,44 @@
 ; License GNU General Public License version 2 or later; see LICENSE.txt
 ; Sylwer : Mae angen cadw'r ffeil hon fel UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-yb
+fi
+myfi
+fy
+myfi
+ni
+ein
+ein
+ein hunain
+chi
+eich
+eich
+eich hunan
+eich hunain
+o
+fo
+ei
+ei hunan
+hi
+hithau
+ei
+ei hunan
+ef
+ei
+ei hunan
+nhw
+nhw
+eu
+eu
+eu hunain
+beth
+pa un
+pwy
+pwy
+hwn
+hwnna
+rhain
+rheina
+wyf
 is
 are
 was
@@ -127,7 +127,7 @@ at
 by
 for
 with
-about
+ynglŷn â
 against
 between
 into
@@ -135,42 +135,42 @@ through
 during
 cyn
 ar ôl
-above
-below
+uwchben
+islaw
 to
-from
-up
-down
+oddi wrth
+i fyny
+i Lawr
 in
 out
-on
-off
+ymlaen
+diffodd
 over
 under
 again
 further
 yna
-once
+unwaith
 here
 there
 when
 where
 why
 how
-all
-any
-both
+pob Un
+unrhyw Un
+y ddau
 each
 few
 more
 most
-other
+arall
 some
 such
-no
+na
 nor
 nid
-only
+dim ond
 own
 same
 so
