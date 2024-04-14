@@ -50,6 +50,8 @@ abstract class Da_DKLocalise
      * @return  array  An array of ignored search words.
      *
      * @since   1.6
+     *
+     * @forældet 5.1 vil blive fjernet i 7.0 uden erstatning
      */
     public static function getIgnoredSearchWords()
     {
@@ -62,6 +64,8 @@ abstract class Da_DKLocalise
      * @return  integer  The lower length limit of search words.
      *
      * @since   1.6
+     *
+     * @forældet 5.1 vil blive fjernet i 7.0 uden erstatning
      */
     public static function getLowerLimitSearchWord()
     {
@@ -74,6 +78,8 @@ abstract class Da_DKLocalise
      * @return  integer  The upper length limit of search words.
      *
      * @since   1.6
+     *
+     * @forældet 5.1 vil blive fjernet i 7.0 uden erstatning
      */
     public static function getUpperLimitSearchWord()
     {
@@ -86,6 +92,8 @@ abstract class Da_DKLocalise
      * @return  integer  The number of chars to display when searching.
      *
      * @since   1.6
+     *
+     * @forældet 5.1 vil blive fjernet i 7.0 uden erstatning
      */
     public static function getSearchDisplayedCharactersNumber()
     {
