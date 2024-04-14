@@ -50,6 +50,8 @@ abstract class Vi_VNLocalise
      * @return  array  An array of ignored search words.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getIgnoredSearchWords()
     {
@@ -62,6 +64,8 @@ abstract class Vi_VNLocalise
      * @trả về số nguyên Giới hạn độ dài thấp hơn của các từ tìm kiếm.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getLowerLimitSearchWord()
     {
@@ -74,6 +78,8 @@ abstract class Vi_VNLocalise
      * @trả về số nguyên Giới hạn độ dài trên của các từ tìm kiếm.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getUpperLimitSearchWord()
     {
@@ -86,6 +92,8 @@ abstract class Vi_VNLocalise
      * @trả về số nguyên Số lượng ký tự hiển thị khi tìm kiếm.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getSearchDisplayedCharactersNumber()
     {
