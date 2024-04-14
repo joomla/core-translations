@@ -39,7 +39,10 @@ abstract class Cy_GBLocalise
 
         if ($count == 1) {
             return ['ONE', '1'];
-         }
+        }
+
+        return ['OTHER', 'MORE'];
+     }
 if  ($count == 2){
 			return ['TWO', '2'];
 		}
@@ -50,15 +53,14 @@ if  ($count == 2){
 			return ['MANY', '6'];
 		}
 
-        return ['OTHER', 'MORE'];
-    }
-
     /**
      * Returns the ignored search words
      *
      * @return  array  An array of ignored search words.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getIgnoredSearchWords()
     {
@@ -71,6 +73,8 @@ if  ($count == 2){
      * @return  integer  The lower length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getLowerLimitSearchWord()
     {
@@ -83,6 +87,8 @@ if  ($count == 2){
      * @return  integer  The upper length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getUpperLimitSearchWord()
     {
@@ -95,6 +101,8 @@ if  ($count == 2){
      * @return  integer  The number of chars to display when searching.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getSearchDisplayedCharactersNumber()
     {
