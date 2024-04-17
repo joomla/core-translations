@@ -51,7 +51,7 @@ abstract class El_GRLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * Το @deprecated 5.1 θα αφαιρεθεί στην 7.0 χωρίς αντικατάσταση
      */
     public static function getIgnoredSearchWords()
     {
@@ -65,7 +65,7 @@ abstract class El_GRLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * Το @deprecated 5.1 θα αφαιρεθεί στην 7.0 χωρίς αντικατάσταση
      */
     public static function getLowerLimitSearchWord()
     {
@@ -79,7 +79,7 @@ abstract class El_GRLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * Το @deprecated 5.1 θα αφαιρεθεί στην 7.0 χωρίς αντικατάσταση
      */
     public static function getUpperLimitSearchWord()
     {
@@ -93,7 +93,7 @@ abstract class El_GRLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * Το @deprecated 5.1 θα αφαιρεθεί στην 7.0 χωρίς αντικατάσταση
      */
     public static function getSearchDisplayedCharactersNumber()
     {

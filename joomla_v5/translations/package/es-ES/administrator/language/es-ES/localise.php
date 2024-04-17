@@ -51,7 +51,7 @@ abstract class Es_ESLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated 5.1 será eliminado en la versión 7.0 sin reemplazo
      */
     public static function getIgnoredSearchWords()
     {
@@ -65,7 +65,7 @@ abstract class Es_ESLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated 5.1 será eliminado en la versión 7.0 sin reemplazo
      */
     public static function getLowerLimitSearchWord()
     {
@@ -79,7 +79,7 @@ abstract class Es_ESLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated 5.1 será eliminado en la versión 7.0 sin reemplazo
      */
     public static function getUpperLimitSearchWord()
     {
@@ -93,7 +93,7 @@ abstract class Es_ESLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated 5.1 será eliminado en la versión 7.0 sin reemplazo
      */
     public static function getSearchDisplayedCharactersNumber()
     {
