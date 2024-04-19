@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>انگریزی (en-GB)</name>
 	<tag>ur-PK</tag>
-	<version>5.0.0</version>
+	<version/>
 	<creationDate>2023-06</creationDate>
 	<author>عبدالوحید</author>
 	<authorEmail>info@abdulwaheed.pk</authorEmail>
