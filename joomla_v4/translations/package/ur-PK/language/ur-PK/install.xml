@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Urdu (Pakistan) ur-PK</name>
 	<tag>en-GB</tag>
-	<version>4.3.2</version>
+	<version/>
 	<creationDate/>
 	<author>جملہ! پروجیکٹ</author>
 	<authorEmail>admin@joomla.org</authorEmail>
