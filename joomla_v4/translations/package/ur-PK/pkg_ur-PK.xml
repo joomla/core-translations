@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Urdu (Pakistan) ur-PK Language Pack</name>
 	<packagename>ur-PK</packagename>
-	<version>1.0</version>
+	<version/>
 	<creationDate/>
 	<author>عبدالوحید</author>
 	<authorEmail>info@abdulwaheed.pk</authorEmail>
