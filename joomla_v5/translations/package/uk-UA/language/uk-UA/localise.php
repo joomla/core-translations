@@ -2,7 +2,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  Copyright (C) 2005 - 2023 Open Source Matters, Inc. All rights reserved.
+ * @copyright  Copyright (C) 2005 - 2024 Open Source Matters, Inc. All rights reserved.
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -512,8 +512,11 @@ abstract class Uk_UALocalise
 	/**
 	 * Returns the ignored search words
 	 *
-	 * @return    array  An array of ignored search words.
-	 * @since    1.6
+	 * @return  array  An array of ignored search words.
+	 *
+	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
 	 */
 	public static function getIgnoredSearchWords()
 	{
@@ -953,8 +956,11 @@ abstract class Uk_UALocalise
 	/**
 	 * Returns the lower length limit of search words
 	 *
-	 * @return    integer  The lower length limit of search words.
-	 * @since    1.6
+	 * @return  integer  The lower length limit of search words.
+	 *
+	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
 	 */
 	public static function getLowerLimitSearchWord()
 	{
@@ -964,8 +970,11 @@ abstract class Uk_UALocalise
 	/**
 	 * Returns the upper length limit of search words
 	 *
-	 * @return    integer  The upper length limit of search words.
-	 * @since    1.6
+	 * @return  integer  The upper length limit of search words.
+	 *
+	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
 	 */
 	public static function getUpperLimitSearchWord()
 	{
@@ -975,8 +984,11 @@ abstract class Uk_UALocalise
 	/**
 	 * Returns the number of chars to display when searching
 	 *
-	 * @return    integer  The number of chars to display when searching.
-	 * @since    1.6
+	 * @return  integer  The number of chars to display when searching.
+	 *
+	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
 	 */
 	public static function getSearchDisplayedCharactersNumber()
 	{
