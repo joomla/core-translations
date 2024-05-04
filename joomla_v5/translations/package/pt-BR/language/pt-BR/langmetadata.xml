@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
-	<name>Português (pt-BR)</name>
+	<name>Brazilian Portuguese (pt-BR)</name>
 	<version>5.0.0</version>
 	<creationDate>Fevereiro de 2024</creationDate>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>(C) 2006 Open source matters, Inc</copyright>
+	<copyright/>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[linguagem do site pt-BR]]></description>
+	<description><![CDATA[pt-BR site language]]></description>
 	<metadata>
 		<name>Português do Brasil (pt-BR)</name>
 		<nativeName>Português do Brasil (pt-BR)</nativeName>
