@@ -3,15 +3,15 @@
 ; GNU General Public License версия 2 или по-късна; Виж LICENSE.txt
 ; Забележка: Този файл трябва да бъде записан като UTF-8
 
-i
+аз
 me
-my
+мой
 myself
-we
-our
+ние
+наш
 ours
 ourselves
-you
+ти
 your
 yours
 yourself
@@ -20,11 +20,11 @@ he
 him
 his
 himself
-she
+тя
 her
 hers
 herself
-it
+то
 its
 itself
 they
@@ -41,7 +41,7 @@ that
 these
 those
 сутрин
-is
+е
 are
 was
 were
@@ -115,18 +115,18 @@ a
 an
 the
 и
-but
-if
+но
+ако
 или
 because
 as
-until
+до
 while
 of
 at
 by
-for
-with
+за
+с
 относно
 against
 between
@@ -141,7 +141,7 @@ to
 от
 нагоре
 надолу
-in
+в
 out
 вкл.
 изкл.
