@@ -9,7 +9,7 @@
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2013 Open source matters, Inc.</copyright>
 	<license>Licença pública geral GNU versão 2 ou posterior; consulte LICENSE.txt</license>
-	<description>linguagem do site pt-BR</description>
+	<description>pt-BR site language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
