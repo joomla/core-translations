@@ -33,11 +33,11 @@ abstract class Ca_ESLocalise
      */
     public static function getPluralSuffixes($count)
     {
-        switch ($count) {
-            case 0:
+        canvi ($count) {
+            cas 0:
                 return ['0'];
 
-            case 1:
+            cas 1:
                 return ['ONE', '1'];
         }
 

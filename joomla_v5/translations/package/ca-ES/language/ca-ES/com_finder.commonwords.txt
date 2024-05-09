@@ -1,179 +1,179 @@
-; Joomla! Project
+; Joomla! Projecte
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
 ; Llicència GNU General Public License versió 2 or posterior; veure LICENSE.txt
 ; Nota : Cal guardar aquest fitxer com UTF-8
 
 i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
+jo
+el meu
+jo mateix
+nosaltres
+el nostre
+els nostres
+nosaltres mateixos
+tu
+el teu
+els teus
+tu mateix
+vosaltres mateixos
+ell
+ell
+el seu
+ell mateix
+ella
+el seu
+els seus
+ella mateixa
+això
+el seu
+mateix
+ells
+ells
+els seus
+els seus
+ells mateixos
+què
+els quals
+qui
+a qui
+aquest
+aquell
+aquests
+aquells
 am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+és
+són
+era
+eres
+ser
+estat
+essent
+tenim
+té
+tingut
+tenint
+fer
+té
+fet
+fent
+seria
+hauria
+podria
+hauria
+jo sóc
+ets
+ell és
+ella és
+això és
+nosaltres som
+ells són
+jo he
+tens
+nosaltres tenim
+ells tenen
+jo seria
+tu series
+ell ha
+ella seria
+nosaltres hem
+ells haurien
+jo faré
+tu faràs
+ell serà
+ella farà
+nosaltres serem
+ells seran
+no és
+no ets
+no és
+eren
+no té
+no tenien
+no tenia
+no fa
+no fa
+no feia
+no serà
+no hauries
+no has de
+no hauria
+no pots
+no pots
+no podries
+no hauries
+anem
+això és
+els qui
+què
+aquí és
+hi ha
+quan és
+on és
+per què és
+com és
 a
-an
-the
+un
+el
 i
-but
-if
+però
+si
 o
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
+perquè
+com
+fins que
+mentre que
+de
+a
+per
+per a
+amb
+sobre
+contra
+entre
+dins
+a través de
+durant
 abans
 després
-above
-below
-to
-from
-up
-down
-in
-out
+a sobre
+a sota
+cap a
+des de
+puja
+a sota
+en
+fora
+sí
+no
+sobre
+baix
+altre cop
+més enllà
+llavors
+un cop
+aquí
+allà
+quan
 on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
+per què
+com
+tot
+qualsevol
+ambdós
+cada
+pocs
+més
+el més
+altre
+alguns
+com si
 no
-nor
+ni
 no
-only
-own
-same
-so
-than
-too
-very
+només
+propi
+mateix
+llavors
+que
+també
+molt
