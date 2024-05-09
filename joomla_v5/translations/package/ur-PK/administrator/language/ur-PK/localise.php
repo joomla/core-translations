@@ -51,7 +51,7 @@ abstract class Ur_PKLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @ فرسودہ 5.1 کو بغیر متبادل کے 7.0 میں ہٹا دیا جائے گا۔
      */
     public static function getIgnoredSearchWords()
     {
@@ -65,7 +65,7 @@ abstract class Ur_PKLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @ فرسودہ 5.1 کو بغیر متبادل کے 7.0 میں ہٹا دیا جائے گا۔
      */
     public static function getLowerLimitSearchWord()
     {
@@ -79,7 +79,7 @@ abstract class Ur_PKLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @ فرسودہ 5.1 کو بغیر متبادل کے 7.0 میں ہٹا دیا جائے گا۔
      */
     public static function getUpperLimitSearchWord()
     {
@@ -93,7 +93,7 @@ abstract class Ur_PKLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @ فرسودہ 5.1 کو بغیر متبادل کے 7.0 میں ہٹا دیا جائے گا۔
      */
     public static function getSearchDisplayedCharactersNumber()
     {
