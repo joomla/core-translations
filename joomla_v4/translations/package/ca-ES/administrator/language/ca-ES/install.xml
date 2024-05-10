@@ -2,13 +2,13 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Catalan (ca-ES)</name>
 	<tag>ca-ES</tag>
-	<version/>
-	<creationDate/>
-	<author>Catalan Translation Team</author>
-	<authorEmail>el.libre@gmail.com</authorEmail>
-	<authorUrl>www.catmidia.cat</authorUrl>
+	<version>4.4.4.1</version>
+	<creationDate>2024-05</creationDate>
+	<author>Catalan [ca-ES] Translation Team</author>
+	<authorEmail>info@joomla.cat</authorEmail>
+	<authorUrl>https://www.joomla.cat</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
-	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
+	<license>GNU General Public License version 2 or later</license>
 	<description>ca-ES administrator language</description>
 	<files>
 		<folder>/</folder>

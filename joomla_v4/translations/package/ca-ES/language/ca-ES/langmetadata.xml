@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>Catalan (ca-ES)</name>
-	<version/>
-	<creationDate/>
+	<version>4.4.4.1</version>
+	<creationDate>2024-05</creationDate>
 	<author>Catalan Translation Team</author>
 	<authorEmail>el.libre@gmail.com</authorEmail>
 	<authorUrl>www.catmidia.cat</authorUrl>
 	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
 	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
-	<description><![CDATA[catalan language pack for Joomla! 3 - Site - Paquet d'idioma català per Joomla 3 - Lloc Web]]></description>
+	<description><![CDATA[<p>Catalan [ca-ES] language pack (site) for Joomla!</p><p></p><p>Paquet d'idioma català [ca-ES] (lloc) per a Joomla!</p>]]></description>
 	<metadata>
 		<name>Catalan (ca-ES)</name>
 		<nativeName>Catalan (ca-ES)</nativeName>
