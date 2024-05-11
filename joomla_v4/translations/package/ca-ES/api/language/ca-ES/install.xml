@@ -4,9 +4,9 @@
 	<tag>ca-ES</tag>
 	<version>4.4.4.1</version>
 	<creationDate>2024-05</creationDate>
-	<author>Catalan Translation Team</author>
-	<authorEmail>el.libre@gmail.com</authorEmail>
-	<authorUrl>www.catmidia.cat</authorUrl>
+	<author>Catalan [ca-ES] Translation Team</author>
+	<authorEmail>info@joomla.cat</authorEmail>
+	<authorUrl>https://www.joomla.cat</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
 	<description>Idioma api ca-ES</description>
