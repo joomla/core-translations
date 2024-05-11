@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Catalan (ca-ES) Language Pack</name>
 	<packagename>ca-ES</packagename>
-	<version/>
+	<version>4.4.4.1</version>
 	<creationDate>2024-05</creationDate>
 	<author>Catalan Translation Team</author>
 	<authorEmail>el.libre@gmail.com</authorEmail>
@@ -10,8 +10,8 @@
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Catalan Translation Team</packager>
-	<packagerurl>www.catmidia.cat</packagerurl>
+	<packager>Catalan [ca-ES] Translation Team</packager>
+	<packagerurl>https://www.joomla.cat</packagerurl>
 	<description><![CDATA[Paquet d'idioma ca-ES]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
