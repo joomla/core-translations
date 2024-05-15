@@ -9,7 +9,7 @@
 	<authorUrl>https://www.joomla.cat</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
-	<description>Idioma api ca-ES</description>
+	<description>Idioma ca-ES de la api</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
