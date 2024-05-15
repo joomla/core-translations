@@ -11,7 +11,7 @@
 	<description><![CDATA[<p>Catalan [ca-ES] language pack (administrator) for Joomla!</p><p></p><p>Paquet d'idioma català [ca-ES] (administrador) per a Joomla!</p>]]></description>
 	<metadata>
 		<name>Catalan (ca-ES)</name>
-		<nativeName>Català (Catalunya)</nativeName>
+		<nativeName>Català (ca-ES)</nativeName>
 		<tag>ca-ES</tag>
 		<rtl>0</rtl>
 		<locale>ca_ES.utf8, ca_ES.UTF-8, ca_ES, catalan, ca_AD.UTF-8, cat_AD.UTF-8, ca_AD, catalan.UTF-8, cat_ES, ca_ES, ca, ca_FR, ca_IT,ca_ES.utf8, ca_ES.UTF-8, ca_ES, ca_ES.UTF-8@euro, ca_AD.utf8, ca_AD.UTF-8, ca_AD, ca_FR.utf8, ca_FR.UTF-8, ca_FR, ca_IT.utf8, ca_IT.UTF-8, ca_IT, Catalan_Standard, ca</locale>

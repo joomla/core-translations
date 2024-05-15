@@ -9,7 +9,7 @@
 	<authorUrl>https://www.joomla.cat</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later</license>
-	<description>ca-ES administrator language</description>
+	<description>&lt;p>Catalan [ca-ES] language pack (administrator) for Joomla!&lt;/p>&lt;p>&lt;/p>&lt;p>Paquet d'idioma català [ca-ES] (administrador) per a Joomla!&lt;/p></description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
