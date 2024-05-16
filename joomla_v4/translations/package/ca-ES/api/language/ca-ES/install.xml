@@ -8,7 +8,7 @@
 	<authorEmail>info@joomla.cat</authorEmail>
 	<authorUrl>https://www.joomla.cat</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
-	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
+	<license>GNU General Public License version 2 or later</license>
 	<description>Idioma ca-ES de la api</description>
 	<files>
 		<folder>/</folder>
