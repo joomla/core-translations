@@ -7,9 +7,9 @@
 	<author>عبدالوحید</author>
 	<authorEmail>info@abdulwaheed.pk</authorEmail>
 	<authorUrl>www.abdulwaheed.pk</authorUrl>
-	<copyright>حق اشاعت (ح) ۲۰۰۵ - ۲۰۱۸ آزاد مصدر اہمیت رکھتے ہیں۔ تمام جملہ ھقوق محفوظ ہیں.</copyright>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>License GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>ur-PK administrator language</description>
+	<description>en-GB administrator language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
