@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Urdu (Pakistan) ur-PK Language Pack</name>
 	<packagename>ur-PK</packagename>
-	<version>1.0</version>
-	<creationDate>مئی 2023</creationDate>
+	<version>4.4.6.1</version>
+	<creationDate>مئی 2024</creationDate>
 	<author>عبدالوحید</author>
 	<authorEmail>info@abdulwaheed.pk</authorEmail>
 	<authorUrl>www.abdulwaheed.pk</authorUrl>
