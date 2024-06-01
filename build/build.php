@@ -123,23 +123,28 @@ foreach ($directories as $key => $languageCode)
     mkdir($buildPackageFolderTmp);
 
     // Copy all files to the tmp folder
+    message('Copy all files to the tmp folder', $verbose);
     system('cp -r * ' . $buildPackageFolderTmp);
+    message('Copied all files to the tmp folder', $verbose);
 
     // Generate the localise.php class name
     $localise = ucfirst(str_replace('-', '_', $languageCode)) . 'Localise';
 
     // Make sure the version and creation date is set.
+    message('Prepare XML and PHP files', $verbose);
     searchAndReplaceStringInXMLFiles($buildPackageFolderTmp, '<version/>', '<version>' . $lpVersion . '</version>');
     searchAndReplaceStringInXMLFiles($buildPackageFolderTmp, '<creationDate/>', '<creationDate>' . $creationDate . '</creationDate>');
-    renameStringInFile($buildPackageFolderTmp . 'administrator/language/' . $languageCode . '/localise.php', 'En_GBLocalise', $localise);
-    renameStringInFile($buildPackageFolderTmp . 'language/' . $languageCode . '/localise.php', 'En_GBLocalise', $localise);
+    renameStringInFile($buildPackageFolderTmp . '/administrator/language/' . $languageCode . '/localise.php', 'En_GBLocalise', $localise);
+    renameStringInFile($buildPackageFolderTmp . '/language/' . $languageCode . '/localise.php', 'En_GBLocalise', $localise);
 
-    chdir($buildPackageFolderTmp);
+    chdir($buildPackageFolder);
 
     // Build the language zip package
+    message('Build the language package zip file', $verbose);
     system('zip -r ' . $buildPackageFolder . '/' . $languageCode . '_joomla_lang_full_' . $lpVersion . '.zip * > /dev/null');
 
     // Remove tmp folder
+    message('Remove tmp folder', $verbose);
     system('rm -rf ' . $buildPackageFolderTmp);
 
     message('The Build of ' . $languageCode . ' has been completed!', $verbose);
