@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="api">
 	<name>Catalan (ca-ES)</name>
-	<version>5.1.0.3</version>
-	<creationDate/>
+	<version>5.1.2.1</version>
+	<creationDate>2024-05</creationDate>
 	<author>Catalan [ca-ES] Translation Team</author>
-	<authorEmail>info@joomla.cat</authorEmail>
+	<authorEmail>traduccio@joomla.cat</authorEmail>
 	<authorUrl>https://www.joomla.cat</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later</license>
