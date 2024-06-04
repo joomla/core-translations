@@ -7,12 +7,12 @@
 	<author>عبدالوحید</author>
 	<authorEmail>info@abdulwaheed.pk</authorEmail>
 	<authorUrl>www.abdulwaheed.pk</authorUrl>
-	<copyright>(C) 2023 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>عبدالوحید</packager>
 	<packagerurl>www.abdulwaheed.pk</packagerurl>
-	<description><![CDATA[ur-PK language pack]]></description>
+	<description><![CDATA[ur-PK زبان کا مجموعہ]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="ur-PK">language/ur-PK</folder>
