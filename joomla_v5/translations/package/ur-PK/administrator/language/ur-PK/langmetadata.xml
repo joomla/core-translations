@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
-	<name>انگریزی (en-GB)</name>
+	<name>اردو (ur-PK)</name>
 	<version>5.0.0</version>
 	<creationDate>2023-06</creationDate>
-	<author>عبدالوحید</author>
-	<authorEmail>info@abdulwaheed.pk</authorEmail>
-	<authorUrl>www.abdulwaheed.pk</authorUrl>
+	<author>جوملا  پراجیکٹ</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
-	<license>License GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[ur-PK administrator language]]></description>
 	<metadata>
-		<name>English (United Kingdom)</name>
-		<nativeName>English (United Kingdom)</nativeName>
+		<name>اردو - پاکستان</name>
+		<nativeName>اردو - پاکستان</nativeName>
 		<tag>ur-PK</tag>
 		<rtl>0</rtl>
-		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, english, english-uk, uk, gbr, britain, england, great britain, uk, united kingdom, united-kingdom</locale>
+		<locale>ur_PK.utf8, ur_PK.UTF-8, ur_PK, ur, urdu, urdu-ur, ur, pakistan, rwp, rawalpindi, islamabad</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar>گریگورین</calendar>
+		<calendar>Hijri</calendar>
 	</metadata>
 	<params/>
 </metafile>
