@@ -46,14 +46,14 @@ umask(022);
 
 // Set paths for the build packages
 $tmp = __DIR__ . '/tmp';
-$packages = $tmp . '/packages';
+$folderPackages = $tmp . '/packages';
 
 // Parse input options
-$options = getopt('', ['help', 'package:', 'v', 'lpversion:']);
+$options = getopt('', ['help', 'language:', 'v', 'lpversion:']);
 
 // Get option variables
 $showHelp    = isset($options['help']);
-$package     = $options['package'] ?? 'all';
+$language     = $options['language'] ?? 'all';
 $lpVersion   = $options['lpversion'] ?? false;
 $verbose     = isset($options['v']);
 
@@ -71,20 +71,18 @@ if (!$lpVersion)
 
 $mainVersion = $lpVersion[0];
 $creationDate = date('Y-m-d');
-$buildPackageFolder = $packages . $mainVersion;
+$buildPackageFolder = $folderPackages . $mainVersion;
 
-message('Start build of language packages: ' . $lpVersion . ' / ' . $package, $verbose);
+message('Cleanup tmp folder', $verbose);
+rmdir_recursive($tmp);
+
+message('Start build of language packages: ' . $lpVersion . ' / ' . $language, $verbose);
 mkdir($tmp);
 mkdir($buildPackageFolder);
 
 message('Prepare packages.', $verbose);
 
 $sourceFolder = dirname(__DIR__) . '/joomla_v' . $mainVersion . '/translations/package';
-
-if ($package !== 'all')
-{
-    $sourceFolder .= '/' . $package;
-}
 
 // Get all files and directories inside the current directory
 $allItems = scandir($sourceFolder);
@@ -100,7 +98,12 @@ foreach ($allItems as $item)
     {
         continue;
     }
-    
+
+    if ($language !== 'all' && !(strpos($item, $language) === 0))
+    {
+        continue;
+    }
+
     // Get the full path of the item
     $itemPath = $sourceFolder . DIRECTORY_SEPARATOR . $item;
     
@@ -112,26 +115,41 @@ foreach ($allItems as $item)
     }
 }
 
+// Show a message when more than one language code is going to be generated
+if (count($directories) > 1)
+{
+    $message = '';
+
+    foreach ($directories as $key => $languageCode)
+    {
+        $message .= $languageCode . ', ';
+    }
+
+    message('Build following languages: ' . substr_replace($message, '', -1), $verbose);
+}
+
+// Build the defined languages
 foreach ($directories as $key => $languageCode)
 {
-    message('Build package: ' . $languageCode, $verbose);
+    message('----- ' . $languageCode . ' -----', $verbose);
+    message($languageCode . ': Build package: ' . $languageCode, $verbose);
 
     // Switch to the source folder
     chdir($sourceFolder . '/' . $languageCode);
 
-    $buildPackageFolderTmp = $buildPackageFolder . '/tmp';
+    $buildPackageFolderTmp = $buildPackageFolder . '/tmp' . $languageCode;
     mkdir($buildPackageFolderTmp);
 
     // Copy all files to the tmp folder
-    message('Copy all files to the tmp folder', $verbose);
+    message($languageCode . ': Copy all files to the tmp folder', $verbose);
     system('cp -r * ' . $buildPackageFolderTmp);
-    message('Copied all files to the tmp folder', $verbose);
+    message($languageCode . ': Copied all files to the tmp folder', $verbose);
 
     // Generate the localise.php class name
     $localise = ucfirst(str_replace('-', '_', $languageCode)) . 'Localise';
 
     // Make sure the version and creation date is set.
-    message('Prepare XML and PHP files', $verbose);
+    message($languageCode . ': Prepare XML and PHP files', $verbose);
     searchAndReplaceStringInXMLFiles($buildPackageFolderTmp, '<version/>', '<version>' . $lpVersion . '</version>');
     searchAndReplaceStringInXMLFiles($buildPackageFolderTmp, '<creationDate/>', '<creationDate>' . $creationDate . '</creationDate>');
     renameStringInFile($buildPackageFolderTmp . '/administrator/language/' . $languageCode . '/localise.php', 'En_GBLocalise', $localise);
@@ -140,14 +158,14 @@ foreach ($directories as $key => $languageCode)
     chdir($buildPackageFolder);
 
     // Build the language zip package
-    message('Build the language package zip file', $verbose);
+    message($languageCode . ': Build the language package zip file', $verbose);
     system('zip -r ' . $buildPackageFolder . '/' . $languageCode . '_joomla_lang_full_' . $lpVersion . '.zip * > /dev/null');
 
     // Remove tmp folder
-    message('Remove tmp folder', $verbose);
-    system('rm -rf ' . $buildPackageFolderTmp);
+    message($languageCode . ': Remove tmp folder', $verbose);
+    rmdir_recursive($buildPackageFolderTmp);
 
-    message('The Build of ' . $languageCode . ' has been completed!', $verbose);
+    message($languageCode . ': The Build of ' . $languageCode . ' has been completed!', $verbose);
 }
 
 function message(string $messagetext, $verbose)
@@ -196,4 +214,14 @@ function renameStringInFile($pathToFile, $search, $replace)
 
 	// Write the entire string
 	file_put_contents($pathToFile, $str);
+}
+
+function rmdir_recursive($dir) {
+    $it = new RecursiveDirectoryIterator($dir, FilesystemIterator::SKIP_DOTS);
+    $it = new RecursiveIteratorIterator($it, RecursiveIteratorIterator::CHILD_FIRST);
+    foreach($it as $file) {
+        if ($file->isDir()) rmdir($file->getPathname());
+        else unlink($file->getPathname());
+    }
+    rmdir($dir);
 }
