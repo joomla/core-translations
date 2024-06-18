@@ -12,7 +12,7 @@ There are dedicated community members for many translations. They can be found o
 The installer files (Installer\language\en-GB // joomla.ini and langmetadata.xml) are managed in Crowdin.
 This is required to keep the Core installation process intact.
 In the Crowdin platform things are locked and automated to keep everything aligned.
-These two files can't be processed manual, because of the amount of work and risks.
+These two files can't be processed manually, because of the amount of work and risks.
 
 ## Github Actions - Cron Schedule
 
