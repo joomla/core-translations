@@ -51,7 +51,7 @@ abstract class Sv_SELocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @föråldrad 5.1 kommer att tas bort i 7.0 utan ersättning
      */
     public static function getIgnoredSearchWords()
     {
@@ -65,7 +65,7 @@ abstract class Sv_SELocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @föråldrad 5.1 kommer att tas bort i 7.0 utan ersättning
      */
     public static function getLowerLimitSearchWord()
     {
@@ -79,7 +79,7 @@ abstract class Sv_SELocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @föråldrad 5.1 kommer att tas bort i 7.0 utan ersättning
      */
     public static function getUpperLimitSearchWord()
     {
@@ -93,7 +93,7 @@ abstract class Sv_SELocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @föråldrad 5.1 kommer att tas bort i 7.0 utan ersättning
      */
     public static function getSearchDisplayedCharactersNumber()
     {
