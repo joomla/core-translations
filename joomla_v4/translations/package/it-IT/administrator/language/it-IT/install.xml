@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Italiano (it-IT)</name>
 	<tag>it-IT</tag>
-	<version>4.4.6.1</version>
+	<version/>
 	<creationDate>2024-07</creationDate>
 	<author>Joomla! Project (Italian Translation Team)</author>
 	<authorEmail>admin@joomla.org</authorEmail>
