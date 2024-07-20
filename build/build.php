@@ -21,7 +21,7 @@
  *
  * Examples:
  * - php build/build.php --language de-DE --lpversion 5.2.0.1 --v
- * - php build/build.php --language de* --lpversion 5.2.0.1 --v
+ * - php build/build.php --language de --lpversion 5.2.0.1 --v
  * - php build/build.php --language all --lpversion 5.2.0.1 --v
  * - php build/build.php --lpversion 5.2.0.1 --v
  *
