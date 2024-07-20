@@ -15,29 +15,27 @@
  * options=metadata,uid=1000,gid=1000,umask=022
  *
  * Steps:
- * 1. Run the bump script
- * 2. Commit the version changes
- * 3. Tag new release in the local git repository (for example, "git tag -s 4.1.0v1")
+ * 1. Update the repo with the latest changes
  * 3. Run from CLI as: 'php buid/build.php --lpackages"
- * 4. Check the tmp directory.
+ * 4. Check the tmp directory for the packages
  *
  * Examples:
- * - php build/build.php --lpackages --v
- * - php build/build.php --crowdin --v
- * - php build/build.php --install --v
- * - php build/build.php --fullurl "https://github.com/joomla/joomla-cms/releases/download/4.1.0-rc1/Joomla_4.1.0-rc1-Release_Candidate-Full_Package.zip" --v
- * - php build/build.php --lpackages --v --tagversion "4.1.4v1"
- * - php build/build.php --crowdin --v --tagversion "4.1.4v1"
- * - php build/build.php --install --v --tagversion "4.1.4v1"
- * - php build/build.php --fullurl "https://github.com/joomla/joomla-cms/releases/download/4.1.0-rc1/Joomla_4.1.0-rc1-Release_Candidate-Full_Package.zip" --v  --tagversion "4.1.4v1"
+ * - php build/build.php --language de-DE --lpversion 5.2.0.1 --v
+ * - php build/build.php --language de* --lpversion 5.2.0.1 --v
+ * - php build/build.php --language all --lpversion 5.2.0.1 --v
+ * - php build/build.php --lpversion 5.2.0.1 --v
  *
  * @package    Joomla.Language
- * @copyright  (C) 2023 J!German <https://www.jgerman.de>
+ * @copyright  (C) 2024 J!German <https://www.jgerman.de>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
-// This script is largly based on the Joomla CMS build Script
-// https://github.com/joomla/joomla-cms/blob/4.0-dev/build/build.php
+/**
+ * This script is largly based on the Joomla CMS build Script
+ * - https://github.com/joomla/joomla-cms/blob/4.0-dev/build/build.php
+ * As well as the jgerman build script
+ * - https://github.com/joomlagerman/joomla/blob/5.1-dev/build/build.php
+ */
 
 const PHP_TAB = "\t";
 
@@ -52,10 +50,10 @@ $folderPackages = $tmp . '/packages';
 $options = getopt('', ['help', 'language:', 'v', 'lpversion:']);
 
 // Get option variables
-$showHelp    = isset($options['help']);
-$language     = $options['language'] ?? 'all';
-$lpVersion   = $options['lpversion'] ?? false;
-$verbose     = isset($options['v']);
+$showHelp  = isset($options['help']);
+$language  = $options['language'] ?? 'all';
+$lpVersion = $options['lpversion'] ?? false;
+$verbose   = isset($options['v']);
 
 if ($showHelp)
 {
@@ -125,7 +123,11 @@ if (count($directories) > 1)
         $message .= $languageCode . ', ';
     }
 
-    message('Build following languages: ' . substr_replace($message, '', -1), $verbose);
+    message('Build following languages: ' . substr_replace($message, '', -2), $verbose);
+}
+else
+{
+    message('The language has not been found: ' . $language, $verbose);
 }
 
 // Build the defined languages
@@ -181,12 +183,10 @@ function usage(string $command)
     echo PHP_EOL;
     echo 'Usage: php ' . $command . ' [options]' . PHP_EOL;
     echo PHP_TAB . '[options]:' . PHP_EOL;
-    echo PHP_TAB . PHP_TAB . '--fullurl "[URL]"' . PHP_TAB . 'The URL to the full en-GB package; When provided we also build a new full package' . PHP_EOL;
-    echo PHP_TAB . PHP_TAB . '--install' . PHP_TAB . PHP_TAB . 'Build the installation files' . PHP_EOL;
-    echo PHP_TAB . PHP_TAB . '--lpackages' . PHP_TAB . PHP_TAB . 'Build the language packages' . PHP_EOL;
+    echo PHP_TAB . PHP_TAB . '--lpversion 5.2.0.1' . PHP_TAB . '(required) The version number of the language you want to build' . PHP_EOL;
+    echo PHP_TAB . PHP_TAB . '--language de-DE / all' . PHP_TAB . '(optional) Select the language to build. "de-" matches all german language variants, "de-DE" only german, "all" is the default value' . PHP_EOL;
     echo PHP_TAB . PHP_TAB . '--v' . PHP_TAB . PHP_TAB . PHP_TAB . 'Show progress messages' . PHP_EOL;
-    echo PHP_TAB . PHP_TAB . '--crowdin' . PHP_TAB . PHP_TAB . 'Build the folder structure for crowdin updates' . PHP_EOL;
-    echo PHP_TAB . PHP_TAB . '--help:' . PHP_TAB . PHP_TAB . PHP_TAB . 'Show this help output' . PHP_EOL;
+    echo PHP_TAB . PHP_TAB . '--help' . PHP_TAB . PHP_TAB . PHP_TAB . 'Show this help output' . PHP_EOL;
     echo PHP_EOL;
 }
 
