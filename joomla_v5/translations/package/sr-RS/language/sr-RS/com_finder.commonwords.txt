@@ -3,177 +3,177 @@
 ; License GNU General Public License верзија два или каснија; погледај LICENSE.txt
 ; Напомена : Ова датотека мора да буде сачувана као UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-преподне
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
 и
-but
-if
+ја
+моје
+ја
+ми
+наше
+наше
+лично
+ти
+твоје
+ваше
+ти лично
+ви
+он
+он
+његово
+његово
+она
+њено
+њено
+она лично
+то
+то је
+лично
+они
+они
+њихово
+њихово
+они лично
+шта
+што је
+ко
+коме
+ово
+то
+ови
+та
+преподне
+је
+су
+било
+било
+буди
+било
+у току
+има
+има
+имао
+има
+уради
+да ли
+да ли си
+ради
+да ли би
+може
+могао
+могу
+ја сам
+ти си
+он је
+она је
+то је
+ми смо
+они су
+ја сам
+ти си
+ми смо
+они су
+ја ћу
+ти би
+он би
+она би
+ми бисмо
+они би
+ја ћу
+ти ћеш
+он ће
+она ће
+ми ћемо
+они ће
+није
+није
+није
+није
+није
+није
+није
+није
+немој
+није
+нећу
+небих
+небих
+небих
+не могу
+не могу
+не могу
+немој
+хајдемо
+то је
+ко је
+шта је
+ево
+ево
+када је
+када је
+зашто
+како је
+а
+и
+и
+и
+али
+ако
 или
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
+зато
+као
+до
+докле
+од
+на
+од
+за
+са
+о мени
+против
+између
+у
+кроз
+током
 пре
 после
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
+изнад
+испод
+ка
+од
+горе
+доле
+у
+из
+укључено
+искључено
+преко
+под
+поново
+даље
 онда
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
+једном
+овде
+тамо
+када
+где
+зашто
+како
+све
+било која
+оба
+сваки
+неколико
+више
+већина
+остало
+неколико
+такав
+никад
+ни
 не
-only
-own
-same
-so
-than
-too
-very
+само
+своје
+исто
+па
+онда
+такође
+много

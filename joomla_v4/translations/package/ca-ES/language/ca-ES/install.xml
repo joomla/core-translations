@@ -2,10 +2,10 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Catalan (ca-ES)</name>
 	<tag>ca-ES</tag>
-	<version>4.4.4.2</version>
-	<creationDate>2024-05</creationDate>
+	<version>4.4.7.1</version>
+	<creationDate>2024-07</creationDate>
 	<author>Catalan [ca-ES] Translation Team</author>
-	<authorEmail>info@joomla.cat</authorEmail>
+	<authorEmail>traduccio@joomla.cat</authorEmail>
 	<authorUrl>https://www.joomla.cat</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later</license>

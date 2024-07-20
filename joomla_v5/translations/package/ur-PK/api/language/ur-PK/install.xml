@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>انگریزی (en-GB)</name>
 	<tag>ur-PK</tag>
-	<version>5.0.0</version>
-	<creationDate>2023-06</creationDate>
+	<version/>
+	<creationDate/>
 	<author>عبدالوحید</author>
 	<authorEmail>info@abdulwaheed.pk</authorEmail>
 	<authorUrl>www.abdulwaheed.pk</authorUrl>

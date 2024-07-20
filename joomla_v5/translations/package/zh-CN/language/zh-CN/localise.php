@@ -6,14 +6,14 @@
  * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  *
- * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
+ * @phpcs：禁用 Squiz.Classes.ValidClassName.NotCamelCaps
  *
- * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
+ * @phpcs：禁用 PSR1.Classes.ClassDeclaration.MissingNamespace
  */
 
-// phpcs:disable PSR1.Files.SideEffects
+// phpcs:禁用 PSR1.Files.SideEffects
 \defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
+// phpcs:启用 PSR1.Files.SideEffects
 
 /**
  * zh-CN localise class.
