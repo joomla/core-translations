@@ -3,14 +3,14 @@
 	<name>اردو (ur-PK) زبان کا مجموعہ</name>
 	<packagename>ur-PK</packagename>
 	<version>5.1.2.1</version>
-	<creationDate>2024-07</creationDate>
-	<author>جوملا پروجیکٹ</author>
+	<creationDate>2024-08</creationDate>
+	<author>Urdu Translation Team</author>
 	<authorEmail>info@abdulwaheed.pk</authorEmail>
 	<authorUrl>www.abdulwaheed.pk</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>عبدالوحید</packager>
+	<packager>Urdu Translation Team</packager>
 	<packagerurl>www.abdulwaheed.pk</packagerurl>
 	<description><![CDATA[ur-PK زبان کا مجموعہ]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
@@ -20,7 +20,7 @@
 		<folder type="language" client="api" id="ur-PK">api/language/ur-PK</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="تسلیم شدہ جملہ! ترجمے">
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
 			https://update.joomla.org/language/translationlist_5.xml
 		</server>
 	</updateservers>
