@@ -139,7 +139,7 @@ foreach ($directories as $key => $languageCode)
     // Switch to the source folder
     chdir($sourceFolder . '/' . $languageCode);
 
-    $buildPackageFolderTmp = $buildPackageFolder . '/tmp' . $languageCode;
+    $buildPackageFolderTmp = $buildPackageFolder . '/tmp_' . $languageCode;
     mkdir($buildPackageFolderTmp);
 
     // Copy all files to the tmp folder
@@ -216,12 +216,50 @@ function renameStringInFile($pathToFile, $search, $replace)
 	file_put_contents($pathToFile, $str);
 }
 
+function ensure_dir_exists($dir, $permissions = 0755) {
+	if (!file_exists($dir)) {
+		if (!mkdir($dir, $permissions, true)) {
+			return false; // Directory could not be created
+		}
+	}
+	return true;
+}
+
 function rmdir_recursive($dir) {
-    $it = new RecursiveDirectoryIterator($dir, FilesystemIterator::SKIP_DOTS);
-    $it = new RecursiveIteratorIterator($it, RecursiveIteratorIterator::CHILD_FIRST);
-    foreach($it as $file) {
-        if ($file->isDir()) rmdir($file->getPathname());
-        else unlink($file->getPathname());
-    }
-    rmdir($dir);
+	// Ensure that the directory exists
+	if (!ensure_dir_exists($dir)) {
+		echo "The directory could not be created.";
+		return false;
+	}
+
+	// Create a RecursiveDirectoryIterator to iterate over directory contents
+	$it = new RecursiveDirectoryIterator($dir, FilesystemIterator::SKIP_DOTS);
+
+	// Create a RecursiveIteratorIterator to traverse the directory tree in a depth-first manner
+	$it = new RecursiveIteratorIterator($it, RecursiveIteratorIterator::CHILD_FIRST);
+
+	// Loop through each item in the directory tree
+	foreach($it as $file) {
+		if ($file->isDir()) {
+			// If the item is a directory, remove it
+			if (!rmdir($file->getPathname())) {
+				echo "Error removing the directory: " . $file->getPathname();
+				return false; // Error when removing the directory
+			}
+		} else {
+			// If the item is a file, delete it
+			if (!unlink($file->getPathname())) {
+				echo "Error deleting the file: " . $file->getPathname();
+				return false; // Error when deleting the file
+			}
+		}
+	}
+
+	// Remove the top-level directory
+	if (!rmdir($dir)) {
+		echo "Error when removing the directory: " . $dir;
+		return false; // Error when removing the directory
+	}
+
+	return true;
 }
