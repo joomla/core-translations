@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
-	<name/>
-	<version/>
-	<creationDate/>
-	<author>عبدالوحید</author>
+	<name>اردو (ur-PK)</name>
+	<version>5.1.3</version>
+	<creationDate>2024-07</creationDate>
+	<author>جوملا پروجیکٹ</author>
 	<authorEmail>info@abdulwaheed.pk</authorEmail>
 	<authorUrl>www.abdulwaheed.pk</authorUrl>
-	<copyright>حق اشاعت (ح) ۲۰۰۵ - ۲۰۱۸ آزاد مصدر اہمیت رکھتے ہیں۔ تمام جملہ ھقوق محفوظ ہیں.</copyright>
-	<license>License GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[ur-PK api language]]></description>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[ur-PK site language]]></description>
 	<metadata>
-		<name>English (United Kingdom)</name>
-		<nativeName>English (United Kingdom)</nativeName>
+		<name>اردو - پاکستان</name>
+		<nativeName>اردو - پاکستان</nativeName>
 		<tag>ur-PK</tag>
-		<rtl>0</rtl>
-		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, english, english-uk, uk, gbr, britain, england, great britain, uk, united kingdom, united-kingdom</locale>
+		<rtl>1</rtl>
+		<locale>ur_PK.utf8, ur_PK.UTF-8, ur_PK, ur, urdu, urdu-ur, ur, pakistan, rwp, rawalpindi, islamabad</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar>گریگورین</calendar>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
