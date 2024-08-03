@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>اردو (ur-PK) زبان کا مجموعہ</name>
+	<name>Urdu (ur-PK) Language Pack</name>
 	<packagename>ur-PK</packagename>
 	<version>5.1.2.1</version>
 	<creationDate>2024-08</creationDate>
@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Urdu Translation Team</packager>
 	<packagerurl>www.abdulwaheed.pk</packagerurl>
-	<description><![CDATA[ur-PK زبان کا مجموعہ]]></description>
+	<description><![CDATA[ur-PK Language Pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="ur-PK">language/ur-PK</folder>
