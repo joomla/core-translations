@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Urdu (ur-PK) Language Pack</name>
 	<packagename>ur-PK</packagename>
-	<version>5.1.2.1</version>
+	<version/>
 	<creationDate/>
 	<author>Urdu Translation Team</author>
 	<authorEmail>info@abdulwaheed.pk</authorEmail>
