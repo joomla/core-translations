@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Ukrainian (uk-UA) Language Pack</name>
 	<packagename>uk-UA</packagename>
-	<version>4.4.5.1</version>
-	<creationDate>2024-06-03</creationDate>
+	<version>4.4.7.1</version>
+	<creationDate>2024-08-22</creationDate>
 	<author>Denys Nosov</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
@@ -12,7 +12,7 @@
 	<url>https://joomla-ua.org</url>
 	<packager>Joomla! Ukraine</packager>
 	<packagerurl>https://joomla-ua.org</packagerurl>
-	<description><![CDATA[<h3>Український пакет локалізації Joomla! 4.4.5 (Ukrainian Language Pack)</h3><p>Українська спільнота Joomla!</p><ul><li><a href='https://joomla-ua.org' target='_blank'>Joomla! Україна</a></li><li><a href='https://community.joomla-ua.org' target='_blank'>Форум Joomla! Україна</a></li><li><a href='https://cutt.ly/ZBA8p32' target='_blank'>Чат в Telegram</a></li></ul>]]></description>
+	<description><![CDATA[<h3>Український пакет локалізації Joomla! 4.4.7 (Ukrainian Language Pack)</h3><p>Українська спільнота Joomla!</p><ul><li><a href='https://joomla-ua.org' target='_blank'>Joomla! Україна</a></li><li><a href='https://community.joomla-ua.org' target='_blank'>Форум Joomla! Україна</a></li><li><a href='https://cutt.ly/ZBA8p32' target='_blank'>Чат в Telegram</a></li></ul>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="administrator" id="uk-UA">administrator/language/uk-UA</folder>
