@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Urdu (ur-PK)</name>
 	<tag>ur-PK</tag>
-	<version>5.1.2.1</version>
+	<version/>
 	<creationDate/>
 	<author>Urdu Translation Team</author>
 	<authorEmail>info@abdulwaheed.pk</authorEmail>
