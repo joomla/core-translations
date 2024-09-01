@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Brazilian Portuguese (pt-BR) Language Pack</name>
 	<packagename>pt-BR</packagename>
-	<version/>
+	<version>5.1.4.1</version>
 	<creationDate>Agosto de 2024</creationDate>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
