@@ -422,6 +422,7 @@ class Pkg_deCHInstallerScript extends InstallerScript
 			'/administrator/language/de-CH/plg_twofactorauth_totp.sys.ini',
 			'/administrator/language/de-CH/plg_twofactorauth_yubikey.ini',
 			'/administrator/language/de-CH/plg_twofactorauth_yubikey.sys.ini',
+			'/language/de-CH/lib_simplepie.sys.ini',
 			// Old files from Joomla 5 language packs (Only relevant for Joomla 6, should then be included in the deletion array with the 6.0-dev branch once created)
 			// '/administrator/language/de-CH/plg_captcha_recaptcha_invisible.ini',
 			// '/administrator/language/de-CH/plg_captcha_recaptcha_invisible.sys.ini',
