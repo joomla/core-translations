@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Brazilian Portuguese (pt-BR)</name>
 	<tag>pt-BR</tag>
-	<version>4.4.8</version>
+	<version/>
 	<creationDate/>
 	<author>Projeto Joomla!</author>
 	<authorEmail>admin@joomla.org</authorEmail>
