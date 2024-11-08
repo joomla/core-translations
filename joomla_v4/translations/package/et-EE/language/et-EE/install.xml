@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Eesti (et-EE)</name>
 	<tag>et-EE</tag>
-	<version/>
+	<version>4.4.10</version>
 	<creationDate>2024-10</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>raudmaa@gmail.com</authorEmail>
