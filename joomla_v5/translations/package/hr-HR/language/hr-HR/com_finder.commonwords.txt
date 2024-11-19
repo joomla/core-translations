@@ -3,177 +3,177 @@
 ; Licenca GNU Opća javna licenca verzija 2 ili kasnija; pogledaj LICENSE.txt
 ; Napomena: Ovu datoteku treba spremiti kao UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
+ja
+mene
+moj
+sebi
+mi
+naš
+naše
+nas same
+ti
+tvoj
+tvoje
+sebe
+sebe
+on
+mu
+njegov
+on sam
+ona
+njoj
+njezina
+ona osobno
+ono
+njegov
+sebe
+oni
+njima
+njihov
+njihov
+se
+što
+koji
+tko
+kome
+ovo
+to
+ove
+one
 am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
+je
+su
+je bilo
+bili
+biti
+bio
+biti će
+imati
+ima
+imao
+imajući
+učiniti
+radi
+učinio
+radeći
+bi
+trebao bi
+mogao
+trebao bi
+ja sam
+ti si
+on je
+ona je
+ono je
+mi smo
+oni su
+ja sam
+ti si
+mi smo
+oni su
+ja bi
+ti bi
+on bi
+ona bi
+mi bismo
+oni bi
+ja ću
+ti ćeš
+on će
+ona će
+mi ćemo
+oni će
+nije
+nisu
+nije
+nisu
+nije
+nisam
+nisam
+ne
+nemoj
+nije
+neće
+ne bi
+neću
+ne bi trebalo
+ne mogu
+ne može
+nije mogao
+ne smije
+hajdemo
+to je
+tko je
+što je
+evo
+tamo je
+kada je
+gdje je
+zašto je
+kako je
+neki
+jedan
+taj
 i
-but
-if
+ali
+ako
 ili
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
+jer
+kao
+do
+dok
+od
+na
+po
+za
+s
+o
+protiv
+između
+u
+kroz
+tijekom
 prije
 nakon
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
+iznad
+ispod
+do
+od
+gore
+dolje
+u
+iz
+uključeno
+isključeno
+nad
+pod
+ponovno
+dalje
+zatim
+jednom
+ovdje
+tamo
+kada
+gdje
+zašto
+kako
+sve
+bilo koji
+oba
+svaki
+nekoliko
+više
+većinom
+ostalo
+neki
+takav
 ne
-only
-own
-same
-so
-than
-too
-very
+ni
+ne
+samo
+vlastiti
+isti
+tako
+od
+također
+vrlo
