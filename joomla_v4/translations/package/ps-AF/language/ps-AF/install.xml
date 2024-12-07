@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Pashto (ps-AF)</name>
 	<tag>ps-AF</tag>
-	<version/>
-	<creationDate/>
+	<version>4.4.10</version>
+	<creationDate>2024-10</creationDate>
 	<author>Abdel Malek Parhiz</author>
 	<authorEmail>malek.p@hotmail.com</authorEmail>
 	<authorUrl>www.sporghay.com</authorUrl>
