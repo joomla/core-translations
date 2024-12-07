@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="api">
 	<name>Pashto (ps-AF)</name>
-	<version/>
-	<creationDate/>
+	<version>4.4.10</version>
+	<creationDate>2024-10</creationDate>
 	<author>Abdel Malek Parhiz</author>
 	<authorEmail>malek.p@hotmail.com</authorEmail>
 	<authorUrl>www.sporghay.com</authorUrl>
-	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[ps-AF administrator language]]></description>
+	<description><![CDATA[ps-AF api language]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
+		<name>Pashto (Afghanistan)</name>
+		<nativeName>Pashto (Afghanistan)</nativeName>
 		<tag>ps-AF</tag>
-		<rtl/>
-		<locale/>
-		<firstDay/>
-		<weekEnd/>
-		<calendar/>
+		<rtl>0</rtl>
+		<locale>ps_AF.utf8, ps_AF.UTF-8, ps_Af, ps_AF, ps, pashto, pashto-af, af, afghanistan, afghanistan</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
