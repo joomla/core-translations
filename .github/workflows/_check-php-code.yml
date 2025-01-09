@@ -6,7 +6,6 @@ on:
       - main
   push:
     branches:
-      - l10n_crowdin_package_v4
       - l10n_crowdin_package_v5
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

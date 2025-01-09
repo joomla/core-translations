@@ -18,19 +18,11 @@ These two files can't be processed manually, because of the amount of work and r
 
 ### Blocked time windows
 * UTC 10:00-11:00 -> Project Build J5
-* UTC 11:00-12:00 -> Project Build J4
 * UTC 22:00-23:00 -> Project Build J5
-* UTC 23:00-00:00 -> Project Build J4
-* UTC 01:01-02:00 -> J4 Download Installer Translations Crowdin Action
-* UTC 02:01-03:00 -> J4 Download Package Translations Crowdin Action
-* UTC 06:12-07:12 -> Get J4 Core Source and Upload to Crowdin
 * UTC 03:30-04:30 -> J5 Download Installer Translations Crowdin Action
 * UTC 04:01-05:00 -> J5 Download Package Translations Crowdin Action
 * UTC 07:12-08:12 -> Get J5 Core Source and Upload to Crowdin
-* UTC 08:01-08:15 -> Get J4 Russian and upload Translations to Crowdin
 * UTC 08:16-08:30 -> Get J5 Ukrainian and upload Translations to Crowdin
-* UTC 08:31-08:45 -> Get J4 Japanese and upload Translations to Crowdin
-* UTC 08:46-09:00 -> Get J4 Ukrainian and upload Translations to Crowdin
 * UTC 09:01-09:15 -> Get J5 Russian and upload Translations to Crowdin
 * UTC 09:16-09:30 -> Get J5 Japanese and upload Translations to Crowdin
 
