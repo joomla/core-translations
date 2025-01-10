@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Latvian (lv-LV)</name>
 	<tag>lv-LV</tag>
-	<version>5.2.3</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Projekts</author>
 	<authorEmail>kristaps.kr@gmail.com</authorEmail>
