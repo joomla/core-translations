@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Srpski Latinica (sr-Latn-RS)</name>
 	<tag>sr-YU</tag>
-	<version>5.2.3</version>
-	<creationDate>2024-12</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Goran Nešić - UIX Web Design &amp; Saša Matić Bardak. Rs</author>
 	<authorEmail>info@uixwebdesign.com</authorEmail>
 	<authorUrl>uixwebdesign.com</authorUrl>
