@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Ελληνικά (el-GR) Πακέτο γλώσσας</name>
 	<packagename>el-GR</packagename>
-	<version>4.4.10.1</version>
-	<creationDate>11-2024</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Ομάδα Μετάφρασης: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
