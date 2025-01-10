@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Norwegian Bokmål (nb-NO)</name>
 	<tag>nb-NO</tag>
-	<version>5.2.3</version>
-	<creationDate>2024-12</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
