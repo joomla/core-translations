@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Pashto (ps-AF)</name>
 	<tag>ps-AF</tag>
-	<version/>
+	<version>5.2.4</version>
 	<creationDate/>
 	<author>Abdel Malek Parhiz</author>
 	<authorEmail>malek.p@hotmail.com</authorEmail>
