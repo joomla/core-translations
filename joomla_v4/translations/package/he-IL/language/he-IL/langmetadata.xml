@@ -17,7 +17,7 @@
 		<locale>he_IL.utf8, he_IL.UTF-8, he_IL, heb_IL, he, hebrew, hebrew-il, il, israel, heb</locale>
 		<firstDay>1</firstDay>
 		<weekEnd>6</weekEnd>
-		<calendar>גרגוריאני</calendar>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
