@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Pashto (ps-AF) Language Pack</name>
 	<packagename>ps-AF</packagename>
-	<version>5.2.4.1</version>
+	<version/>
 	<creationDate>2025-02</creationDate>
 	<author>Abdel Malek Parhiz</author>
 	<authorEmail>malek.p@hotmail.com</authorEmail>
