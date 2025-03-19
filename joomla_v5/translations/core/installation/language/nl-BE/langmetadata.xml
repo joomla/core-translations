@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="installation">
-	<name>Dutch (Belgium)</name>
+	<name>Nederlands (België)</name>
 	<version>5.2.6</version>
 	<creationDate>2025-03</creationDate>
 	<author>Dutch (BE) translation team</author>
@@ -10,8 +10,8 @@
 		<filename>joomla.ini</filename>
 	</files>
 	<metadata>
-		<name>Dutch (nl-BE)</name>
-		<nativeName>Dutch (Belgium)</nativeName>
+		<name>Vlaams (nl-BE)</name>
+		<nativeName>Nederlands (België)</nativeName>
 		<tag>nl-BE</tag>
 		<rtl>0</rtl>
 	</metadata>
