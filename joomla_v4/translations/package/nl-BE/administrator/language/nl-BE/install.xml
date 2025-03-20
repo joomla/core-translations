@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name>Dutch (nl-BE)</name>
+	<name>Vlaams (nl-BE)</name>
 	<tag>nl-BE</tag>
 	<version>4.4.12</version>
 	<creationDate>Maart 2025</creationDate>
