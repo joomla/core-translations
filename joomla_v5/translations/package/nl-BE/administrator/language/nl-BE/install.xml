@@ -2,14 +2,14 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Vlaams (nl-BE)</name>
 	<tag>nl-BE</tag>
-	<version>5.2.5</version>
+	<version>5.2.5.1</version>
 	<creationDate>Maart 2025</creationDate>
 	<author>Vlaams (BE) translation team</author>
 	<authorEmail>johan.brusche@gmail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>nl-BE administrator language</description>
+	<description>nl-BE administrator taal</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
