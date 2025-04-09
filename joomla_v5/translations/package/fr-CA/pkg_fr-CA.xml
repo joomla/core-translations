@@ -12,11 +12,9 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>French translation team : joomla.fr</packager>
 	<packagerurl>www.joomla.fr</packagerurl>
-	<description><![CDATA[<div style="text-align: left;">
-<h3>Joomla! 5 Full French canadian (fr-CA) Language Package</h3>
+	<description><![CDATA[<h3>Joomla! 5 Full French canadian (fr-CA) Language Package</h3>
 <h3>Pack de langue Joomla! 5 Français canadien (fr-CA) complet</h3>
-<p><a href="mailto:traduction@joomla.fr">traduction@joomla.fr</a></p>
-</div>]]></description>
+<p><a href="mailto:traduction@joomla.fr">traduction@joomla.fr</a></p>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="fr-CA">language/fr-CA</folder>
