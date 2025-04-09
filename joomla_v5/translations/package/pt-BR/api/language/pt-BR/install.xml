@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Brazilian Portuguese (pt-BR)</name>
 	<tag>pt-BR</tag>
-	<version/>
-	<creationDate/>
+	<version>5.2.6</version>
+	<creationDate>Abril 2025</creationDate>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
