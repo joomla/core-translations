@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Nederlands (nl-BE) taalpakket</name>
 	<packagename>nl-BE</packagename>
-	<version>4.4.12.1</version>
-	<creationDate>Maart 2025</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Dutch (BE) translation team</author>
 	<authorEmail>frank.joris@skynet.be</authorEmail>
 	<authorUrl>https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-flemish</authorUrl>
