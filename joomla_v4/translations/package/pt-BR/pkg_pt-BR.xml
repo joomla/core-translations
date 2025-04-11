@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Português Brasil (pt-BR) Pacote de idioma</name>
 	<packagename>pt-BR</packagename>
-	<version>4.4.13.1</version>
-	<creationDate>Abril 2025</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
