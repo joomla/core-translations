@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Brazilian Portuguese (pt-BR)</name>
 	<tag>pt-BR</tag>
-	<version>5.2.6</version>
+	<version/>
 	<creationDate>Abril 2025</creationDate>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
