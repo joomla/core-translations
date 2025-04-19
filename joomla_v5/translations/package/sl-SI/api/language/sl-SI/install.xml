@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Slovenščina (sl-SI)</name>
 	<tag>sl-SI</tag>
-	<version>5.3.0</version>
+	<version/>
 	<creationDate>2025-04</creationDate>
 	<author>Slovenska prevajalska ekipa</author>
 	<authorEmail>prevodi@joomla-cms.si</authorEmail>

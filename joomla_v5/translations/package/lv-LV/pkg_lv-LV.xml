@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Latvian (lv-LV) Languge Pack</name>
 	<packagename>lv-LV</packagename>
-	<version>5.3.0.1</version>
+	<version/>
 	<creationDate>2025-04</creationDate>
 	<author>Joomla! Projekts</author>
 	<authorEmail>kristaps.kr@gmail.com</authorEmail>
