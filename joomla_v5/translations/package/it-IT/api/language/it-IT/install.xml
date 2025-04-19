@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Italiano (it-IT)</name>
 	<tag>it-IT</tag>
-	<version>5.3.0.1</version>
+	<version/>
 	<creationDate>Aprile 2025</creationDate>
 	<author>Joomla! Project (Italian Translation Team)</author>
 	<authorEmail>admin@joomla.org</authorEmail>
