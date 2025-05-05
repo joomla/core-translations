@@ -160,6 +160,11 @@
     "CrowdinID": "fr-CA"
   },
   {
+    "LanguageName": "Reunion Creole French",
+    "JoomlaLocale": "fr-RE",
+    "CrowdinID": "rcf"
+  },
+  {
     "LanguageName": "Galician",
     "JoomlaLocale": "gl-ES",
     "CrowdinID": "gl"
