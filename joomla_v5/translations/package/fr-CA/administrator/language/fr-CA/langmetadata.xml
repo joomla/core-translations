@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
 	<name>French (fr-CA)</name>
-	<version>5.1.4</version>
-	<creationDate>2024-08</creationDate>
+	<version/>
+	<creationDate>2025-04-15</creationDate>
 	<author>Joomla! Project - French translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>
@@ -15,7 +15,7 @@
 		<tag>fr-CA</tag>
 		<rtl>0</rtl>
 		<locale>fr_CA.utf8, fr_CA.UTF-8, fr_CA, fr, français, french-fr, canada, francophone</locale>
-		<firstDay>0</firstDay>
+		<firstDay>1</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
 	</metadata>

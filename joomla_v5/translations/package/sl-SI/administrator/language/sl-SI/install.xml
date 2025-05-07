@@ -2,12 +2,12 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Slovenščina (sl-SI)</name>
 	<tag>sl-SI</tag>
-	<version>5.1.4</version>
-	<creationDate>2024-08</creationDate>
+	<version/>
+	<creationDate>2025-04</creationDate>
 	<author>Slovenska prevajalska ekipa</author>
 	<authorEmail>prevodi@joomla-cms.si</authorEmail>
 	<authorUrl>www.joomla-cms.si</authorUrl>
-	<copyright>(C) 2024 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2025 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License 2 ali novejši; glej LICENSE.txt</license>
 	<description>sl-SI jezik skrbništva</description>
 	<files>

@@ -16,7 +16,7 @@ jobs:
     # Runs the HTTP Request action command - https://github.com/fjogeleit/http-request-action
     - name: Call build URL
       id: BuildV4CMS
-      uses: fjogeleit/http-request-action@v1.16.1
+      uses: fjogeleit/http-request-action@v1.16.4
       with:
         url: 'https://joomla.crowdin.com/api/v2/projects/${{ secrets.CROWDIN_PROJECT_ID }}/translations/builds'
         method: 'POST'

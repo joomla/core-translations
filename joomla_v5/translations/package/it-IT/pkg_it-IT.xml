@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Italian (it-IT) Language Pack</name>
 	<packagename>it-IT</packagename>
-	<version>5.1.4.1</version>
-	<creationDate>2024-08</creationDate>
+	<version/>
+	<creationDate>Aprile 2025</creationDate>
 	<author>Joomla! Project (Italian Translation Team)</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -13,16 +13,11 @@
 	<packager>Joomla! Project (Italian Translation Team)</packager>
 	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[<div style="text-align: center;">
-<h3>Joomla! 5.1 Full Italian (it-IT) Language Package - Version 5.1.2.1</h3>
-<h3>Pacchetto completo della lingua italiana di Joomla! 5.1 (it-IT) - Versione 5.1.2.1</h3>
+<h3>Joomla! 5.3 Full Italian (it-IT) Language Package - Version 5.3.0</h3>
+<h3>Pacchetto completo della lingua italiana di Joomla! 5.3 (it-IT) - Versione 5.3.0</h3>
 </div>
 <div class="alert alert-warning alert-wrapper">
- <h4 class="alert-heading">Comunicazione importante</h4>
- <div class="alert-message">
- <p>Il tool utilizzato per gestire i file di lingua (<a href="https://joomla. crowdin. com/u/projects/18/l/it" target="_blank" rel="noopener noreferrer">CROWDIN</a>), a seguito di un’anomalia, ha introdotto diversi errori nelle traduzioni fatte dal team di volontari negli ultimi anni. Il rilascio del pacchetto di lingua Italiana rischiava quindi di essere corrotto e pertanto è stato saltato il suo rilascio per 1 mese durante il quale si è lavorato per correggere tutto.</p>
- <p>A grande richiesta pubblichiamo il pacchetto quasi totalmente corretto.</p>
- <p>Il team di traduzione sta continuando ad adoperarsi per sistemare questa problematica e fornirvi una traduzione sempre più precisa.</p>
- </div>
+
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>

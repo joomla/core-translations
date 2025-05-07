@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Italiano (it-IT)</name>
 	<tag>it-IT</tag>
-	<version>5.1.4.1</version>
-	<creationDate>2024-08</creationDate>
+	<version/>
+	<creationDate>Aprile 2025</creationDate>
 	<author>Joomla! Project (Italian Translation Team)</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>

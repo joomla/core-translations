@@ -3,7 +3,7 @@
 	<name>Welsh (cy-GB) Language Pack</name>
 	<packagename>cy-GB</packagename>
 	<version/>
-	<creationDate>2024-08</creationDate>
+	<creationDate>2025-04</creationDate>
 	<author>Joomla! Project - Welsh Translation Team</author>
 	<authorEmail>cyfieithu@joomla.cymru</authorEmail>
 	<authorUrl>www.joomla.cymru</authorUrl>
@@ -13,8 +13,8 @@
 	<packager>Joomla! Project - Welsh Translation Team</packager>
 	<packagerurl>www.joomla.cymru</packagerurl>
 	<description><![CDATA[<div style="text-align: left;">
-<h3>Pecyn Iaith Llawn Cymraeg (cy-GB) Joomla! 5 - Fersiwn 5.1.2v1</h3>
-<h3>Joomla! 5 Full Welsh (cy-GB) Language Package - Version 5.1.2v1</h3>
+<h3>Pecyn Iaith Llawn Cymraeg (cy-GB) Joomla! 5 - Fersiwn 5.3.0v1</h3>
+<h3>Joomla! 5 Full Welsh (cy-GB) Language Package - Version 5.3.0v1</h3>
 <p><a href="https:/www.joomla.cymru" target="_blank">www.joomla.cymru</a> - <a href="mailto:cyfieithu@joomla.cymru">cyfieithu@joomla.cymru</a></p>
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>

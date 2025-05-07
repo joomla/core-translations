@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>French (fr-FR) Language pack</name>
 	<packagename>fr-FR</packagename>
-	<version>5.1.4.1</version>
-	<creationDate>2024-08</creationDate>
+	<version/>
+	<creationDate>2025-04-15</creationDate>
 	<author>Joomla! Project - French translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>

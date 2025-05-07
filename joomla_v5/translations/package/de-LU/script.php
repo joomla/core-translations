@@ -2,7 +2,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2023 J!German <https://www.jgerman.de>
+ * @copyright  (C) 2021 - 2025 J!German <https://www.jgerman.de>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -422,6 +422,7 @@ class Pkg_deLUInstallerScript extends InstallerScript
 			'/administrator/language/de-LU/plg_twofactorauth_totp.sys.ini',
 			'/administrator/language/de-LU/plg_twofactorauth_yubikey.ini',
 			'/administrator/language/de-LU/plg_twofactorauth_yubikey.sys.ini',
+			'/language/de-LU/lib_simplepie.sys.ini',
 			// Old files from Joomla 5 language packs (Only relevant for Joomla 6, should then be included in the deletion array with the 6.0-dev branch once created)
 			// '/administrator/language/de-LU/plg_captcha_recaptcha_invisible.ini',
 			// '/administrator/language/de-LU/plg_captcha_recaptcha_invisible.sys.ini',
