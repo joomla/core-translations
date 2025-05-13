@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Vlaams (nl-BE)</name>
 	<tag>nl-BE</tag>
-	<version/>
+	<version>4.4.14</version>
 	<creationDate/>
 	<author>Vlaams (BE) translation team</author>
 	<authorEmail>frank.joris@skynet.be</authorEmail>
