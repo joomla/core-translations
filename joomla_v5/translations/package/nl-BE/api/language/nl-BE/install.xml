@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name>Dutch (nl-BE)</name>
+	<name>Vlaams (BE) translation team</name>
 	<tag>nl-BE</tag>
-	<version>5.1.2</version>
-	<creationDate/>
-	<author>Dutch (BE) translation team</author>
-	<authorEmail>frank.joris@skynet.be</authorEmail>
-	<authorUrl>https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-flemish</authorUrl>
+	<version/>
+	<creationDate>April 2025</creationDate>
+	<author>Vlaams (BE) translation team</author>
+	<authorEmail>johan.brusche@gmail.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>nl-BE api language</description>

@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Basque (eu-ES)</name>
 	<tag>eu-ES</tag>
-	<version>4.4.7</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Basque Translation Team</author>
 	<authorEmail>info@acvmultimedia.com</authorEmail>

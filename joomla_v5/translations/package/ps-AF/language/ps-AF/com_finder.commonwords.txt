@@ -1,179 +1,179 @@
-; Joomla! Project
-; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; جوملا! پروژه
+; (C) 2019 Open Source Matters, Inc. <https://www.sporghay.com>
 ; جواز GNU عمومي عامه جواز نسخه ۲ یا وروسته؛ LICENSE.txt وګورئ
 ; یادونه: دا فایل باید د UTF-۸ په توګه خوندي شي
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
+زه
+زه، ما
+زما
+زه پخپله
+موږ
+زموږ
+زموږ مالکیت
+موږ پخپله
+تاسې
+ستاسې
+ستاسې خپل
+تاسې پخپله
+ستاسې خپل (ملکیت)
+هغه سړی
+هغه
+د هغه
+پخپله
+هغه ښځه
+د هغې
+د هغې (ملکیت)
+هغه پخپله
+دا
+ددې
+دا خپله
+دوی
+هغوی
+د هغوی
+د هغوی خپل
+هغوی پخپله
+څه
+کوم
+څوک
+د چا
+دا
+هغه
+دا
+هغه
+یم
+دی
+دي
+ؤ، وه
+ول
+وي
+ول
+کېدل
+لري
+لري
+لرل
+درلودل
+کول
+کوي
+کړي ول
+کوي
+وبه شي
+باید
+کولی شي
+هرومرو
+زه یم
+تاسې یاست
+هغه دی
+هغه ده
+دا دی
+موږ یو
+دوی دي
+زه لرم
+ته لرې
+موږ لرو
+دوی لري
+زه غواړم
+ته غواړې
+هغه غواړي
+هغه ښځه غواړي
+موږ غواړو
+دوی غواړي
+زه به
+ته، تاسې به
+هغه به
+هغه ښځه به
+موږ به
+دوی به
+نه دی
+نه دي
+نه ؤ
+نه ول
+نه لري
+نه لري
+نه درلود
+نه
+مه
+نه
+نه به
+نه غواړي
+نباید
+باید نه
+نه شي کولی
+نه شي کولی
+نه شو کولی
+باید نه
+اجازه ورکړئ
+د هغې
+څوک دی
+څه شی دی
+دلته دی
+شته
+کله
+چیرته دی
+ولې
+څنګه دی
+یو
+یو
+د
 او
-but
-if
+خو
+که
 یا
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
+ځکه
+لکه
+تر څو
+په داسې حال کې
+له
+په
+له خوا
+له پاره
+سره
+باره کې
+خلاف
+په مینځ کې
+دننه
+له لارې
+په مهال
 دمخه
 وروسته
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
+پورته
+لاندې
+ته
+له خوا د
+پورته
+لاندې
+په
+بهر
+روښان
+آف
+دپاسه
+لاندې
 بیا
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
+نور
+بیا
+یو ځل
+دلته
+هلته
+کله
+چیرته
+ولې
+څنګه
+ټول
+هر یو
+دواړه
+هر
+لږ
+زیات
+زیات
+نور
+ځینې
+داسې
 نه
-only
-own
-same
-so
-than
-too
-very
+نه
+نه
+فقط
+خپل
+ورته
+نو
+په پرتله
+هم
+زیات، ډېر

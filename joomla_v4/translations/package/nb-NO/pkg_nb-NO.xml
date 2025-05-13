@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project</packager>
 	<packagerurl>www.joomla.org</packagerurl>
-	<description><![CDATA[Norsk bokmål (nb-NO) språkpakke]]></description>
+	<description><![CDATA[Norsk bokmål (nb-NO) språkpakke (Ufullstendig beta)]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="nb-NO">language/nb-NO</folder>

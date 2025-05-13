@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Dutch (nl-BE)</name>
 	<tag>nl-BE</tag>
-	<version>4.4.6.1</version>
+	<version/>
 	<creationDate/>
 	<author>Dutch (BE) translation team</author>
 	<authorEmail>frank.joris@skynet.be</authorEmail>

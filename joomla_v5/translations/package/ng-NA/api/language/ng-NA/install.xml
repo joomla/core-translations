@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name/>
-	<tag/>
+	<name>Ndonga (ng-NA)</name>
+	<tag>nd-NA</tag>
 	<version/>
 	<creationDate/>
 	<author>Oproyeka ya Joomla</author>

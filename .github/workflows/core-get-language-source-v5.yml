@@ -23,7 +23,7 @@ jobs:
         run: |
           cd ..
           ls -l
-          wget -nv "https://github.com/joomla/joomla-cms/archive/refs/heads/5.1-dev.zip" -O joomla.zip
+          wget -nv "https://github.com/joomla/joomla-cms/archive/refs/heads/5.3-dev.zip" -O joomla.zip
           unzip joomla.zip
           mv joomla-cms-*-dev joomla-cms
 
@@ -82,7 +82,7 @@ jobs:
 
       # Runs the Crowdin action command - https://github.com/crowdin/github-action
       - name: crowdin action package files
-        uses: crowdin/github-action@v1.20.4
+        uses: crowdin/github-action@v2.7.0
         with:
           # Upload sources to Crowdin
           upload_sources: true
@@ -94,7 +94,7 @@ jobs:
           dryrun_action: false
 
       - name: crowdin action installer files
-        uses: crowdin/github-action@v1.20.4
+        uses: crowdin/github-action@v2.7.0
         with:
           # Upload sources to Crowdin
           upload_sources: true

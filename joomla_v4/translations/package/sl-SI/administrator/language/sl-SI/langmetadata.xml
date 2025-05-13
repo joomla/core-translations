@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
 	<name>Slovenščina (sl-SI)</name>
-	<version/>
-	<creationDate/>
+	<version>4.4.14</version>
+	<creationDate>2025-04</creationDate>
 	<author>Slovenska prevajalska ekipa</author>
 	<authorEmail>prevodi@joomla-cms.si</authorEmail>
 	<authorUrl>www.joomla-cms.si</authorUrl>
-	<copyright>(C) 2024 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2025 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License 2 ali novejši; glej LICENSE.txt</license>
 	<description><![CDATA[sl-SI jezik skrbništva]]></description>
 	<metadata>

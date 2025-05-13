@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
-	<name>Dutch (nl-BE)</name>
-	<version>5.1.2</version>
-	<creationDate/>
-	<author>Dutch (BE) translation team</author>
+	<name>Vlaams (nl-BE)</name>
+	<version/>
+	<creationDate>2025-04-15</creationDate>
+	<author>Vlaams (BE) translation team</author>
 	<authorEmail>frank.joris@skynet.be</authorEmail>
-	<authorUrl>https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-flemish</authorUrl>
-	<copyright>Copyright (C) 2005 - 2021 Dutch Translation Team en Open Source Matters. All rights reserved.</copyright>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2025 Dutch Translation Team en Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[nl-BE site language]]></description>
 	<metadata>
-		<name>Dutch (Belgium)</name>
-		<nativeName>Dutch (Belgium)</nativeName>
+		<name>Vlaams (Belgium)</name>
+		<nativeName>Vlaams (Belgium)</nativeName>
 		<tag>nl-BE</tag>
 		<rtl>0</rtl>
 		<locale>nl_BE.utf8, nl_BE.UTF-8, nl_BE.UTF-8@euro, nl_BE, be, vlaams</locale>

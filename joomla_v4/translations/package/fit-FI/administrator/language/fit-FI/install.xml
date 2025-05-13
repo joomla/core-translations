@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Meänkieli (fit)</name>
 	<tag>fit</tag>
-	<version/>
-	<creationDate/>
+	<version>4.4.13</version>
+	<creationDate>2025-04</creationDate>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
