@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>Polish (PL)</name>
-	<version>5.1.2.1</version>
-	<creationDate>19.08.2024</creationDate>
+	<version>5.2.4.1</version>
+	<creationDate>13.05.2025</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>artur.stepien@bestproject.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
-	<copyright>Copyright (C) 2005 - 2024 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2025 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License wersja 2 lub późniejsza, zobacz LICENSE.txt</license>
 	<description><![CDATA[pl-PL Język polski witryny Joomla4]]></description>
 	<metadata>
