@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Arabic Unitag (العربية الموحدة)</name>
 	<tag>ar-AA</tag>
-	<version/>
-	<creationDate/>
+	<version>5.3.1</version>
+	<creationDate>2025-05</creationDate>
 	<author>Dr. Ashraf Damra</author>
 	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
 	<authorUrl>www.dr-ashraf.com</authorUrl>
