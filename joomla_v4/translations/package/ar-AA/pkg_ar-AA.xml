@@ -4,14 +4,14 @@
 	<packagename>ar-AA</packagename>
 	<version>4.4.14.1</version>
 	<creationDate>2025-04</creationDate>
-	<author>Dr. Ashraf Damra</author>
-	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
-	<authorUrl>www.dr-ashraf.com</authorUrl>
+	<author>Joomla! Project (Arabic Translation Team)</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>Copyright (C) 2019 - 2021 Open Source Matters.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Dr. Ashraf Damra</packager>
-	<packagerurl>www.dr-ashraf.com</packagerurl>
+	<packager>Joomla! Project (Arabic Translation Team)</packager>
+	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[
         <div class="alert alert-info">
 <h4 class="alert-heading" style="direction: rtl;">اللغة العربية</h4>
