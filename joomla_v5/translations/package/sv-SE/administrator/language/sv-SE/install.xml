@@ -2,12 +2,12 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Swedish (sv-SE)</name>
 	<tag>sv-SE</tag>
-	<version>5.3.1</version>
+	<version>5.3.2</version>
 	<creationDate>2025-05</creationDate>
 	<author>Swedish Translation Team - Svensk Joomla</author>
 	<authorEmail>info@svenskjoomla.se</authorEmail>
 	<authorUrl>https://www.svenskjoomla.se</authorUrl>
-	<copyright>Copyright (C) 2005 - 2024 Open Source Matters, Inc. Alla rättigheter förbehållna.</copyright>
+	<copyright>Copyright (C) 2005 - 2025 Open Source Matters, Inc. Alla rättigheter förbehållna.</copyright>
 	<license>GNU General Public Licens version 2 eller senare; Se LICENSE.txt</license>
 	<description>sv-SE administratörsspråk</description>
 	<files>
