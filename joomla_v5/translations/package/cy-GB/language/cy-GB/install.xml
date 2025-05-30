@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Welsh (cy-GB)</name>
 	<tag>cy-GB</tag>
-	<version>5.3.1.1</version>
+	<version/>
 	<creationDate>2025-05</creationDate>
 	<author>Joomla! Project - Welsh Translation Team</author>
 	<authorEmail>cyfieithu@joomla.cymru</authorEmail>
