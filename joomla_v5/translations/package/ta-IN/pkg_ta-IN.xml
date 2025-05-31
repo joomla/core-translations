@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Tamil (ta-IN) Language Pack</name>
 	<packagename>ta-IN</packagename>
-	<version/>
+	<version>5.3.2.1</version>
 	<creationDate>2025-05-27</creationDate>
 	<author>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</author>
 	<authorEmail>mig.joomla@gmail.com</authorEmail>
@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</packager>
 	<packagerurl> </packagerurl>
-	<description><![CDATA[தமிழ்-இந்தியா / Tamil-INDIA (ta-IN) Language Package for Joomla! 5.3.1 - v1]]></description>
+	<description><![CDATA[தமிழ்-இந்தியா / Tamil-INDIA (ta-IN) Language Package for Joomla! 5.3.2 - v1]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="ta-IN">language/ta-IN</folder>
