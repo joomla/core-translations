@@ -24,7 +24,7 @@ jobs:
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Download Afrikaans
-      uses: crowdin/github-action@v2.7.0
+      uses: crowdin/github-action@v2.7.1
       with:
         # Option to specify a path to the configuration file, without / at the beginning
         config: 'Configurations/Crowdin-J4-All.yml'
