@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Tamil (India)</name>
 	<tag>ta-IN</tag>
-	<version>5.3.2.1</version>
+	<version>5.3.3.1</version>
 	<creationDate>2025-07-08</creationDate>
 	<author>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</author>
 	<authorEmail>mig.joomla@gmail.com</authorEmail>

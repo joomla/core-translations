@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Српска ћирилица (sr-RS)</name>
 	<tag>sr-RS</tag>
-	<version>5.3.2</version>
+	<version/>
 	<creationDate/>
 	<author>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</author>
 	<authorEmail>prevod@bardak.rs</authorEmail>
