@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Vlaams (nl-BE)</name>
 	<tag>nl-BE</tag>
-	<version/>
-	<creationDate/>
+	<version>5.3.3</version>
+	<creationDate>2025-07</creationDate>
 	<author>Vlaams (BE) translation team</author>
 	<authorEmail>johan.brusche@gmail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
