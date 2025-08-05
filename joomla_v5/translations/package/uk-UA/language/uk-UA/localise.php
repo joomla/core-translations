@@ -2,7 +2,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  Copyright (C) 2005 - 2023 Open Source Matters, Inc. All rights reserved.
+ * @copyright  Copyright (C) 2005 - 2024 Open Source Matters, Inc. All rights reserved.
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -13,8 +13,8 @@ defined('_JEXEC') or die;
 /**
  * Uk_UA localise class
  *
- * @package        Joomla.Site
  * @since          1.6
+ * @package        Joomla.Site
  */
 abstract class Uk_UALocalise
 {
@@ -26,7 +26,7 @@ abstract class Uk_UALocalise
 	 * @return    array  An array of potential suffixes.
 	 * @since    1.6
 	 */
-	public static function getPluralSuffixes($count)
+	public static function getPluralSuffixes($count): array
 	{
 		if($count == 0)
 		{
@@ -43,479 +43,332 @@ abstract class Uk_UALocalise
 	 */
 	public static function transliterate($string)
 	{
-		switch(self::simple_detect_language($string))
-		{
-			case 'ru':
-				$str         = StringHelper::strtolower($string);
-				$glyph_array = [
-					'a'       => 'а',
-					'b'       => 'б',
-					'v'       => 'в',
-					'g'       => 'г,ґ',
-					'd'       => 'д',
-					'e'       => 'е,є,э',
-					'jo'      => 'ё',
-					'zh'      => 'ж',
-					'z'       => 'з',
-					'i'       => 'и,і',
-					'ji'      => 'ї',
-					'j'       => 'й',
-					'k'       => 'к',
-					'l'       => 'л',
-					'm'       => 'м',
-					'n'       => 'н',
-					'o'       => 'о',
-					'p'       => 'п',
-					'r'       => 'р',
-					's'       => 'с',
-					't'       => 'т',
-					'u'       => 'у',
-					'f'       => 'ф',
-					'kh'      => 'х',
-					'ts'      => 'ц',
-					'ch'      => 'ч',
-					'sh'      => 'ш',
-					'shch'    => 'щ',
-					''        => 'ъ,ь,—',
-					'y'       => 'ы',
-					'yu'      => 'ю',
-					'ya'      => 'я',
-					'uah'     => '₴',
-					'eur'     => '€',
-					'usd'     => '$',
-					'protsen' => '%',
-				];
+		$trans = [
+			'а' => 'a',
+			'б' => 'b',
+			'в' => 'v',
+			'г' => 'h',
+			'ґ' => 'g',
+			'д' => 'd',
+			'е' => 'e',
+			'є' => 'ie',
+			'ж' => 'zh',
+			'з' => 'z',
+			'и' => 'y',
+			'і' => 'i',
+			'ї' => 'i',
+			'й' => 'i',
+			'к' => 'k',
+			'л' => 'l',
+			'м' => 'm',
+			'н' => 'n',
+			'о' => 'o',
+			'п' => 'p',
+			'р' => 'r',
+			'с' => 's',
+			'т' => 't',
+			'у' => 'u',
+			'ф' => 'f',
+			'х' => 'kh',
+			'ц' => 'ts',
+			'ч' => 'ch',
+			'ш' => 'sh',
+			'щ' => 'shch',
+			'ю' => 'iu',
+			'я' => 'ia',
 
-				foreach($glyph_array as $letter => $glyphs)
-				{
-					$glyphs = explode(',', $glyphs);
-					$str    = str_replace($glyphs, $letter, $str);
-				}
+			'ь'  => '',
+			'Ь'  => '',
+			'ъ'  => '',
+			'Ъ'  => '',
+			'!'  => '',
+			'?'  => '',
+			':'  => '',
+			';'  => '',
+			'’'  => '',
+			"'"  => '',
+			'—'  => '',
+			'--' => '',
+			'-'  => '',
+			'.'  => '',
 
-				return preg_replace('#&\#?[a-z0-9]+;#ismu', '', $str);
+			'@' => '',
+			'#' => '',
+			'^' => '',
+			'*' => '',
+			'(' => '',
+			')' => '',
+			'_' => '',
+			'=' => '',
+			'+' => '',
 
-				break;
+			'₴' => 'uah',
+			'€' => 'eur',
+			'$' => 'usd',
+			'%' => 'protsent',
 
-			default:
-			case 'ua':
-				$trans = [
-					'а' => 'a',
-					'б' => 'b',
-					'в' => 'v',
-					'г' => 'h',
-					'ґ' => 'g',
-					'д' => 'd',
-					'е' => 'e',
-					'ё' => 'e',
-					'э' => 'e',
-					'є' => 'ie',
-					'ж' => 'zh',
-					'з' => 'z',
-					'и' => 'y',
-					'ы' => 'y',
-					'і' => 'i',
-					'ї' => 'i',
-					'й' => 'i',
-					'к' => 'k',
-					'л' => 'l',
-					'м' => 'm',
-					'н' => 'n',
-					'о' => 'o',
-					'п' => 'p',
-					'р' => 'r',
-					'с' => 's',
-					'т' => 't',
-					'у' => 'u',
-					'ф' => 'f',
-					'х' => 'kh',
-					'ц' => 'ts',
-					'ч' => 'ch',
-					'ш' => 'sh',
-					'щ' => 'shch',
-					'ю' => 'iu',
-					'я' => 'ia',
+			'à' => 'a',
+			'ô' => 'o',
+			'ď' => 'd',
+			'ḟ' => 'f',
+			'ë' => 'e',
+			'š' => 's',
+			'ơ' => 'o',
+			'ß' => 'ss',
+			'ă' => 'a',
+			'ř' => 'r',
+			'ț' => 't',
+			'ň' => 'n',
+			'ā' => 'a',
+			'ķ' => 'k',
+			'ŝ' => 's',
+			'ỳ' => 'y',
+			'ņ' => 'n',
+			'ĺ' => 'l',
+			'ħ' => 'h',
+			'ṗ' => 'p',
+			'ó' => 'o',
+			'ú' => 'u',
+			'ě' => 'e',
+			'é' => 'e',
+			'ç' => 'c',
+			'ẁ' => 'w',
+			'ċ' => 'c',
+			'õ' => 'o',
+			'ṡ' => 's',
+			'ø' => 'o',
+			'ģ' => 'g',
+			'ŧ' => 't',
+			'ș' => 's',
+			'ė' => 'e',
+			'ĉ' => 'c',
+			'ś' => 's',
+			'î' => 'i',
+			'ű' => 'u',
+			'ć' => 'c',
+			'ę' => 'e',
+			'ŵ' => 'w',
+			'ṫ' => 't',
+			'ū' => 'u',
+			'č' => 'c',
+			'ö' => 'oe',
+			'è' => 'e',
+			'ŷ' => 'y',
+			'ą' => 'a',
+			'ł' => 'l',
+			'ų' => 'u',
+			'ů' => 'u',
+			'ş' => 's',
+			'ğ' => 'g',
+			'ļ' => 'l',
+			'ƒ' => 'f',
+			'ž' => 'z',
+			'ẃ' => 'w',
+			'ḃ' => 'b',
+			'å' => 'a',
+			'ì' => 'i',
+			'ï' => 'i',
+			'ḋ' => 'd',
+			'ť' => 't',
+			'ŗ' => 'r',
+			'ä' => 'ae',
+			'í' => 'i',
+			'ŕ' => 'r',
+			'ê' => 'e',
+			'ü' => 'ue',
+			'ò' => 'o',
+			'ē' => 'e',
+			'ñ' => 'n',
+			'ń' => 'n',
+			'ĥ' => 'h',
+			'ĝ' => 'g',
+			'đ' => 'd',
+			'ĵ' => 'j',
+			'ÿ' => 'y',
+			'ũ' => 'u',
+			'ŭ' => 'u',
+			'ư' => 'u',
+			'ţ' => 't',
+			'ý' => 'y',
+			'ő' => 'o',
+			'â' => 'a',
+			'ľ' => 'l',
+			'ẅ' => 'w',
+			'ż' => 'z',
+			'ī' => 'i',
+			'ã' => 'a',
+			'ġ' => 'g',
+			'ṁ' => 'm',
+			'ō' => 'o',
+			'ĩ' => 'i',
+			'ù' => 'u',
+			'į' => 'i',
+			'ź' => 'z',
+			'á' => 'a',
+			'û' => 'u',
+			'þ' => 'th',
+			'ð' => 'dh',
+			'æ' => 'ae',
+			'µ' => 'u',
+			'ĕ' => 'e',
+			'œ' => 'oe',
 
-					'ь'  => '',
-					'Ь'  => '',
-					'ъ'  => '',
-					'Ъ'  => '',
-					'!'  => '',
-					'?'  => '',
-					':'  => '',
-					';'  => '',
-					'’'  => '',
-					"'"  => '',
-					'—'  => '',
-					'--' => '',
-					'-'  => '',
-					'.'  => '',
+			'А' => 'A',
+			'Б' => 'B',
+			'В' => 'V',
+			'Г' => 'H',
+			'Ґ' => 'G',
+			'Д' => 'D',
+			'Е' => 'E',
+			'Є' => 'Ye',
+			'Ж' => 'Zh',
+			'З' => 'Z',
+			'И' => 'Y',
+			'Й' => 'Y',
+			'І' => 'I',
+			'Ї' => 'Yi',
+			'К' => 'K',
+			'Л' => 'L',
+			'М' => 'M',
+			'Н' => 'N',
+			'О' => 'O',
+			'П' => 'P',
+			'Р' => 'R',
+			'С' => 'S',
+			'Т' => 'T',
+			'У' => 'U',
+			'Ф' => 'F',
+			'Х' => 'Kh',
+			'Ц' => 'Ts',
+			'Ч' => 'Ch',
+			'Ш' => 'Sh',
+			'Щ' => 'Shch',
+			'Ю' => 'Yu',
+			'Я' => 'Ya',
 
-					'@' => '',
-					'#' => '',
-					'^' => '',
-					'*' => '',
-					'(' => '',
-					')' => '',
-					'_' => '',
-					'=' => '',
-					'+' => '',
-
-					'₴' => 'uah',
-					'€' => 'eur',
-					'$' => 'usd',
-					'%' => 'protsent',
-
-					'à' => 'a',
-					'ô' => 'o',
-					'ď' => 'd',
-					'ḟ' => 'f',
-					'ë' => 'e',
-					'š' => 's',
-					'ơ' => 'o',
-					'ß' => 'ss',
-					'ă' => 'a',
-					'ř' => 'r',
-					'ț' => 't',
-					'ň' => 'n',
-					'ā' => 'a',
-					'ķ' => 'k',
-					'ŝ' => 's',
-					'ỳ' => 'y',
-					'ņ' => 'n',
-					'ĺ' => 'l',
-					'ħ' => 'h',
-					'ṗ' => 'p',
-					'ó' => 'o',
-					'ú' => 'u',
-					'ě' => 'e',
-					'é' => 'e',
-					'ç' => 'c',
-					'ẁ' => 'w',
-					'ċ' => 'c',
-					'õ' => 'o',
-					'ṡ' => 's',
-					'ø' => 'o',
-					'ģ' => 'g',
-					'ŧ' => 't',
-					'ș' => 's',
-					'ė' => 'e',
-					'ĉ' => 'c',
-					'ś' => 's',
-					'î' => 'i',
-					'ű' => 'u',
-					'ć' => 'c',
-					'ę' => 'e',
-					'ŵ' => 'w',
-					'ṫ' => 't',
-					'ū' => 'u',
-					'č' => 'c',
-					'ö' => 'oe',
-					'è' => 'e',
-					'ŷ' => 'y',
-					'ą' => 'a',
-					'ł' => 'l',
-					'ų' => 'u',
-					'ů' => 'u',
-					'ş' => 's',
-					'ğ' => 'g',
-					'ļ' => 'l',
-					'ƒ' => 'f',
-					'ž' => 'z',
-					'ẃ' => 'w',
-					'ḃ' => 'b',
-					'å' => 'a',
-					'ì' => 'i',
-					'ï' => 'i',
-					'ḋ' => 'd',
-					'ť' => 't',
-					'ŗ' => 'r',
-					'ä' => 'ae',
-					'í' => 'i',
-					'ŕ' => 'r',
-					'ê' => 'e',
-					'ü' => 'ue',
-					'ò' => 'o',
-					'ē' => 'e',
-					'ñ' => 'n',
-					'ń' => 'n',
-					'ĥ' => 'h',
-					'ĝ' => 'g',
-					'đ' => 'd',
-					'ĵ' => 'j',
-					'ÿ' => 'y',
-					'ũ' => 'u',
-					'ŭ' => 'u',
-					'ư' => 'u',
-					'ţ' => 't',
-					'ý' => 'y',
-					'ő' => 'o',
-					'â' => 'a',
-					'ľ' => 'l',
-					'ẅ' => 'w',
-					'ż' => 'z',
-					'ī' => 'i',
-					'ã' => 'a',
-					'ġ' => 'g',
-					'ṁ' => 'm',
-					'ō' => 'o',
-					'ĩ' => 'i',
-					'ù' => 'u',
-					'į' => 'i',
-					'ź' => 'z',
-					'á' => 'a',
-					'û' => 'u',
-					'þ' => 'th',
-					'ð' => 'dh',
-					'æ' => 'ae',
-					'µ' => 'u',
-					'ĕ' => 'e',
-					'œ' => 'oe',
-
-					'А' => 'A',
-					'Б' => 'B',
-					'В' => 'V',
-					'Г' => 'H',
-					'Ґ' => 'G',
-					'Д' => 'D',
-					'Е' => 'E',
-					'Ё' => 'E',
-					'Э' => 'E',
-					'Є' => 'Ye',
-					'Ж' => 'Zh',
-					'З' => 'Z',
-					'И' => 'Y',
-					'Й' => 'Y',
-					'Ы' => 'Y',
-					'І' => 'I',
-					'Ї' => 'Yi',
-					'К' => 'K',
-					'Л' => 'L',
-					'М' => 'M',
-					'Н' => 'N',
-					'О' => 'O',
-					'П' => 'P',
-					'Р' => 'R',
-					'С' => 'S',
-					'Т' => 'T',
-					'У' => 'U',
-					'Ф' => 'F',
-					'Х' => 'Kh',
-					'Ц' => 'Ts',
-					'Ч' => 'Ch',
-					'Ш' => 'Sh',
-					'Щ' => 'Shch',
-					'Ю' => 'Yu',
-					'Я' => 'Ya',
-
-					'À' => 'A',
-					'Ô' => 'O',
-					'Ď' => 'D',
-					'Ḟ' => 'F',
-					'Ë' => 'E',
-					'Š' => 'S',
-					'Ơ' => 'O',
-					'Ă' => 'A',
-					'Ř' => 'R',
-					'Ț' => 'T',
-					'Ň' => 'N',
-					'Ā' => 'A',
-					'Ķ' => 'K',
-					'Ŝ' => 'S',
-					'Ỳ' => 'Y',
-					'Ņ' => 'N',
-					'Ĺ' => 'L',
-					'Ħ' => 'H',
-					'Ṗ' => 'P',
-					'Ó' => 'O',
-					'Ú' => 'U',
-					'Ě' => 'E',
-					'É' => 'E',
-					'Ç' => 'C',
-					'Ẁ' => 'W',
-					'Ċ' => 'C',
-					'Õ' => 'O',
-					'Ṡ' => 'S',
-					'Ø' => 'O',
-					'Ģ' => 'G',
-					'Ŧ' => 'T',
-					'Ș' => 'S',
-					'Ė' => 'E',
-					'Ĉ' => 'C',
-					'Ś' => 'S',
-					'Î' => 'I',
-					'Ű' => 'U',
-					'Ć' => 'C',
-					'Ę' => 'E',
-					'Ŵ' => 'W',
-					'Ṫ' => 'T',
-					'Ū' => 'U',
-					'Č' => 'C',
-					'Ö' => 'Oe',
-					'È' => 'E',
-					'Ŷ' => 'Y',
-					'Ą' => 'A',
-					'Ł' => 'L',
-					'Ų' => 'U',
-					'Ů' => 'U',
-					'Ş' => 'S',
-					'Ğ' => 'G',
-					'Ļ' => 'L',
-					'Ƒ' => 'F',
-					'Ž' => 'Z',
-					'Ẃ' => 'W',
-					'Ḃ' => 'B',
-					'Å' => 'A',
-					'Ì' => 'I',
-					'Ï' => 'I',
-					'Ḋ' => 'D',
-					'Ť' => 'T',
-					'Ŗ' => 'R',
-					'Ä' => 'Ae',
-					'Í' => 'I',
-					'Ŕ' => 'R',
-					'Ê' => 'E',
-					'Ü' => 'Ue',
-					'Ò' => 'O',
-					'Ē' => 'E',
-					'Ñ' => 'N',
-					'Ń' => 'N',
-					'Ĥ' => 'H',
-					'Ĝ' => 'G',
-					'Đ' => 'D',
-					'Ĵ' => 'J',
-					'Ÿ' => 'Y',
-					'Ũ' => 'U',
-					'Ŭ' => 'U',
-					'Ư' => 'U',
-					'Ţ' => 'T',
-					'Ý' => 'Y',
-					'Ő' => 'O',
-					'Â' => 'A',
-					'Ľ' => 'L',
-					'Ẅ' => 'W',
-					'Ż' => 'Z',
-					'Ī' => 'I',
-					'Ã' => 'A',
-					'Ġ' => 'G',
-					'Ṁ' => 'M',
-					'Ō' => 'O',
-					'Ĩ' => 'I',
-					'Ù' => 'U',
-					'Į' => 'I',
-					'Ź' => 'Z',
-					'Á' => 'A',
-					'Û' => 'U',
-					'Þ' => 'Th',
-					'Ð' => 'Dh',
-					'Æ' => 'Ae',
-					'Ĕ' => 'E',
-					'Œ' => 'Oe'
-				];
-
-				if(preg_match('/[а-яА-Я]/u', $string))
-				{
-					return strtr($string, $trans);
-				}
-
-				return $string;
-
-				break;
-		}
-	}
-
-	/**
-	 * @param $text
-	 *
-	 * @return int|null|string
-	 */
-	private static function simple_detect_language($text)
-	{
-		$detectLang = [
-			'ua' => [
-				'ґ',
-				'і',
-				'ї',
-				'є',
-				'її',
-				'цьк',
-				'ськ',
-				'ія',
-				'ння',
-				'ій',
-				'ися',
-				'ись',
-				'’я',
-				'’ю',
-				'р’',
-				'\'я',
-				'\'ю',
-				'р\'',
-				'б’',
-				'б\'',
-				'п’',
-				'п\'',
-				'в’',
-				'в\'',
-				'м’',
-				'м\'',
-				'ф’',
-				'ф\'',
-				'головна'
-			],
-			'ru' => [
-				'ы',
-				'э',
-				'ё',
-				'ъ',
-				'ее',
-				'её',
-				'цк',
-				'ск',
-				'ия',
-				'сс',
-				'ую',
-				'ение',
-				'главная',
-				'ии'
-			],
+			'À' => 'A',
+			'Ô' => 'O',
+			'Ď' => 'D',
+			'Ḟ' => 'F',
+			'Ë' => 'E',
+			'Š' => 'S',
+			'Ơ' => 'O',
+			'Ă' => 'A',
+			'Ř' => 'R',
+			'Ț' => 'T',
+			'Ň' => 'N',
+			'Ā' => 'A',
+			'Ķ' => 'K',
+			'Ŝ' => 'S',
+			'Ỳ' => 'Y',
+			'Ņ' => 'N',
+			'Ĺ' => 'L',
+			'Ħ' => 'H',
+			'Ṗ' => 'P',
+			'Ó' => 'O',
+			'Ú' => 'U',
+			'Ě' => 'E',
+			'É' => 'E',
+			'Ç' => 'C',
+			'Ẁ' => 'W',
+			'Ċ' => 'C',
+			'Õ' => 'O',
+			'Ṡ' => 'S',
+			'Ø' => 'O',
+			'Ģ' => 'G',
+			'Ŧ' => 'T',
+			'Ș' => 'S',
+			'Ė' => 'E',
+			'Ĉ' => 'C',
+			'Ś' => 'S',
+			'Î' => 'I',
+			'Ű' => 'U',
+			'Ć' => 'C',
+			'Ę' => 'E',
+			'Ŵ' => 'W',
+			'Ṫ' => 'T',
+			'Ū' => 'U',
+			'Č' => 'C',
+			'Ö' => 'Oe',
+			'È' => 'E',
+			'Ŷ' => 'Y',
+			'Ą' => 'A',
+			'Ł' => 'L',
+			'Ų' => 'U',
+			'Ů' => 'U',
+			'Ş' => 'S',
+			'Ğ' => 'G',
+			'Ļ' => 'L',
+			'Ƒ' => 'F',
+			'Ž' => 'Z',
+			'Ẃ' => 'W',
+			'Ḃ' => 'B',
+			'Å' => 'A',
+			'Ì' => 'I',
+			'Ï' => 'I',
+			'Ḋ' => 'D',
+			'Ť' => 'T',
+			'Ŗ' => 'R',
+			'Ä' => 'Ae',
+			'Í' => 'I',
+			'Ŕ' => 'R',
+			'Ê' => 'E',
+			'Ü' => 'Ue',
+			'Ò' => 'O',
+			'Ē' => 'E',
+			'Ñ' => 'N',
+			'Ń' => 'N',
+			'Ĥ' => 'H',
+			'Ĝ' => 'G',
+			'Đ' => 'D',
+			'Ĵ' => 'J',
+			'Ÿ' => 'Y',
+			'Ũ' => 'U',
+			'Ŭ' => 'U',
+			'Ư' => 'U',
+			'Ţ' => 'T',
+			'Ý' => 'Y',
+			'Ő' => 'O',
+			'Â' => 'A',
+			'Ľ' => 'L',
+			'Ẅ' => 'W',
+			'Ż' => 'Z',
+			'Ī' => 'I',
+			'Ã' => 'A',
+			'Ġ' => 'G',
+			'Ṁ' => 'M',
+			'Ō' => 'O',
+			'Ĩ' => 'I',
+			'Ù' => 'U',
+			'Į' => 'I',
+			'Ź' => 'Z',
+			'Á' => 'A',
+			'Û' => 'U',
+			'Þ' => 'Th',
+			'Ð' => 'Dh',
+			'Æ' => 'Ae',
+			'Ĕ' => 'E',
+			'Œ' => 'Oe'
 		];
 
-		# Get chars presence index
-		$langsDetected = [];
-		foreach($detectLang as $langId => $nativeChars)
+		if(preg_match('/[а-яА-Я]/u', $string))
 		{
-			$langsDetected[ $langId ] = 0;
-			foreach($nativeChars as $nativeChr)
-			{
-				if(preg_match("/$nativeChr/ui", $text))
-				{
-					$langsDetected[ $langId ] += 1 / count($nativeChars);
-				}
-			}
+			return strtr($string, $trans);
 		}
 
-		# Get the most preferred language for this text
-		$lang         = null;
-		$langIndexMax = 0;
-		foreach($langsDetected as $langId => $index)
-		{
-			if($index > $langIndexMax)
-			{
-				$langIndexMax = $index;
-				$lang         = $langId;
-			}
-		}
-
-		return $lang;
+		return $string;
 	}
 
 	/**
 	 * Returns the ignored search words
 	 *
-	 * @return    array  An array of ignored search words.
-	 * @since    1.6
+	 * @return  array  An array of ignored search words.
+	 *
+	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
 	 */
-	public static function getIgnoredSearchWords()
+	public static function getIgnoredSearchWords(): array
 	{
 		$search_ignore   = [];
 		$search_ignore[] = 'href';
@@ -953,10 +806,13 @@ abstract class Uk_UALocalise
 	/**
 	 * Returns the lower length limit of search words
 	 *
-	 * @return    integer  The lower length limit of search words.
-	 * @since    1.6
+	 * @return  integer  The lower length limit of search words.
+	 *
+	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
 	 */
-	public static function getLowerLimitSearchWord()
+	public static function getLowerLimitSearchWord(): int
 	{
 		return 3;
 	}
@@ -964,10 +820,13 @@ abstract class Uk_UALocalise
 	/**
 	 * Returns the upper length limit of search words
 	 *
-	 * @return    integer  The upper length limit of search words.
-	 * @since    1.6
+	 * @return  integer  The upper length limit of search words.
+	 *
+	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
 	 */
-	public static function getUpperLimitSearchWord()
+	public static function getUpperLimitSearchWord(): int
 	{
 		return 50;
 	}
@@ -975,10 +834,13 @@ abstract class Uk_UALocalise
 	/**
 	 * Returns the number of chars to display when searching
 	 *
-	 * @return    integer  The number of chars to display when searching.
-	 * @since    1.6
+	 * @return  integer  The number of chars to display when searching.
+	 *
+	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
 	 */
-	public static function getSearchDisplayedCharactersNumber()
+	public static function getSearchDisplayedCharactersNumber(): int
 	{
 		return 300;
 	}

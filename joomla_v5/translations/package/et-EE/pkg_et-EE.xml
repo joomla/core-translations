@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project</packager>
 	<packagerurl>www.joomla.org</packagerurl>
-	<description><![CDATA[Eesti (et-EE) keelepakett / Estonian languagepack]]></description>
+	<description><![CDATA[<div style="text-align: left;"><h3>Eesti (et-EE) keele pakett / Estonian (et-EE) language pack</h3><p>Paigaldasite just eesti keele paketi / You have just installed the Estonian language package.</p></div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="et-EE">language/et-EE</folder>

@@ -157,8 +157,8 @@ when
 where
 why
 how
-all
-any
+ayihe
+kehe
 both
 each
 few

@@ -3,7 +3,7 @@
  * @package    Joomla.Language
  *
  * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @copyright  (C) Translation 2008 - 2024 J!German <https://www.jgerman.de>
+ * @copyright  (C) Translation 2008 - 2025 J!German <https://www.jgerman.de>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  *
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
@@ -48,6 +48,8 @@ abstract class De_CHLocalise
 	 * @return  array  An array of ignored search words.
 	 *
 	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
 	 *
 	 * @link    https://solariz.de/649/deutsche-stopwords.htm
 	 */
@@ -1060,6 +1062,9 @@ abstract class De_CHLocalise
 	 * @return  int  The lower length limit of search words.
 	 *
 	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
+	 *
 	 */
 	public static function getLowerLimitSearchWord()
 	{
@@ -1072,6 +1077,9 @@ abstract class De_CHLocalise
 	 * @return  int  The upper length limit of search words.
 	 *
 	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
+	 *
 	 */
 	public static function getUpperLimitSearchWord()
 	{
@@ -1084,6 +1092,9 @@ abstract class De_CHLocalise
 	 * @return  int  The number of chars to display when searching.
 	 *
 	 * @since   1.6
+	 *
+	 * @deprecated  5.1 will be removed in 7.0 without replacement
+	 *
 	 */
 	public static function getSearchDisplayedCharactersNumber()
 	{

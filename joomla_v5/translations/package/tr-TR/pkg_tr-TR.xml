@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Turkish (tr-TR) Dil Paketi</name>
 	<packagename>tr-TR</packagename>
-	<version>5.0.4.1</version>
-	<creationDate>02-2024</creationDate>
+	<version>5.3.3.1</version>
+	<creationDate>07-2025</creationDate>
 	<author>Joomla! Türkiye</author>
 	<authorEmail>info@joomlatr.org</authorEmail>
 	<authorUrl>www.joomlatr.org</authorUrl>
@@ -12,13 +12,10 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Türkiye</packager>
 	<packagerurl>www.joomlatr.org</packagerurl>
-	<description><![CDATA[<p>Joomla 5.0.2.1 Türkçe Dil Paketi</p>
-	            <p class="fw-light"> This is the Turkish Language Pack for Joomla 5.0.2.1</p>
-				<p><a class="btn btn-success me-2" href="https://www.facebook.com/groups/joomlaturkey" target="_blank">Topluluğa katıl</a> <a class="btn btn-outline-success" href="https://www.facebook.com/groups/joomlaturkey" target="_blank">Join the Community</a></p>
-				<p class="btn-group">
-					<a class="btn btn-sm btn-outline-primary" href="https://joomlatr.org" target="_blank"> https://joomlatr.org</a>
-					<a class="btn btn-sm btn-outline-primary" href="mailto:info@joomlatr.org"><i class="icon-envelope"></i> info@joomlatr.org</a>
-				</p>]]></description>
+	<description><![CDATA[<div style="text-align: left;">
+<h3>Joomla! Tam Paket Türkçe (tr-TR) Dil Paketi - Sürüm: 5.3.3.1</h3>
+<p><a href="https://www.joomlatr.org" target="_blank">www.joomlatr.org</a> - <a href="mailto:info@joomlatr.org">info@joomlatr.org</a></p>
+</div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="tr-TR">language/tr-TR</folder>

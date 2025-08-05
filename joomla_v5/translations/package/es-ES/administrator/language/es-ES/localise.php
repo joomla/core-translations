@@ -50,6 +50,8 @@ abstract class Es_ESLocalise
      * @return  array  An array of ignored search words.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1 será eliminado en la versión 7.0 sin reemplazo
      */
     public static function getIgnoredSearchWords()
     {
@@ -62,6 +64,8 @@ abstract class Es_ESLocalise
      * @return  integer  The lower length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1 será eliminado en la versión 7.0 sin reemplazo
      */
     public static function getLowerLimitSearchWord()
     {
@@ -74,6 +78,8 @@ abstract class Es_ESLocalise
      * @return  integer  The upper length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1 será eliminado en la versión 7.0 sin reemplazo
      */
     public static function getUpperLimitSearchWord()
     {
@@ -86,6 +92,8 @@ abstract class Es_ESLocalise
      * @return  integer  The number of chars to display when searching.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1 será eliminado en la versión 7.0 sin reemplazo
      */
     public static function getSearchDisplayedCharactersNumber()
     {

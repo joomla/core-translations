@@ -4,11 +4,11 @@
 	<version/>
 	<creationDate/>
 	<author>Sveda Esperanto-Federacio, Svedio</author>
-	<authorEmail>tradukoj@esperantosverige.se</authorEmail>
+	<authorEmail>reto@esperantoforbundet.se</authorEmail>
 	<authorUrl>esperantosverige.se</authorUrl>
 	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[eo-XX dorsflanka (administra) lingvopakaĵo]]></description>
+	<description><![CDATA[eo-XX dorsflanka lingvo]]></description>
 	<metadata>
 		<name>Esperanto (eo-XX)</name>
 		<nativeName>Esperanto (eo-XX)</nativeName>

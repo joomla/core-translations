@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Turkish (tr-TR) Dil Paketi</name>
 	<packagename>tr-TR</packagename>
-	<version>4.4.4.1</version>
-	<creationDate>02-2024</creationDate>
+	<version>4.4.14.1</version>
+	<creationDate>04-2025</creationDate>
 	<author>Joomla! Türkiye</author>
 	<authorEmail>info@joomlatr.org</authorEmail>
 	<authorUrl>www.joomlatr.org</authorUrl>
@@ -12,7 +12,10 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Türkçe Çeviri Ekibi Çeviri: Uğur Uygur</packager>
 	<packagerurl>www.joomlatr.org</packagerurl>
-	<description><![CDATA[Türkçe Tam Paket - Sürüm 4.4.2<p><a title="Joomla! Turkiye" href="https://www.joomlatr.org/" target="_blank" rel="noopener">www.joomlatr.org</a></p>]]></description>
+	<description><![CDATA[<div style="text-align: left;">
+<h3>Joomla! Tam Paket (tr-TR) Dil Paketi - Version 4.4.14.1</h3>
+<p><a href="https://www.joomlatr.org" target="_blank">www.joomlatr.org</a> - <a href="mailto:info@joomlatr.org">info@joomlatr.org</a></p>
+</div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="tr-TR">language/tr-TR</folder>

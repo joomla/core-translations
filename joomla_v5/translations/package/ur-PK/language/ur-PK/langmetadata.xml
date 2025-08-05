@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
-	<name/>
+	<name>Urdu (ur-PK)</name>
 	<version/>
 	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description><![CDATA[]]></description>
+	<author>Urdu Translation Team</author>
+	<authorEmail>info@abdulwaheed.pk</authorEmail>
+	<authorUrl>www.abdulwaheed.pk</authorUrl>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[ur-PK site language]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
-		<tag/>
-		<rtl/>
-		<locale/>
-		<firstDay/>
+		<name>Urdu (ur-PK)</name>
+		<nativeName>اردو - پاکستان</nativeName>
+		<tag>ur-PK</tag>
+		<rtl>1</rtl>
+		<locale>ur_PK.utf8, ur_PK.UTF-8, ur_PK, ur, urdu, urdu-ur, ur, pakistan, rwp, rawalpindi, islamabad</locale>
+		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar/>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>

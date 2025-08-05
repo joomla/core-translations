@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="api">
-	<name>Croatian (Croatia)</name>
+	<name>Croatian (hr-HR)</name>
 	<version/>
 	<creationDate/>
 	<author>Joomla! Hrvatska team</author>
@@ -10,7 +10,7 @@
 	<license>GNU Opća javna licenca verzija 2 ili novija; vidi LICENSE.txt</license>
 	<description><![CDATA[hr-HR jezik api-a]]></description>
 	<metadata>
-		<name>Croatian (Croatia)</name>
+		<name>Hrvatski (Hrvatska)</name>
 		<nativeName>Hrvatski (Hrvatska)</nativeName>
 		<tag>hr-HR</tag>
 		<rtl>0</rtl>

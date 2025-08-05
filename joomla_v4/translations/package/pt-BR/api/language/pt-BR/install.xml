@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name>Português (pt-BR)</name>
+	<name>Brazilian Portuguese (pt-BR)</name>
 	<tag>pt-BR</tag>
-	<version/>
-	<creationDate/>
+	<version>4.4.14</version>
+	<creationDate>Abril 2025</creationDate>
 	<author>Projeto Joomla!</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>(C) 2020 Open source matters, Inc.</copyright>
+	<copyright>Copyright (C) 2021 Open Source Matters. Todos os direitos reservados.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>pt-BR api language</description>
 	<files>

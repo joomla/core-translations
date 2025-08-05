@@ -3,13 +3,13 @@
 	<name>Български (bg-BG)</name>
 	<tag>bg-BG</tag>
 	<version/>
-	<creationDate>2024-02</creationDate>
+	<creationDate/>
 	<author>Joomla! Bulgaria</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
 	<authorUrl>http://www.joomla.bg</authorUrl>
-	<copyright>Copyright (C) 2002 - 2018 Joomla! Bulgaria. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2002 - 2025 Joomla! България. Всички права запазени.</copyright>
 	<license>GNU General Public License версия 2 или по-късна; Виж LICENSE.txt</license>
-	<description>bg-BG език за административната част</description>
+	<description>Български език (bg-BG) за административната част на сайта</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

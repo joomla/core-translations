@@ -1,179 +1,179 @@
-; Joomla! Project
+; Joomla! Проект
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
 ; GNU General Public License версия 2 или по-късна; Виж LICENSE.txt
 ; Забележка: Този файл трябва да бъде записан като UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
+аз
+мене
+мой
+мен самия
+ние
+наш
+нашият
+нас самите
+ти
+твоят
+твоите
+ти самия
+вие самите
+той
+него
+неговият
+самия него
+тя
+нея
+нейният
+самата нея
+то
+неговото
+самото то
+те
+тях
+тяхното
+техните
+самите те
+какво
+който
+кой
+когото
+това
+онова
+тези
+онези
 сутрин
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
+е
+са
+беше
+бяха
+съм
+беше
+съм
+има
+има
+имаше
+имайки
+правя
+правя
+направих
+правя
+бих
+трябва
+би могъл
+би трябвало
+аз съм
+ти си
+той е
+тя е
+то е
+ние сме
+те са
+имам
+имаш
+имате
+имат
+имах
+ти имаше
+той имаше
+тя имаше
+ние имахме
+те имаха
+аз ще
+ти ще
+той ще
+тя ще
+ние ще
+те ще
+не е
+не са
+не беше
+не бяха
+няма
+нямат
+нямаха
+не прави
+не прави
+не направи
+няма да
+не бих
+няма да
+не трябва
+не мога
+не мога
+не можах
+не трябва
+нека
+това е
+кой е
+какво е
+ето го
+има
+кога е
+къде е
+защо е
+как е
+
+
+
 и
-but
-if
+но
+ако
 или
-because
-as
-until
-while
-of
-at
-by
-for
-with
+защото
+като
+до
+докато
+от
+на
+до
+за
+с
 относно
-against
-between
-into
-through
-during
+срещу
+между
+в
+чрез
+по време на
 преди
 след
 отгоре
 отдолу
-to
+към
 от
 нагоре
 надолу
-in
-out
+в
+извън
 вкл.
 изкл.
-over
-under
-again
-further
-след това
+над
+под
+отново
+по-нататък
+тогава
 веднъж
-here
-there
-when
-where
-why
-how
+тук
+там
+когато
+къде
+защо
+как
 всички
 всички
 и двете
-each
-few
-more
-most
+всеки
+малко
+повече
+повечето
 други
-some
-such
+някои
+такива
 никога
-nor
+нито
 не съдържа
 само
-own
-same
-so
-than
-too
-very
+собствен
+същото
+така
+отколкото
+също
+много

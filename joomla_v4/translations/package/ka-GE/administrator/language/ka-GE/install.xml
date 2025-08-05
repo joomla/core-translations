@@ -9,7 +9,7 @@
 	<authorUrl>https://github.com/Zurabch</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>ka-GE site language</description>
+	<description>ka-GE ქართული (administrator language)</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

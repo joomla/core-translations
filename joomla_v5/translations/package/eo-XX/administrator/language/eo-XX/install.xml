@@ -9,7 +9,7 @@
 	<authorUrl>esperantosverige.se</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>eo-XX dorsflanka (administra) lingvopakaĵo</description>
+	<description>eo-XX dorsflanka lingvo</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

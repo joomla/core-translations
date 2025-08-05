@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Português Brasil (pt-BR) Pacote de idioma</name>
+	<name>Brazilian Portuguese (pt-BR) Language Pack</name>
 	<packagename>pt-BR</packagename>
 	<version/>
 	<creationDate/>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>Copyright (C) 2021 Open Source Matters. Todos os direitos reservados.</copyright>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Projeto Joomla!</packager>
 	<packagerurl>www.joomla.org</packagerurl>
-	<description><![CDATA[<div style="text-align: left;">
- <h2>Tradução Português Brasileiro (pt-BR) para Joomla! 4.0.3.1 instalada com sucesso!</h2>
- <h3>Versão 4.0.3.1</h3>
- <p>Por favor, informe qualquer problema ou assunto relacionado encontrado, na página <a href="https://www.facebook.com/groups/traduzjoomla/" target="_blank">Grupo Traduções Joomla pt-BR</a> no Facebook.</p>
- <p>Traduzido pela <em>Equipe de Tradução Português Brasileiro</em>.</p>
-</div>]]></description>
+	<description><![CDATA[pt-BR language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="pt-BR">language/pt-BR</folder>
@@ -25,7 +20,7 @@
 		<folder type="language" client="api" id="pt-BR">api/language/pt-BR</folder>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="Traduções Joomla! creditadas">
+		<server type="collection" priority="1" name="Traduções do Joomla! credenciadas">
 			https://update.joomla.org/language/translationlist_5.xml
 		</server>
 	</updateservers>

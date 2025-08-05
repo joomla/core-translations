@@ -50,6 +50,8 @@ abstract class Fr_CALocalise
      * @return  array  An array of ignored search words.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getIgnoredSearchWords()
     {
@@ -62,6 +64,8 @@ abstract class Fr_CALocalise
      * @return  integer  The lower length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getLowerLimitSearchWord()
     {
@@ -74,6 +78,8 @@ abstract class Fr_CALocalise
      * @return  integer  The upper length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getUpperLimitSearchWord()
     {
@@ -85,7 +91,9 @@ abstract class Fr_CALocalise
      *
      * @return  integer  The number of chars to display when searching.
      *
-     * @depuis 1.6
+     * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getSearchDisplayedCharactersNumber()
     {

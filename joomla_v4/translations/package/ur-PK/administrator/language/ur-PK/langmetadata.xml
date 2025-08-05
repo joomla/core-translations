@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
-	<name/>
+	<name>English (en-GB)</name>
 	<version/>
 	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
+	<author>جوملا پروجیکٹ</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>License GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[ur-PK administrator language]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
-		<tag/>
-		<rtl/>
-		<locale/>
-		<firstDay/>
+		<name>Urdu (Pakistan)</name>
+		<nativeName>اُردُو (Pakistan)</nativeName>
+		<tag>ur-PK</tag>
+		<rtl>1</rtl>
+		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, english, english-uk, uk, gbr, britain, england, great britain, uk, united kingdom, united-kingdom</locale>
+		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar/>
+		<calendar>گریگورین</calendar>
 	</metadata>
 	<params/>
 </metafile>

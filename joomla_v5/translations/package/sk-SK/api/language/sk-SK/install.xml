@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Slovak (sk-SK)</name>
 	<tag>sk-SK</tag>
-	<version>5.0.4</version>
-	<creationDate>2023-11</creationDate>
+	<version>5.3.3</version>
+	<creationDate>2025-07</creationDate>
 	<author>Slovak translation team : Peter Michnica</author>
 	<authorEmail>petov@mail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name>Português (pt-BR)</name>
+	<name>Português Brasil (pt-BR)</name>
 	<tag>pt-BR</tag>
 	<version/>
 	<creationDate/>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>Copyright (C) 2021 Open Source Matters. Todos os direitos reservados.</copyright>
+	<copyright>(C) 2013 Open source matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>Brazilian Portuguese Administrator language</description>
+	<description>pt-BR administrator language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Arabic ar-AA(العربية الموحدة)</name>
+	<name>Arabic ar-AA (العربية الموحدة)</name>
 	<packagename>ar-AA</packagename>
 	<version/>
 	<creationDate/>
-	<author>Dr. Ashraf Damra</author>
-	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
-	<authorUrl>www.dr-ashraf.com</authorUrl>
-	<copyright>Copyright (C) 2019 - 2021 Open Source Matters.</copyright>
+	<author>Joomla! Project (Arabic Translation Team)</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Dr. Ashraf Damra</packager>
-	<packagerurl>www.dr-ashraf.com</packagerurl>
-	<description><![CDATA[
-        <div class="alert alert-info">
-<h4 class="alert-heading" style="direction: rtl;">اللغة العربية</h4>
-<div class="alert-message" style="direction: rtl;">تم تنصيب حزمة اللغة العربية لنظام ادارة محتوى المواقع جوملا، بالكود الموحد.</div>
-</div>
-        ]]></description>
+	<packager>Joomla! Project (Arabic Translation Team)</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[ar-AA (العربية الموحدة)]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="ar-AA">language/ar-AA</folder>

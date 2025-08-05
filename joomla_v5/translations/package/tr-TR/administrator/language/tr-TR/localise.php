@@ -50,6 +50,8 @@ abstract class Tr_TRLocalise
      * @return  array  An array of ignored search words.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1, 7.0'da değiştirilmeden kaldırılacak
      */
     public static function getIgnoredSearchWords()
     {
@@ -62,6 +64,8 @@ abstract class Tr_TRLocalise
      * @return  integer  The lower length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1, 7.0'da değiştirilmeden kaldırılacak
      */
     public static function getLowerLimitSearchWord()
     {
@@ -74,6 +78,8 @@ abstract class Tr_TRLocalise
      * @return  integer  The upper length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1, 7.0'da değiştirilmeden kaldırılacak
      */
     public static function getUpperLimitSearchWord()
     {
@@ -86,6 +92,8 @@ abstract class Tr_TRLocalise
      * @return  integer  The number of chars to display when searching.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1, 7.0'da değiştirilmeden kaldırılacak
      */
     public static function getSearchDisplayedCharactersNumber()
     {

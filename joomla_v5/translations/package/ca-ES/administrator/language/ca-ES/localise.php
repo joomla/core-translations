@@ -23,11 +23,11 @@
 abstract class Ca_ESLocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * Retorna els sufixos potencials per a un nombre específic d'elements
      *
-     * @param   integer  $count  The number of items.
+     * @param integer $count El nombre d'elements.
      *
-     * @return  array  An array of potential suffixes.
+     * @return array Una matriu de sufixos potencials.
      *
      * @since   1.6
      */
@@ -38,30 +38,34 @@ abstract class Ca_ESLocalise
         }
 
         if ($count == 1) {
-            return ['ONE', '1'];
+            return ['UN', '1'];
         }
 
-        return ['OTHER', 'MORE'];
+        return ['ALTRE', 'MÉS'];
     }
 
     /**
-     * Returns the ignored search words
+     * Retorna les paraules de cerca ignorades
      *
-     * @return  array  An array of ignored search words.
+     * @return array Una matriu de paraules de cerca ignorades.
      *
      * @since   1.6
+     *
+     @deprecated 5.1 serà eliminat a la versió 7.0 sense reemplaçament
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['i', 'in', 'on'];
     }
 
     /**
-     * Returns the lower length limit of search words
+     * Retorna el límit de longitud inferior de les paraules de cerca
      *
-     * @return  integer  The lower length limit of search words.
+     * @return  integer El límit inferior de longitud de les paraules de cerca.
      *
      * @since   1.6
+     *
+     @deprecated 5.1 serà eliminat a la versió 7.0 sense reemplaçament
      */
     public static function getLowerLimitSearchWord()
     {
@@ -69,11 +73,13 @@ abstract class Ca_ESLocalise
     }
 
     /**
-     * Returns the upper length limit of search words
+     * Retorna el límit de longitud superior de les paraules de cerca
      *
-     * @return  integer  The upper length limit of search words.
+     * @return  integer El límit de longitud superior de les paraules de cerca.
      *
      * @since   1.6
+     *
+     @deprecated 5.1 serà eliminat a la versió 7.0 sense reemplaçament
      */
     public static function getUpperLimitSearchWord()
     {
@@ -81,11 +87,13 @@ abstract class Ca_ESLocalise
     }
 
     /**
-     * Returns the number of chars to display when searching
+     * Retorna el nombre de caràcters que es mostren en cercar
      *
-     * @return  integer  The number of chars to display when searching.
+     * @return integer El nombre de caràcters que es mostraran en cercar.
      *
      * @since   1.6
+     *
+     @deprecated 5.1 serà eliminat a la versió 7.0 sense reemplaçament
      */
     public static function getSearchDisplayedCharactersNumber()
     {

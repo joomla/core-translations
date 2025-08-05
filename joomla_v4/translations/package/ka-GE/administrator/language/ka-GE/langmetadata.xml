@@ -6,9 +6,9 @@
 	<author>Georgian Translation Team</author>
 	<authorEmail>z.cherkezishvili@gmail.com</authorEmail>
 	<authorUrl>https://github.com/Zurabch</authorUrl>
-	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[ka-GE site language]]></description>
+	<description><![CDATA[ka-GE administrator language]]></description>
 	<metadata>
 		<name>Georgian (Georgia)</name>
 		<nativeName>ქართული (საქართველო)</nativeName>

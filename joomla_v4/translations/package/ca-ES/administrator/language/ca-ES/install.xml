@@ -2,14 +2,14 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Catalan (ca-ES)</name>
 	<tag>ca-ES</tag>
-	<version/>
-	<creationDate/>
-	<author>Catalan Translation Team</author>
-	<authorEmail>el.libre@gmail.com</authorEmail>
-	<authorUrl>www.catmidia.cat</authorUrl>
+	<version>4.4.14.1</version>
+	<creationDate>2025-04</creationDate>
+	<author>Catalan [ca-ES] Translation Team</author>
+	<authorEmail>traduccio@joomla.cat</authorEmail>
+	<authorUrl>https://www.joomla.cat</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
-	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
-	<description>ca-ES administrator language</description>
+	<license>GNU General Public License version 2 or later</license>
+	<description>&lt;p>Catalan [ca-ES] language pack (administrator) for Joomla!&lt;/p>&lt;p>&lt;/p>&lt;p>Paquet d'idioma català [ca-ES] (administrador) per a Joomla!&lt;/p></description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

@@ -3,8 +3,8 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.sporghay.com>
+ * @license    GNU General Public License version ۲ or later; see LICENSE.txt
  *
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
  *
@@ -23,7 +23,7 @@
 abstract class Ps_AFLocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * د یو ټاکلي شمیر توکو له پاره احتمالي ضمیمې بیرته راګرځي
      *
      * @param   integer  $count  The number of items.
      *
@@ -45,11 +45,13 @@ abstract class Ps_AFLocalise
     }
 
     /**
-     * Returns the ignored search words
+     * له پامه غورځول شوي د لټون کلیمې بیرته راګرځوي
      *
      * @return  array  An array of ignored search words.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getIgnoredSearchWords()
     {
@@ -57,11 +59,13 @@ abstract class Ps_AFLocalise
     }
 
     /**
-     * Returns the lower length limit of search words
+     * د لټون کلمو لږ اوږد حد بیرته راستنوي
      *
      * @return  integer  The lower length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getLowerLimitSearchWord()
     {
@@ -69,11 +73,13 @@ abstract class Ps_AFLocalise
     }
 
     /**
-     * Returns the upper length limit of search words
+     * د لټون د کلمو پورتنۍ اوږدوالی حد بیرته راګرځوي
      *
      * @return  integer  The upper length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getUpperLimitSearchWord()
     {
@@ -81,11 +87,13 @@ abstract class Ps_AFLocalise
     }
 
     /**
-     * Returns the number of chars to display when searching
+     * د لټون پرمهال د ښودلو له پاره د توروشمیر بیرته راګرځي
      *
-     * @return  integer  The number of chars to display when searching.
+     * @return integer د لټون پر مهال د ښودلو له پاره د تورو شمیر.
      *
      * @since   1.6
+     *
+     * @deprecated  5.1 will be removed in 7.0 without replacement
      */
     public static function getSearchDisplayedCharactersNumber()
     {

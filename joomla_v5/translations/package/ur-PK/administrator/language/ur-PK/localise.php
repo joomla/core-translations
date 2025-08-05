@@ -50,6 +50,8 @@ abstract class Ur_PKLocalise
      * @return  array  An array of ignored search words.
      *
      * @since   1.6
+     *
+     * @ فرسودہ 5.1 کو بغیر متبادل کے 7.0 میں ہٹا دیا جائے گا۔
      */
     public static function getIgnoredSearchWords()
     {
@@ -62,6 +64,8 @@ abstract class Ur_PKLocalise
      * @return  integer  The lower length limit of search words.
      *
      * @since   1.6
+     *
+     * @ فرسودہ 5.1 کو بغیر متبادل کے 7.0 میں ہٹا دیا جائے گا۔
      */
     public static function getLowerLimitSearchWord()
     {
@@ -74,6 +78,8 @@ abstract class Ur_PKLocalise
      * @return  integer  The upper length limit of search words.
      *
      * @since   1.6
+     *
+     * @ فرسودہ 5.1 کو بغیر متبادل کے 7.0 میں ہٹا دیا جائے گا۔
      */
     public static function getUpperLimitSearchWord()
     {
@@ -86,6 +92,8 @@ abstract class Ur_PKLocalise
      * @return  integer  The number of chars to display when searching.
      *
      * @since   1.6
+     *
+     * @ فرسودہ 5.1 کو بغیر متبادل کے 7.0 میں ہٹا دیا جائے گا۔
      */
     public static function getSearchDisplayedCharactersNumber()
     {

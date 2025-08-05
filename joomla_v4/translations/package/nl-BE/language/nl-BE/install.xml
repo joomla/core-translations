@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="site" type="language" method="upgrade">
-	<name>Dutch (nl-BE)</name>
+	<name>Vlaams (nl-BE)</name>
 	<tag>nl-BE</tag>
-	<version>4.4.3</version>
-	<creationDate>2024-02-20</creationDate>
-	<author>Dutch (BE) translation team</author>
+	<version>4.4.14.1</version>
+	<creationDate>April 2025</creationDate>
+	<author>Vlaams (BE) translation team</author>
 	<authorEmail>frank.joris@skynet.be</authorEmail>
 	<authorUrl>https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-flemish</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>

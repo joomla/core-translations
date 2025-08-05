@@ -2,14 +2,14 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Catalan (ca-ES)</name>
 	<tag>ca-ES</tag>
-	<version/>
-	<creationDate/>
-	<author>Catalan Translation Team</author>
-	<authorEmail>el.libre@gmail.com</authorEmail>
-	<authorUrl>www.catmidia.cat</authorUrl>
+	<version>5.3.3.1</version>
+	<creationDate>2025-08</creationDate>
+	<author>Catalan [ca-ES] Translation Team</author>
+	<authorEmail>traduccio@joomla.cat</authorEmail>
+	<authorUrl>https://www.joomla.cat</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
-	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
-	<description>Idioma api ca-ES</description>
+	<license>GNU General Public License version 2 or later</license>
+	<description>Idioma ca-ES de la api</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

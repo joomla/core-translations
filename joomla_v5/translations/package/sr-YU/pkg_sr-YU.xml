@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Srpski Latinica jezički paket za Joomla 4</name>
+	<name>Srpski Latinica jezički paket za Joomla 5</name>
 	<packagename>sr-YU</packagename>
-	<version>5.0.0.1</version>
-	<creationDate>2023-06</creationDate>
+	<version>5.3.3.2</version>
+	<creationDate>2025-07</creationDate>
 	<author>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</author>
 	<authorEmail>info@uixwebdesign.com</authorEmail>
 	<authorUrl>uixwebdesign.com</authorUrl>
@@ -15,14 +15,14 @@
 	<description><![CDATA[<div align="center">
 			<div class="alert alert-success" style="background-color:#DFF0D8; border-color:#D6E9C6; color: #468847; padding: 1px 0;">
 				<p></p>
-				<h3><a href="https://volunteers.joomla.org/joomlers/14824-goran-nesic">Joomla! 4 Srpski prevod (latinica)</a></h3>
+				<h3><a href="https://volunteers.joomla.org/joomlers/14824-goran-nesic">Joomla! 5 Srpski prevod (latinica)</a></h3>
 				
 				<h4><a href="https://forum.joomla.org/viewforum.php?f=29" title="">Joomla Forum - Srbija</a> | <a href="https://volunteers.joomla.org/joomlers/14824-goran-nesic" title="">Podrška za Srpski jezik</a> | <a href="https://docs.joomla.org/Main_Page" title="">Joomla Dokumentacija</a> | <a href="https://joomla.crowdin.com/cms/sr-Latn" title="">Joomla Platforma za prevođenje</a></h4>
 
 				<p>Hvala vam što koristite Joomla! CMS sa neograničenim mogućnostima. Upravo ste instalirali paket za Srpski jezik (latinica).</p>
 
 				
-				<span style="color:#FF0000">NAPOMENA: Vrlo je bitno da posle instalacije i završetka podešavanja otvorite dodatak: Sistem - Html kod jezika (System - Language Code) i podesite jezičku oznaku na <b>sr-Latn-RS</b> umesto dosadašnje <b>sr-YU</b> da bi vaš sajt bio detektovan kako treba od strane pretraživača. U ovom izdanju je poboljšan prevod Joomle. Pozivamo vas da nam skrenete pažnju ukoliko primetite neke banalne mašinske prevode.</span><p></p>
+				<span style="color:#FF0000">NAPOMENA: Vrlo je bitno da posle instalacije i završetka podešavanja otvorite dodatak: Sistem - Html kod jezika (System - Language Code) i podesite jezičku oznaku na <b>sr-Latn-RS</b> umesto dosadašnje <b>sr-YU</b> da bi vaš sajt bio detektovan kako treba od strane pretraživača. U ovom izdanju je poboljšan prevod Joomle 5. Pozivamo vas da nam skrenete pažnju na nepravilnosti u prevodu.</span><p></p>
 				<p>Kontaktirajte <a href="https://volunteers.joomla.org/joomlers/14824-goran-nesic" title='Posetite Joomla profil kontrolora!'>kontrolora za Srpski jezik (latinica) </a>ukoliko imate bilo kakve sugestije ili predloge.</p>
 
 			</div>

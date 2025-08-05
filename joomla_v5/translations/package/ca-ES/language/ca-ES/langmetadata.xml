@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>Catalan (ca-ES)</name>
-	<version/>
-	<creationDate/>
-	<author>Catalan Translation Team</author>
-	<authorEmail>el.libre@gmail.com</authorEmail>
-	<authorUrl>www.catmidia.cat</authorUrl>
+	<version>5.3.3.1</version>
+	<creationDate>2025-08</creationDate>
+	<author>Catalan [ca-ES] Translation Team</author>
+	<authorEmail>traduccio@joomla.cat</authorEmail>
+	<authorUrl>https://www.joomla.cat</authorUrl>
 	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
-	<license>Llicència Pública General de GNU versió 2 o posterior; veure LICENSE.txt</license>
-	<description><![CDATA[catalan language pack for Joomla! 3 - Site - Paquet d'idioma català per Joomla 3 - Lloc Web]]></description>
+	<license>GNU General Public License version 2 or later</license>
+	<description><![CDATA[<p>Catalan [ca-ES] language pack (site) for Joomla!</p><p></p><p>Paquet d'idioma català [ca-ES] (lloc) per a Joomla!</p>]]></description>
 	<metadata>
 		<name>Catalan (ca-ES)</name>
-		<nativeName>Catalan (ca-ES)</nativeName>
+		<nativeName>Català (ca-ES)</nativeName>
 		<tag>ca-ES</tag>
 		<rtl>0</rtl>
 		<locale>ca_ES.utf8, ca_ES.UTF-8, ca_ES, catalan, ca_AD.UTF-8, cat_AD.UTF-8, ca_AD, catalan.UTF-8, cat_ES, ca_ES, ca, ca_FR, ca_IT,ca_ES.utf8, ca_ES.UTF-8, ca_ES, ca_ES.UTF-8@euro, ca_AD.utf8, ca_AD.UTF-8, ca_AD, ca_FR.utf8, ca_FR.UTF-8, ca_FR, ca_IT.utf8, ca_IT.UTF-8, ca_IT, Catalan_Standard, ca</locale>

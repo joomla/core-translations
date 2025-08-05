@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Norwegian Bokmål (nb-NO) Language Pack</name>
 	<packagename>nb-NO</packagename>
-	<version>5.0.4.1</version>
-	<creationDate>2024-02</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project</packager>
 	<packagerurl>www.joomla.org</packagerurl>
-	<description><![CDATA[nb-NO language pack]]></description>
+	<description><![CDATA[Norsk bokmål (nb-NO) språkpakke (Ufullstendig beta)]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="nb-NO">language/nb-NO</folder>

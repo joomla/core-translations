@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="api" type="language" method="upgrade">
 	<name/>
-	<tag/>
+	<tag>en-GB</tag>
 	<version/>
 	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description/>
+	<author>جملہ! پروجیکٹ</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>License GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>en-GB site language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

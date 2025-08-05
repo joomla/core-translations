@@ -2,21 +2,21 @@
 <metafile client="site">
 	<name>Български (bg-BG)</name>
 	<version/>
-	<creationDate>2024-02</creationDate>
+	<creationDate/>
 	<author>Joomla! Bulgaria</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
 	<authorUrl>http://www.joomla.bg</authorUrl>
 	<copyright>Copyright (C) 2006-2020 Open Source Matters. Всички права запазени.</copyright>
 	<license>GNU General Public License версия 2 или по-късна; Виж LICENSE.txt</license>
 	<description><![CDATA[
-    <p>Превод на Joomla! 4 на български език. Повече информация можете да намерите на сайта на <a title="Joomla! Bulgaria" href="http://www.joomla.bg" target="_blank">Joomla! Bulgaria</a>.</p>]]></description>
+    <p>Превод на Joomla! 5 на български език. Повече информация можете да намерите на сайта на <a title="Joomla! Bulgaria" href="http://www.joomla.bg" target="_blank">Joomla! Bulgaria</a>.</p>]]></description>
 	<metadata>
 		<name>Bulgarian (bg-BG)</name>
 		<nativeName>Bulgarian (bg-BG)</nativeName>
 		<tag>bg-BG</tag>
 		<rtl>0</rtl>
 		<locale>bg-BG.UTF-8, bg-BG.utf8, bg_BG.UTF-8, bg_BG.utf8, bgr-BGR.UTF-8, bgr-BGR.utf8, bgr_BGR.UTF-8, bgr_BGR.utf8, bg.UTF-8, bg.utf8, bgr.UTF-8, bgr.utf8, bulgarian.UTF-8, bulgarian.utf8, bulgaria.UTF-8, bulgaria.utf8, bg-BG, bgr-BGR, bgr_BGR, bg_BG</locale>
-		<firstDay>0</firstDay>
+		<firstDay>1</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
 	</metadata>

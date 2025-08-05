@@ -3,8 +3,8 @@
 	<name>French (fr-CA) Language Pack</name>
 	<packagename>fr-CA</packagename>
 	<version/>
-	<creationDate>2024-02</creationDate>
-	<author>Joomla! Project</author>
+	<creationDate/>
+	<author>Joomla! Project - French translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
@@ -12,11 +12,11 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>French translation team : joomla.fr</packager>
 	<packagerurl>www.joomla.fr</packagerurl>
-	<description><![CDATA[<div style="text-align: left;">
-<h3>Joomla! 5 Full French canadian (fr-CA) Language Package</h3>
-<h3>Pack de langue Joomla! 5 Français canadien (fr-CA) complet</h3>
-<p><a href="mailto:traduction@joomla.fr">traduction@joomla.fr</a></p>
-</div>]]></description>
+	<description><![CDATA[<div style="background: #fff; color: #333; font-weight: normal; padding: 10px 15px; text-align: left;">
+		<h4>Joomla! 5 Full French canadian (fr-CA) Language Package</h4>
+		<h4>Pack de langue Joomla! 5 Français canadien (fr-CA) complet</h4>
+		<div style="font-size: 90%"><a href="https:/www.joomla.fr" target="_blank">www.joomla.fr</a> - <a href="mailto:traduction@joomla.fr">traduction@joomla.fr</a></div>
+	</div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="fr-CA">language/fr-CA</folder>

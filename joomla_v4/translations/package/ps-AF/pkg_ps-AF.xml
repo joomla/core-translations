@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Pashto (ps-AF) Language Pack</name>
 	<packagename>ps-AF</packagename>
-	<version>4.3.2</version>
-	<creationDate>2023-05</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Abdel Malek Parhiz</author>
 	<authorEmail>malek.p@hotmail.com</authorEmail>
 	<authorUrl>www.sporghay.com</authorUrl>

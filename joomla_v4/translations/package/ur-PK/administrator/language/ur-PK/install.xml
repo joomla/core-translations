@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="administrator" type="language" method="upgrade">
 	<name/>
-	<tag/>
+	<tag>ur-PK</tag>
 	<version/>
 	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
+	<author>عبدالوحید</author>
+	<authorEmail>info@abdulwaheed.pk</authorEmail>
+	<authorUrl>www.abdulwaheed.pk</authorUrl>
+	<copyright>حق اشاعت (ح) ۲۰۰۵ - ۲۰۱۸ آزاد مصدر اہمیت رکھتے ہیں۔ تمام جملہ ھقوق محفوظ ہیں.</copyright>
+	<license>License GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>ur-PK administrator language</description>
 	<files>
 		<folder>/</folder>

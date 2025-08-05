@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name/>
-	<packagename/>
+	<name>Oshindonga (nd-NA) Embo Lyelaka</name>
+	<packagename>nd-NA</packagename>
 	<version/>
 	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
+	<author>Oproyeka ya Joomla</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright/>
 	<license/>
 	<url/>
-	<packager/>
-	<packagerurl/>
-	<description><![CDATA[]]></description>
+	<packager>Oproyeka ya Joomla</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[nd-NA Embo Lyelaka]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id=""/>
-		<folder type="language" client="administrator" id=""/>
-		<folder type="language" client="api" id=""/>
+		<folder type="language" client="site" id="nd-NA">elaka/nd-NA</folder>
+		<folder type="language" client="administrator" id="nd-NA">amushanga/elaka/nd-NA</folder>
+		<folder type="language" client="api" id="nd-NA">api/elaka/nd-NA</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="">

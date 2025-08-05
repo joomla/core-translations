@@ -50,6 +50,8 @@ abstract class Fi_FILocalise
      * @return  array  An array of ignored search words.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1 vanhentunut, poistetaan ilman korvaavaa funktiota versiossa 7.0
      */
     public static function getIgnoredSearchWords()
     {
@@ -62,6 +64,8 @@ abstract class Fi_FILocalise
      * @return  integer  The lower length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1 vanhentunut, poistetaan ilman korvaavaa funktiota versiossa 7.0
      */
     public static function getLowerLimitSearchWord()
     {
@@ -74,6 +78,8 @@ abstract class Fi_FILocalise
      * @return  integer  The upper length limit of search words.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1 vanhentunut, poistetaan ilman korvaavaa funktiota versiossa 7.0
      */
     public static function getUpperLimitSearchWord()
     {
@@ -86,6 +92,8 @@ abstract class Fi_FILocalise
      * @return  integer  The number of chars to display when searching.
      *
      * @since   1.6
+     *
+     * @deprecated 5.1 vanhentunut, poistetaan ilman korvaavaa funktiota versiossa 7.0
      */
     public static function getSearchDisplayedCharactersNumber()
     {

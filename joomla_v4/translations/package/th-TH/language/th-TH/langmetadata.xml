@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>Thai (th-TH)</name>
-	<version>4.4.4.1</version>
-	<creationDate>2024-02</creationDate>
+	<version>4.4.14.1</version>
+	<creationDate>2025-04</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
@@ -29,7 +29,7 @@
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน ไฟล์ภาษา :</strong></u></td>
-  		    <td width="60%">4.4.4v1</td>
+  		    <td width="60%">4.4.14v1</td>
   	    </tr>
 				<tr>
   	    	<td width="100%" colspan="2"><hr /></td>

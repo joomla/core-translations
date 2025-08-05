@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>Arabic Unitag (العربية الموحدة)</name>
-	<version/>
-	<creationDate/>
-	<author>Dr. Ashraf Damra</author>
-	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
-	<authorUrl>www.dr-ashraf.com</authorUrl>
-	<copyright>Copyright (C) 2005 - 2021 Open Source Matters &amp; Dr. Ashraf Damra/Abu Nidal. All rights reserved.</copyright>
+	<version>4.4.14</version>
+	<creationDate>2025-04</creationDate>
+	<author>Joomla! Project (Arabic Translation Team)</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[Arabic Unitag language files/Site ملفات اللغة العربية الموحدة/الموقع]]></description>
 	<metadata>

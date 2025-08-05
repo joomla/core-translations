@@ -2,14 +2,14 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Português do Brasil (pt-BR)</name>
 	<tag>pt-BR</tag>
-	<version/>
-	<creationDate/>
+	<version>4.4.14</version>
+	<creationDate>Abril 2025</creationDate>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2013 Open source matters, Inc.</copyright>
 	<license>Licença pública geral GNU versão 2 ou posterior; consulte LICENSE.txt</license>
-	<description>linguagem do site pt-BR</description>
+	<description>pt-BR site language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
