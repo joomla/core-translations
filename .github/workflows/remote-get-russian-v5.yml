@@ -15,7 +15,7 @@ jobs:
     if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Fetch and extract Russian j5 cms
         run: |
           cd ..
@@ -83,7 +83,7 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Russian
