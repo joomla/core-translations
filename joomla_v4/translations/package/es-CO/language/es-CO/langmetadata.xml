@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
-	<name>Spanish (es-ES)</name>
-	<version/>
-	<creationDate/>
-	<author>Spanish [es-ES] Translation Team</author>
-	<authorEmail>traduccion@joomlaes.org</authorEmail>
-	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
-	<copyright>Copyright (C) 2005 - 2025 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later</license>
+	<name>Spanish (Colombia)</name>
+	<version>4.0.0</version>
+	<creationDate>2018-10-17</creationDate>
+	<author>JUG Bogotá</author>
+	<authorEmail>info@jugbogota.org</authorEmail>
+	<authorUrl>www.jugbogota.org</authorUrl>
+	<copyright>Copyright (C) 2006 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[idioma del sitio es-CO]]></description>
 	<metadata>
-		<name>Spanish (es-ES)</name>
-		<nativeName>Español (España)</nativeName>
-		<tag>es-ES</tag>
+		<name>Spanish (Colombia)</name>
+		<nativeName>Spanish (Colombia)</nativeName>
+		<tag>es-CO</tag>
 		<rtl>0</rtl>
 		<locale>es_CO.utf8, es_CO.UTF-8, es_CO, co, colombia</locale>
 		<firstDay>0</firstDay>
