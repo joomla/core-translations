@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Pakiet języka polskiego (pl-PL)</name>
 	<packagename>pl-PL</packagename>
-	<version>5.2.4.1</version>
-	<creationDate>13.05.2025</creationDate>
+	<version>5.3.3.1</version>
+	<creationDate>2025-08-20</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>artur.stepien@bestproject.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
@@ -14,7 +14,7 @@
 	<packagerurl>https://www.joomla.pl</packagerurl>
 	<description>	<![CDATA[
 		<div class="text-center span12"> 
-		<h3>Joomla! - pakiet języka polskiego - 5.2.4</h3>
+		<h3>Joomla! - pakiet języka polskiego - 5.3.3</h3>
 		<p><span style="font-weight: normal">Polskie Centrum Joomla zapewnia społeczności kompletne tłumaczenia Joomla!<br />Ich przygotowanie kosztuje wiele czasu i pracy.</span></p>
 		<div class="alert alert-info">
 		<h3>Wspieramy Ciebię, więc wesprzyj i nas.</h3>

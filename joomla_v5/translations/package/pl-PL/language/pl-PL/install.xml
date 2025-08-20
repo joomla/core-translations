@@ -2,14 +2,14 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Polish (PL)</name>
 	<tag>pl-PL</tag>
-	<version>5.2.4.1</version>
-	<creationDate>13.05.2025</creationDate>
+	<version>5.3.3.1</version>
+	<creationDate>2025-08-20</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>artur.stepien@bestproject.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
 	<copyright>Copyright (C) 2005 - 2025 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License wersja 2 lub późniejsza, zobacz LICENSE.txt</license>
-	<description>pl-PL Język polski witryny Joomla4</description>
+	<description>Polski tłumaczenie dla witryny Joomla!</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
