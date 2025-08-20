@@ -3,7 +3,7 @@
 	<name>French (fr-FR) Language pack</name>
 	<packagename>fr-FR</packagename>
 	<version/>
-	<creationDate>2025-04-15</creationDate>
+	<creationDate/>
 	<author>Joomla! Project - French translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>
@@ -12,11 +12,11 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project - French translation team</packager>
 	<packagerurl>www.joomla.fr</packagerurl>
-	<description><![CDATA[<div style="text-align: left;">
-<h3>Joomla! Full French (fr-FR) Language Package</h3>
-<h3>Pack de langue Joomla! français (fr-FR) complet</h3>
-<p><a href="https:/www.joomla.fr" target="_blank">www.joomla.fr</a> - <a href="mailto:traduction@joomla.fr">traduction@joomla.fr</a></p>
-</div>]]></description>
+	<description><![CDATA[<div style="background: #fff; color: #333; font-weight: normal; padding: 10px 15px; text-align: left;">
+		<h4>Joomla! 5 Full French (fr-FR) Language Package</h4>
+		<h4>Pack de langue Joomla! 5 français (fr-FR) complet</h4>
+		<div style="font-size: 90%"><a href="https:/www.joomla.fr" target="_blank">www.joomla.fr</a> - <a href="mailto:traduction@joomla.fr">traduction@joomla.fr</a></div>
+	</div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="fr-FR">language/fr-FR</folder>

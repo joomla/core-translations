@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
-	<name>Spanish (es-ES)</name>
-	<version/>
-	<creationDate>2025-04</creationDate>
-	<author>Spanish [es-ES] Translation Team</author>
-	<authorEmail>traduccion@joomlaes.org</authorEmail>
+	<name>Spanish (Mexico) (es-MX)</name>
+	<version>5.3.2.1</version>
+	<creationDate>Octubre de 2019</creationDate>
+	<author>Proyecto Joomla</author>
+	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
-	<copyright>Copyright (C) 2005 - 2025 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later</license>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>Licencia Pública General GNU versión 2 o superior; vea LICENSE.txt</license>
 	<description><![CDATA[es-MX administrator language]]></description>
 	<metadata>
-		<name>Spanish (es-ES)</name>
-		<nativeName>Español (España)</nativeName>
-		<tag>es-ES</tag>
+		<name>Spanish (Mexico) (es-MX)</name>
+		<nativeName>Spanish (Mexico) (es-MX)</nativeName>
+		<tag>es-MX</tag>
 		<rtl>0</rtl>
-		<locale>es-ES.utf8, es-ES.UTF-8, es_ES.utf8, es_ES.UTF-8, es-ES, es_ES, es-es, es_es, es, spanish, spanish-es</locale>
+		<locale>es_MX.utf8, es_MX.UTF-8, es_MX, mx, mexico</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar>gregorian</calendar>
+		<calendar>gregoriano</calendar>
 	</metadata>
 	<params/>
 </metafile>

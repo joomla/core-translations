@@ -3,7 +3,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. <https://www.joomla.org>
+ * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  *
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
@@ -13,7 +13,7 @@
 
 // phpcs:disable PSR1.Files.SideEffects
 \defined('_JEXEC') or die;
-// phpcs:enable PSR1.Files.SideEffects
+// phpcs:تمكين PSR1.files.SideEffects
 
 /**
  * ar-AA localise class

@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>English (en-NZ)</name>
 	<tag>en-NZ</tag>
-	<version/>
-	<creationDate/>
+	<version>4.4.13.1</version>
+	<creationDate>2025-06</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
