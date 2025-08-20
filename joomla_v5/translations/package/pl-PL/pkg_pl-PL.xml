@@ -2,22 +2,22 @@
 <extension type="package" method="upgrade">
 	<name>Pakiet języka polskiego (pl-PL)</name>
 	<packagename>pl-PL</packagename>
-	<version>5.1.2.1</version>
-	<creationDate>19.08.2024</creationDate>
+	<version>5.3.3.1</version>
+	<creationDate>2025-08-20</creationDate>
 	<author>Projekt Joomla!</author>
 	<authorEmail>artur.stepien@bestproject.pl</authorEmail>
 	<authorUrl>https://www.joomla.pl</authorUrl>
-	<copyright>Copyright (C) 2005 - 2024 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2025 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License wersja 2 lub późniejsza, zobacz LICENSE.txt</license>
 	<url>https://www.joomla.pl</url>
 	<packager>Polskie Centrum Joomla</packager>
 	<packagerurl>https://www.joomla.pl</packagerurl>
 	<description>	<![CDATA[
 		<div class="text-center span12"> 
-		<h3>Joomla! - pakiet języka polskiego - 5.1.2</h3>
+		<h3>Joomla! - pakiet języka polskiego - 5.3.3</h3>
 		<p><span style="font-weight: normal">Polskie Centrum Joomla zapewnia społeczności kompletne tłumaczenia Joomla!<br />Ich przygotowanie kosztuje wiele czasu i pracy.</span></p>
 		<div class="alert alert-info">
-		<h3>Wspieramy Ciebie, więc wesprzyj i nas.</h3>
+		<h3>Wspieramy Ciebię, więc wesprzyj i nas.</h3>
 		<p>Przekaż darowiznę na stronie <a class="btn btn-info btn-sm text-white" href="https://fundacja.joomla.pl/darowizna" target="_blank">Fundacji PCJ Otwarte Źródła</a></p>
 		<p>&nbsp;</p>
 		</div>
