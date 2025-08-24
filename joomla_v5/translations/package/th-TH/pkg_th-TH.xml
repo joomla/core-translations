@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Thai (th-TH) Language Pack</name>
 	<packagename>th-TH</packagename>
-	<version>5.3.3.1</version>
+	<version>5.3.4.1</version>
 	<creationDate>2025-08</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
@@ -33,7 +33,7 @@
 				</tr>
 				<tr>
 					<td width="40%"><u><strong>เวอร์ชัน ของไฟล์ภาษา :</strong></u></td>
-					<td width="60%">5.3.3v1</td>
+					<td width="60%">5.3.4v1</td>
 				</tr>
 				<tr>
 					<td width="100%" colspan="2"><hr /></td>
