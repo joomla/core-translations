@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Turkish (tr-TR)</name>
 	<tag>tr-TR</tag>
-	<version/>
+	<version>5.3.4</version>
 	<creationDate>08-2025</creationDate>
 	<author>Joomla! Türkiye</author>
 	<authorEmail>info@joomlatr.org</authorEmail>
