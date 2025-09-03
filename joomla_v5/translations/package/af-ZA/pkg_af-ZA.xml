@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Afrikaans (af-ZA) Taalpakket</name>
 	<packagename>af-ZA</packagename>
-	<version>5.3.3.1</version>
+	<version/>
 	<creationDate>2025-08</creationDate>
 	<author>Afrikaans Translation Team</author>
 	<authorEmail>llewellyn.van-der-merwe@community.joomla.org</authorEmail>

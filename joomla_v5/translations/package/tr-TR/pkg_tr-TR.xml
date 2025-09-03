@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Turkish (tr-TR) Dil Paketi</name>
 	<packagename>tr-TR</packagename>
-	<version>5.3.3.1</version>
+	<version>5.3.4.1</version>
 	<creationDate>08-2025</creationDate>
 	<author>Joomla! Türkiye</author>
 	<authorEmail>info@joomlatr.org</authorEmail>
@@ -13,7 +13,7 @@
 	<packager>Joomla! Türkiye</packager>
 	<packagerurl>www.joomlatr.org</packagerurl>
 	<description><![CDATA[<div style="text-align: left;">
-<h3>Joomla! Tam Paket Türkçe (tr-TR) Dil Paketi - Sürüm: 5.3.3.1</h3>
+<h3>Joomla! Tam Paket Türkçe Dil Paketi - Sürüm: 5.3.4.1</h3>
 <p><a href="https://www.joomlatr.org" target="_blank">www.joomlatr.org</a> - <a href="mailto:info@joomlatr.org">info@joomlatr.org</a></p>
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
