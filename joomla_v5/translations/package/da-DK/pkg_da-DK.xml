@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Danish (da-DK) language pack</name>
 	<packagename>da-DK</packagename>
-	<version/>
+	<version>5.3.4.1</version>
 	<creationDate>2025-08</creationDate>
 	<author>Danish Translation Team (Transl.: Ronny Buelund)</author>
 	<authorEmail>mail@danskjoomla.dk</authorEmail>
