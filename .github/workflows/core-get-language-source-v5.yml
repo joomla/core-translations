@@ -23,7 +23,7 @@ jobs:
         run: |
           cd ..
           ls -l
-          wget -nv "https://github.com/joomla/joomla-cms/archive/refs/heads/5.3-dev.zip" -O joomla.zip
+          wget -nv "https://github.com/joomla/joomla-cms/archive/refs/heads/5.4-dev.zip" -O joomla.zip
           unzip joomla.zip
           mv joomla-cms-*-dev joomla-cms
 
