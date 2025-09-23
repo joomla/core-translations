@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Spanish (Mexico) (es-MX)</name>
 	<tag>es-MX</tag>
-	<version/>
+	<version>4.4.14.1</version>
 	<creationDate>Octubre, 2023</creationDate>
 	<author>Proyecto Joomla</author>
 	<authorEmail>admin@joomla.org</authorEmail>
