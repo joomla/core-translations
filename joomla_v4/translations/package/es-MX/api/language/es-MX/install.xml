@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Inglés GB)</name>
 	<tag>es-MX</tag>
-	<version/>
+	<version>4.4.14.1</version>
 	<creationDate>Octubre de 2019</creationDate>
 	<author>Proyecto Joomla</author>
 	<authorEmail>admin@joomla.org</authorEmail>
