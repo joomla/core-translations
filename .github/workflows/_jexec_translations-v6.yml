@@ -20,7 +20,7 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v5
 
-      - name: Check PR content Joomla 5
+      - name: Check PR content Joomla 6
         id: build-v6
         run: |
             mkdir ${{ github.workspace}}/logs
