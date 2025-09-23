@@ -17,15 +17,19 @@ These two files can't be processed manually, because of the amount of work and r
 ## Github Actions - Cron Schedule
 
 ### Blocked time windows
-* UTC 10:00-11:00 -> Project Build J5
+* UTC 10:00-10:30 -> Project Build J5
+* UTC 10:30-11:00 -> Project Build J6
 * UTC 11:00-12:00 -> Project Build J4
-* UTC 22:00-23:00 -> Project Build J5
+* UTC 22:00-22:30 -> Project Build J5
+* UTC 22:30-23:00 -> Project Build J6
 * UTC 23:00-00:00 -> Project Build J4
 * UTC 01:01-02:00 -> J4 Download Installer Translations Crowdin Action
 * UTC 02:01-03:00 -> J4 Download Package Translations Crowdin Action
 * UTC 06:12-07:12 -> Get J4 Core Source and Upload to Crowdin
-* UTC 03:30-04:30 -> J5 Download Installer Translations Crowdin Action
-* UTC 04:01-05:00 -> J5 Download Package Translations Crowdin Action
+* UTC 03:30-03:45 -> J5 Download Installer Translations Crowdin Action
+* UTC 04:01-04:30 -> J5 Download Package Translations Crowdin Action
+* UTC 03:45-04:00 -> J6 Download Installer Translations Crowdin Action
+* UTC 04:31-05:00 -> J6 Download Package Translations Crowdin Action
 * UTC 07:12-07:41 -> Get J5 Core Source and Upload to Crowdin
 * UTC 07:42-08:12 -> Get J6 Core Source
 * UTC 08:01-08:15 -> Get J4 Russian and upload Translations to Crowdin
