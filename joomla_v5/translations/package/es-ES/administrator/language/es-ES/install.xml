@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Spanish (es-ES)</name>
 	<tag>es-ES</tag>
-	<version/>
-	<creationDate>2025-08</creationDate>
+	<version>5.3.4.1</version>
+	<creationDate>2025-09</creationDate>
 	<author>Spanish [es-ES] Translation Team</author>
 	<authorEmail>traduccion@joomlaes.org</authorEmail>
 	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
