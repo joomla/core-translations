@@ -1,0 +1,179 @@
+; Joomla! Projekt
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt
+; Megjegyzés: Ezt a fájlt UTF-8 kódolással kel menteni
+
+én
+nekem
+enyém
+magamat
+mi
+nekünk
+miénk
+magunk
+te
+neked
+tiéd
+magad
+magatok
+ő
+neki
+övé
+maga
+ő
+neki
+övé
+maga
+azt
+azé
+maga
+ők
+nekik
+övék
+övüket
+magukat
+mi
+melyik
+ki
+akit
+ez
+az
+ezek
+azok
+de.
+van
+vannak
+volt
+voltak
+van
+volt
+van
+van
+van
+volt
+volt
+csinál
+csinál
+csinált
+csinál
+akar
+kellene
+tudna
+kéne
+vagyok
+vagy
+van
+van
+van neki
+vagyunk
+vannak
+van nekem
+van neki
+van nekünk
+van nekik
+-nék
+-né
+-né
+-né
+-nénk
+-nék
+fogom
+fog
+fog
+fog
+fogunk
+fognak
+nincs
+nincsenek
+nem volt
+nem voltak
+nincs
+nem volt
+nem volt
+nincs
+nem
+nem volt
+nem akar
+nem akarná
+nem fog
+nem kellene
+nem tud
+nem tud
+nem tudta
+nem kell
+legyen
+ez
+akié
+ami
+itt van
+ott van
+amikor
+ahol
+amiért
+hogyan
+egy
+egy
+a
+és
+de
+ha
+vagy
+mert
+mint
+amíg
+amíg
+-nak/-nek
+-nál/-nél
+által
+számára
+-val/-vel
+rólunk
+ellenére
+között
+bele
+keresztül
+alatt
+Előtte
+Utána
+elejére
+végére
+-hoz/-hez/-höz
+feladó
+fel
+függőlegesen
+be
+ki
+-án/-én
+ki
+fölött
+alatt
+ismét
+további
+akkor
+egyszer
+itt
+itt
+mikor
+ahol
+miért
+hogy
+mind
+bármely
+mindkettő
+minden
+pár
+több
+legtöbb
+egyéb
+néhány
+mint
+nem
+sem
+nem
+csak
+saját
+azonos
+így
+mint
+is
+nagyon

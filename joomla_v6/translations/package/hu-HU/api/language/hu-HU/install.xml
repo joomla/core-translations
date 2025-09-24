@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="api" type="language" method="upgrade">
+	<name>Hungarian (Hungary)</name>
+	<tag>hu-HU</tag>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Magyarország</author>
+	<authorEmail>szerk@joomlacms.hu</authorEmail>
+	<authorUrl>www.joomlacms.hu</authorUrl>
+	<copyright>Minden jog fenntartva (C) 2020 Open Source Matters.</copyright>
+	<license>GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt</license>
+	<description>hu-HU api nyelv</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
