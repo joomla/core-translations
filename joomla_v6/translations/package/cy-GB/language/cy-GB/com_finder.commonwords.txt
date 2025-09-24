@@ -1,0 +1,179 @@
+; Joomla! Project
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; License GNU General Public License version 2 or later; see LICENSE.txt
+; Sylwer : Mae angen cadw'r ffeil hon fel UTF-8
+
+fi
+myfi
+fy
+myfi
+ni
+ein
+ein
+ein hunain
+chi
+eich
+eich
+eich hunan
+eich hunain
+o
+fo
+ei
+ei hunan
+hi
+hithau
+ei
+ei hunan
+ef
+ei
+ei hunan
+nhw
+nhw
+eu
+eu
+eu hunain
+beth
+pa un
+pwy
+pwy
+hwn
+hwnna
+rhain
+rheina
+yb
+is
+are
+was
+were
+be
+been
+being
+have
+has
+had
+having
+do
+does
+did
+doing
+would
+should
+could
+ought
+i'm
+you're
+he's
+she's
+it's
+we're
+they're
+i've
+you've
+we've
+they've
+i'd
+you'd
+he'd
+she'd
+we'd
+they'd
+i'll
+you'll
+he'll
+she'll
+we'll
+they'll
+isn't
+aren't
+wasn't
+weren't
+hasn't
+haven't
+hadn't
+doesn't
+don't
+didn't
+won't
+wouldn't
+shan't
+shouldn't
+can't
+cannot
+couldn't
+mustn't
+let's
+that's
+who's
+what's
+here's
+there's
+when's
+where's
+why's
+how's
+a
+an
+the
+a
+but
+if
+neu
+because
+as
+until
+while
+of
+at
+by
+for
+with
+ynglŷn â
+against
+between
+into
+through
+during
+cyn
+ar ôl
+uwchben
+islaw
+to
+oddi wrth
+i fyny
+i Lawr
+in
+out
+ymlaen
+diffodd
+over
+under
+again
+further
+yna
+unwaith
+here
+there
+when
+where
+why
+how
+pob Un
+unrhyw Un
+y ddau
+each
+few
+more
+most
+arall
+some
+such
+na
+nor
+nid
+dim ond
+own
+same
+so
+than
+too
+very

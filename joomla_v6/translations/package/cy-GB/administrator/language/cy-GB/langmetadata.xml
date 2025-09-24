@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="administrator">
+	<name>Welsh (cy-GB)</name>
+	<version/>
+	<creationDate>2025-09</creationDate>
+	<author>Joomla! Project - Welsh Translation Team</author>
+	<authorEmail>cyfieithu@joomla.cymru</authorEmail>
+	<authorUrl>www.joomla.cymru</authorUrl>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[cy-GB administrator language]]></description>
+	<metadata>
+		<name>Welsh (United Kingdom)</name>
+		<nativeName>Welsh (United Kingdom)</nativeName>
+		<tag>cy-GB</tag>
+		<rtl>0</rtl>
+		<locale>cy_GB.utf8, cy_GB.UTF-8, cy_GB, cy, welsh, welsh-uk, uk, gbr, britain, wales, great britain, uk, united kingdom, united-kingdom</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>
