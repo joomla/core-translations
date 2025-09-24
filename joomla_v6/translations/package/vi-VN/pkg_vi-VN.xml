@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Vietnamese (vi-VN) Language Pack</name>
+	<packagename>vi-VN</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[vi-VN language pack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="vi-VN">language/vi-VN</folder>
+		<folder type="language" client="administrator" id="vi-VN">administrator/language/vi-VN</folder>
+		<folder type="language" client="api" id="vi-VN">api/language/vi-VN</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Joomla được công nhận! Bản dịch">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>
