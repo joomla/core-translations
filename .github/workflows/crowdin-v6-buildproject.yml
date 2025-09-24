@@ -25,4 +25,4 @@ jobs:
         bearerToken: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
     - name: Show Response
-      run: echo ${{ steps.BuildV5CMS.outputs.response }}
+      run: echo ${{ steps.BuildV6CMS.outputs.response }}
