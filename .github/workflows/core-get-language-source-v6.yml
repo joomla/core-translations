@@ -69,38 +69,38 @@ jobs:
           git diff --quiet && git diff --staged --quiet || git commit -am "J6 Source Language update on `date +'%Y-%m-%d'`"
           git push
 
-  # synchronize-with-crowdin:
-  #   needs: build
-  #   # The type of runner that the job will run on
-  #   runs-on: ubuntu-latest
+  synchronize-with-crowdin:
+    needs: build
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
 
-  #   # Steps represent a sequence of tasks that will be executed as part of the job
-  #   steps:
-  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-  #     - name: Checkout
-  #       uses: actions/checkout@v5
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v5
 
-  #     # Runs the Crowdin action command - https://github.com/crowdin/github-action
-  #     - name: crowdin action package files
-  #       uses: crowdin/github-action@v2.9.1
-  #       with:
-  #         # Upload sources to Crowdin
-  #         upload_sources: true
-  #         # Option to specify a path to the configuration file, without / at the beginning
-  #         config: 'Configurations/Crowdin-J6-All.yml'
-  #         # Upload sources to Crowdin branch
-  #         crowdin_branch_name: JoomlaV6
-  #         # Use true for dryrun to test the run without actually processing anything
-  #         dryrun_action: false
+      # Runs the Crowdin action command - https://github.com/crowdin/github-action
+      - name: crowdin action package files
+        uses: crowdin/github-action@v2.11.0
+        with:
+          # Upload sources to Crowdin
+          upload_sources: true
+          # Option to specify a path to the configuration file, without / at the beginning
+          config: 'Configurations/Crowdin-J6-All.yml'
+          # Upload sources to Crowdin branch
+          crowdin_branch_name: JoomlaV6
+          # Use true for dryrun to test the run without actually processing anything
+          dryrun_action: false
 
-  #     - name: crowdin action installer files
-  #       uses: crowdin/github-action@v2.9.1
-  #       with:
-  #         # Upload sources to Crowdin
-  #         upload_sources: true
-  #         # Option to specify a path to the configuration file, without / at the beginning
-  #         config: 'Configurations/Crowdin-J6-Installer.yml'
-  #         # Upload sources to Crowdin branch
-  #         crowdin_branch_name: JoomlaV6
-  #         # Use true for dryrun to test the run without actually processing anything
-  #         dryrun_action: false
+      - name: crowdin action installer files
+        uses: crowdin/github-action@v2.11.0
+        with:
+          # Upload sources to Crowdin
+          upload_sources: true
+          # Option to specify a path to the configuration file, without / at the beginning
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          # Upload sources to Crowdin branch
+          crowdin_branch_name: JoomlaV6
+          # Use true for dryrun to test the run without actually processing anything
+          dryrun_action: false
