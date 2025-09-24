@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="api" type="language" method="upgrade">
+	<name>Finnish (fi-FI)</name>
+	<tag>fi-FI</tag>
+	<version/>
+	<creationDate/>
+	<author>Finnish translation team: Joomla.fi</author>
+	<authorEmail>finnish@joomla.fi</authorEmail>
+	<authorUrl>https://joomla.fi</authorUrl>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>fi-FI api language</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
