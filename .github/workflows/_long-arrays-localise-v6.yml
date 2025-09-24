@@ -1,0 +1,65 @@
+name: "Long arrays in translations v6"
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - l10n_crowdin_package_v6
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  long-arrays:
+    runs-on: ubuntu-latest
+    permissions: read-all
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v5
+
+      - name: Check PR content Joomla v6
+        id: build-v6
+        run: |
+            mkdir ${{ github.workspace}}/logs
+            cd ${{ github.workspace}}/joomla_v6/translations/package
+            grep -rn --include \*.php 'array(' | tee ${{ github.workspace}}/logs/long_arrays_result
+            grep -rnl --include \*.php 'array(' | wc -l | tee ${{ github.workspace}}/logs/long_arrays_files_affected
+            cd ${{ github.workspace}}
+            awk -F/ '{ print $1 }' ${{ github.workspace}}/logs/long_arrays_result | sort -u | wc -l | tee ${{ github.workspace}}/logs/long_arrays_languagepacks_affected
+            aflp=$(head -n 1 ${{ github.workspace}}/logs/long_arrays_languagepacks_affected)
+            affi=$(head -n 1 ${{ github.workspace}}/logs/long_arrays_files_affected)
+            echo -n "$aflp" > ${{ github.workspace}}/logs/long_arrays_languagepacks_affected
+            echo -n "$affi" > ${{ github.workspace}}/logs/long_arrays_files_affected
+            echo -n "v6" > ${{ github.workspace}}/logs/jversion
+            cat ${{ github.workspace}}/logs/long_arrays_result
+  
+
+      - name: Save PR number
+        if: ${{ always() }}
+        run: |
+          echo -n ${{ github.event.pull_request.number }} | tee ./logs/pr_number
+          [ -s ${{ github.workspace}}/logs/pr_number ] || gh pr list --limit 1 --repo joomla/core-translations --author app/github-actions --state open --json number --jq .[].number > ${{ github.workspace}}/logs/pr_number
+          prnumber=$(head -n 1 ${{ github.workspace}}/logs/pr_number)
+          echo -n "$prnumber" > ${{ github.workspace}}/logs/pr_number
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Save PR sha
+        if: ${{ always() }}
+        run: echo ${{ github.sha }} | tee ${{ github.workspace}}/logs/pr_sha
+
+      - name: fail workflow
+        run: |
+         if [ -s ${{ github.workspace}}/logs/long_arrays_result ]; then
+         exit 1
+         fi
+
+      - name: Upload long-arrays-logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: long-arrays-logs
+          path: ${{ github.workspace}}/logs
+

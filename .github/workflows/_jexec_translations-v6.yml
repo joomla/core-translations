@@ -1,0 +1,66 @@
+name: "JEXEC in translations v6"
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - l10n_crowdin_package_v6
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  no-jexec:
+    runs-on: ubuntu-latest
+    permissions: read-all
+
+    steps:
+    
+      - name: Checkout Source Code
+        uses: actions/checkout@v5
+
+      - name: Check PR content Joomla 6
+        id: build-v6
+        run: |
+            mkdir ${{ github.workspace}}/logs
+            cd ${{ github.workspace}}/joomla_v6/translations/package
+            grep -Lr --include \*.php '_JEXEC' | tee ${{ github.workspace}}/logs/jexec_result
+            cd ${{ github.workspace}}
+            cat ${{ github.workspace}}/logs/jexec_result | wc -l | tee ${{ github.workspace}}/logs/files_affected_jexec
+            awk -F/ '{ print $1 }' ${{ github.workspace}}/logs/jexec_result | sort -u | wc -l | tee ${{ github.workspace}}/logs/languagepacks_affected_jexec
+            aflp=$(head -n 1 ${{ github.workspace}}/logs/languagepacks_affected_jexec)
+            affi=$(head -n 1 ${{ github.workspace}}/logs/files_affected_jexec)
+            echo -n "$aflp" > ${{ github.workspace}}/logs/languagepacks_affected_jexec
+            echo -n "$affi" > ${{ github.workspace}}/logs/files_affected_jexec
+            echo -n "v6" > ${{ github.workspace}}/logs/jversion
+            cat ${{ github.workspace}}/logs/jexec_result
+
+
+      - name: Save PR number
+        if: ${{ always() }}
+        run: |
+          echo -n ${{ github.event.pull_request.number }} | tee ${{ github.workspace}}/logs/pr_number
+          [ -s ${{ github.workspace}}/logs/pr_number ] || gh pr list --limit 1 --repo joomla/core-translations --author app/github-actions --state open --json number --jq .[].number > ${{ github.workspace}}/logs/pr_number
+          prnumber=$(head -n 1 ${{ github.workspace}}/logs/pr_number)
+          echo -n "$prnumber" > ${{ github.workspace}}/logs/pr_number
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Save PR sha
+        if: ${{ always() }}
+        run: echo ${{ github.sha }} | tee ${{ github.workspace}}/logs/pr_sha
+
+      - name: fail workflow
+        run: |
+          if [ -s ${{ github.workspace}}/logs/jexec_result ]; then
+          exit 1
+          fi
+
+      - name: JEXEC-logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: JEXEC-logs
+          path: ${{ github.workspace}}/logs
+

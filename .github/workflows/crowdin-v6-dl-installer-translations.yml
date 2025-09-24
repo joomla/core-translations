@@ -1,0 +1,824 @@
+name: J6 Download Installer Translations Crowdin Action
+# Controls when the action will run.
+on:
+  # Runs once a day at 3:45
+  schedule:
+    - cron:  '45 3 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+  CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  synchronize-with-crowdin:
+    if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Crowdin Download Afrikaans
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: af
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Afrikaans Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Amharic",
+      #      "CrowdinID": "am"
+
+      - name: Crowdin Download Arabic
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: ar
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Arabic Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Armenian",
+      #      "CrowdinID": "hy"
+
+      #      "LanguageName": "Azerbaijani",
+      #      "CrowdinID": "az"
+
+      - name: Crowdin Download Basque
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: eu
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Basque Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Belarusian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: be
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Belarusian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Bengali",
+      #      "CrowdinID": "bn"
+
+      #      "LanguageName": "Bosnian",
+      #      "CrowdinID": "bs"
+
+      - name: Crowdin Download Bulgarian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: bg
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Bulgarian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Catalan
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: ca
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Catalan Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Chinese Simplified
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: zh-CN
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Chinese Simplified Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Chinese Traditional
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: zh-TW
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Chinese Traditional Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Croatian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: hr
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Croatian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Czech
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: cs
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Czech Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Danish
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: da
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Danish Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Dari
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: fa-AF
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Dari Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Dutch
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: nl
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Dutch Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Dutch Belgium
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: nl-BE
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Dutch Belgium Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download English Australia
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: en-AU
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New English Australia Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download English Canada
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: en-CA
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New English Canada Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download English New Zealand
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: en-NZ
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New English New Zealand Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "English South Africa",
+      #      "CrowdinID": "en-ZA"
+
+      - name: Crowdin Download English US
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: en-US
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New English US Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Esperanto",
+      #      "CrowdinID": "eo"
+
+      - name: Crowdin Download Estonian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: et
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Estonian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Finnish
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: fi
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Finnish Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download French
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: fr
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New French Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download French Canada
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: fr-CA
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New French Canada Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Galician",
+      #      "CrowdinID": "gl"
+
+      - name: Crowdin Download Georgian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: ka
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Georgian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      # German doesn't use Crowdin
+      # German Austria doesn't use Crowdin
+      # German Liechtenstein doesn't use Crowdin
+      # German Luxombourg doesn't use Crowdin
+      # German Swiss doesn't use Crowdin
+
+      - name: Crowdin Download Greek
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: el
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Greek Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Gujarati",
+      #      "CrowdinID": "gu"
+
+      - name: Crowdin Download Hebrew
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: he
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Hebrew Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Hindi",
+      #      "CrowdinID": "hi"
+
+      - name: Crowdin Download Hungarian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: hu
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Hungarian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Indonesian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: id
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Indonesian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Irish",
+      #      "CrowdinID": "ga"
+
+      - name: Crowdin Download Italian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: it
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Italian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Japanese
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: ja
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Japanese Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Kazakh
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: kk
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Kazakh Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Khmer",
+      #      "CrowdinID": "km"
+
+      - name: Crowdin Download Korean
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: ko
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Korean Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Kyrgyz",
+      #      "CrowdinID": "ky"
+
+      #      "LanguageName": "Lao",
+      #      "CrowdinID": "lo"
+
+      - name: Crowdin Download Latvian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: lv
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Latvian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Lithuanian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: lt
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Lithuanian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Macedonian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: mk
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Macedonian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Malay",
+      #      "CrowdinID": "ms"
+
+      #      "LanguageName": "Malayalam",
+      #      "CrowdinID": "ml"
+
+      #      "LanguageName": "Mongolian",
+      #      "CrowdinID": "mn"
+
+      #      "LanguageName": "Northern Sami",
+      #      "CrowdinID": "se"
+
+      # Joomla INI not ready yet
+      #    - name: Crowdin Download Norwegian Bokmal
+      #      uses: crowdin/github-action@v2.11.0
+      #      with:
+      #        config: 'Configurations/Crowdin-J6-Installer.yml'
+      #        crowdin_branch_name: JoomlaV6
+      #        upload_sources: false
+      #        download_translations: true
+      #        download_language: nb
+      #        skip_untranslated_strings: true
+      #        export_only_approved: true
+      #        commit_message: 'New Norwegian Bokmal Crowdin translations by Github Action'
+      #        localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Norwegian Nynorsk",
+      #      "CrowdinID": "nn-NO"
+
+      #      "LanguageName": "Occitan",
+      #      "CrowdinID": "oc"
+
+      #      "LanguageName": "Pashto",
+      #      "CrowdinID": "ps-AR"
+
+      - name: Crowdin Download Persian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: fa
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Persian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Polish
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: pl
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Polish Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Portuguese
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: pt
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Portuguese Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Portuguese, Brazilian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: pt-BR
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Portuguese, Brazilian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Romanian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: ro
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Romanian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      # Russian doesn't use Crowdin
+      # - name: Crowdin Download Russian
+      #  uses: crowdin/github-action@v2.11.0
+      #  with:
+      #    config: 'Configurations/Crowdin-J6-Installer.yml'
+      #    crowdin_branch_name: JoomlaV6
+      #    upload_sources: false
+      #    download_translations: true
+      #    download_language: ru
+      #    skip_untranslated_strings: true
+      #    export_only_approved: true
+      #    commit_message: 'New Russian Crowdin translations by Github Action'
+      #    localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      # Joomla INI not ready yet
+      # - name: Crowdin Download Serbian (Cyrillic)
+      #  uses: crowdin/github-action@v2.11.0
+      #  with:
+      #    config: 'Configurations/Crowdin-J6-Installer.yml'
+      #    crowdin_branch_name: JoomlaV6
+      #    upload_sources: false
+      #    download_translations: true
+      #    download_language: sr-Cyrl
+      #    skip_untranslated_strings: true
+      #    export_only_approved: true
+      #    commit_message: 'New Serbian Cyrillic Crowdin translations by Github Action'
+      #    localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Serbian (Latin)
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: sr-Latn
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Serbian Latin Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Sinhala",
+      #      "CrowdinID": "si"
+
+      - name: Crowdin Download Slovak
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: sk
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Slovak Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Slovenian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: sl
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Slovenian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Spanish
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: es
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Spanish Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Spanish, Colombia",
+      #      "CrowdinID": "es-CO"
+
+      #      "LanguageName": "Spanish, Mexico",
+      #      "CrowdinID": "es-MX"
+
+      #      "LanguageName": "Swahili",
+      #      "CrowdinID": "sw"
+
+      - name: Crowdin Download Swedish
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: sv
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Swedish Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Syriac",
+      #      "CrowdinID": "syc"
+
+      #      "LanguageName": "Tagalog",
+      #      "CrowdinID": "tl"
+
+      - name: Crowdin Download Tamil
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: ta
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Tamil Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Thai
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: th
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Thai Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Turkish
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: tr
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Turkish Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Turkmen",
+      #      "CrowdinID": "tk"
+
+      - name: Crowdin Download Ukrainian
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: uk
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Ukrainian Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Urdu (India)",
+      #      "CrowdinID": "ur-IN"
+
+      - name: Crowdin Download Urdu (Pakistan)
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: ur
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Urdu (Pakistan) Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      #      "LanguageName": "Uyghur",
+      #      "CrowdinID": "ug"
+
+      - name: Crowdin Download Vietnamese
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: vi
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Vietnamese Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
+
+      - name: Crowdin Download Welsh
+        uses: crowdin/github-action@v2.11.0
+        with:
+          config: 'Configurations/Crowdin-J6-Installer.yml'
+          crowdin_branch_name: JoomlaV6
+          upload_sources: false
+          download_translations: true
+          download_language: cy
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Welsh Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v6'
