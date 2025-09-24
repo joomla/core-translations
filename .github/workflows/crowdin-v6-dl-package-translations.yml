@@ -1,4 +1,4 @@
-name: J5 Download Package Translations Crowdin Action
+name: J6 Download Package Translations Crowdin Action
 # Controls when the action will run.
 on:
   # Runs once a day at 4:31
