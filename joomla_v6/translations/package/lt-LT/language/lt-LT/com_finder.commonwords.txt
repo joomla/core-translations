@@ -1,0 +1,179 @@
+; Joomla! Projektas
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; Licencija GNU General Public License 2 arba naujesnė versija; žr. LICENSE.txt
+; Pastaba: šį failą reikia išsaugoti kaip UTF-8
+
+aš
+aš
+mano
+aš pats
+mes
+mūsų
+mūsų
+mes patys
+tu
+tavo
+tavo
+save
+patys
+jis
+jam
+jo
+pats
+ji
+ją
+jos
+pati
+tai
+jos
+pats
+jie
+juos
+jų
+jų
+patys
+ką
+kurios
+kas
+kam
+tai
+kad
+šie
+tie
+am
+yra
+yra
+buvo
+buvo
+būti
+buvo
+esamas
+turėti
+turi
+turėti
+turintys
+daryti
+daro
+padarė
+daro
+būtų
+turėtų
+galėtų
+turėtų
+aš
+tu esi
+jis yra
+ji yra
+tai
+mes
+jie yra
+aš turiu
+tu turi
+mes turime
+jie turi
+aš norėčiau
+tu nori
+jis norėjo
+ji norėjo
+mes
+jie norėjo
+aš galiu
+tu padarysi
+mes padarysime
+ji bus
+mes padarysime
+jie padarys
+nėra
+nėra
+nebuvo
+nebuvo
+neturi
+neturiu
+neturėjo
+ne
+nedaryk
+nepadarė
+nebus
+nenorėtų
+negalima
+neturėtų
+negaliu
+negali
+negalėto
+neturi
+tegul
+tai
+kas
+kas yra
+štai
+yra
+kada
+kur yra
+kodėl
+kaip yra
+a
+mm
+į
+ir
+bet
+jeigu
+arba
+nes
+kaip
+iki
+kol
+iš
+iš
+nuo
+dėl
+su
+apie
+prieš
+tarp
+į
+per
+metu
+prieš
+po
+virš
+po
+į
+nuo
+aukštyn
+žemyn
+į
+iš
+įjungti
+išjungti
+baigta
+pagal
+vėl
+toliau
+tada
+vieną kartą
+čia
+ten
+kada
+kur
+kodėl
+kaip
+visi
+bet kuris
+abu
+kiekvienas
+keli
+daugiau
+dauguma
+kita
+kai kurie
+toks
+ne
+nei
+ne
+tik
+savo
+tas pats
+taip
+nei
+taip pat
+labai

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="api" type="language" method="upgrade">
+	<name>Lietuvių (lt-LT)</name>
+	<tag>lt-LT</tag>
+	<version/>
+	<creationDate/>
+	<author>Oskaras Jankauskas</author>
+	<authorEmail>master@oskaraz.lt</authorEmail>
+	<authorUrl>www.oskaraz.lt</authorUrl>
+	<copyright>Copyright (C) 2020 - 2019 Open Source Matters, Inc. Visos teisės saugomos.</copyright>
+	<license>GNU General Public License versija 2 arba naujesnė; žr. LICENSE.txt</license>
+	<description>lt-LT api kalba</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
