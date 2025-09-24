@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="site" type="language" method="upgrade">
+	<name>Macedonian (mk-MK)</name>
+	<tag>mk-MK</tag>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project</author>
+	<authorEmail>info@joomla.mk</authorEmail>
+	<authorUrl>joomla.mk</authorUrl>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>Macedonian site language pack for Joomla!</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
