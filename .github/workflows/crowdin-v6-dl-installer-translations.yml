@@ -1,9 +1,9 @@
 name: J6 Download Installer Translations Crowdin Action
 # Controls when the action will run.
 on:
-  # Runs once a day at 4:31
+  # Runs once a day at 3:45
   schedule:
-    - cron:  '31 4 * * *'
+    - cron:  '45 3 * * *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
