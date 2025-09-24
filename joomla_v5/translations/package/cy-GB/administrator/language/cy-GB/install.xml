@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Welsh (cy-GB)</name>
 	<tag>cy-GB</tag>
-	<version/>
-	<creationDate/>
+	<version>5.3.4.1</version>
+	<creationDate>2025-09</creationDate>
 	<author>Joomla! Project - Welsh Translation Team</author>
 	<authorEmail>cyfieithu@joomla.cymru</authorEmail>
 	<authorUrl>www.joomla.cymru</authorUrl>
