@@ -1,0 +1,179 @@
+; Joomla! Project
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; Licenca GNU Opća javna licenca verzija 2 ili kasnija; pogledaj LICENSE.txt
+; Napomena: Ovu datoteku treba spremiti kao UTF-8
+
+ja
+mene
+moj
+sebi
+mi
+naš
+naše
+nas same
+ti
+tvoj
+tvoje
+sebe
+sebe
+on
+mu
+njegov
+on sam
+ona
+njoj
+njezina
+ona osobno
+ono
+njegov
+sebe
+oni
+njima
+njihov
+njihov
+se
+što
+koji
+tko
+kome
+ovo
+to
+ove
+one
+am
+je
+su
+je bilo
+bili
+biti
+bio
+biti će
+imati
+ima
+imao
+imajući
+učiniti
+radi
+učinio
+radeći
+bi
+trebao bi
+mogao
+trebao bi
+ja sam
+ti si
+on je
+ona je
+ono je
+mi smo
+oni su
+ja sam
+ti si
+mi smo
+oni su
+ja bi
+ti bi
+on bi
+ona bi
+mi bismo
+oni bi
+ja ću
+ti ćeš
+on će
+ona će
+mi ćemo
+oni će
+nije
+nisu
+nije
+nisu
+nije
+nisam
+nisam
+ne
+nemoj
+nije
+neće
+ne bi
+neću
+ne bi trebalo
+ne mogu
+ne može
+nije mogao
+ne smije
+hajdemo
+to je
+tko je
+što je
+evo
+tamo je
+kada je
+gdje je
+zašto je
+kako je
+neki
+jedan
+taj
+i
+ali
+ako
+ili
+jer
+kao
+do
+dok
+od
+na
+po
+za
+s
+o
+protiv
+između
+u
+kroz
+tijekom
+prije
+nakon
+iznad
+ispod
+do
+od
+gore
+dolje
+u
+iz
+uključeno
+isključeno
+nad
+pod
+ponovno
+dalje
+zatim
+jednom
+ovdje
+tamo
+kada
+gdje
+zašto
+kako
+sve
+bilo koji
+oba
+svaki
+nekoliko
+više
+većinom
+ostalo
+neki
+takav
+ne
+ni
+ne
+samo
+vlastiti
+isti
+tako
+od
+također
+vrlo
