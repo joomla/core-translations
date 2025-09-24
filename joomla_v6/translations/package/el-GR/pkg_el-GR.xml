@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Ελληνικά (el-GR) Πακέτο γλώσσας</name>
+	<packagename>el-GR</packagename>
+	<version/>
+	<creationDate/>
+	<author>Ομάδα Μετάφρασης: joomla. gr</author>
+	<authorEmail>contact@joomla.gr</authorEmail>
+	<authorUrl>https://www.joomla.gr</authorUrl>
+	<copyright>Copyright (C) 2005 - 2022 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Ομάδα Μετάφρασης: joomla. gr</packager>
+	<packagerurl>https://www.joomla.gr</packagerurl>
+	<description><![CDATA[el-GR language pack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="el-GR">language/el-GR</folder>
+		<folder type="language" client="administrator" id="el-GR">administrator/language/el-GR</folder>
+		<folder type="language" client="api" id="el-GR">api/language/el-GR</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Διαπιστευμένες Μεταφράσεις Joomla">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>
