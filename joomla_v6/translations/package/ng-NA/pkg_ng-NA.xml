@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Oshindonga (nd-NA) Embo Lyelaka</name>
+	<packagename>nd-NA</packagename>
+	<version/>
+	<creationDate/>
+	<author>Oproyeka ya Joomla</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager>Oproyeka ya Joomla</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[nd-NA Embo Lyelaka]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="nd-NA">elaka/nd-NA</folder>
+		<folder type="language" client="administrator" id="nd-NA">amushanga/elaka/nd-NA</folder>
+		<folder type="language" client="api" id="nd-NA">api/elaka/nd-NA</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>
