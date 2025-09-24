@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="api">
+	<name>Hebrew (Israel)</name>
+	<version/>
+	<creationDate/>
+	<author>פרוייקט ג'ומלה</author>
+	<authorEmail>info@joomla.org.il</authorEmail>
+	<authorUrl>www.joomla.org.il</authorUrl>
+	<copyright>Copyright (C) 2020 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[he-IL api language]]></description>
+	<metadata>
+		<name>Hebrew (Israel)</name>
+		<nativeName>Hebrew (Israel)</nativeName>
+		<tag>he-IL</tag>
+		<rtl>1</rtl>
+		<locale>he_IL.utf8, he_IL.UTF-8, he_IL, heb_IL, he, hebrew, hebrew-il, il, israel, heb</locale>
+		<firstDay>1</firstDay>
+		<weekEnd>6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>
