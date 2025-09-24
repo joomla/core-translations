@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="administrator">
+	<name>Português de Portugal (pt-PT)</name>
+	<version>6.0.0.1</version>
+	<creationDate>2025-09-24</creationDate>
+	<author>Comunidade JoomlaPortugal</author>
+	<authorEmail>comunidadejoomlapt@gmail.com</authorEmail>
+	<authorUrl>www.joomlaportugal.org</authorUrl>
+	<copyright>Direitos de Autor (C) 2005 - Open Source Matters, Inc. Todos os direitos reservados.</copyright>
+	<license>Licença Pública Geral GNU - versão 2 ou posterior; ver ficheiro LICENSE.txt</license>
+	<description><![CDATA[Português de Portugal (pt-PT). Idioma da interface da área administrativa]]></description>
+	<metadata>
+		<name>Português (Portugal)</name>
+		<nativeName>Português (Portugal)</nativeName>
+		<tag>pt-PT</tag>
+		<rtl>0</rtl>
+		<locale>pt_PT.utf8, pt_PT.UTF-8, pt_PT, pt, portuguese</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>
