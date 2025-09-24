@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>بسته زبان فارسی دری (fa-AF)</name>
+	<packagename>fa-AF</packagename>
+	<version/>
+	<creationDate/>
+	<author>JoomlaPersian Translation Team</author>
+	<authorEmail>dari@JoomlaPesrain.com</authorEmail>
+	<authorUrl>www.joomlapersian.com</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>JoomlaPersian Translation Team</packager>
+	<packagerurl>www.joomlapersian.com</packagerurl>
+	<description><![CDATA[بسته زبان fa-AF]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="fa-AF">language/fa-AF</folder>
+		<folder type="language" client="administrator" id="fa-AF">administrator/language/fa-AF</folder>
+		<folder type="language" client="api" id="fa-AF">api/language/fa-AF</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>
