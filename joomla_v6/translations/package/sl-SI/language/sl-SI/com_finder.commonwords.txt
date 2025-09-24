@@ -1,0 +1,179 @@
+; Joomla! Project
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; License GNU General Public License version 2 or later; see LICENSE.txt
+; Note : This file needs to be saved as UTF-8
+
+jaz
+jaz
+moj
+sebe
+mi
+naš
+naše
+sebe
+ti
+tvoj
+tvoja
+sebe
+sami
+on
+njega
+njegovo
+sam
+ona
+njo
+njen
+njeno
+to
+svoje
+sebe
+oni
+njim
+njihovi
+njihov
+sami
+kaj
+ki
+kdo
+koga
+to
+to
+teh
+tiste
+am
+je
+so
+je bil
+so bili
+biti
+bila
+biti
+imeti
+ima
+imel
+imeti
+do
+naredi
+naredil
+delaš
+bi
+bi morali
+lahko
+moral bi
+jaz sem
+ti si
+on je
+ona je
+to je
+mi smo
+oni so
+sem že
+ti si
+smo že
+so
+jaz bi
+ti bi
+on bi
+ona bi
+vi bi
+oni bi
+jaz bom
+ti boš
+on bo
+ona bo
+mi bomo
+oni bodo
+ni
+niso
+ni bilo
+niso bili
+ni
+nisem
+ni imel
+ne
+ne
+ni
+ne bo
+ne bi
+ne bo
+ne bi smel
+ne morem
+ne more
+ne bi mogel
+ne sme
+dajmo
+to je
+kdo je
+kaj je
+tukaj je
+tam je
+kdaj je
+kje je
+zakaj je
+kako je
+a
+an
+ 
+in
+ampak
+če
+ali
+ker
+kot
+dokler
+medtem
+od
+ob
+od
+za
+z
+približno
+proti
+med
+v
+skozi
+med
+pred tem
+za tem
+nad
+pod
+to
+iz
+gor
+dol
+v
+ven
+on
+izključeno
+nad
+pod
+ponovno
+nadalje
+potem
+enkrat
+tukaj
+tam
+kdaj
+kje
+zakaj
+kako
+vse
+katerikoli
+oba
+vsak
+malo
+več
+najbolj
+ostali
+nekaj
+takšen
+ne
+niti
+ni
+samo
+lastno
+enako
+so
+kot
+preveč
+zelo
