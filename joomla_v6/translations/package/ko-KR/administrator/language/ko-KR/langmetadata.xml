@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="administrator">
+	<name>Korean (ko-KR)</name>
+	<version/>
+	<creationDate/>
+	<author>Joomla! 프로젝트</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[ko-KR administrator language]]></description>
+	<metadata>
+		<name>Korean (ko-KR)</name>
+		<nativeName>Korean (ko-KR)</nativeName>
+		<tag>ko-KR</tag>
+		<rtl>0</rtl>
+		<locale>ko_KR.utf8, ko_KR.UTF-8, ko_KR, kor_KR, Korean, korean-kr, kr, kor, Korea</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>
