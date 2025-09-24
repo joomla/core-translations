@@ -1,0 +1,179 @@
+; Joomla! Project
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; License GNU General Public License version 2 or later; see LICENSE.txt
+; Note : This file needs to be saved as UTF-8
+
+i
+já
+můj
+sám
+my
+náš
+naše
+my sami
+vy
+váš
+vaše
+vás
+sami sebe
+on
+jeho
+mu
+sám sebe
+ona
+jí
+její
+sama
+to
+jeho
+sám
+oni
+jejich
+své
+své
+samy
+co
+které
+kdo
+koho
+toto
+že
+tyto
+tato
+dop.
+je
+jsou
+byl
+byly
+být
+byly
+jsou
+mít
+má
+měl
+má
+udělat
+dělá
+udělal
+dělám
+bude
+by měl
+může
+by měl
+jsem
+jsi
+je
+je
+to je
+jsme
+jsou
+jsem
+jste
+jsme
+jsou
+jsem
+byste
+dáno
+ona je
+my jsme
+oni jsou
+budu
+budete
+bude
+bude
+budeme
+budou
+není
+nejsou
+nebyla
+nebyl
+nemá
+nemáš
+nebylo
+není
+ne
+nebyl
+nebude
+by nebylo
+nebudu
+neměl by
+není možné
+nemohu
+nelze
+nesmí
+pojďme
+je to
+kdo je
+co je
+tady je
+tam je
+když
+kde
+proč
+jak
+a
+z
+flopné
+a
+ale
+pokud
+nebo
+protože
+jako
+do
+zatímco
+z
+u
+podle
+pro
+s
+o
+proti
+mezi
+do
+přes
+během
+před
+po
+nad obsahem
+pod obsahem
+na
+od
+nahoru
+dolů
+v
+mimo
+zapnuto
+nepoužívat
+přes
+pod
+znovu
+další
+potom
+odeslat ručně
+zde
+tam
+když
+kde
+proč
+jak
+všechny
+jakékoli
+oboje
+každý
+několik
+více
+nejvíce
+ostatní
+nějaké
+takhle
+nikdy neodesílat
+ani
+ne
+pouze 'Hlavní články'
+vlastní
+stejné
+tak
+než
+také
+velmi
