@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="api">
+	<name>Inglés GB)</name>
+	<version/>
+	<creationDate>2025-09</creationDate>
+	<author>Proyecto Joomla</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
+	<copyright>Copyright (C) 2020 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>Licencia Pública General GNU versión 2 o superior; vea LICENSE.txt</license>
+	<description><![CDATA[Idioma es-ES de la api]]></description>
+	<metadata>
+		<name>Spanish (Mexico) (es-MX)</name>
+		<nativeName>Spanish (Mexico) (es-MX)</nativeName>
+		<tag>es-MX</tag>
+		<rtl>0</rtl>
+		<locale>es_MX.utf8, es_MX.UTF-8, es_MX, mx, mexico</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregoriano</calendar>
+	</metadata>
+	<params/>
+</metafile>
