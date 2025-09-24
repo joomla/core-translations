@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>French (fr-CA) Language Pack</name>
+	<packagename>fr-CA</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project - Canadian translation team</author>
+	<authorEmail>traduction@joomla.fr</authorEmail>
+	<authorUrl>www.joomla.fr</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project - Canadian translation team</packager>
+	<packagerurl>www.joomla.fr</packagerurl>
+	<description><![CDATA[<div style="text-align: left;">
+<h3>Joomla! 4 Full French canadian (fr-CA) Language Package</h3>
+<h3>Pack de langue Joomla! 4 Français canadien (fr-CA) complet</h3>
+<p><a href="mailto:traduction@joomla.fr">traduction@joomla.fr</a></p>
+</div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="fr-CA">language/fr-CA</folder>
+		<folder type="language" client="administrator" id="fr-CA">administrator/language/fr-CA</folder>
+		<folder type="language" client="api" id="fr-CA">api/language/fr-CA</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>

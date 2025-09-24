@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="api">
+	<name>Arabic Unitag (العربية الموحدة)</name>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project (Arabic Translation Team)</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[واجهة برمجة تطبيق اللغة ar-AA]]></description>
+	<metadata>
+		<name>Arabic (اللغة العربية)</name>
+		<nativeName>Arabic (اللغة العربية)</nativeName>
+		<tag>ar-AA</tag>
+		<rtl>1</rtl>
+		<locale>ar_AR.utf8, ar_AR.UTF-8, ar_AR, ara_AR, arb_AR, arabic_ar, arabe, ara, arab, arabic, ar, arabic_Standard, ar_AR.iso88596, ar_AR.ISO-8859-6, ar_AR.ISO8859-6, ISO-8859-6</locale>
+		<firstDay>1</firstDay>
+		<weekEnd>6,5</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

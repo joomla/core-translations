@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="administrator">
+	<name>Albanian(sq-AL)</name>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail>mirimarku@gmail.com</authorEmail>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<description><![CDATA[Gjuha e administratorit sq-AL]]></description>
+	<metadata>
+		<name>Albanian(sq-AL)</name>
+		<nativeName>Albanian(sq-AL)</nativeName>
+		<tag>sq-AL</tag>
+		<rtl>0</rtl>
+		<locale>sq_AL.utf8, sq_AL.UTF-8, sq_AL, alb_AL, al, albanian, albanian-al, AL, alb, albanian, sq_AL.UTF-8@euro, Albanian_Standard, sq-AL</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

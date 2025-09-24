@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="api">
+	<name>Dutch (nl-NL)</name>
+	<version/>
+	<creationDate>2025-09-30</creationDate>
+	<author>Dutch Translation Team</author>
+	<authorEmail>taal@joomlacommunity.nl</authorEmail>
+	<authorUrl>https://joomlacommunity.nl</authorUrl>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License versie 2 of hoger; zie LICENSE.txt</license>
+	<description><![CDATA[nl-NL api taal]]></description>
+	<metadata>
+		<name>Dutch (nl-NL)</name>
+		<nativeName>Dutch (nl-NL)</nativeName>
+		<tag>nl-NL</tag>
+		<rtl>0</rtl>
+		<locale>nl_NL.utf-8, nl_NL.utf8, nl_NL.UTF-8,nl_NL, nl_NL.UTF-8@euro, nld_NLD, dutch, dutch-nl, nl, netherlands, nl_NL@euro, nl_NL.ISO8859-1, dut-NL, dut_BE, dutch-be, belgium</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

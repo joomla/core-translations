@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="api">
+	<name>Lietuvių (lt-LT)</name>
+	<version/>
+	<creationDate/>
+	<author>Oskaras Jankauskas</author>
+	<authorEmail>master@oskaraz.lt</authorEmail>
+	<authorUrl>www.oskaraz.lt</authorUrl>
+	<copyright>Copyright (C) 2020 - 2019 Open Source Matters, Inc. Visos teisės saugomos.</copyright>
+	<license>GNU General Public License versija 2 arba naujesnė; žr. LICENSE.txt</license>
+	<description><![CDATA[lt-LT api kalba]]></description>
+	<metadata>
+		<name>Lietuvių (lt-LT)</name>
+		<nativeName>Lietuvių (lt-LT)</nativeName>
+		<tag>lt-LT</tag>
+		<rtl>0</rtl>
+		<locale>lt_LT.utf8, lt_LT.UTF-8, lt_LT, lit_LT, lt, lithuanian, lit, lietuva, lietuvių</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

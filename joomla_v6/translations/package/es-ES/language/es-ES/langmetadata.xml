@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="site">
+	<name>Spanish (es-ES)</name>
+	<version/>
+	<creationDate>2025-09</creationDate>
+	<author>Spanish [es-ES] Translation Team</author>
+	<authorEmail>traduccion@joomlaes.org</authorEmail>
+	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
+	<copyright>Copyright (C) 2005 - 2025 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<description><![CDATA[<p>Spanish [es-ES] language pack (site) for Joomla!</p><p></p><p>Paquete de idioma español [es-ES] (sitio) para Joomla!</p>]]></description>
+	<metadata>
+		<name>Spanish (es-ES)</name>
+		<nativeName>Spanish (es-ES)</nativeName>
+		<tag>es-ES</tag>
+		<rtl>0</rtl>
+		<locale>es-ES.utf8, es-ES.UTF-8, es_ES.utf8, es_ES.UTF-8, es-ES, es_ES, es-es, es_es, es, spanish, spanish-es</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

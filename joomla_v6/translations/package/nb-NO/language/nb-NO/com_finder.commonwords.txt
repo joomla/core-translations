@@ -1,0 +1,179 @@
+; Joomla! Project
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; License GNU General Public License version 2 or later; see LICENSE.txt
+; Note : This file needs to be saved as UTF-8
+
+jeg
+meg
+min
+meg selv
+vi
+vår
+våre
+oss selv
+du
+din
+dine
+deg selv
+dine egne
+han
+han
+hans
+han selv
+hun
+hennes
+hennes
+hun selv
+det
+dens
+seg selv
+de
+dem
+deres
+deres
+dem selv
+hva
+hvilken
+hvem
+hvem
+dette
+det
+disse
+disse
+am
+er
+er
+var
+hvor
+være
+vært
+være
+ha
+har
+hadde
+har
+gjør
+gjør
+gjorde
+gjør
+ville
+burde
+kunne
+burde
+jeg er
+du er
+han er
+hun er
+det er
+vi er
+de er
+jeg har
+du har
+vi har
+de har
+jeg ville
+du ville
+han vil
+hun ville
+vi ville
+de ville
+jeg vil
+du vil
+han vil
+hun vil
+vi vil
+de vil
+er ikke
+er ikke
+var ikke
+ble ikke
+har ikke
+har ikke
+hadde ikke
+gjør ikke
+ikke
+gjorde ikke
+vil ikke
+ville ikke
+skal ikke
+burde ikke
+kan ikke
+kan ikke
+kunne ikke
+må ikke
+la oss
+det er
+hvem er
+hva er
+her er
+det er
+når er
+hvor er
+hvorfor er
+hvordan er
+en
+en
+det
+og
+men
+hvis
+eller
+fordi
+som
+til
+mens
+av
+på
+av
+for
+med
+om
+mot
+mellom
+inn i
+gjennom
+under
+før
+etter
+ovenfor
+nedenfor
+til
+fra
+opp
+ned
+inn
+ut
+på
+av
+over
+under
+igjen
+videre
+deretter
+en gang
+her
+der
+når
+hvor
+hvorfor
+hvordan
+alle
+enhver
+begge
+hver
+få
+mer
+mest
+annet
+noen
+som
+nei
+heller ikke
+ikke
+kun
+egen
+samme
+så
+enn
+også
+veldig

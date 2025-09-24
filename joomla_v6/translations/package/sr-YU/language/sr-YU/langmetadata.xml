@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="site">
+	<name>Srpski Latinica (sr-Latn-RS)</name>
+	<version/>
+	<creationDate/>
+	<author>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</author>
+	<authorEmail>info@uixwebdesign.com</authorEmail>
+	<authorUrl>uixwebdesign.com</authorUrl>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License verzija 2 ili novija; pogledaj LICENSE.txt</license>
+	<description><![CDATA[Srpski Latinica jezički paket (Republika Srbija)]]></description>
+	<metadata>
+		<name>Srpski (Republika Srbija)</name>
+		<nativeName>Srpski (Republika Srbija)</nativeName>
+		<tag>sr-YU</tag>
+		<rtl>0</rtl>
+		<locale>sr-YU.utf8, sr-YU.UTF-8, sr-YU, sr-YU, sr, serbian, srpski, srb, latinica, srpski latinica, Serbian Latin, serbia, srbija,sr-Latn-RS,sr-Latn,sr-RS</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

@@ -1,0 +1,179 @@
+; Joomla! Proyecto
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; License GNU General Public License version 2 or later; see LICENSE.txt
+; Note : This file needs to be saved as UTF-8
+
+yo
+a mí
+mi
+yo mismo
+nosotros
+nuestro
+nuestros
+nosotros mismos
+tú
+tuyo
+tuyos
+tú mismo
+vosotros mismos
+él
+a él
+su
+él mismo
+ella
+su
+suyo
+ella misma
+ello
+su
+sí mismo
+ellos
+ellos
+su
+sus
+ellos mismos
+qué
+cuál
+quien
+a quien
+esto
+eso
+estos
+esos
+am
+es
+son
+fue
+fueron
+ser
+sido
+siendo
+tener
+ha
+había
+habiendo
+hacer
+hace
+hizo
+haciendo
+sería
+debería
+podria
+debería
+soy
+eres
+es
+ella es
+es
+somos
+ellos son
+he
+has
+hemos
+han
+habría
+habrías
+habría
+habría
+habríamos
+habrían
+haré
+harás
+hará
+hará
+haremos
+harán
+no es
+no son
+no era
+no fueron
+no ha sido
+no han sido
+no fue
+no
+no
+no fue
+no será
+no sería
+no debe
+no debería
+no puede
+no puede
+no podría
+no debe
+hagamos
+eso es
+quien es
+que es
+aquí es
+ahí es
+cuando es
+donde es
+por qué es
+cómo es
+un
+un
+el
+y
+pero
+si
+o
+porque
+como
+hasta
+mientras
+de
+en
+por
+para
+con
+acerca de
+contra
+entre
+dentro
+hasta
+durante
+antes
+después
+arriba
+abajo
+hasta
+destinatario
+subir
+abajo
+dentro
+fuera
+activado
+desactivado
+sobre
+bajo
+otra vez
+más tarde
+entonces
+una vez
+aquí
+ahí
+cuándo
+dónde
+por qué
+cómo
+todo
+cualquiera
+ambos
+cada
+pocos
+más
+mucho
+otro
+algunos
+tal
+nunca
+ni
+no
+solo
+mi
+mismo
+así
+que
+también
+muy

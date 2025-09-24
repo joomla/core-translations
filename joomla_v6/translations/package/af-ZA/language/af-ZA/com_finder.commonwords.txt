@@ -1,0 +1,179 @@
+; Joomla! Projek
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; Lisensie GNU General Public License weergawe 2 of later; sien LICENSE.txt
+; Nota: Hierdie lêer moet as UTF-8 gestoor word
+
+i
+ek
+my
+myself
+ons
+ons
+ons s'n
+onsself
+jy
+jou
+joune
+jouself
+julleself
+hy
+hom
+syne
+homself
+sy
+haar
+hare
+haarself
+dit
+sy
+self
+hulle
+hulle
+hulle
+hulle s'n
+hulself
+wat
+watter
+wie
+wie
+hierdie
+daardie
+hierdie
+daardie
+vm
+is
+is
+was
+was
+wees
+gewees
+is
+het
+het
+gehad het
+het
+doen
+doen
+gedoen
+doen
+sou
+behoort
+kon
+behoort
+ek is
+jy is
+hy is
+sy is
+dit is
+ons is
+hulle is
+ek het
+jy het
+ons het
+hulle het
+ek sou
+jy sou
+hy sou
+sy sou
+ons sou
+hulle sou
+ek sal
+jy sal
+hy sal
+sy sal
+ons sal
+hulle sal
+is nie
+is nie
+was nie
+was nie
+het nie
+het nie
+het nie
+nie
+moenie
+het nie
+sal nie
+sou nie
+sal nie
+behoort nie
+kan nie
+kan nie
+kon nie
+moet nie
+kom ons
+dit is
+wie is
+wat is
+hier is
+daar is
+wanneer is
+waar is
+hoekom
+hoe is
+'n
+'n
+die
+en
+maar
+as
+of
+want
+as
+totdat
+terwyl
+van
+by
+met
+vir
+met
+oor
+teen
+tussen
+in
+deur
+tydens
+voor
+na
+bo
+onder
+aan
+vanaf
+op
+af
+in
+uit
+aan
+af
+oor
+onder
+weer
+verder
+dan
+een keer
+hier
+daar
+wanneer
+waar
+hoekom
+hoe
+alle
+enige
+beide
+elk
+min
+meer
+meeste
+ander
+sommige
+so
+nee
+ook nie
+nie
+enigste
+eie
+dieselfde
+so
+as
+ook
+baie

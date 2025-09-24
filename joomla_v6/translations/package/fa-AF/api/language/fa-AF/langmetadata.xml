@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="api">
+	<name>فارسی (fa-AF)</name>
+	<version/>
+	<creationDate/>
+	<author>JoomlaPersian Translation Team</author>
+	<authorEmail>dari@JoomlaPesrain.com</authorEmail>
+	<authorUrl>www.joomlapersian.com</authorUrl>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[زبان fa-AF برای API]]></description>
+	<metadata>
+		<name>فارسی (دری)</name>
+		<nativeName>فارسی (دری)</nativeName>
+		<tag>fa-AF</tag>
+		<rtl>1</rtl>
+		<locale>prs-AF.utf8, prs-AF.UTF-8, prs_AF.utf8, prs_AF.UTF-8, fa_AF.utf8, fa_AF.UTF-8, fa_AF, prs_AF, fa-AF.utf8, fa-AF.UTF-8, fa-AF, prs-AF, fa, prs, af, dari</locale>
+		<firstDay>1</firstDay>
+		<weekEnd>5</weekEnd>
+		<calendar>jalali</calendar>
+	</metadata>
+	<params/>
+</metafile>

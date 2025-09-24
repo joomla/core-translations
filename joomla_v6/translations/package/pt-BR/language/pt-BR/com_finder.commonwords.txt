@@ -1,0 +1,179 @@
+; Joomla! Project
+; Direitos Autorais (C) 2019 - Open Source Matters, Inc. Todos os direitos reservados. <https://www.joomla.org>
+; GNU General Public License versão 2 ou superior; veja LICENSE.txt
+; Nota: Esse arquivo precisa ser salvo como UTF-8
+
+eu
+mim
+meu
+eu mesmo
+nós
+nosso
+nossos
+nós mesmos
+você
+seu
+seus
+você mesmo
+vocês mesmos
+ele
+ele
+dele
+ele próprio
+ela
+dela
+delas
+dela mesma
+isto
+isso é
+em si
+eles
+eles
+seu
+seus
+eles mesmos
+que
+o qual
+quem
+o qual
+este
+aquele
+estes
+aqueles
+am
+é
+são
+foi
+eram
+ser
+foram
+sendo
+tem
+tem
+tinha
+tendo
+fazer
+faz
+fez
+fazendo
+seria
+deveria
+poderia
+deveria
+eu sou
+você é
+ele é
+ela é
+isso é
+nós somos
+eles são
+tenho
+você tem
+nós temos
+eles têm
+eu tinha
+você tinha
+ele tinha
+ela tinha
+nós tinhamos
+eles tinham
+eu irei
+você irá
+ele irá
+ela irá
+nós iremos
+eles irão
+não é
+não são
+não foi
+não eram
+não tem
+não tem
+não tinha
+não
+não
+não
+não farão
+não farão
+não deve
+não deveria
+não pode
+não pode
+não pôde
+não deve
+vamos
+que é
+quem é
+o que é
+aqui está
+há
+quando é
+onde está
+por que
+como
+um
+uma
+o
+e
+mas
+se
+ou
+porque
+como
+até
+enquanto
+de
+em
+por
+para
+com
+sobre
+contra
+entre
+para
+através
+durante
+antes
+depois
+acima
+embaixo
+para
+de
+acima
+de cima para baixo
+em
+fora
+ativar
+desativar
+sobre
+sob
+novamente
+adiante
+então
+uma vez
+aqui
+ali
+quando
+onde
+porquê
+como
+todas
+qualquer
+ambos
+cada
+alguns
+mais
+maioria
+outro
+alguns
+tal
+não
+nem
+não
+somente
+possui
+mesmo
+assim
+que
+também
+muito

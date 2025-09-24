@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="site" type="language" method="upgrade">
+	<name>Thai (th-TH)</name>
+	<tag>th-TH</tag>
+	<version/>
+	<creationDate/>
+	<author>Thai Translation Team</author>
+	<authorEmail>tt@joomlacorner.com</authorEmail>
+	<authorUrl>www.joomlacorner.com</authorUrl>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>
+    &lt;div align="center">
+      &lt;table border="0" width="100%">
+  	    &lt;tr>
+  		    &lt;td width="100%" colspan="2">
+  		      &lt;div class="alert alert-success center" align="center">
+  		        &lt;h3 class="alert-heading">ภาษาไทยสำหรับ จูมล่า 3.9 จากทีมจูมล่าคอร์เนอร์ &lt;br />ภายใต้การสนับสนุนของ บริษัท มาร์เวลิค เอ็นจิ้น จำกัด&lt;/h3>
+  		      &lt;/div>
+  		      &lt;hr />
+  		    &lt;/td>
+  	    &lt;/tr>
+  	    &lt;tr>
+  		    &lt;td width="40%">&lt;u>&lt;strong>รายละเอียด :&lt;/strong>&lt;/u>&lt;/td>
+  		    &lt;td width="60%">ภาษาไทยสำหรับไซต์ (ด้านหน้าเว็บไซต์)&lt;/td>
+  	    &lt;/tr>
+  	    &lt;tr>
+  		    &lt;td width="40%">&lt;u>&lt;strong>เวอร์ชัน จูมล่า :&lt;/strong>&lt;/u>&lt;/td>
+  		    &lt;td width="60%">3.9&lt;/td>
+  	    &lt;/tr>
+  	    &lt;tr>
+  		    &lt;td width="40%">&lt;u>&lt;strong>เวอร์ชัน ไฟล์ภาษา :&lt;/strong>&lt;/u>&lt;/td>
+  		    &lt;td width="60%">3.9.28v1&lt;/td>
+  	    &lt;/tr>
+  	    &lt;td width="100%" colspan="2">&lt;hr />&lt;/td>
+  	    &lt;tr>
+  		    &lt;td width="40%">&lt;u>&lt;strong>เว็บไซต์ จูมล่าคอร์เนอร์ :&lt;/strong>&lt;/u>&lt;/td>
+  		    &lt;td width="60%">&lt;a href="https://www.joomlacorner.com" target="_blank">https://www.joomlacorner.com&lt;/a>&lt;/td>
+  		 &lt;/tr>
+  		 &lt;tr>
+   		    &lt;td width="40%">&lt;u>&lt;strong>เว็บไซต์ บริษัท มาร์เวลิค เอ็นจิ้น จำกัด :&lt;/strong>&lt;/u>&lt;/td>
+  		    &lt;td width="60%">&lt;a href="https://www.marvelic.co.th" target="_blank">https://www.marvelic.co.th&lt;/a>&lt;/td>
+  	    &lt;/tr>
+  	    &lt;tr>
+  		    &lt;td width="100%" colspan="2">
+  		      &lt;strong>&lt;font color="#008000">ท่านสามารถติดตามข่าวสารและเวอร์ชันล่าสุด จากเว็บไซต์ของเราข้างต้น&lt;/font>&lt;/strong>
+          &lt;/td>
+  	    &lt;/tr>
+      &lt;/table>
+    &lt;/div></description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>

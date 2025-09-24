@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="api" type="language" method="upgrade">
+	<name>Czech (Čeština)</name>
+	<tag>cs-CZ</tag>
+	<version/>
+	<creationDate/>
+	<author>Czech Translation Team</author>
+	<authorEmail>admin@joomla.cz</authorEmail>
+	<authorUrl>http://www.joomlaportal.cz</authorUrl>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>cs-CZ - API language</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>

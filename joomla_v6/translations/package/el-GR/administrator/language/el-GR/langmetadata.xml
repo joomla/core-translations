@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="administrator">
+	<name>Greek (el-GR)</name>
+	<version/>
+	<creationDate/>
+	<author>Ομάδα Μετάφρασης: joomla. gr</author>
+	<authorEmail>contact@joomla.gr</authorEmail>
+	<authorUrl>https://www.joomla.gr</authorUrl>
+	<copyright>Copyright (C) 2005 - 2022 joomla. gr και Open Source Matters. All rights reserved.</copyright>
+	<license>Γενική Άδεια Δημόσιας Χρήσης GNU έκδοση 2 ή μεταγενέστερη, βλέπε LICENSE.txt</license>
+	<description><![CDATA[greek language pack for Joomla! 4]]></description>
+	<metadata>
+		<name>Greek (el-GR)</name>
+		<nativeName>Greek (el-GR)</nativeName>
+		<tag>el-GR</tag>
+		<rtl>0</rtl>
+		<locale>el_GR.UTF-8, el_GR.UTF8, el_GR.utf-8, el_GR.utf8, greek, el, ell, gr, el_GR, gr_GR, el_GRE, gr_GRE, greece, hellas, hellenic</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

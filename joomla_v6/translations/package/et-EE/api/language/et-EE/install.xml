@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="api" type="language" method="upgrade">
+	<name>Eesti (et-EE)</name>
+	<tag>et-EE</tag>
+	<version/>
+	<creationDate>2025-08</creationDate>
+	<author>Joomla! Project</author>
+	<authorEmail>raudmaa@gmail.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License versioon 2 või uuem; vaata LICENSE.txt</license>
+	<description>et-EE api keel</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>

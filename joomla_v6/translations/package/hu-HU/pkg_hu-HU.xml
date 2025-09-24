@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Magyar (hu-HU) nyelvi csomag</name>
+	<packagename>hu-HU</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Magyarország</author>
+	<authorEmail>szerk@joomlacms.hu</authorEmail>
+	<authorUrl>www.joomlacms.hu</authorUrl>
+	<copyright>Minden jog fenntartva (C) 2019 Open Source Matters.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Magyarország</packager>
+	<packagerurl>www.joomlacms.hu</packagerurl>
+	<description><![CDATA[hu-HU nyelvi csomag]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="hu-HU">language/hu-HU</folder>
+		<folder type="language" client="administrator" id="hu-HU">administrator/language/hu-HU</folder>
+		<folder type="language" client="api" id="hu-HU">api/language/hu-HU</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Akkreditált Joomla! fordítások">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>

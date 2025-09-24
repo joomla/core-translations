@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="administrator" type="language" method="upgrade">
+	<name>Turkish (tr-TR)</name>
+	<tag>tr-TR</tag>
+	<version/>
+	<creationDate>09-2025</creationDate>
+	<author>Joomla! Türkiye</author>
+	<authorEmail>info@joomlatr.org</authorEmail>
+	<authorUrl>www.joomlatr.org</authorUrl>
+	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
+	<license>GNU Genel Kamu Lisansı sürüm 2 veya üzeri; bkz. LICENSE.txt</license>
+	<description>tr-TR yönetici dili</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>
