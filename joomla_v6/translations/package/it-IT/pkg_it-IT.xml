@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Italian (it-IT) Language Pack</name>
 	<packagename>it-IT</packagename>
-	<version/>
-	<creationDate/>
+	<version>6.0.0.1</version>
+	<creationDate>Settembre 2025</creationDate>
 	<author>Joomla! Project (Italian Translation Team)</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -12,13 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project (Italian Translation Team)</packager>
 	<packagerurl>www.joomla.org</packagerurl>
-	<description><![CDATA[<div style="text-align: center;">
-<h3>Joomla! 4.4 Full Italian (it-IT) Language Package - Version 4.4.14.1</h3>
-<h3>Pacchetto completo della lingua italiana di Joomla! 4.4 (it-IT) - Versione 4.4.14.1</h3>
-</div>
-<div class="alert alert-warning alert-wrapper">
-
-</div>]]></description>
+	<description><![CDATA[it-IT language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="it-IT">language/it-IT</folder>
