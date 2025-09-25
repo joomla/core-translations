@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Spanish (Colombia)</name>
 	<tag>es-CO</tag>
-	<version>5.3.4.1</version>
+	<version/>
 	<creationDate>2025-09</creationDate>
 	<author>JUG Bogotá</author>
 	<authorEmail>info@jugbogota.org</authorEmail>
