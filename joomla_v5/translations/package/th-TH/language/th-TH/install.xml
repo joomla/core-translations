@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Thai (th-TH)</name>
 	<tag>th-TH</tag>
-	<version>5.3.4</version>
+	<version/>
 	<creationDate/>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
