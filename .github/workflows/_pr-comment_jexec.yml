@@ -3,7 +3,7 @@ name: PR comment JEXEC
 
 on:
   workflow_run:
-    workflows: ["JEXEC in translations v4", "JEXEC in translations v5"]
+    workflows: ["JEXEC in translations v4", "JEXEC in translations v5", "JEXEC in translations v6"]
     types: [completed]
 
 jobs:
