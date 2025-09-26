@@ -6,9 +6,9 @@ name: J6 Get Ukrainian Translation files
 
 on:
   workflow_dispatch:
-  # Runs once a day at 8:16
+  # Runs once a day at 9:46
   schedule:
-    - cron:  '36 8 * * *'
+    - cron:  '46 9 * * *'
 
 jobs:
   collect-from-external:
