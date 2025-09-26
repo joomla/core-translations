@@ -6,9 +6,9 @@ name: J6 Get Russian Translation files
 
 on:
   workflow_dispatch:
-  # Runs once a day at 9:01
+  # Runs once a day at 9:31
   schedule:
-    - cron:  '01 9 * * *'
+    - cron:  '31 9 * * *'
 
 jobs:
   collect-from-external:
