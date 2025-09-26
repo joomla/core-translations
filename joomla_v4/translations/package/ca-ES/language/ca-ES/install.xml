@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Catalan (ca-ES)</name>
 	<tag>ca-ES</tag>
-	<version>4.4.14.1</version>
+	<version>4.4.14</version>
 	<creationDate>2025-04</creationDate>
 	<author>Catalan [ca-ES] Translation Team</author>
 	<authorEmail>traduccio@joomla.cat</authorEmail>
