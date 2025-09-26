@@ -2,12 +2,12 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Czech (Čeština)</name>
 	<tag>cs-CZ</tag>
-	<version/>
-	<creationDate/>
+	<version>5.4.0</version>
+	<creationDate>2025-09</creationDate>
 	<author>Czech Translation Team</author>
 	<authorEmail>admin@joomla.cz</authorEmail>
 	<authorUrl>http://www.joomlaportal.cz</authorUrl>
-	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2025 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>cs-CZ - Site language</description>
 	<files>
