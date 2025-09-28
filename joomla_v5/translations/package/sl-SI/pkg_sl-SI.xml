@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Slovenian (sl-SI) Jezikovni paket</name>
 	<packagename>sl-SI</packagename>
-	<version/>
-	<creationDate/>
+	<version>5.4.0.1</version>
+	<creationDate>2025-09</creationDate>
 	<author>Slovenska prevajalska ekipa</author>
 	<authorEmail>prevodi@joomla-cms.si</authorEmail>
 	<authorUrl>www.joomla-cms.si</authorUrl>
