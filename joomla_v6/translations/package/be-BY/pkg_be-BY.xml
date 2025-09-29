@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Belarusian (be-BY) Language Pack</name>
 	<packagename>be-BY</packagename>
-	<version/>
+	<version>6.0.0.1</version>
 	<creationDate>2025-09</creationDate>
 	<author>Joomla Belarus Community</author>
 	<authorEmail>admin@joomla.by</authorEmail>
