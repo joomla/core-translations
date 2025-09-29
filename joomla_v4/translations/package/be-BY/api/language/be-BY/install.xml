@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Belarusian (be-BY)</name>
 	<tag>be-BY</tag>
-	<version/>
-	<creationDate/>
+	<version>4.4.14</version>
+	<creationDate>2025-04</creationDate>
 	<author>Joomla Belarus Community</author>
 	<authorEmail>www.joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
