@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>German (Luxembourg) Language Pack</name>
+	<packagename>de-LU</packagename>
+	<version>5.4.0-rc1.1</version>
+	<creationDate>2025-09-30</creationDate>
+	<author>J!German</author>
+	<authorEmail>team@jgerman.de</authorEmail>
+	<authorUrl>https://www.jgerman.de</authorUrl>
+	<copyright>(C) 2008 - 2025 J!German. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<url>https://www.jgerman.de</url>
+	<packager>J!German</packager>
+	<packagerurl>https://www.jgerman.de</packagerurl>
+	<description><![CDATA[
+	<h2>Deutsches Sprachpaket (Version: 5.4.0-rc1.1 vom 30.09.2025) für Joomla! 5.4 von <a title="J!German" href="https://www.jgerman.de" target="_blank" rel="noopener noreferrer">J!German</a></h2>
+	<hr>
+	<p><span style="text-decoration: underline;">Neuinstallation:</span><br>Die deutsche Sprache kann unter <a title="Language(s)" href="index.php?option=com_languages" target="_blank">„Extensions“ &rarr; „Language(s)“</a> als Standardsprache (Default), sowohl für die Website „Installed (Site)“ als auch für die Administration „Installed (Administrator)“, festgelegt werden.</p>
+	<p><span style="text-decoration: underline;">Aktualisierung:</span><br>Es sind keine weiteren Schritte erforderlich.</p>
+	<p><span style="text-decoration: underline;">Fehler:</span><br>Übersetzungsfehler, Tippfehler oder Anregungen können gerne auf GitHub im <a href="https://github.com/joomlagerman/joomla" target="_blank" title="https://github.com/joomlagerman/joomla">joomlagerman/joomla</a> Repository gemeldet werden.</p>
+	<p><span style="text-decoration: underline;">Hinweis:</span><br>Dieses Paket unterstützt die Joomla! eigene <a title="Joomla-Aktualisierungsfunktion" href="index.php?option=com_installer&amp;view=update" target="_blank">Aktualisierungsfunktion</a>.</p>
+	]]>
+	</description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<file type="language" client="site" id="de-LU">site_de-LU.zip</file>
+		<file type="language" client="administrator" id="de-LU">admin_de-LU.zip</file>
+		<file type="language" client="api" id="de-LU">api_de-LU.zip</file>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_5.xml</server>
+	</updateservers>
+</extension>
