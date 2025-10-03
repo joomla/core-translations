@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Tamil (ta-IN) Language Pack</name>
 	<packagename>ta-IN</packagename>
-	<version>4.4.14.1</version>
-	<creationDate>2025-09-30</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</author>
 	<authorEmail>mig.joomla@gmail.com</authorEmail>
 	<authorUrl> </authorUrl>
