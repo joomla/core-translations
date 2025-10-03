@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Eesti (et-EE)</name>
 	<tag>et-EE</tag>
-	<version>4.4.14</version>
-	<creationDate>2025-04</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>raudmaa@gmail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
