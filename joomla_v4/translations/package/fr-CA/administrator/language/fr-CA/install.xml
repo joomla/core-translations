@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>French (fr-CA)</name>
 	<tag>fr-CA</tag>
-	<version/>
+	<version>4.4.15</version>
 	<creationDate/>
 	<author>Joomla! Project - Canadian translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
