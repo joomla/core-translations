@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>Czech (Čeština)</name>
-	<version/>
-	<creationDate/>
+	<version>4.4.15</version>
+	<creationDate>2025-09</creationDate>
 	<author>Czech Translation Team</author>
 	<authorEmail>admin@joomla.cz</authorEmail>
-	<authorUrl/>
-	<copyright/>
+	<authorUrl>https://www.joomlaportal.cz</authorUrl>
+	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[cs-CZ - Site language]]></description>
 	<metadata>
