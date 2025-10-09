@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Finnish (fi-FI)</name>
 	<tag>fi-FI</tag>
-	<version/>
-	<creationDate/>
+	<version>6.0.0</version>
+	<creationDate>2025-09</creationDate>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
