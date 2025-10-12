@@ -36,7 +36,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Akreditovani Joomla! prevodi">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>
