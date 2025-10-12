@@ -3,7 +3,7 @@
 	<name>Turkish (tr-TR) Dil Paketi</name>
 	<packagename>tr-TR</packagename>
 	<version>6.0.0.1</version>
-	<creationDate/>
+	<creationDate>10-2025</creationDate>
 	<author>Joomla! Türkiye</author>
 	<authorEmail>info@joomlatr.org</authorEmail>
 	<authorUrl>www.joomlatr.org</authorUrl>
@@ -24,7 +24,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Resmi Joomla! Çevirileri">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>
