@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Turkish (tr-TR)</name>
 	<tag>tr-TR</tag>
-	<version>4.4.14</version>
-	<creationDate>04-2025</creationDate>
+	<version>4.4.15</version>
+	<creationDate>10-2025</creationDate>
 	<author>Türkçe Çeviri Ekibi Çeviri: Uğur Uygur</author>
 	<authorEmail>info@joomlatr.org</authorEmail>
 	<authorUrl>www.joomlatr.org</authorUrl>

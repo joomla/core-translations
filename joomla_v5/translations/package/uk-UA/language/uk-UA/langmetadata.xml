@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="site">
 	<name>Ukrainian (uk-UA)</name>
-	<version>5.1.3</version>
-	<creationDate>2024-08-23</creationDate>
+	<version>5.3.4</version>
+	<creationDate>2025-10-11</creationDate>
 	<author>Community Joomla! Ukraine</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
-	<copyright>Copyright (C) 2005 - 2024 Open Source Matters. All rights reserved.</copyright>
-	<copyright>Copyright (C) 2006 - 2024 Joomla! Ukraine. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2025 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2006 - 2025 Joomla! Ukraine. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Ukrainian language pack (site) for Joomla!</description>
 	<metadata>

@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Catalan (ca-ES)</name>
 	<tag>ca-ES</tag>
-	<version/>
-	<creationDate/>
+	<version>5.4.0</version>
+	<creationDate>2025-09</creationDate>
 	<author>Catalan [ca-ES] Translation Team</author>
 	<authorEmail>traduccio@joomla.cat</authorEmail>
 	<authorUrl>https://www.joomla.cat</authorUrl>

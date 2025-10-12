@@ -351,7 +351,7 @@ abstract class Uk_UALocalise
 			'Œ' => 'Oe'
 		];
 
-		if(preg_match('/[а-яА-Я]/u', $string))
+		if(preg_match('/[а-яєїґА-ЯЄЇҐ]/u', $string))
 		{
 			return strtr($string, $trans);
 		}

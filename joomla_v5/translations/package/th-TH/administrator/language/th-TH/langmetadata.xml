@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
 	<name>Thai (th-TH)</name>
-	<version/>
-	<creationDate/>
+	<version>5.4.0</version>
+	<creationDate>2025-09</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
@@ -14,7 +14,7 @@
   	    <tr>
   		    <td width="100%" colspan="2">
   		      <div class="alert alert-success center" align="center">
-  		        <h3 class="alert-heading">ภาษาไทยสำหรับ จูมล่า 5.3 จากทีมจูมล่าคอร์เนอร์ <br />ภายใต้การสนับสนุนโดย บริษัท มาร์เวลิค เอ็นจิ้น จำกัด</h3>
+  		        <h3 class="alert-heading">ภาษาไทยสำหรับ จูมล่า 5.4 จากทีมจูมล่าคอร์เนอร์ <br />ภายใต้การสนับสนุนโดย บริษัท มาร์เวลิค เอ็นจิ้น จำกัด</h3>
   		      </div>
   		      <hr />
   		    </td>
@@ -25,11 +25,11 @@
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน จูมล่า :</strong></u></td>
-  		    <td width="60%">5.3</td>
+  		    <td width="60%">5.4</td>
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน ไฟล์ภาษา :</strong></u></td>
-  		    <td width="60%">5.3.4v1</td>
+  		    <td width="60%">5.4.0v1</td>
   	    </tr>
 				<tr>
   	    	<td width="100%" colspan="2"><hr /></td>
