@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="administrator" type="language" method="upgrade">
+	<name>Ukrainian (uk-UA)</name>
+	<tag>uk-UA</tag>
+	<version>5.3.4.1</version>
+	<creationDate>2025-10-12</creationDate>
+	<author>Denys Nosov</author>
+	<authorEmail>denys@joomla-ua.org</authorEmail>
+	<authorUrl>https://joomla-ua.org</authorUrl>
+	<copyright>2006-2025 (C) Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>uk-UA - Administration language</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params />
+</extension>
