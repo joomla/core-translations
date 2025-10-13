@@ -3,7 +3,7 @@
 	<name>Nederlands (nl-BE) taalpakket</name>
 	<packagename>nl-BE</packagename>
 	<version>6.0.0.1</version>
-	<creationDate>2025-10</creationDate>
+	<creationDate/>
 	<author>Dutch (BE) translation team</author>
 	<authorEmail>johan.brusche@gmail.com</authorEmail>
 	<authorUrl>https://downloads.joomla.org/language-packs/translations-joomla6/downloads/joomla6-flemish</authorUrl>
@@ -21,7 +21,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Geaccrediteerde Joomla! vertalingen">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>

@@ -3,7 +3,7 @@
 	<name>French (fr-FR) Language pack</name>
 	<packagename>fr-FR</packagename>
 	<version>6.0.0.1</version>
-	<creationDate>2025-10-14</creationDate>
+	<creationDate/>
 	<author>Joomla! Project - French translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>
@@ -25,7 +25,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Traductions accréditées de Joomla!">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>

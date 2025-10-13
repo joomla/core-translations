@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Meänkieli (fit) Language Pack</name>
 	<packagename>fit</packagename>
-	<version/>
-	<creationDate/>
+	<version>6.0.0.1</version>
+	<creationDate>2025-10</creationDate>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
@@ -25,7 +25,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Akkreditoidut Joomla! Käännökset">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>

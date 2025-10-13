@@ -3,7 +3,7 @@
 	<name>Slovak (sk-SK) Language Pack</name>
 	<packagename>sk-SK</packagename>
 	<version>6.0.0.1</version>
-	<creationDate>2025-09</creationDate>
+	<creationDate>2025-10</creationDate>
 	<author>Slovak translation team : Peter Michnica</author>
 	<authorEmail>sk.joomla.provider554@passinbox.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -21,7 +21,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Akreditované lokalizácie Joomla!">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>

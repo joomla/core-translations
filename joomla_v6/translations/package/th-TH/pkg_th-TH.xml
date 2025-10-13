@@ -3,7 +3,7 @@
 	<name>Thai (th-TH) Language Pack</name>
 	<packagename>th-TH</packagename>
 	<version>6.0.0.1</version>
-	<creationDate>2025-09</creationDate>
+	<creationDate/>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
@@ -61,7 +61,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>
