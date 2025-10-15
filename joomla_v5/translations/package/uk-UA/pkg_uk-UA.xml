@@ -2,17 +2,17 @@
 <extension type="package" method="upgrade">
 	<name>uk-UA</name>
 	<packagename>uk-UA</packagename>
-	<version>5.3.4.1</version>
-	<creationDate>2025-10-12</creationDate>
+	<version>5.4.0.1</version>
+	<creationDate>2025-10-14</creationDate>
 	<author>Denys Nosov</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
 	<copyright>2006-2025 (C) Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
-	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://joomla-ua.org</url>
 	<packager>Joomla! Ukraine</packager>
 	<packagerurl>https://joomla-ua.org</packagerurl>
-	<description><![CDATA[<h3>Український пакет локалізації Joomla! 5.3.4 (Ukrainian Language Pack)</h3><p>Українська спільнота Joomla!</p><ul><li><a href="https://joomla-ua.org/" target="_blank">Joomla! Україна</a></li><li><a href="https://community.joomla-ua.org/" target="_blank">Форум Joomla! Україна</a></li><li><a href="https://t.me/joomlaua" target="_blank">Чат в Telegram</a></li></ul>]]></description>
+	<description><![CDATA[<h3>Український пакет локалізації Joomla! 5.4.0 (Ukrainian Language Pack)</h3><p>Українська спільнота Joomla!</p><ul><li><a href="https://joomla-ua.org/" target="_blank">Joomla! Україна</a></li><li><a href="https://community.joomla-ua.org/" target="_blank">Форум Joomla! Україна</a></li><li><a href="https://t.me/joomlaua" target="_blank">Чат в Telegram</a></li></ul>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="uk-UA">language/uk-UA</folder>
