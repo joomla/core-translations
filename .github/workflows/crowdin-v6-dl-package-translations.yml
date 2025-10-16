@@ -1024,6 +1024,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
 # Polish doesn't use Crowdin
+
     - name: Crowdin Download Portuguese
       uses: crowdin/github-action@v2.11.0
       with:

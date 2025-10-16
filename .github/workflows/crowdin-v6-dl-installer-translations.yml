@@ -560,18 +560,7 @@ jobs:
           commit_message: 'New Persian Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer_v6'
 
-      - name: Crowdin Download Polish
-        uses: crowdin/github-action@v2.11.0
-        with:
-          config: 'Configurations/Crowdin-J6-Installer.yml'
-          crowdin_branch_name: JoomlaV6
-          upload_sources: false
-          download_translations: true
-          download_language: pl
-          skip_untranslated_strings: true
-          export_only_approved: true
-          commit_message: 'New Polish Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer_v6'
+      # Polish doesn't use Crowdin
 
       - name: Crowdin Download Portuguese
         uses: crowdin/github-action@v2.11.0
