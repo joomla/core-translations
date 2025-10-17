@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Portuguese (pt-PT) Language Pack</name>
 	<packagename>pt-PT</packagename>
-	<version>6.0.0.1</version>
+	<version/>
 	<creationDate/>
 	<author>Comunidade JoomlaPortugal</author>
 	<authorEmail>comunidadejoomlapt@gmail.com</authorEmail>

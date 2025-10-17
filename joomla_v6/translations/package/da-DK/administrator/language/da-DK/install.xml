@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Dansk (da-DK)</name>
 	<tag>da-DK</tag>
-	<version>6.0.0</version>
+	<version/>
 	<creationDate>2025-10</creationDate>
 	<author>Danish Translation Team (Transl.: Ronny Buelund)</author>
 	<authorEmail>mail@danskjoomla.dk</authorEmail>
