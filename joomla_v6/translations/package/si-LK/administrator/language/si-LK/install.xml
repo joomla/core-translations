@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="administrator" type="language" method="upgrade">
+	<name/>
+	<tag>si</tag>
+	<version/>
+	<creationDate/>
+	<author>ජූම්ලා! ව්‍යාපෘතිය</author>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright>(C) 2013 - 2018 ඕපන් සෝර්ස් මැටර්ස්. සංස්.</copyright>
+	<license/>
+	<description>si පරිපාලක භාෂාව</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>

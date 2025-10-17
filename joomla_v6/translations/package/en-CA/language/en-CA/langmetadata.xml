@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="site">
+	<name>English (en-CA)</name>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[en-CA site language]]></description>
+	<metadata>
+		<name>English (Canada)</name>
+		<nativeName>English (Canada)</nativeName>
+		<tag>en-CA</tag>
+		<rtl>0</rtl>
+		<locale>en_CA.utf8, en_CA.UTF-8, en_CA, eng_CA, en, english, english-ca, ca, can, canada</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="site">
+	<name>English (en-NZ)</name>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[en-NZ site language]]></description>
+	<metadata>
+		<name>English (New Zealand)</name>
+		<nativeName>English (New Zealand)</nativeName>
+		<tag>en-NZ</tag>
+		<rtl>0</rtl>
+		<locale>en_NZ.utf8, en_NZ.UTF-8, en_NZ, eng_NZ, en, english, english-nz, nz, new zealand, new-zealand</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

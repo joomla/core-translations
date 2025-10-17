@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Czech (cs-CZ) Language Pack</name>
+	<packagename>cs-CZ</packagename>
+	<version/>
+	<creationDate>2025-10</creationDate>
+	<author>Czech Translation Team</author>
+	<authorEmail>admin@joomla.cz</authorEmail>
+	<authorUrl>www.joomlaportal.cz</authorUrl>
+	<copyright>Copyright (C) 2005 - 2025 Open Source Matters. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Czech Translation Team</packager>
+	<packagerurl>www.joomlaportal.cz</packagerurl>
+	<description><![CDATA[cs-CZ language pack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="cs-CZ">language/cs-CZ</folder>
+		<folder type="language" client="administrator" id="cs-CZ">administrator/language/cs-CZ</folder>
+		<folder type="language" client="api" id="cs-CZ">api/language/cs-CZ</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

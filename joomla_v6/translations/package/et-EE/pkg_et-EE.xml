@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Estonian (et-EE) Language Pack</name>
+	<packagename>et-EE</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project</author>
+	<authorEmail>raudmaa@gmail.com</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[Eesti (et-EE) keelepakett / Estonian languagepack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="et-EE">language/et-EE</folder>
+		<folder type="language" client="administrator" id="et-EE">administrator/language/et-EE</folder>
+		<folder type="language" client="api" id="et-EE">api/language/et-EE</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Akrediteeritud Joomla! tõlge">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

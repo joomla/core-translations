@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Српска ћирилица (sr-RS) језички пакет</name>
+	<packagename>sr-RS</packagename>
+	<version/>
+	<creationDate/>
+	<author>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</author>
+	<authorEmail>prevod@bardak.rs</authorEmail>
+	<authorUrl>https://www.bardak.rs</authorUrl>
+	<copyright>Copyright (C) 2019 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</packager>
+	<packagerurl>https://www.bardak.rs</packagerurl>
+	<description><![CDATA[<div align="center">
+			<div class="alert alert-success" style="background-color:#DFF0D8;border-color:#D6E9C6;color: #468847;padding: 1px 0;">
+				<p></p>
+				<h3><a href="https://volunteers.joomla.org/joomlers/15226-sasa-matic>Joomla! 4 Српски превод (ћирилица)</a></h3>
+				
+				<h4><a href="https://forum.joomla.org/viewforum.php?f=29" title="">Joomla Форум - Србија</a> | <a href="https://volunteers.joomla.org/joomlers/15226-sasa-matic" title="">Подршка за српски језик</a> | <a href="https://docs.joomla.org/Main_Page" title="">Joomla Документација</a> | <a href="https://joomla.crowdin.com/cms/sr-Cyrl" title="">Joomla Платформа за превођење</a></h4>
+
+				<p>Хвала Вам што користите Joomla! CMS са неограниченим могућностима. Управо сте инсталирали пакет за српски језик (ћирилица).</p>
+
+				
+				<span style="color:#FF0000">НАПОМЕНА: Веома је битно да после инсталације и завршетка подешавања отворите додатак: System - Language Code и подесите језичку ознаку на <b>sr-Cyrl-RS</b> уместо досадашње <b>sr-RS</b> да би Ваш сајт био детектован како треба од стране претраживача. У наредним верзијама крећемо са исправљањем генерички преведених константи и исправљањем грешака.</span><p></p>
+				<p>Контактирајте <a href="https://volunteers.joomla.org/joomlers/15226-sasa-matic" title='Joomla профил контролора!'>контролора за српски језик (ћирилица) </a>уколико имате било какве сугестије.</p>
+
+			</div>
+			
+		</div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="sr-RS">language/sr-RS</folder>
+		<folder type="language" client="administrator" id="sr-RS">administrator/language/sr-RS</folder>
+		<folder type="language" client="api" id="sr-RS">api/language/sr-RS</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Акредитовани Joomla! преводи">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

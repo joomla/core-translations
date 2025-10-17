@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Finnish (fi-FI) Language Pack</name>
+	<packagename>fi-FI</packagename>
+	<version/>
+	<creationDate>2025-10</creationDate>
+	<author>Finnish translation team: Joomla.fi</author>
+	<authorEmail>finnish@joomla.fi</authorEmail>
+	<authorUrl>https://joomla.fi</authorUrl>
+	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Finnish translation team: Joomla.fi</packager>
+	<packagerurl>https://joomla.fi</packagerurl>
+	<description><![CDATA[fi_FI kielitiedostopaketti]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="fi-FI">language/fi-FI</folder>
+		<folder type="language" client="administrator" id="fi-FI">administrator/language/fi-FI</folder>
+		<folder type="language" client="api" id="fi-FI">api/language/fi-FI</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Akkreditoidut Joomla!-käännökset">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

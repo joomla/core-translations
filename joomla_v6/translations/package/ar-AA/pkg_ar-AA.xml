@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Arabic ar-AA(العربية الموحدة)</name>
+	<packagename>ar-AA</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project (Arabic Translation Team)</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2019 - 2021 Open Source Matters.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project (Arabic Translation Team)</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[
+        <div class="alert alert-info">
+<h4 class="alert-heading" style="direction: rtl;">اللغة العربية</h4>
+<div class="alert-message" style="direction: rtl;">تم تنصيب حزمة اللغة العربية لنظام ادارة محتوى المواقع جوملا، بالكود الموحد.</div>
+</div>
+        ]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="ar-AA">language/ar-AA</folder>
+		<folder type="language" client="administrator" id="ar-AA">administrator/language/ar-AA</folder>
+		<folder type="language" client="api" id="ar-AA">api/language/ar-AA</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

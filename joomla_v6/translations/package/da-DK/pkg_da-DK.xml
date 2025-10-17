@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Danish (da-DK) language pack</name>
+	<packagename>da-DK</packagename>
+	<version/>
+	<creationDate>2025-10</creationDate>
+	<author>Danish Translation Team (Transl.: Ronny Buelund)</author>
+	<authorEmail>mail@danskjoomla.dk</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Danish Translation Team (Transl.: Ronny Buelund)</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[Danish language pack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="da-DK">language/da-DK</folder>
+		<folder type="language" client="administrator" id="da-DK">administrator/language/da-DK</folder>
+		<folder type="language" client="api" id="da-DK">api/language/da-DK</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Akkrediterede Joomla oversættelser">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

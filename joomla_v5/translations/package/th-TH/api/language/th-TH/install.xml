@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Thai (th-TH)</name>
 	<tag>th-TH</tag>
-	<version>5.2.3</version>
-	<creationDate>2024-12</creationDate>
+	<version>5.4.0</version>
+	<creationDate>2025-09</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>

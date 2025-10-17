@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="api">
-	<name>Dutch (nl-BE)</name>
-	<version>4.4.10</version>
-	<creationDate>2025-01-07</creationDate>
+	<name>Vlaams (nl-BE)</name>
+	<version>4.4.15</version>
+	<creationDate>2025-10</creationDate>
 	<author>Dutch (BE) translation team</author>
-	<authorEmail>frank.joris@skynet.be</authorEmail>
+	<authorEmail>johan.brusche@gmail.com</authorEmail>
 	<authorUrl>https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-flemish</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>

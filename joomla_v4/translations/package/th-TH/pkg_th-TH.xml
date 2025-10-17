@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Thai (th-TH) Language Pack</name>
 	<packagename>th-TH</packagename>
-	<version>4.4.10.1</version>
-	<creationDate>2024-10</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>

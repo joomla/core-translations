@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Magyar (hu-HU) nyelvi csomag</name>
 	<packagename>hu-HU</packagename>
-	<version>5.2.3.1</version>
-	<creationDate/>
+	<version>5.4.0.1</version>
+	<creationDate>2025-09</creationDate>
 	<author>Joomla! Magyarország</author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
 	<authorUrl>www.joomlacms.hu</authorUrl>

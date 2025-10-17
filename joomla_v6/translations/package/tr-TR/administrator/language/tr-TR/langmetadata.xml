@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="administrator">
+	<name>Turkish (tr-TR)</name>
+	<version>6.0.1</version>
+	<creationDate>10-2025</creationDate>
+	<author>Joomla! Türkiye</author>
+	<authorEmail>info@joomlatr.org</authorEmail>
+	<authorUrl>www.joomlatr.org</authorUrl>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
+	<license>GNU Genel Kamu Lisansı sürüm 2 veya üzeri; bkz. LICENSE.txt</license>
+	<description><![CDATA[tr-TR yönetici dili]]></description>
+	<metadata>
+		<name>Turkish (Turkey)</name>
+		<nativeName>Turkish (Turkey)</nativeName>
+		<tag>tr-TR</tag>
+		<rtl>0</rtl>
+		<locale>tr_TR.utf8, tr_TR.UTF-8, tr_TR, tr, turkish, turkish-tr, turkey, turkiye</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

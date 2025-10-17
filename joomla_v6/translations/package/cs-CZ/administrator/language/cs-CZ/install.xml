@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="administrator" type="language" method="upgrade">
+	<name>Czech (Čeština)</name>
+	<tag>cs-CZ</tag>
+	<version/>
+	<creationDate>2025-10</creationDate>
+	<author>Czech Translation Team</author>
+	<authorEmail>admin@joomla.cz</authorEmail>
+	<authorUrl>www.joomlaportal.cz</authorUrl>
+	<copyright>Copyright (C) 2005 - 2025 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>cs-CZ - Administration language</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>

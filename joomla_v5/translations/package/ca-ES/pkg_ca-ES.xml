@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Catalan (ca-ES) Language Pack</name>
 	<packagename>ca-ES</packagename>
-	<version>5.2.3.1</version>
-	<creationDate>2025-01</creationDate>
+	<version>5.4.0.1</version>
+	<creationDate>2025-09</creationDate>
 	<author>Catalan [ca-ES] Translation Team</author>
 	<authorEmail>traduccio@joomla.cat</authorEmail>
 	<authorUrl>https://www.joomla.cat</authorUrl>
@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Catalan [ca-ES] Translation Team</packager>
 	<packagerurl>https://www.joomla.cat</packagerurl>
-	<description><![CDATA[<div style="text-align: left;"><h2>Successfully installed the Joomla! 5.2.3 v1 Catalan ca-ES Language Pack</h2><p></p><p>Please report any bugs or issues at the Catalan Translation Team using the mail: traduccio@joomla.cat</p><p>If you wanna help with translations matters the site is at: <a href='https://joomla.cat' target='_blank' rel='noopener noreferrer'>Joomla.cat</a> Contact Us!</p><p></p><p>Translated by: The Catalan Translation Team [ca-ES]</p><h2>El paquet 5.2.3 v1 de l'idioma català ca-ES per a Joomla! s'ha instal·lat correctament.</h2><p></p><p>Si et plau, reporta qualsevol bug o assumpte relacionat a la nostra adreça de correu electrònic: traduccio@joomla.cat</p><p>Si vols col·laborar amb el treball de traducció, estem a: <a href='https://joomla.cat' target='_blank' rel='noopener noreferrer'>Joomla.cat</a> Contacta amb nosaltres!</p><p></p><p>Traducció: Catalan Translation Team [ca-ES]</p></div>]]></description>
+	<description><![CDATA[<div style="text-align: left;"><h2>Successfully installed the Joomla! 5.4.0 v1 Catalan ca-ES Language Pack</h2><p></p><p>Please report any bugs or issues at the Catalan Translation Team using the mail: traduccio@joomla.cat</p><p>If you wanna help with translations matters the site is at: <a href='https://joomla.cat' target='_blank' rel='noopener noreferrer'>Joomla.cat</a> Contact Us!</p><p></p><p>Translated by: The Catalan Translation Team [ca-ES]</p><h2>El paquet 5.4.0 v1 de l'idioma català ca-ES per a Joomla! s'ha instal·lat correctament.</h2><p></p><p>Si et plau, reporta qualsevol bug o assumpte relacionat a la nostra adreça de correu electrònic: traduccio@joomla.cat</p><p>Si vols col·laborar amb el treball de traducció, estem a: <a href='https://joomla.cat' target='_blank' rel='noopener noreferrer'>Joomla.cat</a> Contacta amb nosaltres!</p><p></p><p>Traducció: Catalan Translation Team [ca-ES]</p></div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="ca-ES">language/ca-ES</folder>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="site" type="language" method="upgrade">
-	<name>Spanish (es-ES)</name>
-	<tag>es-ES</tag>
-	<version>4.4.10.1</version>
-	<creationDate>2025-01</creationDate>
-	<author>Spanish [es-ES] Translation Team</author>
-	<authorEmail>traduccion@joomlaes.org</authorEmail>
+	<name>Spanish (Mexico) (es-MX)</name>
+	<tag>es-MX</tag>
+	<version/>
+	<creationDate/>
+	<author>Proyecto Joomla</author>
+	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
-	<copyright>Copyright (C) 2005 - 2025 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 or later</license>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>Licencia Pública General GNU versión 2 o superior; vea LICENSE.txt</license>
 	<description>es-MX site language</description>
 	<files>
 		<folder>/</folder>

@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Hungarian (Hungary)</name>
 	<tag>hu-HU</tag>
-	<version>4.4.10</version>
-	<creationDate>2024-10</creationDate>
+	<version>4.4.15</version>
+	<creationDate>2025-09</creationDate>
 	<author>Joomla! Magyarország</author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
 	<authorUrl>www.joomlacms.hu</authorUrl>

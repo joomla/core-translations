@@ -23,13 +23,13 @@
 abstract class Nl_BELocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * Geeft als resultaat de mogelijke achtervoegsels van een bepaald aantal items
      *
-     * @param   integer  $count  The number of items.
+     * @param integer  $count  Het aantal items.
      *
-     * @return  array  An array of potential suffixes.
+     * @return array van potentiële suffixen.
      *
-     * @since   1.6
+     *@sinds 1.6
      */
     public static function getPluralSuffixes($count)
     {

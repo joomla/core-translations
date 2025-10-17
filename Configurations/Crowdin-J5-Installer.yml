@@ -13,6 +13,12 @@ files:
     translation: /joomla_v5/translations/core/installation/language/%locale%/joomla.ini
     update_option: update_as_unapproved
     type: joomla
+    
+    source: /joomla_v5/source/installation/language/en-GB/joomla.cli.ini
+    dest: 'Installer/language/en-GB/joomla.cli.ini'
+    translation: /joomla_v5/translations/core/installation/language/%locale%/joomla.cli.ini
+    update_option: update_as_unapproved
+    type: joomla
 
   - source: /joomla_v5/source/installation/language/en-GB/langmetadata.xml
     dest: 'Installer/language/en-GB/langmetadata.xml'

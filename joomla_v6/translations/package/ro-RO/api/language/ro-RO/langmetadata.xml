@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="api">
+	<name>Româna (ro-RO)</name>
+	<version/>
+	<creationDate/>
+	<author>Horia Negura - Quanta</author>
+	<authorEmail>fakemoth@gmail.com</authorEmail>
+	<authorUrl>www.quanta-group.ro/</authorUrl>
+	<copyright>Copyright (C) 2020 - 2019 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License versiunea 2 sau mai nouă, a se vedea LICENSE.txt</license>
+	<description><![CDATA[]]></description>
+	<metadata>
+		<name>Română (România)</name>
+		<nativeName>Română (România)</nativeName>
+		<tag>ro-RO</tag>
+		<rtl>0</rtl>
+		<locale>ro_RO.UTF-8, ro_RO.utf8, ro_RO, ro, RO, ro_RO.ISO8859-2, ro_RO.iso88592, ro_RO.ISO8859-16, Romanian, Romania, România</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

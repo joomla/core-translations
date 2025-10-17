@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Korean (ko-KR) 한국어 언어팩</name>
+	<packagename>ko-KR</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! 프로젝트</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! 프로젝트</packager>
+	<packagerurl>www.joomla.org</packagerurl>
+	<description><![CDATA[ko-KR 한국어 언어팩]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="ko-KR">language/ko-KR</folder>
+		<folder type="language" client="administrator" id="ko-KR">administrator/language/ko-KR</folder>
+		<folder type="language" client="api" id="ko-KR">api/language/ko-KR</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

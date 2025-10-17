@@ -1,0 +1,179 @@
+; Joomla! Project Project
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; License GNU General Public License version 2 or later; see LICENSE.txt
+; Note : This file needs to be saved as UTF-8
+
+ik
+mij
+mijn
+mezelf
+wij
+onze
+ons
+wijzelf
+jij
+jouw
+uw
+uzelf
+julliezelf
+hij
+hem
+zijn
+hijzelf
+zij
+haar
+haar
+haarzelf
+het
+zijn
+zichzelf
+zij
+hen
+hun
+hun
+henzelf
+wat
+welke
+wie
+van wie
+dit
+dat
+deze
+die
+am
+is
+zijn
+was
+waren
+ben
+geweest
+zijn
+hebben
+heeft
+had
+hebben
+doe
+doet
+deed
+doen
+zou
+zou
+kon
+zou moeten
+ik ben
+je bent
+hij is
+zij is
+het is
+we zijn
+zij zijn
+ik heb
+je hebt
+we hebben
+ze hebben
+ik zou
+je zou
+hij zou
+zij zou
+we zouden
+ze zouden
+ik zal
+je zal
+hij zal
+zij zal
+we zullen
+ze zullen
+is niet
+zijn niet
+was niet
+waren niet
+heeft niet
+hebben niet
+had niet
+doet niet
+doet niet
+deed niet
+zal niet
+zou niet
+zal niet
+zou niet moeten
+kan niet
+kan niet
+kon niet
+moet niet
+laten
+dat is
+wie is
+wat is
+hier is
+daar is
+wanneer is
+waar is
+waarom is
+hoe is
+een
+een
+de
+en
+maar
+als
+of
+omdat
+als
+totdat
+terwijl
+van
+aan
+door
+voor
+met
+over
+tegen
+tussen
+naar
+door
+tijdens
+voor
+na
+boven
+onder
+naar
+van
+omhoog
+naar beneden
+in
+uit
+aan
+uit
+boven
+onder
+opnieuw
+verder
+dan
+eenmaal
+hier
+daar
+wanneer
+waar
+waarom
+hoe
+alles
+elke
+beide
+elke
+weinige
+meer
+meest
+andere
+enkele
+zo'n
+geen
+noch
+niet
+alleen
+eigen
+zelfde
+dus
+dan
+ook
+zeer

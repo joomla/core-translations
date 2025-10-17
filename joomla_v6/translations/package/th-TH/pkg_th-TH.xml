@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Thai (th-TH) Language Pack</name>
+	<packagename>th-TH</packagename>
+	<version/>
+	<creationDate/>
+	<author>Thai Translation Team</author>
+	<authorEmail>tt@joomlacorner.com</authorEmail>
+	<authorUrl>www.joomlacorner.com</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Thai Translation Team</packager>
+	<packagerurl>www.joomlacorner.com</packagerurl>
+	<description><![CDATA[
+		<div align="center">
+			<table border="0" width="100%">
+				<tr>
+					<td width="100%" colspan="2">
+					<div class="alert alert-success center" align="center">
+					<h3 class="alert-heading">Joomla 6.0 Thai Language Pack by JoomlaCorner Team <br />under Marvelic Engine Co.,Ltd.<br /><br />ภาษาไทยสำหรับจูมล่า 6.0 จากทีมจูมล่าคอร์เนอร์ <br />ภายใต้การสนับสนุนโดย บริษัท มาร์เวลิค เอ็นจิ้น จำกัด</h3>
+					</div>
+					<hr />
+					</td>
+				</tr>
+				<tr>
+					<td width="40%"><u><strong>ประกอบด้วย :</strong></u></td>
+					<td width="60%">ส่วนของผู้ดูแล (ด้านหน้าผู้ดูแล) <br />และส่วนของไซต์ (ด้านหน้าเว็บไซต์)</td>
+				</tr>
+				<tr>
+					<td width="40%"><u><strong>เวอร์ชัน จูมล่า :</strong></u></td>
+					<td width="60%">6.0</td>
+				</tr>
+				<tr>
+					<td width="40%"><u><strong>เวอร์ชัน ของไฟล์ภาษา :</strong></u></td>
+					<td width="60%">6.0.0v1</td>
+				</tr>
+				<tr>
+					<td width="100%" colspan="2"><hr /></td>
+				</tr>
+				<tr>
+					<td width="40%"><u><strong>เว็บไซต์ จูมล่าคอร์เนอร์ :</strong></u></td>
+					<td width="60%"><a href="https://www.joomlacorner.com" target="_blank">https://www.joomlacorner.com</a></td>
+				</tr>
+				<tr>
+					<td width="40%"><u><strong>เว็บไซต์ บริษัท มาร์เวลิค เอ็นจิ้น จำกัด :</strong></u></td>
+					<td width="60%"><a href="https://www.marvelic.co.th" target="_blank">https://www.marvelic.co.th</a></td>
+				</tr>
+				<tr>
+					<td width="100%" colspan="2">
+					<strong><font color="#008000">ท่านสามารถติดตามข่าวสารและเวอร์ชันล่าสุด จากเว็บไซต์ของเราข้างต้น</font></strong>
+					</td>
+				</tr>
+			</table>
+		</div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="th-TH">language/th-TH</folder>
+		<folder type="language" client="administrator" id="th-TH">administrator/language/th-TH</folder>
+		<folder type="language" client="api" id="th-TH">api/language/th-TH</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

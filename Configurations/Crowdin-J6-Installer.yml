@@ -1,0 +1,35 @@
+# Project Public Identifier: cms
+project_id_env: CROWDIN_PROJECT_ID # The numeric project ID.
+api_token_env: CROWDIN_PERSONAL_TOKEN
+base_path: ".."
+base_url: "https://joomla.crowdin.com"
+
+preserve_hierarchy: true
+
+files:
+    # Installation files
+  - source: /joomla_v6/source/installation/language/en-GB/joomla.ini
+    dest: 'Installer/language/en-GB/joomla.ini'
+    translation: /joomla_v6/translations/core/installation/language/%locale%/joomla.ini
+    update_option: update_as_unapproved
+    type: joomla
+    
+    source: /joomla_v6/source/installation/language/en-GB/joomla.cli.ini
+    dest: 'Installer/language/en-GB/joomla.cli.ini'
+    translation: /joomla_v6/translations/core/installation/language/%locale%/joomla.cli.ini
+    update_option: update_as_unapproved
+    type: joomla
+
+  - source: /joomla_v6/source/installation/language/en-GB/langmetadata.xml
+    dest: 'Installer/language/en-GB/langmetadata.xml'
+    translation: /joomla_v6/translations/core/installation/language/%locale%/langmetadata.xml
+    update_option: update_as_unapproved
+    content_segmentation: 0
+    type: xml
+    translatable_elements:
+      - /metafile/name
+      - /metafile/author
+      - /metafile/metadata/name
+      - /metafile/metadata/nativeName
+      - /metafile/metadata/tag
+      - /metafile/metadata/rtl

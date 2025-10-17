@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Norwegian Bokmål (nb-NO)</name>
 	<tag>nb-NO</tag>
-	<version>5.2.3</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>

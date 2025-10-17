@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Hebrew (Israel)</name>
+	<packagename>he-IL</packagename>
+	<version/>
+	<creationDate/>
+	<author>פרוייקט ג'ומלה</author>
+	<authorEmail>info@joomla.org.il</authorEmail>
+	<authorUrl>www.joomla.org.il</authorUrl>
+	<copyright>Copyright (C) 2021 - 2020 Open Source Matters. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>פרוייקט ג'ומלה</packager>
+	<packagerurl>www.joomla.org.il</packagerurl>
+	<description><![CDATA[hebrew language package]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="he-IL">language/he-IL</folder>
+		<folder type="language" client="administrator" id="he-IL">administrator/language/he-IL</folder>
+		<folder type="language" client="api" id="he-IL">api/language/he-IL</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

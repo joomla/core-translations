@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Azerbaijani (Azerbaijan) (az-AZ) Language Pack</name>
+	<packagename/>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail/>
+	<authorUrl/>
+	<copyright/>
+	<license/>
+	<url/>
+	<packager/>
+	<packagerurl/>
+	<description><![CDATA[az-AZ language pack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id=""/>
+		<folder type="language" client="administrator" id=""/>
+		<folder type="language" client="api" id=""/>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

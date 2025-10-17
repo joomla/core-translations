@@ -1,0 +1,39 @@
+name: J4 Upload Austrian Translation files
+
+on:
+  workflow_dispatch:
+
+jobs:
+# Upload language to Crowdin.
+  synchronize-with-crowdin:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - name: Checkout
+      uses: actions/checkout@v5
+
+    # Runs the Crowdin action command - https://github.com/crowdin/github-action
+    - name: Crowdin Upload Austrian
+      uses: crowdin/github-action@v2.11.0
+      with:
+        # Upload sources to Crowdin
+        upload_sources: false
+        # Upload translations to Crowdin
+        upload_translations: true
+        # Define the languages to upload for translations
+        upload_language: 'de-AT'
+        # Automatically approves uploaded translations
+        auto_approve_imported: true
+        # Defines whether to add translation if it is equal to source string in Crowdin project
+        import_eq_suggestions: true
+        # Option to specify a path to the configuration file, without / at the beginning
+        config: 'Configurations/Crowdin-J4-All.yml'
+        # Use true for dryrun to test the run without actually processing anything
+        dryrun_action: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}

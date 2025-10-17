@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="site" type="language" method="upgrade">
+	<name>Dutch (nl-NL)</name>
+	<tag>nl-NL</tag>
+	<version/>
+	<creationDate>2025-10-14</creationDate>
+	<author>Dutch Translation Team</author>
+	<authorEmail>taal@joomlacommunity.nl</authorEmail>
+	<authorUrl>https://joomlacommunity.nl</authorUrl>
+	<copyright>Copyright (C) 2005 - 2022 Dutch Translation Team en Open Source Matters.</copyright>
+	<license>GNU General Public License versie 2 of hoger; zie LICENSE.txt</license>
+	<description>Nederlands taalbestand Joomla! 4.x (site)</description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>

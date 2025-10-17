@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Kyrgyz (ky-KG) Language Pack</name>
+	<packagename>ky-KG</packagename>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail>ohna@bk.ru</authorEmail>
+	<authorUrl>www.joomla.kg</authorUrl>
+	<copyright/>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager/>
+	<packagerurl>www.joomla.kg</packagerurl>
+	<description><![CDATA[<p>Joomla! 4.0.0.1 Kyrgyz Language Package. Бул Joomla расмий локалдаштыруусу, аны кыргыз тилдүү коомчулугу тарабынан колдоого алынган.</p><p>Биз локалдаштырууга жардам берүүгө ар дайым кубанычтабыз! Келип чыккан көйгөй жөнүндө биздин <a href='https://joomla.kg' target='_blank'>Локалдаштыруу расмий сайтына</a> кабарлай аласыз.</p>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="ky-KG"/>
+		<folder type="language" client="administrator" id="ky-KG"/>
+		<folder type="language" client="api" id="ky-KG"/>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

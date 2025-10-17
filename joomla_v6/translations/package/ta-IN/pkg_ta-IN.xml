@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Tamil (ta-IN) Language Pack</name>
+	<packagename>ta-IN</packagename>
+	<version>6.0.1.1</version>
+	<creationDate>2025-11-25</creationDate>
+	<author>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</author>
+	<authorEmail>mig.joomla@gmail.com</authorEmail>
+	<authorUrl> </authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</packager>
+	<packagerurl> </packagerurl>
+	<description><![CDATA[தமிழ்-இந்தியா / Tamil-INDIA (ta-IN) Language Package for Joomla! 6.0.1 - v1]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="ta-IN">language/ta-IN</folder>
+		<folder type="language" client="administrator" id="ta-IN">administrator/language/ta-IN</folder>
+		<folder type="language" client="api" id="ta-IN">api/language/ta-IN</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

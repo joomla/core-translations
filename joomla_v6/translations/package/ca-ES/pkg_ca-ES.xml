@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Catalan (ca-ES) Language Pack</name>
+	<packagename>ca-ES</packagename>
+	<version/>
+	<creationDate/>
+	<author>Catalan [ca-ES] Translation Team</author>
+	<authorEmail>traduccio@joomla.cat</authorEmail>
+	<authorUrl>https://www.joomla.cat</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Catalan [ca-ES] Translation Team</packager>
+	<packagerurl>https://www.joomla.cat</packagerurl>
+	<description><![CDATA[<div style="text-align: left;"><h2>Successfully installed the Joomla! 6.0.0 v1 Catalan ca-ES Language Pack</h2><p></p><p>Please report any bugs or issues at the Catalan Translation Team using the mail: traduccio@joomla.cat</p><p>If you wanna help with translations matters the site is at: <a href='https://joomla.cat' target='_blank' rel='noopener noreferrer'>Joomla.cat</a> Contact Us!</p><p></p><p>Translated by: The Catalan Translation Team [ca-ES]</p><h2>El paquet 6.0.0 v1 de l'idioma català ca-ES per a Joomla! s'ha instal·lat correctament.</h2><p></p><p>Si et plau, reporta qualsevol bug o assumpte relacionat a la nostra adreça de correu electrònic: traduccio@joomla.cat</p><p>Si vols col·laborar amb el treball de traducció, estem a: <a href='https://joomla.cat' target='_blank' rel='noopener noreferrer'>Joomla.cat</a> Contacta amb nosaltres!</p><p></p><p>Traducció: Catalan Translation Team [ca-ES]</p></div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="ca-ES">language/ca-ES</folder>
+		<folder type="language" client="administrator" id="ca-ES">administrator/language/ca-ES</folder>
+		<folder type="language" client="api" id="ca-ES">api/language/ca-ES</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

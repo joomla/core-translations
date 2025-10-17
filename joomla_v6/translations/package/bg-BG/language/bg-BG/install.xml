@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension client="site" type="language" method="upgrade">
+	<name>Български (bg-BG)</name>
+	<tag>bg-BG</tag>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Bulgaria</author>
+	<authorEmail>admin@joomla.bg</authorEmail>
+	<authorUrl>http://www.joomla.bg</authorUrl>
+	<copyright>Copyright (C) 2002 - 2018 Joomla! Bulgaria. All rights reserved.</copyright>
+	<license>GNU General Public License версия 2 или по-късна; Виж LICENSE.txt</license>
+	<description>
+    &lt;p>Превод на Joomla! 4 на български език. Повече информация можете да намерите на сайта на &lt;a title="Joomla! Bulgaria" href="http://www.joomla.bg" target="_blank">Joomla! Bulgaria&lt;/a>.&lt;/p></description>
+	<files>
+		<folder>/</folder>
+		<filename file="meta">install.xml</filename>
+	</files>
+	<params/>
+</extension>

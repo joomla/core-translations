@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="site">
+	<name/>
+	<version/>
+	<creationDate/>
+	<author>عبدالوحید</author>
+	<authorEmail>info@abdulwaheed.pk</authorEmail>
+	<authorUrl>www.abdulwaheed.pk</authorUrl>
+	<copyright>حق اشاعت (ح) ۲۰۰۵ - ۲۰۱۸ آزاد مصدر اہمیت رکھتے ہیں۔ تمام جملہ ھقوق محفوظ ہیں.</copyright>
+	<license>License GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[ur-PK api language]]></description>
+	<metadata>
+		<name>English (United Kingdom)</name>
+		<nativeName>English (United Kingdom)</nativeName>
+		<tag>ur-PK</tag>
+		<rtl>0</rtl>
+		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, english, english-uk, uk, gbr, britain, england, great britain, uk, united kingdom, united-kingdom</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>گریگورین</calendar>
+	</metadata>
+	<params/>
+</metafile>

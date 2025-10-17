@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Afrikaans (af-ZA) Taalpakket</name>
+	<packagename>af-ZA</packagename>
+	<version/>
+	<creationDate/>
+	<author>Afrikaans Translation Team</author>
+	<authorEmail>llewellyn.van-der-merwe@community.joomla.org</authorEmail>
+	<authorUrl>joomla.crowdin.com</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Afrikaans Translation Team</packager>
+	<packagerurl>joomla.crowdin.com</packagerurl>
+	<description><![CDATA[af-ZA taalpakket]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="af-ZA">language/af-ZA</folder>
+		<folder type="language" client="administrator" id="af-ZA">administrator/language/af-ZA</folder>
+		<folder type="language" client="api" id="af-ZA">api/language/af-ZA</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Geakkrediteerde Joomla! Vertalings">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

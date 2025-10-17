@@ -20,10 +20,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Crowdin Download Afrikaans
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -39,7 +39,7 @@ jobs:
       #      "CrowdinID": "am"
 
       - name: Crowdin Download Arabic
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -58,7 +58,7 @@ jobs:
       #      "CrowdinID": "az"
 
       - name: Crowdin Download Basque
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -71,7 +71,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Belarusian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -90,7 +90,7 @@ jobs:
       #      "CrowdinID": "bs"
 
       - name: Crowdin Download Bulgarian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -103,7 +103,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Catalan
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -116,7 +116,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Chinese Simplified
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -129,7 +129,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Chinese Traditional
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -142,7 +142,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Croatian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -155,7 +155,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Czech
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -168,7 +168,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Danish
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -181,7 +181,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Dari
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -194,7 +194,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Dutch
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -207,7 +207,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Dutch Belgium
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -220,7 +220,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download English Australia
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -233,7 +233,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download English Canada
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -246,7 +246,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download English New Zealand
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -262,7 +262,7 @@ jobs:
       #      "CrowdinID": "en-ZA"
 
       - name: Crowdin Download English US
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -278,7 +278,7 @@ jobs:
       #      "CrowdinID": "eo"
 
       - name: Crowdin Download Estonian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -291,7 +291,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Finnish
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -304,7 +304,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download French
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -317,7 +317,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download French Canada
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -333,7 +333,7 @@ jobs:
       #      "CrowdinID": "gl"
 
       - name: Crowdin Download Georgian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -352,7 +352,7 @@ jobs:
       # German Swiss doesn't use Crowdin
 
       - name: Crowdin Download Greek
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -368,7 +368,7 @@ jobs:
       #      "CrowdinID": "gu"
 
       - name: Crowdin Download Hebrew
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -384,7 +384,7 @@ jobs:
       #      "CrowdinID": "hi"
 
       - name: Crowdin Download Hungarian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -397,7 +397,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Indonesian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -413,7 +413,7 @@ jobs:
       #      "CrowdinID": "ga"
 
       - name: Crowdin Download Italian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -426,7 +426,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Japanese
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -439,7 +439,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Kazakh
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -455,7 +455,7 @@ jobs:
       #      "CrowdinID": "km"
 
       - name: Crowdin Download Korean
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -474,7 +474,7 @@ jobs:
       #      "CrowdinID": "lo"
 
       - name: Crowdin Download Latvian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -487,7 +487,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Lithuanian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -500,7 +500,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Macedonian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -526,7 +526,7 @@ jobs:
 
       # Joomla INI not ready yet
       #    - name: Crowdin Download Norwegian Bokmal
-      #      uses: crowdin/github-action@v2.5.0
+      #      uses: crowdin/github-action@v2.11.0
       #      with:
       #        config: 'Configurations/Crowdin-J5-Installer.yml'
       #        crowdin_branch_name: JoomlaV5
@@ -548,7 +548,7 @@ jobs:
       #      "CrowdinID": "ps-AR"
 
       - name: Crowdin Download Persian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -560,21 +560,10 @@ jobs:
           commit_message: 'New Persian Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
-      - name: Crowdin Download Polish
-        uses: crowdin/github-action@v2.5.0
-        with:
-          config: 'Configurations/Crowdin-J5-Installer.yml'
-          crowdin_branch_name: JoomlaV5
-          upload_sources: false
-          download_translations: true
-          download_language: pl
-          skip_untranslated_strings: true
-          export_only_approved: true
-          commit_message: 'New Polish Crowdin translations by Github Action'
-          localization_branch_name: 'l10n_crowdin_installer_v5'
+      # Polish doesn't use Crowdin
 
       - name: Crowdin Download Portuguese
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -587,7 +576,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Portuguese, Brazilian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -600,7 +589,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Romanian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -614,7 +603,7 @@ jobs:
 
       # Russian doesn't use Crowdin
       # - name: Crowdin Download Russian
-      #  uses: crowdin/github-action@v2.5.0
+      #  uses: crowdin/github-action@v2.11.0
       #  with:
       #    config: 'Configurations/Crowdin-J5-Installer.yml'
       #    crowdin_branch_name: JoomlaV5
@@ -628,7 +617,7 @@ jobs:
 
       # Joomla INI not ready yet
       # - name: Crowdin Download Serbian (Cyrillic)
-      #  uses: crowdin/github-action@v2.5.0
+      #  uses: crowdin/github-action@v2.11.0
       #  with:
       #    config: 'Configurations/Crowdin-J5-Installer.yml'
       #    crowdin_branch_name: JoomlaV5
@@ -641,7 +630,7 @@ jobs:
       #    localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Serbian (Latin)
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -657,7 +646,7 @@ jobs:
       #      "CrowdinID": "si"
 
       - name: Crowdin Download Slovak
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -670,7 +659,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Slovenian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -683,7 +672,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Spanish
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -705,7 +694,7 @@ jobs:
       #      "CrowdinID": "sw"
 
       - name: Crowdin Download Swedish
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -724,7 +713,7 @@ jobs:
       #      "CrowdinID": "tl"
 
       - name: Crowdin Download Tamil
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -737,7 +726,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Thai
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -750,7 +739,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Turkish
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -766,7 +755,7 @@ jobs:
       #      "CrowdinID": "tk"
 
       - name: Crowdin Download Ukrainian
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -782,7 +771,7 @@ jobs:
       #      "CrowdinID": "ur-IN"
 
       - name: Crowdin Download Urdu (Pakistan)
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -798,7 +787,7 @@ jobs:
       #      "CrowdinID": "ug"
 
       - name: Crowdin Download Vietnamese
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
@@ -811,7 +800,7 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
       - name: Crowdin Download Welsh
-        uses: crowdin/github-action@v2.5.0
+        uses: crowdin/github-action@v2.11.0
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5

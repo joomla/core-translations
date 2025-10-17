@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Paketa gjuhësore Shqip (sq-AL)</name>
+	<packagename>sq-AL</packagename>
+	<version/>
+	<creationDate/>
+	<author/>
+	<authorEmail>mirimarku@gmail.com</authorEmail>
+	<authorUrl/>
+	<copyright/>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager/>
+	<packagerurl/>
+	<description><![CDATA[paketa gjuhësore sq-AL]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="sq-AL">gjuha/sq-AL</folder>
+		<folder type="language" client="administrator" id="sq-AL">administrator/language/sq-AL</folder>
+		<folder type="language" client="api" id="sq-AL"/>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

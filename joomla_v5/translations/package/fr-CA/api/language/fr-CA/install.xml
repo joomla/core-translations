@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>French (fr-CA)</name>
 	<tag>fr-CA</tag>
-	<version>5.2.3</version>
-	<creationDate>2025-01</creationDate>
+	<version>5.4.0</version>
+	<creationDate>2025-09-30</creationDate>
 	<author>Joomla! Project - French translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>

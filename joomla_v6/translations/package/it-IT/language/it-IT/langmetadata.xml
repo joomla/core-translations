@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="site">
+	<name>Italiano (it-IT)</name>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project (Italian Translation Team)</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[it-IT lingua del sito]]></description>
+	<metadata>
+		<name>Italiano (it-IT)</name>
+		<nativeName>Italiano (it-IT)</nativeName>
+		<tag>it-IT</tag>
+		<rtl>0</rtl>
+		<locale>it_IT.utf8, it_IT.UTF-8, it_IT, ita_IT, it, italian, italian-it, IT, ita, italy, it_IT.UTF-8@euro, Italian_Standard, it-IT</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

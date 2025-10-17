@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Welsh (cy-GB) Language Pack</name>
+	<packagename>cy-GB</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project - Welsh Translation Team</author>
+	<authorEmail>cyfieithu@joomla.cymru</authorEmail>
+	<authorUrl>www.joomla.cymru</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project - Welsh Translation Team</packager>
+	<packagerurl>www.joomla.cymru</packagerurl>
+	<description><![CDATA[<div style="text-align: left;">
+<h3>Pecyn Iaith Llawn Cymraeg (cy-GB) Joomla! 4 - Fersiwn 4.4.12v1</h3>
+<h3>Joomla! 4 Full Welsh (cy-GB) Language Package - Version 4.4.12v1</h3>
+<p><a href="https:/www.joomla.cymru" target="_blank">www.joomla.cymru</a> - <a href="mailto:cyfieithu@joomla.cymru">cyfieithu@joomla.cymru</a></p>
+</div>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="cy-GB">language/cy-GB</folder>
+		<folder type="language" client="administrator" id="cy-GB">administrator/language/cy-GB</folder>
+		<folder type="language" client="api" id="cy-GB">api/language/cy-GB</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Cyfieithiadau Joomla! Achrededig">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Croatian (hr-HR) Language Pack</name>
+	<packagename>hr-HR</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Hrvatska team</author>
+	<authorEmail>prijevod@joomla.hr</authorEmail>
+	<authorUrl>http://www.joomla.hr</authorUrl>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Hrvatska team</packager>
+	<packagerurl>http://www.joomla.hr</packagerurl>
+	<description><![CDATA[hr-HR language pack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="hr-HR">language/hr-HR</folder>
+		<folder type="language" client="administrator" id="hr-HR">administrator/language/hr-HR</folder>
+		<folder type="language" client="api" id="hr-HR">api/language/hr-HR</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Akreditirani Joomla! prijevodi">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

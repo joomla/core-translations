@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Macedonian (mk-MK) Language Pack</name>
+	<packagename>mk-MK</packagename>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Project</author>
+	<authorEmail>info@joomla.mk</authorEmail>
+	<authorUrl>joomla.mk</authorUrl>
+	<copyright>Copyright (C) 2019 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>joomla.mk</packagerurl>
+	<description><![CDATA[Macedonian language pack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="mk-MK">language/mk-MK</folder>
+		<folder type="language" client="administrator" id="mk-MK">administrator/language/mk-MK</folder>
+		<folder type="language" client="api" id="mk-MK">api/language/mk-MK</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

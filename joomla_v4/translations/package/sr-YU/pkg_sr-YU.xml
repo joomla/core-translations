@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Srpski Latinica jezički paket za Joomla 4</name>
 	<packagename>sr-YU</packagename>
-	<version>4.4.10.1</version>
-	<creationDate>2024-10</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</author>
 	<authorEmail>info@uixwebdesign.com</authorEmail>
 	<authorUrl>uixwebdesign.com</authorUrl>

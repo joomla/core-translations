@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="api">
+	<name>Basque (eu-ES)</name>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Basque Translation Team</author>
+	<authorEmail>trslbrr@gmail.com</authorEmail>
+	<authorUrl>(ez dago)</authorUrl>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU-ren Lizentzia Publiko Orokorraren 2. bertsioa edo berriagoa; ikusi LICENSE.txt</license>
+	<description><![CDATA[eu-ES api language]]></description>
+	<metadata>
+		<name>Basque</name>
+		<nativeName>Basque</nativeName>
+		<tag>eu-ES</tag>
+		<rtl>0</rtl>
+		<locale>eu_ES.utf8, eu_ES.UTF-8, eu_ES</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

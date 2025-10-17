@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Portuguese (pt-PT) Language Pack</name>
 	<packagename>pt-PT</packagename>
-	<version>5.2.3.1</version>
-	<creationDate>2025-01-08</creationDate>
+	<version>5.4.0.1</version>
+	<creationDate/>
 	<author>Comunidade JoomlaPortugal</author>
 	<authorEmail>comunidadejoomlapt@gmail.com</authorEmail>
 	<authorUrl>www.joomlaportugal.org</authorUrl>

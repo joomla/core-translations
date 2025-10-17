@@ -1,25 +1,25 @@
-; Joomla! Project
-; Copyright (C) 2005 - 2021 Open Source Matters, Inc. Alle rechten voorbehouden. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; Joomla! Project Project
+; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
+; Licentie GNU General Public License versie 2 of hoger; zie LICENSE.txt
+; Opmerking: dit bestand moet opgeslagen worden als UTF-8
 
 ik
-ik
+mij
 mijn
-zelf
+mezelf
 wij
 onze
 ons
 wijzelf
 jij
 jouw
-jouw
-jezelf
-jijzelf
+uw
+uzelf
+julliezelf
 hij
 hem
 zijn
-zichzelf
+hijzelf
 zij
 haar
 haar
@@ -31,21 +31,21 @@ zij
 hen
 hun
 hun
-zichzelf
+henzelf
 wat
 welke
 wie
-wie
+van wie
 dit
 dat
 deze
 die
-am
+ben
 is
 zijn
 was
 waren
-wees
+ben
 geweest
 zijn
 hebben
@@ -57,7 +57,7 @@ doet
 deed
 doen
 zou
-moet
+zou
 kon
 zou moeten
 ik ben
@@ -66,7 +66,7 @@ hij is
 zij is
 het is
 we zijn
-ze zijn
+zij zijn
 ik heb
 je hebt
 we hebben
@@ -88,15 +88,15 @@ zijn niet
 was niet
 waren niet
 heeft niet
-heeft niet
+hebben niet
 had niet
-heeft niet
-niet
+doet niet
+doet niet
 deed niet
 zal niet
 zou niet
 zal niet
-zou niet
+zou niet moeten
 kan niet
 kan niet
 kon niet
@@ -106,11 +106,11 @@ dat is
 wie is
 wat is
 hier is
-er is
-wanneer
-waar
-waarom
-hoe
+daar is
+wanneer is
+waar is
+waarom is
+hoe is
 een
 een
 de
@@ -120,17 +120,17 @@ als
 of
 omdat
 als
-tot
+totdat
 terwijl
 van
-op
+aan
 door
 voor
 met
 over
 tegen
 tussen
-in
+naar
 door
 tijdens
 voor
@@ -142,7 +142,7 @@ van
 omhoog
 naar beneden
 in
-buiten
+uit
 aan
 uit
 boven
@@ -153,15 +153,15 @@ dan
 eenmaal
 hier
 daar
-als
+wanneer
 waar
 waarom
 hoe
-alle
+alles
 elke
 beide
 elke
-weinig
+weinige
 meer
 meest
 andere
@@ -176,4 +176,4 @@ zelfde
 dus
 dan
 ook
-erg
+zeer

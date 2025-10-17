@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="administrator">
+	<name>Finnish (fi-FI)</name>
+	<version/>
+	<creationDate>2025-10</creationDate>
+	<author>Finnish translation team: Joomla.fi</author>
+	<authorEmail>finnish@joomla.fi</authorEmail>
+	<authorUrl>https://joomla.fi</authorUrl>
+	<copyright>(C) 2005-2021 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[fi-FI administrator language]]></description>
+	<metadata>
+		<name>Finnish (Finland)</name>
+		<nativeName>Finnish (Finland)</nativeName>
+		<tag>fi-FI</tag>
+		<rtl>0</rtl>
+		<locale>fi_FI.UTF-8, fi_FI.utf8, fi_FI.UTF-8@euro, fi_FI.utf8@euro, fi_FI.ISO8859-1, fi_FI.ISO8859-15, fi_FI.iso88591, fi_FI.iso885915, fi_FI, fin_FI, fi, finnish, finnish-fi, fin, suomi</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

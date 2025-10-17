@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Spanish (Mexico) Language Pack</name>
+	<packagename>es-MX</packagename>
+	<version/>
+	<creationDate/>
+	<author>Proyecto Joomla</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
+	<copyright>Copyright (C) 2019 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Proyecto Joomla</packager>
+	<packagerurl>https://joomlaes.org/traduccion</packagerurl>
+	<description><![CDATA[es-MX language pack]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="es-MX">language/es-ES</folder>
+		<folder type="language" client="administrator" id="es-MX">administrator/language/es-ES</folder>
+		<folder type="language" client="api" id="es-MX">api/language/es-ES</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Traducciones Joomla acreditadas">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

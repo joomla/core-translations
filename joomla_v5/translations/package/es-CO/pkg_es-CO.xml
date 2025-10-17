@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
 	<name>Paquete de idioma español colombiano (es-CO)</name>
-	<packagename>es-ES</packagename>
+	<packagename>es-CO</packagename>
 	<version/>
-	<creationDate/>
-	<author>Spanish [es-ES] Translation Team</author>
-	<authorEmail>traduccion@joomlaes.org</authorEmail>
-	<authorUrl>https://joomlaes.org/traduccion</authorUrl>
-	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
+	<creationDate>2025-09</creationDate>
+	<author>JUG Bogotá</author>
+	<authorEmail>info@jugbogota.org</authorEmail>
+	<authorUrl>www.jugbogota.org</authorUrl>
+	<copyright>Copyright (C) 2019 - 2018 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Spanish [es-ES] Translation Team</packager>
-	<packagerurl>https://joomlaes.org/traduccion</packagerurl>
+	<packager>JUG Bogotá</packager>
+	<packagerurl>www.jugbogota.org</packagerurl>
 	<description><![CDATA[Spanish-Colombia (es-CO) Language Pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="es-ES">language/es-ES</folder>
-		<folder type="language" client="administrator" id="es-ES">administrator/language/es-ES</folder>
-		<folder type="language" client="api" id="es-ES">api/language/es-ES</folder>
+		<folder type="language" client="site" id="es-CO">language/es-ES</folder>
+		<folder type="language" client="administrator" id="es-CO">administrator/language/es-ES</folder>
+		<folder type="language" client="api" id="es-CO">api/language/es-ES</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations">

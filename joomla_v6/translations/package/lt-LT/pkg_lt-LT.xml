@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Lithuanian (Lithuania) lt-LT Language Pack</name>
+	<packagename>lt-LT</packagename>
+	<version/>
+	<creationDate/>
+	<author>Oskaras Jankauskas</author>
+	<authorEmail>master@oskaraz.lt</authorEmail>
+	<authorUrl>www.oskaraz.lt</authorUrl>
+	<copyright>Copyright (C) 2019 - 2019 Open Source Matters, Inc. Visos teisės saugomos.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Oskaras Jankauskas</packager>
+	<packagerurl>www.oskaraz.lt</packagerurl>
+	<description><![CDATA[Joomla! lietuvių kalbos paketas]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="site" id="lt-LT">language/lt-LT</folder>
+		<folder type="language" client="administrator" id="lt-LT">administrator/language/lt-LT</folder>
+		<folder type="language" client="api" id="lt-LT">api/language/lt-LT</folder>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Akredituoti „Joomla“! Vertimai">
+			https://update.joomla.org/language/translationlist_6.xml
+		</server>
+	</updateservers>
+</extension>

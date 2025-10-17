@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metafile client="api">
+	<name>Latvian (lv-LV)</name>
+	<version/>
+	<creationDate/>
+	<author>Joomla! Projekts</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Autortiesības (C) 2020 - 2019 Open Source Matters. Visas tiesības aizsargātas.</copyright>
+	<license>GNU General Public License versija 2 vai jaunāka; skatīt LICENSE.txt</license>
+	<description><![CDATA[lv-LV api tulkojums]]></description>
+	<metadata>
+		<name>Latvian (Latvia)</name>
+		<nativeName>Latvian (Latvia)</nativeName>
+		<tag>lv-LV</tag>
+		<rtl>0</rtl>
+		<locale>lv_LV.utf8, lv_LV.UTF-8, lv_Lv, lv, latvian, lav</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
+	</metadata>
+	<params/>
+</metafile>

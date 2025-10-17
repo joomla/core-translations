@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Dutch (nl-NL)</name>
 	<tag>nl-NL</tag>
-	<version>5.2.3</version>
-	<creationDate>2025-01-07</creationDate>
+	<version>5.4.0</version>
+	<creationDate>2025-10-14</creationDate>
 	<author>Dutch Translation Team</author>
 	<authorEmail>taal@joomlacommunity.nl</authorEmail>
 	<authorUrl>https://joomlacommunity.nl</authorUrl>
