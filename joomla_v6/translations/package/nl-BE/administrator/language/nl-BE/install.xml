@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Dutch (nl-BE)</name>
 	<tag>nl-BE</tag>
-	<version/>
+	<version>6.0.1</version>
 	<creationDate>2025-10</creationDate>
 	<author>Dutch (BE) translation team</author>
 	<authorEmail>johan.brusche@gmail.com</authorEmail>
