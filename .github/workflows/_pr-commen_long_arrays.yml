@@ -3,7 +3,7 @@ name: Long arrays PR comment
 
 on:
   workflow_run:
-    workflows: ["Long arrays in translations v4", "Long arrays in translations v5", "Long arrays in translations v6"]
+    workflows: ["Long arrays in translations v5", "Long arrays in translations v6"]
     types: [completed]
 
 jobs:

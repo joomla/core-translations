@@ -8,21 +8,28 @@
 
 # Core Installation Files only allowed from Crowdin
 /joomla_v4/translations/core/installation/language/  @joomla/core-translations-maintainer
+/joomla_v5/translations/core/installation/language/  @joomla/core-translations-maintainer
 
 # Japanese
 /joomla_v4/translations/package/ja-JP/  @joomla/core-translations-maintainer
+/joomla_v5/translations/package/ja-JP/  @joomla/core-translations-maintainer
 
 # German Germany
 /joomla_v4/translations/package/de-DE/  @zero-24 @tecpromotion
+/joomla_v5/translations/package/de-DE/  @zero-24 @tecpromotion
 
 # German Austria
 /joomla_v4/translations/package/de-AT/  @zero-24 @tecpromotion
+/joomla_v5/translations/package/de-AT/  @zero-24 @tecpromotion
 
 # German Liechtenstein
 /joomla_v4/translations/package/de-LI/  @zero-24 @tecpromotion
+/joomla_v5/translations/package/de-LI/  @zero-24 @tecpromotion
 
 # German Luxembourg
 /joomla_v4/translations/package/de-LU/  @zero-24 @tecpromotion
+/joomla_v5/translations/package/de-LU/  @zero-24 @tecpromotion
 
 # German Switzerland
 /joomla_v4/translations/package/de-CH/  @zero-24 @tecpromotion
+/joomla_v5/translations/package/de-CH/  @zero-24 @tecpromotion
