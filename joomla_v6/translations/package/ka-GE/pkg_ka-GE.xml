@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Georgian (ka-GE) Language Pack</name>
 	<packagename>ka-GE</packagename>
-	<version/>
+	<version>6.0.0.1</version>
 	<creationDate>2025-10</creationDate>
 	<author>Georgian Translation Team</author>
 	<authorEmail>z.cherkezishvili@gmail.com</authorEmail>
@@ -10,8 +10,8 @@
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Georgian Translation Team</packager>
-	<packagerurl>https://github.com/Zurabch</packagerurl>
+	<packager>Joomla! Project</packager>
+	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[ka-GE language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
