@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Hungarian (Hungary)</name>
 	<tag>hu-HU</tag>
-	<version/>
+	<version>6.0.1</version>
 	<creationDate>2025-10</creationDate>
 	<author>Joomla! Magyarország</author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
