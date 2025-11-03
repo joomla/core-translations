@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Welsh (cy-GB)</name>
 	<tag>cy-GB</tag>
-	<version>6.0.0.1</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Project - Welsh Translation Team</author>
 	<authorEmail>cyfieithu@joomla.cymru</authorEmail>
