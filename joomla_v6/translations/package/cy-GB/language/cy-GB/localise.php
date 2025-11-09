@@ -41,6 +41,15 @@ abstract class Cy_GBLocalise
                 return ['ONE', '1'];
         }
 
-        
+        if  ($count == 2){
+			return ['TWO', '2'];
+		}
+		if ($count == 3){
+			return ['FEW', '3'];
+		}
+		if ($count == 6){
+			return ['MANY', '6'];
+		}
+else return ['OTHER', 'MORE'];
     }
 }
