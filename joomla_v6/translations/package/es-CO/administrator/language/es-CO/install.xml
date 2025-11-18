@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Spanish (Colombia)</name>
 	<tag>es-CO</tag>
-	<version/>
+	<version>6.0.0.1</version>
 	<creationDate/>
 	<author>JUG Bogotá</author>
 	<authorEmail>info@jugbogota.org</authorEmail>
