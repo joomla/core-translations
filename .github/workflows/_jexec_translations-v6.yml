@@ -18,7 +18,7 @@ jobs:
     steps:
     
       - name: Checkout Source Code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Check PR content Joomla 6
         id: build-v6
