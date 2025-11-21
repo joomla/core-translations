@@ -2,15 +2,15 @@
 <extension type="package" method="upgrade">
 	<name>Srpski Latinica jezički paket za Joomla 4</name>
 	<packagename>sr-YU</packagename>
-	<version/>
-	<creationDate/>
-	<author>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</author>
+	<version>6.0.1.1</version>
+	<creationDate>2025-11</creationDate>
+	<author>Goran Nešić &amp; Saša Matić</author>
 	<authorEmail>info@uixwebdesign.com</authorEmail>
 	<authorUrl>uixwebdesign.com</authorUrl>
-	<copyright>Sva prava zadržana (C) 2022 Open Source Matters.</copyright>
+	<copyright>Sva prava zadržana (C) 2026 Open Source Matters.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</packager>
+	<packager>Goran Nešić &amp; Saša Matić</packager>
 	<packagerurl>uixwebdesign.com</packagerurl>
 	<description><![CDATA[<div align="center">
 			<div class="alert alert-success" style="background-color:#DFF0D8; border-color:#D6E9C6; color: #468847; padding: 1px 0;">
