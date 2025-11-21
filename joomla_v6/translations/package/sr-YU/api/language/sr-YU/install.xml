@@ -2,12 +2,12 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Srpski Latinica (sr-Latn-RS)</name>
 	<tag>sr-YU</tag>
-	<version/>
-	<creationDate/>
-	<author>Goran Nešić - UIX Web Design &amp;  Saša Matić Bardak.RS</author>
+	<version>6.0.1</version>
+	<creationDate>2025-11</creationDate>
+	<author>Goran Nešić &amp; Saša Matić</author>
 	<authorEmail>info@uixwebdesign.com</authorEmail>
 	<authorUrl>uixwebdesign.com</authorUrl>
-	<copyright>(C) 2022 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2026 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License verzija 2 ili novija; pogledaj LICENSE.txt</license>
 	<description>sr-RS api jezik</description>
 	<files>
