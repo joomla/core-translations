@@ -39,3 +39,29 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
         CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+     # Runs the Crowdin action command - https://github.com/crowdin/github-action
+    - name: Crowdin Upload Polish installer
+      uses: crowdin/github-action@v2.12.0
+      with:
+        # Upload sources to Crowdin
+        upload_sources: false
+        # Upload translations to Crowdin
+        upload_translations: true
+        # Define the languages to upload for translations
+        upload_language: 'pl'
+        # Automatically approves uploaded translations
+        auto_approve_imported: true
+        # Defines whether to add translation if it is equal to source string in Crowdin project
+        import_eq_suggestions: true
+        # Option to specify a path to the configuration file, without / at the beginning
+        config: 'Configurations/Crowdin-J5-Installer.yml'
+        # Upload sources to Crowdin branch
+        crowdin_branch_name: JoomlaV5
+        # Use true for dryrun to test the run without actually processing anything
+        dryrun_action: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+

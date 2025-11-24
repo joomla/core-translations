@@ -58,6 +58,13 @@ jobs:
           mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
           rsync -i -rptgo --checksum --ignore-times --delete localisation-joomla-6/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
 
+          ZIP_PATH="installation/language/${LANGUAGE_CODE}/"
+          REPO_PATH="installation/language/${LANGUAGE_CODE}/"
+          echo /${ZIP_PATH}
+          echo /${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/core/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete localisation-joomla-5/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/core/${REPO_PATH}
+
       - name: Validate PHP code
         run: |
           SYNC_VERION="v6"
@@ -101,6 +108,31 @@ jobs:
         import_eq_suggestions: true
         # Option to specify a path to the configuration file, without / at the beginning
         config: 'Configurations/Crowdin-J6-All.yml'
+        # Upload sources to Crowdin branch
+        crowdin_branch_name: JoomlaV6
+        # Use true for dryrun to test the run without actually processing anything
+        dryrun_action: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      # Runs the Crowdin action command - https://github.com/crowdin/github-action
+    - name: Crowdin Upload Russian Installer
+      uses: crowdin/github-action@v2.12.0
+      with:
+        # Upload sources to Crowdin
+        upload_sources: false
+        # Upload translations to Crowdin
+        upload_translations: true
+        # Define the languages to upload for translations
+        upload_language: 'ru'
+        # Automatically approves uploaded translations
+        auto_approve_imported: true
+        # Defines whether to add translation if it is equal to source string in Crowdin project
+        import_eq_suggestions: true
+        # Option to specify a path to the configuration file, without / at the beginning
+        config: 'Configurations/Crowdin-J6-Installer.yml'
         # Upload sources to Crowdin branch
         crowdin_branch_name: JoomlaV6
         # Use true for dryrun to test the run without actually processing anything
