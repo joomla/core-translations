@@ -63,7 +63,7 @@ jobs:
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
           mkdir -p core-translations/joomla_${SYNC_VERION}/translations/core/${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete localisation-joomla-5/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/core/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete localisation-joomla-6/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/core/${REPO_PATH}
 
       - name: Validate PHP code
         run: |
