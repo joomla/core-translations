@@ -2,14 +2,14 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Georgian (ka-GE)</name>
 	<tag>ka-GE</tag>
-	<version>5.4.0.1</version>
-	<creationDate/>
+	<version>5.4.1.1</version>
+	<creationDate>2025-11</creationDate>
 	<author>Georgian Translation Team</author>
 	<authorEmail>z.cherkezishvili@gmail.com</authorEmail>
 	<authorUrl>https://github.com/Zurabch</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>ka-GE site language</description>
+	<description>ka-GE ქართული (administrator language)</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

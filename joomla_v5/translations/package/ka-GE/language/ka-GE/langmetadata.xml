@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>Georgian (ka-GE)</name>
-	<version>5.4.0.1</version>
-	<creationDate/>
+	<version>5.4.1.1</version>
+	<creationDate>2025-11</creationDate>
 	<author>Georgian Translation Team</author>
 	<authorEmail>z.cherkezishvili@gmail.com</authorEmail>
 	<authorUrl>https://github.com/Zurabch</authorUrl>
-	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2005 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[ka-GE site language]]></description>
+	<description><![CDATA[ka-GE administrator language]]></description>
 	<metadata>
 		<name>Georgian (Georgia)</name>
 		<nativeName>ქართული (საქართველო)</nativeName>
