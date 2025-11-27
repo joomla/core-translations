@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Georgian (ka-GE) Language Pack</name>
 	<packagename>ka-GE</packagename>
-	<version>6.0.0.1</version>
-	<creationDate/>
+	<version>6.0.1.1</version>
+	<creationDate>2025-11</creationDate>
 	<author>Georgian Translation Team</author>
 	<authorEmail>z.cherkezishvili@gmail.com</authorEmail>
 	<authorUrl>https://github.com/Zurabch</authorUrl>
