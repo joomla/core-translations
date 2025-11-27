@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Spanish (es-ES) Language Pack</name>
 	<packagename>es-ES</packagename>
-	<version>6.0.0.1</version>
+	<version>6.0.1.1</version>
 	<creationDate>2025-11</creationDate>
 	<author>Spanish [es-ES] Translation Team</author>
 	<authorEmail>traduccion@joomlaes.org</authorEmail>
@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Spanish [es-ES] Translation Team</packager>
 	<packagerurl>https://joomlaes.org/traduccion</packagerurl>
-	<description><![CDATA[<div style="text-align: left;"><h2>Successfully installed the Joomla! 6.0.0 Spanish es-ES Language Pack (v1)</h2><p></p><p>Please report any bugs or issues at the Spanish Translation Team using the mail: traduccion@joomlaes.org</p><p>If you wanna help with translations matters the site is at: <a href='https://joomlaes.org/traduccion' target='_blank' rel='noopener noreferrer'>JoomlaES.org</a> Contact Us!</p><p></p><p>Translated by: The Spanish Translation Team [es-ES]</p><h2>El paquete del idioma en español es-ES (v1) para Joomla! 6.0.0 se ha instalado correctamente.</h2><p></p><p>Por favor, reporte cualquier bug o asunto relacionado a nuestra dirección de correo electrónico: traduccion@joomlaes.org</p><p>Si quiere colaborar con el trabajo de traducción estamos en: <a href='https://joomlaes.org/traduccion' target='_blank' rel='noopener noreferrer'>JoomlaES.org</a> ¡Contacte con nosotros!</p><p></p><p>Traducción: Spanish Translation Team [es-ES]</p></div>]]></description>
+	<description><![CDATA[<div style="text-align: left;"><h2>Successfully installed the Joomla! 6.0.1 Spanish es-ES Language Pack (v1)</h2><p></p><p>Please report any bugs or issues at the Spanish Translation Team using the mail: traduccion@joomlaes.org</p><p>If you wanna help with translations matters the site is at: <a href='https://joomlaes.org/traduccion' target='_blank' rel='noopener noreferrer'>JoomlaES.org</a> Contact Us!</p><p></p><p>Translated by: The Spanish Translation Team [es-ES]</p><h2>El paquete del idioma en español es-ES (v1) para Joomla! 6.0.1 se ha instalado correctamente.</h2><p></p><p>Por favor, reporte cualquier bug o asunto relacionado a nuestra dirección de correo electrónico: traduccion@joomlaes.org</p><p>Si quiere colaborar con el trabajo de traducción estamos en: <a href='https://joomlaes.org/traduccion' target='_blank' rel='noopener noreferrer'>JoomlaES.org</a> ¡Contacte con nosotros!</p><p></p><p>Traducción: Spanish Translation Team [es-ES]</p></div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="es-ES">language/es-ES</folder>
