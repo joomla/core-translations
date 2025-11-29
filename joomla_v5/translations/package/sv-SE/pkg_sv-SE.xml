@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Swedish (sv-SE) Language Pack</name>
 	<packagename>sv-SE</packagename>
-	<version>5.4.1.1</version>
+	<version/>
 	<creationDate/>
 	<author>Swedish Translation Team - SvenskJoomla</author>
 	<authorEmail>info@svenskjoomla.se</authorEmail>

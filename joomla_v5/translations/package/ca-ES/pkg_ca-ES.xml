@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Catalan (ca-ES) Language Pack</name>
 	<packagename>ca-ES</packagename>
-	<version>5.4.1.1</version>
+	<version/>
 	<creationDate>2025-11</creationDate>
 	<author>Catalan [ca-ES] Translation Team</author>
 	<authorEmail>traduccio@joomla.cat</authorEmail>

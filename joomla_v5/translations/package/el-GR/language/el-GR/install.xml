@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Greek (el-GR)</name>
 	<tag>el-GR</tag>
-	<version>5.4.0.1</version>
+	<version/>
 	<creationDate/>
 	<author>Ομάδα Μετάφρασης: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>

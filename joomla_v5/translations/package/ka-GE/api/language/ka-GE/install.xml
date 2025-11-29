@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Georgian (ka-GE)</name>
 	<tag>ka-GE</tag>
-	<version>5.4.1.1</version>
+	<version/>
 	<creationDate>2025-11</creationDate>
 	<author>Georgian Translation Team</author>
 	<authorEmail>z.cherkezishvili@gmail.com</authorEmail>

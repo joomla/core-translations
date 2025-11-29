@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Dansk (da-DK)</name>
 	<tag>da-DK</tag>
-	<version>5.4.1</version>
+	<version/>
 	<creationDate>2025-11</creationDate>
 	<author>Danish Translation Team (Transl.: Ronny Buelund)</author>
 	<authorEmail>mail@danskjoomla.dk</authorEmail>

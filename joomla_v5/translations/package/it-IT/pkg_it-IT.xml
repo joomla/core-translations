@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Italian (it-IT) Language Pack</name>
 	<packagename>it-IT</packagename>
-	<version>5.4.1.1</version>
+	<version/>
 	<creationDate>Novembre 2025</creationDate>
 	<author>Joomla! Project (Italian Translation Team)</author>
 	<authorEmail>admin@joomla.org</authorEmail>
