@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Slovenian (sl-SI) Jezikovni paket</name>
 	<packagename>sl-SI</packagename>
-	<version>5.4.1.1</version>
-	<creationDate/>
+	<version>5.4.2.1</version>
+	<creationDate>2025-11</creationDate>
 	<author>Slovenska prevajalska ekipa</author>
 	<authorEmail>prevodi@joomla-cms.si</authorEmail>
 	<authorUrl>www.joomla-cms.si</authorUrl>
@@ -13,12 +13,12 @@
 	<packager>Slovenska prevajalska ekipa</packager>
 	<packagerurl>www.joomla-cms.si</packagerurl>
 	<description><![CDATA[<div class="alert alert-info left" style="text-align: left;">
-			<p><strong>Jezikovne datoteke za:</strong> Joomla! 5.4.1</p>
+			<p><strong>Jezikovne datoteke za:</strong> Joomla! 5.4.2</p>
 			<p><strong>Jezik:</strong> Slovenščina</p>
 			<p><strong>Območje:</strong> Administrator - Skrbnik (ozadje) in Site - Stran (ospredje)</p>
 			<p><strong>Autor:</strong> Slovenska prevajalska ekipa <a href="https://www.joomla-cms.si" target="_blank">Nova slovenska Joomla skupnost</a></p>
 			<p><strong>V Sloveniji deluje Nova Slovenska Joomla! skupnost, obiščite našo stran in sodelujte pri širjenju Joomla! CMS v Sloveniji</strong></p>
-			<p><strong>Različica prevoda:</strong> 5.4.1.1</p></div>]]></description>
+			<p><strong>Različica prevoda:</strong> 5.4.2.1</p></div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="sl-SI">language/sl-SI</folder>
