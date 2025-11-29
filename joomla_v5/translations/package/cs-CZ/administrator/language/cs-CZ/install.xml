@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Czech (Čeština)</name>
 	<tag>cs-CZ</tag>
-	<version>5.4.1</version>
+	<version/>
 	<creationDate>2025-11</creationDate>
 	<author>Czech Translation Team</author>
 	<authorEmail>admin@joomla.cz</authorEmail>
