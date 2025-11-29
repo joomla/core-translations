@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Belarusian (be-BY)</name>
 	<tag>be-BY</tag>
-	<version>5.4.1</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla Belarus Community</author>
 	<authorEmail>admin@joomla.org</authorEmail>
