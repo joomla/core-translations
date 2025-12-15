@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>简体中文(zh-CN)语言包</name>
 	<tag>zh-CN</tag>
-	<version/>
-	<creationDate/>
+	<version>5.1.2</version>
+	<creationDate>2024年05月</creationDate>
 	<author>Joomla中文网</author>
 	<authorEmail>zhang19min88@163.com
 </authorEmail>
