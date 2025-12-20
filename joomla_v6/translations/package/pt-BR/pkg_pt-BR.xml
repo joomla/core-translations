@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Português Brasil (pt-BR) Pacote de idioma</name>
 	<packagename>pt-BR</packagename>
-	<version/>
+	<version>6.0.1.2</version>
 	<creationDate/>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
@@ -13,8 +13,8 @@
 	<packager>Projeto Joomla!</packager>
 	<packagerurl>www.joomla.org</packagerurl>
 	<description><![CDATA[<div style="text-align: left;">
- <h2>Tradução Português Brasileiro (pt-BR) para Joomla! 4.0.3.1 instalada com sucesso!</h2>
- <h3>Versão 4.0.3.1</h3>
+ <h2>Tradução Português Brasileiro (pt-BR) para Joomla! 6.0.1 instalada com sucesso!</h2>
+ <h3>Versão 6.0.1.2</h3>
  <p>Por favor, informe qualquer problema ou assunto relacionado encontrado, na página <a href="https://www.facebook.com/groups/traduzjoomla/" target="_blank">Grupo Traduções Joomla pt-BR</a> no Facebook.</p>
  <p>Traduzido pela <em>Equipe de Tradução Português Brasileiro</em>.</p>
 </div>]]></description>
