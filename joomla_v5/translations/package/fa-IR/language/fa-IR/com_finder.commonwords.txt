@@ -3,15 +3,15 @@
 ; License GNU General Public License version 2 or later; see LICENSE.txt
 ; Note : This file needs to be saved as UTF-8
 
-i
+من
 me
 my
 myself
-we
+ما
 our
 ours
 ourselves
-you
+شما
 your
 yours
 yourself
@@ -27,7 +27,7 @@ herself
 it
 its
 itself
-they
+آنها
 them
 their
 theirs
@@ -36,10 +36,10 @@ what
 which
 who
 whom
-this
-that
-these
-those
+این
+آن
+اینها
+آنها
 قبل از ظهر
 is
 are
@@ -127,7 +127,7 @@ at
 by
 for
 with
-about
+درباره
 against
 between
 into
@@ -135,31 +135,31 @@ through
 during
 قبل
 بعد
-above
-below
+بالا
+زیر
 to
-from
-up
-down
+از
+یک لایه بالاتر
+پایین
 in
 out
-on
-off
+روشن
+خاموش
 over
 under
 again
 further
 سپس
-once
+یکبار
 here
 there
 when
 where
 why
 how
-all
-any
-both
+همه
+هیچ
+هر دو
 each
 few
 more
@@ -167,10 +167,10 @@ most
 other
 some
 such
-no
+خیر
 nor
 نه
-only
+فقط
 own
 same
 so
