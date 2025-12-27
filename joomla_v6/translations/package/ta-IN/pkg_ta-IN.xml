@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Ilagnayeru 'MIG' Manickam, Elango Samy Manim</packager>
 	<packagerurl> </packagerurl>
-	<description><![CDATA[தமிழ்-இந்தியா / Tamil-INDIA (ta-IN) Language Package for Joomla! 6.0.1 - v1]]></description>
+	<description><![CDATA[தமிழ்-இந்தியா / Tamil-INDIA (ta-IN) Language Package for Joomla! 6.0.2 - v1]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="ta-IN">language/ta-IN</folder>
