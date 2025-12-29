@@ -51,7 +51,7 @@ abstract class Ko_KRLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated  5.1은 7.0에서 대체 없이 제거될 예정입니다
      */
     public static function getIgnoredSearchWords()
     {
@@ -65,7 +65,7 @@ abstract class Ko_KRLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated  5.1은 7.0에서 대체 없이 제거될 예정입니다
      */
     public static function getLowerLimitSearchWord()
     {
@@ -79,7 +79,7 @@ abstract class Ko_KRLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated  5.1은 7.0에서 대체 없이 제거될 예정입니다
      */
     public static function getUpperLimitSearchWord()
     {
@@ -93,7 +93,7 @@ abstract class Ko_KRLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated  5.1은 7.0에서 대체 없이 제거될 예정입니다
      */
     public static function getSearchDisplayedCharactersNumber()
     {
