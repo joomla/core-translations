@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name/>
-	<tag/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description/>
+	<name>ພາສາລາວ (lo-LA)</name>
+	<tag>lo-LA</tag>
+	<version>6.0.2</version>
+	<creationDate>2025-12</creationDate>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>lo-LA ພາສາ API</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
