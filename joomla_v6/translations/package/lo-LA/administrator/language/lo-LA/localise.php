@@ -55,7 +55,7 @@ abstract class Lo_LALocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['ແລະ', 'ໃນ', 'ທີ່', 'ຢູ່'];
     }
 
     /**
