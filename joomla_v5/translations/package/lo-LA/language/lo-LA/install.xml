@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="site" type="language" method="upgrade">
-	<name/>
-	<tag/>
+	<name>Lao (Laos) (lo_LA)</name>
+	<tag>lo-LA</tag>
 	<version/>
 	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
+	<author>ໂຄງການ Joomla!</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright/>
-	<license/>
+	<license>GNU General Public License ເວີຊັນ 2 ຫຼື ໃໝ່ກວ່າ; ເບິ່ງທີ່ LICENSE.txt</license>
 	<description>lo_LA site language</description>
 	<files>
 		<folder>/</folder>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
-	<name/>
+	<name>Lao (Laos) (lo_LA)</name>
 	<version/>
 	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
+	<author>ໂຄງການ Joomla!</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
 	<copyright/>
-	<license/>
+	<license>GNU General Public License ເວີຊັນ 2 ຫຼື ໃໝ່ກວ່າ; ເບິ່ງທີ່ LICENSE.txt</license>
 	<description><![CDATA[lo_LA site language]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
-		<tag/>
-		<rtl/>
-		<locale/>
-		<firstDay/>
+		<name>ພາສາລາວ (Lao)</name>
+		<nativeName>ພາສາລາວ (Lao)</nativeName>
+		<tag>lo-LA</tag>
+		<rtl>0</rtl>
+		<locale>lo_LA.utf8, lo_LA.UTF-8, lo_LA, lao, lo, laos</locale>
+		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar/>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
