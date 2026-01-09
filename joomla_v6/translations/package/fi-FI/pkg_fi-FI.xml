@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Finnish (fi-FI) Language Pack</name>
 	<packagename>fi-FI</packagename>
-	<version>6.0.2.1</version>
-	<creationDate>2025-12</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
