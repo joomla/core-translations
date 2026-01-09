@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Nederlands (nl-BE) taalpakket</name>
 	<packagename>nl-BE</packagename>
-	<version>6.0.2.1</version>
-	<creationDate>2026-01</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Dutch (BE) translation team</author>
 	<authorEmail>johan.brusche@gmail.com</authorEmail>
 	<authorUrl>https://downloads.joomla.org/language-packs/translations-joomla6/downloads/joomla6-flemish</authorUrl>

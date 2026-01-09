@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>Persian (fa-IR)</name>
-	<version/>
-	<creationDate/>
-	<author>Persian Translation Team: joomlafarsi.com</author>
+	<version>6.0.2.1</version>
+	<creationDate>2026-01</creationDate>
+	<author>Persian Translation Team</author>
 	<authorEmail>info@joomlafarsi.com</authorEmail>
 	<authorUrl>www.joomlafarsi.com</authorUrl>
-	<copyright>Copyright (C) 2005 - 2023 Joomlafarsi.com and Open Source Matters, Inc.</copyright>
+	<copyright>Copyright (C) 2005 - 2026 Joomlafarsi.com and Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[fa-IR site language]]></description>
 	<metadata>
-		<name>Persian (fa-IR)</name>
-		<nativeName>Persian (fa-IR)</nativeName>
+		<name>Persian (Iran)</name>
+		<nativeName>Persian (Iran)</nativeName>
 		<tag>fa-IR</tag>
 		<rtl>1</rtl>
 		<locale>fa_IR.utf8, fa_IR.UTF-8, fa_IR, Persian_IR, Persian, fa_IR, far_fa, fa, iran, ir, farsi_ir, iran</locale>
-		<firstDay>1</firstDay>
+		<firstDay>6</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>jalali</calendar>
 	</metadata>

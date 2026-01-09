@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Georgian (ka-GE)</name>
 	<tag>ka-GE</tag>
-	<version>6.0.2.1</version>
-	<creationDate>2026-01</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Georgian Translation Team</author>
 	<authorEmail>z.cherkezishvili@gmail.com</authorEmail>
 	<authorUrl>https://github.com/Zurabch</authorUrl>
