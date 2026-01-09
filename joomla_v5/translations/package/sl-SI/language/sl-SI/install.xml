@@ -2,8 +2,8 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Slovenščina (sl-SI)</name>
 	<tag>sl-SI</tag>
-	<version>5.4.2</version>
-	<creationDate>2025-12</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Slovenska prevajalska ekipa</author>
 	<authorEmail>prevodi@joomla-cms.si</authorEmail>
 	<authorUrl>www.joomla-cms.si</authorUrl>

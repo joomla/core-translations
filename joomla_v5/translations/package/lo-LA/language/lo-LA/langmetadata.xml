@@ -6,9 +6,9 @@
 	<author>ໂຄງການ Joomla!</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright/>
+	<copyright>ລິຂະສິດ (C) 2006 - 2025 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License ເວີຊັນ 2 ຫຼື ໃໝ່ກວ່າ; ເບິ່ງທີ່ LICENSE.txt</license>
-	<description><![CDATA[lo_LA site language]]></description>
+	<description><![CDATA[lo-LA ພາສາຂອງເວັບໄຊ]]></description>
 	<metadata>
 		<name>ພາສາລາວ (Lao)</name>
 		<nativeName>ພາສາລາວ (Lao)</nativeName>
