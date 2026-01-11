@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>ຊຸດພາສາ ລາວ (Laos) (lo_LA)</name>
+	<name>ຊຸດພາສາລາວ (Lao) (lo-LA)</name>
 	<packagename>lo-LA</packagename>
-	<version/>
-	<creationDate/>
+	<version>6.0.3.1</version>
+	<creationDate>2026-01</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>Copyright (C) 2019 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project</packager>
 	<packagerurl>www.joomla.org</packagerurl>
-	<description><![CDATA[ຊຸດພາສາລາວ lo_LA]]></description>
+	<description><![CDATA[ຊຸດພາສາລາວ lo-LA]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="lo-LA">language/lo-LA</folder>
