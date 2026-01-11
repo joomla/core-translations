@@ -23,11 +23,11 @@
 abstract class Lo_LALocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * ສົ່ງຄືນຄຳຕໍ່ທ້າຍທີ່ເປັນໄປໄດ້ສຳລັບຈຳນວນລາຍການທີ່ລະບຸ
      *
-     * @param   integer  $count  The number of items.
+     * @param   integer  $count  ຈຳນວນລາຍການ.
      *
-     * @return  array  An array of potential suffixes.
+     * @return  array  ອາເຣຂອງສ່ວນທ້າຍທີ່ເປັນໄປໄດ້.
      *
      * @since   1.6
      */
