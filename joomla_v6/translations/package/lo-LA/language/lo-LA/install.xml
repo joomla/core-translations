@@ -2,13 +2,13 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Lao (lo-LA)</name>
 	<tag>lo-LA</tag>
-	<version/>
-	<creationDate/>
+	<version>6.0.3</version>
+	<creationDate>2026-01</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2013 Open Source Matters, Inc.</copyright>
-	<license>GNU General Public License version 2 ຫຼື ໃໝ່ກວ່າ; ເບິ່ງ LICENSE.txt</license>
+	<license>GNU General Public License ລຸ້ນ 2 ຫຼື ໃໝ່ກວ່າ; ເບິ່ງ LICENSE.txt</license>
 	<description>ພາສາເວັບໄຊ lo-LA</description>
 	<files>
 		<folder>/</folder>

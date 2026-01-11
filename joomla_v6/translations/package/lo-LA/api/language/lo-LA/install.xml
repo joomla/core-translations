@@ -2,14 +2,14 @@
 <extension client="api" type="language" method="upgrade">
 	<name>ພາສາລາວ (lo-LA)</name>
 	<tag>lo-LA</tag>
-	<version/>
-	<creationDate/>
+	<version>6.0.3</version>
+	<creationDate>2026-01</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>lo-LA ພາສາ API</description>
+	<description>ພາສາ API lo-LA</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
