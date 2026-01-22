@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Lietuvių (lt-LT)</name>
 	<tag>lt-LT</tag>
-	<version/>
+	<version>6.0.3</version>
 	<creationDate/>
 	<author>Oskaras Jankauskas</author>
 	<authorEmail>master@oskaraz.lt</authorEmail>
