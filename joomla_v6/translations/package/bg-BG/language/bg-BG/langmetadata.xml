@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>Български (bg-BG)</name>
-	<version/>
-	<creationDate/>
+	<version>6.0.3</version>
+	<creationDate>2026-01</creationDate>
 	<author>Joomla! Bulgaria</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
 	<authorUrl>http://www.joomla.bg</authorUrl>
 	<copyright>Copyright (C) 2006-2020 Open Source Matters. Всички права запазени.</copyright>
 	<license>GNU General Public License версия 2 или по-късна; Виж LICENSE.txt</license>
-	<description><![CDATA[
-    <p>Превод на Joomla! 4 на български език. Повече информация можете да намерите на сайта на <a title="Joomla! Bulgaria" href="http://www.joomla.bg" target="_blank">Joomla! Bulgaria</a>.</p>]]></description>
+	<description><![CDATA[<p>Превод на Joomla! 6 на български език. Повече информация можете да намерите на сайта на <a title="Joomla! Bulgaria" href="http://www.joomla.bg" target="_blank">Joomla! Bulgaria</a>.</p>]]></description>
 	<metadata>
 		<name>Bulgarian (bg-BG)</name>
 		<nativeName>Bulgarian (bg-BG)</nativeName>

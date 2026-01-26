@@ -2,8 +2,8 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Български (bg-BG)</name>
 	<tag>bg-BG</tag>
-	<version/>
-	<creationDate/>
+	<version>6.0.3</version>
+	<creationDate>2026-01</creationDate>
 	<author>Joomla! Bulgaria</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
 	<authorUrl>http://www.joomla.bg</authorUrl>
