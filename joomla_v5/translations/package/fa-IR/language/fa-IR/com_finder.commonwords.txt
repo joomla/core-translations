@@ -4,105 +4,105 @@
 ; Note : This file needs to be saved as UTF-8
 
 من
-me
-my
-myself
+مرا
+من
+خودم
 ما
-our
-ours
-ourselves
+ما
+مال ما
+خودمان
 شما
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
+تو
+شما
+خودت
+خودتان
+او
+او
+مال او
+خودش
+او
+او
+مال او
+خودش
+آن
+مال آن
+خودش
 آنها
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
+آنها
+مال آنها
+مال آنها
+خودشان
+چه
+کدام
+چه کسی
+چه کسی را
 این
 آن
 اینها
 آنها
-قبل از ظهر
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
+هستم
+هست
+هستند
+بود
+بودند
+باشد
+بوده است
+بودن
+دارم
+دارد
+داشت
+داشتن
+انجام می‌دهم
+انجام می‌دهد
+انجام داد
+انجام دادن
+می‌خواهد
+باید
+می‌تواند
+باید
+منم
+تویی
+او است
+او هست
+آن است
+ما هستیم
+آنها هستند
+من داشته ام
+تو داشته‌ای
+ما داشته‌ایم
+آنها داشته‌اند
+من می‌خواستم
+تو می‌خواستی
+او می‌خواست
+او می‌خواست
+ما می‌خواستیم
+آنها می‌خواستند
+من خواهم
+تو خواهی
+او خواهد
+او خواهد
+ما خواهیم
+آنها خواهند
+نیست
+نیستند
+نبود
+نبودند
+ندارد
+ندارند
+نداشت
+انجام نمی‌دهد
+نکن
+انجام نداد
+نخواهد
+نمی‌خواهد
+نخواهد
+نباید
+نمی‌تونه
+نمی‌تواند
+نمی‌توانست
+نباید
+بگذارید
+آن است
 who's
 what's
 here's
