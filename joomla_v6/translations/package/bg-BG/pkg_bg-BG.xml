@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Български (bg-BG) езиков пакет</name>
 	<packagename>bg-BG</packagename>
-	<version/>
-	<creationDate/>
+	<version>6.0.3.1</version>
+	<creationDate>2026-01</creationDate>
 	<author>Joomla! Bulgaria</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
 	<authorUrl>http://www.joomla.bg</authorUrl>
@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Bulgaria</packager>
 	<packagerurl>http://www.joomla.bg</packagerurl>
-	<description><![CDATA[<p>Превод на Джумла! 4 на български език. Повече информация можете да намерите на сайта на <a title="Джумла! България" href="http://www.joomla.bg" target="_blank">Джумла! България</a>.</p>]]></description>
+	<description><![CDATA[<p>Превод на Джумла! 6 на български език. Повече информация можете да намерите на сайта на <a title="Джумла! България" href="http://www.joomla.bg" target="_blank">Джумла! България</a>.</p>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="bg-BG">language/bg-BG</folder>
