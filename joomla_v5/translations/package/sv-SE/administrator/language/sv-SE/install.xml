@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Swedish (sv-SE)</name>
 	<tag>sv-SE</tag>
-	<version/>
-	<creationDate/>
+	<version>5.4.3</version>
+	<creationDate>2026-01</creationDate>
 	<author>Swedish Translation Team - Svensk Joomla</author>
 	<authorEmail>info@svenskjoomla.se</authorEmail>
 	<authorUrl>https://www.svenskjoomla.se</authorUrl>
