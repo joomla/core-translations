@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Suomen kielen (fi-FI) kielitiedostopaketti</name>
 	<packagename>fi-FI</packagename>
-	<version/>
-	<creationDate/>
+	<version>5.4.3.1</version>
+	<creationDate>2026-01</creationDate>
 	<author>Finnish translation team: Joomla.fi</author>
 	<authorEmail>finnish@joomla.fi</authorEmail>
 	<authorUrl>https://joomla.fi</authorUrl>
