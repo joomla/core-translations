@@ -2,7 +2,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2021 - 2025 J!German <https://www.jgerman.de>
+ * @copyright  (C) 2021 - 2026 J!German <https://www.jgerman.de>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -428,12 +428,12 @@ class Pkg_deLUInstallerScript extends InstallerScript
             '/administrator/language/de-LU/plg_captcha_recaptcha_invisible.sys.ini',
             '/administrator/language/de-LU/plg_behaviour_compat.ini',
             '/administrator/language/de-LU/plg_behaviour_compat.sys.ini',
-            'administrator/language/de-LU/guidedtours.joomla_whatsnew_5_2.ini',
-            'administrator/language/de-LU/guidedtours.joomla_whatsnew_5_2_steps.ini',
-            'administrator/language/de-LU/guidedtours.joomla_whatsnew_5_3.ini',
-            'administrator/language/de-LU/guidedtours.joomla_whatsnew_5_3_steps.ini',
-            'administrator/language/de-LU/guidedtours.joomla_whatsnew_5_4.ini',
-            'administrator/language/de-LU/guidedtours.joomla_whatsnew_5_4_steps.ini'
+            '/administrator/language/de-LU/guidedtours.joomla_whatsnew_5_2.ini',
+            '/administrator/language/de-LU/guidedtours.joomla_whatsnew_5_2_steps.ini',
+            '/administrator/language/de-LU/guidedtours.joomla_whatsnew_5_3.ini',
+            '/administrator/language/de-LU/guidedtours.joomla_whatsnew_5_3_steps.ini',
+            '/administrator/language/de-LU/guidedtours.joomla_whatsnew_5_4.ini',
+            '/administrator/language/de-LU/guidedtours.joomla_whatsnew_5_4_steps.ini'
         ];
     }
 
