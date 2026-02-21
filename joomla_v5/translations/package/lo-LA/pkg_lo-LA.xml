@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>ຊຸດພາສາລາວ (Lao (Laos) (lo_LA) Language Pack)</name>
 	<packagename>lo-LA</packagename>
-	<version>5.4.3.1</version>
+	<version/>
 	<creationDate/>
 	<author>ໂຄງການ Joomla!</author>
 	<authorEmail>admin@joomla.org</authorEmail>

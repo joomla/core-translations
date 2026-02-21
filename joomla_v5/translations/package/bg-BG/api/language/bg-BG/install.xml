@@ -2,7 +2,7 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Български (bg-BG)</name>
 	<tag>bg-BG</tag>
-	<version>5.4.3</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Bulgaria</author>
 	<authorEmail>admin@joomla.bg</authorEmail>
