@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Catalan [ca-ES] Translation Team</packager>
 	<packagerurl>https://www.joomla.cat</packagerurl>
-	<description><![CDATA[<div style="text-align: left;"><h2>Successfully installed the Joomla! 4.4.14 v1 Catalan ca-ES Language Pack</h2><p></p><p>Please report any bugs or issues at the Catalan Translation Team using the mail: traduccio@joomla.cat</p><p>If you wanna help with translations matters the site is at: <a href='https://joomla.cat' target='_blank' rel='noopener noreferrer'>Joomla.cat</a> Contact Us!</p><p></p><p>Translated by: The Catalan Translation Team [ca-ES]</p><h2>El paquet 4.4.14 v1 de l'idioma català ca-ES per a Joomla! s'ha instal·lat correctament.</h2><p></p><p>Si et plau, reporta qualsevol bug o assumpte relacionat a la nostra adreça de correu electrònic: traduccio@joomla.cat</p><p>Si vols col·laborar amb el treball de traducció, estem a: <a href='https://joomla.cat' target='_blank' rel='noopener noreferrer'>Joomla.cat</a> Contacta amb nosaltres!</p><p></p><p>Traducció: Catalan Translation Team [ca-ES]</p></div>]]></description>
+	<description><![CDATA[<div style="text-align: left;"><h2>Successfully installed the Joomla! 6.0.2 v1 Catalan ca-ES Language Pack</h2><p></p><p>Please report any bugs or issues at the Catalan Translation Team using the mail: traduccio@joomla.cat</p><p>If you wanna help with translations matters the site is at: <a href='https://joomla.cat' target='_blank' rel='noopener noreferrer'>Joomla.cat</a> Contact Us!</p><p></p><p>Translated by: The Catalan Translation Team [ca-ES]</p><h2>El paquet 6.0.2 v1 de l'idioma català ca-ES per a Joomla! s'ha instal·lat correctament.</h2><p></p><p>Si et plau, reporta qualsevol bug o assumpte relacionat a la nostra adreça de correu electrònic: traduccio@joomla.cat</p><p>Si vols col·laborar amb el treball de traducció, estem a: <a href='https://joomla.cat' target='_blank' rel='noopener noreferrer'>Joomla.cat</a> Contacta amb nosaltres!</p><p></p><p>Traducció: Catalan Translation Team [ca-ES]</p></div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="ca-ES">language/ca-ES</folder>
@@ -21,7 +21,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>

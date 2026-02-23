@@ -3,7 +3,7 @@
 	<name>Paquete de idioma español colombiano (es-CO)</name>
 	<packagename>es-CO</packagename>
 	<version/>
-	<creationDate>2025-09</creationDate>
+	<creationDate>2026-02</creationDate>
 	<author>JUG Bogotá</author>
 	<authorEmail>info@jugbogota.org</authorEmail>
 	<authorUrl>www.jugbogota.org</authorUrl>
@@ -21,7 +21,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>

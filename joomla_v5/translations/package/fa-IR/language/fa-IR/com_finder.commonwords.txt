@@ -3,177 +3,177 @@
 ; License GNU General Public License version 2 or later; see LICENSE.txt
 ; Note : This file needs to be saved as UTF-8
 
-i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-قبل از ظهر
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
-a
-an
-the
+من
+مرا
+من
+خودم
+ما
+ما
+مال ما
+خودمان
+شما
+تو
+شما
+خودت
+خودتان
+او
+او
+مال او
+خودش
+او
+او
+مال او
+خودش
+آن
+مال آن
+خودش
+آنها
+آنها
+مال آنها
+مال آنها
+خودشان
+چه
+کدام
+چه کسی
+چه کسی را
+این
+آن
+اینها
+آنها
+هستم
+هست
+هستند
+بود
+بودند
+باشد
+بوده است
+بودن
+دارم
+دارد
+داشت
+داشتن
+انجام می‌دهم
+انجام می‌دهد
+انجام داد
+انجام دادن
+می‌خواهد
+باید
+می‌تواند
+باید
+منم
+تویی
+او است
+او هست
+آن است
+ما هستیم
+آنها هستند
+من داشته ام
+تو داشته‌ای
+ما داشته‌ایم
+آنها داشته‌اند
+من می‌خواستم
+تو می‌خواستی
+او می‌خواست
+او می‌خواست
+ما می‌خواستیم
+آنها می‌خواستند
+من خواهم
+تو خواهی
+او خواهد
+او خواهد
+ما خواهیم
+آنها خواهند
+نیست
+نیستند
+نبود
+نبودند
+ندارد
+ندارند
+نداشت
+انجام نمی‌دهد
+نکن
+انجام نداد
+نخواهد
+نمی‌خواهد
+نخواهد
+نباید
+نمی‌تونه
+نمی‌تواند
+نمی‌توانست
+نباید
+بگذارید
+آن است
+چه کسی
+چه چیزی
+اینجاست
+آنجاست
+کی است
+کجاست
+چرا
+چگونه
+یک
+یک
+این
 و
-but
-if
+اما
+اگر
 یا
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
+چون
+چه
+تا
+در حالی که
+از
+در
+توسط
+برای
+با
+درباره
+مقابل
+بین
+به
+از طریق
+طی
 قبل
 بعد
-above
-below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
+بالا
+زیر
+به
+از
+یک لایه بالاتر
+پایین
+در
+خارج
+روشن
+خاموش
+روی
+زیر
+دوباره
+بیشتر
 سپس
-once
-here
-there
-when
-where
-why
-how
-all
-any
-both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
+یکبار
+اینجا
+آنجا
+وقتی که
+کجا
+برای چه
+چطور
+همه
+هیچ
+هر دو
+هر
+کم
+بیش
+بیشترین
+دیگر
+بعضی
+چنین
+خیر
 نه
-only
-own
-same
-so
-than
-too
-very
+نه
+فقط
+مال خود
+همان
+پس
+از
+هم
+خیلی

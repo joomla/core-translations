@@ -16,18 +16,18 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * lo_LA localise class.
+ * lo-LA localise class.
  *
  * @since  1.6
  */
 abstract class Lo_LALocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * ຄືນຄ່າ Suffixes ທີ່ເປັນໄປໄດ້ສຳລັບຈຳນວນລາຍການສະເພາະ
      *
-     * @param   integer  $count  The number of items.
+     * @param   integer  $count  ຈຳນວນຂອງລາຍການ.
      *
-     * @return  array  An array of potential suffixes.
+     * @return  array  ອາເຣຂອງ Suffixes ທີ່ເປັນໄປໄດ້.
      *
      * @since   1.6
      */

@@ -3,7 +3,7 @@
 	<name>Estonian (et-EE) Language Pack</name>
 	<packagename>et-EE</packagename>
 	<version/>
-	<creationDate>2025-08</creationDate>
+	<creationDate/>
 	<author>Joomla! Project</author>
 	<authorEmail>raudmaa@gmail.com</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
@@ -21,7 +21,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Akrediteeritud Joomla! tõlge">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>

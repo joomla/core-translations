@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Portuguese (pt-PT) Language Pack</name>
 	<packagename>pt-PT</packagename>
-	<version>6.0.0.1</version>
-	<creationDate>2025-09-24</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Comunidade JoomlaPortugal</author>
 	<authorEmail>comunidadejoomlapt@gmail.com</authorEmail>
 	<authorUrl>www.joomlaportugal.org</authorUrl>
@@ -21,7 +21,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Accredited Joomla! Translations">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>

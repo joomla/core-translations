@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout Source Code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Check PR content Joomla 5
         id: build-v5
@@ -58,7 +58,7 @@ jobs:
 
       - name: Upload En_GBLocalise-logs
         if: ${{ always() }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: En_GBLocalise-logs
           path: ${{ github.workspace}}/logs

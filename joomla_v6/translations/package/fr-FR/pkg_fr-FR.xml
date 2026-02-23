@@ -13,8 +13,8 @@
 	<packager>Joomla! Project - French translation team</packager>
 	<packagerurl>www.joomla.fr</packagerurl>
 	<description><![CDATA[<div style="text-align: left;">
-<h3>Joomla! 4 Full French (fr-FR) Language Package</h3>
-<h3>Pack de langue Joomla! 4 français (fr-FR) complet</h3>
+<h3>Joomla! 6 Full French (fr-FR) Language Package</h3>
+<h3>Pack de langue Joomla! 6 français (fr-FR) complet</h3>
 <p><a href="https:/www.joomla.fr" target="_blank">www.joomla.fr</a> - <a href="mailto:traduction@joomla.fr">traduction@joomla.fr</a></p>
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
@@ -25,7 +25,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Traductions accréditées de Joomla!">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>

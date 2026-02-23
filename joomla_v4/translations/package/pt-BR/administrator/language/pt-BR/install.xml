@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Português Brasil (pt-BR)</name>
 	<tag>pt-BR</tag>
-	<version>4.4.14</version>
-	<creationDate>Abril 2025</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Projeto Joomla!</author>
 	<authorEmail>kazuo@totallnet.com.br</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>

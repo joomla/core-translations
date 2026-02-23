@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Paquete de idioma español colombiano (es-CO)</name>
 	<packagename>es-CO</packagename>
-	<version>4.4.14.1</version>
-	<creationDate>2018-10-17</creationDate>
+	<version/>
+	<creationDate/>
 	<author>JUG Bogotá</author>
 	<authorEmail>info@jugbogota.org</authorEmail>
 	<authorUrl>www.jugbogota.org</authorUrl>

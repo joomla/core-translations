@@ -3,7 +3,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
+ * @copyright © 2005 - 2025 Open Source Matters, Inc. All rights reserved. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  *
  * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps

@@ -2,16 +2,16 @@
 <extension type="package" method="upgrade">
 	<name>Czech (cs-CZ) Language Pack</name>
 	<packagename>cs-CZ</packagename>
-	<version>4.4.14.1</version>
-	<creationDate>2025-04</creationDate>
+	<version>4.4.15.1</version>
+	<creationDate>2025-09</creationDate>
 	<author>Czech Translation Team</author>
 	<authorEmail>admin@joomla.cz</authorEmail>
-	<authorUrl>http://www.joomlaportal.cz</authorUrl>
+	<authorUrl>https://www.joomlaportal.cz</authorUrl>
 	<copyright>Copyright (C) 2005 - 2020 Open Source Matters, Inc. All rights reserved.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Czech Translation Team</packager>
-	<packagerurl>http://www.joomlaportal.cz</packagerurl>
+	<packagerurl>https://www.joomlaportal.cz</packagerurl>
 	<description><![CDATA[cs-CZ language pack]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>

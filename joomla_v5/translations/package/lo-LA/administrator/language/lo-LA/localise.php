@@ -23,7 +23,7 @@
 abstract class Lo_LALocalise
 {
     /**
-     * Returns the potential suffixes for a specific number of items
+     * ສົ່ງຄ່າຄຳຕໍ່ທ້າຍທີ່ເປັນໄປໄດ້ສຳລັບຈຳນວນລາຍການທີ່ລະບຸ
      *
      * @param   integer  $count  The number of items.
      *
@@ -45,7 +45,7 @@ abstract class Lo_LALocalise
     }
 
     /**
-     * Returns the ignored search words
+     * ສົ່ງຄ່າຄຳສັບຄົ້ນຫາທີ່ຖືກຍົກເວັ້ນ
      *
      * @return  array  An array of ignored search words.
      *
@@ -55,11 +55,11 @@ abstract class Lo_LALocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['ແລະ', 'ໃນ', 'ເທິງ'];
     }
 
     /**
-     * Returns the lower length limit of search words
+     * ສົ່ງຄ່າຄວາມຍາວຂັ້ນຕ່ຳຂອງຄຳຄົ້ນຫາ
      *
      * @return  integer  The lower length limit of search words.
      *
@@ -73,7 +73,7 @@ abstract class Lo_LALocalise
     }
 
     /**
-     * Returns the upper length limit of search words
+     * ສົ່ງຄ່າຄວາມຍາວສູງສຸດຂອງຄຳຄົ້ນຫາ
      *
      * @return  integer  The upper length limit of search words.
      *
@@ -87,7 +87,7 @@ abstract class Lo_LALocalise
     }
 
     /**
-     * Returns the number of chars to display when searching
+     * ສົ່ງຄ່າຈຳນວນຕົວອັກສອນທີ່ຈະສະແດງເມື່ອຄົ້ນຫາ
      *
      * @return  integer  The number of chars to display when searching.
      *

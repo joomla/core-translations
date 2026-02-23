@@ -167,7 +167,7 @@ nejvíce
 ostatní
 nějaké
 takhle
-nikdy neodesílat
+ne
 ani
 ne
 pouze 'Hlavní články'

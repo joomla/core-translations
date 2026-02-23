@@ -2,14 +2,14 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Ukrainian (uk-UA)</name>
 	<tag>uk-UA</tag>
-	<version>5.1.1</version>
-	<creationDate>2024-06-03</creationDate>
-	<author>Community Joomla! Ukraine</author>
+	<version>5.4.0.1</version>
+	<creationDate>2025-10-14</creationDate>
+	<author>Denys Nosov</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
-	<copyright>Copyright (C) 2006 - 2024 Joomla! Ukraine. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>Ukrainian language pack (site) for Joomla!</description>
+	<copyright>2006-2025 (C) Joomla! Ukraine (https://joomla-ua.org). All rights reserved.</copyright>
+	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>uk-UA - Site language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>

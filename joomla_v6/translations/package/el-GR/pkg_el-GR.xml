@@ -3,7 +3,7 @@
 	<name>Ελληνικά (el-GR) Πακέτο γλώσσας</name>
 	<packagename>el-GR</packagename>
 	<version/>
-	<creationDate/>
+	<creationDate>02-2026</creationDate>
 	<author>Ομάδα Μετάφρασης: joomla. gr</author>
 	<authorEmail>contact@joomla.gr</authorEmail>
 	<authorUrl>https://www.joomla.gr</authorUrl>
@@ -21,7 +21,7 @@
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Διαπιστευμένες Μεταφράσεις Joomla">
-			https://update.joomla.org/language/translationlist_5.xml
+			https://update.joomla.org/language/translationlist_6.xml
 		</server>
 	</updateservers>
 </extension>

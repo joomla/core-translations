@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Arabic ar-AA(العربية الموحدة)</name>
 	<packagename>ar-AA</packagename>
-	<version>4.4.14.1</version>
-	<creationDate>2025-04</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Joomla! Project (Arabic Translation Team)</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
