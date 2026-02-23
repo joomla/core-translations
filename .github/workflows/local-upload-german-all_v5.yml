@@ -1,0 +1,44 @@
+name: J5 Upload German Translation files (all variants)
+
+on:
+  workflow_dispatch:
+
+jobs:
+# Upload German language variants to Crowdin.
+  synchronize-with-crowdin:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - language: de
+            name: German
+          - language: de-AT
+            name: Austrian
+          - language: de-CH
+            name: Swiss
+          - language: de-LI
+            name: Liechtenstein
+          - language: de-LU
+            name: Luxembourg
+
+    name: Upload ${{ matrix.name }} (${{ matrix.language }})
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v6
+
+    - name: Crowdin Upload ${{ matrix.name }}
+      uses: crowdin/github-action@v2.14.1
+      with:
+        upload_sources: false
+        upload_translations: true
+        upload_language: ${{ matrix.language }}
+        auto_approve_imported: true
+        import_eq_suggestions: true
+        config: 'Configurations/Crowdin-J5-All.yml'
+        crowdin_branch_name: JoomlaV5
+        dryrun_action: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+        CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
