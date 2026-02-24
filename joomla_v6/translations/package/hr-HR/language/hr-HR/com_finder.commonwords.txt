@@ -3,7 +3,7 @@
 ; Licenca GNU Opća javna licenca verzija 2 ili kasnija; pogledaj LICENSE.txt
 ; Napomena: Ovu datoteku treba spremiti kao UTF-8
 
-ja
+i
 mene
 moj
 sebi
@@ -52,7 +52,7 @@ imati
 ima
 imao
 imajući
-učiniti
+do
 radi
 učinio
 radeći
@@ -111,9 +111,9 @@ kada je
 gdje je
 zašto je
 kako je
-neki
-jedan
-taj
+a
+an
+the
 i
 ali
 ako
@@ -137,13 +137,13 @@ prije
 nakon
 iznad
 ispod
-do
+to
 od
 gore
 dolje
 u
 iz
-uključeno
+on
 isključeno
 nad
 pod
