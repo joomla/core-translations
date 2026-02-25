@@ -55,7 +55,7 @@ abstract class Hr_HRLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['i', 'u', 'on'];
     }
 
     /**
