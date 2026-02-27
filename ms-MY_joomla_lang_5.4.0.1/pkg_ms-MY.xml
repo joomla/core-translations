@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+	<name>Malay (Malaysia) Language Pack</name>
+	<packagename>ms-MY</packagename>
+	<version>5.4.0.1</version>
+	<creationDate>2026-02-28</creationDate>
+	<author>Ahmad Zaki Abdullah</author>
+	<authorEmail>a.zakiabdullah@gmail.com</authorEmail>
+	<authorUrl>https://joomla.my/</authorUrl>
+	<copyright>(C) 2005 - 2026 Ahmad Zaki Abdullah. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<url>https://joomla.my/</url>
+	<packager>Ahmad Zaki Abdullah</packager>
+	<packagerurl>https://joomla.my/</packagerurl>
+	<description><![CDATA[
+	<h2>Pakej Bahasa Melayu (Malaysia) untuk Joomla! 5.4</h2>
+	<hr>
+	<p><span style="text-decoration: underline;">Pemasangan Baru:</span><br>Bahasa Melayu boleh ditetapkan sebagai bahasa lalai di bawah <a title="Language(s)" href="index.php?option=com_languages" target="_blank">"Extensions" &rarr; "Language(s)"</a> untuk laman web "Installed (Site)" dan juga pentadbiran "Installed (Administrator)".</p>
+	<p><span style="text-decoration: underline;">Kemaskini:</span><br>Tiada langkah tambahan diperlukan.</p>
+	]]>
+	</description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<file type="language" client="site" id="ms-MY">site_ms-MY.zip</file>
+		<file type="language" client="administrator" id="ms-MY">admin_ms-MY.zip</file>
+		<file type="language" client="api" id="ms-MY">api_ms-MY.zip</file>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Joomla! Translation - Malay (Malaysia)">
+			https://update.joomla.org/language/translationlist_5.xml
+		</server>
+	</updateservers>
+</extension>
