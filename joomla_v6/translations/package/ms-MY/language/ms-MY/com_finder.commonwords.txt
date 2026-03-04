@@ -1,179 +1,179 @@
-; Joomla! Project
+; Joomla! Projek
 ; (C) 2019 Open Source Matters, Inc. <https://www.joomla.org>
-; License GNU General Public License version 2 or later; see LICENSE.txt
-; Note : This file needs to be saved as UTF-8
+; Lesen GNU General Public License versi 2 atau lebih baru; lihat LICENSE.txt
+; Nota : Fail ini perlu disimpan sebagai UTF-8
 
 i
-me
-my
-myself
-we
-our
-ours
-ourselves
-you
-your
-yours
-yourself
-yourselves
-he
-him
-his
-himself
-she
-her
-hers
-herself
-it
-its
-itself
-they
-them
-their
-theirs
-themselves
-what
-which
-who
-whom
-this
-that
-these
-those
-am
-is
-are
-was
-were
-be
-been
-being
-have
-has
-had
-having
-do
-does
-did
-doing
-would
-should
-could
-ought
-i'm
-you're
-he's
-she's
-it's
-we're
-they're
-i've
-you've
-we've
-they've
-i'd
-you'd
-he'd
-she'd
-we'd
-they'd
-i'll
-you'll
-he'll
-she'll
-we'll
-they'll
-isn't
-aren't
-wasn't
-weren't
-hasn't
-haven't
-hadn't
-doesn't
-don't
-didn't
-won't
-wouldn't
-shan't
-shouldn't
-can't
-cannot
-couldn't
-mustn't
-let's
-that's
-who's
-what's
-here's
-there's
-when's
-where's
-why's
-how's
+saya
+saya
+diri sendiri
+kita
+kami
+milik kita
+diri kita sendiri
+awak
+awak
+milik anda
+diri sendiri
+anda sendiri
+dia
+dia
+miliknya
+dirinya sendiri
+dia
+dia
+miliknya
+dirinya
+ia
+itu
+sendiri
+mereka
+mereka
+mereka
+mereka
+diri mereka sendiri
+apa
+yang
+WHO
+siapa
+ini
+itu
+ini
+mereka
+pagi
+ialah
+adalah
+adalah
+adalah
+jadilah
+telah
+menjadi
+mempunyai
+mempunyai
+telah
+mempunyai
+buat
+tidak
+lakukan
+melakukan
+akan
+sepatutnya
+boleh
+sepatutnya
+saya
+awak
+dia
+dia
+ia adalah
+kami
+mereka
+saya dah
+awak dah
+kita dah
+mereka telah
+saya akan
+anda akan
+dia akan
+dia akan
+kami akan
+mereka akan
+saya akan
+anda akan
+dia akan
+dia akan
+kita akan
+mereka akan
+bukan
+bukan
+bukan
+tidak
+belum
+belum
+tidak
+tidak
+jangan
+tidak
+tidak akan
+tidak akan
+tidak boleh
+tidak sepatutnya
+tak boleh
+tidak boleh
+tidak boleh
+mesti tak
+mari
+itu
+siapa
+apa
+inilah
+ada
+bila
+di mana
+kenapa
+bagaimana
 a
 an
-the
-and
-but
-if
-or
-because
-as
-until
-while
-of
-at
-by
-for
-with
-about
-against
-between
-into
-through
-during
-before
-after
+yang
+dan
+tetapi
+jika
+atau
+kerana
+sebagai
+sehingga
+sementara
+daripada
+di
+oleh
+untuk
+dengan
+kira-kira
+terhadap
+antara
+ke dalam
+melalui
+semasa
+sebelumnya
+selepasnya
 above
 below
-to
-from
-up
-down
-in
-out
-on
-off
-over
-under
-again
-further
-then
-once
-here
-there
-when
-where
-why
-how
-all
-any
+kepada
+daripada
+naik
+turun
+dalam
+keluar
+buka
+tutup
+habis
+bawah
+sekali lagi
+selanjutnya
+kemudian
+sekali
+di sini
+di sana
+bila
+di mana
+kenapa
+bagaimana
+semua
+sebarang
 both
-each
-few
-more
-most
-other
-some
-such
-no
-nor
-not
-only
-own
-same
-so
-than
-too
-very
+setiap satu
+sedikit
+lebih
+kebanyakannya
+lain-lain
+beberapa
+sebegitu
+notis
+mahupun
+bukan
+sahaja
+sendiri
+sama
+jadi
+daripada
+juga
+sangat

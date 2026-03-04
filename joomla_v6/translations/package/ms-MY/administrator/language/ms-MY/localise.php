@@ -6,7 +6,7 @@
  * @copyright  (C) 2011 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  *
- * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
+ * @phpcs:lumpuhkan Squiz.Classes.ValidClassName.NotCamelCaps
  *
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
@@ -34,14 +34,14 @@ abstract class Ms_MYLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return ['0'];
+            kembali ['0'];
         }
 
         if ($count == 1) {
-            return ['ONE', '1'];
+            kembalikan ['SATU', '1'];
         }
 
-        return ['OTHER', 'MORE'];
+        kembalikan ['OTHER', 'MORE'];
     }
 
     /**
@@ -51,11 +51,11 @@ abstract class Ms_MYLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated 5.1 akan dialih keluar dalam 7.0 tanpa penggantian
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        kembali ['dan', 'masuk', 'hidup'];
     }
 
     /**
@@ -65,7 +65,7 @@ abstract class Ms_MYLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated 5.1 akan dialih keluar dalam 7.0 tanpa penggantian
      */
     public static function getLowerLimitSearchWord()
     {
@@ -79,7 +79,7 @@ abstract class Ms_MYLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated 5.1 akan dialih keluar dalam 7.0 tanpa penggantian
      */
     public static function getUpperLimitSearchWord()
     {
@@ -93,7 +93,7 @@ abstract class Ms_MYLocalise
      *
      * @since   1.6
      *
-     * @deprecated  5.1 will be removed in 7.0 without replacement
+     * @deprecated 5.1 akan dialih keluar dalam 7.0 tanpa penggantian
      */
     public static function getSearchDisplayedCharactersNumber()
     {

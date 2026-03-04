@@ -6,7 +6,7 @@
  * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  *
- * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
+ * @phpcs:lumpuhkan Squiz.Classes.ValidClassName.NotCamelCaps
  *
  * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
  */
@@ -33,14 +33,14 @@ abstract class Ms_MYLocalise
      */
     public static function getPluralSuffixes($count)
     {
-        switch ($count) {
-            case 0:
-                return ['0'];
+        suis ($kiraan) {
+            kes 0:
+                kembali ['0'];
 
-            case 1:
-                return ['ONE', '1'];
+            kes 1:
+                kembalikan ['SATU', '1'];
         }
 
-        return ['OTHER', 'MORE'];
+        kembalikan ['OTHER', 'MORE'];
     }
 }
