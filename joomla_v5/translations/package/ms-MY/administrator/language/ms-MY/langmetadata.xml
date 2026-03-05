@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="administrator">
-	<name/>
+	<name>Bahasa Melayu (ms-MY)</name>
 	<version/>
 	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<description><![CDATA[]]></description>
+	<author>Ahmad Zaki Abdullah</author>
+	<authorEmail>zaki@joomla.my</authorEmail>
+	<authorUrl>www.joomla.my</authorUrl>
+	<copyright>Copyright © 2005 - 2025 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[Pek bahasa Melayu (ms-MY) untuk pentadbir Joomla!]]></description>
 	<metadata>
-		<name/>
-		<nativeName/>
-		<tag/>
-		<rtl/>
-		<locale/>
-		<firstDay/>
-		<weekEnd/>
-		<calendar/>
+		<name>Bahasa Melayu (ms-MY)</name>
+		<nativeName>Bahasa Melayu (ms-MY)</nativeName>
+		<tag>ms-MY</tag>
+		<rtl>0</rtl>
+		<locale>ms_MY.utf8, ms_MY.UTF-8, ms_MY, msa_MY, ms, malay</locale>
+		<firstDay>1</firstDay>
+		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>
