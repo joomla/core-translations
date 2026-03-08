@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
-	<name>Bahasa Inggeris (en-GB)</name>
+	<name>Bahasa Melayu (ms-MY)</name>
 	<version>5.4.4</version>
-	<creationDate>Januari 2019</creationDate>
-	<author>Projek Joomla</author>
-	<authorEmail>admin@Joomla.org</authorEmail>
-	<authorUrl>www.Joomla.org</authorUrl>
-	<copyright>Hak-Cipta (C) 2006-2018 Perkara Sumber Terbuka. Hak Cipta terpelihara.</copyright>
-	<license>Lesen Awam Am GNU versi 2 atau seterusnya; Sila lihat LICENSE.txt</license>
-	<description><![CDATA[bahasa tapak en-GB]]></description>
+	<creationDate>2026-03</creationDate>
+	<author>Ahmad Zaki Abdullah</author>
+	<authorEmail>zaki@joomla.my</authorEmail>
+	<authorUrl>www.joomla.my</authorUrl>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[Pek bahasa Melayu (ms-MY) untuk tapak hadapan Joomla!]]></description>
 	<metadata>
-		<name>Bahasa Inggeris (en-GB)</name>
-		<nativeName>Bahasa Inggeris (en-GB)</nativeName>
-		<tag>en-GB</tag>
+		<name>Bahasa Melayu (ms-MY)</name>
+		<nativeName>Bahasa Melayu (ms-MY)</nativeName>
+		<tag>ms-MY</tag>
 		<rtl>0</rtl>
-		<locale>en_GB.utf8, en_GB.UTF-8, en_GB, eng_GB, en, english, english-uk, uk, gbr, britain, england, great britain, uk, united kingdom, united-kingdom</locale>
-		<firstDay>0</firstDay>
+		<locale>ms_MY.utf8, ms_MY.UTF-8, ms_MY, msa_MY, ms, malay</locale>
+		<firstDay>1</firstDay>
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
 	</metadata>
