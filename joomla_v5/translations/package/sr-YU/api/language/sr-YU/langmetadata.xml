@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="api">
 	<name>Srpski Latinica (sr-Latn-RS)</name>
-	<version/>
-	<creationDate/>
+	<version>5.4.4</version>
+	<creationDate>2026-02</creationDate>
 	<author>Goran Nešić &amp; Saša Matić</author>
 	<authorEmail>info@uixwebdesign.com</authorEmail>
 	<authorUrl>uixwebdesign.com</authorUrl>
 	<copyright>(C) 2026 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License verzija 2 ili novija; pogledaj LICENSE.txt</license>
-	<description><![CDATA[sr-RS api jezik]]></description>
+	<description><![CDATA[sr-Latin-RS api jezik]]></description>
 	<metadata>
 		<name>Srpski (Republika Srbija)</name>
 		<nativeName>Srpski (Republika Srbija)</nativeName>
