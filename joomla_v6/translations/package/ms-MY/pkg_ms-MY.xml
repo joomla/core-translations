@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Pek Bahasa Inggeris (en-GB)</name>
-	<packagename>en-GB</packagename>
+	<name>Pek Bahasa Inggeris (ms-MY)</name>
+	<packagename>ms-MY</packagename>
 	<version>6.0.4.1</version>
-	<creationDate>Januari 2019</creationDate>
+	<creationDate>2026-03</creationDate>
 	<author>Projek Joomla</author>
-	<authorEmail>admin@Joomla.org</authorEmail>
-	<authorUrl>www.Joomla.org</authorUrl>
+	<authorEmail>zaki@joomla.my</authorEmail>
+	<authorUrl>www.joomla.my</authorUrl>
 	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Projek Joomla</packager>
-	<packagerurl>www.Joomla.org</packagerurl>
-	<description><![CDATA[pek bahasa en-GB]]></description>
+	<packagerurl>www.joomla.my</packagerurl>
+	<description><![CDATA[pek bahasa ms-MY]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id="en-GB">language/en-GB</folder>
-		<folder type="language" client="administrator" id="en-GB">administrator/language/en-GB</folder>
-		<folder type="language" client="api" id="en-GB">api/language/en-GB</folder>
+		<folder type="language" client="site" id="ms-MY">language/ms-MY</folder>
+		<folder type="language" client="administrator" id="ms-MY">administrator/language/ms-MY</folder>
+		<folder type="language" client="api" id="ms-MY">api/language/ms-MY</folder>
 	</files>
 	<updateservers>
 		<server type="collection" priority="1" name="Terjemahan Joomla! Berakreditasi">
