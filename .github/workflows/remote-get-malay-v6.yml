@@ -27,49 +27,49 @@ jobs:
         # We use a simple copy paste syntax here if needed customization for different directories
         run: |
           cd ..
-          SYNC_VERION="v6"
+          SYNC_VERSION="v6"
           LANGUAGE_CODE="ms-MY"
 
           ZIP_PATH="administrator/language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/administrator/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete joomla-ms-MY-j6/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete joomla-ms-MY-j6/${ZIP_PATH} core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="pkg_${LANGUAGE_CODE}.xml"
           REPO_PATH="${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete joomla-ms-MY-j6/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete joomla-ms-MY-j6/${ZIP_PATH} core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="api/language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/api/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete joomla-ms-MY-j6/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete joomla-ms-MY-j6/${ZIP_PATH} core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete joomla-ms-MY-j6/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete joomla-ms-MY-j6/${ZIP_PATH} core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="installation/language/${LANGUAGE_CODE}/"
           REPO_PATH="installation/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/core/${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete joomla-ms-MY-j6/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/core/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERSION}/translations/core/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete joomla-ms-MY-j6/${ZIP_PATH} core-translations/joomla_${SYNC_VERSION}/translations/core/${REPO_PATH}
 
       - name: Validate PHP code
         run: |
-          SYNC_VERION="v6"
+          SYNC_VERSION="v6"
           LANGUAGE_CODE="ms-MY"
-          find ./joomla_${SYNC_VERION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} \; | fgrep -i "No syntax errors detected" || exit 1
+          find ./joomla_${SYNC_VERSION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} \; | fgrep -i "No syntax errors detected" || exit 1
 
       - name: Push translations to repo
         run: |
