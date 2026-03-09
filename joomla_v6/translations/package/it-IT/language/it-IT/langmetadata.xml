@@ -17,7 +17,7 @@
 		<locale>it_IT.utf8, it_IT.UTF-8, it_IT, ita_IT, it, italian, italian-it, IT, ita, italy, it_IT.UTF-8@euro, Italian_Standard, it-IT</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
-		<calendar>gregoriano</calendar>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params/>
 </metafile>

@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name/>
-	<packagename/>
-	<version/>
-	<creationDate/>
-	<author/>
-	<authorEmail/>
-	<authorUrl/>
-	<copyright/>
-	<license/>
-	<url/>
-	<packager/>
-	<packagerurl/>
-	<description><![CDATA[]]></description>
+	<name>Malay (ms-MY) Language Pack</name>
+	<packagename>ms-MY</packagename>
+	<version>5.4.3.1</version>
+	<creationDate>2026-03-07</creationDate>
+	<author>Joomla! Malaysia</author>
+	<authorEmail>zaki@joomla.my</authorEmail>
+	<authorUrl>https://www.joomla.my</authorUrl>
+	<url>https://github.com/zakiabdullah/joomla-ms-MY</url>
+	<packager>Joomla! Malaysia</packager>
+	<packagerurl>https://www.joomla.my</packagerurl>
+	<copyright>(C) 2026 Joomla! Malaysia</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[
+		<h2>Pakej Bahasa Melayu (ms-MY) untuk Joomla! 5</h2>
+		<h3>Pemasangan Baru / Kemaskini</h3>
+		<p>Pakej bahasa Melayu telah berjaya dipasang. Sila aktifkan bahasa ini melalui <strong>Sistem → Urus → Bahasa</strong>.</p>
+		<h3>Ralat Pemasangan</h3>
+		<p>Jika pemasangan gagal, sila muat turun versi terkini dari <a href="https://github.com/zakiabdullah/joomla-ms-MY/releases" target="_blank">GitHub Releases</a>.</p>
+		<p>Laporkan masalah di <a href="https://github.com/zakiabdullah/joomla-ms-MY/issues" target="_blank">GitHub Issues</a>.</p>
+	]]></description>
+	<scriptfile>script.php</scriptfile>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
-		<folder type="language" client="site" id=""/>
-		<folder type="language" client="administrator" id=""/>
-		<folder type="language" client="api" id=""/>
+		<file type="language" client="site" id="ms-MY">site_ms-MY.zip</file>
+		<file type="language" client="administrator" id="ms-MY">admin_ms-MY.zip</file>
+		<file type="language" client="api" id="ms-MY">api_ms-MY.zip</file>
 	</files>
 	<updateservers>
-		<server type="collection" priority="1" name="">
-			https://update.joomla.org/language/translationlist_5.xml
-		</server>
+		<server type="collection" name="Joomla! Update Directory">https://update.joomla.org/language/translationlist_5.xml</server>
 	</updateservers>
 </extension>
