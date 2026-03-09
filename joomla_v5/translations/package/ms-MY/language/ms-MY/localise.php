@@ -16,7 +16,7 @@
 // phpcs:enable PSR1.Files.SideEffects
 
 /**
- * ms_MY localise class.
+ * ms-MY localise class.
  *
  * @since  1.6
  */
