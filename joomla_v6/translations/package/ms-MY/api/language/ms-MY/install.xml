@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="api" type="language" method="upgrade">
-	<name>Bahasa Melayu (ms-MY)</name>
+	<name>Malay (ms-MY)</name>
 	<tag>ms-MY</tag>
-	<version>6.0.4</version>
-	<creationDate>2026-03</creationDate>
-	<author>Projek Joomla</author>
+	<version>6.0.3.1</version>
+	<creationDate>2026-03-07</creationDate>
+	<author>Joomla! Malaysia</author>
 	<authorEmail>zaki@joomla.my</authorEmail>
 	<authorUrl>www.joomla.my</authorUrl>
-	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<copyright>(C) 2026 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>bahasa api ms-MY</description>
+	<description>Pakej Bahasa Melayu (ms-MY) - API</description>
 	<files>
-		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
+		<filename file="meta">langmetadata.xml</filename>
+		<filename>com_media.ini</filename>
+		<filename>joomla.ini</filename>
+		<filename>lib_joomla.ini</filename>
 	</files>
-	<params/>
+	<params />
 </extension>
