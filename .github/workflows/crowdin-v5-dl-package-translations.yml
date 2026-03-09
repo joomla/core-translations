@@ -115,8 +115,6 @@ jobs:
             name: Lithuanian
           - language: mk
             name: Macedonian
-          - language: ms
-            name: Malay
           - language: ml
             name: Malayalam
           - language: mr
@@ -226,6 +224,7 @@ jobs:
 
       # Languages not using Crowdin (reference from main):
       # German variants (de, de-AT, de-CH, de-LI, de-LU) don't use Crowdin
+      # Malay (ms) doesn't use Crowdin
       # Polish (pl) doesn't use Crowdin
       # Russian (ru) doesn't use Crowdin
       # Ukrainian (uk) doesn't use Crowdin

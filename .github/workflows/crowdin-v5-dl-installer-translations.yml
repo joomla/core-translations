@@ -145,13 +145,14 @@ jobs:
 
       # Languages not using Crowdin or not yet ready (reference from main):
       # German variants (de, de-AT, de-CH, de-LI, de-LU) don't use Crowdin
+      # Malay (ms) doesn't use Crowdin
       # Polish (pl) doesn't use Crowdin
       # Russian (ru) doesn't use Crowdin
       # Serbian Cyrillic (sr-Cyrl) - Joomla INI not ready yet
       # Norwegian Bokmal (nb) - Joomla INI not ready yet
       # Other unsupported: Amharic (am), Armenian (hy), Azerbaijani (az), Bengali (bn), Bosnian (bs),
       # Esperanto (eo), English South Africa (en-ZA), Galician (gl), Gujarati (gu), Hindi (hi),
-      # Irish (ga), Khmer (km), Kyrgyz (ky), Lao (lo), Malay (ms), Malayalam (ml), Mongolian (mn),
+      # Irish (ga), Khmer (km), Kyrgyz (ky), Lao (lo), Malayalam (ml), Mongolian (mn),
       # Northern Sami (se), Norwegian Nynorsk (nn), Occitan (oc), Pashto (ps), Spanish Colombia (es-CO),
       # Spanish Mexico (es-MX), Swahili (sw), Sinhala (si), Syriac (sy-IQ), Tagalog (tl), Turkmen (tk),
       # Urdu India (ur-IN), Uyghur (ug)

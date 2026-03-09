@@ -27,6 +27,7 @@ jobs:
         # German Liechtenstein doesn't use Crowdin
         # German Luxombourg doesn't use Crowdin
         # German Swiss doesn't use Crowdin
+        # Malay (ms) doesn't use Crowdin
         # Polish doesn't use Crowdin
         # Russian doesn't use Crowdin
         include:
