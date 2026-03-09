@@ -33,6 +33,8 @@ This only applies to languages that are managed in Crowdin.
 * UTC 09:16-09:30 -> Get J5 Japanese and upload Translations to Crowdin
 * UTC 09:31-09:45 -> Get J6 Russian and upload Translations to Crowdin
 * UTC 09:46-10:01 -> Get J6 Ukrainian and upload Translations to Crowdin
+* UTC 10:02-10:17 -> Get J5 Malay and upload Translations to Crowdin
+* UTC 10:18-10:33 -> Get J6 Malay and upload Translations to Crowdin
 
 ## Folder Structure external repositories
 The following structure is required for external repositories, if we need to sync it with this repository.
