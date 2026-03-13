@@ -21,7 +21,7 @@ jobs:
         with:
           name: En_GBLocalise-logs
 
-      - uses: marocchino/sticky-pull-request-comment@v2
+      - uses: marocchino/sticky-pull-request-comment@v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           header: En_GBLocalise-class ${{ steps.artifact.outputs.pr_number }}  ${{ steps.artifact.outputs.jversion }}
