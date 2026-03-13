@@ -24,7 +24,7 @@ jobs:
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Download Afrikaans
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         # Option to specify a path to the configuration file, without / at the beginning
         config: 'Configurations/Crowdin-J6-All.yml'
@@ -49,7 +49,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Albanian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -66,7 +66,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Arabic
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -83,7 +83,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Armenian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -100,7 +100,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Azerbaijani
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -117,7 +117,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Basque
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -134,7 +134,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Belarusian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -151,7 +151,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Bengali
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -168,7 +168,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Bosnian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -185,7 +185,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Bulgarian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -202,7 +202,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Catalan
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -219,7 +219,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Chinese Simplified
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -236,7 +236,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Chinese Traditional
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -253,7 +253,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Croatian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -270,7 +270,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Czech
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -287,7 +287,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Danish
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -304,7 +304,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Dari
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -321,7 +321,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Dutch
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -338,7 +338,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Dutch Belgium
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -355,7 +355,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download English Australia
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -372,7 +372,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download English Canada
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -389,7 +389,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download English New Zealand
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -406,7 +406,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download English US
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -423,7 +423,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download English South Africa
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -440,7 +440,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Esperanto
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -457,7 +457,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Estonian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -474,7 +474,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Finnish
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -491,7 +491,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download French
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -508,7 +508,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download French Canada
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -525,7 +525,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Galician
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -542,7 +542,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Georgian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -564,7 +564,7 @@ jobs:
 # German Luxombourg doesn't use Crowdin
 # German Swiss doesn't use Crowdin
     - name: Crowdin Download Greek
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -581,7 +581,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Gujarati
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -598,7 +598,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Hebrew
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -615,7 +615,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Hindi
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -632,7 +632,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Hungarian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -649,7 +649,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Indonesian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -666,7 +666,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Irish
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -683,7 +683,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Italian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -701,7 +701,7 @@ jobs:
 
 # Japanese doesn't use Crowdin
     - name: Crowdin Download Kazakh
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -718,7 +718,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Khmer
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -735,7 +735,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Korean
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -752,7 +752,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Kyrgyz
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -769,7 +769,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Lao
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -786,7 +786,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Latvian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -803,7 +803,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Lithuanian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -820,7 +820,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Macedonian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -840,7 +840,7 @@ jobs:
       #      "CrowdinID": "ms"
 
     - name: Crowdin Download Malayalam
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -857,7 +857,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Marathi
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -874,7 +874,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Mongolian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -891,7 +891,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Ndonga
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -908,7 +908,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Northern Sami
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -925,7 +925,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Norwegian Bokmal
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -942,7 +942,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Norwegian Nynorsk
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -959,7 +959,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Occitan
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -976,7 +976,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Pashto
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -993,7 +993,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Persian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1012,7 +1012,7 @@ jobs:
 # Polish doesn't use Crowdin
 
     - name: Crowdin Download Portuguese
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1029,7 +1029,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Portuguese Brazilian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1046,7 +1046,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Romanian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1064,7 +1064,7 @@ jobs:
 
 # Russian doesn't use Crowdin
     - name: Crowdin Download Serbian Cyrillic
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1081,7 +1081,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Serbian Latin
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1098,7 +1098,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Sinhala
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1115,7 +1115,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Slovak
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1132,7 +1132,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Slovenian
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1149,7 +1149,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Spanish Spain
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1166,7 +1166,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Spanish Colombia
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1183,7 +1183,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Spanish Mexico
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1200,7 +1200,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Swahili
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1217,7 +1217,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Swedish
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1234,7 +1234,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Syriac
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1251,7 +1251,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Tagalog
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1268,7 +1268,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Tamil
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1285,7 +1285,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Thai
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1302,7 +1302,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Tornedalen, Finland
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1319,7 +1319,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Turkish
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1336,7 +1336,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Turkmen
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1354,7 +1354,7 @@ jobs:
 
 # Ukrainian doesn't use Crowdin
     - name: Crowdin Download Urdu India
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1371,7 +1371,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Urdu (Pakistan)
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1388,7 +1388,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Uyghur
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1405,7 +1405,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Vietnamese
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6
@@ -1422,7 +1422,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
     - name: Crowdin Download Welsh
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         config: 'Configurations/Crowdin-J6-All.yml'
         crowdin_branch_name: JoomlaV6

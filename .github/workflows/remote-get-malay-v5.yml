@@ -94,7 +94,7 @@ jobs:
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Malay
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         # Upload sources to Crowdin
         upload_sources: false
@@ -119,7 +119,7 @@ jobs:
 
       # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Malay Installer
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         # Upload sources to Crowdin
         upload_sources: false
