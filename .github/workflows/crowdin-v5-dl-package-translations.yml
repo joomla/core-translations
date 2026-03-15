@@ -198,7 +198,7 @@ jobs:
 
       # Runs the Crowdin action command - https://github.com/crowdin/github-action
       - name: Crowdin Download ${{ matrix.name }}
-        uses: crowdin/github-action@v2.15.0
+        uses: crowdin/github-action@v2.15.2
         with:
           # Option to specify a path to the configuration file, without / at the beginning
           config: 'Configurations/Crowdin-J5-All.yml'

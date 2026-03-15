@@ -137,10 +137,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-
-
       - name: Crowdin Download
-        uses: crowdin/github-action@v2.15.0
+        uses: crowdin/github-action@v2.15.2
         with:
           config: 'Configurations/Crowdin-J6-Installer.yml'
           crowdin_branch_name: JoomlaV6

@@ -27,42 +27,42 @@ jobs:
         # We use a simple copy paste syntax here if needed customization for different directories
         run: |
           cd ..
-          SYNC_VERION="v5"
+          SYNC_VERSION="v5"
           LANGUAGE_CODE="ja-JP"
 
           ZIP_PATH="administrator/language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/administrator/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-5.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-5.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="pkg_${LANGUAGE_CODE}.xml"
           REPO_PATH="${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-5.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-5.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="api/language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/api/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-5.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-5.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
 
           ZIP_PATH="language/${LANGUAGE_CODE}/"
           REPO_PATH="${LANGUAGE_CODE}/language/${LANGUAGE_CODE}/"
           echo /${ZIP_PATH}
           echo /${REPO_PATH}
-          mkdir -p core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
-          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-5.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERION}/translations/package/${REPO_PATH}
+          mkdir -p core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
+          rsync -i -rptgo --checksum --ignore-times --delete Joomla-in-Japanese-5.x/${ZIP_PATH} core-translations/joomla_${SYNC_VERSION}/translations/package/${REPO_PATH}
 
       - name: Validate PHP code
         run: |
-          SYNC_VERION="v5"
+          SYNC_VERSION="v5"
           LANGUAGE_CODE="ja-JP"
-          find ./joomla_${SYNC_VERION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} \; | fgrep -i "No syntax errors detected" || exit 1
+          find ./joomla_${SYNC_VERSION}/translations/package/${LANGUAGE_CODE}/ -name "*.php" -exec php -l {} \; | fgrep -i "No syntax errors detected" || exit 1
 
       - name: Push translations to repo
         run: |
@@ -87,7 +87,7 @@ jobs:
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Japanese
-      uses: crowdin/github-action@v2.15.0
+      uses: crowdin/github-action@v2.15.2
       with:
         # Upload sources to Crowdin
         upload_sources: false

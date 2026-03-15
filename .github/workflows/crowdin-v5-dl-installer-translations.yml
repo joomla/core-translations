@@ -127,7 +127,7 @@ jobs:
           token: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
       - name: Crowdin Download ${{ matrix.name }}
-        uses: crowdin/github-action@v2.15.0
+        uses: crowdin/github-action@v2.15.2
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5
