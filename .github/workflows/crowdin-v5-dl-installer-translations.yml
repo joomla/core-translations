@@ -329,6 +329,19 @@ jobs:
           commit_message: 'New French Canada Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
+      - name: Crowdin Download Reunion Creole French
+        uses: crowdin/github-action@v2.7.0
+        with:
+          config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
+          upload_sources: false
+          download_translations: true
+          download_language: rcf
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Reunion Creole French Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
+
       #      "LanguageName": "Galician",
       #      "CrowdinID": "gl"
 
