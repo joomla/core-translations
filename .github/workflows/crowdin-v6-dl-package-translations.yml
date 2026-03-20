@@ -890,6 +890,23 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
+    - name: Crowdin Download Montenegrin
+      uses: crowdin/github-action@v2.15.2
+      with:
+        config: 'Configurations/Crowdin-J6-All.yml'
+        crowdin_branch_name: JoomlaV6
+        upload_sources: false
+        download_translations: true
+        download_language: cnr
+        skip_untranslated_strings: true
+        export_only_approved: true
+        commit_message: 'New Montenegrin Crowdin translations by Github Action'
+        localization_branch_name: 'l10n_crowdin_package_v6'
+        github_user_name: 'joomla-translation-bot'
+        github_user_email: 'release+translation-bot@joomla.org'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
+
     - name: Crowdin Download Ndonga
       uses: crowdin/github-action@v2.15.2
       with:

@@ -305,6 +305,11 @@
     "CrowdinID": "mn"
   },
   {
+    "LanguageName": "Montenegrin",
+    "JoomlaLocale": "cnr-ME",
+    "CrowdinID": "cnr"
+  },
+  {
     "LanguageName": "Ndonga",
     "JoomlaLocale": "ng-NA",
     "CrowdinID": "ng"
