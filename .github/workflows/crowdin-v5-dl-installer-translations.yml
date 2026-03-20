@@ -512,6 +512,19 @@ jobs:
           commit_message: 'New Macedonian Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer_v5'
 
+      - name: Crowdin Download Montenegrin
+        uses: crowdin/github-action@v2.15.2
+        with:
+          config: 'Configurations/Crowdin-J5-Installer.yml'
+          crowdin_branch_name: JoomlaV5
+          upload_sources: false
+          download_translations: true
+          download_language: cnr
+          skip_untranslated_strings: true
+          export_only_approved: true
+          commit_message: 'New Montenegrin Crowdin translations by Github Action'
+          localization_branch_name: 'l10n_crowdin_installer_v5'
+
       #      "LanguageName": "Malay",
       #      "CrowdinID": "ms"
 
