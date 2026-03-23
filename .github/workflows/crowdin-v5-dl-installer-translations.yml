@@ -6,6 +6,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
   CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
@@ -140,8 +141,6 @@ jobs:
           localization_branch_name: 'l10n_crowdin_installer_v5'
           github_user_name: 'joomla-translation-bot'
           github_user_email: 'release+translation-bot@joomla.org'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
 
       # Languages not using Crowdin or not yet ready (reference from main):
       # German variants (de, de-AT, de-CH, de-LI, de-LU) don't use Crowdin
