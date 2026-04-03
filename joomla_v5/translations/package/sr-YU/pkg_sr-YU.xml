@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Srpski Latinica jezički paket</name>
 	<packagename>sr-YU</packagename>
-	<version>5.4.4.1</version>
-	<creationDate>2026-02</creationDate>
+	<version/>
+	<creationDate/>
 	<author>Goran Nešić &amp; Saša Matić</author>
 	<authorEmail>info@uixwebdesign.com</authorEmail>
 	<authorUrl>uixwebdesign.com</authorUrl>
