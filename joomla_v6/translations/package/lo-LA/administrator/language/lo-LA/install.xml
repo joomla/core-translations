@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Lao (Laos) (lo_LA)</name>
 	<tag>lo-LA</tag>
-	<version/>
-	<creationDate/>
+	<version>6.1.0</version>
+	<creationDate>2026-03</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
