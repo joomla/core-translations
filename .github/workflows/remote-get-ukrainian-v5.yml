@@ -6,9 +6,9 @@ name: J5 Get Ukrainian Translation files
 
 on:
   workflow_dispatch:
-  # Runs once a day at 8:15
+  # Runs once a day at 20:30
   schedule:
-    - cron:  '15 8 * * *'
+    - cron:  '30 20 * * *'
 
 jobs:
   collect-from-external:

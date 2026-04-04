@@ -6,9 +6,9 @@ name: J6 Get Malay Translation files
 
 on:
   workflow_dispatch:
-  # Runs once a day at 9:45
+  # Runs once a day at 22:00
   schedule:
-    - cron:  '45 9 * * *'
+    - cron:  '0 22 * * *'
 
 jobs:
   collect-from-external:
