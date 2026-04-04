@@ -4,9 +4,9 @@
 name: J6 Get Core Source Language files
 
 on:
-  # Runs once a day at 7:42
+  # Runs once a day at 20:15
   schedule:
-    - cron:  '42 7 * * *'
+    - cron:  '15 20 * * *'
   workflow_dispatch:
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
