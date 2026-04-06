@@ -6,9 +6,9 @@ name: J5 Get Japanese Translation files
 
 on:
   workflow_dispatch:
-  # Runs once a day at 8:45
+  # Runs once a day at 21:00
   schedule:
-    - cron:  '45 8 * * *'
+    - cron:  '0 21 * * *'
 
 jobs:
   collect-from-external:
