@@ -139,8 +139,6 @@ jobs:
           export_only_approved: true
           commit_message: 'New ${{ matrix.name }} Crowdin translations by Github Action'
           localization_branch_name: 'l10n_crowdin_installer_v5'
-          github_user_name: 'joomla-translation-bot'
-          github_user_email: 'release+translation-bot@joomla.org'
 
       # Languages not using Crowdin or not yet ready (reference from main):
       # German variants (de, de-AT, de-CH, de-LI, de-LU) don't use Crowdin
