@@ -124,8 +124,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-        with:
-          token: ${{ secrets.GHA_TRANSLATIONBOT_PAT }}
+
 
       - name: Crowdin Download ${{ matrix.name }}
         uses: crowdin/github-action@v2.15.2
