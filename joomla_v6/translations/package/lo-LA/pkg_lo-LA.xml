@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>ຊຸດພາສາລາວ (Lao) (lo-LA)</name>
 	<packagename>lo-LA</packagename>
-	<version>6.1.0.1</version>
+	<version>6.1.1.1</version>
 	<creationDate>2026-04</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
