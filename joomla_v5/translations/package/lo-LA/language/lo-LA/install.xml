@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Lao (Laos) (lo_LA)</name>
 	<tag>lo-LA</tag>
-	<version>5.4.5</version>
+	<version>5.4.6</version>
 	<creationDate>2026-04</creationDate>
 	<author>ໂຄງການ Joomla!</author>
 	<authorEmail>admin@joomla.org</authorEmail>
