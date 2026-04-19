@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Turkish (tr-TR)</name>
 	<tag>tr-TR</tag>
-	<version>6.1.0</version>
+	<version>6.1.1</version>
 	<creationDate>04-2026</creationDate>
 	<author>Joomla! Türkiye</author>
 	<authorEmail>info@joomlatr.org</authorEmail>
