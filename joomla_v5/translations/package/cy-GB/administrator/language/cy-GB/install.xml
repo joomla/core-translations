@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension client="administrator" type="language" method="upgrade">
-	<name>Welsh (cy-GB)</name>
+	<name/>
 	<tag>cy-GB</tag>
-	<version/>
-	<creationDate/>
+	<version>5.4.6.1</version>
+	<creationDate>2026-05</creationDate>
 	<author>Joomla! Project - Welsh Translation Team</author>
 	<authorEmail>cyfieithu@joomla.cymru</authorEmail>
 	<authorUrl>www.joomla.cymru</authorUrl>
