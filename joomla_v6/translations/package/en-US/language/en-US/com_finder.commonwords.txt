@@ -167,7 +167,7 @@ most
 other
 some
 such
-never
+no
 nor
 not
 only
