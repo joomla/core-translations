@@ -11,7 +11,7 @@
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Dutch (BE) translation team</packager>
-	<packagerurl>https://downloads.joomla.org/language-packs/translations-joomla4/downloads/joomla4-flemish</packagerurl>
+	<packagerurl>https://downloads.joomla.org/language-packs/translations-joomla6/downloads/joomla6-flemish</packagerurl>
 	<description><![CDATA[Vlaams taalpakket]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
