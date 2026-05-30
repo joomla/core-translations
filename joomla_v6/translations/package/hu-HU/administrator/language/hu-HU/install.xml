@@ -3,13 +3,13 @@
 	<name>Hungarian (Hungary)</name>
 	<tag>hu-HU</tag>
 	<version/>
-	<creationDate/>
+	<creationDate>2026-02</creationDate>
 	<author>Joomla! Magyarország</author>
 	<authorEmail>szerk@joomlacms.hu</authorEmail>
 	<authorUrl>www.joomlacms.hu</authorUrl>
 	<copyright>Minden jog fenntartva (C) 2005-2021 Open Source Matters.</copyright>
 	<license>GNU Általános Nyilvános Licenc 2-es vagy újabb verzió; lásd LICENSE.txt</license>
-	<description>hu-HU adminisztrációs oldal nyelv</description>
+	<description>hu-HU adminisztrációs oldal nyelve</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
