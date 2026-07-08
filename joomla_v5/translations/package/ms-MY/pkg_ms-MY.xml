@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Malay (ms-MY) Language Pack</name>
 	<packagename>ms-MY</packagename>
-	<version>5.4.6.1</version>
-	<creationDate>2026-05-02</creationDate>
+	<version>5.4.7.1</version>
+	<creationDate>2026-07-08</creationDate>
 	<author>Ahmad Zaki Abdullah</author>
 	<authorEmail>zaki@joomla.my</authorEmail>
 	<authorUrl>https://www.joomla.my</authorUrl>
