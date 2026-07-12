@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Turkish (tr-TR) Dil Paketi</name>
 	<packagename>tr-TR</packagename>
-	<version>6.1.2.1</version>
+	<version>6.1.3.1</version>
 	<creationDate>07-2026</creationDate>
 	<author>Joomla! Türkiye</author>
 	<authorEmail>info@joomlatr.org</authorEmail>
