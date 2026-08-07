@@ -127,7 +127,7 @@ at
 by
 for
 with
-about
+maidir leis
 against
 between
 into
@@ -135,16 +135,16 @@ through
 during
 roimh
 tar éis
-above
-below
+os cionn
+faoi
 to
-from
-up
+ó
+suas
 down
 in
 out
-on
-off
+ann
+as
 over
 under
 again
@@ -157,9 +157,9 @@ when
 where
 why
 how
-all
-any
-both
+uile
+aon cheann
+araon
 each
 few
 more
@@ -167,10 +167,10 @@ most
 other
 some
 such
-no
+fógra
 nor
 ní
-only
+amháin
 own
 same
 so
