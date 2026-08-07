@@ -2,19 +2,19 @@
 <extension type="package" method="upgrade">
 	<name>Irish (ga-IE) Language Pack</name>
 	<packagename>ga-IE</packagename>
-	<version/>
-	<creationDate/>
-	<author>Irish translation team</author>
+	<version>5.4.8.1</version>
+	<creationDate>2026-07</creationDate>
+	<author>Joomla! Project - Irish translation team</author>
 	<authorEmail>kscanne@gmail.com</authorEmail>
 	<authorUrl>https://cadhan.com/</authorUrl>
-	<copyright>Copyright (C) 2019 Open Source Matters. Gach ceart ar cosaint.</copyright>
+	<copyright>(C) 2019 Open Source Matters, Inc.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Irish translation team</packager>
+	<packager>Joomla! Project - Irish translation team</packager>
 	<packagerurl>https://cadhan.com/</packagerurl>
 	<description><![CDATA[<div style="text-align:left;">
-<h3>Joomla! 4 Full Irish (ga-IE) Language Package - Version 4.2.8.1</h3>
-<h3>Pacáiste Gaeilge (ga-IE) le haghaidh Joomla! 4 - Leagan 4.2.8.1</h3>
+<h3>Joomla! 5 Full Irish (ga-IE) Language Package - Version 5.4.8.1</h3>
+<h3>Pacáiste Gaeilge (ga-IE) le haghaidh Joomla! 5 - Leagan 5.4.8.1</h3>
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>

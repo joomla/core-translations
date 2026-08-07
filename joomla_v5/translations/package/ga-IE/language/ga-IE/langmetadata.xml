@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metafile client="site">
 	<name>Irish (ga-IE)</name>
-	<version/>
-	<creationDate/>
-	<author>Irish translation team</author>
+	<version>5.4.8</version>
+	<creationDate>2026-07</creationDate>
+	<author>Joomla! Project - Irish translation team</author>
 	<authorEmail>kscanne@gmail.com</authorEmail>
 	<authorUrl>https://cadhan.com/</authorUrl>
-	<copyright>Copyright (C) 2006 Open Source Matters. Gach ceart ar cosaint.</copyright>
+	<copyright>(C) 2006 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[ga-IE site language]]></description>
 	<metadata>

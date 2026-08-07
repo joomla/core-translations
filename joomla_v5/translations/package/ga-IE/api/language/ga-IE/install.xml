@@ -2,12 +2,12 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Irish (ga-IE)</name>
 	<tag>ga-IE</tag>
-	<version/>
-	<creationDate/>
-	<author>Irish translation team</author>
+	<version>5.4.8</version>
+	<creationDate>2026-07</creationDate>
+	<author>Joomla! Project - Irish translation team</author>
 	<authorEmail>kscanne@gmail.com</authorEmail>
 	<authorUrl>https://cadhan.com/</authorUrl>
-	<copyright>Copyright (C) 2020 Open Source Matters. Gach ceart ar cosaint.</copyright>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>ga-IE api language</description>
 	<files>
