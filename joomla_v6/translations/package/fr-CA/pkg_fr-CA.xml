@@ -2,8 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>French (fr-CA) Language Pack</name>
 	<packagename>fr-CA</packagename>
-	<version/>
-	<creationDate/>
+	<version>6.1.3.1</version>
+	<creationDate>2026-08-18</creationDate>
 	<author>Joomla! Project - Canadian translation team</author>
 	<authorEmail>traduction@joomla.fr</authorEmail>
 	<authorUrl>www.joomla.fr</authorUrl>
@@ -12,9 +12,9 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project - Canadian translation team</packager>
 	<packagerurl>www.joomla.fr</packagerurl>
-	<description><![CDATA[<div style="text-align: left;">
-<h3>Joomla! 4 Full French canadian (fr-CA) Language Package</h3>
-<h3>Pack de langue Joomla! 4 Français canadien (fr-CA) complet</h3>
+	<description><![CDATA[<div style="background: #fff; color: #333; font-weight: normal; padding: 10px 15px; text-align: left;">
+<h3>Joomla! 6 Full French canadian (fr-CA) Language Package</h3>
+<h3>Pack de langue Joomla! 6 Français canadien (fr-CA) complet</h3>
 <p><a href="mailto:traduction@joomla.fr">traduction@joomla.fr</a></p>
 </div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
