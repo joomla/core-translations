@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Irish (ga-IE)</name>
 	<tag>ga-IE</tag>
-	<version>6.1.3</version>
+	<version/>
 	<creationDate/>
 	<author>Joomla! Project - Irish translation team</author>
 	<authorEmail>kscanne@gmail.com</authorEmail>
