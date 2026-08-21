@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Norwegian Bokmål (nb-NO) Language Pack</name>
 	<packagename>nb-NO</packagename>
-	<version>5.4.8.1</version>
+	<version>5.4.9.1</version>
 	<creationDate>2026-08</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
