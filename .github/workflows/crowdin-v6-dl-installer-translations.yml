@@ -101,6 +101,8 @@ jobs:
             name: Lithuanian
           - language: mk
             name: Macedonian
+          - language: nb
+            name: Norwegian Bokmal
           - language: fa
             name: Persian
           - language: pt

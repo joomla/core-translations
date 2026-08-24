@@ -88,6 +88,8 @@ jobs:
             name: Lithuanian
           - language: mk
             name: Macedonian
+          - language: nb
+            name: Norwegian Bokmal
           - language: fa
             name: Persian
           - language: pt
@@ -147,7 +149,6 @@ jobs:
       # Polish (pl) doesn't use Crowdin
       # Russian (ru) doesn't use Crowdin
       # Serbian Cyrillic (sr-Cyrl) - Joomla INI not ready yet
-      # Norwegian Bokmal (nb) - Joomla INI not ready yet
       # Other unsupported: Amharic (am), Armenian (hy), Azerbaijani (az), Bengali (bn), Bosnian (bs),
       # Esperanto (eo), English South Africa (en-ZA), Galician (gl), Gujarati (gu), Hindi (hi),
       # Khmer (km), Kyrgyz (ky), Lao (lo), Malayalam (ml), Mongolian (mn),
