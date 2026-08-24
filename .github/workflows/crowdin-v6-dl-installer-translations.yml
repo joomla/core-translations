@@ -87,6 +87,8 @@ jobs:
             name: Indonesian
           - language: it
             name: Italian
+          - language: ga
+            name: Irish
           - language: ja
             name: Japanese
           - language: kk
