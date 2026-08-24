@@ -74,6 +74,8 @@ jobs:
             name: Indonesian
           - language: it
             name: Italian
+          - language: ga
+            name: Irish
           - language: ja
             name: Japanese
           - language: kk
@@ -148,7 +150,7 @@ jobs:
       # Norwegian Bokmal (nb) - Joomla INI not ready yet
       # Other unsupported: Amharic (am), Armenian (hy), Azerbaijani (az), Bengali (bn), Bosnian (bs),
       # Esperanto (eo), English South Africa (en-ZA), Galician (gl), Gujarati (gu), Hindi (hi),
-      # Irish (ga), Khmer (km), Kyrgyz (ky), Lao (lo), Malayalam (ml), Mongolian (mn),
+      # Khmer (km), Kyrgyz (ky), Lao (lo), Malayalam (ml), Mongolian (mn),
       # Northern Sami (se), Norwegian Nynorsk (nn), Occitan (oc), Pashto (ps), Spanish Colombia (es-CO),
       # Spanish Mexico (es-MX), Swahili (sw), Sinhala (si), Syriac (sy-IQ), Tagalog (tl), Turkmen (tk),
       # Urdu India (ur-IN), Uyghur (ug)
