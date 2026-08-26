@@ -127,11 +127,11 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
 
       - name: Crowdin Download ${{ matrix.name }}
-        uses: crowdin/github-action@v2.15.2
+        uses: crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1 # v2.15.2
         with:
           config: 'Configurations/Crowdin-J5-Installer.yml'
           crowdin_branch_name: JoomlaV5

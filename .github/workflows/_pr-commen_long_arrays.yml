@@ -17,11 +17,11 @@ jobs:
     steps:
       - name: on artifact
         id: artifact
-        uses: marocchino/on_artifact@v2
+        uses: marocchino/on_artifact@15ee6e49e31cdbc538ee54332436e6de32c809a3 # v2.0.0
         with:
           name: long-arrays-logs
 
-      - uses: marocchino/sticky-pull-request-comment@v3
+      - uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3.0.5
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           header: long-arrays ${{ steps.artifact.outputs.pr_number }}  ${{ steps.artifact.outputs.jversion }}
