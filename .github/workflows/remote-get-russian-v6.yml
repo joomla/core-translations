@@ -15,7 +15,7 @@ jobs:
     if: (github.event_name == 'schedule' && github.repository == 'joomla/core-translations') || (github.event_name != 'schedule')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Fetch and extract Russian j6 cms
         run: |
           cd ..
@@ -90,11 +90,11 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout
-      uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Russian
-      uses: crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1 # v2.15.2
+      uses: crowdin/github-action@e4a6c1338b4063c77d46a81875265f9e8bd76f95 # v3.0.0
       with:
         # Upload sources to Crowdin
         upload_sources: false
@@ -119,7 +119,7 @@ jobs:
 
       # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Russian Installer
-      uses: crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1 # v2.15.2
+      uses: crowdin/github-action@e4a6c1338b4063c77d46a81875265f9e8bd76f95 # v3.0.0
       with:
         # Upload sources to Crowdin
         upload_sources: false
