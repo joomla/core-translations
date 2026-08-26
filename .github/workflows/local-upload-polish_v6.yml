@@ -13,11 +13,11 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout
-      uses: actions/checkout@v6
+      uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
 
     # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Polish
-      uses: crowdin/github-action@v2.15.2
+      uses: crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1 # v2.15.2
       with:
         # Upload sources to Crowdin
         upload_sources: false
@@ -42,7 +42,7 @@ jobs:
 
       # Runs the Crowdin action command - https://github.com/crowdin/github-action
     - name: Crowdin Upload Polish installer
-      uses: crowdin/github-action@v2.15.2
+      uses: crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1 # v2.15.2
       with:
         # Upload sources to Crowdin
         upload_sources: false

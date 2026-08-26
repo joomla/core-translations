@@ -20,11 +20,11 @@ jobs:
 
     steps:
       - name: Checkout Source Code
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Check PHP syntax errors
-        uses: StephaneBour/actions-php-lint@8.4
+        uses: StephaneBour/actions-php-lint@e81e93ef8d421a09e434b715766a89679dd974dc # 8.4
         with:
           dir: '.'
