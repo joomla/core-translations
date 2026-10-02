@@ -55,7 +55,7 @@ abstract class He_ILLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['את', 'של', 'על'];
     }
 
     /**
