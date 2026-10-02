@@ -3,7 +3,7 @@
 	<name>Srpski Latinica jezički paket</name>
 	<packagename>sr-YU</packagename>
 	<version/>
-	<creationDate/>
+	<creationDate>2026-09</creationDate>
 	<author>Goran Nešić &amp; Saša Matić</author>
 	<authorEmail>info@uixwebdesign.com</authorEmail>
 	<authorUrl>uixwebdesign.com</authorUrl>
@@ -12,22 +12,59 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Goran Nešić &amp; Saša Matić</packager>
 	<packagerurl>uixwebdesign.com</packagerurl>
-	<description><![CDATA[<div align="center">
-			<div class="alert alert-success" style="background-color:#DFF0D8; border-color:#D6E9C6; color: #468847; padding: 1px 0;">
-				<p></p>
-				<h3><a href="https://volunteers. joomla. org/joomlers/14824-goran-nesic">Joomla! 6 Srpski prevod (latinica)</a></h3>
-				
-				<h4><a href="https://forum. joomla. org/viewforum. php? f=29" title="">Joomla Forum - Srbija</a> | <a href="https://volunteers. joomla. org/joomlers/14824-goran-nesic" title="">Podrška za Srpski jezik</a> | <a href="https://docs. joomla. org/Main_Page" title="">Joomla Dokumentacija</a> | <a href="https://joomla. crowdin. com/cms/sr-Latn" title="">Joomla Platforma za prevođenje</a></h4>
-
-				<p>Hvala vam što koristite Joomla! CMS sa neograničenim mogućnostima. Upravo ste instalirali paket za Srpski jezik (latinica).</p>
-
-				
-				<span style="color:#FF0000">NAPOMENA: Vrlo je bitno da posle instalacije i završetka podešavanja otvorite dodatak: Sistem - Html kod jezika (System - Language Code) i podesite jezičku oznaku na <b>sr-Latn-RS</b> umesto dosadašnje <b>sr-YU</b> da bi vaš sajt bio detektovan kako treba od strane pretraživača. U ovom izdanju je poboljšan prevod Joomle. Pozivamo vas da nam skrenete pažnju ukoliko primetite neke banalne mašinske prevode.</span><p></p>
-				<p>Kontaktirajte <a href="https://volunteers. joomla. org/joomlers/14824-goran-nesic" title='Posetite Joomla profil kontrolora!'>kontrolora za Srpski jezik (latinica) </a>ukoliko imate bilo kakve sugestije ili predloge.</p>
-
+	<description><![CDATA[<div class="card bg-body text-start fw-normal border rounded-3 shadow-sm overflow-hidden my-1" lang="sr-Latn">
+	<svg class="d-block" width="100%" height="9" viewBox="0 0 100 9" preserveAspectRatio="none" aria-hidden="true" focusable="false"><rect width="100" height="3" fill="#C6363C"/><rect y="3" width="100" height="3" fill="#0C4076"/><rect y="6" width="100" height="3" fill="#FFFFFF"/></svg>
+	<div class="card-header bg-body-tertiary border-bottom d-flex align-items-center gap-3 p-3">
+		<svg class="flex-shrink-0" width="56" height="56" viewBox="0 0 64 64" role="img" aria-label="Srpski jezik">
+			<defs><clipPath id="srLatnBubbleClip"><path d="M14 6H50A10 10 0 0 1 60 16V36A10 10 0 0 1 50 46H30L14 58L18 46H14A10 10 0 0 1 4 36V16A10 10 0 0 1 14 6Z"/></clipPath></defs>
+			<g clip-path="url(#srLatnBubbleClip)"><rect width="64" height="19.4" fill="#C6363C"/><rect y="19.3" width="64" height="13.5" fill="#0C4076"/><rect y="32.7" width="64" height="31.3" fill="#FFFFFF"/></g>
+			<path d="M14 6H50A10 10 0 0 1 60 16V36A10 10 0 0 1 50 46H30L14 58L18 46H14A10 10 0 0 1 4 36V16A10 10 0 0 1 14 6Z" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="1.5" stroke-linejoin="round"/>
+		</svg>
+		<div>
+			<h3 class="fs-3 fw-bold text-body-emphasis mb-1">Joomla! na srpskom jeziku</h3>
+			<p class="mb-0 text-body-secondary">Paket srpskog jezika (latinica) je instaliran. Hvala vam što koristite Joomla! CMS.</p>
+		</div>
+	</div>
+	<div class="card-body p-3 p-md-4">
+		<div class="d-flex gap-3 p-3 mb-3 rounded-3 border border-success-subtle bg-success-subtle text-success-emphasis">
+			<span class="icon-star icon-fw fs-4 lh-base align-self-start flex-shrink-0" aria-hidden="true"></span>
+			<div>
+				<strong class="d-block lh-base mb-1">Novo u ovom izdanju</strong>
+				Ovo izdanje donosi ozbiljna poboljšanja u kvalitetu prevoda i značajne popravke. Ako ipak primetite nespretan ili mašinski preveden tekst, javite nam i ispravićemo ga.
 			</div>
-			<style>table. adminform{width: 100%;}</style>
-		</div>]]></description>
+		</div>
+		<div class="d-flex gap-3 p-3 mb-4 rounded-3 border border-warning-subtle bg-warning-subtle text-warning-emphasis">
+			<span class="icon-exclamation-triangle icon-fw fs-4 lh-base align-self-start flex-shrink-0" aria-hidden="true"></span>
+			<div>
+				<strong class="d-block lh-base mb-1">Važno posle instalacije</strong>
+				Kada završite podešavanje, otvorite dodatak <strong>Sistem - Html kod jezika</strong> (System - Language Code), omogućite ga ako je isključen i za jezik <code class="text-nowrap">sr-YU</code> upišite oznaku <code class="text-nowrap">sr-Latn-RS</code>. Tako će pretraživači ispravno prepoznati jezik vašeg sajta.
+			</div>
+		</div>
+		<h4 class="h6 text-uppercase text-body-secondary fw-semibold mb-2">Korisni linkovi</h4>
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-2">
+			<div class="col"><div class="position-relative d-flex align-items-center gap-2 h-100 px-3 py-2 border rounded-3 bg-body"><span class="icon-comments icon-fw fs-4 text-primary-emphasis" aria-hidden="true"></span><a class="stretched-link fw-semibold text-decoration-none" href="https://forum.joomla.org/viewforum.php?f=29" target="_blank" rel="noopener noreferrer nofollow">Forum na srpskom<span class="visually-hidden"></span></a></div></div>
+			<div class="col"><div class="position-relative d-flex align-items-center gap-2 h-100 px-3 py-2 border rounded-3 bg-body"><span class="icon-support icon-fw fs-4 text-primary-emphasis" aria-hidden="true"></span><a class="stretched-link fw-semibold text-decoration-none" href="https://volunteers.joomla.org/joomlers/14824-goran-nesic" target="_blank" rel="noopener noreferrer nofollow">Podrška za srpski jezik<span class="visually-hidden"></span></a></div></div>
+			<div class="col"><div class="position-relative d-flex align-items-center gap-2 h-100 px-3 py-2 border rounded-3 bg-body"><span class="icon-book icon-fw fs-4 text-primary-emphasis" aria-hidden="true"></span><a class="stretched-link fw-semibold text-decoration-none" href="https://docs.joomla.org/Main_Page" target="_blank" rel="noopener noreferrer nofollow">Joomla! dokumentacija<span class="visually-hidden"></span></a></div></div>
+			<div class="col"><div class="position-relative d-flex align-items-center gap-2 h-100 px-3 py-2 border rounded-3 bg-body"><span class="icon-language icon-fw fs-4 text-primary-emphasis" aria-hidden="true"></span><a class="stretched-link fw-semibold text-decoration-none" href="https://joomla.crowdin.com/cms/sr-Latn" target="_blank" rel="noopener noreferrer nofollow">Prevodite sa nama<span class="visually-hidden"></span></a></div></div>
+		</div>
+	</div>
+	<div class="card-footer bg-body-tertiary border-top p-3">
+		<div class="d-flex flex-wrap align-items-center gap-3">
+			<svg class="flex-shrink-0 text-primary" width="72" height="54" viewBox="0 0 72 54" aria-hidden="true" focusable="false">
+				<rect x="1.5" y="1.5" width="69" height="51" rx="7" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-width="3"/>
+				<path d="M1.5 15H70.5" stroke="currentColor" stroke-width="3"/>
+				<circle cx="10" cy="8.5" r="2.6" fill="#C6363C"/><circle cx="18" cy="8.5" r="2.6" fill="#0C4076"/><circle cx="26" cy="8.5" r="2.6" fill="currentColor" fill-opacity=".4"/>
+				<path d="M27 27L19 34L27 41M45 27L53 34L45 41M39 24L33 44" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+			</svg>
+			<div class="flex-grow-1">
+				<span class="d-block small text-uppercase text-body-secondary fw-semibold">UIX WEB DESIGN</span>
+				<strong class="d-block fs-4 text-body-emphasis">Treba vam nov sajt ili redizajn postojećeg?</strong>
+				<span class="text-body-secondary">Profesionalna izrada web sajtova i Joomla CMS podrška.</span>
+			</div>
+			<a class="btn btn-primary rounded-pill fw-bold px-4 text-white text-decoration-none" href="https://uixwebdesign.com/?utm_source=joomla-sr-latn&amp;utm_medium=instaler&amp;utm_campaign=jezicki-paket" target="_blank" rel="sponsored nofollow noopener noreferrer">Poseti nas<span class="visually-hidden"></span></a>
+		</div>
+	</div>
+</div>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="sr-YU">language/sr-YU</folder>
