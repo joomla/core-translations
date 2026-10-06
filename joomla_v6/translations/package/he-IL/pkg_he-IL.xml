@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Hebrew (Israel)</name>
 	<packagename>he-IL</packagename>
-	<version/>
+	<version>6.1.4.1</version>
 	<creationDate>2026-09</creationDate>
 	<author>פרוייקט ג'ומלה</author>
 	<authorEmail>info@joomla.org.il</authorEmail>
