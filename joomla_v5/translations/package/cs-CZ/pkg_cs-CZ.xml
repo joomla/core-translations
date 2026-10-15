@@ -2,10 +2,10 @@
 <extension type="package" method="upgrade">
 	<name>Czech (cs-CZ) Language Pack</name>
 	<packagename>cs-CZ</packagename>
-	<version>5.4.10.1</version>
+	<version>5.4.11.1</version>
 	<creationDate>2026-10</creationDate>
 	<author>Czech Translation Team</author>
-	<authorEmail>admin@joomla.cz</authorEmail>
+	<authorEmail>info@bongovo.cz</authorEmail>
 	<authorUrl>https://www.joomlaportal.cz</authorUrl>
 	<copyright>Copyright (C) 2005 - 2025 Open Source Matters. All rights reserved.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>

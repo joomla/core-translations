@@ -2,10 +2,10 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Czech (Čeština)</name>
 	<tag>cs-CZ</tag>
-	<version>5.4.10</version>
+	<version>5.4.11</version>
 	<creationDate>2026-10</creationDate>
 	<author>Czech Translation Team</author>
-	<authorEmail>admin@joomla.cz</authorEmail>
+	<authorEmail>info@bongovo.cz</authorEmail>
 	<authorUrl>https://www.joomlaportal.cz</authorUrl>
 	<copyright>Copyright (C) 2005 - 2025 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
