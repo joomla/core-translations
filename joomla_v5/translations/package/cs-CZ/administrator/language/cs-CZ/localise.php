@@ -34,30 +34,18 @@ abstract class Cs_CZLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return ['0'];
+            return ['0', 'OTHER', 'MORE'];
         }
 
-        		elseif ($count == 1)
-		{
-			return ['ONE', '1'];
-		}
-		    elseif ($count == 2)
-    {
-        return ['FEW', '2'];
-    }
-    elseif ($count == 3)
-    {
-        return ['FEW', '3'];
-    }
-                elseif ($count == 4)
-    {
-        return ['FEW'];
+        if ($count == 1) {
+            return ['1', 'ONE'];
         }
 
-            else
-		{
-			return ['OTHER', 'MORE'];
-		}
+             if ($count < 5) {
+       return ['2', 'FEW'];
+    }
+
+    return ['5', 'OTHER', 'MORE'];
     }
 
     /**
