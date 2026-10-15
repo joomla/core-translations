@@ -2,12 +2,12 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Czech (Čeština)</name>
 	<tag>cs-CZ</tag>
-	<version>6.2.0</version>
+	<version>6.2.1</version>
 	<creationDate>2026-10</creationDate>
 	<author>Czech Translation Team</author>
-	<authorEmail>admin@joomla.cz</authorEmail>
+	<authorEmail>info@bongovo.cz</authorEmail>
 	<authorUrl>www.joomlaportal.cz</authorUrl>
-	<copyright>Copyright (C) 2005 - 2025 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2026 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>cs-CZ - API language</description>
 	<files>
