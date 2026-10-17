@@ -2,7 +2,7 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Arabic Unitag (العربية الموحدة)</name>
 	<tag>ar-AA</tag>
-	<version>5.4.10</version>
+	<version/>
 	<creationDate>2026-10</creationDate>
 	<author>Joomla! Project (Arabic Translation Team)</author>
 	<authorEmail>admin@joomla.org</authorEmail>
