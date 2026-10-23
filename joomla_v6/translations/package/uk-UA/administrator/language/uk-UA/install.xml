@@ -2,8 +2,8 @@
 <extension client="administrator" type="language" method="upgrade">
 	<name>Ukrainian (uk-UA)</name>
 	<tag>uk-UA</tag>
-	<version>6.1.2.1</version>
-	<creationDate>2026-07-18</creationDate>
+	<version>6.2.0.1</version>
+	<creationDate>2026-10-23</creationDate>
 	<author>Denys Nosov</author>
 	<authorEmail>denys@joomla-ua.org</authorEmail>
 	<authorUrl>https://joomla-ua.org</authorUrl>
