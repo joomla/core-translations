@@ -4,13 +4,13 @@
 	<packagename>sr-RS</packagename>
 	<version>5.4.11.1</version>
 	<creationDate>октобар 2026</creationDate>
-	<author>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</author>
+	<author>Саша Матић и Горан Нешић</author>
 	<authorEmail>prevod@bardak.rs</authorEmail>
 	<authorUrl>https://www.bardak.rs</authorUrl>
 	<copyright>Copyright (C) 2019 - 2018 Open Source Matters. All rights reserved.</copyright>
 	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Саша Матић бардак.срб и Горан Нешић - UIX Web Design</packager>
+	<packager>Саша Матић и Горан Нешић</packager>
 	<packagerurl>https://www.bardak.rs</packagerurl>
 	<description><![CDATA[<div align="center">
 			<div class="alert alert-success" style="background-color:#DFF0D8;border-color:#D6E9C6;color: #468847;padding: 1px 0;">
