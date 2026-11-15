@@ -2,9 +2,8 @@
 <extension type="package" method="upgrade">
 	<name>Malay (ms-MY) Language Pack</name>
 	<packagename>ms-MY</packagename>
-	<version>6.1.3.1</version>
-	<creationDate>2026-08-21</creationDate>
-	<author>Joomla! Malaysia</author>
+	<version>6.2.0.1</version>
+	<author>Ahmad Zaki Abdullah</author>
 	<authorEmail>zaki@joomla.my</authorEmail>
 	<authorUrl>https://www.joomla.my</authorUrl>
 	<url>https://github.com/zakiabdullah/joomla-ms-MY</url>
@@ -13,10 +12,7 @@
 	<copyright>(C) 2026 Joomla! Malaysia</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[
-		<h2>Pakej Bahasa Melayu (ms-MY) untuk Joomla! 6</h2>
-		<h3>Pemasangan Baru / Kemaskini</h3>
-		<p>Pakej bahasa Melayu telah berjaya dipasang. Sila aktifkan bahasa ini melalui <strong>Sistem → Urus → Bahasa</strong>.</p>
-		<h3>Ralat Pemasangan</h3>
+		<h2>Malay (ms-MY) Language Pack</h2>
 		<p>Jika pemasangan gagal, sila muat turun versi terkini dari <a href="https://github.com/zakiabdullah/joomla-ms-MY/releases" target="_blank">GitHub Releases</a>.</p>
 		<p>Laporkan masalah di <a href="https://github.com/zakiabdullah/joomla-ms-MY/issues" target="_blank">GitHub Issues</a>.</p>
 	]]></description>
