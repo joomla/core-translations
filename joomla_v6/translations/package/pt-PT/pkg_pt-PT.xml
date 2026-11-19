@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="package" method="upgrade">
-	<name>Portuguese (pt-PT) Language Pack</name>
+	<name>Pacote de Idioma em Português (Portugal)</name>
 	<packagename>pt-PT</packagename>
 	<version>6.2.1.1</version>
 	<creationDate>2026-11-04</creationDate>
@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Comunidade JoomlaPortugal</packager>
 	<packagerurl>www.joomlaportugal.org</packagerurl>
-	<description><![CDATA[Idioma português de Portugal (pt-PT) para Joomla 4]]></description>
+	<description><![CDATA[Idioma português de Portugal para Joomla 4]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="site" id="pt-PT">language/pt-PT</folder>
