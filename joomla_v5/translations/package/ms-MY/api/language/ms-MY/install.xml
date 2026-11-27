@@ -2,20 +2,18 @@
 <extension client="api" type="language" method="upgrade">
 	<name>Malay (ms-MY)</name>
 	<tag>ms-MY</tag>
-	<version>5.4.10.1</version>
-	<creationDate>2026-10-21</creationDate>
+	<version>5.4.11.3</version>
+	<creationDate>2026-11-27</creationDate>
 	<author>Joomla! Malaysia</author>
 	<authorEmail>zaki@joomla.my</authorEmail>
-	<authorUrl>www.joomla.my</authorUrl>
-	<copyright>(C) 2026 Open Source Matters, Inc.</copyright>
+	<authorUrl>https://www.joomla.my</authorUrl>
+	<copyright>(C) 2026 Joomla! Malaysia</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Pakej Bahasa Melayu (ms-MY) - API</description>
 	<files>
+		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
 		<filename file="meta">langmetadata.xml</filename>
-		<filename>com_media.ini</filename>
-		<filename>joomla.ini</filename>
-		<filename>lib_joomla.ini</filename>
 	</files>
 	<params />
 </extension>
