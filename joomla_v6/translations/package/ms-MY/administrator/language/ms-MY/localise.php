@@ -55,7 +55,7 @@ abstract class Ms_MYLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return ['and', 'in', 'on'];
+        return ['dan', 'di', 'pada'];
     }
 
     /**
