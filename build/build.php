@@ -64,7 +64,7 @@ if ($showHelp)
 if (!$lpVersion)
 {
     message('The option "--lpversion" is required', true);
-    exit;
+    exit(1);
 }
 
 $mainVersion = $lpVersion[0];
@@ -81,6 +81,12 @@ mkdir($buildPackageFolder);
 message('Prepare packages.', $verbose);
 
 $sourceFolder = dirname(__DIR__) . '/joomla_v' . $mainVersion . '/translations/package';
+
+if (!is_dir($sourceFolder))
+{
+    message('The source folder does not exist: ' . $sourceFolder, true);
+    exit(1);
+}
 
 // Get all files and directories inside the current directory
 $allItems = scandir($sourceFolder);
@@ -113,21 +119,17 @@ foreach ($allItems as $item)
     }
 }
 
+// Abort when no language matches the given option
+if (count($directories) === 0)
+{
+    message('The language has not been found: ' . $language, true);
+    exit(1);
+}
+
 // Show a message when more than one language code is going to be generated
 if (count($directories) > 1)
 {
-    $message = '';
-
-    foreach ($directories as $key => $languageCode)
-    {
-        $message .= $languageCode . ', ';
-    }
-
-    message('Build following languages: ' . substr_replace($message, '', -2), $verbose);
-}
-else
-{
-    message('The language has not been found: ' . $language, $verbose);
+    message('Build following languages: ' . implode(', ', $directories), $verbose);
 }
 
 // Build the defined languages
@@ -157,11 +159,23 @@ foreach ($directories as $key => $languageCode)
     renameStringInFile($buildPackageFolderTmp . '/administrator/language/' . $languageCode . '/localise.php', 'En_GBLocalise', $localise);
     renameStringInFile($buildPackageFolderTmp . '/language/' . $languageCode . '/localise.php', 'En_GBLocalise', $localise);
 
-    chdir($buildPackageFolder);
+    // Zip from inside the tmp folder, so the package files are at the root of the archive
+    // and neither the tmp folder itself nor packages of other languages end up in the zip
+    chdir($buildPackageFolderTmp);
 
     // Build the language zip package
     message($languageCode . ': Build the language package zip file', $verbose);
-    system('zip -r ' . $buildPackageFolder . '/' . $languageCode . '_joomla_lang_full_' . $lpVersion . '.zip * > /dev/null');
+    $zipFile = $buildPackageFolder . '/' . $languageCode . '_joomla_lang_full_' . $lpVersion . '.zip';
+    system('zip -r ' . escapeshellarg($zipFile) . ' * > /dev/null', $zipResult);
+
+    if ($zipResult !== 0)
+    {
+        message($languageCode . ': Building the zip file failed (exit code ' . $zipResult . ')', true);
+        exit(1);
+    }
+
+    // Leave the tmp folder before removing it
+    chdir($buildPackageFolder);
 
     // Remove tmp folder
     message($languageCode . ': Remove tmp folder', $verbose);
