@@ -2,7 +2,7 @@
 <extension client="site" type="language" method="upgrade">
 	<name>Hebrew (Israel)</name>
 	<tag>he-IL</tag>
-	<version>6.2.1.1</version>
+	<version/>
 	<creationDate/>
 	<author>פרוייקט ג'ומלה</author>
 	<authorEmail>info@joomla.org.il</authorEmail>
